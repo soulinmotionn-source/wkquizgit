@@ -321,5 +321,1905 @@
       "medical terminology"
     ],
     "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-001-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a prefix meaning slow?",
+    "options": [
+      "hemo-",
+      "-scopy",
+      "Hyper-",
+      "Brady-"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Brady-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-001-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Brady-?",
+    "options": [
+      "a prefix meaning slow",
+      "a combining form relating to the heart",
+      "a suffix meaning flow or discharge",
+      "a suffix relating to breathing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a prefix meaning slow. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-001-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: the prefix appears before a term related to a slow rate. Which concept best matches it?",
+    "options": [
+      "osteo-",
+      "-itis",
+      "Brady-",
+      "myo-"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Brady-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-001-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Brady-?",
+    "options": [
+      "refer to the kidney",
+      "refer to the liver",
+      "indicate slowness",
+      "refer to the stomach"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is indicate slowness. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-002-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a prefix meaning fast?",
+    "options": [
+      "-algia",
+      "-ectomy",
+      "nephro-",
+      "Tachy-"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Tachy-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-002-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Tachy-?",
+    "options": [
+      "a combining form relating to bone",
+      "a prefix meaning slow",
+      "a combining form relating to the lung",
+      "a prefix meaning fast"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a prefix meaning fast. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-002-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: the prefix appears before a term related to an increased rate. Which concept best matches it?",
+    "options": [
+      "-uria",
+      "hemo-",
+      "Hyper-",
+      "Tachy-"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Tachy-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-002-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Tachy-?",
+    "options": [
+      "indicate rapidity",
+      "describe abnormal flow or discharge",
+      "refer to the kidney",
+      "refer to the skin"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is indicate rapidity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-003-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a prefix meaning excessive, above, or beyond normal?",
+    "options": [
+      "-uria",
+      "pulmo-",
+      "osteo-",
+      "Hyper-"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Hyper-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-003-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Hyper-?",
+    "options": [
+      "a prefix meaning excessive, above, or beyond normal",
+      "a suffix meaning study of",
+      "a combining form relating to skin",
+      "a combining form relating to a joint"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a prefix meaning excessive, above, or beyond normal. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-003-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a term begins with a prefix associated with excess. Which concept best matches it?",
+    "options": [
+      "Hyper-",
+      "cardio-",
+      "gastro-",
+      "neuro-"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hyper-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-003-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Hyper-?",
+    "options": [
+      "indicate slowness",
+      "refer to the stomach",
+      "refer to the nervous system",
+      "indicate an increase or excess"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is indicate an increase or excess. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-004-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a prefix meaning below, deficient, or less than normal?",
+    "options": [
+      "pulmo-",
+      "arthro-",
+      "Hypo-",
+      "-algia"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Hypo-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-004-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Hypo-?",
+    "options": [
+      "a prefix meaning excessive, above, or beyond normal",
+      "a prefix meaning slow",
+      "a suffix meaning pain",
+      "a prefix meaning below, deficient, or less than normal"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a prefix meaning below, deficient, or less than normal. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-004-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a term begins with a prefix associated with deficiency. Which concept best matches it?",
+    "options": [
+      "Hypo-",
+      "pulmo-",
+      "osteo-",
+      "Hyper-"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hypo-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-004-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Hypo-?",
+    "options": [
+      "indicate a field of study",
+      "identify inflammation",
+      "indicate a disease or disorder",
+      "indicate a decrease or deficiency"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is indicate a decrease or deficiency. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-005-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a suffix meaning inflammation?",
+    "options": [
+      "Hyper-",
+      "-pathy",
+      "pulmo-",
+      "-itis"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is -itis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-005-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes -itis?",
+    "options": [
+      "a suffix meaning study of",
+      "a prefix meaning below, deficient, or less than normal",
+      "a combining form relating to bone",
+      "a suffix meaning inflammation"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a suffix meaning inflammation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-005-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a diagnosis ends with a suffix commonly used for inflammation. Which concept best matches it?",
+    "options": [
+      "-algia",
+      "nephro-",
+      "Hyper-",
+      "-itis"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is -itis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-005-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with -itis?",
+    "options": [
+      "refer to the heart",
+      "indicate rapidity",
+      "identify inflammation",
+      "refer to the kidney"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is identify inflammation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-006-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a suffix meaning surgical removal?",
+    "options": [
+      "-algia",
+      "-ectomy",
+      "Brady-",
+      "pulmo-"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is -ectomy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-006-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes -ectomy?",
+    "options": [
+      "a prefix meaning excessive, above, or beyond normal",
+      "a suffix referring to visual examination with an instrument",
+      "a suffix meaning surgical removal",
+      "a suffix meaning disease or disorder"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a suffix meaning surgical removal. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-006-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a procedure name ends with this surgical suffix. Which concept best matches it?",
+    "options": [
+      "-ectomy",
+      "gastro-",
+      "arthro-",
+      "Brady-"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is -ectomy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-006-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with -ectomy?",
+    "options": [
+      "refer to the stomach",
+      "refer to the skin",
+      "indicate slowness",
+      "indicate removal by surgery"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is indicate removal by surgery. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-007-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a suffix meaning pain?",
+    "options": [
+      "pulmo-",
+      "-algia",
+      "Brady-",
+      "Tachy-"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is -algia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-007-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes -algia?",
+    "options": [
+      "a suffix relating to urine",
+      "a prefix meaning excessive, above, or beyond normal",
+      "a suffix meaning pain",
+      "a suffix relating to breathing"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a suffix meaning pain. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-007-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a term ends with a suffix associated with pain. Which concept best matches it?",
+    "options": [
+      "-algia",
+      "nephro-",
+      "neuro-",
+      "osteo-"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is -algia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-007-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with -algia?",
+    "options": [
+      "indicate rapidity",
+      "identify a pain-related condition",
+      "refer to the liver",
+      "indicate an examination using a scope"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is identify a pain-related condition. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-008-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a combining form relating to the heart?",
+    "options": [
+      "neuro-",
+      "gastro-",
+      "-rrhea",
+      "cardio-"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is cardio-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-008-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes cardio-?",
+    "options": [
+      "a prefix meaning slow",
+      "a combining form relating to the heart",
+      "a suffix meaning study of",
+      "a combining form relating to a joint"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a combining form relating to the heart. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-008-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a term contains a combining form for the heart. Which concept best matches it?",
+    "options": [
+      "-scopy",
+      "-ectomy",
+      "arthro-",
+      "cardio-"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is cardio-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-008-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with cardio-?",
+    "options": [
+      "indicate rapidity",
+      "refer to the heart",
+      "refer to the nervous system",
+      "refer to a urine-related finding"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is refer to the heart. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-009-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a combining form relating to nerves or the nervous system?",
+    "options": [
+      "arthro-",
+      "dermato-",
+      "-itis",
+      "neuro-"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is neuro-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-009-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes neuro-?",
+    "options": [
+      "a prefix meaning excessive, above, or beyond normal",
+      "a combining form relating to skin",
+      "a combining form relating to nerves or the nervous system",
+      "a suffix meaning inflammation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a combining form relating to nerves or the nervous system. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-009-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a term contains a combining form for nerves. Which concept best matches it?",
+    "options": [
+      "arthro-",
+      "-itis",
+      "neuro-",
+      "-pathy"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is neuro-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-009-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with neuro-?",
+    "options": [
+      "refer to the stomach",
+      "refer to a joint",
+      "refer to the nervous system",
+      "refer to the liver"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is refer to the nervous system. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-010-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a combining form relating to skin?",
+    "options": [
+      "cardio-",
+      "osteo-",
+      "-pathy",
+      "dermato-"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is dermato-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-010-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes dermato-?",
+    "options": [
+      "a suffix meaning pain",
+      "a combining form relating to the stomach",
+      "a combining form relating to skin",
+      "a suffix referring to visual examination with an instrument"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a combining form relating to skin. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-010-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a term contains a combining form for skin. Which concept best matches it?",
+    "options": [
+      "-pnea",
+      "dermato-",
+      "-algia",
+      "myo-"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is dermato-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-010-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with dermato-?",
+    "options": [
+      "indicate abnormal enlargement",
+      "refer to the skin",
+      "refer to the lungs",
+      "indicate rapidity"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is refer to the skin. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-011-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a combining form relating to the stomach?",
+    "options": [
+      "Tachy-",
+      "gastro-",
+      "Hyper-",
+      "neuro-"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is gastro-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-011-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes gastro-?",
+    "options": [
+      "a combining form relating to the lung",
+      "a suffix referring to visual examination with an instrument",
+      "a combining form relating to the stomach",
+      "a prefix meaning slow"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a combining form relating to the stomach. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-011-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a term contains a combining form for the stomach. Which concept best matches it?",
+    "options": [
+      "gastro-",
+      "dermato-",
+      "-ectomy",
+      "-scopy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is gastro-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-011-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with gastro-?",
+    "options": [
+      "refer to the skin",
+      "refer to the stomach",
+      "indicate abnormal enlargement",
+      "describe abnormal flow or discharge"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is refer to the stomach. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-012-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a combining form relating to the liver?",
+    "options": [
+      "nephro-",
+      "Tachy-",
+      "hepato-",
+      "osteo-"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is hepato-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-012-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes hepato-?",
+    "options": [
+      "a suffix meaning enlargement",
+      "a combining form relating to skin",
+      "a suffix meaning inflammation",
+      "a combining form relating to the liver"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a combining form relating to the liver. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-012-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a term contains a combining form for the liver. Which concept best matches it?",
+    "options": [
+      "hepato-",
+      "arthro-",
+      "osteo-",
+      "-logy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is hepato-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-012-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with hepato-?",
+    "options": [
+      "refer to the kidney",
+      "indicate an increase or excess",
+      "refer to the liver",
+      "indicate a disease or disorder"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is refer to the liver. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-013-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a combining form relating to the kidney?",
+    "options": [
+      "neuro-",
+      "-logy",
+      "nephro-",
+      "-uria"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is nephro-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-013-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes nephro-?",
+    "options": [
+      "a suffix meaning surgical removal",
+      "a combining form relating to a joint",
+      "a suffix referring to visual examination with an instrument",
+      "a combining form relating to the kidney"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a combining form relating to the kidney. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-013-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a term contains a combining form for the kidney. Which concept best matches it?",
+    "options": [
+      "nephro-",
+      "-megaly",
+      "cardio-",
+      "pulmo-"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is nephro-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-013-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with nephro-?",
+    "options": [
+      "refer to the kidney",
+      "refer to the heart",
+      "refer to the skin",
+      "identify inflammation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is refer to the kidney. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-014-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a combining form relating to bone?",
+    "options": [
+      "nephro-",
+      "osteo-",
+      "pulmo-",
+      "-rrhea"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is osteo-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-014-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes osteo-?",
+    "options": [
+      "a combining form relating to nerves or the nervous system",
+      "a combining form relating to muscle",
+      "a combining form relating to bone",
+      "a combining form relating to the kidney"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a combining form relating to bone. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-014-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a term contains a combining form for bone. Which concept best matches it?",
+    "options": [
+      "-megaly",
+      "osteo-",
+      "neuro-",
+      "Hyper-"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is osteo-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-014-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with osteo-?",
+    "options": [
+      "refer to the lungs",
+      "indicate a disease or disorder",
+      "refer to bone",
+      "indicate removal by surgery"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is refer to bone. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-015-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a combining form relating to a joint?",
+    "options": [
+      "Hyper-",
+      "-ectomy",
+      "arthro-",
+      "-pnea"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is arthro-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-015-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes arthro-?",
+    "options": [
+      "a combining form relating to the heart",
+      "a combining form relating to a joint",
+      "a prefix meaning slow",
+      "a suffix meaning enlargement"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a combining form relating to a joint. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-015-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a term contains a combining form for a joint. Which concept best matches it?",
+    "options": [
+      "-uria",
+      "Hyper-",
+      "-rrhea",
+      "arthro-"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is arthro-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-015-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with arthro-?",
+    "options": [
+      "indicate abnormal enlargement",
+      "indicate a field of study",
+      "refer to the liver",
+      "refer to a joint"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is refer to a joint. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-016-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a combining form relating to muscle?",
+    "options": [
+      "nephro-",
+      "hemo-",
+      "pulmo-",
+      "myo-"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is myo-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-016-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes myo-?",
+    "options": [
+      "a combining form relating to muscle",
+      "a combining form relating to the lung",
+      "a suffix meaning flow or discharge",
+      "a suffix relating to urine"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a combining form relating to muscle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-016-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a term contains a combining form for muscle. Which concept best matches it?",
+    "options": [
+      "hemo-",
+      "dermato-",
+      "Brady-",
+      "myo-"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is myo-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-016-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with myo-?",
+    "options": [
+      "refer to muscle",
+      "refer to the lungs",
+      "indicate a decrease or deficiency",
+      "indicate an examination using a scope"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is refer to muscle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-017-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a combining form relating to the lung?",
+    "options": [
+      "pulmo-",
+      "-pnea",
+      "Hypo-",
+      "-megaly"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is pulmo-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-017-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes pulmo-?",
+    "options": [
+      "a combining form relating to a joint",
+      "a combining form relating to nerves or the nervous system",
+      "a combining form relating to the lung",
+      "a combining form relating to the stomach"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a combining form relating to the lung. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-017-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a term contains a combining form for the lung. Which concept best matches it?",
+    "options": [
+      "neuro-",
+      "cardio-",
+      "-logy",
+      "pulmo-"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is pulmo-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-017-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with pulmo-?",
+    "options": [
+      "refer to breathing",
+      "refer to the lungs",
+      "identify inflammation",
+      "indicate an increase or excess"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is refer to the lungs. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-018-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a combining form relating to blood?",
+    "options": [
+      "hemo-",
+      "osteo-",
+      "-uria",
+      "-scopy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is hemo-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-018-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes hemo-?",
+    "options": [
+      "a combining form relating to the stomach",
+      "a combining form relating to blood",
+      "a combining form relating to nerves or the nervous system",
+      "a combining form relating to the kidney"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a combining form relating to blood. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-018-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a term contains a combining form for blood. Which concept best matches it?",
+    "options": [
+      "osteo-",
+      "-itis",
+      "myo-",
+      "hemo-"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is hemo-. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-018-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with hemo-?",
+    "options": [
+      "indicate a field of study",
+      "indicate rapidity",
+      "refer to blood",
+      "indicate a disease or disorder"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is refer to blood. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-019-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a suffix referring to visual examination with an instrument?",
+    "options": [
+      "gastro-",
+      "-scopy",
+      "-itis",
+      "osteo-"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is -scopy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-019-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes -scopy?",
+    "options": [
+      "a combining form relating to nerves or the nervous system",
+      "a suffix meaning pain",
+      "a prefix meaning excessive, above, or beyond normal",
+      "a suffix referring to visual examination with an instrument"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a suffix referring to visual examination with an instrument. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-019-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a procedure name ends with a suffix for viewing. Which concept best matches it?",
+    "options": [
+      "Hypo-",
+      "-algia",
+      "-scopy",
+      "pulmo-"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is -scopy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-019-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with -scopy?",
+    "options": [
+      "indicate abnormal enlargement",
+      "refer to the kidney",
+      "indicate an examination using a scope",
+      "refer to bone"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is indicate an examination using a scope. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-020-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a suffix meaning study of?",
+    "options": [
+      "-pathy",
+      "-megaly",
+      "-algia",
+      "-logy"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is -logy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-020-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes -logy?",
+    "options": [
+      "a suffix meaning enlargement",
+      "a suffix meaning study of",
+      "a combining form relating to bone",
+      "a combining form relating to blood"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a suffix meaning study of. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-020-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a discipline name ends with this suffix. Which concept best matches it?",
+    "options": [
+      "-megaly",
+      "-logy",
+      "arthro-",
+      "-rrhea"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is -logy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-020-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with -logy?",
+    "options": [
+      "indicate a field of study",
+      "indicate rapidity",
+      "refer to the heart",
+      "refer to a urine-related finding"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is indicate a field of study. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-021-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a suffix meaning enlargement?",
+    "options": [
+      "-megaly",
+      "-ectomy",
+      "osteo-",
+      "Hypo-"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is -megaly. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-021-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes -megaly?",
+    "options": [
+      "a combining form relating to the kidney",
+      "a combining form relating to skin",
+      "a suffix meaning enlargement",
+      "a combining form relating to blood"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a suffix meaning enlargement. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-021-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a diagnosis contains a suffix indicating enlargement. Which concept best matches it?",
+    "options": [
+      "-rrhea",
+      "nephro-",
+      "Hyper-",
+      "-megaly"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is -megaly. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-021-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with -megaly?",
+    "options": [
+      "indicate an increase or excess",
+      "indicate abnormal enlargement",
+      "indicate an examination using a scope",
+      "refer to bone"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is indicate abnormal enlargement. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-022-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a suffix meaning disease or disorder?",
+    "options": [
+      "-logy",
+      "pulmo-",
+      "myo-",
+      "-pathy"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is -pathy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-022-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes -pathy?",
+    "options": [
+      "a combining form relating to the kidney",
+      "a combining form relating to skin",
+      "a combining form relating to the liver",
+      "a suffix meaning disease or disorder"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a suffix meaning disease or disorder. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-022-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a term ends with a suffix associated with disease. Which concept best matches it?",
+    "options": [
+      "-pathy",
+      "-uria",
+      "-logy",
+      "myo-"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is -pathy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-022-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with -pathy?",
+    "options": [
+      "indicate a decrease or deficiency",
+      "indicate a disease or disorder",
+      "refer to the liver",
+      "identify inflammation"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is indicate a disease or disorder. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-023-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a suffix meaning flow or discharge?",
+    "options": [
+      "cardio-",
+      "-rrhea",
+      "-megaly",
+      "myo-"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is -rrhea. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-023-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes -rrhea?",
+    "options": [
+      "a combining form relating to skin",
+      "a suffix meaning flow or discharge",
+      "a combining form relating to blood",
+      "a combining form relating to the stomach"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a suffix meaning flow or discharge. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-023-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a term contains a suffix describing flow or discharge. Which concept best matches it?",
+    "options": [
+      "-rrhea",
+      "arthro-",
+      "-scopy",
+      "-megaly"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is -rrhea. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-023-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with -rrhea?",
+    "options": [
+      "describe abnormal flow or discharge",
+      "indicate abnormal enlargement",
+      "refer to a urine-related finding",
+      "identify a pain-related condition"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is describe abnormal flow or discharge. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-024-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a suffix relating to breathing?",
+    "options": [
+      "-pnea",
+      "-pathy",
+      "hemo-",
+      "myo-"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is -pnea. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-024-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes -pnea?",
+    "options": [
+      "a combining form relating to blood",
+      "a suffix meaning enlargement",
+      "a suffix meaning flow or discharge",
+      "a suffix relating to breathing"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a suffix relating to breathing. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-024-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a respiratory term contains this suffix. Which concept best matches it?",
+    "options": [
+      "-pnea",
+      "osteo-",
+      "-logy",
+      "myo-"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is -pnea. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-024-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with -pnea?",
+    "options": [
+      "refer to blood",
+      "indicate a disease or disorder",
+      "refer to breathing",
+      "indicate an increase or excess"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is refer to breathing. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-025-1",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a suffix relating to urine?",
+    "options": [
+      "dermato-",
+      "arthro-",
+      "hemo-",
+      "-uria"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is -uria. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-MEDIUM-025-2",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "medium",
+    "question": "Which statement best describes -uria?",
+    "options": [
+      "a combining form relating to bone",
+      "a suffix relating to urine",
+      "a prefix meaning below, deficient, or less than normal",
+      "a prefix meaning fast"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a suffix relating to urine. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-HARD-025-3",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a term contains this suffix in a urinary context. Which concept best matches it?",
+    "options": [
+      "-uria",
+      "osteo-",
+      "hemo-",
+      "-algia"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is -uria. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-TERMINOLOGY-EASY-025-4",
+    "category": "Medical Terminology",
+    "subcategory": "Medical Terminology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with -uria?",
+    "options": [
+      "indicate an examination using a scope",
+      "indicate rapidity",
+      "refer to blood",
+      "refer to a urine-related finding"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is refer to a urine-related finding. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical-terminology"
+    ],
+    "status": "active"
   }
 ]

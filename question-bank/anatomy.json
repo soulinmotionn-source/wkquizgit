@@ -321,5 +321,1905 @@
       "anatomy & physiology"
     ],
     "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-001-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a muscular organ that pumps blood through the circulation?",
+    "options": [
+      "Pituitary gland",
+      "Large intestine",
+      "Heart",
+      "Cerebellum"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Heart. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-001-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Heart?",
+    "options": [
+      "the heart chamber that receives systemic venous blood",
+      "a muscular organ that pumps blood through the circulation",
+      "a cell fragment involved in hemostasis",
+      "the largest artery, carrying blood from the left ventricle to systemic circulation"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a muscular organ that pumps blood through the circulation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-001-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: the central organ of the cardiovascular system. Which concept best matches it?",
+    "options": [
+      "Cardiac muscle",
+      "Heart",
+      "Cerebellum",
+      "Diaphragm"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Heart. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-001-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Heart?",
+    "options": [
+      "digest and absorb nutrients",
+      "generate cardiac contractions",
+      "form urine through filtration and tubular processes",
+      "generate blood flow"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is generate blood flow. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-002-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the largest artery, carrying blood from the left ventricle to systemic circulation?",
+    "options": [
+      "Skeletal muscle",
+      "Aorta",
+      "Pituitary gland",
+      "Liver"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Aorta. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-002-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Aorta?",
+    "options": [
+      "a cell fragment involved in hemostasis",
+      "the largest artery, carrying blood from the left ventricle to systemic circulation",
+      "a major central nervous system structure within the vertebral canal",
+      "a specialized cell that transmits electrical and chemical signals in the nervous system"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is the largest artery, carrying blood from the left ventricle to systemic circulation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-002-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: blood leaves the left ventricle through a major large artery. Which concept best matches it?",
+    "options": [
+      "Cerebellum",
+      "Nephron",
+      "Aorta",
+      "Diaphragm"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Aorta. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-002-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Aorta?",
+    "options": [
+      "communicate information",
+      "change thoracic volume for breathing",
+      "generate cardiac contractions",
+      "distribute oxygenated blood to the body"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is distribute oxygenated blood to the body. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-003-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the heart chamber that receives systemic venous blood?",
+    "options": [
+      "Esophagus",
+      "Right atrium",
+      "Small intestine",
+      "Liver"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Right atrium. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-003-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Right atrium?",
+    "options": [
+      "paired organs that filter blood and regulate fluid, electrolytes, and acid-base balance",
+      "the primary muscle of quiet inspiration",
+      "an endocrine gland that produces thyroid hormones",
+      "the heart chamber that receives systemic venous blood"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is the heart chamber that receives systemic venous blood. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-003-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: blood returning from the body enters this chamber. Which concept best matches it?",
+    "options": [
+      "Right atrium",
+      "Left ventricle",
+      "Alveoli",
+      "Liver"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Right atrium. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-003-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Right atrium?",
+    "options": [
+      "change thoracic volume for breathing",
+      "receive systemic venous return",
+      "generate blood flow",
+      "move contents and regulate diameter"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is receive systemic venous return. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-004-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the heart chamber that pumps blood into the aorta?",
+    "options": [
+      "Heart",
+      "Left ventricle",
+      "Thyroid gland",
+      "Nephron"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Left ventricle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-004-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Left ventricle?",
+    "options": [
+      "a cell fragment involved in hemostasis",
+      "tiny air sacs where gas exchange occurs in the lungs",
+      "the heart chamber that pumps blood into the aorta",
+      "the largest artery, carrying blood from the left ventricle to systemic circulation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is the heart chamber that pumps blood into the aorta. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-004-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: the chamber with the thickest normal myocardial wall. Which concept best matches it?",
+    "options": [
+      "Left ventricle",
+      "Platelet",
+      "Nephron",
+      "Skeletal muscle"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Left ventricle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-004-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Left ventricle?",
+    "options": [
+      "conduct air to the bronchi",
+      "produce voluntary body movement",
+      "support digestion and blood-glucose regulation",
+      "pump blood to systemic circulation"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is pump blood to systemic circulation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-005-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: tiny air sacs where gas exchange occurs in the lungs?",
+    "options": [
+      "Alveoli",
+      "Nephron",
+      "Stomach",
+      "Diaphragm"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Alveoli. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-005-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Alveoli?",
+    "options": [
+      "a brain region important for coordination and balance",
+      "a specialized cell that transmits electrical and chemical signals in the nervous system",
+      "tiny air sacs where gas exchange occurs in the lungs",
+      "an endocrine gland that regulates several other endocrine functions"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is tiny air sacs where gas exchange occurs in the lungs. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-005-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: oxygen and carbon dioxide cross a thin respiratory membrane. Which concept best matches it?",
+    "options": [
+      "Large intestine",
+      "Smooth muscle",
+      "Trachea",
+      "Alveoli"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Alveoli. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-005-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Alveoli?",
+    "options": [
+      "generate cardiac contractions",
+      "distribute oxygenated blood to the body",
+      "exchange respiratory gases",
+      "communicate information"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is exchange respiratory gases. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-006-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the primary muscle of quiet inspiration?",
+    "options": [
+      "Kidneys",
+      "Large intestine",
+      "Cerebellum",
+      "Diaphragm"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Diaphragm. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-006-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Diaphragm?",
+    "options": [
+      "involuntary muscle found in structures such as blood vessels and the digestive tract",
+      "a major central nervous system structure within the vertebral canal",
+      "the primary muscle of quiet inspiration",
+      "a brain region important for coordination and balance"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is the primary muscle of quiet inspiration. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-006-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a dome-shaped muscle contracts during inhalation. Which concept best matches it?",
+    "options": [
+      "Neuron",
+      "Esophagus",
+      "Diaphragm",
+      "Pancreas"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Diaphragm. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-006-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Diaphragm?",
+    "options": [
+      "carry oxygen and some carbon dioxide",
+      "generate blood flow",
+      "perform diverse metabolic and synthetic functions",
+      "change thoracic volume for breathing"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is change thoracic volume for breathing. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-007-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the airway connecting the larynx with the bronchi?",
+    "options": [
+      "Diaphragm",
+      "Cerebellum",
+      "Trachea",
+      "Kidneys"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Trachea. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-007-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Trachea?",
+    "options": [
+      "a muscular organ that pumps blood through the circulation",
+      "the airway connecting the larynx with the bronchi",
+      "a brain region important for coordination and balance",
+      "a specialized cell that transmits electrical and chemical signals in the nervous system"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is the airway connecting the larynx with the bronchi. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-007-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: air passes through a cartilaginous tube below the larynx. Which concept best matches it?",
+    "options": [
+      "Alveoli",
+      "Diaphragm",
+      "Stomach",
+      "Trachea"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Trachea. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-007-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Trachea?",
+    "options": [
+      "perform diverse metabolic and synthetic functions",
+      "conduct air to the bronchi",
+      "help form the initial platelet plug",
+      "receive systemic venous return"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is conduct air to the bronchi. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-008-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a muscular tube carrying swallowed material from the pharynx to the stomach?",
+    "options": [
+      "Pituitary gland",
+      "Trachea",
+      "Heart",
+      "Esophagus"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Esophagus. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-008-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Esophagus?",
+    "options": [
+      "the functional unit of the kidney",
+      "a muscular tube carrying swallowed material from the pharynx to the stomach",
+      "paired organs that filter blood and regulate fluid, electrolytes, and acid-base balance",
+      "an organ with digestive and endocrine functions"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a muscular tube carrying swallowed material from the pharynx to the stomach. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-008-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: food travels through it after swallowing. Which concept best matches it?",
+    "options": [
+      "Esophagus",
+      "Liver",
+      "Trachea",
+      "Heart"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Esophagus. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-008-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Esophagus?",
+    "options": [
+      "conduct signals and mediate reflexes",
+      "coordinate endocrine signaling",
+      "perform diverse metabolic and synthetic functions",
+      "transport food to the stomach"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is transport food to the stomach. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-009-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a muscular organ that stores and begins digestion of food?",
+    "options": [
+      "Spinal cord",
+      "Skeletal muscle",
+      "Stomach",
+      "Kidneys"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Stomach. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-009-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Stomach?",
+    "options": [
+      "the major site of digestion and nutrient absorption",
+      "a muscular organ that stores and begins digestion of food",
+      "paired organs that filter blood and regulate fluid, electrolytes, and acid-base balance",
+      "an endocrine gland that produces thyroid hormones"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a muscular organ that stores and begins digestion of food. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-009-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: ingested food enters a sac-like digestive organ. Which concept best matches it?",
+    "options": [
+      "Right atrium",
+      "Left ventricle",
+      "Aorta",
+      "Stomach"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Stomach. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-009-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Stomach?",
+    "options": [
+      "exchange respiratory gases",
+      "help form the initial platelet plug",
+      "mix food and begin chemical digestion",
+      "generate blood flow"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is mix food and begin chemical digestion. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-010-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the major site of digestion and nutrient absorption?",
+    "options": [
+      "Esophagus",
+      "Right atrium",
+      "Cerebellum",
+      "Small intestine"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Small intestine. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-010-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Small intestine?",
+    "options": [
+      "the primary muscle of quiet inspiration",
+      "involuntary muscle found in structures such as blood vessels and the digestive tract",
+      "the major site of digestion and nutrient absorption",
+      "a brain region important for coordination and balance"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is the major site of digestion and nutrient absorption. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-010-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: most nutrient absorption occurs along a long coiled intestinal tract. Which concept best matches it?",
+    "options": [
+      "Small intestine",
+      "Trachea",
+      "Nephron",
+      "Large intestine"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Small intestine. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-010-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Small intestine?",
+    "options": [
+      "digest and absorb nutrients",
+      "pump blood to systemic circulation",
+      "mix food and begin chemical digestion",
+      "generate cardiac contractions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is digest and absorb nutrients. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-011-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the part of the gastrointestinal tract that absorbs water and forms feces?",
+    "options": [
+      "Large intestine",
+      "Platelet",
+      "Aorta",
+      "Cardiac muscle"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Large intestine. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-011-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Large intestine?",
+    "options": [
+      "the part of the gastrointestinal tract that absorbs water and forms feces",
+      "a major central nervous system structure within the vertebral canal",
+      "a brain region important for coordination and balance",
+      "muscle tissue generally under voluntary control and attached to bones"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is the part of the gastrointestinal tract that absorbs water and forms feces. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-011-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: intestinal contents pass through the colon before elimination. Which concept best matches it?",
+    "options": [
+      "Spinal cord",
+      "Large intestine",
+      "Right atrium",
+      "Neuron"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Large intestine. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-011-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Large intestine?",
+    "options": [
+      "digest and absorb nutrients",
+      "coordinate movement and balance",
+      "form urine through filtration and tubular processes",
+      "absorb water and form stool"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is absorb water and form stool. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-012-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a large organ involved in metabolism, detoxification, bile production, and protein synthesis?",
+    "options": [
+      "Pituitary gland",
+      "Alveoli",
+      "Large intestine",
+      "Liver"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Liver. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-012-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Liver?",
+    "options": [
+      "a large organ involved in metabolism, detoxification, bile production, and protein synthesis",
+      "the largest artery, carrying blood from the left ventricle to systemic circulation",
+      "an organ with digestive and endocrine functions",
+      "an endocrine gland that regulates several other endocrine functions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a large organ involved in metabolism, detoxification, bile production, and protein synthesis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-012-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: bile is produced in a large upper-abdominal organ. Which concept best matches it?",
+    "options": [
+      "Liver",
+      "Alveoli",
+      "Smooth muscle",
+      "Thyroid gland"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Liver. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-012-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Liver?",
+    "options": [
+      "mix food and begin chemical digestion",
+      "transport food to the stomach",
+      "support digestion and blood-glucose regulation",
+      "perform diverse metabolic and synthetic functions"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is perform diverse metabolic and synthetic functions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-013-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: paired organs that filter blood and regulate fluid, electrolytes, and acid-base balance?",
+    "options": [
+      "Cardiac muscle",
+      "Spinal cord",
+      "Neuron",
+      "Kidneys"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Kidneys. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-013-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Kidneys?",
+    "options": [
+      "paired organs that filter blood and regulate fluid, electrolytes, and acid-base balance",
+      "muscle tissue generally under voluntary control and attached to bones",
+      "the part of the gastrointestinal tract that absorbs water and forms feces",
+      "the major site of digestion and nutrient absorption"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is paired organs that filter blood and regulate fluid, electrolytes, and acid-base balance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-013-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: urine formation begins in specialized structures within these organs. Which concept best matches it?",
+    "options": [
+      "Pancreas",
+      "Kidneys",
+      "Large intestine",
+      "Pituitary gland"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Kidneys. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-013-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Kidneys?",
+    "options": [
+      "change thoracic volume for breathing",
+      "coordinate movement and balance",
+      "regulate internal fluid composition and excrete wastes",
+      "digest and absorb nutrients"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is regulate internal fluid composition and excrete wastes. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-014-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the functional unit of the kidney?",
+    "options": [
+      "Nephron",
+      "Skeletal muscle",
+      "Stomach",
+      "Large intestine"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Nephron. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-014-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Nephron?",
+    "options": [
+      "specialized involuntary muscle tissue forming the heart",
+      "the functional unit of the kidney",
+      "a large organ involved in metabolism, detoxification, bile production, and protein synthesis",
+      "an organ with digestive and endocrine functions"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is the functional unit of the kidney. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-014-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: filtration and tubular processing occur within microscopic renal units. Which concept best matches it?",
+    "options": [
+      "Heart",
+      "Liver",
+      "Red blood cell",
+      "Nephron"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Nephron. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-014-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Nephron?",
+    "options": [
+      "generate blood flow",
+      "coordinate movement and balance",
+      "form urine through filtration and tubular processes",
+      "exchange respiratory gases"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is form urine through filtration and tubular processes. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-015-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a specialized cell that transmits electrical and chemical signals in the nervous system?",
+    "options": [
+      "Right atrium",
+      "Trachea",
+      "Neuron",
+      "Pituitary gland"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Neuron. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-015-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Neuron?",
+    "options": [
+      "a muscular organ that stores and begins digestion of food",
+      "the heart chamber that receives systemic venous blood",
+      "a specialized cell that transmits electrical and chemical signals in the nervous system",
+      "a muscular organ that pumps blood through the circulation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a specialized cell that transmits electrical and chemical signals in the nervous system. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-015-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a nerve cell receives and sends information. Which concept best matches it?",
+    "options": [
+      "Trachea",
+      "Pituitary gland",
+      "Neuron",
+      "Skeletal muscle"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Neuron. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-015-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Neuron?",
+    "options": [
+      "communicate information",
+      "move contents and regulate diameter",
+      "carry oxygen and some carbon dioxide",
+      "generate blood flow"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is communicate information. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-016-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a major central nervous system structure within the vertebral canal?",
+    "options": [
+      "Stomach",
+      "Spinal cord",
+      "Trachea",
+      "Neuron"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Spinal cord. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-016-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Spinal cord?",
+    "options": [
+      "a specialized cell that transmits electrical and chemical signals in the nervous system",
+      "a blood cell specialized for oxygen transport using hemoglobin",
+      "a major central nervous system structure within the vertebral canal",
+      "an organ with digestive and endocrine functions"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a major central nervous system structure within the vertebral canal. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-016-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: nerve pathways travel through a long cord-like CNS structure. Which concept best matches it?",
+    "options": [
+      "Heart",
+      "Trachea",
+      "Smooth muscle",
+      "Spinal cord"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Spinal cord. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-016-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Spinal cord?",
+    "options": [
+      "form urine through filtration and tubular processes",
+      "conduct signals and mediate reflexes",
+      "perform diverse metabolic and synthetic functions",
+      "exchange respiratory gases"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is conduct signals and mediate reflexes. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-017-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a brain region important for coordination and balance?",
+    "options": [
+      "Large intestine",
+      "Aorta",
+      "Nephron",
+      "Cerebellum"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Cerebellum. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-017-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Cerebellum?",
+    "options": [
+      "an endocrine gland that produces thyroid hormones",
+      "a brain region important for coordination and balance",
+      "a specialized cell that transmits electrical and chemical signals in the nervous system",
+      "tiny air sacs where gas exchange occurs in the lungs"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a brain region important for coordination and balance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-017-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: damage can cause problems with coordination. Which concept best matches it?",
+    "options": [
+      "Stomach",
+      "Esophagus",
+      "Cardiac muscle",
+      "Cerebellum"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Cerebellum. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-017-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Cerebellum?",
+    "options": [
+      "exchange respiratory gases",
+      "coordinate movement and balance",
+      "conduct air to the bronchi",
+      "support digestion and blood-glucose regulation"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is coordinate movement and balance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-018-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an endocrine gland that regulates several other endocrine functions?",
+    "options": [
+      "Platelet",
+      "Nephron",
+      "Pituitary gland",
+      "Red blood cell"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Pituitary gland. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-018-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Pituitary gland?",
+    "options": [
+      "paired organs that filter blood and regulate fluid, electrolytes, and acid-base balance",
+      "involuntary muscle found in structures such as blood vessels and the digestive tract",
+      "an endocrine gland that produces thyroid hormones",
+      "an endocrine gland that regulates several other endocrine functions"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is an endocrine gland that regulates several other endocrine functions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-018-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: it is located at the base of the brain and releases multiple hormones. Which concept best matches it?",
+    "options": [
+      "Pituitary gland",
+      "Heart",
+      "Spinal cord",
+      "Skeletal muscle"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pituitary gland. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-018-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Pituitary gland?",
+    "options": [
+      "conduct signals and mediate reflexes",
+      "coordinate endocrine signaling",
+      "perform diverse metabolic and synthetic functions",
+      "support digestion and blood-glucose regulation"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is coordinate endocrine signaling. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-019-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an endocrine gland that produces thyroid hormones?",
+    "options": [
+      "Cardiac muscle",
+      "Alveoli",
+      "Aorta",
+      "Thyroid gland"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Thyroid gland. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-019-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Thyroid gland?",
+    "options": [
+      "the heart chamber that pumps blood into the aorta",
+      "an endocrine gland that produces thyroid hormones",
+      "an endocrine gland that regulates several other endocrine functions",
+      "a muscular organ that pumps blood through the circulation"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is an endocrine gland that produces thyroid hormones. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-019-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a butterfly-shaped gland lies in the anterior neck. Which concept best matches it?",
+    "options": [
+      "Small intestine",
+      "Pancreas",
+      "Skeletal muscle",
+      "Thyroid gland"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Thyroid gland. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-019-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Thyroid gland?",
+    "options": [
+      "regulate metabolic activity through thyroid hormones",
+      "absorb water and form stool",
+      "coordinate movement and balance",
+      "perform diverse metabolic and synthetic functions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is regulate metabolic activity through thyroid hormones. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-020-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an organ with digestive and endocrine functions?",
+    "options": [
+      "Pancreas",
+      "Kidneys",
+      "Red blood cell",
+      "Platelet"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pancreas. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-020-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Pancreas?",
+    "options": [
+      "an organ with digestive and endocrine functions",
+      "the major site of digestion and nutrient absorption",
+      "the part of the gastrointestinal tract that absorbs water and forms feces",
+      "a muscular organ that pumps blood through the circulation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is an organ with digestive and endocrine functions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-020-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: it produces digestive enzymes and hormones such as insulin. Which concept best matches it?",
+    "options": [
+      "Pancreas",
+      "Skeletal muscle",
+      "Cardiac muscle",
+      "Trachea"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pancreas. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-020-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Pancreas?",
+    "options": [
+      "generate blood flow",
+      "move contents and regulate diameter",
+      "communicate information",
+      "support digestion and blood-glucose regulation"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is support digestion and blood-glucose regulation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-021-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: muscle tissue generally under voluntary control and attached to bones?",
+    "options": [
+      "Nephron",
+      "Skeletal muscle",
+      "Esophagus",
+      "Diaphragm"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Skeletal muscle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-021-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Skeletal muscle?",
+    "options": [
+      "the heart chamber that receives systemic venous blood",
+      "involuntary muscle found in structures such as blood vessels and the digestive tract",
+      "an endocrine gland that produces thyroid hormones",
+      "muscle tissue generally under voluntary control and attached to bones"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is muscle tissue generally under voluntary control and attached to bones. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-021-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: it contracts to move the skeleton. Which concept best matches it?",
+    "options": [
+      "Small intestine",
+      "Cerebellum",
+      "Aorta",
+      "Skeletal muscle"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Skeletal muscle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-021-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Skeletal muscle?",
+    "options": [
+      "absorb water and form stool",
+      "digest and absorb nutrients",
+      "produce voluntary body movement",
+      "support digestion and blood-glucose regulation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is produce voluntary body movement. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-022-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: involuntary muscle found in structures such as blood vessels and the digestive tract?",
+    "options": [
+      "Smooth muscle",
+      "Liver",
+      "Large intestine",
+      "Neuron"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Smooth muscle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-022-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Smooth muscle?",
+    "options": [
+      "an endocrine gland that regulates several other endocrine functions",
+      "the heart chamber that pumps blood into the aorta",
+      "a muscular organ that stores and begins digestion of food",
+      "involuntary muscle found in structures such as blood vessels and the digestive tract"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is involuntary muscle found in structures such as blood vessels and the digestive tract. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-022-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: it contracts in hollow organs without conscious control. Which concept best matches it?",
+    "options": [
+      "Smooth muscle",
+      "Alveoli",
+      "Red blood cell",
+      "Diaphragm"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Smooth muscle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-022-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Smooth muscle?",
+    "options": [
+      "communicate information",
+      "conduct air to the bronchi",
+      "conduct signals and mediate reflexes",
+      "move contents and regulate diameter"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is move contents and regulate diameter. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-023-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: specialized involuntary muscle tissue forming the heart?",
+    "options": [
+      "Cardiac muscle",
+      "Thyroid gland",
+      "Left ventricle",
+      "Right atrium"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cardiac muscle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-023-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Cardiac muscle?",
+    "options": [
+      "specialized involuntary muscle tissue forming the heart",
+      "a muscular tube carrying swallowed material from the pharynx to the stomach",
+      "an endocrine gland that produces thyroid hormones",
+      "paired organs that filter blood and regulate fluid, electrolytes, and acid-base balance"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is specialized involuntary muscle tissue forming the heart. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-023-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: its rhythmic contractions pump blood. Which concept best matches it?",
+    "options": [
+      "Cardiac muscle",
+      "Spinal cord",
+      "Aorta",
+      "Platelet"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cardiac muscle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-023-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Cardiac muscle?",
+    "options": [
+      "generate cardiac contractions",
+      "exchange respiratory gases",
+      "produce voluntary body movement",
+      "generate blood flow"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is generate cardiac contractions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-024-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a blood cell specialized for oxygen transport using hemoglobin?",
+    "options": [
+      "Red blood cell",
+      "Right atrium",
+      "Left ventricle",
+      "Diaphragm"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Red blood cell. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-024-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Red blood cell?",
+    "options": [
+      "a blood cell specialized for oxygen transport using hemoglobin",
+      "tiny air sacs where gas exchange occurs in the lungs",
+      "a muscular organ that pumps blood through the circulation",
+      "an endocrine gland that produces thyroid hormones"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a blood cell specialized for oxygen transport using hemoglobin. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-024-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a biconcave cell circulates through blood vessels. Which concept best matches it?",
+    "options": [
+      "Platelet",
+      "Large intestine",
+      "Red blood cell",
+      "Diaphragm"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Red blood cell. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-024-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Red blood cell?",
+    "options": [
+      "change thoracic volume for breathing",
+      "mix food and begin chemical digestion",
+      "form urine through filtration and tubular processes",
+      "carry oxygen and some carbon dioxide"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is carry oxygen and some carbon dioxide. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-025-1",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a cell fragment involved in hemostasis?",
+    "options": [
+      "Aorta",
+      "Platelet",
+      "Skeletal muscle",
+      "Esophagus"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Platelet. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-MEDIUM-025-2",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Platelet?",
+    "options": [
+      "paired organs that filter blood and regulate fluid, electrolytes, and acid-base balance",
+      "a muscular organ that stores and begins digestion of food",
+      "a cell fragment involved in hemostasis",
+      "the heart chamber that receives systemic venous blood"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a cell fragment involved in hemostasis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-HARD-025-3",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: small blood components gather at sites of vascular injury. Which concept best matches it?",
+    "options": [
+      "Platelet",
+      "Stomach",
+      "Right atrium",
+      "Esophagus"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Platelet. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANATOMY-PHYSIOLOGY-EASY-025-4",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Anatomy & Physiology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Platelet?",
+    "options": [
+      "help form the initial platelet plug",
+      "carry oxygen and some carbon dioxide",
+      "distribute oxygenated blood to the body",
+      "perform diverse metabolic and synthetic functions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is help form the initial platelet plug. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "anatomy"
+    ],
+    "status": "active"
   }
 ]

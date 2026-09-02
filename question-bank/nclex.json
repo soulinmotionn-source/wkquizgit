@@ -492,5 +492,1829 @@
       "nclex"
     ],
     "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-001-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: maintenance of a patent airway is a fundamental immediate priority?",
+    "options": [
+      "Priority assessment",
+      "Airway priority",
+      "ABCs",
+      "Discharge planning"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Airway priority. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-001-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Airway priority?",
+    "options": [
+      "maintenance of a patent airway is a fundamental immediate priority",
+      "worsening physiologic status requiring prompt recognition and action",
+      "likelihood that a patient may fall and sustain injury",
+      "recognition of infection with systemic physiologic deterioration"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is maintenance of a patent airway is a fundamental immediate priority. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-001-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has severe airway obstruction. Which concept best matches it?",
+    "options": [
+      "ABCs",
+      "Discharge planning",
+      "Stroke warning signs",
+      "Airway priority"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Airway priority. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-001-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Airway priority?",
+    "options": [
+      "support safe team-based care",
+      "prioritize care based on urgency",
+      "restore or protect the airway first",
+      "prevent avoidable medication errors"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is restore or protect the airway first. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-002-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: airway, breathing, and circulation?",
+    "options": [
+      "ABCs",
+      "Stroke warning signs",
+      "Airway priority",
+      "Chest pain priority"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is ABCs. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-002-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes ABCs?",
+    "options": [
+      "a finding consistent with the known condition or intervention",
+      "maintenance of a patent airway is a fundamental immediate priority",
+      "rapid recognition of symptoms associated with low blood glucose",
+      "airway, breathing, and circulation"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is airway, breathing, and circulation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-002-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a nurse prioritizes several competing patient problems. Which concept best matches it?",
+    "options": [
+      "Patient teaching",
+      "Fluid balance",
+      "Expected finding",
+      "ABCs"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is ABCs. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-002-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with ABCs?",
+    "options": [
+      "prioritize care based on urgency",
+      "ensure the task and follow-up are appropriate",
+      "organize urgent assessment and intervention priorities",
+      "recognize and report treatment-related harm"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is organize urgent assessment and intervention priorities. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-003-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: sorting patients according to urgency and resource needs?",
+    "options": [
+      "Triage",
+      "Hypoglycemia response",
+      "Stroke warning signs",
+      "Chest pain priority"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Triage. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-003-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Triage?",
+    "options": [
+      "airway, breathing, and circulation",
+      "worsening physiologic status requiring prompt recognition and action",
+      "sorting patients according to urgency and resource needs",
+      "abnormal concentration of electrolytes such as sodium or potassium"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is sorting patients according to urgency and resource needs. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-003-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: multiple patients arrive with different levels of acuity. Which concept best matches it?",
+    "options": [
+      "Triage",
+      "Fluid balance",
+      "Airborne precautions",
+      "Stroke warning signs"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Triage. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-003-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Triage?",
+    "options": [
+      "ensure the task and follow-up are appropriate",
+      "promote safe self-management",
+      "reduce preventable problems after discharge",
+      "prioritize care based on urgency"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is prioritize care based on urgency. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-004-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: tasks should be delegated according to patient stability, task complexity, and team member competence?",
+    "options": [
+      "Airway priority",
+      "Delegation principles",
+      "Expected finding",
+      "Clinical deterioration"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Delegation principles. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-004-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Delegation principles?",
+    "options": [
+      "tasks should be delegated according to patient stability, task complexity, and team member competence",
+      "abnormal concentration of electrolytes such as sodium or potassium",
+      "sudden neurologic changes such as facial droop, arm weakness, or speech difficulty",
+      "precautions for pathogens capable of remaining suspended in the air"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is tasks should be delegated according to patient stability, task complexity, and team member competence. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-004-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a nurse considers which task can safely be assigned. Which concept best matches it?",
+    "options": [
+      "Adverse reaction",
+      "Priority assessment",
+      "Delegation principles",
+      "Fluid balance"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Delegation principles. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-004-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Delegation principles?",
+    "options": [
+      "prioritize care based on urgency",
+      "implement appropriate safety measures",
+      "support safe team-based care",
+      "identify an unstable patient early"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is support safe team-based care. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-005-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: practices that reduce medication errors?",
+    "options": [
+      "Chest pain priority",
+      "Triage",
+      "Fall risk",
+      "Medication safety"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Medication safety. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-005-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Medication safety?",
+    "options": [
+      "likelihood that a patient may fall and sustain injury",
+      "practices that reduce medication errors",
+      "education that helps patients understand and safely manage their care",
+      "a finding consistent with the known condition or intervention"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is practices that reduce medication errors. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-005-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a nurse verifies the patient, medication, dose, route, and timing. Which concept best matches it?",
+    "options": [
+      "Medication safety",
+      "Triage",
+      "Contact precautions",
+      "Priority assessment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Medication safety. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-005-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Medication safety?",
+    "options": [
+      "prevent avoidable medication errors",
+      "support safe team-based care",
+      "support patient autonomy",
+      "ensure the task and follow-up are appropriate"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is prevent avoidable medication errors. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-006-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: communication focused on the patient's needs rather than the nurse's personal reactions?",
+    "options": [
+      "Airway priority",
+      "Fluid balance",
+      "ABCs",
+      "Therapeutic communication"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Therapeutic communication. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-006-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient expresses fear about a diagnosis. Which concept best matches it?",
+    "options": [
+      "Hypoglycemia response",
+      "Isolation precautions",
+      "Therapeutic communication",
+      "Patient teaching"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Therapeutic communication. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-007-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: worsening physiologic status requiring prompt recognition and action?",
+    "options": [
+      "Airborne precautions",
+      "Sepsis recognition",
+      "Triage",
+      "Clinical deterioration"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Clinical deterioration. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-007-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Clinical deterioration?",
+    "options": [
+      "planning that prepares a patient for safe care after leaving a healthcare setting",
+      "recognition of infection with systemic physiologic deterioration",
+      "worsening physiologic status requiring prompt recognition and action",
+      "a finding consistent with the known condition or intervention"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is worsening physiologic status requiring prompt recognition and action. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-007-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient develops new confusion, hypotension, and increasing work of breathing. Which concept best matches it?",
+    "options": [
+      "Triage",
+      "Fluid balance",
+      "Delegation accountability",
+      "Clinical deterioration"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Clinical deterioration. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-007-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Clinical deterioration?",
+    "options": [
+      "distinguish expected from concerning findings",
+      "prompt escalation and evaluation",
+      "reduce airborne transmission",
+      "identify an unstable patient early"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is identify an unstable patient early. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-008-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: recognition of infection with systemic physiologic deterioration?",
+    "options": [
+      "Triage",
+      "Stroke warning signs",
+      "Fluid balance",
+      "Sepsis recognition"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Sepsis recognition. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-008-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Sepsis recognition?",
+    "options": [
+      "recognition of infection with systemic physiologic deterioration",
+      "voluntary agreement after adequate explanation of a procedure and its material risks",
+      "sudden neurologic changes such as facial droop, arm weakness, or speech difficulty",
+      "the delegating nurse remains accountable for appropriate delegation and follow-up"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is recognition of infection with systemic physiologic deterioration. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-008-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient with infection develops concerning vital-sign changes. Which concept best matches it?",
+    "options": [
+      "Stroke warning signs",
+      "Airborne precautions",
+      "Discharge planning",
+      "Sepsis recognition"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Sepsis recognition. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-008-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Sepsis recognition?",
+    "options": [
+      "prompt escalation and evaluation",
+      "identify the most urgent problem",
+      "distinguish expected from concerning findings",
+      "promote safe self-management"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is prompt escalation and evaluation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-009-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: rapid recognition of symptoms associated with low blood glucose?",
+    "options": [
+      "Hypoglycemia response",
+      "Fluid balance",
+      "Delegation principles",
+      "Sepsis recognition"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hypoglycemia response. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-009-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Hypoglycemia response?",
+    "options": [
+      "an unintended harmful response to a medication or treatment",
+      "sorting patients according to urgency and resource needs",
+      "airway, breathing, and circulation",
+      "rapid recognition of symptoms associated with low blood glucose"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is rapid recognition of symptoms associated with low blood glucose. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-009-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a diabetic patient becomes confused and diaphoretic. Which concept best matches it?",
+    "options": [
+      "Hypoglycemia response",
+      "Delegation principles",
+      "Chest pain priority",
+      "Medication safety"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hypoglycemia response. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-009-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Hypoglycemia response?",
+    "options": [
+      "support patient autonomy",
+      "correct low glucose according to the clinical situation",
+      "reduce airborne transmission",
+      "recognize and report treatment-related harm"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is correct low glucose according to the clinical situation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-010-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: likelihood that a patient may fall and sustain injury?",
+    "options": [
+      "Fall risk",
+      "Medication safety",
+      "Electrolyte imbalance",
+      "Therapeutic communication"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fall risk. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-010-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Fall risk?",
+    "options": [
+      "education that helps patients understand and safely manage their care",
+      "abnormal concentration of electrolytes such as sodium or potassium",
+      "assessment focused first on the most immediate threat to life or safety",
+      "likelihood that a patient may fall and sustain injury"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is likelihood that a patient may fall and sustain injury. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-010-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an older patient is weak, dizzy, and taking sedating medication. Which concept best matches it?",
+    "options": [
+      "Fluid balance",
+      "Fall risk",
+      "Electrolyte imbalance",
+      "Sepsis recognition"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Fall risk. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-010-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Fall risk?",
+    "options": [
+      "implement appropriate safety measures",
+      "reduce contact transmission",
+      "encourage expression and gather useful information",
+      "promote safe self-management"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is implement appropriate safety measures. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-011-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: measures selected according to the mode of pathogen transmission?",
+    "options": [
+      "ABCs",
+      "Informed consent",
+      "Sepsis recognition",
+      "Isolation precautions"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Isolation precautions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-011-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Isolation precautions?",
+    "options": [
+      "education that helps patients understand and safely manage their care",
+      "measures selected according to the mode of pathogen transmission",
+      "maintenance of a patent airway is a fundamental immediate priority",
+      "sorting patients according to urgency and resource needs"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is measures selected according to the mode of pathogen transmission. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-011-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient requires special infection-control precautions. Which concept best matches it?",
+    "options": [
+      "Expected finding",
+      "Isolation precautions",
+      "Hypoglycemia response",
+      "Sepsis recognition"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Isolation precautions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-011-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Isolation precautions?",
+    "options": [
+      "identify the most urgent problem",
+      "limit transmission",
+      "encourage expression and gather useful information",
+      "correct low glucose according to the clinical situation"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is limit transmission. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-012-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: precautions used for pathogens primarily spread by direct or indirect contact?",
+    "options": [
+      "Contact precautions",
+      "Electrolyte imbalance",
+      "ABCs",
+      "Airborne precautions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Contact precautions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-012-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Contact precautions?",
+    "options": [
+      "precautions for infections spread through respiratory droplets",
+      "precautions for pathogens capable of remaining suspended in the air",
+      "precautions used for pathogens primarily spread by direct or indirect contact",
+      "voluntary agreement after adequate explanation of a procedure and its material risks"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is precautions used for pathogens primarily spread by direct or indirect contact. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-012-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient is suspected of having a contact-transmitted infection. Which concept best matches it?",
+    "options": [
+      "Contact precautions",
+      "Medication safety",
+      "Informed consent",
+      "Triage"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Contact precautions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-012-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Contact precautions?",
+    "options": [
+      "prompt escalation and evaluation",
+      "perform prompt assessment and escalation",
+      "recognize potential physiologic effects and act safely",
+      "reduce contact transmission"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is reduce contact transmission. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-013-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: precautions for infections spread through respiratory droplets?",
+    "options": [
+      "Droplet precautions",
+      "Priority assessment",
+      "Informed consent",
+      "Isolation precautions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Droplet precautions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-013-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Droplet precautions?",
+    "options": [
+      "precautions for infections spread through respiratory droplets",
+      "precautions used for pathogens primarily spread by direct or indirect contact",
+      "new or severe chest pain may indicate a time-sensitive cardiovascular emergency",
+      "practices that reduce medication errors"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is precautions for infections spread through respiratory droplets. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-013-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient with a droplet-transmitted infection is receiving care. Which concept best matches it?",
+    "options": [
+      "Droplet precautions",
+      "Fall risk",
+      "Clinical deterioration",
+      "Contact precautions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Droplet precautions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-013-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Droplet precautions?",
+    "options": [
+      "limit transmission",
+      "identify an unstable patient early",
+      "reduce droplet exposure",
+      "reduce airborne transmission"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is reduce droplet exposure. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-014-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: precautions for pathogens capable of remaining suspended in the air?",
+    "options": [
+      "Contact precautions",
+      "Triage",
+      "Hypoglycemia response",
+      "Airborne precautions"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Airborne precautions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-014-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Airborne precautions?",
+    "options": [
+      "assessment focused first on the most immediate threat to life or safety",
+      "precautions for pathogens capable of remaining suspended in the air",
+      "a finding consistent with the known condition or intervention",
+      "planning that prepares a patient for safe care after leaving a healthcare setting"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is precautions for pathogens capable of remaining suspended in the air. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-014-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient is suspected of an airborne infection. Which concept best matches it?",
+    "options": [
+      "Airborne precautions",
+      "Patient teaching",
+      "Airway priority",
+      "Droplet precautions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Airborne precautions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-014-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Airborne precautions?",
+    "options": [
+      "implement appropriate safety measures",
+      "support patient autonomy",
+      "organize urgent assessment and intervention priorities",
+      "reduce airborne transmission"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is reduce airborne transmission. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-015-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: sudden neurologic changes such as facial droop, arm weakness, or speech difficulty?",
+    "options": [
+      "Clinical deterioration",
+      "Patient teaching",
+      "Stroke warning signs",
+      "Therapeutic communication"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Stroke warning signs. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-015-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Stroke warning signs?",
+    "options": [
+      "precautions for pathogens capable of remaining suspended in the air",
+      "relationship between fluid intake and fluid losses",
+      "an unintended harmful response to a medication or treatment",
+      "sudden neurologic changes such as facial droop, arm weakness, or speech difficulty"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is sudden neurologic changes such as facial droop, arm weakness, or speech difficulty. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-015-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient suddenly cannot speak clearly and has unilateral weakness. Which concept best matches it?",
+    "options": [
+      "Stroke warning signs",
+      "Chest pain priority",
+      "Therapeutic communication",
+      "Medication safety"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stroke warning signs. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-015-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Stroke warning signs?",
+    "options": [
+      "ensure the task and follow-up are appropriate",
+      "trigger urgent stroke evaluation",
+      "identify an unstable patient early",
+      "prompt escalation and evaluation"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is trigger urgent stroke evaluation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-016-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: new or severe chest pain may indicate a time-sensitive cardiovascular emergency?",
+    "options": [
+      "Airborne precautions",
+      "Discharge planning",
+      "Chest pain priority",
+      "Expected finding"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Chest pain priority. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-016-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Chest pain priority?",
+    "options": [
+      "relationship between fluid intake and fluid losses",
+      "new or severe chest pain may indicate a time-sensitive cardiovascular emergency",
+      "measures selected according to the mode of pathogen transmission",
+      "voluntary agreement after adequate explanation of a procedure and its material risks"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is new or severe chest pain may indicate a time-sensitive cardiovascular emergency. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-016-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient reports new pressure-like chest discomfort. Which concept best matches it?",
+    "options": [
+      "Electrolyte imbalance",
+      "Patient teaching",
+      "Priority assessment",
+      "Chest pain priority"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Chest pain priority. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-016-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Chest pain priority?",
+    "options": [
+      "perform prompt assessment and escalation",
+      "encourage expression and gather useful information",
+      "prioritize care based on urgency",
+      "reduce preventable problems after discharge"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is perform prompt assessment and escalation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-017-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: relationship between fluid intake and fluid losses?",
+    "options": [
+      "Isolation precautions",
+      "Fluid balance",
+      "Triage",
+      "Priority assessment"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Fluid balance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-017-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Fluid balance?",
+    "options": [
+      "rapid recognition of symptoms associated with low blood glucose",
+      "maintenance of a patent airway is a fundamental immediate priority",
+      "relationship between fluid intake and fluid losses",
+      "new or severe chest pain may indicate a time-sensitive cardiovascular emergency"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is relationship between fluid intake and fluid losses. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-017-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has changing urine output and daily weight. Which concept best matches it?",
+    "options": [
+      "Isolation precautions",
+      "Fluid balance",
+      "Droplet precautions",
+      "Electrolyte imbalance"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Fluid balance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-017-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Fluid balance?",
+    "options": [
+      "limit transmission",
+      "prompt escalation and evaluation",
+      "distinguish expected from concerning findings",
+      "evaluate hydration and volume status"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is evaluate hydration and volume status. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-018-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: abnormal concentration of electrolytes such as sodium or potassium?",
+    "options": [
+      "Hypoglycemia response",
+      "Electrolyte imbalance",
+      "Sepsis recognition",
+      "Chest pain priority"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Electrolyte imbalance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-018-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Electrolyte imbalance?",
+    "options": [
+      "rapid recognition of symptoms associated with low blood glucose",
+      "abnormal concentration of electrolytes such as sodium or potassium",
+      "worsening physiologic status requiring prompt recognition and action",
+      "precautions used for pathogens primarily spread by direct or indirect contact"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is abnormal concentration of electrolytes such as sodium or potassium. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-018-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has weakness and an abnormal electrolyte result. Which concept best matches it?",
+    "options": [
+      "Airway priority",
+      "Electrolyte imbalance",
+      "Chest pain priority",
+      "Clinical deterioration"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Electrolyte imbalance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-018-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Electrolyte imbalance?",
+    "options": [
+      "reduce droplet exposure",
+      "prevent avoidable medication errors",
+      "perform prompt assessment and escalation",
+      "recognize potential physiologic effects and act safely"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is recognize potential physiologic effects and act safely. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-019-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the delegating nurse remains accountable for appropriate delegation and follow-up?",
+    "options": [
+      "Airborne precautions",
+      "Informed consent",
+      "Stroke warning signs",
+      "Delegation accountability"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Delegation accountability. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-019-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Delegation accountability?",
+    "options": [
+      "likelihood that a patient may fall and sustain injury",
+      "voluntary agreement after adequate explanation of a procedure and its material risks",
+      "practices that reduce medication errors",
+      "the delegating nurse remains accountable for appropriate delegation and follow-up"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is the delegating nurse remains accountable for appropriate delegation and follow-up. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-019-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a task is assigned to assistive personnel. Which concept best matches it?",
+    "options": [
+      "Adverse reaction",
+      "Fall risk",
+      "Delegation accountability",
+      "Sepsis recognition"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Delegation accountability. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-019-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Delegation accountability?",
+    "options": [
+      "ensure the task and follow-up are appropriate",
+      "distinguish expected from concerning findings",
+      "identify an unstable patient early",
+      "prevent avoidable medication errors"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is ensure the task and follow-up are appropriate. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-020-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: voluntary agreement after adequate explanation of a procedure and its material risks?",
+    "options": [
+      "Fall risk",
+      "Clinical deterioration",
+      "Informed consent",
+      "Delegation principles"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Informed consent. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-020-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient asks questions before agreeing to a procedure. Which concept best matches it?",
+    "options": [
+      "Informed consent",
+      "Stroke warning signs",
+      "Expected finding",
+      "Patient teaching"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Informed consent. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-021-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: assessment focused first on the most immediate threat to life or safety?",
+    "options": [
+      "Medication safety",
+      "Priority assessment",
+      "Informed consent",
+      "Adverse reaction"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Priority assessment. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-021-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Priority assessment?",
+    "options": [
+      "precautions for pathogens capable of remaining suspended in the air",
+      "assessment focused first on the most immediate threat to life or safety",
+      "new or severe chest pain may indicate a time-sensitive cardiovascular emergency",
+      "abnormal concentration of electrolytes such as sodium or potassium"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is assessment focused first on the most immediate threat to life or safety. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-021-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: several findings compete for attention. Which concept best matches it?",
+    "options": [
+      "Fluid balance",
+      "Isolation precautions",
+      "Priority assessment",
+      "Contact precautions"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Priority assessment. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-021-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Priority assessment?",
+    "options": [
+      "prevent avoidable medication errors",
+      "identify the most urgent problem",
+      "trigger urgent stroke evaluation",
+      "implement appropriate safety measures"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is identify the most urgent problem. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-022-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a finding consistent with the known condition or intervention?",
+    "options": [
+      "Airway priority",
+      "Contact precautions",
+      "Expected finding",
+      "Priority assessment"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Expected finding. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-022-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Expected finding?",
+    "options": [
+      "precautions for pathogens capable of remaining suspended in the air",
+      "measures selected according to the mode of pathogen transmission",
+      "precautions for infections spread through respiratory droplets",
+      "a finding consistent with the known condition or intervention"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a finding consistent with the known condition or intervention. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-022-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a question asks which assessment result is anticipated. Which concept best matches it?",
+    "options": [
+      "Hypoglycemia response",
+      "Airway priority",
+      "Delegation principles",
+      "Expected finding"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Expected finding. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-022-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Expected finding?",
+    "options": [
+      "evaluate hydration and volume status",
+      "reduce preventable problems after discharge",
+      "trigger urgent stroke evaluation",
+      "distinguish expected from concerning findings"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is distinguish expected from concerning findings. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-023-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an unintended harmful response to a medication or treatment?",
+    "options": [
+      "Delegation principles",
+      "Adverse reaction",
+      "Airway priority",
+      "Sepsis recognition"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Adverse reaction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-023-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Adverse reaction?",
+    "options": [
+      "tasks should be delegated according to patient stability, task complexity, and team member competence",
+      "precautions for infections spread through respiratory droplets",
+      "an unintended harmful response to a medication or treatment",
+      "sorting patients according to urgency and resource needs"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is an unintended harmful response to a medication or treatment. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-023-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient develops a concerning symptom after medication administration. Which concept best matches it?",
+    "options": [
+      "Adverse reaction",
+      "Informed consent",
+      "Droplet precautions",
+      "Stroke warning signs"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Adverse reaction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-023-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Adverse reaction?",
+    "options": [
+      "encourage expression and gather useful information",
+      "reduce droplet exposure",
+      "restore or protect the airway first",
+      "recognize and report treatment-related harm"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is recognize and report treatment-related harm. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-024-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: education that helps patients understand and safely manage their care?",
+    "options": [
+      "Therapeutic communication",
+      "Medication safety",
+      "Patient teaching",
+      "Chest pain priority"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Patient teaching. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-024-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Patient teaching?",
+    "options": [
+      "likelihood that a patient may fall and sustain injury",
+      "sorting patients according to urgency and resource needs",
+      "measures selected according to the mode of pathogen transmission",
+      "education that helps patients understand and safely manage their care"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is education that helps patients understand and safely manage their care. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-024-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a nurse explains how to take a medication at home. Which concept best matches it?",
+    "options": [
+      "Fall risk",
+      "Sepsis recognition",
+      "Patient teaching",
+      "Delegation accountability"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Patient teaching. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-024-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Patient teaching?",
+    "options": [
+      "promote safe self-management",
+      "support patient autonomy",
+      "reduce droplet exposure",
+      "perform prompt assessment and escalation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is promote safe self-management. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-025-1",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: planning that prepares a patient for safe care after leaving a healthcare setting?",
+    "options": [
+      "Delegation principles",
+      "Expected finding",
+      "Fall risk",
+      "Discharge planning"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Discharge planning. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-MEDIUM-025-2",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "medium",
+    "question": "Which statement best describes Discharge planning?",
+    "options": [
+      "airway, breathing, and circulation",
+      "communication focused on the patient's needs rather than the nurse's personal reactions",
+      "assessment focused first on the most immediate threat to life or safety",
+      "planning that prepares a patient for safe care after leaving a healthcare setting"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is planning that prepares a patient for safe care after leaving a healthcare setting. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-HARD-025-3",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient needs follow-up, medication instructions, and home support. Which concept best matches it?",
+    "options": [
+      "Airborne precautions",
+      "Discharge planning",
+      "Electrolyte imbalance",
+      "Sepsis recognition"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Discharge planning. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-EASY-025-4",
+    "category": "NCLEX",
+    "subcategory": "NCLEX",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Discharge planning?",
+    "options": [
+      "reduce preventable problems after discharge",
+      "reduce airborne transmission",
+      "prioritize care based on urgency",
+      "limit transmission"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is reduce preventable problems after discharge. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
   }
 ]

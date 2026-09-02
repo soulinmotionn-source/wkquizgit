@@ -416,5 +416,1905 @@
       "hvac"
     ],
     "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-001-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a thermodynamic cycle used to transfer heat from a lower-temperature region to a higher-temperature sink?",
+    "options": [
+      "SEER",
+      "Refrigeration cycle",
+      "CFM",
+      "Expansion device"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Refrigeration cycle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-001-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Refrigeration cycle?",
+    "options": [
+      "the temperature at which a substance changes phase at a specified pressure",
+      "a control or system that uses favorable outdoor conditions to reduce mechanical cooling",
+      "temperature of vapor above its saturation temperature at a given pressure",
+      "a thermodynamic cycle used to transfer heat from a lower-temperature region to a higher-temperature sink"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a thermodynamic cycle used to transfer heat from a lower-temperature region to a higher-temperature sink. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-001-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a system removes heat from a conditioned space and rejects it outdoors. Which concept best matches it?",
+    "options": [
+      "VAV",
+      "Refrigeration cycle",
+      "Subcooling",
+      "EER"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Refrigeration cycle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-001-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Refrigeration cycle?",
+    "options": [
+      "provide cooling by moving heat",
+      "transport air",
+      "create a pressure drop and regulate refrigerant flow",
+      "absorb heat from the conditioned space"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is provide cooling by moving heat. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-002-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the component that raises refrigerant vapor pressure and temperature?",
+    "options": [
+      "Refrigerant",
+      "Psychrometrics",
+      "Subcooling",
+      "Compressor"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Compressor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-002-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Compressor?",
+    "options": [
+      "cubic feet per minute, a volumetric airflow rate",
+      "variable air volume, a system that varies supply airflow to zones",
+      "a system that can transfer heat in either direction depending on operating mode",
+      "the component that raises refrigerant vapor pressure and temperature"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is the component that raises refrigerant vapor pressure and temperature. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-002-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: low-pressure vapor enters a mechanical compression device. Which concept best matches it?",
+    "options": [
+      "Ton of refrigeration",
+      "Static pressure",
+      "Refrigerant",
+      "Compressor"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Compressor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-002-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Compressor?",
+    "options": [
+      "relate pressure and phase change",
+      "move heat between indoors and outdoors",
+      "assess duct-system resistance",
+      "compress and circulate refrigerant vapor"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is compress and circulate refrigerant vapor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-003-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a heat exchanger where high-pressure refrigerant vapor rejects heat and condenses?",
+    "options": [
+      "VAV",
+      "Static pressure",
+      "Condenser",
+      "Superheat"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Condenser. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-003-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Condenser?",
+    "options": [
+      "a heat exchanger where high-pressure refrigerant vapor rejects heat and condenses",
+      "the temperature at which a substance changes phase at a specified pressure",
+      "a thermodynamic cycle used to transfer heat from a lower-temperature region to a higher-temperature sink",
+      "a system that can transfer heat in either direction depending on operating mode"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a heat exchanger where high-pressure refrigerant vapor rejects heat and condenses. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-003-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: hot refrigerant releases heat to outdoor air or another fluid. Which concept best matches it?",
+    "options": [
+      "BTU",
+      "Ton of refrigeration",
+      "Condenser",
+      "Defrost cycle"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Condenser. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-003-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Condenser?",
+    "options": [
+      "transfer heat through the refrigeration cycle",
+      "reduce mechanical cooling energy",
+      "provide cooling by moving heat",
+      "reject heat and condense refrigerant"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is reject heat and condense refrigerant. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-004-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a component that reduces refrigerant pressure before the evaporator?",
+    "options": [
+      "Relative humidity",
+      "Superheat",
+      "Compressor",
+      "Expansion device"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Expansion device. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-004-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Expansion device?",
+    "options": [
+      "a control sequence that removes accumulated frost from an outdoor heat-pump coil",
+      "the study of the thermodynamic properties of moist air",
+      "a component that reduces refrigerant pressure before the evaporator",
+      "a control or system that uses favorable outdoor conditions to reduce mechanical cooling"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a component that reduces refrigerant pressure before the evaporator. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-004-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: liquid refrigerant passes through a metering restriction. Which concept best matches it?",
+    "options": [
+      "Expansion device",
+      "Evaporator",
+      "Relative humidity",
+      "Thermostat"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Expansion device. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-004-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Expansion device?",
+    "options": [
+      "express heat quantity in traditional HVAC terms",
+      "create a pressure drop and regulate refrigerant flow",
+      "transfer heat through the refrigeration cycle",
+      "regulate conditioned-space temperature"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is create a pressure drop and regulate refrigerant flow. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-005-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a heat exchanger where refrigerant absorbs heat and boils?",
+    "options": [
+      "Psychrometrics",
+      "SEER",
+      "Superheat",
+      "Evaporator"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Evaporator. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-005-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Evaporator?",
+    "options": [
+      "pressure in a duct system relative to atmospheric pressure",
+      "a heat exchanger where refrigerant absorbs heat and boils",
+      "a heat exchanger where high-pressure refrigerant vapor rejects heat and condenses",
+      "the ratio of actual water vapor pressure to saturation vapor pressure at the same temperature"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a heat exchanger where refrigerant absorbs heat and boils. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-005-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: cool indoor air transfers heat to a cold refrigerant. Which concept best matches it?",
+    "options": [
+      "Saturation temperature",
+      "Psychrometrics",
+      "Evaporator",
+      "VAV"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Evaporator. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-005-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Evaporator?",
+    "options": [
+      "move heat between indoors and outdoors",
+      "predict condensation potential",
+      "absorb heat from the conditioned space",
+      "create a pressure drop and regulate refrigerant flow"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is absorb heat from the conditioned space. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-006-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: temperature of vapor above its saturation temperature at a given pressure?",
+    "options": [
+      "Psychrometrics",
+      "Economizer",
+      "Static pressure",
+      "Superheat"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Superheat. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-006-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Superheat?",
+    "options": [
+      "Energy Efficiency Ratio, a ratio of cooling capacity to electrical input under specified conditions",
+      "a component that removes particles from an airstream",
+      "temperature of vapor above its saturation temperature at a given pressure",
+      "a British thermal unit, a traditional unit of heat energy"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is temperature of vapor above its saturation temperature at a given pressure. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-006-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a technician measures vapor temperature above saturation. Which concept best matches it?",
+    "options": [
+      "Superheat",
+      "VAV",
+      "Air filter",
+      "Ton of refrigeration"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Superheat. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-006-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Superheat?",
+    "options": [
+      "express cooling capacity",
+      "confirm vapor condition and help control refrigerant feed",
+      "provide cooling by moving heat",
+      "regulate conditioned-space temperature"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is confirm vapor condition and help control refrigerant feed. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-007-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: temperature of liquid below its saturation temperature at a given pressure?",
+    "options": [
+      "VAV",
+      "Refrigerant",
+      "Subcooling",
+      "Condenser"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Subcooling. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-007-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Subcooling?",
+    "options": [
+      "temperature of liquid below its saturation temperature at a given pressure",
+      "a network of passages used to distribute conditioned air",
+      "a component that removes particles from an airstream",
+      "a British thermal unit, a traditional unit of heat energy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is temperature of liquid below its saturation temperature at a given pressure. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-007-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a technician measures liquid temperature below saturation. Which concept best matches it?",
+    "options": [
+      "Psychrometrics",
+      "Dew point",
+      "Subcooling",
+      "EER"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Subcooling. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-007-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Subcooling?",
+    "options": [
+      "express heat quantity in traditional HVAC terms",
+      "assess liquid refrigerant condition",
+      "assess duct-system resistance",
+      "reduce airborne particulate matter"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is assess liquid refrigerant condition. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-008-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the temperature at which a substance changes phase at a specified pressure?",
+    "options": [
+      "Compressor",
+      "BTU",
+      "Refrigeration cycle",
+      "Saturation temperature"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Saturation temperature. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-008-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Saturation temperature?",
+    "options": [
+      "the ratio of actual water vapor pressure to saturation vapor pressure at the same temperature",
+      "variable air volume, a system that varies supply airflow to zones",
+      "the temperature at which air becomes saturated when cooled at constant moisture content",
+      "the temperature at which a substance changes phase at a specified pressure"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is the temperature at which a substance changes phase at a specified pressure. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-008-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: refrigerant pressure is used to find its boiling or condensing temperature. Which concept best matches it?",
+    "options": [
+      "Saturation temperature",
+      "Defrost cycle",
+      "Heat pump",
+      "Compressor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Saturation temperature. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-008-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Saturation temperature?",
+    "options": [
+      "confirm vapor condition and help control refrigerant feed",
+      "relate pressure and phase change",
+      "reject heat and condense refrigerant",
+      "provide cooling by moving heat"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is relate pressure and phase change. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-009-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a British thermal unit, a traditional unit of heat energy?",
+    "options": [
+      "SEER",
+      "Subcooling",
+      "Thermostat",
+      "BTU"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is BTU. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-009-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes BTU?",
+    "options": [
+      "a system that can transfer heat in either direction depending on operating mode",
+      "the temperature at which air becomes saturated when cooled at constant moisture content",
+      "a British thermal unit, a traditional unit of heat energy",
+      "cubic feet per minute, a volumetric airflow rate"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a British thermal unit, a traditional unit of heat energy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-009-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: air-conditioning capacity is sometimes stated in BTU per hour. Which concept best matches it?",
+    "options": [
+      "Saturation temperature",
+      "Heat pump",
+      "Psychrometrics",
+      "BTU"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is BTU. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-009-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with BTU?",
+    "options": [
+      "relate pressure and phase change",
+      "compress and circulate refrigerant vapor",
+      "express heat quantity in traditional HVAC terms",
+      "provide cooling by moving heat"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is express heat quantity in traditional HVAC terms. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-010-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a traditional refrigeration capacity equal to 12,000 BTU per hour?",
+    "options": [
+      "EER",
+      "Ton of refrigeration",
+      "VAV",
+      "Expansion device"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Ton of refrigeration. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-010-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Ton of refrigeration?",
+    "options": [
+      "a thermodynamic cycle used to transfer heat from a lower-temperature region to a higher-temperature sink",
+      "the ratio of actual water vapor pressure to saturation vapor pressure at the same temperature",
+      "a component that removes particles from an airstream",
+      "a traditional refrigeration capacity equal to 12,000 BTU per hour"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a traditional refrigeration capacity equal to 12,000 BTU per hour. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-010-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a residential air conditioner may be described as a two-ton unit. Which concept best matches it?",
+    "options": [
+      "Ton of refrigeration",
+      "CFM",
+      "Ductwork",
+      "EER"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Ton of refrigeration. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-010-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Ton of refrigeration?",
+    "options": [
+      "transport air",
+      "transfer heat through the refrigeration cycle",
+      "express cooling capacity",
+      "restore heat-transfer performance"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is express cooling capacity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-011-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: Seasonal Energy Efficiency Ratio, a measure of seasonal cooling efficiency?",
+    "options": [
+      "SEER",
+      "Superheat",
+      "Condenser",
+      "BTU"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SEER. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-011-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes SEER?",
+    "options": [
+      "a working fluid that absorbs and rejects heat through phase and temperature changes",
+      "Seasonal Energy Efficiency Ratio, a measure of seasonal cooling efficiency",
+      "variable air volume, a system that varies supply airflow to zones",
+      "the study of the thermodynamic properties of moist air"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Seasonal Energy Efficiency Ratio, a measure of seasonal cooling efficiency. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-011-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an air conditioner is compared using a seasonal efficiency rating. Which concept best matches it?",
+    "options": [
+      "Economizer",
+      "Thermostat",
+      "SEER",
+      "Heat pump"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is SEER. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-011-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with SEER?",
+    "options": [
+      "transport air",
+      "reduce mechanical cooling energy",
+      "compare seasonal cooling efficiency",
+      "compare cooling efficiency at rated conditions"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is compare seasonal cooling efficiency. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-012-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: Energy Efficiency Ratio, a ratio of cooling capacity to electrical input under specified conditions?",
+    "options": [
+      "Superheat",
+      "BTU",
+      "Heat pump",
+      "EER"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is EER. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-012-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes EER?",
+    "options": [
+      "a component that reduces refrigerant pressure before the evaporator",
+      "the temperature at which a substance changes phase at a specified pressure",
+      "cubic feet per minute, a volumetric airflow rate",
+      "Energy Efficiency Ratio, a ratio of cooling capacity to electrical input under specified conditions"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Energy Efficiency Ratio, a ratio of cooling capacity to electrical input under specified conditions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-012-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: equipment efficiency is evaluated at a particular test condition. Which concept best matches it?",
+    "options": [
+      "Refrigeration cycle",
+      "Air filter",
+      "Static pressure",
+      "EER"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is EER. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-012-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with EER?",
+    "options": [
+      "analyze moist-air conditions",
+      "move heat between indoors and outdoors",
+      "control zone conditioning efficiently",
+      "compare cooling efficiency at rated conditions"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is compare cooling efficiency at rated conditions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-013-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: pressure in a duct system relative to atmospheric pressure?",
+    "options": [
+      "Condenser",
+      "Static pressure",
+      "Air filter",
+      "Expansion device"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Static pressure. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-013-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Static pressure?",
+    "options": [
+      "a heat exchanger where high-pressure refrigerant vapor rejects heat and condenses",
+      "pressure in a duct system relative to atmospheric pressure",
+      "the study of the thermodynamic properties of moist air",
+      "a control or system that uses favorable outdoor conditions to reduce mechanical cooling"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is pressure in a duct system relative to atmospheric pressure. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-013-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a technician measures duct pressure to evaluate airflow resistance. Which concept best matches it?",
+    "options": [
+      "SEER",
+      "Defrost cycle",
+      "Static pressure",
+      "Condenser"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Static pressure. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-013-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Static pressure?",
+    "options": [
+      "assess liquid refrigerant condition",
+      "absorb heat from the conditioned space",
+      "assess duct-system resistance",
+      "quantify air movement"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is assess duct-system resistance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-014-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: cubic feet per minute, a volumetric airflow rate?",
+    "options": [
+      "Compressor",
+      "Ductwork",
+      "CFM",
+      "Relative humidity"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is CFM. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-014-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes CFM?",
+    "options": [
+      "a control sequence that removes accumulated frost from an outdoor heat-pump coil",
+      "variable air volume, a system that varies supply airflow to zones",
+      "a system that can transfer heat in either direction depending on operating mode",
+      "cubic feet per minute, a volumetric airflow rate"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is cubic feet per minute, a volumetric airflow rate. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-014-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: airflow through a duct is measured in cubic feet per minute. Which concept best matches it?",
+    "options": [
+      "Expansion device",
+      "Subcooling",
+      "Compressor",
+      "CFM"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is CFM. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-014-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with CFM?",
+    "options": [
+      "move heat between indoors and outdoors",
+      "relate pressure and phase change",
+      "quantify air movement",
+      "describe how close air is to saturation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is quantify air movement. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-015-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the study of the thermodynamic properties of moist air?",
+    "options": [
+      "Psychrometrics",
+      "Ton of refrigeration",
+      "Expansion device",
+      "EER"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Psychrometrics. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-015-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Psychrometrics?",
+    "options": [
+      "variable air volume, a system that varies supply airflow to zones",
+      "a heat exchanger where refrigerant absorbs heat and boils",
+      "the study of the thermodynamic properties of moist air",
+      "the temperature at which air becomes saturated when cooled at constant moisture content"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is the study of the thermodynamic properties of moist air. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-015-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: technicians analyze humidity, dew point, and enthalpy on a psychrometric chart. Which concept best matches it?",
+    "options": [
+      "Psychrometrics",
+      "SEER",
+      "Subcooling",
+      "Defrost cycle"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Psychrometrics. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-015-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Psychrometrics?",
+    "options": [
+      "move heat between indoors and outdoors",
+      "reduce mechanical cooling energy",
+      "regulate conditioned-space temperature",
+      "analyze moist-air conditions"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is analyze moist-air conditions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-016-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the ratio of actual water vapor pressure to saturation vapor pressure at the same temperature?",
+    "options": [
+      "Dew point",
+      "SEER",
+      "BTU",
+      "Relative humidity"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Relative humidity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-016-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Relative humidity?",
+    "options": [
+      "a control sequence that removes accumulated frost from an outdoor heat-pump coil",
+      "temperature of liquid below its saturation temperature at a given pressure",
+      "the ratio of actual water vapor pressure to saturation vapor pressure at the same temperature",
+      "a component that reduces refrigerant pressure before the evaporator"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is the ratio of actual water vapor pressure to saturation vapor pressure at the same temperature. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-016-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a room's humidity percentage changes with temperature. Which concept best matches it?",
+    "options": [
+      "Saturation temperature",
+      "BTU",
+      "Relative humidity",
+      "Refrigerant"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Relative humidity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-016-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Relative humidity?",
+    "options": [
+      "compress and circulate refrigerant vapor",
+      "compare cooling efficiency at rated conditions",
+      "describe how close air is to saturation",
+      "move heat between indoors and outdoors"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is describe how close air is to saturation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-017-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the temperature at which air becomes saturated when cooled at constant moisture content?",
+    "options": [
+      "Thermostat",
+      "Refrigerant",
+      "Dew point",
+      "Air filter"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Dew point. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-017-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Dew point?",
+    "options": [
+      "variable air volume, a system that varies supply airflow to zones",
+      "a traditional refrigeration capacity equal to 12,000 BTU per hour",
+      "the temperature at which air becomes saturated when cooled at constant moisture content",
+      "a component that reduces refrigerant pressure before the evaporator"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is the temperature at which air becomes saturated when cooled at constant moisture content. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-017-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: condensation begins when a surface is below the air's dew point. Which concept best matches it?",
+    "options": [
+      "Dew point",
+      "Defrost cycle",
+      "BTU",
+      "SEER"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Dew point. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-017-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Dew point?",
+    "options": [
+      "predict condensation potential",
+      "compare seasonal cooling efficiency",
+      "assess liquid refrigerant condition",
+      "quantify air movement"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is predict condensation potential. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-018-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a control device that senses temperature and calls for heating or cooling?",
+    "options": [
+      "Ton of refrigeration",
+      "Thermostat",
+      "Saturation temperature",
+      "Psychrometrics"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Thermostat. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-018-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Thermostat?",
+    "options": [
+      "variable air volume, a system that varies supply airflow to zones",
+      "a system that can transfer heat in either direction depending on operating mode",
+      "a control device that senses temperature and calls for heating or cooling",
+      "a working fluid that absorbs and rejects heat through phase and temperature changes"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a control device that senses temperature and calls for heating or cooling. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-018-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a wall-mounted controller starts or stops equipment based on temperature. Which concept best matches it?",
+    "options": [
+      "Ton of refrigeration",
+      "Subcooling",
+      "Compressor",
+      "Thermostat"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Thermostat. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-018-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Thermostat?",
+    "options": [
+      "compare seasonal cooling efficiency",
+      "express heat quantity in traditional HVAC terms",
+      "regulate conditioned-space temperature",
+      "create a pressure drop and regulate refrigerant flow"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is regulate conditioned-space temperature. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-019-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a component that removes particles from an airstream?",
+    "options": [
+      "Defrost cycle",
+      "Expansion device",
+      "Air filter",
+      "Refrigerant"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Air filter. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-019-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Air filter?",
+    "options": [
+      "a network of passages used to distribute conditioned air",
+      "pressure in a duct system relative to atmospheric pressure",
+      "a component that removes particles from an airstream",
+      "a heat exchanger where refrigerant absorbs heat and boils"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a component that removes particles from an airstream. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-019-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: air passes through a replaceable filter before entering occupied space. Which concept best matches it?",
+    "options": [
+      "Subcooling",
+      "Air filter",
+      "Refrigeration cycle",
+      "Psychrometrics"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Air filter. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-019-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Air filter?",
+    "options": [
+      "compare seasonal cooling efficiency",
+      "reduce airborne particulate matter",
+      "describe how close air is to saturation",
+      "relate pressure and phase change"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is reduce airborne particulate matter. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-020-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a system that can transfer heat in either direction depending on operating mode?",
+    "options": [
+      "Expansion device",
+      "Heat pump",
+      "Saturation temperature",
+      "Air filter"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Heat pump. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-020-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Heat pump?",
+    "options": [
+      "a system that can transfer heat in either direction depending on operating mode",
+      "variable air volume, a system that varies supply airflow to zones",
+      "a control sequence that removes accumulated frost from an outdoor heat-pump coil",
+      "temperature of liquid below its saturation temperature at a given pressure"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a system that can transfer heat in either direction depending on operating mode. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-020-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: the same system can provide heating in winter and cooling in summer. Which concept best matches it?",
+    "options": [
+      "Heat pump",
+      "Superheat",
+      "VAV",
+      "BTU"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Heat pump. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-020-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Heat pump?",
+    "options": [
+      "assess duct-system resistance",
+      "express cooling capacity",
+      "describe how close air is to saturation",
+      "move heat between indoors and outdoors"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is move heat between indoors and outdoors. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-021-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a control sequence that removes accumulated frost from an outdoor heat-pump coil?",
+    "options": [
+      "Superheat",
+      "Psychrometrics",
+      "Economizer",
+      "Defrost cycle"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Defrost cycle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-021-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Defrost cycle?",
+    "options": [
+      "a heat exchanger where refrigerant absorbs heat and boils",
+      "the temperature at which air becomes saturated when cooled at constant moisture content",
+      "a working fluid that absorbs and rejects heat through phase and temperature changes",
+      "a control sequence that removes accumulated frost from an outdoor heat-pump coil"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a control sequence that removes accumulated frost from an outdoor heat-pump coil. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-021-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: ice builds up on an outdoor coil during heating operation. Which concept best matches it?",
+    "options": [
+      "Expansion device",
+      "Static pressure",
+      "Defrost cycle",
+      "Subcooling"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Defrost cycle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-021-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Defrost cycle?",
+    "options": [
+      "restore heat-transfer performance",
+      "express cooling capacity",
+      "confirm vapor condition and help control refrigerant feed",
+      "assess liquid refrigerant condition"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is restore heat-transfer performance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-022-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a working fluid that absorbs and rejects heat through phase and temperature changes?",
+    "options": [
+      "Evaporator",
+      "Refrigerant",
+      "Condenser",
+      "Subcooling"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Refrigerant. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-022-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Refrigerant?",
+    "options": [
+      "Energy Efficiency Ratio, a ratio of cooling capacity to electrical input under specified conditions",
+      "a thermodynamic cycle used to transfer heat from a lower-temperature region to a higher-temperature sink",
+      "temperature of vapor above its saturation temperature at a given pressure",
+      "a working fluid that absorbs and rejects heat through phase and temperature changes"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a working fluid that absorbs and rejects heat through phase and temperature changes. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-022-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a vapor-compression system circulates a specialized fluid. Which concept best matches it?",
+    "options": [
+      "Psychrometrics",
+      "Ductwork",
+      "Refrigerant",
+      "Thermostat"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Refrigerant. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-022-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Refrigerant?",
+    "options": [
+      "reduce airborne particulate matter",
+      "express heat quantity in traditional HVAC terms",
+      "absorb heat from the conditioned space",
+      "transfer heat through the refrigeration cycle"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is transfer heat through the refrigeration cycle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-023-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a network of passages used to distribute conditioned air?",
+    "options": [
+      "Superheat",
+      "BTU",
+      "Ductwork",
+      "Static pressure"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Ductwork. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-023-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Ductwork?",
+    "options": [
+      "a heat exchanger where high-pressure refrigerant vapor rejects heat and condenses",
+      "a control or system that uses favorable outdoor conditions to reduce mechanical cooling",
+      "a thermodynamic cycle used to transfer heat from a lower-temperature region to a higher-temperature sink",
+      "a network of passages used to distribute conditioned air"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a network of passages used to distribute conditioned air. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-023-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: supply and return ducts carry air through a building. Which concept best matches it?",
+    "options": [
+      "Static pressure",
+      "Air filter",
+      "Ductwork",
+      "Heat pump"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Ductwork. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-023-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Ductwork?",
+    "options": [
+      "create a pressure drop and regulate refrigerant flow",
+      "compress and circulate refrigerant vapor",
+      "transport air",
+      "reduce airborne particulate matter"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is transport air. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-024-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a control or system that uses favorable outdoor conditions to reduce mechanical cooling?",
+    "options": [
+      "SEER",
+      "Economizer",
+      "Compressor",
+      "Ton of refrigeration"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Economizer. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-024-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes Economizer?",
+    "options": [
+      "a control or system that uses favorable outdoor conditions to reduce mechanical cooling",
+      "a British thermal unit, a traditional unit of heat energy",
+      "Seasonal Energy Efficiency Ratio, a measure of seasonal cooling efficiency",
+      "a component that removes particles from an airstream"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a control or system that uses favorable outdoor conditions to reduce mechanical cooling. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-024-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: cool outdoor air is used when conditions permit. Which concept best matches it?",
+    "options": [
+      "Compressor",
+      "Economizer",
+      "BTU",
+      "Expansion device"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Economizer. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-024-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Economizer?",
+    "options": [
+      "regulate conditioned-space temperature",
+      "compress and circulate refrigerant vapor",
+      "reduce airborne particulate matter",
+      "reduce mechanical cooling energy"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is reduce mechanical cooling energy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-025-1",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: variable air volume, a system that varies supply airflow to zones?",
+    "options": [
+      "Heat pump",
+      "CFM",
+      "BTU",
+      "VAV"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is VAV. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-MEDIUM-025-2",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "medium",
+    "question": "Which statement best describes VAV?",
+    "options": [
+      "the ratio of actual water vapor pressure to saturation vapor pressure at the same temperature",
+      "a system that can transfer heat in either direction depending on operating mode",
+      "variable air volume, a system that varies supply airflow to zones",
+      "temperature of vapor above its saturation temperature at a given pressure"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is variable air volume, a system that varies supply airflow to zones. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-HARD-025-3",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: airflow to a zone changes according to demand. Which concept best matches it?",
+    "options": [
+      "VAV",
+      "Dew point",
+      "Compressor",
+      "Defrost cycle"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is VAV. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-EASY-025-4",
+    "category": "HVAC",
+    "subcategory": "HVAC",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with VAV?",
+    "options": [
+      "predict condensation potential",
+      "move heat between indoors and outdoors",
+      "regulate conditioned-space temperature",
+      "control zone conditioning efficiently"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is control zone conditioning efficiently. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
   }
 ]

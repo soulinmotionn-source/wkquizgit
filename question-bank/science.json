@@ -264,5 +264,1791 @@
       "science"
     ],
     "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-001-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a structured process involving observation, hypothesis, testing, analysis, and revision?",
+    "options": [
+      "Molecule",
+      "Food chain",
+      "Climate",
+      "Scientific method"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Scientific method. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-001-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Scientific method?",
+    "options": [
+      "long-term patterns of weather in a region",
+      "a well-substantiated explanatory framework supported by extensive evidence",
+      "a structured process involving observation, hypothesis, testing, analysis, and revision",
+      "the basic unit of an element that retains the element's chemical identity"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a structured process involving observation, hypothesis, testing, analysis, and revision. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-001-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a researcher forms a testable explanation and evaluates evidence. Which concept best matches it?",
+    "options": [
+      "Correlation",
+      "Plate tectonics",
+      "Renewable energy",
+      "Scientific method"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Scientific method. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-001-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Scientific method?",
+    "options": [
+      "describe acidity or alkalinity",
+      "investigate questions systematically",
+      "represent a changing quantity",
+      "describe current atmospheric conditions"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is investigate questions systematically. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-002-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a testable proposed explanation or prediction?",
+    "options": [
+      "Hypothesis",
+      "Variable",
+      "Respiration",
+      "Natural selection"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hypothesis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-002-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Hypothesis?",
+    "options": [
+      "an interaction between masses that produces attraction",
+      "the variable deliberately changed by a researcher",
+      "a testable proposed explanation or prediction",
+      "energy derived from sources replenished naturally on a human timescale"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a testable proposed explanation or prediction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-002-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a researcher states a prediction that can be evaluated by evidence. Which concept best matches it?",
+    "options": [
+      "pH",
+      "Ecosystem",
+      "Weather",
+      "Hypothesis"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Hypothesis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-002-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Hypothesis?",
+    "options": [
+      "provide a comparison for an experiment",
+      "guide an investigation",
+      "represent the manipulated factor",
+      "describe long-term atmospheric patterns"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is guide an investigation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-003-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a factor that can change in an experiment or model?",
+    "options": [
+      "Variable",
+      "Control group",
+      "Gravity",
+      "Hypothesis"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Variable. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-003-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Variable?",
+    "options": [
+      "a factor that can change in an experiment or model",
+      "a community of organisms interacting with their physical environment",
+      "the basic structural and functional unit of life",
+      "a logarithmic measure related to hydrogen-ion activity in aqueous solutions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a factor that can change in an experiment or model. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-003-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: temperature is changed while another factor is measured. Which concept best matches it?",
+    "options": [
+      "Respiration",
+      "Hypothesis",
+      "Variable",
+      "Plate tectonics"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Variable. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-003-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Variable?",
+    "options": [
+      "shape population traits across generations",
+      "represent a changing quantity",
+      "track energy transformations",
+      "guide an investigation"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is represent a changing quantity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-004-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a comparison group that does not receive the experimental treatment under study?",
+    "options": [
+      "Photosynthesis",
+      "Independent variable",
+      "Control group",
+      "Ecosystem"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Control group. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-004-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Control group?",
+    "options": [
+      "a comparison group that does not receive the experimental treatment under study",
+      "a group of atoms bonded together",
+      "energy derived from sources replenished naturally on a human timescale",
+      "long-term patterns of weather in a region"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a comparison group that does not receive the experimental treatment under study. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-004-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: one group is kept under baseline conditions. Which concept best matches it?",
+    "options": [
+      "Photosynthesis",
+      "Climate",
+      "Cell",
+      "Control group"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Control group. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-004-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Control group?",
+    "options": [
+      "provide usable cellular energy",
+      "provide a comparison for an experiment",
+      "classify electromagnetic radiation",
+      "store light energy in chemical bonds"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is provide a comparison for an experiment. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-005-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the variable deliberately changed by a researcher?",
+    "options": [
+      "Gravity",
+      "Independent variable",
+      "Plate tectonics",
+      "Photosynthesis"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Independent variable. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-005-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Independent variable?",
+    "options": [
+      "the variable deliberately changed by a researcher",
+      "a factor that can change in an experiment or model",
+      "a comparison group that does not receive the experimental treatment under study",
+      "cellular processes that release usable energy from nutrients"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is the variable deliberately changed by a researcher. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-005-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: the investigator changes the amount of light in each treatment group. Which concept best matches it?",
+    "options": [
+      "Hypothesis",
+      "Respiration",
+      "Independent variable",
+      "Gravity"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Independent variable. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-005-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Independent variable?",
+    "options": [
+      "form chemical elements",
+      "guide an investigation",
+      "describe long-term atmospheric patterns",
+      "represent the manipulated factor"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is represent the manipulated factor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-006-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the outcome measured in response to the independent variable?",
+    "options": [
+      "Variable",
+      "Weather",
+      "Food chain",
+      "Dependent variable"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Dependent variable. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-006-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Dependent variable?",
+    "options": [
+      "a sequence showing energy transfer through feeding relationships",
+      "the outcome measured in response to the independent variable",
+      "change in inherited characteristics of populations over generations",
+      "a logarithmic measure related to hydrogen-ion activity in aqueous solutions"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is the outcome measured in response to the independent variable. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-006-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: plant growth is measured after changing light exposure. Which concept best matches it?",
+    "options": [
+      "Climate",
+      "Photosynthesis",
+      "Conservation of energy",
+      "Dependent variable"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Dependent variable. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-006-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Dependent variable?",
+    "options": [
+      "represent the measured response",
+      "store light energy in chemical bonds",
+      "show a simple feeding pathway",
+      "form many substances through chemical bonding"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is represent the measured response. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-007-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the basic unit of an element that retains the element's chemical identity?",
+    "options": [
+      "Atom",
+      "pH",
+      "Evolution",
+      "Dependent variable"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Atom. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-007-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Atom?",
+    "options": [
+      "cellular processes that release usable energy from nutrients",
+      "the basic unit of an element that retains the element's chemical identity",
+      "the principle that energy is not created or destroyed in an isolated system",
+      "a community of organisms interacting with their physical environment"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is the basic unit of an element that retains the element's chemical identity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-007-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: matter is composed of particles containing a nucleus and electrons. Which concept best matches it?",
+    "options": [
+      "Conservation of energy",
+      "Control group",
+      "Evolution",
+      "Atom"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Atom. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-007-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Atom?",
+    "options": [
+      "represent the manipulated factor",
+      "form chemical elements",
+      "form many substances through chemical bonding",
+      "describe acidity or alkalinity"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is form chemical elements. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-008-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a group of atoms bonded together?",
+    "options": [
+      "Dependent variable",
+      "Respiration",
+      "Hypothesis",
+      "Molecule"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Molecule. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-008-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Molecule?",
+    "options": [
+      "a logarithmic measure related to hydrogen-ion activity in aqueous solutions",
+      "a group of atoms bonded together",
+      "the process by which plants and some organisms convert light energy into chemical energy",
+      "the full range of electromagnetic radiation ordered by frequency or wavelength"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a group of atoms bonded together. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-008-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: two or more atoms form a discrete chemical unit. Which concept best matches it?",
+    "options": [
+      "Plate tectonics",
+      "pH",
+      "Molecule",
+      "Renewable energy"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Molecule. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-008-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Molecule?",
+    "options": [
+      "describe current atmospheric conditions",
+      "represent the measured response",
+      "guide an investigation",
+      "form many substances through chemical bonding"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is form many substances through chemical bonding. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-009-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the basic structural and functional unit of life?",
+    "options": [
+      "Atom",
+      "Dependent variable",
+      "Respiration",
+      "Cell"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Cell. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-009-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Cell?",
+    "options": [
+      "the basic structural and functional unit of life",
+      "a comparison group that does not receive the experimental treatment under study",
+      "the outcome measured in response to the independent variable",
+      "short-term atmospheric conditions at a particular time and place"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is the basic structural and functional unit of life. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-009-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: living organisms are composed of one or more of these units. Which concept best matches it?",
+    "options": [
+      "Weather",
+      "Molecule",
+      "Cell",
+      "Scientific method"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Cell. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-009-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Cell?",
+    "options": [
+      "describe current atmospheric conditions",
+      "represent a changing quantity",
+      "provide usable cellular energy",
+      "carry out essential life processes"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is carry out essential life processes. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-010-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a community of organisms interacting with their physical environment?",
+    "options": [
+      "Control group",
+      "Climate",
+      "Scientific theory",
+      "Ecosystem"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Ecosystem. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-010-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Ecosystem?",
+    "options": [
+      "a statistical association between variables",
+      "the process by which plants and some organisms convert light energy into chemical energy",
+      "a community of organisms interacting with their physical environment",
+      "a sequence showing energy transfer through feeding relationships"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a community of organisms interacting with their physical environment. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-010-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: plants, animals, microbes, soil, water, and climate interact in one system. Which concept best matches it?",
+    "options": [
+      "Scientific method",
+      "Ecosystem",
+      "Plate tectonics",
+      "Scientific theory"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Ecosystem. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-010-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Ecosystem?",
+    "options": [
+      "shape population traits across generations",
+      "describe biological and physical interactions",
+      "provide energy from replenishing sources",
+      "store light energy in chemical bonds"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is describe biological and physical interactions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-011-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a sequence showing energy transfer through feeding relationships?",
+    "options": [
+      "Food chain",
+      "Cell",
+      "Conservation of energy",
+      "Photosynthesis"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Food chain. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-011-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Food chain?",
+    "options": [
+      "the process by which plants and some organisms convert light energy into chemical energy",
+      "short-term atmospheric conditions at a particular time and place",
+      "a sequence showing energy transfer through feeding relationships",
+      "a testable proposed explanation or prediction"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a sequence showing energy transfer through feeding relationships. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-011-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: grass is eaten by an herbivore that is eaten by a predator. Which concept best matches it?",
+    "options": [
+      "Climate",
+      "Independent variable",
+      "Ecosystem",
+      "Food chain"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Food chain. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-011-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Food chain?",
+    "options": [
+      "provide a comparison for an experiment",
+      "represent the measured response",
+      "show a simple feeding pathway",
+      "guide an investigation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is show a simple feeding pathway. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-012-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the process by which plants and some organisms convert light energy into chemical energy?",
+    "options": [
+      "Plate tectonics",
+      "Molecule",
+      "Natural selection",
+      "Photosynthesis"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Photosynthesis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-012-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: plants use light to synthesize organic compounds from carbon dioxide and water. Which concept best matches it?",
+    "options": [
+      "Photosynthesis",
+      "Independent variable",
+      "Hypothesis",
+      "Food chain"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Photosynthesis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-013-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: cellular processes that release usable energy from nutrients?",
+    "options": [
+      "Scientific method",
+      "Renewable energy",
+      "Gravity",
+      "Respiration"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Respiration. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-013-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Respiration?",
+    "options": [
+      "the principle that energy is not created or destroyed in an isolated system",
+      "energy derived from sources replenished naturally on a human timescale",
+      "cellular processes that release usable energy from nutrients",
+      "a sequence showing energy transfer through feeding relationships"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is cellular processes that release usable energy from nutrients. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-013-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: cells break down fuel molecules to produce ATP. Which concept best matches it?",
+    "options": [
+      "Scientific theory",
+      "Respiration",
+      "Variable",
+      "pH"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Respiration. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-013-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Respiration?",
+    "options": [
+      "store light energy in chemical bonds",
+      "represent the measured response",
+      "provide usable cellular energy",
+      "form chemical elements"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is provide usable cellular energy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-014-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an interaction between masses that produces attraction?",
+    "options": [
+      "Weather",
+      "Gravity",
+      "pH",
+      "Natural selection"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Gravity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-014-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: Earth attracts objects toward its center. Which concept best matches it?",
+    "options": [
+      "Photosynthesis",
+      "Gravity",
+      "Weather",
+      "Food chain"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Gravity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-015-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the full range of electromagnetic radiation ordered by frequency or wavelength?",
+    "options": [
+      "Plate tectonics",
+      "Ecosystem",
+      "pH",
+      "Electromagnetic spectrum"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Electromagnetic spectrum. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-015-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Electromagnetic spectrum?",
+    "options": [
+      "a logarithmic measure related to hydrogen-ion activity in aqueous solutions",
+      "a sequence showing energy transfer through feeding relationships",
+      "the full range of electromagnetic radiation ordered by frequency or wavelength",
+      "differential survival and reproduction associated with heritable variation and environment"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is the full range of electromagnetic radiation ordered by frequency or wavelength. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-015-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: radio waves, visible light, and X-rays are parts of one spectrum. Which concept best matches it?",
+    "options": [
+      "Renewable energy",
+      "Respiration",
+      "Electromagnetic spectrum",
+      "Variable"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Electromagnetic spectrum. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-015-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Electromagnetic spectrum?",
+    "options": [
+      "classify electromagnetic radiation",
+      "store light energy in chemical bonds",
+      "track energy transformations",
+      "describe acidity or alkalinity"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is classify electromagnetic radiation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-016-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a logarithmic measure related to hydrogen-ion activity in aqueous solutions?",
+    "options": [
+      "Variable",
+      "Scientific method",
+      "Molecule",
+      "pH"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is pH. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-016-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes pH?",
+    "options": [
+      "cellular processes that release usable energy from nutrients",
+      "a logarithmic measure related to hydrogen-ion activity in aqueous solutions",
+      "a sequence showing energy transfer through feeding relationships",
+      "a testable proposed explanation or prediction"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a logarithmic measure related to hydrogen-ion activity in aqueous solutions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-016-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a solution with a lower pH is more acidic. Which concept best matches it?",
+    "options": [
+      "Independent variable",
+      "Scientific theory",
+      "pH",
+      "Variable"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is pH. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-016-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with pH?",
+    "options": [
+      "describe long-term atmospheric patterns",
+      "store light energy in chemical bonds",
+      "influence motion and weight",
+      "describe acidity or alkalinity"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is describe acidity or alkalinity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-017-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: change in inherited characteristics of populations over generations?",
+    "options": [
+      "Respiration",
+      "Photosynthesis",
+      "Evolution",
+      "Renewable energy"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Evolution. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-017-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Evolution?",
+    "options": [
+      "the process by which plants and some organisms convert light energy into chemical energy",
+      "the outcome measured in response to the independent variable",
+      "change in inherited characteristics of populations over generations",
+      "the variable deliberately changed by a researcher"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is change in inherited characteristics of populations over generations. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-017-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: population traits change across generations due to evolutionary processes. Which concept best matches it?",
+    "options": [
+      "Evolution",
+      "Scientific theory",
+      "Food chain",
+      "Independent variable"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Evolution. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-017-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Evolution?",
+    "options": [
+      "track energy transformations",
+      "explain natural phenomena",
+      "explain biological change over time",
+      "describe acidity or alkalinity"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is explain biological change over time. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-018-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: differential survival and reproduction associated with heritable variation and environment?",
+    "options": [
+      "Natural selection",
+      "Scientific theory",
+      "Hypothesis",
+      "Variable"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Natural selection. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-018-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Natural selection?",
+    "options": [
+      "the outcome measured in response to the independent variable",
+      "change in inherited characteristics of populations over generations",
+      "differential survival and reproduction associated with heritable variation and environment",
+      "the variable deliberately changed by a researcher"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is differential survival and reproduction associated with heritable variation and environment. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-018-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: individuals with advantageous inherited traits leave more offspring in a particular environment. Which concept best matches it?",
+    "options": [
+      "Natural selection",
+      "Hypothesis",
+      "Weather",
+      "Climate"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Natural selection. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-018-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Natural selection?",
+    "options": [
+      "shape population traits across generations",
+      "store light energy in chemical bonds",
+      "explain large-scale geological processes",
+      "guide an investigation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is shape population traits across generations. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-019-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the theory that Earth's lithosphere consists of moving plates?",
+    "options": [
+      "Gravity",
+      "Plate tectonics",
+      "Control group",
+      "Hypothesis"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Plate tectonics. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-019-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: earthquakes and mountain building occur near many plate boundaries. Which concept best matches it?",
+    "options": [
+      "Conservation of energy",
+      "Climate",
+      "Plate tectonics",
+      "Scientific theory"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Plate tectonics. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-020-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: long-term patterns of weather in a region?",
+    "options": [
+      "Respiration",
+      "Atom",
+      "Electromagnetic spectrum",
+      "Climate"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Climate. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-020-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Climate?",
+    "options": [
+      "a testable proposed explanation or prediction",
+      "long-term patterns of weather in a region",
+      "a structured process involving observation, hypothesis, testing, analysis, and revision",
+      "energy derived from sources replenished naturally on a human timescale"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is long-term patterns of weather in a region. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-020-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: average temperature and precipitation patterns are examined over many years. Which concept best matches it?",
+    "options": [
+      "Climate",
+      "Scientific method",
+      "Control group",
+      "Independent variable"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Climate. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-020-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Climate?",
+    "options": [
+      "explain natural phenomena",
+      "represent the manipulated factor",
+      "describe long-term atmospheric patterns",
+      "describe acidity or alkalinity"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is describe long-term atmospheric patterns. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-021-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: short-term atmospheric conditions at a particular time and place?",
+    "options": [
+      "Plate tectonics",
+      "Weather",
+      "Control group",
+      "Electromagnetic spectrum"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Weather. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-021-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Weather?",
+    "options": [
+      "the principle that energy is not created or destroyed in an isolated system",
+      "the basic structural and functional unit of life",
+      "short-term atmospheric conditions at a particular time and place",
+      "a well-substantiated explanatory framework supported by extensive evidence"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is short-term atmospheric conditions at a particular time and place. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-021-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: today's temperature, rain, and wind are recorded. Which concept best matches it?",
+    "options": [
+      "Correlation",
+      "pH",
+      "Weather",
+      "Electromagnetic spectrum"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Weather. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-021-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Weather?",
+    "options": [
+      "describe current atmospheric conditions",
+      "store light energy in chemical bonds",
+      "explain biological change over time",
+      "shape population traits across generations"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is describe current atmospheric conditions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-022-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: energy derived from sources replenished naturally on a human timescale?",
+    "options": [
+      "Ecosystem",
+      "Renewable energy",
+      "Electromagnetic spectrum",
+      "Control group"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Renewable energy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-022-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Renewable energy?",
+    "options": [
+      "the basic unit of an element that retains the element's chemical identity",
+      "the theory that Earth's lithosphere consists of moving plates",
+      "the full range of electromagnetic radiation ordered by frequency or wavelength",
+      "energy derived from sources replenished naturally on a human timescale"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is energy derived from sources replenished naturally on a human timescale. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-022-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: solar and wind power are used to generate electricity. Which concept best matches it?",
+    "options": [
+      "Renewable energy",
+      "Cell",
+      "Variable",
+      "Molecule"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Renewable energy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-022-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Renewable energy?",
+    "options": [
+      "influence motion and weight",
+      "explain large-scale geological processes",
+      "represent the manipulated factor",
+      "provide energy from replenishing sources"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is provide energy from replenishing sources. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-023-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the principle that energy is not created or destroyed in an isolated system?",
+    "options": [
+      "Conservation of energy",
+      "Weather",
+      "Molecule",
+      "Atom"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Conservation of energy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-023-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Conservation of energy?",
+    "options": [
+      "the principle that energy is not created or destroyed in an isolated system",
+      "cellular processes that release usable energy from nutrients",
+      "a well-substantiated explanatory framework supported by extensive evidence",
+      "long-term patterns of weather in a region"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is the principle that energy is not created or destroyed in an isolated system. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-023-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: energy changes form but the total remains accounted for. Which concept best matches it?",
+    "options": [
+      "Atom",
+      "Dependent variable",
+      "Conservation of energy",
+      "Respiration"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Conservation of energy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-023-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Conservation of energy?",
+    "options": [
+      "track energy transformations",
+      "provide energy from replenishing sources",
+      "describe biological and physical interactions",
+      "provide a comparison for an experiment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is track energy transformations. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-024-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a well-substantiated explanatory framework supported by extensive evidence?",
+    "options": [
+      "Photosynthesis",
+      "Scientific theory",
+      "pH",
+      "Molecule"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Scientific theory. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-024-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Scientific theory?",
+    "options": [
+      "a well-substantiated explanatory framework supported by extensive evidence",
+      "a structured process involving observation, hypothesis, testing, analysis, and revision",
+      "a group of atoms bonded together",
+      "the process by which plants and some organisms convert light energy into chemical energy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a well-substantiated explanatory framework supported by extensive evidence. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-024-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a broad scientific explanation integrates many observations and tests. Which concept best matches it?",
+    "options": [
+      "Control group",
+      "Plate tectonics",
+      "Scientific theory",
+      "Independent variable"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Scientific theory. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-024-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Scientific theory?",
+    "options": [
+      "investigate questions systematically",
+      "represent the manipulated factor",
+      "shape population traits across generations",
+      "explain natural phenomena"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is explain natural phenomena. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-025-1",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a statistical association between variables?",
+    "options": [
+      "Independent variable",
+      "Scientific method",
+      "Correlation",
+      "Photosynthesis"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Correlation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-MEDIUM-025-2",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "medium",
+    "question": "Which statement best describes Correlation?",
+    "options": [
+      "the outcome measured in response to the independent variable",
+      "an interaction between masses that produces attraction",
+      "the theory that Earth's lithosphere consists of moving plates",
+      "a statistical association between variables"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a statistical association between variables. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-HARD-025-3",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: two measured variables tend to change together. Which concept best matches it?",
+    "options": [
+      "Correlation",
+      "Electromagnetic spectrum",
+      "Photosynthesis",
+      "Dependent variable"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Correlation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCIENCE-EASY-025-4",
+    "category": "Science",
+    "subcategory": "Science",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Correlation?",
+    "options": [
+      "describe acidity or alkalinity",
+      "describe relationships without necessarily proving causation",
+      "describe current atmospheric conditions",
+      "represent the manipulated factor"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is describe relationships without necessarily proving causation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
   }
 ]

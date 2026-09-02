@@ -321,5 +321,1905 @@
       "pharmacology"
     ],
     "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-001-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the study of what the body does to a drug?",
+    "options": [
+      "Anticoagulant",
+      "Contraindication",
+      "Dependence",
+      "Pharmacokinetics"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Pharmacokinetics. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-001-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Pharmacokinetics?",
+    "options": [
+      "a condition in which a medication or treatment should not be used",
+      "a medication that reduces blood clot formation",
+      "an unintended harmful response occurring at normal drug use",
+      "the study of what the body does to a drug"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is the study of what the body does to a drug. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-001-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: absorption, distribution, metabolism, and excretion are being considered. Which concept best matches it?",
+    "options": [
+      "Anticoagulant",
+      "Contraindication",
+      "Pharmacokinetics",
+      "Enteral route"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Pharmacokinetics. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-001-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Pharmacokinetics?",
+    "options": [
+      "activate receptor-mediated effects",
+      "describe drug effects and mechanisms",
+      "describe drug movement through the body",
+      "reduce selected beta-adrenergic effects"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is describe drug movement through the body. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-002-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the study of what a drug does to the body?",
+    "options": [
+      "Pharmacodynamics",
+      "Anticoagulant",
+      "Therapeutic index",
+      "Antibiotic"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pharmacodynamics. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-002-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Pharmacodynamics?",
+    "options": [
+      "drug administration that bypasses the gastrointestinal tract",
+      "drug administration through the gastrointestinal tract",
+      "a condition in which a medication or treatment should not be used",
+      "the study of what a drug does to the body"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is the study of what a drug does to the body. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-002-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: receptor effects and physiologic responses are being considered. Which concept best matches it?",
+    "options": [
+      "Adverse drug reaction",
+      "Enteral route",
+      "Antibiotic",
+      "Pharmacodynamics"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Pharmacodynamics. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-002-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Pharmacodynamics?",
+    "options": [
+      "activate receptor-mediated effects",
+      "deliver medication through the digestive system",
+      "identify clinically important medication combinations",
+      "describe drug effects and mechanisms"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is describe drug effects and mechanisms. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-003-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the time required for a drug concentration to decrease by half?",
+    "options": [
+      "Intramuscular route",
+      "Half-life",
+      "Anticoagulant",
+      "Subcutaneous route"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Half-life. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-003-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Half-life?",
+    "options": [
+      "the time required for a drug concentration to decrease by half",
+      "a substance that binds a receptor and blocks or reduces its activation",
+      "drug administration through the gastrointestinal tract",
+      "an initial larger dose used to reach a target concentration more rapidly"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is the time required for a drug concentration to decrease by half. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-003-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a medication concentration falls from 100 to 50 units. Which concept best matches it?",
+    "options": [
+      "Diuretic",
+      "Half-life",
+      "Antibiotic",
+      "Tolerance"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Half-life. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-003-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Half-life?",
+    "options": [
+      "deliver medication into muscle",
+      "identify clinically important medication combinations",
+      "produce a local or surface effect",
+      "help predict drug accumulation and elimination"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is help predict drug accumulation and elimination. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-004-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the fraction of an administered dose that reaches systemic circulation unchanged?",
+    "options": [
+      "Bioavailability",
+      "Intramuscular route",
+      "Tolerance",
+      "Contraindication"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Bioavailability. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-004-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Bioavailability?",
+    "options": [
+      "a drug class that blocks beta-adrenergic receptors",
+      "drug administration through the gastrointestinal tract",
+      "administration into tissue beneath the skin",
+      "the fraction of an administered dose that reaches systemic circulation unchanged"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is the fraction of an administered dose that reaches systemic circulation unchanged. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-004-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: different routes deliver different proportions of a dose to circulation. Which concept best matches it?",
+    "options": [
+      "First-pass effect",
+      "Enteral route",
+      "Bioavailability",
+      "Pharmacokinetics"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Bioavailability. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-004-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Bioavailability?",
+    "options": [
+      "deliver medication into muscle",
+      "describe reduced drug response",
+      "compare systemic availability",
+      "identify clinically important medication combinations"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is compare systemic availability. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-005-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: presystemic metabolism that reduces the amount of some orally administered drugs reaching systemic circulation?",
+    "options": [
+      "Agonist",
+      "Topical route",
+      "Bioavailability",
+      "First-pass effect"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is First-pass effect. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-005-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes First-pass effect?",
+    "options": [
+      "a reduced response to a drug after repeated exposure",
+      "the study of what the body does to a drug",
+      "a state in which the body adapts to a drug and withdrawal may occur when it is stopped",
+      "presystemic metabolism that reduces the amount of some orally administered drugs reaching systemic circulation"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is presystemic metabolism that reduces the amount of some orally administered drugs reaching systemic circulation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-005-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an oral drug is extensively metabolized before reaching systemic circulation. Which concept best matches it?",
+    "options": [
+      "Antagonist",
+      "Tolerance",
+      "Intramuscular route",
+      "First-pass effect"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is First-pass effect. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-005-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with First-pass effect?",
+    "options": [
+      "deliver medication outside the GI tract",
+      "oppose receptor activation",
+      "explain reduced oral bioavailability",
+      "provide direct systemic delivery"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is explain reduced oral bioavailability. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-006-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a substance that binds a receptor and activates it?",
+    "options": [
+      "First-pass effect",
+      "Agonist",
+      "Pharmacokinetics",
+      "Therapeutic index"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Agonist. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-006-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Agonist?",
+    "options": [
+      "the study of what the body does to a drug",
+      "a reduced response to a drug after repeated exposure",
+      "a substance that binds a receptor and activates it",
+      "the fraction of an administered dose that reaches systemic circulation unchanged"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a substance that binds a receptor and activates it. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-006-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a drug produces a response by stimulating a receptor. Which concept best matches it?",
+    "options": [
+      "Intravenous route",
+      "Antibiotic",
+      "Enteral route",
+      "Agonist"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Agonist. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-006-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Agonist?",
+    "options": [
+      "explain reduced oral bioavailability",
+      "promote fluid and sodium excretion",
+      "describe drug effects and mechanisms",
+      "activate receptor-mediated effects"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is activate receptor-mediated effects. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-007-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a substance that binds a receptor and blocks or reduces its activation?",
+    "options": [
+      "Therapeutic index",
+      "Beta blocker",
+      "Antagonist",
+      "Pharmacodynamics"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Antagonist. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-007-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Antagonist?",
+    "options": [
+      "a substance that binds a receptor and blocks or reduces its activation",
+      "a measure comparing toxic and effective drug exposure",
+      "the study of what a drug does to the body",
+      "the fraction of an administered dose that reaches systemic circulation unchanged"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a substance that binds a receptor and blocks or reduces its activation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-007-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a drug prevents a receptor from producing its usual response. Which concept best matches it?",
+    "options": [
+      "First-pass effect",
+      "Subcutaneous route",
+      "Antibiotic",
+      "Antagonist"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Antagonist. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-007-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Antagonist?",
+    "options": [
+      "oppose receptor activation",
+      "deliver medication outside the GI tract",
+      "deliver certain medications into subcutaneous tissue",
+      "describe relative safety margin"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is oppose receptor activation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-008-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a measure comparing toxic and effective drug exposure?",
+    "options": [
+      "Intramuscular route",
+      "Pharmacodynamics",
+      "Therapeutic index",
+      "Enteral route"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Therapeutic index. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-008-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Therapeutic index?",
+    "options": [
+      "a condition in which a medication or treatment should not be used",
+      "an initial larger dose used to reach a target concentration more rapidly",
+      "a drug used to treat susceptible bacterial infections",
+      "a measure comparing toxic and effective drug exposure"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a measure comparing toxic and effective drug exposure. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-008-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a drug with a narrow safety margin requires careful dosing. Which concept best matches it?",
+    "options": [
+      "Half-life",
+      "Diuretic",
+      "Therapeutic index",
+      "Pharmacokinetics"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Therapeutic index. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-008-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Therapeutic index?",
+    "options": [
+      "prevent unsafe treatment",
+      "describe relative safety margin",
+      "compare systemic availability",
+      "deliver medication through the digestive system"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is describe relative safety margin. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-009-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an unintended harmful response occurring at normal drug use?",
+    "options": [
+      "Loading dose",
+      "Intramuscular route",
+      "Adverse drug reaction",
+      "Topical route"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Adverse drug reaction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-009-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Adverse drug reaction?",
+    "options": [
+      "an unintended harmful response occurring at normal drug use",
+      "a drug used to treat susceptible bacterial infections",
+      "administration into skeletal muscle",
+      "a medication that increases renal excretion of sodium and water"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is an unintended harmful response occurring at normal drug use. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-009-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient develops a harmful effect after receiving a medication. Which concept best matches it?",
+    "options": [
+      "Parenteral route",
+      "Intramuscular route",
+      "Adverse drug reaction",
+      "Beta blocker"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Adverse drug reaction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-009-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Adverse drug reaction?",
+    "options": [
+      "explain reduced oral bioavailability",
+      "recognize medication-related harm",
+      "oppose receptor activation",
+      "prevent unsafe treatment"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is recognize medication-related harm. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-010-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a condition in which a medication or treatment should not be used?",
+    "options": [
+      "Antagonist",
+      "Enteral route",
+      "Half-life",
+      "Contraindication"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Contraindication. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-010-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Contraindication?",
+    "options": [
+      "a measure comparing toxic and effective drug exposure",
+      "a condition in which a medication or treatment should not be used",
+      "the study of what a drug does to the body",
+      "an initial larger dose used to reach a target concentration more rapidly"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a condition in which a medication or treatment should not be used. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-010-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has a condition that makes a drug inappropriate. Which concept best matches it?",
+    "options": [
+      "Contraindication",
+      "Agonist",
+      "Diuretic",
+      "Beta blocker"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Contraindication. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-010-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Contraindication?",
+    "options": [
+      "explain reduced oral bioavailability",
+      "prevent unsafe treatment",
+      "activate receptor-mediated effects",
+      "describe drug movement through the body"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is prevent unsafe treatment. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-011-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a change in the effect of one drug caused by another substance?",
+    "options": [
+      "Drug interaction",
+      "Beta blocker",
+      "Contraindication",
+      "Loading dose"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Drug interaction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-011-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Drug interaction?",
+    "options": [
+      "a change in the effect of one drug caused by another substance",
+      "a medication that reduces blood clot formation",
+      "administration into skeletal muscle",
+      "drug administration that bypasses the gastrointestinal tract"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a change in the effect of one drug caused by another substance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-011-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: one medication alters another medication's effect. Which concept best matches it?",
+    "options": [
+      "Adverse drug reaction",
+      "Pharmacodynamics",
+      "Drug interaction",
+      "Parenteral route"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Drug interaction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-011-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Drug interaction?",
+    "options": [
+      "deliver medication through the digestive system",
+      "target susceptible bacteria",
+      "identify clinically important medication combinations",
+      "prevent unsafe treatment"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is identify clinically important medication combinations. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-012-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a reduced response to a drug after repeated exposure?",
+    "options": [
+      "Anticoagulant",
+      "Enteral route",
+      "Tolerance",
+      "Diuretic"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Tolerance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-012-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Tolerance?",
+    "options": [
+      "an initial larger dose used to reach a target concentration more rapidly",
+      "drug administration that bypasses the gastrointestinal tract",
+      "administration directly into a vein",
+      "a reduced response to a drug after repeated exposure"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a reduced response to a drug after repeated exposure. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-012-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: higher doses are needed over time to produce the same effect. Which concept best matches it?",
+    "options": [
+      "Loading dose",
+      "Tolerance",
+      "Dependence",
+      "Enteral route"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Tolerance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-012-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Tolerance?",
+    "options": [
+      "deliver medication outside the GI tract",
+      "describe physiologic adaptation",
+      "describe reduced drug response",
+      "promote fluid and sodium excretion"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is describe reduced drug response. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-013-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a state in which the body adapts to a drug and withdrawal may occur when it is stopped?",
+    "options": [
+      "First-pass effect",
+      "Topical route",
+      "Tolerance",
+      "Dependence"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Dependence. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-013-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Dependence?",
+    "options": [
+      "administration into skeletal muscle",
+      "a drug class that blocks beta-adrenergic receptors",
+      "a state in which the body adapts to a drug and withdrawal may occur when it is stopped",
+      "administration directly into a vein"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a state in which the body adapts to a drug and withdrawal may occur when it is stopped. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-013-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: abrupt discontinuation causes a withdrawal syndrome. Which concept best matches it?",
+    "options": [
+      "Dependence",
+      "Intramuscular route",
+      "Subcutaneous route",
+      "Topical route"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Dependence. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-013-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Dependence?",
+    "options": [
+      "describe physiologic adaptation",
+      "describe drug effects and mechanisms",
+      "target susceptible bacteria",
+      "prevent unsafe treatment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is describe physiologic adaptation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-014-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an initial larger dose used to reach a target concentration more rapidly?",
+    "options": [
+      "Drug interaction",
+      "Pharmacokinetics",
+      "Subcutaneous route",
+      "Loading dose"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Loading dose. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-014-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Loading dose?",
+    "options": [
+      "the time required for a drug concentration to decrease by half",
+      "drug administration that bypasses the gastrointestinal tract",
+      "an initial larger dose used to reach a target concentration more rapidly",
+      "a medication that increases renal excretion of sodium and water"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is an initial larger dose used to reach a target concentration more rapidly. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-014-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: therapy begins with a dose intended to achieve effective levels quickly. Which concept best matches it?",
+    "options": [
+      "Loading dose",
+      "Agonist",
+      "Half-life",
+      "Tolerance"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Loading dose. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-014-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Loading dose?",
+    "options": [
+      "reach therapeutic concentration sooner",
+      "deliver certain medications into subcutaneous tissue",
+      "provide direct systemic delivery",
+      "describe reduced drug response"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is reach therapeutic concentration sooner. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-015-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a dose given to maintain a target drug concentration?",
+    "options": [
+      "Diuretic",
+      "Topical route",
+      "Pharmacokinetics",
+      "Maintenance dose"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Maintenance dose. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-015-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Maintenance dose?",
+    "options": [
+      "a substance that binds a receptor and blocks or reduces its activation",
+      "drug administration through the gastrointestinal tract",
+      "drug administration that bypasses the gastrointestinal tract",
+      "a dose given to maintain a target drug concentration"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a dose given to maintain a target drug concentration. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-015-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: repeated doses are adjusted to maintain effective levels. Which concept best matches it?",
+    "options": [
+      "Subcutaneous route",
+      "Maintenance dose",
+      "Antagonist",
+      "Diuretic"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Maintenance dose. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-015-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Maintenance dose?",
+    "options": [
+      "maintain drug exposure",
+      "describe physiologic adaptation",
+      "describe drug effects and mechanisms",
+      "describe reduced drug response"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is maintain drug exposure. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-016-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: drug administration through the gastrointestinal tract?",
+    "options": [
+      "Adverse drug reaction",
+      "Pharmacokinetics",
+      "Enteral route",
+      "Bioavailability"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Enteral route. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-016-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Enteral route?",
+    "options": [
+      "a substance that binds a receptor and activates it",
+      "administration into skeletal muscle",
+      "drug administration through the gastrointestinal tract",
+      "a condition in which a medication or treatment should not be used"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is drug administration through the gastrointestinal tract. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-016-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a medication is given orally or through the GI tract. Which concept best matches it?",
+    "options": [
+      "Enteral route",
+      "Agonist",
+      "First-pass effect",
+      "Pharmacodynamics"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Enteral route. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-016-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Enteral route?",
+    "options": [
+      "describe physiologic adaptation",
+      "recognize medication-related harm",
+      "describe drug movement through the body",
+      "deliver medication through the digestive system"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is deliver medication through the digestive system. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-017-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: drug administration that bypasses the gastrointestinal tract?",
+    "options": [
+      "Antagonist",
+      "Diuretic",
+      "Maintenance dose",
+      "Parenteral route"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Parenteral route. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-017-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Parenteral route?",
+    "options": [
+      "an initial larger dose used to reach a target concentration more rapidly",
+      "the time required for a drug concentration to decrease by half",
+      "administration into skeletal muscle",
+      "drug administration that bypasses the gastrointestinal tract"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is drug administration that bypasses the gastrointestinal tract. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-017-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a medication is delivered by injection. Which concept best matches it?",
+    "options": [
+      "Topical route",
+      "Subcutaneous route",
+      "Anticoagulant",
+      "Parenteral route"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Parenteral route. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-017-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Parenteral route?",
+    "options": [
+      "produce a local or surface effect",
+      "reduce coagulation-related clotting",
+      "deliver medication outside the GI tract",
+      "reduce selected beta-adrenergic effects"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is deliver medication outside the GI tract. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-018-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: administration directly into a vein?",
+    "options": [
+      "Adverse drug reaction",
+      "Intramuscular route",
+      "Anticoagulant",
+      "Intravenous route"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Intravenous route. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-018-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Intravenous route?",
+    "options": [
+      "an unintended harmful response occurring at normal drug use",
+      "administration directly into a vein",
+      "a substance that binds a receptor and blocks or reduces its activation",
+      "a dose given to maintain a target drug concentration"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is administration directly into a vein. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-018-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a drug is infused through an IV line. Which concept best matches it?",
+    "options": [
+      "Intravenous route",
+      "Maintenance dose",
+      "First-pass effect",
+      "Loading dose"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Intravenous route. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-018-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Intravenous route?",
+    "options": [
+      "deliver certain medications into subcutaneous tissue",
+      "describe drug effects and mechanisms",
+      "provide direct systemic delivery",
+      "help predict drug accumulation and elimination"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is provide direct systemic delivery. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-019-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: administration into skeletal muscle?",
+    "options": [
+      "Intramuscular route",
+      "Adverse drug reaction",
+      "Agonist",
+      "Topical route"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Intramuscular route. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-019-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Intramuscular route?",
+    "options": [
+      "a substance that binds a receptor and blocks or reduces its activation",
+      "the study of what the body does to a drug",
+      "administration into skeletal muscle",
+      "a dose given to maintain a target drug concentration"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is administration into skeletal muscle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-019-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a medication is injected into muscle tissue. Which concept best matches it?",
+    "options": [
+      "Pharmacodynamics",
+      "Enteral route",
+      "Bioavailability",
+      "Intramuscular route"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Intramuscular route. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-019-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Intramuscular route?",
+    "options": [
+      "describe drug movement through the body",
+      "describe relative safety margin",
+      "oppose receptor activation",
+      "deliver medication into muscle"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is deliver medication into muscle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-020-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: administration into tissue beneath the skin?",
+    "options": [
+      "Topical route",
+      "Antagonist",
+      "Subcutaneous route",
+      "Tolerance"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Subcutaneous route. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-020-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Subcutaneous route?",
+    "options": [
+      "the time required for a drug concentration to decrease by half",
+      "a state in which the body adapts to a drug and withdrawal may occur when it is stopped",
+      "administration into tissue beneath the skin",
+      "a condition in which a medication or treatment should not be used"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is administration into tissue beneath the skin. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-020-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a medication is injected into subcutaneous tissue. Which concept best matches it?",
+    "options": [
+      "Subcutaneous route",
+      "Bioavailability",
+      "First-pass effect",
+      "Loading dose"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Subcutaneous route. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-020-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Subcutaneous route?",
+    "options": [
+      "identify clinically important medication combinations",
+      "deliver certain medications into subcutaneous tissue",
+      "describe physiologic adaptation",
+      "reduce selected beta-adrenergic effects"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is deliver certain medications into subcutaneous tissue. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-021-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: application of medication to a body surface, often skin or mucosa?",
+    "options": [
+      "Intramuscular route",
+      "Dependence",
+      "Topical route",
+      "Drug interaction"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Topical route. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-021-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Topical route?",
+    "options": [
+      "application of medication to a body surface, often skin or mucosa",
+      "a medication that increases renal excretion of sodium and water",
+      "a state in which the body adapts to a drug and withdrawal may occur when it is stopped",
+      "drug administration through the gastrointestinal tract"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is application of medication to a body surface, often skin or mucosa. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-021-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a cream is applied to the skin. Which concept best matches it?",
+    "options": [
+      "Diuretic",
+      "Contraindication",
+      "Topical route",
+      "Enteral route"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Topical route. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-021-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Topical route?",
+    "options": [
+      "describe reduced drug response",
+      "recognize medication-related harm",
+      "describe relative safety margin",
+      "produce a local or surface effect"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is produce a local or surface effect. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-022-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a drug used to treat susceptible bacterial infections?",
+    "options": [
+      "Anticoagulant",
+      "Antagonist",
+      "Subcutaneous route",
+      "Antibiotic"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Antibiotic. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-022-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Antibiotic?",
+    "options": [
+      "administration directly into a vein",
+      "a drug used to treat susceptible bacterial infections",
+      "a reduced response to a drug after repeated exposure",
+      "an unintended harmful response occurring at normal drug use"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a drug used to treat susceptible bacterial infections. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-022-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient receives an antibacterial medication for a bacterial infection. Which concept best matches it?",
+    "options": [
+      "Antibiotic",
+      "Dependence",
+      "Half-life",
+      "Pharmacokinetics"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Antibiotic. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-022-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Antibiotic?",
+    "options": [
+      "produce a local or surface effect",
+      "target susceptible bacteria",
+      "reach therapeutic concentration sooner",
+      "reduce selected beta-adrenergic effects"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is target susceptible bacteria. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-023-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a medication that reduces blood clot formation?",
+    "options": [
+      "Antagonist",
+      "Bioavailability",
+      "Pharmacodynamics",
+      "Anticoagulant"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Anticoagulant. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-023-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Anticoagulant?",
+    "options": [
+      "a medication that reduces blood clot formation",
+      "an initial larger dose used to reach a target concentration more rapidly",
+      "a change in the effect of one drug caused by another substance",
+      "an unintended harmful response occurring at normal drug use"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a medication that reduces blood clot formation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-023-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient receives medication to reduce thrombus formation. Which concept best matches it?",
+    "options": [
+      "Maintenance dose",
+      "Drug interaction",
+      "Tolerance",
+      "Anticoagulant"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Anticoagulant. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-023-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Anticoagulant?",
+    "options": [
+      "reduce coagulation-related clotting",
+      "describe physiologic adaptation",
+      "describe relative safety margin",
+      "reduce selected beta-adrenergic effects"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is reduce coagulation-related clotting. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-024-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a medication that increases renal excretion of sodium and water?",
+    "options": [
+      "Dependence",
+      "Tolerance",
+      "Diuretic",
+      "Loading dose"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Diuretic. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-024-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Diuretic?",
+    "options": [
+      "the time required for a drug concentration to decrease by half",
+      "a measure comparing toxic and effective drug exposure",
+      "a medication that increases renal excretion of sodium and water",
+      "a reduced response to a drug after repeated exposure"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a medication that increases renal excretion of sodium and water. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-024-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient takes a drug that increases urine production. Which concept best matches it?",
+    "options": [
+      "Diuretic",
+      "Drug interaction",
+      "Pharmacokinetics",
+      "Antibiotic"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Diuretic. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-024-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Diuretic?",
+    "options": [
+      "promote fluid and sodium excretion",
+      "compare systemic availability",
+      "deliver medication through the digestive system",
+      "reach therapeutic concentration sooner"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is promote fluid and sodium excretion. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-025-1",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a drug class that blocks beta-adrenergic receptors?",
+    "options": [
+      "Beta blocker",
+      "Antibiotic",
+      "Topical route",
+      "Diuretic"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Beta blocker. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-MEDIUM-025-2",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Beta blocker?",
+    "options": [
+      "a drug class that blocks beta-adrenergic receptors",
+      "a condition in which a medication or treatment should not be used",
+      "a state in which the body adapts to a drug and withdrawal may occur when it is stopped",
+      "a medication that increases renal excretion of sodium and water"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a drug class that blocks beta-adrenergic receptors. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-HARD-025-3",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a medication lowers sympathetic cardiac effects by blocking beta receptors. Which concept best matches it?",
+    "options": [
+      "Subcutaneous route",
+      "Beta blocker",
+      "Half-life",
+      "Pharmacodynamics"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Beta blocker. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARMACOLOGY-EASY-025-4",
+    "category": "Pharmacology",
+    "subcategory": "Pharmacology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Beta blocker?",
+    "options": [
+      "deliver medication through the digestive system",
+      "reduce coagulation-related clotting",
+      "describe reduced drug response",
+      "reduce selected beta-adrenergic effects"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is reduce selected beta-adrenergic effects. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
   }
 ]

@@ -226,5 +226,1829 @@
       "engineering"
     ],
     "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-001-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: internal force per unit area within a material?",
+    "options": [
+      "Forging",
+      "Finite element method",
+      "Torque",
+      "Stress"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Stress. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-001-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Stress?",
+    "options": [
+      "a numerical technique that divides a complex domain into smaller elements for analysis",
+      "internal force per unit area within a material",
+      "the study of energy, heat, work, and related transformations",
+      "the rotational effect of a force about an axis"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is internal force per unit area within a material. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-001-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a load produces internal forces distributed across a component. Which concept best matches it?",
+    "options": [
+      "CNC",
+      "Stress",
+      "Welding",
+      "Forging"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Stress. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-001-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Stress?",
+    "options": [
+      "analyze fluid behavior",
+      "maintain a desired process behavior",
+      "quantify internal loading intensity",
+      "quantify resistance associated with geometry or mass distribution"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is quantify internal loading intensity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-002-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: deformation per unit original dimension?",
+    "options": [
+      "Strain",
+      "Tolerance",
+      "CAD",
+      "Stress"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Strain. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-002-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Strain?",
+    "options": [
+      "a manufacturing process in which molten material is poured into a mold and solidified",
+      "a dimensionless quantity comparing inertial and viscous effects in fluid flow",
+      "the study of energy, heat, work, and related transformations",
+      "deformation per unit original dimension"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is deformation per unit original dimension. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-002-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a loaded specimen changes length relative to its original length. Which concept best matches it?",
+    "options": [
+      "Moment of inertia",
+      "Strain",
+      "Bernoulli equation",
+      "Shear force"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Strain. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-002-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Strain?",
+    "options": [
+      "measure the rate of energy transfer",
+      "measure deformation",
+      "join components",
+      "correct deviations from a target"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is measure deformation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-003-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the ratio of normal stress to normal strain in the linear elastic region?",
+    "options": [
+      "Young's modulus",
+      "Factor of safety",
+      "CAD",
+      "CNC"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Young's modulus. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-003-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Young's modulus?",
+    "options": [
+      "the study of energy, heat, work, and related transformations",
+      "the ratio of normal stress to normal strain in the linear elastic region",
+      "a measure of an area's or mass's distribution relative to an axis, depending on context",
+      "the study of fluids at rest and in motion"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is the ratio of normal stress to normal strain in the linear elastic region. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-003-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: engineers compare the stiffness of materials using a material constant. Which concept best matches it?",
+    "options": [
+      "Torque",
+      "Young's modulus",
+      "Stress",
+      "CAD"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Young's modulus. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-003-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Young's modulus?",
+    "options": [
+      "transfer heat between fluid streams",
+      "understand material degradation",
+      "characterize elastic stiffness",
+      "quantify internal loading intensity"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is characterize elastic stiffness. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-004-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a design margin comparing capacity to expected or allowable demand?",
+    "options": [
+      "Factor of safety",
+      "Corrosion",
+      "Heat exchanger",
+      "Bending moment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Factor of safety. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-004-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Factor of safety?",
+    "options": [
+      "an allowable range of variation from a specified dimension or value",
+      "a manufacturing process that shapes material through compressive forces",
+      "a design margin comparing capacity to expected or allowable demand",
+      "the internal moment that causes a structural member to bend"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a design margin comparing capacity to expected or allowable demand. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-004-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a component is designed with strength exceeding the expected load. Which concept best matches it?",
+    "options": [
+      "Corrosion",
+      "Factor of safety",
+      "Fatigue",
+      "Strain"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Factor of safety. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-004-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Factor of safety?",
+    "options": [
+      "describe transverse internal force",
+      "help distinguish laminar and turbulent tendencies",
+      "provide a safety margin",
+      "transfer heat between fluid streams"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is provide a safety margin. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-005-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the rotational effect of a force about an axis?",
+    "options": [
+      "Fluid mechanics",
+      "Casting",
+      "Torque",
+      "Bernoulli equation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Torque. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-005-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Torque?",
+    "options": [
+      "a device that transfers thermal energy between fluids without necessarily mixing them",
+      "computer numerical control of machine tools",
+      "the rotational effect of a force about an axis",
+      "the internal moment that causes a structural member to bend"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is the rotational effect of a force about an axis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-005-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a wrench applies force at a distance from a bolt. Which concept best matches it?",
+    "options": [
+      "Torque",
+      "Bending moment",
+      "Control system",
+      "Power"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Torque. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-005-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Torque?",
+    "options": [
+      "produce or resist rotation",
+      "quantify internal loading intensity",
+      "relate pressure, speed, and elevation",
+      "analyze fluid behavior"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is produce or resist rotation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-006-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the rate at which work is done or energy is transferred?",
+    "options": [
+      "Young's modulus",
+      "Strain",
+      "Power",
+      "Bending moment"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Power. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-006-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Power?",
+    "options": [
+      "the rate at which work is done or energy is transferred",
+      "a device that transfers thermal energy between fluids without necessarily mixing them",
+      "degradation of a material through chemical or electrochemical interaction with its environment",
+      "a dimensionless quantity comparing inertial and viscous effects in fluid flow"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is the rate at which work is done or energy is transferred. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-006-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a motor's output is described in watts. Which concept best matches it?",
+    "options": [
+      "Power",
+      "Tolerance",
+      "Factor of safety",
+      "Stress"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Power. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-006-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Power?",
+    "options": [
+      "characterize elastic stiffness",
+      "join components",
+      "describe transverse internal force",
+      "measure the rate of energy transfer"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is measure the rate of energy transfer. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-007-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a measure of an area's or mass's distribution relative to an axis, depending on context?",
+    "options": [
+      "Casting",
+      "Reynolds number",
+      "Forging",
+      "Moment of inertia"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Moment of inertia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-007-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Moment of inertia?",
+    "options": [
+      "a joining process that creates a metallurgical bond between materials, commonly metals",
+      "a measure of an area's or mass's distribution relative to an axis, depending on context",
+      "a design margin comparing capacity to expected or allowable demand",
+      "computer numerical control of machine tools"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a measure of an area's or mass's distribution relative to an axis, depending on context. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-007-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: beam bending or rotational dynamics requires an inertia property. Which concept best matches it?",
+    "options": [
+      "Tolerance",
+      "Moment of inertia",
+      "Power",
+      "Corrosion"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Moment of inertia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-007-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Moment of inertia?",
+    "options": [
+      "relate pressure, speed, and elevation",
+      "understand material degradation",
+      "quantify resistance associated with geometry or mass distribution",
+      "analyze fluid behavior"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is quantify resistance associated with geometry or mass distribution. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-008-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a force acting parallel to a cross-section?",
+    "options": [
+      "CNC",
+      "Bernoulli equation",
+      "Shear force",
+      "Fatigue"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Shear force. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-008-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Shear force?",
+    "options": [
+      "a force acting parallel to a cross-section",
+      "the rotational effect of a force about an axis",
+      "a device that transfers thermal energy between fluids without necessarily mixing them",
+      "internal force per unit area within a material"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a force acting parallel to a cross-section. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-008-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a beam experiences internal transverse loading. Which concept best matches it?",
+    "options": [
+      "CAD",
+      "Tolerance",
+      "Bernoulli equation",
+      "Shear force"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Shear force. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-008-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Shear force?",
+    "options": [
+      "transfer heat between fluid streams",
+      "join components",
+      "help distinguish laminar and turbulent tendencies",
+      "describe transverse internal force"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is describe transverse internal force. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-009-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the internal moment that causes a structural member to bend?",
+    "options": [
+      "Corrosion",
+      "Thermodynamics",
+      "Moment of inertia",
+      "Bending moment"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Bending moment. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-009-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Bending moment?",
+    "options": [
+      "a manufacturing process that shapes material through compressive forces",
+      "the rotational effect of a force about an axis",
+      "the internal moment that causes a structural member to bend",
+      "a force acting parallel to a cross-section"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is the internal moment that causes a structural member to bend. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-009-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a beam under transverse loads develops internal moments. Which concept best matches it?",
+    "options": [
+      "Bending moment",
+      "Young's modulus",
+      "Forging",
+      "Moment of inertia"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Bending moment. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-009-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Bending moment?",
+    "options": [
+      "approximate solutions to engineering field problems",
+      "control acceptable manufacturing variation",
+      "understand material degradation",
+      "analyze beam bending"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is analyze beam bending. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-010-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the study of energy, heat, work, and related transformations?",
+    "options": [
+      "Reynolds number",
+      "Thermodynamics",
+      "Feedback",
+      "Fatigue"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Thermodynamics. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-010-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Thermodynamics?",
+    "options": [
+      "a device that transfers thermal energy between fluids without necessarily mixing them",
+      "the internal moment that causes a structural member to bend",
+      "a joining process that creates a metallurgical bond between materials, commonly metals",
+      "the study of energy, heat, work, and related transformations"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is the study of energy, heat, work, and related transformations. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-010-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: engineers analyze heat engines and energy balances. Which concept best matches it?",
+    "options": [
+      "Welding",
+      "Fluid mechanics",
+      "Corrosion",
+      "Thermodynamics"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Thermodynamics. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-010-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Thermodynamics?",
+    "options": [
+      "analyze energy conversion",
+      "join components",
+      "measure the rate of energy transfer",
+      "quantify resistance associated with geometry or mass distribution"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is analyze energy conversion. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-011-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the study of fluids at rest and in motion?",
+    "options": [
+      "Fluid mechanics",
+      "Moment of inertia",
+      "Young's modulus",
+      "Torque"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fluid mechanics. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-011-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Fluid mechanics?",
+    "options": [
+      "an energy relationship for certain steady incompressible flows along a streamline",
+      "degradation of a material through chemical or electrochemical interaction with its environment",
+      "deformation per unit original dimension",
+      "the study of fluids at rest and in motion"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is the study of fluids at rest and in motion. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-011-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: pressure, velocity, and flow are analyzed in pipes. Which concept best matches it?",
+    "options": [
+      "Forging",
+      "Finite element method",
+      "Fluid mechanics",
+      "Bending moment"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Fluid mechanics. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-011-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Fluid mechanics?",
+    "options": [
+      "provide a safety margin",
+      "join components",
+      "quantify internal loading intensity",
+      "analyze fluid behavior"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is analyze fluid behavior. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-012-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a dimensionless quantity comparing inertial and viscous effects in fluid flow?",
+    "options": [
+      "Bending moment",
+      "Reynolds number",
+      "Factor of safety",
+      "Shear force"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Reynolds number. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-012-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Reynolds number?",
+    "options": [
+      "computer numerical control of machine tools",
+      "a dimensionless quantity comparing inertial and viscous effects in fluid flow",
+      "the ratio of normal stress to normal strain in the linear elastic region",
+      "the internal moment that causes a structural member to bend"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a dimensionless quantity comparing inertial and viscous effects in fluid flow. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-012-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: engineers use a dimensionless ratio to characterize flow regime. Which concept best matches it?",
+    "options": [
+      "Reynolds number",
+      "CNC",
+      "Factor of safety",
+      "Heat exchanger"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reynolds number. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-012-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Reynolds number?",
+    "options": [
+      "help distinguish laminar and turbulent tendencies",
+      "transfer heat between fluid streams",
+      "quantify internal loading intensity",
+      "produce or resist rotation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is help distinguish laminar and turbulent tendencies. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-013-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an energy relationship for certain steady incompressible flows along a streamline?",
+    "options": [
+      "Bernoulli equation",
+      "Feedback",
+      "Strain",
+      "Casting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Bernoulli equation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-013-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Bernoulli equation?",
+    "options": [
+      "the internal moment that causes a structural member to bend",
+      "a dimensionless quantity comparing inertial and viscous effects in fluid flow",
+      "an energy relationship for certain steady incompressible flows along a streamline",
+      "the study of energy, heat, work, and related transformations"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is an energy relationship for certain steady incompressible flows along a streamline. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-013-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: pressure, velocity, and elevation are related in idealized flow. Which concept best matches it?",
+    "options": [
+      "Tolerance",
+      "Fluid mechanics",
+      "Bernoulli equation",
+      "Moment of inertia"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Bernoulli equation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-013-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Bernoulli equation?",
+    "options": [
+      "relate pressure, speed, and elevation",
+      "produce shaped components from molten material",
+      "characterize elastic stiffness",
+      "form strong metal components"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is relate pressure, speed, and elevation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-014-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a device that transfers thermal energy between fluids without necessarily mixing them?",
+    "options": [
+      "Heat exchanger",
+      "Bernoulli equation",
+      "Stress",
+      "Finite element method"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Heat exchanger. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-014-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Heat exchanger?",
+    "options": [
+      "a device that transfers thermal energy between fluids without necessarily mixing them",
+      "a measure of an area's or mass's distribution relative to an axis, depending on context",
+      "a system that regulates a process using inputs, outputs, and feedback or control logic",
+      "internal force per unit area within a material"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a device that transfers thermal energy between fluids without necessarily mixing them. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-014-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: two fluids exchange heat across a separating surface. Which concept best matches it?",
+    "options": [
+      "Power",
+      "CAD",
+      "Tolerance",
+      "Heat exchanger"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Heat exchanger. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-014-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Heat exchanger?",
+    "options": [
+      "join components",
+      "measure deformation",
+      "transfer heat between fluid streams",
+      "analyze fluid behavior"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is transfer heat between fluid streams. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-015-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a system that regulates a process using inputs, outputs, and feedback or control logic?",
+    "options": [
+      "CNC",
+      "Torque",
+      "Control system",
+      "Stress"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Control system. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-015-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Control system?",
+    "options": [
+      "a manufacturing process in which molten material is poured into a mold and solidified",
+      "a design margin comparing capacity to expected or allowable demand",
+      "a system that regulates a process using inputs, outputs, and feedback or control logic",
+      "the rate at which work is done or energy is transferred"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a system that regulates a process using inputs, outputs, and feedback or control logic. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-015-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a controller adjusts a process based on measured conditions. Which concept best matches it?",
+    "options": [
+      "Control system",
+      "CAD",
+      "Fluid mechanics",
+      "Moment of inertia"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Control system. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-015-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Control system?",
+    "options": [
+      "maintain a desired process behavior",
+      "control acceptable manufacturing variation",
+      "approximate solutions to engineering field problems",
+      "understand material degradation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is maintain a desired process behavior. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-016-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: information about system output used to influence future system behavior?",
+    "options": [
+      "Torque",
+      "Corrosion",
+      "Young's modulus",
+      "Feedback"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Feedback. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-016-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Feedback?",
+    "options": [
+      "a force acting parallel to a cross-section",
+      "internal force per unit area within a material",
+      "the internal moment that causes a structural member to bend",
+      "information about system output used to influence future system behavior"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is information about system output used to influence future system behavior. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-016-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a controller measures output and adjusts input. Which concept best matches it?",
+    "options": [
+      "Feedback",
+      "Stress",
+      "Young's modulus",
+      "Reynolds number"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Feedback. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-016-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Feedback?",
+    "options": [
+      "characterize elastic stiffness",
+      "measure deformation",
+      "correct deviations from a target",
+      "form strong metal components"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is correct deviations from a target. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-017-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a numerical technique that divides a complex domain into smaller elements for analysis?",
+    "options": [
+      "Finite element method",
+      "Factor of safety",
+      "Tolerance",
+      "Power"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Finite element method. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-017-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Finite element method?",
+    "options": [
+      "a manufacturing process in which molten material is poured into a mold and solidified",
+      "a numerical technique that divides a complex domain into smaller elements for analysis",
+      "degradation of a material through chemical or electrochemical interaction with its environment",
+      "the internal moment that causes a structural member to bend"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a numerical technique that divides a complex domain into smaller elements for analysis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-017-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a complex structure is discretized into many small computational regions. Which concept best matches it?",
+    "options": [
+      "Finite element method",
+      "Factor of safety",
+      "Strain",
+      "Thermodynamics"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Finite element method. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-017-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Finite element method?",
+    "options": [
+      "quantify resistance associated with geometry or mass distribution",
+      "form strong metal components",
+      "provide a safety margin",
+      "approximate solutions to engineering field problems"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is approximate solutions to engineering field problems. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-018-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an allowable range of variation from a specified dimension or value?",
+    "options": [
+      "Heat exchanger",
+      "Tolerance",
+      "Control system",
+      "Fatigue"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Tolerance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-018-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a manufactured shaft is permitted to vary slightly from nominal size. Which concept best matches it?",
+    "options": [
+      "Stress",
+      "Tolerance",
+      "Bernoulli equation",
+      "Fatigue"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Tolerance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-019-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: computer-aided design used to create and modify engineering drawings or models?",
+    "options": [
+      "CAD",
+      "Power",
+      "CNC",
+      "Bernoulli equation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is CAD. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-019-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes CAD?",
+    "options": [
+      "a manufacturing process that shapes material through compressive forces",
+      "the rate at which work is done or energy is transferred",
+      "an allowable range of variation from a specified dimension or value",
+      "computer-aided design used to create and modify engineering drawings or models"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is computer-aided design used to create and modify engineering drawings or models. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-019-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an engineer creates a 3D component model on a computer. Which concept best matches it?",
+    "options": [
+      "CAD",
+      "Reynolds number",
+      "Stress",
+      "Torque"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is CAD. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-019-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with CAD?",
+    "options": [
+      "quantify resistance associated with geometry or mass distribution",
+      "approximate solutions to engineering field problems",
+      "maintain a desired process behavior",
+      "support engineering design and documentation"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is support engineering design and documentation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-020-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: computer numerical control of machine tools?",
+    "options": [
+      "Reynolds number",
+      "Young's modulus",
+      "CNC",
+      "Tolerance"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is CNC. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-020-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes CNC?",
+    "options": [
+      "computer numerical control of machine tools",
+      "computer-aided design used to create and modify engineering drawings or models",
+      "the rotational effect of a force about an axis",
+      "the internal moment that causes a structural member to bend"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is computer numerical control of machine tools. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-020-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a machining center follows programmed instructions to cut a part. Which concept best matches it?",
+    "options": [
+      "Feedback",
+      "Factor of safety",
+      "CNC",
+      "Torque"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is CNC. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-020-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with CNC?",
+    "options": [
+      "relate pressure, speed, and elevation",
+      "analyze fluid behavior",
+      "transfer heat between fluid streams",
+      "automate precision manufacturing"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is automate precision manufacturing. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-021-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a joining process that creates a metallurgical bond between materials, commonly metals?",
+    "options": [
+      "Welding",
+      "Tolerance",
+      "Casting",
+      "Fluid mechanics"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Welding. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-021-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Welding?",
+    "options": [
+      "the ratio of normal stress to normal strain in the linear elastic region",
+      "computer numerical control of machine tools",
+      "the study of fluids at rest and in motion",
+      "a joining process that creates a metallurgical bond between materials, commonly metals"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a joining process that creates a metallurgical bond between materials, commonly metals. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-021-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: two metal pieces are permanently joined using heat, pressure, or both. Which concept best matches it?",
+    "options": [
+      "Welding",
+      "Torque",
+      "Thermodynamics",
+      "CAD"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Welding. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-021-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Welding?",
+    "options": [
+      "support engineering design and documentation",
+      "provide a safety margin",
+      "join components",
+      "measure deformation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is join components. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-022-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a manufacturing process in which molten material is poured into a mold and solidified?",
+    "options": [
+      "Fatigue",
+      "Fluid mechanics",
+      "Finite element method",
+      "Casting"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Casting. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-022-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a complex metal part is formed by filling a mold. Which concept best matches it?",
+    "options": [
+      "Bending moment",
+      "Young's modulus",
+      "Casting",
+      "Reynolds number"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Casting. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-023-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a manufacturing process that shapes material through compressive forces?",
+    "options": [
+      "Shear force",
+      "Heat exchanger",
+      "Forging",
+      "Casting"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Forging. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-023-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Forging?",
+    "options": [
+      "the ratio of normal stress to normal strain in the linear elastic region",
+      "a system that regulates a process using inputs, outputs, and feedback or control logic",
+      "a force acting parallel to a cross-section",
+      "a manufacturing process that shapes material through compressive forces"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a manufacturing process that shapes material through compressive forces. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-023-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: heated metal is shaped under a press or hammer. Which concept best matches it?",
+    "options": [
+      "Forging",
+      "Welding",
+      "Corrosion",
+      "Thermodynamics"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Forging. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-023-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Forging?",
+    "options": [
+      "provide a safety margin",
+      "maintain a desired process behavior",
+      "form strong metal components",
+      "join components"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is form strong metal components. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-024-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: degradation of a material through chemical or electrochemical interaction with its environment?",
+    "options": [
+      "Power",
+      "Corrosion",
+      "Thermodynamics",
+      "Reynolds number"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Corrosion. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-024-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Corrosion?",
+    "options": [
+      "failure or damage caused by repeated or fluctuating stresses",
+      "a dimensionless quantity comparing inertial and viscous effects in fluid flow",
+      "a manufacturing process that shapes material through compressive forces",
+      "degradation of a material through chemical or electrochemical interaction with its environment"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is degradation of a material through chemical or electrochemical interaction with its environment. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-024-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: metal deteriorates after prolonged environmental exposure. Which concept best matches it?",
+    "options": [
+      "Shear force",
+      "Power",
+      "Welding",
+      "Corrosion"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Corrosion. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-024-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Corrosion?",
+    "options": [
+      "understand material degradation",
+      "analyze energy conversion",
+      "relate pressure, speed, and elevation",
+      "transfer heat between fluid streams"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is understand material degradation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-025-1",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: failure or damage caused by repeated or fluctuating stresses?",
+    "options": [
+      "Strain",
+      "CNC",
+      "CAD",
+      "Fatigue"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Fatigue. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-MEDIUM-025-2",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "medium",
+    "question": "Which statement best describes Fatigue?",
+    "options": [
+      "a device that transfers thermal energy between fluids without necessarily mixing them",
+      "a numerical technique that divides a complex domain into smaller elements for analysis",
+      "a force acting parallel to a cross-section",
+      "failure or damage caused by repeated or fluctuating stresses"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is failure or damage caused by repeated or fluctuating stresses. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-HARD-025-3",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a component fails after many load cycles even though each load is below static strength. Which concept best matches it?",
+    "options": [
+      "Forging",
+      "Fatigue",
+      "Casting",
+      "Shear force"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Fatigue. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGINEERING-EASY-025-4",
+    "category": "Engineering",
+    "subcategory": "Engineering",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Fatigue?",
+    "options": [
+      "maintain a desired process behavior",
+      "analyze cyclic loading",
+      "relate pressure, speed, and elevation",
+      "produce or resist rotation"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is analyze cyclic loading. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
   }
 ]

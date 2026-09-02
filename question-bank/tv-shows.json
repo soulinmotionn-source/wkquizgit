@@ -207,5 +207,1905 @@
       "tv shows"
     ],
     "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-001-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a sitcom centered on six friends living in New York City?",
+    "options": [
+      "The Walking Dead",
+      "Sherlock",
+      "Friends",
+      "Narcos"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Friends. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-001-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes Friends?",
+    "options": [
+      "a medical drama focused on surgeons and their personal and professional lives",
+      "a workplace sitcom set at a paper company branch",
+      "a modern television adaptation featuring Sherlock Holmes",
+      "a sitcom centered on six friends living in New York City"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a sitcom centered on six friends living in New York City. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-001-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: six recurring friends share relationships and everyday adventures. Which concept best matches it?",
+    "options": [
+      "Better Call Saul",
+      "Wednesday",
+      "Friends",
+      "Sherlock"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Friends. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-001-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Friends?",
+    "options": [
+      "present ensemble comedy and friendship",
+      "explore crime, family, and psychology",
+      "combine survival drama with mystery",
+      "combine science-themed humor with relationship comedy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is present ensemble comedy and friendship. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-002-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a crime drama about a chemistry teacher who enters the illegal drug trade?",
+    "options": [
+      "Black Mirror",
+      "The Office",
+      "Breaking Bad",
+      "The Big Bang Theory"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Breaking Bad. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-002-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes Breaking Bad?",
+    "options": [
+      "a fantasy drama based on George R. R. Martin's novels",
+      "a workplace sitcom set at a paper company branch",
+      "a crime drama about a chemistry teacher who enters the illegal drug trade",
+      "an anthology series known for science fiction, fantasy, and psychological stories"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a crime drama about a chemistry teacher who enters the illegal drug trade. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-002-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: Walter White's life changes after a cancer diagnosis. Which concept best matches it?",
+    "options": [
+      "Narcos",
+      "Sherlock",
+      "Breaking Bad",
+      "The Mandalorian"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Breaking Bad. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-002-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Breaking Bad?",
+    "options": [
+      "explore family and culture through comedy",
+      "explore a lawyer's transformation and moral choices",
+      "depict historical royal events through drama",
+      "explore transformation and crime"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is explore transformation and crime. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-003-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a workplace sitcom set at a paper company branch?",
+    "options": [
+      "The Office",
+      "Black Mirror",
+      "The Simpsons",
+      "The Big Bang Theory"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is The Office. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-003-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes The Office?",
+    "options": [
+      "a fantasy drama based on George R. R. Martin's novels",
+      "a workplace sitcom set at a paper company branch",
+      "a modern television adaptation featuring Sherlock Holmes",
+      "a crime drama about the history of drug trafficking in Colombia"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a workplace sitcom set at a paper company branch. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-003-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: employees at Dunder Mifflin are filmed in mockumentary style. Which concept best matches it?",
+    "options": [
+      "The Witcher",
+      "The Office",
+      "Doctor Who",
+      "The Twilight Zone"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is The Office. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-003-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with The Office?",
+    "options": [
+      "turn everyday observations into comedy",
+      "portray workplace relationships through comedy",
+      "combine medical cases with character drama",
+      "dramatize complex diagnosis"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is portray workplace relationships through comedy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-004-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a fantasy drama based on George R. R. Martin's novels?",
+    "options": [
+      "Narcos",
+      "The Crown",
+      "Game of Thrones",
+      "Friends"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Game of Thrones. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-004-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes Game of Thrones?",
+    "options": [
+      "a sitcom about a teenager moving from Philadelphia to live with relatives in Bel-Air",
+      "a fantasy drama based on George R. R. Martin's novels",
+      "a series centered on Wednesday Addams at Nevermore Academy",
+      "a sitcom often described as a show about everyday life and social interactions"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a fantasy drama based on George R. R. Martin's novels. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-004-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: multiple noble houses compete for power in Westeros. Which concept best matches it?",
+    "options": [
+      "Game of Thrones",
+      "The Fresh Prince of Bel-Air",
+      "The Office",
+      "The Walking Dead"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Game of Thrones. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-004-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Game of Thrones?",
+    "options": [
+      "blend coming-of-age drama with supernatural mystery",
+      "explore family and culture through comedy",
+      "depict historical royal events through drama",
+      "present political and dynastic conflict"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is present political and dynastic conflict. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-005-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a science-fiction horror series set largely in Hawkins, Indiana?",
+    "options": [
+      "Wednesday",
+      "Friends",
+      "Stranger Things",
+      "The Office"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Stranger Things. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-005-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes Stranger Things?",
+    "options": [
+      "a science-fiction horror series set largely in Hawkins, Indiana",
+      "a post-apocalyptic horror drama about survivors of a zombie outbreak",
+      "a sitcom centered on six friends living in New York City",
+      "a workplace sitcom set at a paper company branch"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a science-fiction horror series set largely in Hawkins, Indiana. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-005-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: children encounter supernatural threats connected to another dimension. Which concept best matches it?",
+    "options": [
+      "Wednesday",
+      "Stranger Things",
+      "Succession",
+      "Lost"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Stranger Things. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-005-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Stranger Things?",
+    "options": [
+      "dramatize the history of the drug trade",
+      "blend coming-of-age drama with supernatural mystery",
+      "tell time-traveling science-fiction adventures",
+      "explore power, wealth, and family conflict"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is blend coming-of-age drama with supernatural mystery. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-006-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an animated sitcom about the Simpson family?",
+    "options": [
+      "Breaking Bad",
+      "The Walking Dead",
+      "Game of Thrones",
+      "The Simpsons"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is The Simpsons. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-006-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes The Simpsons?",
+    "options": [
+      "an anthology series known for science fiction, fantasy, and psychological stories",
+      "an animated sitcom about the Simpson family",
+      "a legal crime drama serving as a prequel to Breaking Bad",
+      "a modern television adaptation featuring Sherlock Holmes"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is an animated sitcom about the Simpson family. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-006-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: Homer, Marge, Bart, Lisa, and Maggie live in Springfield. Which concept best matches it?",
+    "options": [
+      "The Simpsons",
+      "Friends",
+      "Sherlock",
+      "Black Mirror"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is The Simpsons. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-006-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with The Simpsons?",
+    "options": [
+      "satirize American family and society",
+      "explore unusual ideas and twists",
+      "explore family and culture through comedy",
+      "portray workplace relationships through comedy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is satirize American family and society. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-007-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a modern television adaptation featuring Sherlock Holmes?",
+    "options": [
+      "Wednesday",
+      "The Simpsons",
+      "Sherlock",
+      "Seinfeld"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Sherlock. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-007-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes Sherlock?",
+    "options": [
+      "an anthology series known for science fiction, fantasy, and psychological stories",
+      "a modern television adaptation featuring Sherlock Holmes",
+      "a legal crime drama serving as a prequel to Breaking Bad",
+      "a science-fiction horror series set largely in Hawkins, Indiana"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a modern television adaptation featuring Sherlock Holmes. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-007-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: Sherlock Holmes solves cases in contemporary London. Which concept best matches it?",
+    "options": [
+      "Black Mirror",
+      "Sherlock",
+      "Narcos",
+      "The Twilight Zone"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Sherlock. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-007-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Sherlock?",
+    "options": [
+      "depict historical royal events through drama",
+      "explore transformation and crime",
+      "explore social consequences of technology",
+      "adapt classic detective stories to modern settings"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is adapt classic detective stories to modern settings. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-008-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a historical drama about the British royal family?",
+    "options": [
+      "Stranger Things",
+      "Doctor Who",
+      "Wednesday",
+      "The Crown"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is The Crown. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-008-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes The Crown?",
+    "options": [
+      "a historical drama about the British royal family",
+      "an anthology series known for science fiction, fantasy, and psychological stories",
+      "a drama about a powerful media family competing for control of a conglomerate",
+      "a British science-fiction series centered on a time-traveling alien known as the Doctor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a historical drama about the British royal family. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-008-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: the series dramatizes periods of Queen Elizabeth II's reign. Which concept best matches it?",
+    "options": [
+      "The Crown",
+      "The Fresh Prince of Bel-Air",
+      "The Witcher",
+      "The Big Bang Theory"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is The Crown. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-008-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with The Crown?",
+    "options": [
+      "satirize American family and society",
+      "explore family and culture through comedy",
+      "depict historical royal events through drama",
+      "present political and dynastic conflict"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is depict historical royal events through drama. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-009-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a Star Wars television series centered on a bounty hunter?",
+    "options": [
+      "The Office",
+      "The Fresh Prince of Bel-Air",
+      "The Simpsons",
+      "The Mandalorian"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is The Mandalorian. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-009-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes The Mandalorian?",
+    "options": [
+      "a mystery drama about plane-crash survivors on a mysterious island",
+      "a Star Wars television series centered on a bounty hunter",
+      "a fantasy series based on characters from Andrzej Sapkowski's books",
+      "a fantasy drama based on George R. R. Martin's novels"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a Star Wars television series centered on a bounty hunter. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-009-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a masked bounty hunter travels through the galaxy with a young Force-sensitive child. Which concept best matches it?",
+    "options": [
+      "The Walking Dead",
+      "The Twilight Zone",
+      "The Mandalorian",
+      "Lost"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is The Mandalorian. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-009-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with The Mandalorian?",
+    "options": [
+      "explore a lawyer's transformation and moral choices",
+      "satirize American family and society",
+      "tell a space-western-style Star Wars story",
+      "explore social consequences of technology"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is tell a space-western-style Star Wars story. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-010-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a post-apocalyptic horror drama about survivors of a zombie outbreak?",
+    "options": [
+      "The Witcher",
+      "House",
+      "The Sopranos",
+      "The Walking Dead"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is The Walking Dead. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-010-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes The Walking Dead?",
+    "options": [
+      "a fantasy drama based on George R. R. Martin's novels",
+      "a post-apocalyptic horror drama about survivors of a zombie outbreak",
+      "a sitcom centered on six friends living in New York City",
+      "a historical drama about the British royal family"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a post-apocalyptic horror drama about survivors of a zombie outbreak. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-010-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: survivors navigate a world populated by the undead. Which concept best matches it?",
+    "options": [
+      "The Walking Dead",
+      "Stranger Things",
+      "Sherlock",
+      "The Witcher"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is The Walking Dead. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-010-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with The Walking Dead?",
+    "options": [
+      "explore survival and human relationships after collapse",
+      "combine survival drama with mystery",
+      "adapt classic detective stories to modern settings",
+      "combine science-themed humor with relationship comedy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is explore survival and human relationships after collapse. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-011-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a medical drama centered on a diagnostician known for difficult cases?",
+    "options": [
+      "Sherlock",
+      "The Twilight Zone",
+      "House",
+      "Narcos"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is House. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-011-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes House?",
+    "options": [
+      "a historical drama about the British royal family",
+      "an anthology series known for science fiction, fantasy, and psychological stories",
+      "a crime drama about the history of drug trafficking in Colombia",
+      "a medical drama centered on a diagnostician known for difficult cases"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a medical drama centered on a diagnostician known for difficult cases. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-011-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a physician leads a team solving unusual medical mysteries. Which concept best matches it?",
+    "options": [
+      "Grey's Anatomy",
+      "House",
+      "Better Call Saul",
+      "The Mandalorian"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is House. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-011-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with House?",
+    "options": [
+      "explore power, wealth, and family conflict",
+      "explore crime, family, and psychology",
+      "combine survival drama with mystery",
+      "dramatize complex diagnosis"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is dramatize complex diagnosis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-012-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a medical drama focused on surgeons and their personal and professional lives?",
+    "options": [
+      "Friends",
+      "Grey's Anatomy",
+      "The Fresh Prince of Bel-Air",
+      "The Sopranos"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Grey's Anatomy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-012-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes Grey's Anatomy?",
+    "options": [
+      "a medical drama focused on surgeons and their personal and professional lives",
+      "a medical drama centered on a diagnostician known for difficult cases",
+      "an anthology series examining technology and society",
+      "a mystery drama about plane-crash survivors on a mysterious island"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a medical drama focused on surgeons and their personal and professional lives. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-012-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: surgical trainees work at a major hospital. Which concept best matches it?",
+    "options": [
+      "The Crown",
+      "Stranger Things",
+      "Grey's Anatomy",
+      "Wednesday"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Grey's Anatomy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-012-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Grey's Anatomy?",
+    "options": [
+      "explore power, wealth, and family conflict",
+      "combine medical cases with character drama",
+      "explore crime, family, and psychology",
+      "explore a lawyer's transformation and moral choices"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is combine medical cases with character drama. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-013-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a legal crime drama serving as a prequel to Breaking Bad?",
+    "options": [
+      "The Walking Dead",
+      "Succession",
+      "House",
+      "Better Call Saul"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Better Call Saul. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-013-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes Better Call Saul?",
+    "options": [
+      "a post-apocalyptic horror drama about survivors of a zombie outbreak",
+      "a legal crime drama serving as a prequel to Breaking Bad",
+      "a sitcom centered on six friends living in New York City",
+      "a sitcom about a teenager moving from Philadelphia to live with relatives in Bel-Air"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a legal crime drama serving as a prequel to Breaking Bad. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-013-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: Jimmy McGill gradually becomes the lawyer Saul Goodman. Which concept best matches it?",
+    "options": [
+      "House",
+      "Stranger Things",
+      "The Big Bang Theory",
+      "Better Call Saul"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Better Call Saul. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-013-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Better Call Saul?",
+    "options": [
+      "blend coming-of-age drama with supernatural mystery",
+      "turn everyday observations into comedy",
+      "explore a lawyer's transformation and moral choices",
+      "explore survival and human relationships after collapse"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is explore a lawyer's transformation and moral choices. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-014-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a crime drama about a New Jersey mob boss balancing family and criminal life?",
+    "options": [
+      "The Simpsons",
+      "Lost",
+      "The Sopranos",
+      "Grey's Anatomy"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is The Sopranos. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-014-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes The Sopranos?",
+    "options": [
+      "a legal crime drama serving as a prequel to Breaking Bad",
+      "a sitcom about a teenager moving from Philadelphia to live with relatives in Bel-Air",
+      "a fantasy series based on characters from Andrzej Sapkowski's books",
+      "a crime drama about a New Jersey mob boss balancing family and criminal life"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a crime drama about a New Jersey mob boss balancing family and criminal life. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-014-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: Tony Soprano seeks help while managing organized crime. Which concept best matches it?",
+    "options": [
+      "The Mandalorian",
+      "Breaking Bad",
+      "The Witcher",
+      "The Sopranos"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is The Sopranos. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-014-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with The Sopranos?",
+    "options": [
+      "combine survival drama with mystery",
+      "explore crime, family, and psychology",
+      "portray workplace relationships through comedy",
+      "dramatize the history of the drug trade"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is explore crime, family, and psychology. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-015-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an anthology series examining technology and society?",
+    "options": [
+      "Friends",
+      "Succession",
+      "The Big Bang Theory",
+      "Black Mirror"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Black Mirror. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-015-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes Black Mirror?",
+    "options": [
+      "an anthology series examining technology and society",
+      "a sitcom centered on scientists and their friends",
+      "a series centered on Wednesday Addams at Nevermore Academy",
+      "a drama about a powerful media family competing for control of a conglomerate"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is an anthology series examining technology and society. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-015-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: different episodes tell mostly independent speculative stories. Which concept best matches it?",
+    "options": [
+      "Black Mirror",
+      "The Witcher",
+      "The Crown",
+      "Grey's Anatomy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Black Mirror. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-015-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Black Mirror?",
+    "options": [
+      "explore survival and human relationships after collapse",
+      "explore social consequences of technology",
+      "combine survival drama with mystery",
+      "dramatize the history of the drug trade"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is explore social consequences of technology. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-016-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an anthology series known for science fiction, fantasy, and psychological stories?",
+    "options": [
+      "The Sopranos",
+      "Narcos",
+      "The Twilight Zone",
+      "Breaking Bad"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is The Twilight Zone. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-016-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes The Twilight Zone?",
+    "options": [
+      "a crime drama about the history of drug trafficking in Colombia",
+      "a crime drama about a New Jersey mob boss balancing family and criminal life",
+      "an anthology series known for science fiction, fantasy, and psychological stories",
+      "a science-fiction horror series set largely in Hawkins, Indiana"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is an anthology series known for science fiction, fantasy, and psychological stories. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-016-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: each episode presents a strange or speculative situation. Which concept best matches it?",
+    "options": [
+      "Seinfeld",
+      "The Twilight Zone",
+      "Friends",
+      "Grey's Anatomy"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is The Twilight Zone. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-016-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with The Twilight Zone?",
+    "options": [
+      "satirize American family and society",
+      "explore unusual ideas and twists",
+      "explore a lawyer's transformation and moral choices",
+      "blend coming-of-age drama with supernatural mystery"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is explore unusual ideas and twists. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-017-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a British science-fiction series centered on a time-traveling alien known as the Doctor?",
+    "options": [
+      "Lost",
+      "Doctor Who",
+      "Friends",
+      "Grey's Anatomy"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Doctor Who. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-017-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes Doctor Who?",
+    "options": [
+      "a British science-fiction series centered on a time-traveling alien known as the Doctor",
+      "a sitcom centered on six friends living in New York City",
+      "a medical drama centered on a diagnostician known for difficult cases",
+      "a crime drama about the history of drug trafficking in Colombia"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a British science-fiction series centered on a time-traveling alien known as the Doctor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-017-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: the Doctor travels through time and space in the TARDIS. Which concept best matches it?",
+    "options": [
+      "Doctor Who",
+      "Breaking Bad",
+      "The Big Bang Theory",
+      "The Crown"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Doctor Who. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-017-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Doctor Who?",
+    "options": [
+      "present political and dynastic conflict",
+      "tell time-traveling science-fiction adventures",
+      "explore survival and human relationships after collapse",
+      "combine monster hunting with political and personal stories"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is tell time-traveling science-fiction adventures. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-018-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a sitcom about a teenager moving from Philadelphia to live with relatives in Bel-Air?",
+    "options": [
+      "Lost",
+      "The Fresh Prince of Bel-Air",
+      "The Big Bang Theory",
+      "Wednesday"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is The Fresh Prince of Bel-Air. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-018-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes The Fresh Prince of Bel-Air?",
+    "options": [
+      "a sitcom about a teenager moving from Philadelphia to live with relatives in Bel-Air",
+      "a sitcom centered on scientists and their friends",
+      "a historical drama about the British royal family",
+      "a crime drama about the history of drug trafficking in Colombia"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a sitcom about a teenager moving from Philadelphia to live with relatives in Bel-Air. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-018-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: Will moves in with his wealthy aunt and uncle. Which concept best matches it?",
+    "options": [
+      "Narcos",
+      "Friends",
+      "The Fresh Prince of Bel-Air",
+      "Stranger Things"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is The Fresh Prince of Bel-Air. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-018-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with The Fresh Prince of Bel-Air?",
+    "options": [
+      "explore family and culture through comedy",
+      "explore a lawyer's transformation and moral choices",
+      "explore crime, family, and psychology",
+      "present ensemble comedy and friendship"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is explore family and culture through comedy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-019-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a sitcom often described as a show about everyday life and social interactions?",
+    "options": [
+      "Breaking Bad",
+      "Seinfeld",
+      "Narcos",
+      "House"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Seinfeld. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-019-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes Seinfeld?",
+    "options": [
+      "a historical drama about the British royal family",
+      "a sitcom often described as a show about everyday life and social interactions",
+      "a British science-fiction series centered on a time-traveling alien known as the Doctor",
+      "an animated sitcom about the Simpson family"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a sitcom often described as a show about everyday life and social interactions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-019-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: Jerry and his friends navigate ordinary situations in New York. Which concept best matches it?",
+    "options": [
+      "Lost",
+      "Wednesday",
+      "Friends",
+      "Seinfeld"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Seinfeld. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-019-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Seinfeld?",
+    "options": [
+      "blend coming-of-age drama with supernatural mystery",
+      "explore family and culture through comedy",
+      "turn everyday observations into comedy",
+      "present ensemble comedy and friendship"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is turn everyday observations into comedy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-020-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a mystery drama about plane-crash survivors on a mysterious island?",
+    "options": [
+      "The Mandalorian",
+      "Lost",
+      "Better Call Saul",
+      "Stranger Things"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Lost. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-020-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes Lost?",
+    "options": [
+      "a sitcom centered on scientists and their friends",
+      "a historical drama about the British royal family",
+      "an animated sitcom about the Simpson family",
+      "a mystery drama about plane-crash survivors on a mysterious island"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a mystery drama about plane-crash survivors on a mysterious island. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-020-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: survivors of Oceanic Flight 815 face unexplained island phenomena. Which concept best matches it?",
+    "options": [
+      "Lost",
+      "Sherlock",
+      "Game of Thrones",
+      "The Office"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Lost. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-020-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Lost?",
+    "options": [
+      "combine medical cases with character drama",
+      "explore social consequences of technology",
+      "present ensemble comedy and friendship",
+      "combine survival drama with mystery"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is combine survival drama with mystery. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-021-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a sitcom centered on scientists and their friends?",
+    "options": [
+      "The Big Bang Theory",
+      "Doctor Who",
+      "The Fresh Prince of Bel-Air",
+      "Better Call Saul"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is The Big Bang Theory. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-021-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes The Big Bang Theory?",
+    "options": [
+      "a workplace sitcom set at a paper company branch",
+      "a sitcom centered on scientists and their friends",
+      "a modern television adaptation featuring Sherlock Holmes",
+      "a medical drama focused on surgeons and their personal and professional lives"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a sitcom centered on scientists and their friends. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-021-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a group of physicists and their friends navigate work and relationships. Which concept best matches it?",
+    "options": [
+      "Better Call Saul",
+      "The Big Bang Theory",
+      "The Twilight Zone",
+      "Breaking Bad"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is The Big Bang Theory. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-021-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with The Big Bang Theory?",
+    "options": [
+      "depict historical royal events through drama",
+      "combine science-themed humor with relationship comedy",
+      "explore power, wealth, and family conflict",
+      "dramatize complex diagnosis"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is combine science-themed humor with relationship comedy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-022-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a crime drama about the history of drug trafficking in Colombia?",
+    "options": [
+      "Narcos",
+      "The Sopranos",
+      "Sherlock",
+      "Wednesday"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Narcos. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-022-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes Narcos?",
+    "options": [
+      "a crime drama about the history of drug trafficking in Colombia",
+      "a legal crime drama serving as a prequel to Breaking Bad",
+      "an anthology series examining technology and society",
+      "a crime drama about a New Jersey mob boss balancing family and criminal life"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a crime drama about the history of drug trafficking in Colombia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-022-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: the series portrays the rise of major drug cartels. Which concept best matches it?",
+    "options": [
+      "The Crown",
+      "Black Mirror",
+      "Narcos",
+      "Better Call Saul"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Narcos. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-022-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Narcos?",
+    "options": [
+      "combine monster hunting with political and personal stories",
+      "combine science-themed humor with relationship comedy",
+      "combine survival drama with mystery",
+      "dramatize the history of the drug trade"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is dramatize the history of the drug trade. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-023-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a fantasy series based on characters from Andrzej Sapkowski's books?",
+    "options": [
+      "Doctor Who",
+      "The Walking Dead",
+      "House",
+      "The Witcher"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is The Witcher. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-023-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes The Witcher?",
+    "options": [
+      "a fantasy series based on characters from Andrzej Sapkowski's books",
+      "an anthology series examining technology and society",
+      "a medical drama centered on a diagnostician known for difficult cases",
+      "a post-apocalyptic horror drama about survivors of a zombie outbreak"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a fantasy series based on characters from Andrzej Sapkowski's books. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-023-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: Geralt of Rivia hunts monsters in a fantasy world. Which concept best matches it?",
+    "options": [
+      "Breaking Bad",
+      "Grey's Anatomy",
+      "The Witcher",
+      "The Mandalorian"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is The Witcher. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-023-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with The Witcher?",
+    "options": [
+      "blend coming-of-age drama with supernatural mystery",
+      "combine science-themed humor with relationship comedy",
+      "combine monster hunting with political and personal stories",
+      "explore power, wealth, and family conflict"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is combine monster hunting with political and personal stories. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-024-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a series centered on Wednesday Addams at Nevermore Academy?",
+    "options": [
+      "Wednesday",
+      "The Walking Dead",
+      "The Crown",
+      "Lost"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Wednesday. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-024-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes Wednesday?",
+    "options": [
+      "a crime drama about the history of drug trafficking in Colombia",
+      "a series centered on Wednesday Addams at Nevermore Academy",
+      "a science-fiction horror series set largely in Hawkins, Indiana",
+      "a workplace sitcom set at a paper company branch"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a series centered on Wednesday Addams at Nevermore Academy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-024-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: Wednesday investigates mysteries while attending a strange school. Which concept best matches it?",
+    "options": [
+      "Wednesday",
+      "Grey's Anatomy",
+      "Succession",
+      "The Big Bang Theory"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Wednesday. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-024-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Wednesday?",
+    "options": [
+      "combine gothic mystery with teen drama",
+      "depict historical royal events through drama",
+      "adapt classic detective stories to modern settings",
+      "explore crime, family, and psychology"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is combine gothic mystery with teen drama. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-025-1",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a drama about a powerful media family competing for control of a conglomerate?",
+    "options": [
+      "House",
+      "Succession",
+      "The Big Bang Theory",
+      "Wednesday"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Succession. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-MEDIUM-025-2",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "medium",
+    "question": "Which statement best describes Succession?",
+    "options": [
+      "a sitcom centered on six friends living in New York City",
+      "a drama about a powerful media family competing for control of a conglomerate",
+      "a fantasy drama based on George R. R. Martin's novels",
+      "a post-apocalyptic horror drama about survivors of a zombie outbreak"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a drama about a powerful media family competing for control of a conglomerate. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-HARD-025-3",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: siblings struggle over leadership of their family's business empire. Which concept best matches it?",
+    "options": [
+      "Breaking Bad",
+      "The Twilight Zone",
+      "Wednesday",
+      "Succession"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Succession. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-SHOWS-EASY-025-4",
+    "category": "TV Shows",
+    "subcategory": "TV Shows",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Succession?",
+    "options": [
+      "tell time-traveling science-fiction adventures",
+      "satirize American family and society",
+      "explore power, wealth, and family conflict",
+      "explore family and culture through comedy"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is explore power, wealth, and family conflict. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "tv-shows"
+    ],
+    "status": "active"
   }
 ]

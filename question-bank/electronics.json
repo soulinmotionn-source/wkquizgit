@@ -264,5 +264,1753 @@
       "electronics"
     ],
     "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-001-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a component designed to provide electrical resistance?",
+    "options": [
+      "Resistor",
+      "BJT",
+      "Soldering",
+      "Diode"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Resistor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-001-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes Resistor?",
+    "options": [
+      "a periodic timing signal used to synchronize digital circuits",
+      "pulse-width modulation, a technique that controls average power by varying pulse duty cycle",
+      "a circuit that converts AC into pulsating DC",
+      "a component designed to provide electrical resistance"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a component designed to provide electrical resistance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-001-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a circuit uses a component marked with a resistance value. Which concept best matches it?",
+    "options": [
+      "Logic gate",
+      "Transistor",
+      "Resistor",
+      "ADC"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Resistor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-001-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Resistor?",
+    "options": [
+      "limit or control current and voltage relationships",
+      "make threshold or comparison decisions",
+      "convert physical conditions into signals",
+      "integrate electronic circuitry"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is limit or control current and voltage relationships. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-002-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a power supply uses a component that charges and discharges. Which concept best matches it?",
+    "options": [
+      "Comparator",
+      "Capacitor",
+      "Rectifier",
+      "Inductor"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Capacitor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-003-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a circuit uses a coil to oppose rapid current changes. Which concept best matches it?",
+    "options": [
+      "Oscillator",
+      "Clock signal",
+      "Ground plane",
+      "Inductor"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Inductor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-004-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a semiconductor device with asymmetric current conduction?",
+    "options": [
+      "Microcontroller",
+      "LED",
+      "Rectifier",
+      "Diode"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Diode. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-004-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a rectifier uses a two-terminal semiconductor device. Which concept best matches it?",
+    "options": [
+      "Diode",
+      "Sensor",
+      "Inductor",
+      "LED"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Diode. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-005-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a light-emitting diode that produces light when forward biased?",
+    "options": [
+      "BJT",
+      "Oscillator",
+      "LED",
+      "Ground plane"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is LED. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-005-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes LED?",
+    "options": [
+      "a circuit that generates a periodic electrical signal",
+      "a circuit that compares two input voltages and produces an output indicating their relationship",
+      "a field-effect transistor controlled primarily by an electric field at its gate",
+      "a light-emitting diode that produces light when forward biased"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a light-emitting diode that produces light when forward biased. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-005-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an indicator illuminates when current flows through a semiconductor junction. Which concept best matches it?",
+    "options": [
+      "Transducer",
+      "LED",
+      "Flip-flop",
+      "Ground plane"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is LED. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-005-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with LED?",
+    "options": [
+      "run embedded control programs",
+      "convert physical conditions into signals",
+      "digitize analog signals",
+      "convert electrical energy into light"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is convert electrical energy into light. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-006-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a semiconductor device used for switching or amplification?",
+    "options": [
+      "Comparator",
+      "ADC",
+      "Transistor",
+      "Capacitor"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Transistor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-006-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes Transistor?",
+    "options": [
+      "a component designed to provide electrical resistance",
+      "a semiconductor device used for switching or amplification",
+      "pulse-width modulation, a technique that controls average power by varying pulse duty cycle",
+      "a large conductive region used as a reference and return path in a circuit board"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a semiconductor device used for switching or amplification. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-006-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a small control signal regulates a larger current in a circuit. Which concept best matches it?",
+    "options": [
+      "Logic gate",
+      "Clock signal",
+      "Transistor",
+      "Transducer"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Transistor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-006-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Transistor?",
+    "options": [
+      "switch or amplify electronic signals",
+      "provide a low-impedance reference and return",
+      "process binary logic",
+      "limit or control current and voltage relationships"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is switch or amplify electronic signals. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-007-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a field-effect transistor controlled primarily by an electric field at its gate?",
+    "options": [
+      "Rectifier",
+      "MOSFET",
+      "Clock signal",
+      "Comparator"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is MOSFET. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-007-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes MOSFET?",
+    "options": [
+      "a joining process that uses a melted filler metal to make electrical and mechanical connections",
+      "a periodic timing signal used to synchronize digital circuits",
+      "a field-effect transistor controlled primarily by an electric field at its gate",
+      "a circuit that converts AC into pulsating DC"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a field-effect transistor controlled primarily by an electric field at its gate. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-007-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a power circuit uses a transistor with gate, source, and drain terminals. Which concept best matches it?",
+    "options": [
+      "MOSFET",
+      "ADC",
+      "PWM",
+      "Resistor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is MOSFET. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-007-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with MOSFET?",
+    "options": [
+      "make threshold or comparison decisions",
+      "store charge and filter or time signals",
+      "provide a low-impedance reference and return",
+      "switch or control current efficiently"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is switch or control current efficiently. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-008-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a bipolar junction transistor with emitter, base, and collector terminals?",
+    "options": [
+      "Ground plane",
+      "Transducer",
+      "BJT",
+      "PWM"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is BJT. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-008-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes BJT?",
+    "options": [
+      "a bipolar junction transistor with emitter, base, and collector terminals",
+      "a circuit that converts AC into pulsating DC",
+      "a digital circuit that performs a Boolean operation",
+      "a component that stores energy in an electric field"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a bipolar junction transistor with emitter, base, and collector terminals. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-008-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a transistor's base current influences collector current. Which concept best matches it?",
+    "options": [
+      "ADC",
+      "Op-amp",
+      "BJT",
+      "Voltage regulator"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is BJT. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-008-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with BJT?",
+    "options": [
+      "make threshold or comparison decisions",
+      "limit or control current and voltage relationships",
+      "store charge and filter or time signals",
+      "amplify or switch signals"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is amplify or switch signals. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-009-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an operational amplifier used in many analog signal-processing circuits?",
+    "options": [
+      "Op-amp",
+      "Inductor",
+      "LED",
+      "Transistor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Op-amp. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-009-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes Op-amp?",
+    "options": [
+      "a semiconductor device used for switching or amplification",
+      "a circuit that converts AC into pulsating DC",
+      "an operational amplifier used in many analog signal-processing circuits",
+      "pulse-width modulation, a technique that controls average power by varying pulse duty cycle"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is an operational amplifier used in many analog signal-processing circuits. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-009-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a circuit uses a high-gain differential amplifier with feedback. Which concept best matches it?",
+    "options": [
+      "Op-amp",
+      "ADC",
+      "Transducer",
+      "Capacitor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Op-amp. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-009-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Op-amp?",
+    "options": [
+      "control power or represent analog levels",
+      "perform analog mathematical and signal operations",
+      "digitize analog signals",
+      "filter or store magnetic energy"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is perform analog mathematical and signal operations. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-010-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a circuit that compares two input voltages and produces an output indicating their relationship?",
+    "options": [
+      "PWM",
+      "Inductor",
+      "Rectifier",
+      "Comparator"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Comparator. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-010-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes Comparator?",
+    "options": [
+      "a light-emitting diode that produces light when forward biased",
+      "a circuit that compares two input voltages and produces an output indicating their relationship",
+      "a digital circuit that performs a Boolean operation",
+      "a component designed to provide electrical resistance"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a circuit that compares two input voltages and produces an output indicating their relationship. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-010-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: two voltages are compared to determine which is larger. Which concept best matches it?",
+    "options": [
+      "Comparator",
+      "LED",
+      "Capacitor",
+      "Sensor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Comparator. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-010-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Comparator?",
+    "options": [
+      "connect electronic components",
+      "allow or control current direction",
+      "make threshold or comparison decisions",
+      "digitize analog signals"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is make threshold or comparison decisions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-011-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a circuit that converts AC into pulsating DC?",
+    "options": [
+      "DAC",
+      "Op-amp",
+      "Flip-flop",
+      "Rectifier"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Rectifier. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-011-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes Rectifier?",
+    "options": [
+      "a bistable digital circuit capable of storing one bit of state",
+      "a component that stores energy in a magnetic field",
+      "a circuit that converts AC into pulsating DC",
+      "a light-emitting diode that produces light when forward biased"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a circuit that converts AC into pulsating DC. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-011-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: diodes are arranged to convert an alternating waveform. Which concept best matches it?",
+    "options": [
+      "Soldering",
+      "Microcontroller",
+      "Rectifier",
+      "Inductor"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Rectifier. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-011-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Rectifier?",
+    "options": [
+      "perform AC-to-DC conversion",
+      "store charge and filter or time signals",
+      "filter or store magnetic energy",
+      "stabilize supply voltage"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is perform AC-to-DC conversion. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-012-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a circuit that maintains a relatively stable output voltage?",
+    "options": [
+      "Microcontroller",
+      "Oscillator",
+      "Voltage regulator",
+      "Transducer"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Voltage regulator. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-012-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes Voltage regulator?",
+    "options": [
+      "a circuit that maintains a relatively stable output voltage",
+      "printed circuit board used to mechanically support and electrically connect components",
+      "a light-emitting diode that produces light when forward biased",
+      "a large conductive region used as a reference and return path in a circuit board"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a circuit that maintains a relatively stable output voltage. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-012-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a power supply keeps its output near a target despite input or load changes. Which concept best matches it?",
+    "options": [
+      "Transistor",
+      "Flip-flop",
+      "Voltage regulator",
+      "Soldering"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Voltage regulator. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-012-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Voltage regulator?",
+    "options": [
+      "stabilize supply voltage",
+      "produce analog signals from digital data",
+      "switch or control current efficiently",
+      "limit or control current and voltage relationships"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is stabilize supply voltage. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-013-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a circuit that generates a periodic electrical signal?",
+    "options": [
+      "Sensor",
+      "Op-amp",
+      "Microcontroller",
+      "Oscillator"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Oscillator. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-013-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes Oscillator?",
+    "options": [
+      "an integrated circuit containing a processor, memory, and peripherals for embedded control",
+      "a circuit that generates a periodic electrical signal",
+      "a device that detects a physical quantity and produces a usable signal",
+      "a component that stores energy in an electric field"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a circuit that generates a periodic electrical signal. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-013-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a circuit produces a repeating waveform without an external periodic input. Which concept best matches it?",
+    "options": [
+      "Transistor",
+      "Op-amp",
+      "PWM",
+      "Oscillator"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Oscillator. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-013-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Oscillator?",
+    "options": [
+      "switch or control current efficiently",
+      "run embedded control programs",
+      "produce analog signals from digital data",
+      "generate periodic signals"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is generate periodic signals. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-014-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an integrated circuit containing a processor, memory, and peripherals for embedded control?",
+    "options": [
+      "Diode",
+      "BJT",
+      "Microcontroller",
+      "Soldering"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Microcontroller. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-014-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes Microcontroller?",
+    "options": [
+      "an integrated circuit containing a processor, memory, and peripherals for embedded control",
+      "a large conductive region used as a reference and return path in a circuit board",
+      "a component designed to provide electrical resistance",
+      "a component that stores energy in an electric field"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is an integrated circuit containing a processor, memory, and peripherals for embedded control. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-014-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a small board uses a programmable chip to read sensors and control outputs. Which concept best matches it?",
+    "options": [
+      "Diode",
+      "PCB",
+      "Microcontroller",
+      "Rectifier"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Microcontroller. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-014-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Microcontroller?",
+    "options": [
+      "make threshold or comparison decisions",
+      "amplify or switch signals",
+      "convert electrical energy into light",
+      "run embedded control programs"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is run embedded control programs. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-015-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: analog-to-digital converter that converts an analog quantity into digital data?",
+    "options": [
+      "Flip-flop",
+      "Oscillator",
+      "Ground plane",
+      "ADC"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is ADC. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-015-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes ADC?",
+    "options": [
+      "a semiconductor device with asymmetric current conduction",
+      "analog-to-digital converter that converts an analog quantity into digital data",
+      "a light-emitting diode that produces light when forward biased",
+      "printed circuit board used to mechanically support and electrically connect components"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is analog-to-digital converter that converts an analog quantity into digital data. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-015-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a microcontroller reads a sensor voltage through a converter. Which concept best matches it?",
+    "options": [
+      "PWM",
+      "LED",
+      "ADC",
+      "Capacitor"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is ADC. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-015-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with ADC?",
+    "options": [
+      "process binary logic",
+      "convert physical conditions into signals",
+      "digitize analog signals",
+      "provide a low-impedance reference and return"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is digitize analog signals. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-016-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: digital-to-analog converter that converts digital data into an analog output?",
+    "options": [
+      "Resistor",
+      "Oscillator",
+      "DAC",
+      "Transducer"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is DAC. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-016-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes DAC?",
+    "options": [
+      "a circuit that generates a periodic electrical signal",
+      "digital-to-analog converter that converts digital data into an analog output",
+      "a periodic timing signal used to synchronize digital circuits",
+      "printed circuit board used to mechanically support and electrically connect components"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is digital-to-analog converter that converts digital data into an analog output. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-016-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a system reconstructs an analog voltage from digital values. Which concept best matches it?",
+    "options": [
+      "Logic gate",
+      "Microcontroller",
+      "DAC",
+      "Soldering"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is DAC. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-016-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with DAC?",
+    "options": [
+      "switch or control current efficiently",
+      "integrate electronic circuitry",
+      "allow or control current direction",
+      "produce analog signals from digital data"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is produce analog signals from digital data. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-017-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: pulse-width modulation, a technique that controls average power by varying pulse duty cycle?",
+    "options": [
+      "DAC",
+      "PWM",
+      "ADC",
+      "Microcontroller"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is PWM. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-017-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes PWM?",
+    "options": [
+      "a semiconductor device with asymmetric current conduction",
+      "a joining process that uses a melted filler metal to make electrical and mechanical connections",
+      "pulse-width modulation, a technique that controls average power by varying pulse duty cycle",
+      "a component designed to provide electrical resistance"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is pulse-width modulation, a technique that controls average power by varying pulse duty cycle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-017-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a controller changes the duty cycle of a repeating digital waveform. Which concept best matches it?",
+    "options": [
+      "LED",
+      "Flip-flop",
+      "PWM",
+      "Op-amp"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is PWM. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-017-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with PWM?",
+    "options": [
+      "filter or store magnetic energy",
+      "produce analog signals from digital data",
+      "generate periodic signals",
+      "control power or represent analog levels"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is control power or represent analog levels. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-018-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a digital circuit that performs a Boolean operation?",
+    "options": [
+      "Logic gate",
+      "Rectifier",
+      "Resistor",
+      "MOSFET"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Logic gate. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-018-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes Logic gate?",
+    "options": [
+      "a digital circuit that performs a Boolean operation",
+      "a device that converts energy or a physical quantity from one form to another",
+      "a periodic timing signal used to synchronize digital circuits",
+      "digital-to-analog converter that converts digital data into an analog output"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a digital circuit that performs a Boolean operation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-018-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: AND, OR, and NOT are basic examples. Which concept best matches it?",
+    "options": [
+      "Sensor",
+      "PWM",
+      "BJT",
+      "Logic gate"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Logic gate. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-018-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Logic gate?",
+    "options": [
+      "process binary logic",
+      "control power or represent analog levels",
+      "provide timing reference",
+      "switch or control current efficiently"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is process binary logic. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-019-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a bistable digital circuit capable of storing one bit of state?",
+    "options": [
+      "Logic gate",
+      "Flip-flop",
+      "DAC",
+      "Oscillator"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Flip-flop. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-019-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes Flip-flop?",
+    "options": [
+      "a semiconductor device used for switching or amplification",
+      "a bipolar junction transistor with emitter, base, and collector terminals",
+      "pulse-width modulation, a technique that controls average power by varying pulse duty cycle",
+      "a bistable digital circuit capable of storing one bit of state"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a bistable digital circuit capable of storing one bit of state. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-019-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a digital circuit needs a basic memory element. Which concept best matches it?",
+    "options": [
+      "MOSFET",
+      "Comparator",
+      "Diode",
+      "Flip-flop"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Flip-flop. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-019-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Flip-flop?",
+    "options": [
+      "store one bit of information",
+      "convert electrical energy into light",
+      "provide timing reference",
+      "amplify or switch signals"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is store one bit of information. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-020-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a periodic timing signal used to synchronize digital circuits?",
+    "options": [
+      "Microcontroller",
+      "Op-amp",
+      "Transistor",
+      "Clock signal"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Clock signal. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-020-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes Clock signal?",
+    "options": [
+      "a circuit that generates a periodic electrical signal",
+      "a device that converts energy or a physical quantity from one form to another",
+      "a semiconductor device used for switching or amplification",
+      "a periodic timing signal used to synchronize digital circuits"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a periodic timing signal used to synchronize digital circuits. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-020-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: processors and sequential logic change state in step with a repeating waveform. Which concept best matches it?",
+    "options": [
+      "Comparator",
+      "BJT",
+      "DAC",
+      "Clock signal"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Clock signal. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-020-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Clock signal?",
+    "options": [
+      "allow or control current direction",
+      "store one bit of information",
+      "provide timing reference",
+      "convert physical conditions into signals"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is provide timing reference. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-021-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a large conductive region used as a reference and return path in a circuit board?",
+    "options": [
+      "Ground plane",
+      "Diode",
+      "Rectifier",
+      "LED"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Ground plane. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-021-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes Ground plane?",
+    "options": [
+      "a bistable digital circuit capable of storing one bit of state",
+      "a semiconductor device used for switching or amplification",
+      "a periodic timing signal used to synchronize digital circuits",
+      "a large conductive region used as a reference and return path in a circuit board"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a large conductive region used as a reference and return path in a circuit board. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-021-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a PCB uses a broad copper region connected to reference potential. Which concept best matches it?",
+    "options": [
+      "BJT",
+      "Ground plane",
+      "ADC",
+      "Transducer"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Ground plane. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-021-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Ground plane?",
+    "options": [
+      "provide a low-impedance reference and return",
+      "connect electronic components",
+      "perform AC-to-DC conversion",
+      "perform analog mathematical and signal operations"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is provide a low-impedance reference and return. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-022-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: printed circuit board used to mechanically support and electrically connect components?",
+    "options": [
+      "Microcontroller",
+      "Inductor",
+      "Oscillator",
+      "PCB"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is PCB. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-022-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes PCB?",
+    "options": [
+      "a component that stores energy in an electric field",
+      "printed circuit board used to mechanically support and electrically connect components",
+      "a large conductive region used as a reference and return path in a circuit board",
+      "an integrated circuit containing a processor, memory, and peripherals for embedded control"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is printed circuit board used to mechanically support and electrically connect components. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-022-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: electronic components are mounted and interconnected on a board. Which concept best matches it?",
+    "options": [
+      "Logic gate",
+      "MOSFET",
+      "Oscillator",
+      "PCB"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is PCB. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-022-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with PCB?",
+    "options": [
+      "integrate electronic circuitry",
+      "run embedded control programs",
+      "perform AC-to-DC conversion",
+      "stabilize supply voltage"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is integrate electronic circuitry. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-023-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a joining process that uses a melted filler metal to make electrical and mechanical connections?",
+    "options": [
+      "Flip-flop",
+      "Transistor",
+      "Soldering",
+      "Transducer"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Soldering. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-023-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes Soldering?",
+    "options": [
+      "a joining process that uses a melted filler metal to make electrical and mechanical connections",
+      "analog-to-digital converter that converts an analog quantity into digital data",
+      "a component designed to provide electrical resistance",
+      "a device that detects a physical quantity and produces a usable signal"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a joining process that uses a melted filler metal to make electrical and mechanical connections. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-023-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a technician heats a joint and applies solder. Which concept best matches it?",
+    "options": [
+      "Flip-flop",
+      "Capacitor",
+      "Soldering",
+      "Comparator"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Soldering. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-023-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Soldering?",
+    "options": [
+      "connect electronic components",
+      "provide a low-impedance reference and return",
+      "interface physical phenomena with systems",
+      "control power or represent analog levels"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is connect electronic components. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-024-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a device that detects a physical quantity and produces a usable signal?",
+    "options": [
+      "Sensor",
+      "Comparator",
+      "Voltage regulator",
+      "Diode"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sensor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-024-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes Sensor?",
+    "options": [
+      "digital-to-analog converter that converts digital data into an analog output",
+      "a component that stores energy in a magnetic field",
+      "a component designed to provide electrical resistance",
+      "a device that detects a physical quantity and produces a usable signal"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a device that detects a physical quantity and produces a usable signal. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-024-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a system measures temperature, light, pressure, or motion. Which concept best matches it?",
+    "options": [
+      "Sensor",
+      "Microcontroller",
+      "Inductor",
+      "Transducer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sensor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-024-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Sensor?",
+    "options": [
+      "generate periodic signals",
+      "perform analog mathematical and signal operations",
+      "convert physical conditions into signals",
+      "filter or store magnetic energy"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is convert physical conditions into signals. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-025-1",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a device that converts energy or a physical quantity from one form to another?",
+    "options": [
+      "Transducer",
+      "Rectifier",
+      "PWM",
+      "Sensor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Transducer. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-MEDIUM-025-2",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "medium",
+    "question": "Which statement best describes Transducer?",
+    "options": [
+      "a periodic timing signal used to synchronize digital circuits",
+      "a device that converts energy or a physical quantity from one form to another",
+      "a circuit that generates a periodic electrical signal",
+      "a circuit that maintains a relatively stable output voltage"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a device that converts energy or a physical quantity from one form to another. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-HARD-025-3",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a microphone converts sound pressure into an electrical signal. Which concept best matches it?",
+    "options": [
+      "Transducer",
+      "Rectifier",
+      "BJT",
+      "ADC"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Transducer. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRONICS-EASY-025-4",
+    "category": "Electronics",
+    "subcategory": "Electronics",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Transducer?",
+    "options": [
+      "interface physical phenomena with systems",
+      "produce analog signals from digital data",
+      "make threshold or comparison decisions",
+      "amplify or switch signals"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is interface physical phenomena with systems. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
   }
 ]

@@ -283,5 +283,1905 @@
       "electrical symbols"
     ],
     "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-001-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a schematic symbol representing electrical resistance?",
+    "options": [
+      "Lamp symbol",
+      "Earth ground",
+      "Resistor symbol",
+      "Switch symbol"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Resistor symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-001-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Resistor symbol?",
+    "options": [
+      "a schematic symbol showing an opening or closing contact",
+      "a schematic symbol representing a diode",
+      "a contact that is open in its normal state",
+      "a schematic symbol representing electrical resistance"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a schematic symbol representing electrical resistance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-001-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a zigzag or rectangular symbol appears in a circuit diagram. Which concept best matches it?",
+    "options": [
+      "LED symbol",
+      "Thermistor symbol",
+      "Normally closed contact",
+      "Resistor symbol"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Resistor symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-001-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Resistor symbol?",
+    "options": [
+      "represent current measurement",
+      "represent a resistor on a schematic",
+      "represent overload protection",
+      "represent a light source"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is represent a resistor on a schematic. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-002-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a schematic symbol representing a capacitor?",
+    "options": [
+      "Selector switch",
+      "LED symbol",
+      "Capacitor symbol",
+      "Normally open contact"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Capacitor symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-002-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Capacitor symbol?",
+    "options": [
+      "the coil that actuates a contactor's power contacts",
+      "an assembly used to connect and organize conductors",
+      "a symbol indicating a connection to earth for reference or safety",
+      "a schematic symbol representing a capacitor"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a schematic symbol representing a capacitor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-002-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: two separated plates are shown in a circuit diagram. Which concept best matches it?",
+    "options": [
+      "Transformer symbol",
+      "Potentiometer symbol",
+      "Capacitor symbol",
+      "Relay symbol"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Capacitor symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-002-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Capacitor symbol?",
+    "options": [
+      "select operating modes",
+      "represent a DC source",
+      "represent overload protection",
+      "represent a capacitor"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is represent a capacitor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-003-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a schematic symbol representing a diode?",
+    "options": [
+      "Capacitor symbol",
+      "Diode symbol",
+      "Contactor coil",
+      "Selector switch"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Diode symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-003-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Diode symbol?",
+    "options": [
+      "a resistor symbol with a movable wiper",
+      "a schematic symbol indicating a circuit or protective reference to ground",
+      "a schematic symbol representing a diode",
+      "a schematic symbol identifying an overcurrent protective element"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a schematic symbol representing a diode. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-003-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a triangle is not used; a diode is represented by a diode-specific symbol with a bar. Which concept best matches it?",
+    "options": [
+      "Resistor symbol",
+      "Ammeter symbol",
+      "Diode symbol",
+      "Normally closed contact"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Diode symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-003-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Diode symbol?",
+    "options": [
+      "control a power contactor",
+      "represent one-way semiconductor conduction",
+      "show a ground connection",
+      "show an earth connection"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is represent one-way semiconductor conduction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-004-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a diode symbol with outward arrows indicating emitted light?",
+    "options": [
+      "No connection marker",
+      "Contactor coil",
+      "Push button",
+      "LED symbol"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is LED symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-004-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes LED symbol?",
+    "options": [
+      "a schematic indication of a motor-overload protective device",
+      "a diode symbol with outward arrows indicating emitted light",
+      "a resistor symbol modified to indicate temperature dependence",
+      "a schematic symbol indicating a circuit or protective reference to ground"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a diode symbol with outward arrows indicating emitted light. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-004-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: arrows point away from the diode symbol. Which concept best matches it?",
+    "options": [
+      "Push button",
+      "Terminal block",
+      "Switch symbol",
+      "LED symbol"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is LED symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-004-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with LED symbol?",
+    "options": [
+      "represent voltage measurement",
+      "represent a light source",
+      "provide organized wiring connections",
+      "represent a light-emitting diode"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is represent a light-emitting diode. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-005-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a schematic symbol using repeated long and short parallel lines?",
+    "options": [
+      "Terminal block",
+      "Relay symbol",
+      "Battery symbol",
+      "LED symbol"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Battery symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-005-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Battery symbol?",
+    "options": [
+      "a schematic symbol representing a diode",
+      "a schematic symbol using repeated long and short parallel lines",
+      "a contact that is closed in its normal state",
+      "a schematic symbol showing an opening or closing contact"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a schematic symbol using repeated long and short parallel lines. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-005-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: alternating long and short plates indicate cells in a battery symbol. Which concept best matches it?",
+    "options": [
+      "Battery symbol",
+      "Normally closed contact",
+      "Terminal block",
+      "Capacitor symbol"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Battery symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-005-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Battery symbol?",
+    "options": [
+      "represent a capacitor",
+      "represent an electrically operated switch",
+      "represent a DC source",
+      "represent a fuse"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is represent a DC source. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-006-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a schematic symbol indicating a circuit or protective reference to ground?",
+    "options": [
+      "Selector switch",
+      "Ground symbol",
+      "No connection marker",
+      "Thermal overload symbol"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Ground symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-006-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Ground symbol?",
+    "options": [
+      "a meter symbol used to indicate current measurement",
+      "a schematic symbol indicating a circuit or protective reference to ground",
+      "a symbol indicating a connection to earth for reference or safety",
+      "a schematic indication of a motor-overload protective device"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a schematic symbol indicating a circuit or protective reference to ground. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-006-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a conductor terminates at a standard ground mark. Which concept best matches it?",
+    "options": [
+      "Lamp symbol",
+      "No connection marker",
+      "Diode symbol",
+      "Ground symbol"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Ground symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-006-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Ground symbol?",
+    "options": [
+      "represent a light-emitting diode",
+      "avoid ambiguity at schematic crossings",
+      "show a ground connection",
+      "represent a capacitor"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is show a ground connection. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-007-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a schematic symbol showing an opening or closing contact?",
+    "options": [
+      "Earth ground",
+      "Selector switch",
+      "Switch symbol",
+      "Motor symbol"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Switch symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-007-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Switch symbol?",
+    "options": [
+      "an assembly used to connect and organize conductors",
+      "a schematic symbol identifying an overcurrent protective element",
+      "a schematic symbol showing an opening or closing contact",
+      "a schematic symbol using repeated long and short parallel lines"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a schematic symbol showing an opening or closing contact. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-007-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a movable line indicates whether contacts are connected. Which concept best matches it?",
+    "options": [
+      "Ground symbol",
+      "Switch symbol",
+      "Battery symbol",
+      "Fuse symbol"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Switch symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-007-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Switch symbol?",
+    "options": [
+      "represent magnetic energy transfer between circuits",
+      "represent circuit switching",
+      "avoid ambiguity at schematic crossings",
+      "represent an electrical motor"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is represent circuit switching. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-008-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a schematic symbol identifying an overcurrent protective element?",
+    "options": [
+      "Voltmeter symbol",
+      "Fuse symbol",
+      "Selector switch",
+      "Earth ground"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Fuse symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-008-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Fuse symbol?",
+    "options": [
+      "a resistor symbol with a movable wiper",
+      "a schematic symbol indicating a circuit or protective reference to ground",
+      "a schematic symbol identifying an overcurrent protective element",
+      "a schematic symbol showing an opening or closing contact"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a schematic symbol identifying an overcurrent protective element. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-008-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a small protective device is marked in series with a conductor. Which concept best matches it?",
+    "options": [
+      "Push button",
+      "Ground symbol",
+      "Fuse symbol",
+      "Resistor symbol"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Fuse symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-008-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Fuse symbol?",
+    "options": [
+      "control a power contactor",
+      "represent a fuse",
+      "show an earth connection",
+      "represent a light-emitting diode"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is represent a fuse. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-009-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a schematic symbol showing coupled windings and a magnetic core when applicable?",
+    "options": [
+      "Transformer symbol",
+      "Battery symbol",
+      "Capacitor symbol",
+      "Normally open contact"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Transformer symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-009-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Transformer symbol?",
+    "options": [
+      "a schematic symbol representing a capacitor",
+      "a notation indicating crossing wires are not electrically connected",
+      "a schematic symbol identifying an overcurrent protective element",
+      "a schematic symbol showing coupled windings and a magnetic core when applicable"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a schematic symbol showing coupled windings and a magnetic core when applicable. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-009-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: two coils are shown with magnetic coupling. Which concept best matches it?",
+    "options": [
+      "Transformer symbol",
+      "Fuse symbol",
+      "Ground symbol",
+      "Ammeter symbol"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Transformer symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-009-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Transformer symbol?",
+    "options": [
+      "represent a resistor on a schematic",
+      "provide manual momentary control",
+      "represent magnetic energy transfer between circuits",
+      "represent an electrical motor"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is represent magnetic energy transfer between circuits. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-010-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a schematic symbol identifying an electric motor?",
+    "options": [
+      "Voltmeter symbol",
+      "Transformer symbol",
+      "Motor symbol",
+      "Resistor symbol"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Motor symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-010-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Motor symbol?",
+    "options": [
+      "a meter symbol used to indicate current measurement",
+      "a schematic symbol identifying an electric motor",
+      "the coil that actuates a contactor's power contacts",
+      "a momentary switch operated by pressing"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a schematic symbol identifying an electric motor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-010-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a circle marked with a motor designation appears in diagrams. Which concept best matches it?",
+    "options": [
+      "Terminal block",
+      "Ground symbol",
+      "Voltmeter symbol",
+      "Motor symbol"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Motor symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-010-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Motor symbol?",
+    "options": [
+      "control a power contactor",
+      "represent an electrically operated switch",
+      "represent an electrical motor",
+      "represent a resistor on a schematic"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is represent an electrical motor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-011-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a schematic symbol representing a light or lamp?",
+    "options": [
+      "Battery symbol",
+      "Selector switch",
+      "Lamp symbol",
+      "Resistor symbol"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Lamp symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-011-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Lamp symbol?",
+    "options": [
+      "a schematic symbol showing coupled windings and a magnetic core when applicable",
+      "a meter symbol used to indicate current measurement",
+      "a resistor symbol with a movable wiper",
+      "a schematic symbol representing a light or lamp"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a schematic symbol representing a light or lamp. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-011-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a circle with a filament-style marking appears in many diagrams. Which concept best matches it?",
+    "options": [
+      "Selector switch",
+      "Terminal block",
+      "Lamp symbol",
+      "LED symbol"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Lamp symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-011-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Lamp symbol?",
+    "options": [
+      "represent one-way semiconductor conduction",
+      "represent voltage measurement",
+      "select operating modes",
+      "represent a light source"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is represent a light source. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-012-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a schematic representation of a coil and associated contacts?",
+    "options": [
+      "Ammeter symbol",
+      "Relay symbol",
+      "Push button",
+      "Diode symbol"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Relay symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-012-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Relay symbol?",
+    "options": [
+      "a schematic representation of a coil and associated contacts",
+      "a switch with multiple selectable positions",
+      "a schematic symbol using repeated long and short parallel lines",
+      "a diode symbol with outward arrows indicating emitted light"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a schematic representation of a coil and associated contacts. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-012-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a control coil is shown separately from switching contacts. Which concept best matches it?",
+    "options": [
+      "Battery symbol",
+      "Relay symbol",
+      "Normally closed contact",
+      "Switch symbol"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Relay symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-012-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Relay symbol?",
+    "options": [
+      "represent an electrically operated switch",
+      "provide manual momentary control",
+      "show an earth connection",
+      "represent a fuse"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is represent an electrically operated switch. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-013-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a meter symbol used to indicate current measurement?",
+    "options": [
+      "Voltmeter symbol",
+      "Ammeter symbol",
+      "Push button",
+      "Selector switch"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Ammeter symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-013-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Ammeter symbol?",
+    "options": [
+      "a meter symbol used to indicate current measurement",
+      "a contact that is closed in its normal state",
+      "an assembly used to connect and organize conductors",
+      "a switch with multiple selectable positions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a meter symbol used to indicate current measurement. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-013-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an instrument symbol marked with A appears in a circuit. Which concept best matches it?",
+    "options": [
+      "Normally closed contact",
+      "Ammeter symbol",
+      "Lamp symbol",
+      "LED symbol"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Ammeter symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-013-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Ammeter symbol?",
+    "options": [
+      "represent current measurement",
+      "represent magnetic energy transfer between circuits",
+      "represent one-way semiconductor conduction",
+      "show a ground connection"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is represent current measurement. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-014-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a meter symbol used to indicate voltage measurement?",
+    "options": [
+      "Thermistor symbol",
+      "Voltmeter symbol",
+      "Motor symbol",
+      "Ammeter symbol"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Voltmeter symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-014-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Voltmeter symbol?",
+    "options": [
+      "a schematic representation of a coil and associated contacts",
+      "a meter symbol used to indicate voltage measurement",
+      "a schematic symbol representing a light or lamp",
+      "an assembly used to connect and organize conductors"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a meter symbol used to indicate voltage measurement. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-014-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an instrument symbol marked with V appears in a circuit. Which concept best matches it?",
+    "options": [
+      "Thermal overload symbol",
+      "Ammeter symbol",
+      "Voltmeter symbol",
+      "Relay symbol"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Voltmeter symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-014-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Voltmeter symbol?",
+    "options": [
+      "represent one-way semiconductor conduction",
+      "represent current measurement",
+      "represent an electrically operated switch",
+      "represent voltage measurement"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is represent voltage measurement. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-015-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a symbol indicating a connection to earth for reference or safety?",
+    "options": [
+      "Relay symbol",
+      "Battery symbol",
+      "Earth ground",
+      "Contactor coil"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Earth ground. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-015-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Earth ground?",
+    "options": [
+      "a symbol indicating a connection to earth for reference or safety",
+      "a notation indicating crossing wires are not electrically connected",
+      "a resistor symbol with a movable wiper",
+      "a schematic symbol indicating a circuit or protective reference to ground"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a symbol indicating a connection to earth for reference or safety. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-015-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a circuit diagram marks a conductor as connected to earth. Which concept best matches it?",
+    "options": [
+      "Transformer symbol",
+      "Motor symbol",
+      "Earth ground",
+      "Contactor coil"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Earth ground. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-015-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Earth ground?",
+    "options": [
+      "show an earth connection",
+      "represent a capacitor",
+      "avoid ambiguity at schematic crossings",
+      "represent circuit switching"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is show an earth connection. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-016-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a notation indicating crossing wires are not electrically connected?",
+    "options": [
+      "Ammeter symbol",
+      "Switch symbol",
+      "No connection marker",
+      "Contactor coil"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is No connection marker. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-016-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes No connection marker?",
+    "options": [
+      "a schematic symbol using repeated long and short parallel lines",
+      "a notation indicating crossing wires are not electrically connected",
+      "a schematic symbol representing a diode",
+      "a schematic symbol representing a capacitor"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a notation indicating crossing wires are not electrically connected. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-016-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: two crossing conductors are explicitly marked as unconnected. Which concept best matches it?",
+    "options": [
+      "Lamp symbol",
+      "Potentiometer symbol",
+      "Resistor symbol",
+      "No connection marker"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is No connection marker. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-016-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with No connection marker?",
+    "options": [
+      "avoid ambiguity at schematic crossings",
+      "represent temperature-dependent resistance",
+      "represent one-way semiconductor conduction",
+      "represent current measurement"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is avoid ambiguity at schematic crossings. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-017-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an assembly used to connect and organize conductors?",
+    "options": [
+      "Battery symbol",
+      "Terminal block",
+      "Switch symbol",
+      "Contactor coil"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Terminal block. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-017-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Terminal block?",
+    "options": [
+      "a diode symbol with outward arrows indicating emitted light",
+      "a schematic symbol indicating a circuit or protective reference to ground",
+      "an assembly used to connect and organize conductors",
+      "a schematic representation of a coil and associated contacts"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is an assembly used to connect and organize conductors. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-017-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: multiple wires terminate at a grouped connection point. Which concept best matches it?",
+    "options": [
+      "Capacitor symbol",
+      "Terminal block",
+      "No connection marker",
+      "Lamp symbol"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Terminal block. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-017-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Terminal block?",
+    "options": [
+      "provide organized wiring connections",
+      "represent a closed normal switching condition",
+      "represent an open normal switching condition",
+      "represent a capacitor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is provide organized wiring connections. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-018-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a momentary switch operated by pressing?",
+    "options": [
+      "Push button",
+      "Selector switch",
+      "Normally open contact",
+      "Potentiometer symbol"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Push button. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-018-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Push button?",
+    "options": [
+      "a momentary switch operated by pressing",
+      "a meter symbol used to indicate voltage measurement",
+      "a notation indicating crossing wires are not electrically connected",
+      "a schematic symbol representing a diode"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a momentary switch operated by pressing. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-018-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a control circuit changes state only while a button is pressed. Which concept best matches it?",
+    "options": [
+      "Resistor symbol",
+      "Push button",
+      "Voltmeter symbol",
+      "Thermal overload symbol"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Push button. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-018-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Push button?",
+    "options": [
+      "represent a resistor on a schematic",
+      "provide organized wiring connections",
+      "provide manual momentary control",
+      "show an earth connection"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is provide manual momentary control. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-019-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a contact that is open in its normal state?",
+    "options": [
+      "Transformer symbol",
+      "Resistor symbol",
+      "Earth ground",
+      "Normally open contact"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Normally open contact. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-019-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Normally open contact?",
+    "options": [
+      "a schematic symbol showing coupled windings and a magnetic core when applicable",
+      "a schematic representation of a coil and associated contacts",
+      "a schematic symbol representing electrical resistance",
+      "a contact that is open in its normal state"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a contact that is open in its normal state. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-019-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a relay contact closes only when actuated. Which concept best matches it?",
+    "options": [
+      "Capacitor symbol",
+      "Normally open contact",
+      "Thermistor symbol",
+      "Relay symbol"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Normally open contact. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-019-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Normally open contact?",
+    "options": [
+      "represent an open normal switching condition",
+      "represent a resistor on a schematic",
+      "represent current measurement",
+      "represent voltage measurement"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is represent an open normal switching condition. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-020-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a contact that is closed in its normal state?",
+    "options": [
+      "Ground symbol",
+      "Thermistor symbol",
+      "Potentiometer symbol",
+      "Normally closed contact"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Normally closed contact. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-020-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Normally closed contact?",
+    "options": [
+      "a symbol indicating a connection to earth for reference or safety",
+      "a schematic representation of a coil and associated contacts",
+      "a contact that is closed in its normal state",
+      "the coil that actuates a contactor's power contacts"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a contact that is closed in its normal state. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-020-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a control contact opens when actuated. Which concept best matches it?",
+    "options": [
+      "Capacitor symbol",
+      "Transformer symbol",
+      "Normally closed contact",
+      "Battery symbol"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Normally closed contact. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-020-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Normally closed contact?",
+    "options": [
+      "represent a closed normal switching condition",
+      "represent variable resistance",
+      "represent circuit switching",
+      "avoid ambiguity at schematic crossings"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is represent a closed normal switching condition. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-021-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a schematic indication of a motor-overload protective device?",
+    "options": [
+      "Battery symbol",
+      "Thermistor symbol",
+      "Fuse symbol",
+      "Thermal overload symbol"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Thermal overload symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-021-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Thermal overload symbol?",
+    "options": [
+      "a schematic indication of a motor-overload protective device",
+      "a schematic symbol showing coupled windings and a magnetic core when applicable",
+      "a schematic symbol showing an opening or closing contact",
+      "a schematic symbol representing a diode"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a schematic indication of a motor-overload protective device. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-021-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a motor control diagram includes a protection element that responds to overload. Which concept best matches it?",
+    "options": [
+      "Thermal overload symbol",
+      "Contactor coil",
+      "Resistor symbol",
+      "LED symbol"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Thermal overload symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-021-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Thermal overload symbol?",
+    "options": [
+      "avoid ambiguity at schematic crossings",
+      "represent overload protection",
+      "represent an electrical motor",
+      "represent current measurement"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is represent overload protection. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-022-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the coil that actuates a contactor's power contacts?",
+    "options": [
+      "Motor symbol",
+      "Normally open contact",
+      "Contactor coil",
+      "Potentiometer symbol"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Contactor coil. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-022-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Contactor coil?",
+    "options": [
+      "a schematic symbol indicating a circuit or protective reference to ground",
+      "a schematic symbol representing a capacitor",
+      "the coil that actuates a contactor's power contacts",
+      "an assembly used to connect and organize conductors"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is the coil that actuates a contactor's power contacts. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-022-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an energized coil causes contacts to change state. Which concept best matches it?",
+    "options": [
+      "Selector switch",
+      "Terminal block",
+      "Ammeter symbol",
+      "Contactor coil"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Contactor coil. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-022-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Contactor coil?",
+    "options": [
+      "provide manual momentary control",
+      "represent current measurement",
+      "control a power contactor",
+      "represent variable resistance"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is control a power contactor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-023-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a switch with multiple selectable positions?",
+    "options": [
+      "Transformer symbol",
+      "Diode symbol",
+      "Selector switch",
+      "Thermal overload symbol"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Selector switch. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-023-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Selector switch?",
+    "options": [
+      "a switch with multiple selectable positions",
+      "a schematic indication of a motor-overload protective device",
+      "a diode symbol with outward arrows indicating emitted light",
+      "a schematic symbol representing a capacitor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a switch with multiple selectable positions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-023-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an operator chooses among several control modes. Which concept best matches it?",
+    "options": [
+      "Selector switch",
+      "LED symbol",
+      "Contactor coil",
+      "Thermal overload symbol"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Selector switch. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-023-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Selector switch?",
+    "options": [
+      "show a ground connection",
+      "represent magnetic energy transfer between circuits",
+      "represent a fuse",
+      "select operating modes"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is select operating modes. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-024-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a resistor symbol with a movable wiper?",
+    "options": [
+      "Selector switch",
+      "Ammeter symbol",
+      "Earth ground",
+      "Potentiometer symbol"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Potentiometer symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-024-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Potentiometer symbol?",
+    "options": [
+      "a contact that is closed in its normal state",
+      "a resistor symbol with a movable wiper",
+      "a switch with multiple selectable positions",
+      "an assembly used to connect and organize conductors"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a resistor symbol with a movable wiper. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-024-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an adjustable resistance is represented on a schematic. Which concept best matches it?",
+    "options": [
+      "Thermal overload symbol",
+      "Potentiometer symbol",
+      "No connection marker",
+      "Fuse symbol"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Potentiometer symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-024-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Potentiometer symbol?",
+    "options": [
+      "represent a fuse",
+      "represent an open normal switching condition",
+      "represent a DC source",
+      "represent variable resistance"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is represent variable resistance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-025-1",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a resistor symbol modified to indicate temperature dependence?",
+    "options": [
+      "Thermal overload symbol",
+      "Fuse symbol",
+      "Transformer symbol",
+      "Thermistor symbol"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Thermistor symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-MEDIUM-025-2",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "medium",
+    "question": "Which statement best describes Thermistor symbol?",
+    "options": [
+      "a schematic symbol using repeated long and short parallel lines",
+      "a schematic symbol representing a light or lamp",
+      "a schematic symbol identifying an electric motor",
+      "a resistor symbol modified to indicate temperature dependence"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a resistor symbol modified to indicate temperature dependence. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-HARD-025-3",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a temperature-sensitive resistor appears in a circuit diagram. Which concept best matches it?",
+    "options": [
+      "Capacitor symbol",
+      "Fuse symbol",
+      "Thermistor symbol",
+      "Ammeter symbol"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Thermistor symbol. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-ITEMS-EASY-025-4",
+    "category": "Electrical Symbols / Items",
+    "subcategory": "Electrical Symbols / Items",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Thermistor symbol?",
+    "options": [
+      "represent a capacitor",
+      "provide manual momentary control",
+      "control a power contactor",
+      "represent temperature-dependent resistance"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is represent temperature-dependent resistance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical-symbols"
+    ],
+    "status": "active"
   }
 ]

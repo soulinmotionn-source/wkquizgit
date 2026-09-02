@@ -226,5 +226,1905 @@
       "technology"
     ],
     "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-001-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: system software that manages hardware and provides services for applications?",
+    "options": [
+      "Authentication",
+      "Version control",
+      "Machine learning",
+      "Operating system"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Operating system. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-001-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Operating system?",
+    "options": [
+      "system software that manages hardware and provides services for applications",
+      "software designed to perform harmful, unauthorized, or unwanted actions",
+      "central processing unit that executes instructions",
+      "solid-state storage device using flash memory"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is system software that manages hardware and provides services for applications. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-001-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: Windows, macOS, Linux, and mobile operating systems manage device resources. Which concept best matches it?",
+    "options": [
+      "Machine learning",
+      "SSD",
+      "Two-factor authentication",
+      "Operating system"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Operating system. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-001-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Operating system?",
+    "options": [
+      "manage computer hardware and software resources",
+      "verify identity",
+      "identify and locate internet resources",
+      "execute instructions and coordinate computation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is manage computer hardware and software resources. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-002-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: central processing unit that executes instructions?",
+    "options": [
+      "Cloud computing",
+      "SSD",
+      "DNS",
+      "CPU"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is CPU. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-002-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes CPU?",
+    "options": [
+      "solid-state storage device using flash memory",
+      "a markup language used to structure content on the web",
+      "delivery of computing resources and services over networks, commonly the internet",
+      "central processing unit that executes instructions"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is central processing unit that executes instructions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-002-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a computer's processor performs program instructions. Which concept best matches it?",
+    "options": [
+      "Backup",
+      "Version control",
+      "CPU",
+      "Phishing"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is CPU. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-002-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with CPU?",
+    "options": [
+      "provide fast temporary storage",
+      "control network access",
+      "execute instructions and coordinate computation",
+      "strengthen account security"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is execute instructions and coordinate computation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-003-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: volatile memory used for active programs and data?",
+    "options": [
+      "HTML",
+      "HTTP",
+      "Database",
+      "RAM"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is RAM. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-003-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes RAM?",
+    "options": [
+      "the Domain Name System that maps domain names to network addresses and other records",
+      "a social-engineering technique that tricks users into revealing information or taking unsafe actions",
+      "volatile memory used for active programs and data",
+      "a security system that filters network traffic according to rules"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is volatile memory used for active programs and data. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-003-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: running applications use temporary working memory. Which concept best matches it?",
+    "options": [
+      "Backup",
+      "RAM",
+      "Encryption",
+      "DNS"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is RAM. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-003-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with RAM?",
+    "options": [
+      "enable software-to-software communication",
+      "track and collaborate on code changes",
+      "provide fast temporary storage",
+      "protect data confidentiality"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is provide fast temporary storage. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-004-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: solid-state storage device using flash memory?",
+    "options": [
+      "Malware",
+      "SSD",
+      "Database",
+      "Firewall"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is SSD. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-004-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes SSD?",
+    "options": [
+      "a style-sheet language used to control presentation and layout",
+      "volatile memory used for active programs and data",
+      "a distributed version-control system",
+      "solid-state storage device using flash memory"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is solid-state storage device using flash memory. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-004-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a computer boots from a storage drive with no spinning platters. Which concept best matches it?",
+    "options": [
+      "SSD",
+      "URL",
+      "HTTP",
+      "Two-factor authentication"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SSD. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-004-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with SSD?",
+    "options": [
+      "control network access",
+      "store and retrieve structured information",
+      "control access permissions",
+      "store data with solid-state memory"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is store data with solid-state memory. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-005-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: delivery of computing resources and services over networks, commonly the internet?",
+    "options": [
+      "SSD",
+      "Cloud computing",
+      "RAM",
+      "Version control"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Cloud computing. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-005-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Cloud computing?",
+    "options": [
+      "volatile memory used for active programs and data",
+      "a programming language widely used to add behavior and interactivity to web pages",
+      "a distributed version-control system",
+      "delivery of computing resources and services over networks, commonly the internet"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is delivery of computing resources and services over networks, commonly the internet. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-005-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: applications use remote servers instead of relying only on a local machine. Which concept best matches it?",
+    "options": [
+      "Cloud computing",
+      "Machine learning",
+      "Operating system",
+      "RAM"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cloud computing. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-005-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Cloud computing?",
+    "options": [
+      "implement interactive web behavior",
+      "provide scalable remote computing resources",
+      "manage change history",
+      "execute instructions and coordinate computation"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is provide scalable remote computing resources. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-006-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an organized collection of data managed for storage and retrieval?",
+    "options": [
+      "Database",
+      "HTML",
+      "Authentication",
+      "Machine learning"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Database. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-006-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Database?",
+    "options": [
+      "a lightweight text format commonly used for structured data exchange",
+      "an organized collection of data managed for storage and retrieval",
+      "a field in which algorithms learn patterns from data to make predictions or decisions",
+      "software designed to perform harmful, unauthorized, or unwanted actions"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is an organized collection of data managed for storage and retrieval. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-006-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a web application stores customer records in structured tables. Which concept best matches it?",
+    "options": [
+      "CSS",
+      "Database",
+      "JavaScript",
+      "Machine learning"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Database. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-006-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Database?",
+    "options": [
+      "track and collaborate on code changes",
+      "store and retrieve structured information",
+      "store and exchange structured data",
+      "store data with solid-state memory"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is store and retrieve structured information. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-007-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an application programming interface that defines how software components communicate?",
+    "options": [
+      "API",
+      "Encryption",
+      "JavaScript",
+      "Authentication"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is API. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-007-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes API?",
+    "options": [
+      "a social-engineering technique that tricks users into revealing information or taking unsafe actions",
+      "an application programming interface that defines how software components communicate",
+      "system software that manages hardware and provides services for applications",
+      "a security system that filters network traffic according to rules"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is an application programming interface that defines how software components communicate. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-007-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: one application requests data or services from another through defined endpoints. Which concept best matches it?",
+    "options": [
+      "API",
+      "URL",
+      "CSS",
+      "Encryption"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is API. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-007-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with API?",
+    "options": [
+      "track and collaborate on code changes",
+      "store and exchange structured data",
+      "enable software-to-software communication",
+      "manage change history"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is enable software-to-software communication. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-008-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: transforming information so unauthorized parties cannot readily read it?",
+    "options": [
+      "Encryption",
+      "JavaScript",
+      "JSON",
+      "Git"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Encryption. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-008-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Encryption?",
+    "options": [
+      "a system for tracking and managing changes to files over time",
+      "solid-state storage device using flash memory",
+      "a programming language widely used to add behavior and interactivity to web pages",
+      "transforming information so unauthorized parties cannot readily read it"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is transforming information so unauthorized parties cannot readily read it. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-008-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: data is encoded using a cryptographic method. Which concept best matches it?",
+    "options": [
+      "SSD",
+      "JavaScript",
+      "Operating system",
+      "Encryption"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Encryption. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-008-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Encryption?",
+    "options": [
+      "enable software-to-software communication",
+      "control access permissions",
+      "style web pages",
+      "protect data confidentiality"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is protect data confidentiality. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-009-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the process of verifying a user's or system's identity?",
+    "options": [
+      "Authentication",
+      "JSON",
+      "Database",
+      "Firewall"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Authentication. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-009-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Authentication?",
+    "options": [
+      "a separate copy of data kept for recovery",
+      "an authentication method requiring two distinct categories of evidence",
+      "volatile memory used for active programs and data",
+      "the process of verifying a user's or system's identity"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is the process of verifying a user's or system's identity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-009-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a service asks for credentials or another identity factor. Which concept best matches it?",
+    "options": [
+      "HTML",
+      "Authentication",
+      "Operating system",
+      "Authorization"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Authentication. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-009-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Authentication?",
+    "options": [
+      "control access permissions",
+      "steal information or induce unsafe actions",
+      "verify identity",
+      "store and exchange structured data"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is verify identity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-010-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the process of determining what an authenticated identity is allowed to do?",
+    "options": [
+      "Phishing",
+      "HTTP",
+      "JavaScript",
+      "Authorization"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Authorization. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-010-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Authorization?",
+    "options": [
+      "transforming information so unauthorized parties cannot readily read it",
+      "a security system that filters network traffic according to rules",
+      "central processing unit that executes instructions",
+      "the process of determining what an authenticated identity is allowed to do"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is the process of determining what an authenticated identity is allowed to do. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-010-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a logged-in user can view some records but not others. Which concept best matches it?",
+    "options": [
+      "Authorization",
+      "Firewall",
+      "Version control",
+      "Phishing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Authorization. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-010-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Authorization?",
+    "options": [
+      "control access permissions",
+      "learn patterns from data",
+      "track and collaborate on code changes",
+      "translate human-readable names into network information"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is control access permissions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-011-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a security system that filters network traffic according to rules?",
+    "options": [
+      "Firewall",
+      "JSON",
+      "Authorization",
+      "Version control"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Firewall. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-011-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Firewall?",
+    "options": [
+      "a system for tracking and managing changes to files over time",
+      "software designed to perform harmful, unauthorized, or unwanted actions",
+      "a security system that filters network traffic according to rules",
+      "the process of determining what an authenticated identity is allowed to do"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a security system that filters network traffic according to rules. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-011-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: network traffic is allowed or blocked based on policy. Which concept best matches it?",
+    "options": [
+      "Phishing",
+      "Firewall",
+      "Backup",
+      "Authorization"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Firewall. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-011-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Firewall?",
+    "options": [
+      "control network access",
+      "manage change history",
+      "provide scalable remote computing resources",
+      "enable software-to-software communication"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is control network access. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-012-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: software designed to perform harmful, unauthorized, or unwanted actions?",
+    "options": [
+      "Malware",
+      "Two-factor authentication",
+      "Phishing",
+      "DNS"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Malware. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-012-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Malware?",
+    "options": [
+      "software designed to perform harmful, unauthorized, or unwanted actions",
+      "solid-state storage device using flash memory",
+      "system software that manages hardware and provides services for applications",
+      "a Uniform Resource Locator identifying the location of a resource"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is software designed to perform harmful, unauthorized, or unwanted actions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-012-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a malicious program infects a device. Which concept best matches it?",
+    "options": [
+      "Two-factor authentication",
+      "Operating system",
+      "Malware",
+      "HTML"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Malware. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-012-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Malware?",
+    "options": [
+      "describe harmful software",
+      "track and collaborate on code changes",
+      "execute instructions and coordinate computation",
+      "support web communication"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is describe harmful software. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-013-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a social-engineering technique that tricks users into revealing information or taking unsafe actions?",
+    "options": [
+      "RAM",
+      "SSD",
+      "Phishing",
+      "Version control"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Phishing. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-013-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Phishing?",
+    "options": [
+      "a style-sheet language used to control presentation and layout",
+      "a social-engineering technique that tricks users into revealing information or taking unsafe actions",
+      "the Domain Name System that maps domain names to network addresses and other records",
+      "a Uniform Resource Locator identifying the location of a resource"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a social-engineering technique that tricks users into revealing information or taking unsafe actions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-013-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a fraudulent message imitates a trusted organization. Which concept best matches it?",
+    "options": [
+      "Phishing",
+      "HTML",
+      "Git",
+      "CPU"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Phishing. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-013-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Phishing?",
+    "options": [
+      "identify and locate internet resources",
+      "translate human-readable names into network information",
+      "steal information or induce unsafe actions",
+      "style web pages"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is steal information or induce unsafe actions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-014-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a separate copy of data kept for recovery?",
+    "options": [
+      "Git",
+      "Backup",
+      "Phishing",
+      "Version control"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Backup. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-014-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Backup?",
+    "options": [
+      "system software that manages hardware and provides services for applications",
+      "a security system that filters network traffic according to rules",
+      "a separate copy of data kept for recovery",
+      "a Uniform Resource Locator identifying the location of a resource"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a separate copy of data kept for recovery. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-014-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: files are copied to another storage location so they can be restored later. Which concept best matches it?",
+    "options": [
+      "Backup",
+      "Database",
+      "Firewall",
+      "Malware"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Backup. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-014-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Backup?",
+    "options": [
+      "manage computer hardware and software resources",
+      "verify identity",
+      "execute instructions and coordinate computation",
+      "recover data after loss or corruption"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is recover data after loss or corruption. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-015-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a system for tracking and managing changes to files over time?",
+    "options": [
+      "JavaScript",
+      "HTTP",
+      "Version control",
+      "Two-factor authentication"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Version control. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-015-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Version control?",
+    "options": [
+      "a programming language widely used to add behavior and interactivity to web pages",
+      "a separate copy of data kept for recovery",
+      "a system for tracking and managing changes to files over time",
+      "system software that manages hardware and provides services for applications"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a system for tracking and managing changes to files over time. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-015-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: developers review previous versions and collaborate on code. Which concept best matches it?",
+    "options": [
+      "Version control",
+      "Database",
+      "Operating system",
+      "Git"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Version control. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-015-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Version control?",
+    "options": [
+      "verify identity",
+      "manage change history",
+      "store data with solid-state memory",
+      "steal information or induce unsafe actions"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is manage change history. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-016-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a distributed version-control system?",
+    "options": [
+      "Git",
+      "Malware",
+      "Encryption",
+      "Machine learning"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Git. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-016-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Git?",
+    "options": [
+      "a Uniform Resource Locator identifying the location of a resource",
+      "a style-sheet language used to control presentation and layout",
+      "a distributed version-control system",
+      "software designed to perform harmful, unauthorized, or unwanted actions"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a distributed version-control system. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-016-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: developers create commits and branches to manage source-code history. Which concept best matches it?",
+    "options": [
+      "Authorization",
+      "Firewall",
+      "Git",
+      "SSD"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Git. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-016-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Git?",
+    "options": [
+      "track and collaborate on code changes",
+      "identify and locate internet resources",
+      "control network access",
+      "store data with solid-state memory"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is track and collaborate on code changes. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-017-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a markup language used to structure content on the web?",
+    "options": [
+      "Operating system",
+      "Machine learning",
+      "HTML",
+      "JavaScript"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is HTML. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-017-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes HTML?",
+    "options": [
+      "an application programming interface that defines how software components communicate",
+      "a separate copy of data kept for recovery",
+      "the process of determining what an authenticated identity is allowed to do",
+      "a markup language used to structure content on the web"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a markup language used to structure content on the web. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-017-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: headings, paragraphs, links, and other page elements are defined with markup. Which concept best matches it?",
+    "options": [
+      "URL",
+      "HTML",
+      "DNS",
+      "API"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is HTML. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-017-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with HTML?",
+    "options": [
+      "structure web content",
+      "execute instructions and coordinate computation",
+      "style web pages",
+      "translate human-readable names into network information"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is structure web content. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-018-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a style-sheet language used to control presentation and layout?",
+    "options": [
+      "CSS",
+      "URL",
+      "DNS",
+      "HTTP"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is CSS. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-018-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes CSS?",
+    "options": [
+      "a style-sheet language used to control presentation and layout",
+      "the process of determining what an authenticated identity is allowed to do",
+      "transforming information so unauthorized parties cannot readily read it",
+      "a social-engineering technique that tricks users into revealing information or taking unsafe actions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a style-sheet language used to control presentation and layout. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-018-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: fonts, spacing, colors, and responsive layouts are specified with style rules. Which concept best matches it?",
+    "options": [
+      "Cloud computing",
+      "CSS",
+      "Database",
+      "Backup"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is CSS. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-018-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with CSS?",
+    "options": [
+      "manage change history",
+      "describe harmful software",
+      "execute instructions and coordinate computation",
+      "style web pages"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is style web pages. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-019-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a programming language widely used to add behavior and interactivity to web pages?",
+    "options": [
+      "Two-factor authentication",
+      "JavaScript",
+      "Encryption",
+      "Git"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is JavaScript. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-019-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes JavaScript?",
+    "options": [
+      "a programming language widely used to add behavior and interactivity to web pages",
+      "a markup language used to structure content on the web",
+      "a lightweight text format commonly used for structured data exchange",
+      "a field in which algorithms learn patterns from data to make predictions or decisions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a programming language widely used to add behavior and interactivity to web pages. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-019-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a page reacts to button clicks using browser-side code. Which concept best matches it?",
+    "options": [
+      "Phishing",
+      "RAM",
+      "Encryption",
+      "JavaScript"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is JavaScript. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-019-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with JavaScript?",
+    "options": [
+      "implement interactive web behavior",
+      "learn patterns from data",
+      "provide scalable remote computing resources",
+      "control network access"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is implement interactive web behavior. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-020-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a lightweight text format commonly used for structured data exchange?",
+    "options": [
+      "Malware",
+      "Version control",
+      "Firewall",
+      "JSON"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is JSON. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-020-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes JSON?",
+    "options": [
+      "transforming information so unauthorized parties cannot readily read it",
+      "a lightweight text format commonly used for structured data exchange",
+      "a markup language used to structure content on the web",
+      "central processing unit that executes instructions"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a lightweight text format commonly used for structured data exchange. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-020-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: key-value objects and arrays are used to represent data. Which concept best matches it?",
+    "options": [
+      "Phishing",
+      "JSON",
+      "Firewall",
+      "Operating system"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is JSON. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-020-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with JSON?",
+    "options": [
+      "implement interactive web behavior",
+      "enable software-to-software communication",
+      "store and exchange structured data",
+      "verify identity"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is store and exchange structured data. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-021-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the Domain Name System that maps domain names to network addresses and other records?",
+    "options": [
+      "DNS",
+      "Operating system",
+      "Machine learning",
+      "HTML"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is DNS. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-021-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes DNS?",
+    "options": [
+      "a lightweight text format commonly used for structured data exchange",
+      "a distributed version-control system",
+      "the Domain Name System that maps domain names to network addresses and other records",
+      "a security system that filters network traffic according to rules"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is the Domain Name System that maps domain names to network addresses and other records. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-021-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a browser resolves a website name before connecting to a server. Which concept best matches it?",
+    "options": [
+      "RAM",
+      "Encryption",
+      "Machine learning",
+      "DNS"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is DNS. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-021-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with DNS?",
+    "options": [
+      "translate human-readable names into network information",
+      "learn patterns from data",
+      "steal information or induce unsafe actions",
+      "strengthen account security"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is translate human-readable names into network information. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-022-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a protocol used for transferring web resources and messages?",
+    "options": [
+      "URL",
+      "HTTP",
+      "SSD",
+      "Firewall"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is HTTP. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-022-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes HTTP?",
+    "options": [
+      "a system for tracking and managing changes to files over time",
+      "a protocol used for transferring web resources and messages",
+      "volatile memory used for active programs and data",
+      "system software that manages hardware and provides services for applications"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a protocol used for transferring web resources and messages. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-022-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: browsers use requests and responses to retrieve web content. Which concept best matches it?",
+    "options": [
+      "Cloud computing",
+      "Database",
+      "CSS",
+      "HTTP"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is HTTP. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-022-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with HTTP?",
+    "options": [
+      "control access permissions",
+      "support web communication",
+      "identify and locate internet resources",
+      "provide scalable remote computing resources"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is support web communication. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-023-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a Uniform Resource Locator identifying the location of a resource?",
+    "options": [
+      "Operating system",
+      "URL",
+      "Git",
+      "Two-factor authentication"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is URL. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-023-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes URL?",
+    "options": [
+      "system software that manages hardware and provides services for applications",
+      "a security system that filters network traffic according to rules",
+      "an authentication method requiring two distinct categories of evidence",
+      "a Uniform Resource Locator identifying the location of a resource"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a Uniform Resource Locator identifying the location of a resource. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-023-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a browser uses a web address to request a page. Which concept best matches it?",
+    "options": [
+      "API",
+      "Phishing",
+      "Firewall",
+      "URL"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is URL. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-023-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with URL?",
+    "options": [
+      "store data with solid-state memory",
+      "identify and locate internet resources",
+      "enable software-to-software communication",
+      "provide scalable remote computing resources"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is identify and locate internet resources. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-024-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a field in which algorithms learn patterns from data to make predictions or decisions?",
+    "options": [
+      "Machine learning",
+      "URL",
+      "Two-factor authentication",
+      "Authentication"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Machine learning. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-024-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Machine learning?",
+    "options": [
+      "a social-engineering technique that tricks users into revealing information or taking unsafe actions",
+      "a field in which algorithms learn patterns from data to make predictions or decisions",
+      "an authentication method requiring two distinct categories of evidence",
+      "the Domain Name System that maps domain names to network addresses and other records"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a field in which algorithms learn patterns from data to make predictions or decisions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-024-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a model is trained using examples rather than explicit rules for every case. Which concept best matches it?",
+    "options": [
+      "Machine learning",
+      "HTML",
+      "API",
+      "JavaScript"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Machine learning. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-024-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Machine learning?",
+    "options": [
+      "style web pages",
+      "provide fast temporary storage",
+      "control network access",
+      "learn patterns from data"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is learn patterns from data. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-025-1",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an authentication method requiring two distinct categories of evidence?",
+    "options": [
+      "JavaScript",
+      "Two-factor authentication",
+      "Git",
+      "Operating system"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Two-factor authentication. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-MEDIUM-025-2",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "medium",
+    "question": "Which statement best describes Two-factor authentication?",
+    "options": [
+      "software designed to perform harmful, unauthorized, or unwanted actions",
+      "a distributed version-control system",
+      "the process of determining what an authenticated identity is allowed to do",
+      "an authentication method requiring two distinct categories of evidence"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is an authentication method requiring two distinct categories of evidence. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-HARD-025-3",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a login requires a password plus a code or security key. Which concept best matches it?",
+    "options": [
+      "SSD",
+      "Machine learning",
+      "Two-factor authentication",
+      "DNS"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Two-factor authentication. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-EASY-025-4",
+    "category": "Technology",
+    "subcategory": "Technology",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Two-factor authentication?",
+    "options": [
+      "identify and locate internet resources",
+      "provide fast temporary storage",
+      "strengthen account security",
+      "verify identity"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is strengthen account security. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
   }
 ]

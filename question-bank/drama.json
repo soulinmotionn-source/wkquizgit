@@ -207,5 +207,1867 @@
       "drama"
     ],
     "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-001-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a dramatic form in which serious conflict often leads to suffering or downfall?",
+    "options": [
+      "Motif",
+      "Tragedy",
+      "Resolution",
+      "Narrator"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Tragedy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-001-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Tragedy?",
+    "options": [
+      "a character or force that opposes the protagonist",
+      "a recurring element that reinforces a theme",
+      "a drama emphasizing heightened emotion and clear emotional conflicts",
+      "a dramatic form in which serious conflict often leads to suffering or downfall"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a dramatic form in which serious conflict often leads to suffering or downfall. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-001-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a protagonist's choices contribute to a devastating outcome. Which concept best matches it?",
+    "options": [
+      "Screenplay",
+      "Antagonist",
+      "Tragedy",
+      "Protagonist"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Tragedy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-001-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Tragedy?",
+    "options": [
+      "reinforce themes",
+      "explore serious conflict and human consequences",
+      "anchor the narrative",
+      "encourage audiences to continue"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is explore serious conflict and human consequences. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-002-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a drama emphasizing heightened emotion and clear emotional conflicts?",
+    "options": [
+      "Antagonist",
+      "Melodrama",
+      "Dialogue",
+      "Flashback"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Melodrama. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-002-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Melodrama?",
+    "options": [
+      "a drama emphasizing heightened emotion and clear emotional conflicts",
+      "the time and place in which a story occurs",
+      "an ending that leaves a major situation unresolved",
+      "a struggle between opposing forces, goals, or values"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a drama emphasizing heightened emotion and clear emotional conflicts. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-002-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: characters face strongly emotional situations with pronounced moral tension. Which concept best matches it?",
+    "options": [
+      "Dialogue",
+      "Improvisation",
+      "Adaptation",
+      "Melodrama"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Melodrama. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-002-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Melodrama?",
+    "options": [
+      "intensify emotional storytelling",
+      "guide performance and staging",
+      "create conflict",
+      "reinterpret an existing story"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is intensify emotional storytelling. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-003-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the meaningful development or change of a character over a story?",
+    "options": [
+      "Tragedy",
+      "Character arc",
+      "Theme",
+      "Motif"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Character arc. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-003-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Character arc?",
+    "options": [
+      "the meaningful development or change of a character over a story",
+      "a character or force that opposes the protagonist",
+      "the part of a story in which major conflicts are concluded or settled",
+      "a drama emphasizing heightened emotion and clear emotional conflicts"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is the meaningful development or change of a character over a story. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-003-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a protagonist begins with one worldview and ends with another. Which concept best matches it?",
+    "options": [
+      "Conflict",
+      "Character arc",
+      "Foreshadowing",
+      "Climax"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Character arc. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-003-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Character arc?",
+    "options": [
+      "encourage audiences to continue",
+      "show character transformation",
+      "provide a high point of tension",
+      "control dramatic rhythm"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is show character transformation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-004-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the principal character whose goals drive the story?",
+    "options": [
+      "Setting",
+      "Motif",
+      "Protagonist",
+      "Cliffhanger"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Protagonist. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-004-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Protagonist?",
+    "options": [
+      "a drama emphasizing heightened emotion and clear emotional conflicts",
+      "a character or force that opposes the protagonist",
+      "the principal character whose goals drive the story",
+      "a struggle between opposing forces, goals, or values"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is the principal character whose goals drive the story. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-004-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: the audience follows one central character's main objective. Which concept best matches it?",
+    "options": [
+      "Resolution",
+      "Screenplay",
+      "Protagonist",
+      "Foreshadowing"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Protagonist. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-004-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Protagonist?",
+    "options": [
+      "develop characters and advance the story",
+      "anchor the narrative",
+      "guide performance and staging",
+      "create spontaneous performance"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is anchor the narrative. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-005-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a character or force that opposes the protagonist?",
+    "options": [
+      "Theme",
+      "Narrator",
+      "Dialogue",
+      "Antagonist"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Antagonist. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-005-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a central opposing force blocks the hero's goal. Which concept best matches it?",
+    "options": [
+      "Monologue",
+      "Pacing",
+      "Antagonist",
+      "Adaptation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Antagonist. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-006-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a struggle between opposing forces, goals, or values?",
+    "options": [
+      "Screenplay",
+      "Conflict",
+      "Subtext",
+      "Theme"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Conflict. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-006-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Conflict?",
+    "options": [
+      "a drama emphasizing heightened emotion and clear emotional conflicts",
+      "a group of performers working collectively rather than relying on one lead",
+      "the underlying meaning beneath a character's spoken words",
+      "a struggle between opposing forces, goals, or values"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a struggle between opposing forces, goals, or values. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-006-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: two characters or forces pursue incompatible outcomes. Which concept best matches it?",
+    "options": [
+      "Narrator",
+      "Conflict",
+      "Cliffhanger",
+      "Melodrama"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Conflict. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-006-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Conflict?",
+    "options": [
+      "drive dramatic action",
+      "add depth to dialogue",
+      "explore serious conflict and human consequences",
+      "provide a high point of tension"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is drive dramatic action. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-007-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the major turning point or peak of dramatic tension?",
+    "options": [
+      "Screenplay",
+      "Motif",
+      "Rehearsal",
+      "Climax"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Climax. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-007-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Climax?",
+    "options": [
+      "the major turning point or peak of dramatic tension",
+      "the underlying meaning beneath a character's spoken words",
+      "spoken interaction between characters",
+      "performance created spontaneously without fully predetermined dialogue"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is the major turning point or peak of dramatic tension. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-007-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: the story reaches its most consequential confrontation. Which concept best matches it?",
+    "options": [
+      "Character arc",
+      "Foreshadowing",
+      "Narrator",
+      "Climax"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Climax. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-007-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Climax?",
+    "options": [
+      "provide a high point of tension",
+      "build anticipation",
+      "drive dramatic action",
+      "create spontaneous performance"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is provide a high point of tension. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-008-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the part of a story in which major conflicts are concluded or settled?",
+    "options": [
+      "Monologue",
+      "Conflict",
+      "Melodrama",
+      "Resolution"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Resolution. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-008-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Resolution?",
+    "options": [
+      "an ending that leaves a major situation unresolved",
+      "the part of a story in which major conflicts are concluded or settled",
+      "a central idea or recurring meaning explored by a work",
+      "a character or force that opposes the protagonist"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is the part of a story in which major conflicts are concluded or settled. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-008-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: events after the climax show how the central conflict ends. Which concept best matches it?",
+    "options": [
+      "Tragedy",
+      "Motif",
+      "Resolution",
+      "Conflict"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Resolution. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-008-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Resolution?",
+    "options": [
+      "build anticipation",
+      "present extended character expression",
+      "control dramatic rhythm",
+      "bring major story threads toward closure"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is bring major story threads toward closure. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-009-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a technique that hints at events that may occur later?",
+    "options": [
+      "Foreshadowing",
+      "Narrator",
+      "Monologue",
+      "Resolution"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Foreshadowing. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-009-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Foreshadowing?",
+    "options": [
+      "a technique that hints at events that may occur later",
+      "a central idea or recurring meaning explored by a work",
+      "spoken interaction between characters",
+      "the rate at which a story's events and information unfold"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a technique that hints at events that may occur later. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-009-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an early detail subtly prepares the audience for a later event. Which concept best matches it?",
+    "options": [
+      "Foreshadowing",
+      "Conflict",
+      "Adaptation",
+      "Climax"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Foreshadowing. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-009-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Foreshadowing?",
+    "options": [
+      "create conflict",
+      "establish context",
+      "build anticipation",
+      "anchor the narrative"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is build anticipation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-010-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a narrative device that presents events from an earlier time?",
+    "options": [
+      "Setting",
+      "Flashback",
+      "Motif",
+      "Antagonist"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Flashback. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-010-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Flashback?",
+    "options": [
+      "a struggle between opposing forces, goals, or values",
+      "a narrative device that presents events from an earlier time",
+      "written instructions describing actions, movement, or production details",
+      "spoken interaction between characters"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a narrative device that presents events from an earlier time. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-010-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: the story temporarily moves to a character's past. Which concept best matches it?",
+    "options": [
+      "Flashback",
+      "Setting",
+      "Dialogue",
+      "Rehearsal"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Flashback. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-010-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Flashback?",
+    "options": [
+      "provide background or context",
+      "intensify emotional storytelling",
+      "create spontaneous performance",
+      "show character transformation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is provide background or context. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-011-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a long speech delivered by one character?",
+    "options": [
+      "Conflict",
+      "Character arc",
+      "Theme",
+      "Monologue"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Monologue. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-011-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Monologue?",
+    "options": [
+      "an ending that leaves a major situation unresolved",
+      "a technique that hints at events that may occur later",
+      "a long speech delivered by one character",
+      "the time and place in which a story occurs"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a long speech delivered by one character. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-011-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: one character speaks at length while revealing thoughts or information. Which concept best matches it?",
+    "options": [
+      "Flashback",
+      "Climax",
+      "Monologue",
+      "Character arc"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Monologue. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-011-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Monologue?",
+    "options": [
+      "explore serious conflict and human consequences",
+      "give a work broader meaning",
+      "present extended character expression",
+      "show character transformation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is present extended character expression. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-012-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: spoken interaction between characters?",
+    "options": [
+      "Dialogue",
+      "Climax",
+      "Subtext",
+      "Monologue"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Dialogue. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-012-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Dialogue?",
+    "options": [
+      "spoken interaction between characters",
+      "a work transformed from one medium or source into another",
+      "a technique that hints at events that may occur later",
+      "a drama emphasizing heightened emotion and clear emotional conflicts"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is spoken interaction between characters. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-012-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: two or more characters exchange spoken lines. Which concept best matches it?",
+    "options": [
+      "Flashback",
+      "Dialogue",
+      "Improvisation",
+      "Setting"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Dialogue. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-012-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Dialogue?",
+    "options": [
+      "explore serious conflict and human consequences",
+      "provide a production blueprint",
+      "develop characters and advance the story",
+      "intensify emotional storytelling"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is develop characters and advance the story. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-013-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the underlying meaning beneath a character's spoken words?",
+    "options": [
+      "Foreshadowing",
+      "Monologue",
+      "Subtext",
+      "Screenplay"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Subtext. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-013-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Subtext?",
+    "options": [
+      "a long speech delivered by one character",
+      "a dramatic form in which serious conflict often leads to suffering or downfall",
+      "performance created spontaneously without fully predetermined dialogue",
+      "the underlying meaning beneath a character's spoken words"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is the underlying meaning beneath a character's spoken words. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-013-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a character says one thing while implying another. Which concept best matches it?",
+    "options": [
+      "Subtext",
+      "Foreshadowing",
+      "Resolution",
+      "Screenplay"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Subtext. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-013-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Subtext?",
+    "options": [
+      "prepare performers",
+      "add depth to dialogue",
+      "provide background or context",
+      "create spontaneous performance"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is add depth to dialogue. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-014-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a central idea or recurring meaning explored by a work?",
+    "options": [
+      "Theme",
+      "Climax",
+      "Improvisation",
+      "Character arc"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Theme. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-014-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Theme?",
+    "options": [
+      "a character or force that opposes the protagonist",
+      "a central idea or recurring meaning explored by a work",
+      "the time and place in which a story occurs",
+      "a recurring element that reinforces a theme"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a central idea or recurring meaning explored by a work. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-014-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a story repeatedly examines sacrifice or identity. Which concept best matches it?",
+    "options": [
+      "Rehearsal",
+      "Conflict",
+      "Protagonist",
+      "Theme"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Theme. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-014-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Theme?",
+    "options": [
+      "give a work broader meaning",
+      "create a shared performance",
+      "guide performance and staging",
+      "show character transformation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is give a work broader meaning. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-015-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a recurring element that reinforces a theme?",
+    "options": [
+      "Motif",
+      "Resolution",
+      "Improvisation",
+      "Adaptation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Motif. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-015-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Motif?",
+    "options": [
+      "a recurring element that reinforces a theme",
+      "the principal character whose goals drive the story",
+      "the voice or figure that tells a story",
+      "a technique that hints at events that may occur later"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a recurring element that reinforces a theme. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-015-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an image or idea repeatedly appears across a story. Which concept best matches it?",
+    "options": [
+      "Theme",
+      "Motif",
+      "Character arc",
+      "Ensemble"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Motif. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-015-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Motif?",
+    "options": [
+      "encourage audiences to continue",
+      "reinforce themes",
+      "present story information",
+      "explore serious conflict and human consequences"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is reinforce themes. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-016-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the time and place in which a story occurs?",
+    "options": [
+      "Dialogue",
+      "Narrator",
+      "Setting",
+      "Antagonist"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Setting. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-016-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Setting?",
+    "options": [
+      "the principal character whose goals drive the story",
+      "the time and place in which a story occurs",
+      "an ending that leaves a major situation unresolved",
+      "a work transformed from one medium or source into another"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is the time and place in which a story occurs. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-016-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: events happen in a particular city and historical period. Which concept best matches it?",
+    "options": [
+      "Rehearsal",
+      "Pacing",
+      "Stage direction",
+      "Setting"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Setting. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-016-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Setting?",
+    "options": [
+      "create conflict",
+      "provide a high point of tension",
+      "establish context",
+      "control dramatic rhythm"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is establish context. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-017-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the rate at which a story's events and information unfold?",
+    "options": [
+      "Motif",
+      "Pacing",
+      "Climax",
+      "Monologue"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Pacing. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-017-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Pacing?",
+    "options": [
+      "a narrative device that presents events from an earlier time",
+      "a dramatic form in which serious conflict often leads to suffering or downfall",
+      "a long speech delivered by one character",
+      "the rate at which a story's events and information unfold"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is the rate at which a story's events and information unfold. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-017-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a production slows down for reflection and speeds up during action. Which concept best matches it?",
+    "options": [
+      "Protagonist",
+      "Pacing",
+      "Melodrama",
+      "Resolution"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Pacing. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-017-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Pacing?",
+    "options": [
+      "give a work broader meaning",
+      "reinterpret an existing story",
+      "build anticipation",
+      "control dramatic rhythm"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is control dramatic rhythm. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-018-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an ending that leaves a major situation unresolved?",
+    "options": [
+      "Cliffhanger",
+      "Screenplay",
+      "Subtext",
+      "Rehearsal"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cliffhanger. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-018-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Cliffhanger?",
+    "options": [
+      "an ending that leaves a major situation unresolved",
+      "the underlying meaning beneath a character's spoken words",
+      "a character or force that opposes the protagonist",
+      "the time and place in which a story occurs"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is an ending that leaves a major situation unresolved. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-018-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an episode ends just before the outcome of a crisis. Which concept best matches it?",
+    "options": [
+      "Cliffhanger",
+      "Character arc",
+      "Flashback",
+      "Motif"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cliffhanger. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-018-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Cliffhanger?",
+    "options": [
+      "encourage audiences to continue",
+      "intensify emotional storytelling",
+      "give a work broader meaning",
+      "reinforce themes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is encourage audiences to continue. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-019-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the voice or figure that tells a story?",
+    "options": [
+      "Foreshadowing",
+      "Adaptation",
+      "Antagonist",
+      "Narrator"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Narrator. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-019-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Narrator?",
+    "options": [
+      "the major turning point or peak of dramatic tension",
+      "the time and place in which a story occurs",
+      "spoken interaction between characters",
+      "the voice or figure that tells a story"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is the voice or figure that tells a story. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-019-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a character or external voice provides the audience with narrative information. Which concept best matches it?",
+    "options": [
+      "Narrator",
+      "Rehearsal",
+      "Motif",
+      "Protagonist"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Narrator. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-019-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Narrator?",
+    "options": [
+      "build anticipation",
+      "present story information",
+      "reinforce themes",
+      "provide background or context"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is present story information. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-020-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a work transformed from one medium or source into another?",
+    "options": [
+      "Monologue",
+      "Stage direction",
+      "Adaptation",
+      "Subtext"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Adaptation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-020-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Adaptation?",
+    "options": [
+      "a long speech delivered by one character",
+      "a work transformed from one medium or source into another",
+      "the part of a story in which major conflicts are concluded or settled",
+      "a drama emphasizing heightened emotion and clear emotional conflicts"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a work transformed from one medium or source into another. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-020-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a novel is turned into a television series. Which concept best matches it?",
+    "options": [
+      "Character arc",
+      "Adaptation",
+      "Tragedy",
+      "Rehearsal"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Adaptation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-020-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Adaptation?",
+    "options": [
+      "develop characters and advance the story",
+      "drive dramatic action",
+      "reinterpret an existing story",
+      "create spontaneous performance"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is reinterpret an existing story. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-021-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the written script for a film or television production?",
+    "options": [
+      "Antagonist",
+      "Narrator",
+      "Screenplay",
+      "Tragedy"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Screenplay. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-021-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Screenplay?",
+    "options": [
+      "the written script for a film or television production",
+      "a struggle between opposing forces, goals, or values",
+      "a work transformed from one medium or source into another",
+      "a group of performers working collectively rather than relying on one lead"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is the written script for a film or television production. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-021-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: actors and filmmakers work from a document containing scenes and dialogue. Which concept best matches it?",
+    "options": [
+      "Conflict",
+      "Ensemble",
+      "Resolution",
+      "Screenplay"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Screenplay. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-021-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Screenplay?",
+    "options": [
+      "anchor the narrative",
+      "provide a high point of tension",
+      "reinforce themes",
+      "provide a production blueprint"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is provide a production blueprint. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-022-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: written instructions describing actions, movement, or production details?",
+    "options": [
+      "Antagonist",
+      "Theme",
+      "Stage direction",
+      "Dialogue"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Stage direction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-022-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Stage direction?",
+    "options": [
+      "a narrative device that presents events from an earlier time",
+      "written instructions describing actions, movement, or production details",
+      "a dramatic form in which serious conflict often leads to suffering or downfall",
+      "the major turning point or peak of dramatic tension"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is written instructions describing actions, movement, or production details. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-022-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a script tells an actor to enter or pause. Which concept best matches it?",
+    "options": [
+      "Stage direction",
+      "Antagonist",
+      "Cliffhanger",
+      "Narrator"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stage direction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-022-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Stage direction?",
+    "options": [
+      "show character transformation",
+      "provide a high point of tension",
+      "guide performance and staging",
+      "bring major story threads toward closure"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is guide performance and staging. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-023-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a practice session for a performance?",
+    "options": [
+      "Rehearsal",
+      "Setting",
+      "Improvisation",
+      "Subtext"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Rehearsal. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-023-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Rehearsal?",
+    "options": [
+      "a practice session for a performance",
+      "the principal character whose goals drive the story",
+      "the time and place in which a story occurs",
+      "a character or force that opposes the protagonist"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a practice session for a performance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-023-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: actors repeat scenes before the final performance. Which concept best matches it?",
+    "options": [
+      "Subtext",
+      "Rehearsal",
+      "Stage direction",
+      "Melodrama"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Rehearsal. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-023-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Rehearsal?",
+    "options": [
+      "intensify emotional storytelling",
+      "prepare performers",
+      "provide a high point of tension",
+      "provide background or context"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is prepare performers. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-024-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: performance created spontaneously without fully predetermined dialogue?",
+    "options": [
+      "Flashback",
+      "Cliffhanger",
+      "Antagonist",
+      "Improvisation"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Improvisation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-024-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Improvisation?",
+    "options": [
+      "a group of performers working collectively rather than relying on one lead",
+      "performance created spontaneously without fully predetermined dialogue",
+      "a narrative device that presents events from an earlier time",
+      "an ending that leaves a major situation unresolved"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is performance created spontaneously without fully predetermined dialogue. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-024-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: actors respond in the moment rather than following every line exactly. Which concept best matches it?",
+    "options": [
+      "Theme",
+      "Flashback",
+      "Pacing",
+      "Improvisation"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Improvisation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-024-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Improvisation?",
+    "options": [
+      "anchor the narrative",
+      "build anticipation",
+      "create spontaneous performance",
+      "give a work broader meaning"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is create spontaneous performance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-025-1",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a group of performers working collectively rather than relying on one lead?",
+    "options": [
+      "Monologue",
+      "Screenplay",
+      "Pacing",
+      "Ensemble"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Ensemble. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-MEDIUM-025-2",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which statement best describes Ensemble?",
+    "options": [
+      "a group of performers working collectively rather than relying on one lead",
+      "an ending that leaves a major situation unresolved",
+      "a recurring element that reinforces a theme",
+      "the voice or figure that tells a story"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a group of performers working collectively rather than relying on one lead. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-HARD-025-3",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a drama distributes major roles among several actors. Which concept best matches it?",
+    "options": [
+      "Ensemble",
+      "Dialogue",
+      "Melodrama",
+      "Protagonist"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Ensemble. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-EASY-025-4",
+    "category": "Drama",
+    "subcategory": "Drama",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Ensemble?",
+    "options": [
+      "create a shared performance",
+      "drive dramatic action",
+      "establish context",
+      "add depth to dialogue"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is create a shared performance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
   }
 ]

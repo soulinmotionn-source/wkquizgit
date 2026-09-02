@@ -207,5 +207,1905 @@
       "general knowledge"
     ],
     "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-001-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the largest and deepest ocean on Earth?",
+    "options": [
+      "Leap year",
+      "Olympic Games",
+      "Nile",
+      "Pacific Ocean"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Pacific Ocean. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-001-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Pacific Ocean?",
+    "options": [
+      "the highest mountain above sea level",
+      "the largest and deepest ocean on Earth",
+      "the largest hot desert on Earth",
+      "a major South American river with the greatest water discharge of any river"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is the largest and deepest ocean on Earth. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-001-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: it lies between Asia and Australia on one side and the Americas on the other. Which concept best matches it?",
+    "options": [
+      "Olympic Games",
+      "Inflation",
+      "Constitution",
+      "Pacific Ocean"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Pacific Ocean. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-001-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Pacific Ocean?",
+    "options": [
+      "bring nations together through sport",
+      "convert light energy into chemical energy",
+      "set foundational governmental rules",
+      "cover a vast portion of Earth's ocean surface"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is cover a vast portion of Earth's ocean surface. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-002-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the highest mountain above sea level?",
+    "options": [
+      "Inflation",
+      "Everest",
+      "DNA",
+      "Compass"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Everest. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-002-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Everest?",
+    "options": [
+      "a calendar year containing an extra day in February in the Gregorian calendar",
+      "a positive integer greater than 1 with exactly two positive divisors",
+      "the highest mountain above sea level",
+      "a famous portrait traditionally attributed to Leonardo da Vinci"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is the highest mountain above sea level. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-002-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: it rises in the Himalayas on the Nepal-China border. Which concept best matches it?",
+    "options": [
+      "United Nations",
+      "Everest",
+      "Inflation",
+      "DNA"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Everest. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-002-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Everest?",
+    "options": [
+      "represent the highest elevation above sea level",
+      "transform European art and intellectual life",
+      "form a vast arid region",
+      "set foundational governmental rules"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is represent the highest elevation above sea level. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-003-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a major river in northeastern Africa?",
+    "options": [
+      "Constitution",
+      "DNA",
+      "Antarctica",
+      "Nile"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Nile. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-003-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Nile?",
+    "options": [
+      "a positive integer greater than 1 with exactly two positive divisors",
+      "a major river in northeastern Africa",
+      "a calendar year containing an extra day in February in the Gregorian calendar",
+      "the largest and deepest ocean on Earth"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a major river in northeastern Africa. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-003-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: it flows through Egypt and empties into the Mediterranean Sea. Which concept best matches it?",
+    "options": [
+      "Nile",
+      "Antarctica",
+      "Constitution",
+      "Sahara"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Nile. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-003-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Nile?",
+    "options": [
+      "keep the calendar aligned with Earth's orbit",
+      "cover a vast portion of Earth's ocean surface",
+      "support agriculture and settlements along its course",
+      "represent the highest elevation above sea level"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is support agriculture and settlements along its course. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-004-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the largest hot desert on Earth?",
+    "options": [
+      "Amazon River",
+      "World Wide Web",
+      "Sahara",
+      "Democracy"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Sahara. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-004-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Sahara?",
+    "options": [
+      "a system of government in which political power is exercised by the people directly or through representatives",
+      "the largest hot desert on Earth",
+      "an instrument that indicates direction using a magnetized needle or other directional system",
+      "a period of major economic and technological transformation involving mechanized production"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is the largest hot desert on Earth. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-004-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: it spans much of North Africa. Which concept best matches it?",
+    "options": [
+      "Nile",
+      "Sahara",
+      "Prime number",
+      "Photosynthesis"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Sahara. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-004-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Sahara?",
+    "options": [
+      "support navigation",
+      "form a vast arid region",
+      "explain large-scale geological change",
+      "contain the geographic South Pole"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is form a vast arid region. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-005-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a major South American river with the greatest water discharge of any river?",
+    "options": [
+      "Leap year",
+      "Photosynthesis",
+      "Amazon River",
+      "Everest"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Amazon River. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-005-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Amazon River?",
+    "options": [
+      "a major South American river with the greatest water discharge of any river",
+      "a sustained increase in the general price level of goods and services",
+      "the statistical study of human populations",
+      "the monetary value of final goods and services produced within an economy over a period"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a major South American river with the greatest water discharge of any river. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-005-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: it flows through the Amazon Basin to the Atlantic Ocean. Which concept best matches it?",
+    "options": [
+      "Sahara",
+      "United Nations",
+      "Amazon River",
+      "Prime number"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Amazon River. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-005-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Amazon River?",
+    "options": [
+      "enable linked information on the internet",
+      "measure economic output",
+      "drain a huge tropical watershed",
+      "convert light energy into chemical energy"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is drain a huge tropical watershed. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-006-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the southernmost continent surrounding the South Pole?",
+    "options": [
+      "Constitution",
+      "Gravity",
+      "Antarctica",
+      "Leap year"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Antarctica. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-006-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Antarctica?",
+    "options": [
+      "an attractive interaction between masses",
+      "an international multi-sport competition held in summer and winter editions",
+      "the southernmost continent surrounding the South Pole",
+      "a sustained increase in the general price level of goods and services"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is the southernmost continent surrounding the South Pole. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-006-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: it is dominated by an enormous ice sheet. Which concept best matches it?",
+    "options": [
+      "Antarctica",
+      "Compass",
+      "GDP",
+      "Olympic Games"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Antarctica. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-006-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Antarctica?",
+    "options": [
+      "classify numbers by divisibility",
+      "cover a vast portion of Earth's ocean surface",
+      "transform manufacturing and society",
+      "contain the geographic South Pole"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is contain the geographic South Pole. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-007-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an international organization founded in 1945?",
+    "options": [
+      "Democracy",
+      "Compass",
+      "United Nations",
+      "Nile"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is United Nations. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-007-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes United Nations?",
+    "options": [
+      "the process by which plants and some other organisms use light energy to synthesize organic compounds",
+      "an international organization founded in 1945",
+      "the imaginary circle at 0 degrees latitude",
+      "a system of government in which political power is exercised by the people directly or through representatives"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is an international organization founded in 1945. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-007-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: member states cooperate on international issues through a global organization. Which concept best matches it?",
+    "options": [
+      "World Wide Web",
+      "United Nations",
+      "Leap year",
+      "Demography"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is United Nations. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-007-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with United Nations?",
+    "options": [
+      "describe economy-wide price increases",
+      "study population characteristics",
+      "transform European art and intellectual life",
+      "support international cooperation"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is support international cooperation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-008-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a system of interlinked documents and resources accessed over the internet?",
+    "options": [
+      "Compass",
+      "Prime number",
+      "GDP",
+      "World Wide Web"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is World Wide Web. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-008-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes World Wide Web?",
+    "options": [
+      "a period of major economic and technological transformation involving mechanized production",
+      "a system of interlinked documents and resources accessed over the internet",
+      "the southernmost continent surrounding the South Pole",
+      "an attractive interaction between masses"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a system of interlinked documents and resources accessed over the internet. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-008-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: web pages are connected by hyperlinks and accessed with browsers. Which concept best matches it?",
+    "options": [
+      "World Wide Web",
+      "Antarctica",
+      "United Nations",
+      "Constitution"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is World Wide Web. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-008-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with World Wide Web?",
+    "options": [
+      "classify numbers by divisibility",
+      "define the zero-latitude reference",
+      "enable linked information on the internet",
+      "cover a vast portion of Earth's ocean surface"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is enable linked information on the internet. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-009-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the molecule that stores hereditary genetic information in most organisms?",
+    "options": [
+      "Sahara",
+      "World Wide Web",
+      "Equator",
+      "DNA"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is DNA. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-009-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes DNA?",
+    "options": [
+      "the scientific theory that Earth's lithosphere is divided into moving plates",
+      "the monetary value of final goods and services produced within an economy over a period",
+      "the molecule that stores hereditary genetic information in most organisms",
+      "the process by which plants and some other organisms use light energy to synthesize organic compounds"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is the molecule that stores hereditary genetic information in most organisms. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-009-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: genes are encoded within a long nucleic-acid molecule. Which concept best matches it?",
+    "options": [
+      "Photosynthesis",
+      "DNA",
+      "Mona Lisa",
+      "Gravity"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is DNA. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-009-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with DNA?",
+    "options": [
+      "measure economic output",
+      "store biological instructions",
+      "study population characteristics",
+      "transform European art and intellectual life"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is store biological instructions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-010-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an attractive interaction between masses?",
+    "options": [
+      "Industrial Revolution",
+      "Democracy",
+      "DNA",
+      "Gravity"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Gravity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-010-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Gravity?",
+    "options": [
+      "a period of major economic and technological transformation involving mechanized production",
+      "the imaginary circle at 0 degrees latitude",
+      "an attractive interaction between masses",
+      "a positive integer greater than 1 with exactly two positive divisors"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is an attractive interaction between masses. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-010-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: objects fall toward Earth when unsupported. Which concept best matches it?",
+    "options": [
+      "Gravity",
+      "DNA",
+      "Nile",
+      "Demography"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Gravity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-010-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Gravity?",
+    "options": [
+      "keep the calendar aligned with Earth's orbit",
+      "influence motion of masses",
+      "bring nations together through sport",
+      "transform manufacturing and society"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is influence motion of masses. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-011-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the process by which plants and some other organisms use light energy to synthesize organic compounds?",
+    "options": [
+      "Antarctica",
+      "Renaissance",
+      "GDP",
+      "Photosynthesis"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Photosynthesis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-011-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Photosynthesis?",
+    "options": [
+      "the process by which plants and some other organisms use light energy to synthesize organic compounds",
+      "the statistical study of human populations",
+      "the imaginary circle at 0 degrees latitude",
+      "an instrument that indicates direction using a magnetized needle or other directional system"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is the process by which plants and some other organisms use light energy to synthesize organic compounds. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-011-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: green plants use light, carbon dioxide, and water to make sugars. Which concept best matches it?",
+    "options": [
+      "Photosynthesis",
+      "Democracy",
+      "Demography",
+      "Amazon River"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Photosynthesis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-011-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Photosynthesis?",
+    "options": [
+      "define the zero-latitude reference",
+      "drain a huge tropical watershed",
+      "influence motion of masses",
+      "convert light energy into chemical energy"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is convert light energy into chemical energy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-012-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a system of government in which political power is exercised by the people directly or through representatives?",
+    "options": [
+      "Compass",
+      "Plate tectonics",
+      "Democracy",
+      "Prime number"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Democracy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-012-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Democracy?",
+    "options": [
+      "a system of government in which political power is exercised by the people directly or through representatives",
+      "an attractive interaction between masses",
+      "the largest hot desert on Earth",
+      "the imaginary circle at 0 degrees latitude"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a system of government in which political power is exercised by the people directly or through representatives. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-012-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: citizens participate in choosing leaders. Which concept best matches it?",
+    "options": [
+      "Democracy",
+      "Pacific Ocean",
+      "Everest",
+      "Prime number"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Democracy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-012-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Democracy?",
+    "options": [
+      "study population characteristics",
+      "transform European art and intellectual life",
+      "organize government around popular participation",
+      "bring nations together through sport"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is organize government around popular participation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-013-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a fundamental framework establishing powers, institutions, and principles of a government?",
+    "options": [
+      "Constitution",
+      "Antarctica",
+      "Nile",
+      "Leap year"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Constitution. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-013-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Constitution?",
+    "options": [
+      "a sustained increase in the general price level of goods and services",
+      "the statistical study of human populations",
+      "a positive integer greater than 1 with exactly two positive divisors",
+      "a fundamental framework establishing powers, institutions, and principles of a government"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a fundamental framework establishing powers, institutions, and principles of a government. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-013-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a country's highest legal framework defines governmental structure. Which concept best matches it?",
+    "options": [
+      "Everest",
+      "Sahara",
+      "Constitution",
+      "DNA"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Constitution. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-013-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Constitution?",
+    "options": [
+      "influence motion of masses",
+      "explain large-scale geological change",
+      "set foundational governmental rules",
+      "measure economic output"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is set foundational governmental rules. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-014-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a sustained increase in the general price level of goods and services?",
+    "options": [
+      "Nile",
+      "Pacific Ocean",
+      "Inflation",
+      "DNA"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Inflation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-014-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Inflation?",
+    "options": [
+      "a sustained increase in the general price level of goods and services",
+      "a major South American river with the greatest water discharge of any river",
+      "a fundamental framework establishing powers, institutions, and principles of a government",
+      "a positive integer greater than 1 with exactly two positive divisors"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a sustained increase in the general price level of goods and services. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-014-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: money buys fewer goods when prices broadly rise. Which concept best matches it?",
+    "options": [
+      "DNA",
+      "Pacific Ocean",
+      "Inflation",
+      "World Wide Web"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Inflation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-014-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Inflation?",
+    "options": [
+      "explain large-scale geological change",
+      "describe economy-wide price increases",
+      "drain a huge tropical watershed",
+      "influence motion of masses"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is describe economy-wide price increases. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-015-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the monetary value of final goods and services produced within an economy over a period?",
+    "options": [
+      "Industrial Revolution",
+      "Renaissance",
+      "GDP",
+      "Inflation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is GDP. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-015-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes GDP?",
+    "options": [
+      "the monetary value of final goods and services produced within an economy over a period",
+      "a major river in northeastern Africa",
+      "a major South American river with the greatest water discharge of any river",
+      "a fundamental framework establishing powers, institutions, and principles of a government"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is the monetary value of final goods and services produced within an economy over a period. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-015-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: economists use it to summarize economic production. Which concept best matches it?",
+    "options": [
+      "Olympic Games",
+      "Democracy",
+      "Pacific Ocean",
+      "GDP"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is GDP. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-015-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with GDP?",
+    "options": [
+      "measure economic output",
+      "form a vast arid region",
+      "organize government around popular participation",
+      "drain a huge tropical watershed"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is measure economic output. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-016-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the imaginary circle at 0 degrees latitude?",
+    "options": [
+      "DNA",
+      "Olympic Games",
+      "Equator",
+      "Leap year"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Equator. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-016-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Equator?",
+    "options": [
+      "the imaginary circle at 0 degrees latitude",
+      "a major river in northeastern Africa",
+      "the largest hot desert on Earth",
+      "a period of major economic and technological transformation involving mechanized production"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is the imaginary circle at 0 degrees latitude. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-016-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: it divides Earth into Northern and Southern Hemispheres. Which concept best matches it?",
+    "options": [
+      "Industrial Revolution",
+      "Equator",
+      "Olympic Games",
+      "Renaissance"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Equator. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-016-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Equator?",
+    "options": [
+      "cover a vast portion of Earth's ocean surface",
+      "define the zero-latitude reference",
+      "store biological instructions",
+      "contain the geographic South Pole"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is define the zero-latitude reference. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-017-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a positive integer greater than 1 with exactly two positive divisors?",
+    "options": [
+      "Mona Lisa",
+      "Plate tectonics",
+      "Compass",
+      "Prime number"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Prime number. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-017-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Prime number?",
+    "options": [
+      "a positive integer greater than 1 with exactly two positive divisors",
+      "a calendar year containing an extra day in February in the Gregorian calendar",
+      "the imaginary circle at 0 degrees latitude",
+      "the southernmost continent surrounding the South Pole"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a positive integer greater than 1 with exactly two positive divisors. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-017-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: 7 and 13 have no positive divisors other than 1 and themselves. Which concept best matches it?",
+    "options": [
+      "DNA",
+      "Pacific Ocean",
+      "Prime number",
+      "Plate tectonics"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Prime number. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-017-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Prime number?",
+    "options": [
+      "measure economic output",
+      "convert light energy into chemical energy",
+      "classify numbers by divisibility",
+      "contain the geographic South Pole"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is classify numbers by divisibility. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-018-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the statistical study of human populations?",
+    "options": [
+      "DNA",
+      "Nile",
+      "Prime number",
+      "Demography"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Demography. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-018-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Demography?",
+    "options": [
+      "the largest and deepest ocean on Earth",
+      "a European cultural movement associated with renewed interest in classical learning and the arts",
+      "an international organization founded in 1945",
+      "the statistical study of human populations"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is the statistical study of human populations. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-018-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: births, deaths, migration, and population structure are analyzed. Which concept best matches it?",
+    "options": [
+      "Leap year",
+      "Renaissance",
+      "Demography",
+      "Sahara"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Demography. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-018-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Demography?",
+    "options": [
+      "convert light energy into chemical energy",
+      "study population characteristics",
+      "define the zero-latitude reference",
+      "drain a huge tropical watershed"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is study population characteristics. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-019-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a European cultural movement associated with renewed interest in classical learning and the arts?",
+    "options": [
+      "Renaissance",
+      "DNA",
+      "Compass",
+      "United Nations"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Renaissance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-019-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Renaissance?",
+    "options": [
+      "an international multi-sport competition held in summer and winter editions",
+      "an instrument that indicates direction using a magnetized needle or other directional system",
+      "a European cultural movement associated with renewed interest in classical learning and the arts",
+      "the southernmost continent surrounding the South Pole"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a European cultural movement associated with renewed interest in classical learning and the arts. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-019-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: artists and scholars in Europe revived classical influences. Which concept best matches it?",
+    "options": [
+      "Constitution",
+      "Gravity",
+      "Industrial Revolution",
+      "Renaissance"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Renaissance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-019-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Renaissance?",
+    "options": [
+      "explain large-scale geological change",
+      "define the zero-latitude reference",
+      "study population characteristics",
+      "transform European art and intellectual life"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is transform European art and intellectual life. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-020-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a period of major economic and technological transformation involving mechanized production?",
+    "options": [
+      "Equator",
+      "Democracy",
+      "Industrial Revolution",
+      "Prime number"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Industrial Revolution. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-020-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Industrial Revolution?",
+    "options": [
+      "a famous portrait traditionally attributed to Leonardo da Vinci",
+      "the largest and deepest ocean on Earth",
+      "an attractive interaction between masses",
+      "a period of major economic and technological transformation involving mechanized production"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a period of major economic and technological transformation involving mechanized production. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-020-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: factories and machines reshaped production and labor. Which concept best matches it?",
+    "options": [
+      "Inflation",
+      "Photosynthesis",
+      "United Nations",
+      "Industrial Revolution"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Industrial Revolution. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-020-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Industrial Revolution?",
+    "options": [
+      "cover a vast portion of Earth's ocean surface",
+      "study population characteristics",
+      "transform manufacturing and society",
+      "bring nations together through sport"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is transform manufacturing and society. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-021-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the scientific theory that Earth's lithosphere is divided into moving plates?",
+    "options": [
+      "Prime number",
+      "Plate tectonics",
+      "Industrial Revolution",
+      "Equator"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Plate tectonics. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-021-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Plate tectonics?",
+    "options": [
+      "the scientific theory that Earth's lithosphere is divided into moving plates",
+      "a calendar year containing an extra day in February in the Gregorian calendar",
+      "the highest mountain above sea level",
+      "an international organization founded in 1945"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is the scientific theory that Earth's lithosphere is divided into moving plates. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-021-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: continents and oceanic plates move over geological time. Which concept best matches it?",
+    "options": [
+      "Inflation",
+      "Olympic Games",
+      "Plate tectonics",
+      "Pacific Ocean"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Plate tectonics. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-021-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Plate tectonics?",
+    "options": [
+      "describe economy-wide price increases",
+      "store biological instructions",
+      "represent the highest elevation above sea level",
+      "explain large-scale geological change"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is explain large-scale geological change. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-022-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a famous portrait traditionally attributed to Leonardo da Vinci?",
+    "options": [
+      "Gravity",
+      "Equator",
+      "Mona Lisa",
+      "Sahara"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Mona Lisa. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-022-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Mona Lisa?",
+    "options": [
+      "the monetary value of final goods and services produced within an economy over a period",
+      "a famous portrait traditionally attributed to Leonardo da Vinci",
+      "the process by which plants and some other organisms use light energy to synthesize organic compounds",
+      "a fundamental framework establishing powers, institutions, and principles of a government"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a famous portrait traditionally attributed to Leonardo da Vinci. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-022-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a small Renaissance portrait is displayed at the Louvre. Which concept best matches it?",
+    "options": [
+      "Mona Lisa",
+      "Renaissance",
+      "Compass",
+      "Nile"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Mona Lisa. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-022-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Mona Lisa?",
+    "options": [
+      "enable linked information on the internet",
+      "study population characteristics",
+      "represent a celebrated work of Renaissance art",
+      "transform manufacturing and society"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is represent a celebrated work of Renaissance art. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-023-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an international multi-sport competition held in summer and winter editions?",
+    "options": [
+      "Sahara",
+      "Antarctica",
+      "Olympic Games",
+      "GDP"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Olympic Games. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-023-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Olympic Games?",
+    "options": [
+      "the monetary value of final goods and services produced within an economy over a period",
+      "a system of government in which political power is exercised by the people directly or through representatives",
+      "an international multi-sport competition held in summer and winter editions",
+      "a calendar year containing an extra day in February in the Gregorian calendar"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is an international multi-sport competition held in summer and winter editions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-023-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: athletes from many countries compete in numerous sports. Which concept best matches it?",
+    "options": [
+      "Demography",
+      "Olympic Games",
+      "Gravity",
+      "Sahara"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Olympic Games. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-023-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Olympic Games?",
+    "options": [
+      "bring nations together through sport",
+      "classify numbers by divisibility",
+      "support agriculture and settlements along its course",
+      "describe economy-wide price increases"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is bring nations together through sport. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-024-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a calendar year containing an extra day in February in the Gregorian calendar?",
+    "options": [
+      "Democracy",
+      "Olympic Games",
+      "Leap year",
+      "Everest"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Leap year. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-024-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Leap year?",
+    "options": [
+      "the monetary value of final goods and services produced within an economy over a period",
+      "a calendar year containing an extra day in February in the Gregorian calendar",
+      "the statistical study of human populations",
+      "a period of major economic and technological transformation involving mechanized production"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a calendar year containing an extra day in February in the Gregorian calendar. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-024-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a year with 366 days is used periodically. Which concept best matches it?",
+    "options": [
+      "Leap year",
+      "Constitution",
+      "Amazon River",
+      "Everest"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Leap year. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-024-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Leap year?",
+    "options": [
+      "support international cooperation",
+      "cover a vast portion of Earth's ocean surface",
+      "keep the calendar aligned with Earth's orbit",
+      "store biological instructions"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is keep the calendar aligned with Earth's orbit. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-025-1",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an instrument that indicates direction using a magnetized needle or other directional system?",
+    "options": [
+      "Compass",
+      "Olympic Games",
+      "DNA",
+      "Constitution"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Compass. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-MEDIUM-025-2",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which statement best describes Compass?",
+    "options": [
+      "the imaginary circle at 0 degrees latitude",
+      "a sustained increase in the general price level of goods and services",
+      "the process by which plants and some other organisms use light energy to synthesize organic compounds",
+      "an instrument that indicates direction using a magnetized needle or other directional system"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is an instrument that indicates direction using a magnetized needle or other directional system. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-HARD-025-3",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a traveler uses an instrument to determine north and other directions. Which concept best matches it?",
+    "options": [
+      "Sahara",
+      "Mona Lisa",
+      "Compass",
+      "Industrial Revolution"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Compass. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENERAL-KNOWLEDGE-EASY-025-4",
+    "category": "General Knowledge",
+    "subcategory": "General Knowledge",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Compass?",
+    "options": [
+      "explain large-scale geological change",
+      "classify numbers by divisibility",
+      "support navigation",
+      "convert light energy into chemical energy"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is support navigation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "general-knowledge"
+    ],
+    "status": "active"
   }
 ]

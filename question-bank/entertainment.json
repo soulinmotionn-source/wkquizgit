@@ -207,5 +207,1905 @@
       "entertainment"
     ],
     "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-001-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a film created primarily through animation rather than live-action photography?",
+    "options": [
+      "Talk show",
+      "Franchise",
+      "Reality television",
+      "Animated film"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Animated film. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-001-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Animated film?",
+    "options": [
+      "a competition or program in which performers demonstrate skills",
+      "a film created primarily through animation rather than live-action photography",
+      "a program combining multiple entertainment formats such as music, comedy, and sketches",
+      "the person responsible for guiding a film or production's creative execution"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a film created primarily through animation rather than live-action photography. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-001-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: characters are rendered through drawn, modeled, or computer-generated animation. Which concept best matches it?",
+    "options": [
+      "Talent show",
+      "Spin-off",
+      "Sitcom",
+      "Animated film"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Animated film. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-001-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Animated film?",
+    "options": [
+      "tell stories through animated imagery",
+      "develop a related story",
+      "deliver media online",
+      "market an upcoming production"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is tell stories through animated imagery. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-002-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a nonfiction film or program presenting factual subjects?",
+    "options": [
+      "Documentary",
+      "Sitcom",
+      "Reality television",
+      "Prequel"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Documentary. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-002-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Documentary?",
+    "options": [
+      "a nonfiction film or program presenting factual subjects",
+      "a work that continues the story or world of an earlier work",
+      "an event at which honors are presented for achievements",
+      "delivery of digital media over the internet for immediate or near-immediate playback"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a nonfiction film or program presenting factual subjects. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-002-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: real people and events are examined for an audience. Which concept best matches it?",
+    "options": [
+      "Season",
+      "Sequel",
+      "Documentary",
+      "Prequel"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Documentary. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-002-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Documentary?",
+    "options": [
+      "present nonfiction information",
+      "mark the initial public release or showing",
+      "match performers to roles",
+      "classify creative works"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is present nonfiction information. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-003-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a situation comedy built around recurring characters and humorous situations?",
+    "options": [
+      "Award ceremony",
+      "Soundtrack",
+      "Stand-up comedy",
+      "Sitcom"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Sitcom. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-003-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Sitcom?",
+    "options": [
+      "comedy performed directly by a comedian for an audience",
+      "music associated with a film, television program, or other production",
+      "a situation comedy built around recurring characters and humorous situations",
+      "a program combining multiple entertainment formats such as music, comedy, and sketches"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a situation comedy built around recurring characters and humorous situations. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-003-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: episodes commonly return to a familiar setting and cast. Which concept best matches it?",
+    "options": [
+      "Franchise",
+      "Documentary",
+      "Sitcom",
+      "Award ceremony"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Sitcom. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-003-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Sitcom?",
+    "options": [
+      "deliver episodic comedy",
+      "entertain through competitive games",
+      "support mood and storytelling",
+      "measure theatrical ticket performance"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is deliver episodic comedy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-004-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a program centered on interviews or conversations with guests?",
+    "options": [
+      "Prequel",
+      "Documentary",
+      "Franchise",
+      "Talk show"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Talk show. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-004-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Talk show?",
+    "options": [
+      "a group of episodes released as a television cycle",
+      "a program centered on interviews or conversations with guests",
+      "a work that continues the story or world of an earlier work",
+      "unscripted or partially structured programming featuring real people"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a program centered on interviews or conversations with guests. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-004-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a host speaks with guests in a studio or broadcast setting. Which concept best matches it?",
+    "options": [
+      "Casting",
+      "Game show",
+      "Talk show",
+      "Premiere"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Talk show. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-004-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Talk show?",
+    "options": [
+      "help bring a production to completion",
+      "market an upcoming production",
+      "feature conversation and interviews",
+      "measure theatrical ticket performance"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is feature conversation and interviews. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-005-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: unscripted or partially structured programming featuring real people?",
+    "options": [
+      "Episode",
+      "Reality television",
+      "Director",
+      "Talk show"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Reality television. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-005-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Reality television?",
+    "options": [
+      "the process of selecting performers for roles",
+      "unscripted or partially structured programming featuring real people",
+      "a program centered on interviews or conversations with guests",
+      "music associated with a film, television program, or other production"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is unscripted or partially structured programming featuring real people. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-005-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: participants are filmed in competitions, social settings, or everyday situations. Which concept best matches it?",
+    "options": [
+      "Sequel",
+      "Reality television",
+      "Animated film",
+      "Director"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Reality television. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-005-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Reality television?",
+    "options": [
+      "measure theatrical ticket performance",
+      "match performers to roles",
+      "feature conversation and interviews",
+      "present unscripted or structured real-life content"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is present unscripted or structured real-life content. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-006-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a competition or program in which performers demonstrate skills?",
+    "options": [
+      "Trailer",
+      "Game show",
+      "Spin-off",
+      "Talent show"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Talent show. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-006-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Talent show?",
+    "options": [
+      "a group of episodes released as a television cycle",
+      "a program centered on interviews or conversations with guests",
+      "a person responsible for organizing, financing, or overseeing aspects of a production",
+      "a competition or program in which performers demonstrate skills"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a competition or program in which performers demonstrate skills. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-006-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: singers or other performers compete before judges or an audience. Which concept best matches it?",
+    "options": [
+      "Talent show",
+      "Stand-up comedy",
+      "Variety show",
+      "Animated film"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Talent show. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-006-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Talent show?",
+    "options": [
+      "classify creative works",
+      "showcase performance talent",
+      "support mood and storytelling",
+      "expand earlier chronology"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is showcase performance talent. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-007-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a program in which contestants participate in games or challenges for prizes?",
+    "options": [
+      "Streaming",
+      "Game show",
+      "Animated film",
+      "Box office"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Game show. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-007-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Game show?",
+    "options": [
+      "a situation comedy built around recurring characters and humorous situations",
+      "an event at which honors are presented for achievements",
+      "the commercial performance or ticket revenue of a theatrical film",
+      "a program in which contestants participate in games or challenges for prizes"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a program in which contestants participate in games or challenges for prizes. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-007-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: participants answer questions or complete tasks for rewards. Which concept best matches it?",
+    "options": [
+      "Talk show",
+      "Game show",
+      "Variety show",
+      "Trailer"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Game show. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-007-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Game show?",
+    "options": [
+      "entertain through competitive games",
+      "celebrate achievements",
+      "present nonfiction information",
+      "develop a related story"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is entertain through competitive games. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-008-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a program combining multiple entertainment formats such as music, comedy, and sketches?",
+    "options": [
+      "Variety show",
+      "Spin-off",
+      "Casting",
+      "Premiere"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Variety show. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-008-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Variety show?",
+    "options": [
+      "delivery of digital media over the internet for immediate or near-immediate playback",
+      "a program centered on interviews or conversations with guests",
+      "the first public presentation of a work",
+      "a program combining multiple entertainment formats such as music, comedy, and sketches"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a program combining multiple entertainment formats such as music, comedy, and sketches. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-008-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: one program contains several different performance segments. Which concept best matches it?",
+    "options": [
+      "Episode",
+      "Streaming",
+      "Variety show",
+      "Stand-up comedy"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Variety show. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-008-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Variety show?",
+    "options": [
+      "match performers to roles",
+      "deliver episodic comedy",
+      "combine diverse performance acts",
+      "present live comedic routines"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is combine diverse performance acts. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-009-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: comedy performed directly by a comedian for an audience?",
+    "options": [
+      "Box office",
+      "Stand-up comedy",
+      "Streaming",
+      "Variety show"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Stand-up comedy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-009-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Stand-up comedy?",
+    "options": [
+      "music associated with a film, television program, or other production",
+      "the commercial performance or ticket revenue of a theatrical film",
+      "delivery of digital media over the internet for immediate or near-immediate playback",
+      "comedy performed directly by a comedian for an audience"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is comedy performed directly by a comedian for an audience. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-009-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a performer delivers jokes while facing a live audience. Which concept best matches it?",
+    "options": [
+      "Casting",
+      "Franchise",
+      "Stand-up comedy",
+      "Documentary"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Stand-up comedy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-009-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Stand-up comedy?",
+    "options": [
+      "develop a related story",
+      "help bring a production to completion",
+      "form a unit of episodic storytelling",
+      "present live comedic routines"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is present live comedic routines. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-010-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: music associated with a film, television program, or other production?",
+    "options": [
+      "Casting",
+      "Soundtrack",
+      "Episode",
+      "Sitcom"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Soundtrack. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-010-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Soundtrack?",
+    "options": [
+      "music associated with a film, television program, or other production",
+      "the process of selecting performers for roles",
+      "a film created primarily through animation rather than live-action photography",
+      "a group of episodes released as a television cycle"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is music associated with a film, television program, or other production. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-010-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: songs or instrumental pieces accompany a visual production. Which concept best matches it?",
+    "options": [
+      "Game show",
+      "Soundtrack",
+      "Trailer",
+      "Episode"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Soundtrack. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-010-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Soundtrack?",
+    "options": [
+      "support mood and storytelling",
+      "present live comedic routines",
+      "tell stories through animated imagery",
+      "market an upcoming production"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is support mood and storytelling. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-011-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the first public presentation of a work?",
+    "options": [
+      "Trailer",
+      "Premiere",
+      "Streaming",
+      "Talent show"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Premiere. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-011-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Premiere?",
+    "options": [
+      "the first public presentation of a work",
+      "a series of related creative works sharing a common intellectual property",
+      "delivery of digital media over the internet for immediate or near-immediate playback",
+      "a work that continues the story or world of an earlier work"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is the first public presentation of a work. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-011-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a new film or series is shown to an audience for the first time. Which concept best matches it?",
+    "options": [
+      "Reality television",
+      "Premiere",
+      "Animated film",
+      "Soundtrack"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Premiere. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-011-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Premiere?",
+    "options": [
+      "lead the creative direction",
+      "combine diverse performance acts",
+      "mark the initial public release or showing",
+      "continue an established story"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is mark the initial public release or showing. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-012-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a work that continues the story or world of an earlier work?",
+    "options": [
+      "Animated film",
+      "Sequel",
+      "Prequel",
+      "Trailer"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Sequel. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-012-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Sequel?",
+    "options": [
+      "a film created primarily through animation rather than live-action photography",
+      "a work that continues the story or world of an earlier work",
+      "a single installment of a television or serialized program",
+      "a series of related creative works sharing a common intellectual property"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a work that continues the story or world of an earlier work. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-012-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a later film follows events from a previous film. Which concept best matches it?",
+    "options": [
+      "Sequel",
+      "Stand-up comedy",
+      "Animated film",
+      "Talk show"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sequel. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-012-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Sequel?",
+    "options": [
+      "classify creative works",
+      "entertain through competitive games",
+      "measure theatrical ticket performance",
+      "continue an established story"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is continue an established story. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-013-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a work set earlier in the chronology of an existing story?",
+    "options": [
+      "Spin-off",
+      "Director",
+      "Award ceremony",
+      "Prequel"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Prequel. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-013-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Prequel?",
+    "options": [
+      "a short promotional preview of an upcoming film or program",
+      "a film created primarily through animation rather than live-action photography",
+      "the process of selecting performers for roles",
+      "a work set earlier in the chronology of an existing story"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a work set earlier in the chronology of an existing story. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-013-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a new film explores events that happened before the original. Which concept best matches it?",
+    "options": [
+      "Prequel",
+      "Premiere",
+      "Producer",
+      "Season"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Prequel. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-013-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Prequel?",
+    "options": [
+      "extend a property across multiple works",
+      "present live comedic routines",
+      "expand earlier chronology",
+      "support mood and storytelling"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is expand earlier chronology. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-014-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a work derived from an existing work and focused on another character or element?",
+    "options": [
+      "Season",
+      "Talent show",
+      "Spin-off",
+      "Sitcom"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Spin-off. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-014-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Spin-off?",
+    "options": [
+      "a program combining multiple entertainment formats such as music, comedy, and sketches",
+      "a category defined by shared characteristics or conventions",
+      "the process of selecting performers for roles",
+      "a work derived from an existing work and focused on another character or element"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a work derived from an existing work and focused on another character or element. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-014-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a new series centers on a supporting character from an earlier show. Which concept best matches it?",
+    "options": [
+      "Award ceremony",
+      "Streaming",
+      "Spin-off",
+      "Season"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Spin-off. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-014-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Spin-off?",
+    "options": [
+      "deliver media online",
+      "lead the creative direction",
+      "present unscripted or structured real-life content",
+      "develop a related story"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is develop a related story. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-015-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a series of related creative works sharing a common intellectual property?",
+    "options": [
+      "Streaming",
+      "Trailer",
+      "Prequel",
+      "Franchise"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Franchise. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-015-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Franchise?",
+    "options": [
+      "an event at which honors are presented for achievements",
+      "a competition or program in which performers demonstrate skills",
+      "a series of related creative works sharing a common intellectual property",
+      "delivery of digital media over the internet for immediate or near-immediate playback"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a series of related creative works sharing a common intellectual property. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-015-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: multiple films or shows use connected characters or a shared universe. Which concept best matches it?",
+    "options": [
+      "Sequel",
+      "Franchise",
+      "Variety show",
+      "Genre"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Franchise. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-015-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Franchise?",
+    "options": [
+      "deliver media online",
+      "lead the creative direction",
+      "present live comedic routines",
+      "extend a property across multiple works"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is extend a property across multiple works. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-016-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a category defined by shared characteristics or conventions?",
+    "options": [
+      "Box office",
+      "Prequel",
+      "Genre",
+      "Premiere"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Genre. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-016-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Genre?",
+    "options": [
+      "a category defined by shared characteristics or conventions",
+      "an event at which honors are presented for achievements",
+      "the commercial performance or ticket revenue of a theatrical film",
+      "a film created primarily through animation rather than live-action photography"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a category defined by shared characteristics or conventions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-016-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: comedy, horror, and documentary are examples. Which concept best matches it?",
+    "options": [
+      "Genre",
+      "Stand-up comedy",
+      "Prequel",
+      "Streaming"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Genre. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-016-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Genre?",
+    "options": [
+      "measure theatrical ticket performance",
+      "classify creative works",
+      "continue an established story",
+      "help bring a production to completion"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is classify creative works. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-017-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a short promotional preview of an upcoming film or program?",
+    "options": [
+      "Trailer",
+      "Box office",
+      "Documentary",
+      "Stand-up comedy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Trailer. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-017-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Trailer?",
+    "options": [
+      "a nonfiction film or program presenting factual subjects",
+      "a short promotional preview of an upcoming film or program",
+      "comedy performed directly by a comedian for an audience",
+      "the process of selecting performers for roles"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a short promotional preview of an upcoming film or program. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-017-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: selected scenes are shown to promote a release. Which concept best matches it?",
+    "options": [
+      "Episode",
+      "Trailer",
+      "Sequel",
+      "Stand-up comedy"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Trailer. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-017-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Trailer?",
+    "options": [
+      "tell stories through animated imagery",
+      "market an upcoming production",
+      "form a unit of episodic storytelling",
+      "deliver media online"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is market an upcoming production. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-018-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the process of selecting performers for roles?",
+    "options": [
+      "Franchise",
+      "Casting",
+      "Genre",
+      "Streaming"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Casting. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-018-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Casting?",
+    "options": [
+      "a competition or program in which performers demonstrate skills",
+      "a program combining multiple entertainment formats such as music, comedy, and sketches",
+      "unscripted or partially structured programming featuring real people",
+      "the process of selecting performers for roles"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is the process of selecting performers for roles. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-018-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: actors audition for characters in a production. Which concept best matches it?",
+    "options": [
+      "Casting",
+      "Variety show",
+      "Game show",
+      "Sequel"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Casting. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-018-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Casting?",
+    "options": [
+      "present live comedic routines",
+      "deliver episodic comedy",
+      "match performers to roles",
+      "develop a related story"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is match performers to roles. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-019-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the person responsible for guiding a film or production's creative execution?",
+    "options": [
+      "Director",
+      "Casting",
+      "Episode",
+      "Prequel"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Director. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-019-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Director?",
+    "options": [
+      "a program centered on interviews or conversations with guests",
+      "the person responsible for guiding a film or production's creative execution",
+      "a category defined by shared characteristics or conventions",
+      "a film created primarily through animation rather than live-action photography"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is the person responsible for guiding a film or production's creative execution. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-019-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: the production's visual and performance choices are coordinated. Which concept best matches it?",
+    "options": [
+      "Animated film",
+      "Prequel",
+      "Season",
+      "Director"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Director. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-019-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Director?",
+    "options": [
+      "present nonfiction information",
+      "form a unit of episodic storytelling",
+      "extend a property across multiple works",
+      "lead the creative direction"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is lead the creative direction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-020-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a person responsible for organizing, financing, or overseeing aspects of a production?",
+    "options": [
+      "Producer",
+      "Reality television",
+      "Casting",
+      "Soundtrack"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Producer. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-020-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Producer?",
+    "options": [
+      "a work set earlier in the chronology of an existing story",
+      "a competition or program in which performers demonstrate skills",
+      "a person responsible for organizing, financing, or overseeing aspects of a production",
+      "a group of episodes released as a television cycle"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a person responsible for organizing, financing, or overseeing aspects of a production. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-020-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a production requires coordination of resources and personnel. Which concept best matches it?",
+    "options": [
+      "Sequel",
+      "Producer",
+      "Season",
+      "Stand-up comedy"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Producer. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-020-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Producer?",
+    "options": [
+      "market an upcoming production",
+      "help bring a production to completion",
+      "match performers to roles",
+      "present unscripted or structured real-life content"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is help bring a production to completion. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-021-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a single installment of a television or serialized program?",
+    "options": [
+      "Trailer",
+      "Casting",
+      "Episode",
+      "Director"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Episode. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-021-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Episode?",
+    "options": [
+      "a program in which contestants participate in games or challenges for prizes",
+      "a series of related creative works sharing a common intellectual property",
+      "a person responsible for organizing, financing, or overseeing aspects of a production",
+      "a single installment of a television or serialized program"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a single installment of a television or serialized program. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-021-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a season is divided into individual installments. Which concept best matches it?",
+    "options": [
+      "Stand-up comedy",
+      "Episode",
+      "Animated film",
+      "Game show"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Episode. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-021-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Episode?",
+    "options": [
+      "showcase performance talent",
+      "develop a related story",
+      "celebrate achievements",
+      "form a unit of episodic storytelling"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is form a unit of episodic storytelling. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-022-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a group of episodes released as a television cycle?",
+    "options": [
+      "Premiere",
+      "Season",
+      "Producer",
+      "Game show"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Season. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-022-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Season?",
+    "options": [
+      "the person responsible for guiding a film or production's creative execution",
+      "a series of related creative works sharing a common intellectual property",
+      "a competition or program in which performers demonstrate skills",
+      "a group of episodes released as a television cycle"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a group of episodes released as a television cycle. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-022-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a show has several episodes grouped into a numbered cycle. Which concept best matches it?",
+    "options": [
+      "Prequel",
+      "Season",
+      "Talk show",
+      "Producer"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Season. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-022-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Season?",
+    "options": [
+      "organize episodes into a series segment",
+      "develop a related story",
+      "help bring a production to completion",
+      "entertain through competitive games"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is organize episodes into a series segment. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-023-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an event at which honors are presented for achievements?",
+    "options": [
+      "Spin-off",
+      "Award ceremony",
+      "Genre",
+      "Streaming"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Award ceremony. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-023-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Award ceremony?",
+    "options": [
+      "a program combining multiple entertainment formats such as music, comedy, and sketches",
+      "comedy performed directly by a comedian for an audience",
+      "an event at which honors are presented for achievements",
+      "a single installment of a television or serialized program"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is an event at which honors are presented for achievements. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-023-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: performers or productions are recognized with trophies or prizes. Which concept best matches it?",
+    "options": [
+      "Episode",
+      "Streaming",
+      "Sequel",
+      "Award ceremony"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Award ceremony. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-023-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Award ceremony?",
+    "options": [
+      "develop a related story",
+      "market an upcoming production",
+      "expand earlier chronology",
+      "celebrate achievements"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is celebrate achievements. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-024-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the commercial performance or ticket revenue of a theatrical film?",
+    "options": [
+      "Variety show",
+      "Animated film",
+      "Box office",
+      "Streaming"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Box office. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-024-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Box office?",
+    "options": [
+      "a series of related creative works sharing a common intellectual property",
+      "the person responsible for guiding a film or production's creative execution",
+      "a program combining multiple entertainment formats such as music, comedy, and sketches",
+      "the commercial performance or ticket revenue of a theatrical film"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is the commercial performance or ticket revenue of a theatrical film. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-024-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a movie's theatrical earnings are reported after release. Which concept best matches it?",
+    "options": [
+      "Reality television",
+      "Sitcom",
+      "Genre",
+      "Box office"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Box office. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-024-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Box office?",
+    "options": [
+      "mark the initial public release or showing",
+      "support mood and storytelling",
+      "measure theatrical ticket performance",
+      "showcase performance talent"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is measure theatrical ticket performance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-025-1",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: delivery of digital media over the internet for immediate or near-immediate playback?",
+    "options": [
+      "Director",
+      "Streaming",
+      "Soundtrack",
+      "Premiere"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Streaming. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-MEDIUM-025-2",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "medium",
+    "question": "Which statement best describes Streaming?",
+    "options": [
+      "a category defined by shared characteristics or conventions",
+      "a competition or program in which performers demonstrate skills",
+      "a work set earlier in the chronology of an existing story",
+      "delivery of digital media over the internet for immediate or near-immediate playback"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is delivery of digital media over the internet for immediate or near-immediate playback. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-HARD-025-3",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a viewer watches a program through an internet service. Which concept best matches it?",
+    "options": [
+      "Stand-up comedy",
+      "Franchise",
+      "Award ceremony",
+      "Streaming"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Streaming. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-EASY-025-4",
+    "category": "Entertainment",
+    "subcategory": "Entertainment",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Streaming?",
+    "options": [
+      "deliver media online",
+      "celebrate achievements",
+      "present nonfiction information",
+      "form a unit of episodic storytelling"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is deliver media online. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
   }
 ]

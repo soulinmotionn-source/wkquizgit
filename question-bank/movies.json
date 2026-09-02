@@ -207,5 +207,1905 @@
       "movies"
     ],
     "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-001-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 1972 crime drama directed by Francis Ford Coppola?",
+    "options": [
+      "The Dark Knight",
+      "The Terminator",
+      "The Godfather",
+      "Gladiator"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is The Godfather. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-001-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes The Godfather?",
+    "options": [
+      "a 1994 animated musical film set in an African-inspired animal kingdom",
+      "a 1972 crime drama directed by Francis Ford Coppola",
+      "a 1984 science-fiction action film directed by James Cameron",
+      "a 1942 romantic drama set during World War II"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a 1972 crime drama directed by Francis Ford Coppola. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-001-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a famous film about the Corleone crime family. Which concept best matches it?",
+    "options": [
+      "Rocky",
+      "Inception",
+      "Titanic",
+      "The Godfather"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is The Godfather. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-001-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with The Godfather?",
+    "options": [
+      "explore power, memory, and identity",
+      "explore environmental and cultural conflict on Pandora",
+      "explore time travel and its consequences",
+      "depict an American organized-crime family"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is depict an American organized-crime family. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-002-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 1975 thriller directed by Steven Spielberg?",
+    "options": [
+      "Jaws",
+      "Toy Story",
+      "The Terminator",
+      "Citizen Kane"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Jaws. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-002-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes Jaws?",
+    "options": [
+      "a 2008 superhero crime film directed by Christopher Nolan",
+      "a 1975 thriller directed by Steven Spielberg",
+      "a 1994 drama directed by Robert Zemeckis",
+      "a 1994 animated musical film set in an African-inspired animal kingdom"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a 1975 thriller directed by Steven Spielberg. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-002-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a coastal community faces a dangerous great white shark. Which concept best matches it?",
+    "options": [
+      "Psycho",
+      "Finding Nemo",
+      "Jaws",
+      "Back to the Future"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Jaws. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-002-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Jaws?",
+    "options": [
+      "tell an animated story from toys' perspective",
+      "build suspense around a shark threat",
+      "explore layered dream worlds",
+      "combine science fiction with survival horror"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is build suspense around a shark threat. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-003-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a space-opera film series created by George Lucas?",
+    "options": [
+      "The Dark Knight",
+      "Star Wars",
+      "Citizen Kane",
+      "Avatar"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Star Wars. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-003-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes Star Wars?",
+    "options": [
+      "a 1994 animated musical film set in an African-inspired animal kingdom",
+      "a 1975 musical comedy horror film based on the stage musical",
+      "a 1975 thriller directed by Steven Spielberg",
+      "a space-opera film series created by George Lucas"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a space-opera film series created by George Lucas. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-003-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: the franchise features Jedi, the Force, and a galaxy-spanning conflict. Which concept best matches it?",
+    "options": [
+      "The Dark Knight",
+      "Rocky Horror Picture Show",
+      "Star Wars",
+      "The Wizard of Oz"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Star Wars. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-003-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Star Wars?",
+    "options": [
+      "tell stories in a science-fiction universe",
+      "tell an animated story from toys' perspective",
+      "explore time travel and its consequences",
+      "adapt an epic fantasy quest"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is tell stories in a science-fiction universe. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-004-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 1993 science-fiction adventure film directed by Steven Spielberg?",
+    "options": [
+      "Forrest Gump",
+      "Jaws",
+      "Psycho",
+      "Jurassic Park"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Jurassic Park. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-004-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes Jurassic Park?",
+    "options": [
+      "a 2003 animated film about a clownfish searching for his son",
+      "a 1999 science-fiction action film directed by the Wachowskis",
+      "a 1993 science-fiction adventure film directed by Steven Spielberg",
+      "a 2010 science-fiction thriller directed by Christopher Nolan"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a 1993 science-fiction adventure film directed by Steven Spielberg. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-004-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: genetically recreated dinosaurs escape from a theme park. Which concept best matches it?",
+    "options": [
+      "Star Wars",
+      "Rocky Horror Picture Show",
+      "Jurassic Park",
+      "Toy Story"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Jurassic Park. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-004-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Jurassic Park?",
+    "options": [
+      "explore consequences of dinosaur cloning",
+      "explore perseverance and determination",
+      "explore environmental and cultural conflict on Pandora",
+      "explore hope, friendship, and imprisonment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is explore consequences of dinosaur cloning. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-005-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 1997 romantic disaster film directed by James Cameron?",
+    "options": [
+      "Star Wars",
+      "Rocky Horror Picture Show",
+      "The Godfather",
+      "Titanic"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Titanic. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-005-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes Titanic?",
+    "options": [
+      "a 1997 romantic disaster film directed by James Cameron",
+      "a 1995 animated film directed by John Lasseter",
+      "a film trilogy based on J. R. R. Tolkien's novels",
+      "a 1993 science-fiction adventure film directed by Steven Spielberg"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a 1997 romantic disaster film directed by James Cameron. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-005-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a fictional romance unfolds aboard the RMS Titanic. Which concept best matches it?",
+    "options": [
+      "Titanic",
+      "Psycho",
+      "Star Wars",
+      "Finding Nemo"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Titanic. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-005-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Titanic?",
+    "options": [
+      "tell stories in a science-fiction universe",
+      "explore environmental and cultural conflict on Pandora",
+      "explore simulated reality and free will",
+      "combine romance with a historical maritime disaster"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is combine romance with a historical maritime disaster. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-006-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 1999 science-fiction action film directed by the Wachowskis?",
+    "options": [
+      "The Dark Knight",
+      "The Matrix",
+      "The Lion King",
+      "Finding Nemo"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is The Matrix. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-006-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes The Matrix?",
+    "options": [
+      "a 1994 animated musical film set in an African-inspired animal kingdom",
+      "a 1999 science-fiction action film directed by the Wachowskis",
+      "a 1941 drama directed by and starring Orson Welles",
+      "a 1975 musical comedy horror film based on the stage musical"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a 1999 science-fiction action film directed by the Wachowskis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-006-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: characters discover that their perceived reality is an artificial simulation. Which concept best matches it?",
+    "options": [
+      "The Wizard of Oz",
+      "Star Wars",
+      "The Matrix",
+      "Psycho"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is The Matrix. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-006-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with The Matrix?",
+    "options": [
+      "tell an animated story from toys' perspective",
+      "explore simulated reality and free will",
+      "build suspense around a shark threat",
+      "explore love and sacrifice during wartime"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is explore simulated reality and free will. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-007-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 1994 drama directed by Frank Darabont?",
+    "options": [
+      "The Shawshank Redemption",
+      "The Wizard of Oz",
+      "Citizen Kane",
+      "Jurassic Park"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is The Shawshank Redemption. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-007-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes The Shawshank Redemption?",
+    "options": [
+      "a 2010 science-fiction thriller directed by Christopher Nolan",
+      "a 1994 drama directed by Frank Darabont",
+      "a 1993 science-fiction adventure film directed by Steven Spielberg",
+      "a 1995 animated film directed by John Lasseter"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a 1994 drama directed by Frank Darabont. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-007-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a prisoner forms a long friendship while maintaining hope. Which concept best matches it?",
+    "options": [
+      "The Shawshank Redemption",
+      "Finding Nemo",
+      "Alien",
+      "The Wizard of Oz"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is The Shawshank Redemption. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-007-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with The Shawshank Redemption?",
+    "options": [
+      "explore love and sacrifice during wartime",
+      "adapt an epic fantasy quest",
+      "tell stories in a science-fiction universe",
+      "explore hope, friendship, and imprisonment"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is explore hope, friendship, and imprisonment. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-008-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 1985 science-fiction comedy directed by Robert Zemeckis?",
+    "options": [
+      "Rocky",
+      "Back to the Future",
+      "The Lord of the Rings",
+      "Gladiator"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Back to the Future. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-008-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes Back to the Future?",
+    "options": [
+      "a 1985 science-fiction comedy directed by Robert Zemeckis",
+      "a 1979 science-fiction horror film directed by Ridley Scott",
+      "a 1997 romantic disaster film directed by James Cameron",
+      "a 1942 romantic drama set during World War II"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a 1985 science-fiction comedy directed by Robert Zemeckis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-008-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a teenager travels to the past using a modified DeLorean. Which concept best matches it?",
+    "options": [
+      "Rocky",
+      "The Terminator",
+      "The Shawshank Redemption",
+      "Back to the Future"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Back to the Future. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-008-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Back to the Future?",
+    "options": [
+      "explore time travel and its consequences",
+      "adapt an epic fantasy quest",
+      "depict an American organized-crime family",
+      "explore layered dream worlds"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is explore time travel and its consequences. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-009-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 2008 superhero crime film directed by Christopher Nolan?",
+    "options": [
+      "Psycho",
+      "The Lion King",
+      "Casablanca",
+      "The Dark Knight"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is The Dark Knight. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-009-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes The Dark Knight?",
+    "options": [
+      "a film trilogy based on J. R. R. Tolkien's novels",
+      "a space-opera film series created by George Lucas",
+      "a 2008 superhero crime film directed by Christopher Nolan",
+      "a 1976 sports drama starring a small-time boxer given a major opportunity"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a 2008 superhero crime film directed by Christopher Nolan. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-009-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: Batman confronts a criminal adversary known as the Joker. Which concept best matches it?",
+    "options": [
+      "Finding Nemo",
+      "Citizen Kane",
+      "The Lion King",
+      "The Dark Knight"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is The Dark Knight. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-009-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with The Dark Knight?",
+    "options": [
+      "explore moral conflict in Gotham",
+      "blend personal story with historical events",
+      "explore power, memory, and identity",
+      "explore environmental and cultural conflict on Pandora"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is explore moral conflict in Gotham. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-010-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a film trilogy based on J. R. R. Tolkien's novels?",
+    "options": [
+      "Rocky",
+      "Titanic",
+      "Rocky Horror Picture Show",
+      "The Lord of the Rings"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is The Lord of the Rings. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-010-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes The Lord of the Rings?",
+    "options": [
+      "a film trilogy based on J. R. R. Tolkien's novels",
+      "a 1994 drama directed by Robert Zemeckis",
+      "a 1984 science-fiction action film directed by James Cameron",
+      "a 1975 thriller directed by Steven Spielberg"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a film trilogy based on J. R. R. Tolkien's novels. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-010-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a group travels to destroy a powerful ring. Which concept best matches it?",
+    "options": [
+      "Citizen Kane",
+      "The Lord of the Rings",
+      "Toy Story",
+      "Avatar"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is The Lord of the Rings. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-010-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with The Lord of the Rings?",
+    "options": [
+      "build suspense around a shark threat",
+      "combine romance with a historical maritime disaster",
+      "adapt an epic fantasy quest",
+      "depict an American organized-crime family"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is adapt an epic fantasy quest. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-011-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 1995 animated film directed by John Lasseter?",
+    "options": [
+      "The Shawshank Redemption",
+      "Toy Story",
+      "Titanic",
+      "Forrest Gump"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Toy Story. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-011-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes Toy Story?",
+    "options": [
+      "a 1985 science-fiction comedy directed by Robert Zemeckis",
+      "a 1995 animated film directed by John Lasseter",
+      "a 1942 romantic drama set during World War II",
+      "a film trilogy based on J. R. R. Tolkien's novels"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a 1995 animated film directed by John Lasseter. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-011-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: toys come alive when humans are not around. Which concept best matches it?",
+    "options": [
+      "The Wizard of Oz",
+      "Finding Nemo",
+      "Toy Story",
+      "The Matrix"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Toy Story. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-011-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Toy Story?",
+    "options": [
+      "build psychological suspense",
+      "explore family, courage, and the ocean",
+      "tell an animated story from toys' perspective",
+      "explore environmental and cultural conflict on Pandora"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is tell an animated story from toys' perspective. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-012-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 2003 animated film about a clownfish searching for his son?",
+    "options": [
+      "Finding Nemo",
+      "The Matrix",
+      "Jaws",
+      "Rocky Horror Picture Show"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Finding Nemo. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-012-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes Finding Nemo?",
+    "options": [
+      "a 2003 animated film about a clownfish searching for his son",
+      "a 1976 sports drama starring a small-time boxer given a major opportunity",
+      "a 1941 drama directed by and starring Orson Welles",
+      "a 1994 drama directed by Robert Zemeckis"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a 2003 animated film about a clownfish searching for his son. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-012-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a father crosses the ocean to find a missing young fish. Which concept best matches it?",
+    "options": [
+      "Star Wars",
+      "Titanic",
+      "Finding Nemo",
+      "Inception"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Finding Nemo. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-012-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Finding Nemo?",
+    "options": [
+      "explore revenge and survival in ancient Rome",
+      "combine romance with a historical maritime disaster",
+      "explore family, courage, and the ocean",
+      "explore family, loss, and leadership"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is explore family, courage, and the ocean. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-013-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 1994 animated musical film set in an African-inspired animal kingdom?",
+    "options": [
+      "Inception",
+      "The Dark Knight",
+      "Rocky",
+      "The Lion King"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is The Lion King. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-013-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes The Lion King?",
+    "options": [
+      "a 1960 psychological horror film directed by Alfred Hitchcock",
+      "a 1994 drama directed by Frank Darabont",
+      "a 1993 science-fiction adventure film directed by Steven Spielberg",
+      "a 1994 animated musical film set in an African-inspired animal kingdom"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a 1994 animated musical film set in an African-inspired animal kingdom. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-013-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a young lion grows into his responsibility as king. Which concept best matches it?",
+    "options": [
+      "The Wizard of Oz",
+      "Back to the Future",
+      "The Terminator",
+      "The Lion King"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is The Lion King. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-013-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with The Lion King?",
+    "options": [
+      "build psychological suspense",
+      "explore revenge and survival in ancient Rome",
+      "explore family, loss, and leadership",
+      "explore perseverance and determination"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is explore family, loss, and leadership. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-014-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 1994 drama directed by Robert Zemeckis?",
+    "options": [
+      "Titanic",
+      "Rocky",
+      "Forrest Gump",
+      "The Terminator"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Forrest Gump. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-014-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes Forrest Gump?",
+    "options": [
+      "a 1975 thriller directed by Steven Spielberg",
+      "a 1993 science-fiction adventure film directed by Steven Spielberg",
+      "a 2010 science-fiction thriller directed by Christopher Nolan",
+      "a 1994 drama directed by Robert Zemeckis"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a 1994 drama directed by Robert Zemeckis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-014-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a man's life intersects with major events in modern American history. Which concept best matches it?",
+    "options": [
+      "Forrest Gump",
+      "Titanic",
+      "Alien",
+      "Star Wars"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Forrest Gump. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-014-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Forrest Gump?",
+    "options": [
+      "tell a classic fantasy journey",
+      "explore family, courage, and the ocean",
+      "blend personal story with historical events",
+      "blend musical comedy and horror"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is blend personal story with historical events. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-015-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 2000 historical epic directed by Ridley Scott?",
+    "options": [
+      "Jaws",
+      "Gladiator",
+      "The Terminator",
+      "Inception"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Gladiator. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-015-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes Gladiator?",
+    "options": [
+      "a 2003 animated film about a clownfish searching for his son",
+      "a 2000 historical epic directed by Ridley Scott",
+      "a 1941 drama directed by and starring Orson Welles",
+      "a 1960 psychological horror film directed by Alfred Hitchcock"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a 2000 historical epic directed by Ridley Scott. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-015-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a Roman general becomes a gladiator after betrayal. Which concept best matches it?",
+    "options": [
+      "Casablanca",
+      "Gladiator",
+      "Jaws",
+      "Finding Nemo"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Gladiator. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-015-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Gladiator?",
+    "options": [
+      "explore revenge and survival in ancient Rome",
+      "combine science fiction with survival horror",
+      "tell an animated story from toys' perspective",
+      "explore family, courage, and the ocean"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is explore revenge and survival in ancient Rome. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-016-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 2010 science-fiction thriller directed by Christopher Nolan?",
+    "options": [
+      "Inception",
+      "Rocky Horror Picture Show",
+      "Forrest Gump",
+      "The Shawshank Redemption"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Inception. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-016-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes Inception?",
+    "options": [
+      "a 2010 science-fiction thriller directed by Christopher Nolan",
+      "a 1995 animated film directed by John Lasseter",
+      "a 2003 animated film about a clownfish searching for his son",
+      "a 2000 historical epic directed by Ridley Scott"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a 2010 science-fiction thriller directed by Christopher Nolan. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-016-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a team attempts to manipulate dreams to implant an idea. Which concept best matches it?",
+    "options": [
+      "Inception",
+      "Toy Story",
+      "Back to the Future",
+      "Titanic"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Inception. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-016-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Inception?",
+    "options": [
+      "explore layered dream worlds",
+      "blend personal story with historical events",
+      "explore simulated reality and free will",
+      "explore family, courage, and the ocean"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is explore layered dream worlds. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-017-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 2009 science-fiction film directed by James Cameron?",
+    "options": [
+      "Avatar",
+      "Citizen Kane",
+      "Back to the Future",
+      "Alien"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Avatar. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-017-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes Avatar?",
+    "options": [
+      "a 1994 drama directed by Frank Darabont",
+      "a film trilogy based on J. R. R. Tolkien's novels",
+      "a 2009 science-fiction film directed by James Cameron",
+      "a 1972 crime drama directed by Francis Ford Coppola"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a 2009 science-fiction film directed by James Cameron. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-017-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: humans interact with the Na'vi on the moon Pandora. Which concept best matches it?",
+    "options": [
+      "Inception",
+      "Casablanca",
+      "Finding Nemo",
+      "Avatar"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Avatar. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-017-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Avatar?",
+    "options": [
+      "adapt an epic fantasy quest",
+      "combine science fiction with survival horror",
+      "combine romance with a historical maritime disaster",
+      "explore environmental and cultural conflict on Pandora"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is explore environmental and cultural conflict on Pandora. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-018-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 1976 sports drama starring a small-time boxer given a major opportunity?",
+    "options": [
+      "Titanic",
+      "Forrest Gump",
+      "The Lord of the Rings",
+      "Rocky"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Rocky. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-018-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes Rocky?",
+    "options": [
+      "a 1976 sports drama starring a small-time boxer given a major opportunity",
+      "a 1997 romantic disaster film directed by James Cameron",
+      "a 1975 musical comedy horror film based on the stage musical",
+      "a 1975 thriller directed by Steven Spielberg"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a 1976 sports drama starring a small-time boxer given a major opportunity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-018-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an underdog boxer receives a chance to fight for a championship. Which concept best matches it?",
+    "options": [
+      "Forrest Gump",
+      "Star Wars",
+      "Rocky",
+      "Jurassic Park"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Rocky. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-018-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Rocky?",
+    "options": [
+      "explore revenge and survival in ancient Rome",
+      "explore perseverance and determination",
+      "explore hope, friendship, and imprisonment",
+      "tell stories in a science-fiction universe"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is explore perseverance and determination. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-019-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 1984 science-fiction action film directed by James Cameron?",
+    "options": [
+      "Jurassic Park",
+      "Gladiator",
+      "Psycho",
+      "The Terminator"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is The Terminator. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-019-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes The Terminator?",
+    "options": [
+      "a 1984 science-fiction action film directed by James Cameron",
+      "a 1979 science-fiction horror film directed by Ridley Scott",
+      "a 1975 musical comedy horror film based on the stage musical",
+      "a 1976 sports drama starring a small-time boxer given a major opportunity"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a 1984 science-fiction action film directed by James Cameron. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-019-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a cyborg assassin travels from the future to kill a woman. Which concept best matches it?",
+    "options": [
+      "Rocky Horror Picture Show",
+      "Titanic",
+      "Jurassic Park",
+      "The Terminator"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is The Terminator. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-019-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with The Terminator?",
+    "options": [
+      "explore family, courage, and the ocean",
+      "explore time travel and artificial intelligence",
+      "depict an American organized-crime family",
+      "explore consequences of dinosaur cloning"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is explore time travel and artificial intelligence. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-020-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 1979 science-fiction horror film directed by Ridley Scott?",
+    "options": [
+      "Back to the Future",
+      "Avatar",
+      "Gladiator",
+      "Alien"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Alien. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-020-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes Alien?",
+    "options": [
+      "a 1979 science-fiction horror film directed by Ridley Scott",
+      "a 1995 animated film directed by John Lasseter",
+      "a 1942 romantic drama set during World War II",
+      "a film trilogy based on J. R. R. Tolkien's novels"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a 1979 science-fiction horror film directed by Ridley Scott. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-020-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a commercial spacecraft crew encounters a deadly extraterrestrial organism. Which concept best matches it?",
+    "options": [
+      "The Lion King",
+      "Alien",
+      "Casablanca",
+      "Titanic"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Alien. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-020-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Alien?",
+    "options": [
+      "explore consequences of dinosaur cloning",
+      "explore hope, friendship, and imprisonment",
+      "tell a classic fantasy journey",
+      "combine science fiction with survival horror"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is combine science fiction with survival horror. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-021-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 1960 psychological horror film directed by Alfred Hitchcock?",
+    "options": [
+      "The Dark Knight",
+      "Psycho",
+      "The Lord of the Rings",
+      "Toy Story"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Psycho. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-021-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes Psycho?",
+    "options": [
+      "a 1960 psychological horror film directed by Alfred Hitchcock",
+      "a 1976 sports drama starring a small-time boxer given a major opportunity",
+      "a 2000 historical epic directed by Ridley Scott",
+      "a 1999 science-fiction action film directed by the Wachowskis"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a 1960 psychological horror film directed by Alfred Hitchcock. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-021-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a motel and its mysterious proprietor become central to a murder story. Which concept best matches it?",
+    "options": [
+      "Rocky Horror Picture Show",
+      "Citizen Kane",
+      "The Terminator",
+      "Psycho"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Psycho. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-021-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Psycho?",
+    "options": [
+      "explore time travel and artificial intelligence",
+      "explore moral conflict in Gotham",
+      "adapt an epic fantasy quest",
+      "build psychological suspense"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is build psychological suspense. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-022-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 1942 romantic drama set during World War II?",
+    "options": [
+      "The Lion King",
+      "Jurassic Park",
+      "Casablanca",
+      "The Lord of the Rings"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Casablanca. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-022-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes Casablanca?",
+    "options": [
+      "a 1975 musical comedy horror film based on the stage musical",
+      "a 1942 romantic drama set during World War II",
+      "a 1975 thriller directed by Steven Spielberg",
+      "a 1997 romantic disaster film directed by James Cameron"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a 1942 romantic drama set during World War II. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-022-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a nightclub owner faces a difficult choice involving a former love. Which concept best matches it?",
+    "options": [
+      "Avatar",
+      "Casablanca",
+      "The Terminator",
+      "Finding Nemo"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Casablanca. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-022-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Casablanca?",
+    "options": [
+      "explore family, loss, and leadership",
+      "explore power, memory, and identity",
+      "explore love and sacrifice during wartime",
+      "blend personal story with historical events"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is explore love and sacrifice during wartime. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-023-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 1941 drama directed by and starring Orson Welles?",
+    "options": [
+      "Inception",
+      "Titanic",
+      "Toy Story",
+      "Citizen Kane"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Citizen Kane. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-023-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes Citizen Kane?",
+    "options": [
+      "a 1941 drama directed by and starring Orson Welles",
+      "a 2003 animated film about a clownfish searching for his son",
+      "a 1942 romantic drama set during World War II",
+      "a 2009 science-fiction film directed by James Cameron"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a 1941 drama directed by and starring Orson Welles. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-023-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: the story investigates the life and final word of Charles Foster Kane. Which concept best matches it?",
+    "options": [
+      "Star Wars",
+      "Citizen Kane",
+      "Forrest Gump",
+      "Rocky Horror Picture Show"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Citizen Kane. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-023-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Citizen Kane?",
+    "options": [
+      "combine romance with a historical maritime disaster",
+      "explore power, memory, and identity",
+      "build suspense around a shark threat",
+      "explore moral conflict in Gotham"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is explore power, memory, and identity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-024-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 1975 musical comedy horror film based on the stage musical?",
+    "options": [
+      "Rocky Horror Picture Show",
+      "Psycho",
+      "Toy Story",
+      "Avatar"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Rocky Horror Picture Show. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-024-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes Rocky Horror Picture Show?",
+    "options": [
+      "a space-opera film series created by George Lucas",
+      "a 1999 science-fiction action film directed by the Wachowskis",
+      "a 1975 musical comedy horror film based on the stage musical",
+      "a 2003 animated film about a clownfish searching for his son"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a 1975 musical comedy horror film based on the stage musical. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-024-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a young couple encounters eccentric characters at a strange mansion. Which concept best matches it?",
+    "options": [
+      "The Wizard of Oz",
+      "Citizen Kane",
+      "Rocky Horror Picture Show",
+      "Toy Story"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Rocky Horror Picture Show. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-024-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Rocky Horror Picture Show?",
+    "options": [
+      "tell a classic fantasy journey",
+      "build psychological suspense",
+      "blend musical comedy and horror",
+      "blend personal story with historical events"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is blend musical comedy and horror. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-025-1",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a 1939 musical fantasy film?",
+    "options": [
+      "The Wizard of Oz",
+      "Citizen Kane",
+      "Titanic",
+      "The Godfather"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is The Wizard of Oz. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-MEDIUM-025-2",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "medium",
+    "question": "Which statement best describes The Wizard of Oz?",
+    "options": [
+      "a 1975 thriller directed by Steven Spielberg",
+      "a 1939 musical fantasy film",
+      "a 2008 superhero crime film directed by Christopher Nolan",
+      "a 1972 crime drama directed by Francis Ford Coppola"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a 1939 musical fantasy film. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-HARD-025-3",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: Dorothy travels to a magical land after a tornado. Which concept best matches it?",
+    "options": [
+      "The Terminator",
+      "The Lord of the Rings",
+      "The Wizard of Oz",
+      "Rocky Horror Picture Show"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is The Wizard of Oz. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOVIES-EASY-025-4",
+    "category": "Movies",
+    "subcategory": "Movies",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with The Wizard of Oz?",
+    "options": [
+      "tell a classic fantasy journey",
+      "explore time travel and artificial intelligence",
+      "depict an American organized-crime family",
+      "explore layered dream worlds"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is tell a classic fantasy journey. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
   }
 ]

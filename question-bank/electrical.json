@@ -397,5 +397,1867 @@
       "electrical"
     ],
     "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-001-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: electric potential difference between two points?",
+    "options": [
+      "Multimeter",
+      "Voltage",
+      "Open circuit",
+      "Circuit load"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Voltage. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-001-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Voltage?",
+    "options": [
+      "a circuit in which branches share the same two nodes",
+      "electric potential difference between two points",
+      "a test instrument that can measure electrical quantities such as voltage, current, and resistance",
+      "an overcurrent protection device that opens when its element melts"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is electric potential difference between two points. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-001-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a multimeter measures the potential difference across a component. Which concept best matches it?",
+    "options": [
+      "Current",
+      "Voltage",
+      "Alternating current",
+      "Ground"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Voltage. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-001-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Voltage?",
+    "options": [
+      "verify an unbroken path",
+      "cause fault current and protective-device operation",
+      "provide the electrical potential that drives current",
+      "stop current flow"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is provide the electrical potential that drives current. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-002-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the rate of flow of electric charge?",
+    "options": [
+      "Open circuit",
+      "Current",
+      "Multimeter",
+      "Relay"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Current. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-002-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Current?",
+    "options": [
+      "the relationship V = IR for an ohmic element under specified conditions",
+      "the rate of flow of electric charge",
+      "opposition to electric current",
+      "electric current that flows with a constant polarity in the idealized basic sense"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is the rate of flow of electric charge. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-002-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: amperes are used to measure it in a circuit. Which concept best matches it?",
+    "options": [
+      "Current",
+      "Inductor",
+      "Contactor",
+      "Circuit load"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Current. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-002-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Current?",
+    "options": [
+      "switch higher-power loads",
+      "protect and route conductors",
+      "describe charge flow",
+      "diagnose electrical circuits"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is describe charge flow. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-003-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: opposition to electric current?",
+    "options": [
+      "Resistance",
+      "Relay",
+      "Voltage",
+      "Ground"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Resistance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-003-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Resistance?",
+    "options": [
+      "an unintended low-impedance path that can produce excessive current",
+      "a test instrument that can measure electrical quantities such as voltage, current, and resistance",
+      "a raceway used to protect and route electrical conductors",
+      "opposition to electric current"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is opposition to electric current. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-003-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a resistor limits current in a circuit. Which concept best matches it?",
+    "options": [
+      "Open circuit",
+      "Ground",
+      "Transformer",
+      "Resistance"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Resistance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-003-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Resistance?",
+    "options": [
+      "oppose current flow",
+      "store magnetic energy and oppose current change",
+      "describe charge flow",
+      "provide the electrical potential that drives current"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is oppose current flow. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-004-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the relationship V = IR for an ohmic element under specified conditions?",
+    "options": [
+      "Current",
+      "Diode",
+      "Fuse",
+      "Ohm's law"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Ohm's law. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-004-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Ohm's law?",
+    "options": [
+      "the relationship V = IR for an ohmic element under specified conditions",
+      "a component that stores energy in a magnetic field",
+      "the number of cycles or repetitions per second",
+      "a reference point and/or conductive path used for electrical safety and circuit reference"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is the relationship V = IR for an ohmic element under specified conditions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-004-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: voltage, current, and resistance are related by a basic circuit equation. Which concept best matches it?",
+    "options": [
+      "Current",
+      "Ohm's law",
+      "Diode",
+      "Fuse"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Ohm's law. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-004-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Ohm's law?",
+    "options": [
+      "use electrical energy",
+      "protect against overcurrent",
+      "provide one current path",
+      "analyze simple electrical circuits"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is analyze simple electrical circuits. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-005-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the rate of electrical energy transfer, commonly P = VI?",
+    "options": [
+      "Open circuit",
+      "Power",
+      "Frequency",
+      "Contactor"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Power. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-005-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a load consumes electrical power measured in watts. Which concept best matches it?",
+    "options": [
+      "Ohm's law",
+      "Series circuit",
+      "Power",
+      "Transformer"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Power. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-006-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a circuit in which components share a single current path?",
+    "options": [
+      "Alternating current",
+      "Contactor",
+      "Ohm's law",
+      "Series circuit"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Series circuit. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-006-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Series circuit?",
+    "options": [
+      "an overcurrent protection device that opens when its element melts",
+      "the rate of flow of electric charge",
+      "a circuit in which components share a single current path",
+      "an electrically controlled switch commonly used for switching power circuits"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a circuit in which components share a single current path. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-006-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: current passes through each component in one continuous path. Which concept best matches it?",
+    "options": [
+      "Direct current",
+      "Series circuit",
+      "Short circuit",
+      "Diode"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Series circuit. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-006-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Series circuit?",
+    "options": [
+      "use electrical energy",
+      "analyze simple electrical circuits",
+      "transmit and distribute AC electrical power",
+      "provide one current path"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is provide one current path. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-007-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a circuit in which branches share the same two nodes?",
+    "options": [
+      "Alternating current",
+      "Parallel circuit",
+      "Short circuit",
+      "Inductor"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Parallel circuit. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-007-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Parallel circuit?",
+    "options": [
+      "a circuit in which components share a single current path",
+      "an electrically controlled switch commonly used for switching power circuits",
+      "a circuit in which branches share the same two nodes",
+      "a device or component that consumes electrical energy"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a circuit in which branches share the same two nodes. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-007-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: separate branches connect across the same voltage. Which concept best matches it?",
+    "options": [
+      "Parallel circuit",
+      "Relay",
+      "Current",
+      "Alternating current"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Parallel circuit. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-007-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Parallel circuit?",
+    "options": [
+      "control one circuit with another",
+      "provide multiple current paths",
+      "analyze simple electrical circuits",
+      "stop current flow"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is provide multiple current paths. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-008-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a reference point and/or conductive path used for electrical safety and circuit reference?",
+    "options": [
+      "Direct current",
+      "Continuity",
+      "Ground",
+      "Inductor"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Ground. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-008-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Ground?",
+    "options": [
+      "a reference point and/or conductive path used for electrical safety and circuit reference",
+      "the number of cycles or repetitions per second",
+      "the rate of electrical energy transfer, commonly P = VI",
+      "the relationship V = IR for an ohmic element under specified conditions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a reference point and/or conductive path used for electrical safety and circuit reference. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-008-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: equipment grounding provides a path for fault current. Which concept best matches it?",
+    "options": [
+      "Conduit",
+      "Ground",
+      "Power",
+      "Capacitor"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Ground. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-008-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Ground?",
+    "options": [
+      "analyze simple electrical circuits",
+      "protect and route conductors",
+      "reduce shock hazard and establish reference",
+      "verify an unbroken path"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is reduce shock hazard and establish reference. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-009-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an automatically operated protective device that opens a circuit during specified fault conditions?",
+    "options": [
+      "Circuit load",
+      "Current",
+      "Diode",
+      "Circuit breaker"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Circuit breaker. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-009-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Circuit breaker?",
+    "options": [
+      "a component that stores energy in a magnetic field",
+      "an automatically operated protective device that opens a circuit during specified fault conditions",
+      "electric potential difference between two points",
+      "an electrically controlled switch commonly used for switching power circuits"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is an automatically operated protective device that opens a circuit during specified fault conditions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-009-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: excess current causes a breaker to trip. Which concept best matches it?",
+    "options": [
+      "Ground",
+      "Circuit breaker",
+      "Capacitor",
+      "Power"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Circuit breaker. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-009-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Circuit breaker?",
+    "options": [
+      "transmit and distribute AC electrical power",
+      "interrupt hazardous overcurrent",
+      "protect against overcurrent",
+      "protect and route conductors"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is interrupt hazardous overcurrent. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-010-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an overcurrent protection device that opens when its element melts?",
+    "options": [
+      "Transformer",
+      "Fuse",
+      "Contactor",
+      "Series circuit"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Fuse. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-010-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Fuse?",
+    "options": [
+      "an unintended low-impedance path that can produce excessive current",
+      "a component that stores energy in a magnetic field",
+      "the rate of electrical energy transfer, commonly P = VI",
+      "an overcurrent protection device that opens when its element melts"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is an overcurrent protection device that opens when its element melts. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-010-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a replaceable protective element fails during excessive current. Which concept best matches it?",
+    "options": [
+      "Ohm's law",
+      "Fuse",
+      "Relay",
+      "Frequency"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Fuse. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-010-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Fuse?",
+    "options": [
+      "switch higher-power loads",
+      "provide the electrical potential that drives current",
+      "provide multiple current paths",
+      "protect against overcurrent"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is protect against overcurrent. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-011-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a device that transfers electrical energy between circuits through electromagnetic induction?",
+    "options": [
+      "Power",
+      "Continuity",
+      "Transformer",
+      "Ohm's law"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Transformer. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-011-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Transformer?",
+    "options": [
+      "the rate of flow of electric charge",
+      "a device that transfers electrical energy between circuits through electromagnetic induction",
+      "a component that stores energy in an electric field",
+      "electric potential difference between two points"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a device that transfers electrical energy between circuits through electromagnetic induction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-011-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an AC system changes voltage using magnetic coupling. Which concept best matches it?",
+    "options": [
+      "Diode",
+      "Resistance",
+      "Transformer",
+      "Ohm's law"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Transformer. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-011-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Transformer?",
+    "options": [
+      "protect against overcurrent",
+      "step voltage up or down",
+      "provide the electrical potential that drives current",
+      "interrupt hazardous overcurrent"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is step voltage up or down. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-012-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: electric current that periodically changes direction?",
+    "options": [
+      "Series circuit",
+      "Short circuit",
+      "Power",
+      "Alternating current"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Alternating current. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-012-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Alternating current?",
+    "options": [
+      "electric current that periodically changes direction",
+      "a raceway used to protect and route electrical conductors",
+      "electric potential difference between two points",
+      "the presence of a complete conductive path"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is electric current that periodically changes direction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-012-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: utility AC reverses direction over time. Which concept best matches it?",
+    "options": [
+      "Alternating current",
+      "Continuity",
+      "Parallel circuit",
+      "Conduit"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Alternating current. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-012-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Alternating current?",
+    "options": [
+      "transmit and distribute AC electrical power",
+      "power many electronic and electrical devices",
+      "step voltage up or down",
+      "quantify electrical energy transfer rate"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is transmit and distribute AC electrical power. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-013-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: electric current that flows with a constant polarity in the idealized basic sense?",
+    "options": [
+      "Frequency",
+      "Transformer",
+      "Series circuit",
+      "Direct current"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Direct current. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-013-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Direct current?",
+    "options": [
+      "electric current that flows with a constant polarity in the idealized basic sense",
+      "a device that transfers electrical energy between circuits through electromagnetic induction",
+      "a component that stores energy in an electric field",
+      "a semiconductor device that primarily permits current in one direction"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is electric current that flows with a constant polarity in the idealized basic sense. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-013-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a battery supplies DC to a circuit. Which concept best matches it?",
+    "options": [
+      "Relay",
+      "Conduit",
+      "Direct current",
+      "Circuit breaker"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Direct current. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-013-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Direct current?",
+    "options": [
+      "switch higher-power loads",
+      "power many electronic and electrical devices",
+      "store electrical energy and influence circuit behavior",
+      "provide multiple current paths"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is power many electronic and electrical devices. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-014-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the number of cycles or repetitions per second?",
+    "options": [
+      "Multimeter",
+      "Inductor",
+      "Frequency",
+      "Circuit load"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Frequency. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-014-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Frequency?",
+    "options": [
+      "the number of cycles or repetitions per second",
+      "a circuit in which branches share the same two nodes",
+      "electric potential difference between two points",
+      "an unintended low-impedance path that can produce excessive current"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is the number of cycles or repetitions per second. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-014-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: AC frequency is measured in hertz. Which concept best matches it?",
+    "options": [
+      "Transformer",
+      "Frequency",
+      "Series circuit",
+      "Diode"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Frequency. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-014-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Frequency?",
+    "options": [
+      "power many electronic and electrical devices",
+      "describe periodic electrical repetition",
+      "quantify electrical energy transfer rate",
+      "oppose current flow"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is describe periodic electrical repetition. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-015-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a component that stores energy in an electric field?",
+    "options": [
+      "Continuity",
+      "Contactor",
+      "Parallel circuit",
+      "Capacitor"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Capacitor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-015-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Capacitor?",
+    "options": [
+      "an automatically operated protective device that opens a circuit during specified fault conditions",
+      "the rate of electrical energy transfer, commonly P = VI",
+      "a component that stores energy in an electric field",
+      "electric current that flows with a constant polarity in the idealized basic sense"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a component that stores energy in an electric field. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-015-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: two conductive plates separated by an insulating material form a basic capacitor. Which concept best matches it?",
+    "options": [
+      "Relay",
+      "Diode",
+      "Capacitor",
+      "Open circuit"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Capacitor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-015-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Capacitor?",
+    "options": [
+      "control current direction",
+      "step voltage up or down",
+      "store electrical energy and influence circuit behavior",
+      "provide the electrical potential that drives current"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is store electrical energy and influence circuit behavior. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-016-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a component that stores energy in a magnetic field?",
+    "options": [
+      "Fuse",
+      "Inductor",
+      "Open circuit",
+      "Diode"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Inductor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-016-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Inductor?",
+    "options": [
+      "a test instrument that can measure electrical quantities such as voltage, current, and resistance",
+      "an electrically controlled switch commonly used for switching power circuits",
+      "the presence of a complete conductive path",
+      "a component that stores energy in a magnetic field"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a component that stores energy in a magnetic field. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-016-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a coil resists changes in current and stores magnetic energy. Which concept best matches it?",
+    "options": [
+      "Diode",
+      "Fuse",
+      "Multimeter",
+      "Inductor"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Inductor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-016-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Inductor?",
+    "options": [
+      "store magnetic energy and oppose current change",
+      "provide the electrical potential that drives current",
+      "control current direction",
+      "power many electronic and electrical devices"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is store magnetic energy and oppose current change. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-017-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a semiconductor device that primarily permits current in one direction?",
+    "options": [
+      "Contactor",
+      "Parallel circuit",
+      "Diode",
+      "Short circuit"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Diode. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-017-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Diode?",
+    "options": [
+      "the rate of flow of electric charge",
+      "a semiconductor device that primarily permits current in one direction",
+      "electric current that flows with a constant polarity in the idealized basic sense",
+      "an automatically operated protective device that opens a circuit during specified fault conditions"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a semiconductor device that primarily permits current in one direction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-017-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a rectifier circuit uses a one-way semiconductor device. Which concept best matches it?",
+    "options": [
+      "Continuity",
+      "Diode",
+      "Power",
+      "Circuit load"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Diode. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-017-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Diode?",
+    "options": [
+      "control current direction",
+      "provide multiple current paths",
+      "interrupt hazardous overcurrent",
+      "step voltage up or down"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is control current direction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-018-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an electrically operated switch?",
+    "options": [
+      "Frequency",
+      "Current",
+      "Relay",
+      "Capacitor"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Relay. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-018-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Relay?",
+    "options": [
+      "a circuit in which branches share the same two nodes",
+      "a raceway used to protect and route electrical conductors",
+      "an electrically operated switch",
+      "a test instrument that can measure electrical quantities such as voltage, current, and resistance"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is an electrically operated switch. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-018-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a low-power control circuit energizes a coil that changes contacts. Which concept best matches it?",
+    "options": [
+      "Voltage",
+      "Diode",
+      "Resistance",
+      "Relay"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Relay. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-018-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Relay?",
+    "options": [
+      "power many electronic and electrical devices",
+      "control one circuit with another",
+      "use electrical energy",
+      "describe charge flow"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is control one circuit with another. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-019-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an electrically controlled switch commonly used for switching power circuits?",
+    "options": [
+      "Multimeter",
+      "Contactor",
+      "Transformer",
+      "Conduit"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Contactor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-019-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Contactor?",
+    "options": [
+      "the rate of flow of electric charge",
+      "opposition to electric current",
+      "an automatically operated protective device that opens a circuit during specified fault conditions",
+      "an electrically controlled switch commonly used for switching power circuits"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is an electrically controlled switch commonly used for switching power circuits. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-019-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an HVAC compressor is switched by an electrically operated power contactor. Which concept best matches it?",
+    "options": [
+      "Contactor",
+      "Diode",
+      "Ground",
+      "Continuity"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Contactor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-019-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Contactor?",
+    "options": [
+      "switch higher-power loads",
+      "verify an unbroken path",
+      "transmit and distribute AC electrical power",
+      "diagnose electrical circuits"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is switch higher-power loads. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-020-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a raceway used to protect and route electrical conductors?",
+    "options": [
+      "Ohm's law",
+      "Circuit breaker",
+      "Conduit",
+      "Alternating current"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Conduit. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-020-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Conduit?",
+    "options": [
+      "a raceway used to protect and route electrical conductors",
+      "an unintended low-impedance path that can produce excessive current",
+      "the rate of flow of electric charge",
+      "a circuit in which branches share the same two nodes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a raceway used to protect and route electrical conductors. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-020-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: wires are installed inside metal or nonmetallic tubing. Which concept best matches it?",
+    "options": [
+      "Open circuit",
+      "Direct current",
+      "Conduit",
+      "Power"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Conduit. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-020-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Conduit?",
+    "options": [
+      "control current direction",
+      "verify an unbroken path",
+      "protect and route conductors",
+      "interrupt hazardous overcurrent"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is protect and route conductors. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-021-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a device or component that consumes electrical energy?",
+    "options": [
+      "Circuit load",
+      "Ground",
+      "Voltage",
+      "Multimeter"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Circuit load. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-021-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Circuit load?",
+    "options": [
+      "a component that stores energy in a magnetic field",
+      "electric current that periodically changes direction",
+      "a device or component that consumes electrical energy",
+      "the rate of flow of electric charge"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a device or component that consumes electrical energy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-021-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a heater draws power from a circuit. Which concept best matches it?",
+    "options": [
+      "Series circuit",
+      "Circuit load",
+      "Diode",
+      "Ohm's law"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Circuit load. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-021-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Circuit load?",
+    "options": [
+      "store electrical energy and influence circuit behavior",
+      "reduce shock hazard and establish reference",
+      "use electrical energy",
+      "cause fault current and protective-device operation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is use electrical energy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-022-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an unintended low-impedance path that can produce excessive current?",
+    "options": [
+      "Resistance",
+      "Series circuit",
+      "Alternating current",
+      "Short circuit"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Short circuit. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-022-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Short circuit?",
+    "options": [
+      "an unintended low-impedance path that can produce excessive current",
+      "a circuit in which components share a single current path",
+      "the relationship V = IR for an ohmic element under specified conditions",
+      "a test instrument that can measure electrical quantities such as voltage, current, and resistance"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is an unintended low-impedance path that can produce excessive current. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-022-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: two conductors contact in a way that bypasses normal load resistance. Which concept best matches it?",
+    "options": [
+      "Short circuit",
+      "Relay",
+      "Conduit",
+      "Multimeter"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Short circuit. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-022-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Short circuit?",
+    "options": [
+      "switch higher-power loads",
+      "cause fault current and protective-device operation",
+      "provide one current path",
+      "reduce shock hazard and establish reference"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is cause fault current and protective-device operation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-023-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a broken or interrupted path that prevents normal current flow?",
+    "options": [
+      "Capacitor",
+      "Transformer",
+      "Diode",
+      "Open circuit"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Open circuit. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-023-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Open circuit?",
+    "options": [
+      "a circuit in which branches share the same two nodes",
+      "the number of cycles or repetitions per second",
+      "a component that stores energy in an electric field",
+      "a broken or interrupted path that prevents normal current flow"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a broken or interrupted path that prevents normal current flow. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-023-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a switch is open and the circuit is incomplete. Which concept best matches it?",
+    "options": [
+      "Alternating current",
+      "Open circuit",
+      "Current",
+      "Voltage"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Open circuit. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-023-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Open circuit?",
+    "options": [
+      "switch higher-power loads",
+      "stop current flow",
+      "oppose current flow",
+      "diagnose electrical circuits"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is stop current flow. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-024-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a test instrument that can measure electrical quantities such as voltage, current, and resistance?",
+    "options": [
+      "Multimeter",
+      "Inductor",
+      "Conduit",
+      "Resistance"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Multimeter. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-024-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Multimeter?",
+    "options": [
+      "a component that stores energy in a magnetic field",
+      "the rate of electrical energy transfer, commonly P = VI",
+      "electric current that flows with a constant polarity in the idealized basic sense",
+      "a test instrument that can measure electrical quantities such as voltage, current, and resistance"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a test instrument that can measure electrical quantities such as voltage, current, and resistance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-024-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a technician uses one handheld instrument for several measurements. Which concept best matches it?",
+    "options": [
+      "Circuit load",
+      "Ohm's law",
+      "Multimeter",
+      "Current"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Multimeter. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-024-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Multimeter?",
+    "options": [
+      "protect and route conductors",
+      "analyze simple electrical circuits",
+      "provide multiple current paths",
+      "diagnose electrical circuits"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is diagnose electrical circuits. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-025-1",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the presence of a complete conductive path?",
+    "options": [
+      "Contactor",
+      "Continuity",
+      "Series circuit",
+      "Diode"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Continuity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-MEDIUM-025-2",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Continuity?",
+    "options": [
+      "an overcurrent protection device that opens when its element melts",
+      "the presence of a complete conductive path",
+      "a circuit in which branches share the same two nodes",
+      "an electrically controlled switch commonly used for switching power circuits"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is the presence of a complete conductive path. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-HARD-025-3",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a technician checks whether two points are electrically connected. Which concept best matches it?",
+    "options": [
+      "Contactor",
+      "Continuity",
+      "Direct current",
+      "Circuit breaker"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Continuity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-EASY-025-4",
+    "category": "Electrical",
+    "subcategory": "Electrical",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Continuity?",
+    "options": [
+      "provide multiple current paths",
+      "step voltage up or down",
+      "interrupt hazardous overcurrent",
+      "verify an unbroken path"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is verify an unbroken path. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
   }
 ]

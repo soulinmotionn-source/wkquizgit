@@ -435,5 +435,1905 @@
       "nursing"
     ],
     "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-001-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: temperature, pulse, respirations, blood pressure, and oxygen saturation?",
+    "options": [
+      "Documentation",
+      "Pulse oximetry",
+      "Delegation",
+      "Vital signs"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Vital signs. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-001-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Vital signs?",
+    "options": [
+      "temperature, pulse, respirations, blood pressure, and oxygen saturation",
+      "localized damage to skin and underlying tissue caused by pressure or shear",
+      "an abnormally high blood glucose level",
+      "a deficit of body water"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is temperature, pulse, respirations, blood pressure, and oxygen saturation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-001-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a routine bedside assessment of basic physiologic status. Which concept best matches it?",
+    "options": [
+      "Vital signs",
+      "Fluid overload",
+      "Confidentiality",
+      "Delegation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Vital signs. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-001-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Vital signs?",
+    "options": [
+      "reduce strain and injury during movement",
+      "promote lung expansion and help prevent atelectasis",
+      "help establish a patient's baseline and detect changes",
+      "identify a cause of dizziness and fall risk"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is help establish a patient's baseline and detect changes. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-002-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: practices used to reduce contamination by microorganisms?",
+    "options": [
+      "Sterile field",
+      "Fluid overload",
+      "Aseptic technique",
+      "Pain assessment"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Aseptic technique. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-002-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Aseptic technique?",
+    "options": [
+      "infection-prevention practices applied to patient care based on potential exposure to infectious material",
+      "measures used to reduce a patient's risk of falling",
+      "practices used to reduce contamination by microorganisms",
+      "a record of fluids entering and leaving the body"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is practices used to reduce contamination by microorganisms. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-002-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a procedure requiring careful control of contamination. Which concept best matches it?",
+    "options": [
+      "Aseptic technique",
+      "Body mechanics",
+      "Standard precautions",
+      "Sterile field"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Aseptic technique. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-002-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Aseptic technique?",
+    "options": [
+      "reduce the risk of introducing microorganisms",
+      "support autonomous decision-making",
+      "reduce strain and injury during movement",
+      "reduce transmission of infection"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is reduce the risk of introducing microorganisms. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-003-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: cleaning hands to remove transient microorganisms?",
+    "options": [
+      "Hand hygiene",
+      "Hyperglycemia",
+      "Hypoglycemia",
+      "Pain assessment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hand hygiene. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-003-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Hand hygiene?",
+    "options": [
+      "systematic evaluation of pain intensity, quality, location, timing, and impact",
+      "cleaning hands to remove transient microorganisms",
+      "safe positioning and movement principles used when lifting or transferring",
+      "protection of private patient information from unauthorized disclosure"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is cleaning hands to remove transient microorganisms. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-003-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: the first-line action before and after many patient-care activities. Which concept best matches it?",
+    "options": [
+      "Confidentiality",
+      "Hand hygiene",
+      "Orthostatic hypotension",
+      "Hypoglycemia"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Hand hygiene. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-003-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Hand hygiene?",
+    "options": [
+      "protect tissue by relieving pressure and managing risk factors",
+      "identify poor glucose control",
+      "identify a cause of dizziness and fall risk",
+      "reduce transmission of infection"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is reduce transmission of infection. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-004-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: localized damage to skin and underlying tissue caused by pressure or shear?",
+    "options": [
+      "Intake and output",
+      "Pressure injury",
+      "Hypoglycemia",
+      "Body mechanics"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Pressure injury. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-004-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Pressure injury?",
+    "options": [
+      "an abnormally low blood glucose level",
+      "a record of fluids entering and leaving the body",
+      "an area maintained free of microorganisms for a sterile procedure",
+      "localized damage to skin and underlying tissue caused by pressure or shear"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is localized damage to skin and underlying tissue caused by pressure or shear. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-004-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has prolonged pressure over a bony prominence. Which concept best matches it?",
+    "options": [
+      "Vital signs",
+      "Pressure injury",
+      "Hyperglycemia",
+      "Pulse oximetry"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Pressure injury. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-004-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Pressure injury?",
+    "options": [
+      "assess fluid balance",
+      "promote safe and lawful practice",
+      "protect tissue by relieving pressure and managing risk factors",
+      "support autonomous decision-making"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is protect tissue by relieving pressure and managing risk factors. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-005-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: noninvasive measurement of peripheral oxygen saturation?",
+    "options": [
+      "Informed consent",
+      "Intake and output",
+      "Pulse oximetry",
+      "Fluid overload"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Pulse oximetry. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-005-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Pulse oximetry?",
+    "options": [
+      "excessive accumulation of fluid in the body",
+      "measures used to reduce a patient's risk of falling",
+      "cleaning hands to remove transient microorganisms",
+      "noninvasive measurement of peripheral oxygen saturation"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is noninvasive measurement of peripheral oxygen saturation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-005-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a sensor is placed on a finger to estimate oxygen saturation. Which concept best matches it?",
+    "options": [
+      "Pulse oximetry",
+      "Standard precautions",
+      "Hyperglycemia",
+      "Therapeutic communication"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pulse oximetry. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-005-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Pulse oximetry?",
+    "options": [
+      "identify poor glucose control",
+      "monitor oxygenation",
+      "support autonomous decision-making",
+      "identify and address inadequate fluid status"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is monitor oxygenation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-006-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a device that encourages slow deep inhalation?",
+    "options": [
+      "Orthostatic hypotension",
+      "Vital signs",
+      "Incentive spirometer",
+      "Fall precautions"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Incentive spirometer. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-006-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Incentive spirometer?",
+    "options": [
+      "measures used to reduce a patient's risk of falling",
+      "a device that encourages slow deep inhalation",
+      "purposeful communication that supports the patient's needs and care",
+      "accurate recording of assessments, interventions, responses, and other care information"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a device that encourages slow deep inhalation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-006-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a postoperative patient is asked to breathe deeply through a handheld device. Which concept best matches it?",
+    "options": [
+      "Incentive spirometer",
+      "Hyperglycemia",
+      "Pulse oximetry",
+      "Fluid overload"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Incentive spirometer. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-006-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Incentive spirometer?",
+    "options": [
+      "reduce strain and injury during movement",
+      "maintain muscle strength when movement is limited",
+      "promote lung expansion and help prevent atelectasis",
+      "help establish a patient's baseline and detect changes"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is promote lung expansion and help prevent atelectasis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-007-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: muscle contraction without appreciable joint movement?",
+    "options": [
+      "Isometric exercise",
+      "Pulse oximetry",
+      "Orthostatic hypotension",
+      "Incentive spirometer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Isometric exercise. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-007-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Isometric exercise?",
+    "options": [
+      "practices used to reduce contamination by microorganisms",
+      "an abnormally low blood glucose level",
+      "accurate recording of assessments, interventions, responses, and other care information",
+      "muscle contraction without appreciable joint movement"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is muscle contraction without appreciable joint movement. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-007-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient tightens a muscle while keeping the joint still. Which concept best matches it?",
+    "options": [
+      "Documentation",
+      "Isometric exercise",
+      "Pulse oximetry",
+      "Hyperglycemia"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Isometric exercise. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-007-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Isometric exercise?",
+    "options": [
+      "promote lung expansion and help prevent atelectasis",
+      "reduce transmission of infection",
+      "protect patient privacy",
+      "maintain muscle strength when movement is limited"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is maintain muscle strength when movement is limited. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-008-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a significant drop in blood pressure after moving to an upright position?",
+    "options": [
+      "Intake and output",
+      "Incentive spirometer",
+      "Orthostatic hypotension",
+      "Scope of practice"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Orthostatic hypotension. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-008-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Orthostatic hypotension?",
+    "options": [
+      "accurate recording of assessments, interventions, responses, and other care information",
+      "a significant drop in blood pressure after moving to an upright position",
+      "infection-prevention practices applied to patient care based on potential exposure to infectious material",
+      "localized damage to skin and underlying tissue caused by pressure or shear"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a significant drop in blood pressure after moving to an upright position. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-008-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient becomes dizzy after standing from bed. Which concept best matches it?",
+    "options": [
+      "Incentive spirometer",
+      "Fall precautions",
+      "Hyperglycemia",
+      "Orthostatic hypotension"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Orthostatic hypotension. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-008-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Orthostatic hypotension?",
+    "options": [
+      "protect patient privacy",
+      "reduce medication errors during transitions",
+      "identify a cause of dizziness and fall risk",
+      "recognize and treat low blood glucose promptly"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is identify a cause of dizziness and fall risk. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-009-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a record of fluids entering and leaving the body?",
+    "options": [
+      "Body mechanics",
+      "Intake and output",
+      "Hypoglycemia",
+      "Fall precautions"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Intake and output. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-009-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Intake and output?",
+    "options": [
+      "a record of fluids entering and leaving the body",
+      "excessive accumulation of fluid in the body",
+      "systematic evaluation of pain intensity, quality, location, timing, and impact",
+      "temperature, pulse, respirations, blood pressure, and oxygen saturation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a record of fluids entering and leaving the body. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-009-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: urine, IV fluids, and oral fluids are being totaled. Which concept best matches it?",
+    "options": [
+      "Vital signs",
+      "Standard precautions",
+      "Intake and output",
+      "Delegation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Intake and output. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-009-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Intake and output?",
+    "options": [
+      "assess fluid balance",
+      "promote lung expansion and help prevent atelectasis",
+      "monitor oxygenation",
+      "identify poor glucose control"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is assess fluid balance. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-010-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: safe positioning and movement principles used when lifting or transferring?",
+    "options": [
+      "Pressure injury",
+      "Intake and output",
+      "Body mechanics",
+      "Vital signs"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Body mechanics. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-010-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Body mechanics?",
+    "options": [
+      "localized damage to skin and underlying tissue caused by pressure or shear",
+      "noninvasive measurement of peripheral oxygen saturation",
+      "a significant drop in blood pressure after moving to an upright position",
+      "safe positioning and movement principles used when lifting or transferring"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is safe positioning and movement principles used when lifting or transferring. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-010-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a nurse widens the base of support before moving a patient. Which concept best matches it?",
+    "options": [
+      "Fall precautions",
+      "Aseptic technique",
+      "Body mechanics",
+      "Intake and output"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Body mechanics. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-010-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Body mechanics?",
+    "options": [
+      "guide pain-management decisions",
+      "reduce strain and injury during movement",
+      "reduce transmission of infection",
+      "reduce transmission of infection"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is reduce strain and injury during movement. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-011-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: purposeful communication that supports the patient's needs and care?",
+    "options": [
+      "Therapeutic communication",
+      "Intake and output",
+      "Hyperglycemia",
+      "Hypoglycemia"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Therapeutic communication. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-011-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Therapeutic communication?",
+    "options": [
+      "an abnormally high blood glucose level",
+      "the activities a healthcare professional is educated, licensed, and authorized to perform",
+      "infection-prevention practices applied to patient care based on potential exposure to infectious material",
+      "purposeful communication that supports the patient's needs and care"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is purposeful communication that supports the patient's needs and care. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-011-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a nurse uses open-ended questions and active listening. Which concept best matches it?",
+    "options": [
+      "Orthostatic hypotension",
+      "Fluid overload",
+      "Body mechanics",
+      "Therapeutic communication"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Therapeutic communication. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-011-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Therapeutic communication?",
+    "options": [
+      "promote lung expansion and help prevent atelectasis",
+      "build rapport and obtain useful information",
+      "reduce strain and injury during movement",
+      "use team resources safely"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is build rapport and obtain useful information. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-012-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: systematic evaluation of pain intensity, quality, location, timing, and impact?",
+    "options": [
+      "Pain assessment",
+      "Isometric exercise",
+      "Sterile field",
+      "Orthostatic hypotension"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pain assessment. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-012-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Pain assessment?",
+    "options": [
+      "a record of fluids entering and leaving the body",
+      "a deficit of body water",
+      "systematic evaluation of pain intensity, quality, location, timing, and impact",
+      "a device that encourages slow deep inhalation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is systematic evaluation of pain intensity, quality, location, timing, and impact. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-012-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a nurse asks a patient to rate pain and describe its quality. Which concept best matches it?",
+    "options": [
+      "Sterile field",
+      "Pain assessment",
+      "Dehydration",
+      "Hand hygiene"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Pain assessment. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-012-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Pain assessment?",
+    "options": [
+      "promote lung expansion and help prevent atelectasis",
+      "use team resources safely",
+      "promote safe and lawful practice",
+      "guide pain-management decisions"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is guide pain-management decisions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-013-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: measures used to reduce a patient's risk of falling?",
+    "options": [
+      "Hyperglycemia",
+      "Hand hygiene",
+      "Incentive spirometer",
+      "Fall precautions"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Fall precautions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-013-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Fall precautions?",
+    "options": [
+      "assignment of appropriate tasks to another qualified member of the care team",
+      "accurate recording of assessments, interventions, responses, and other care information",
+      "measures used to reduce a patient's risk of falling",
+      "muscle contraction without appreciable joint movement"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is measures used to reduce a patient's risk of falling. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-013-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a high-risk patient has the call bell within reach and a safe environment. Which concept best matches it?",
+    "options": [
+      "Therapeutic communication",
+      "Fall precautions",
+      "Hand hygiene",
+      "Sterile field"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Fall precautions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-013-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Fall precautions?",
+    "options": [
+      "prevent falls and related injury",
+      "assess fluid balance",
+      "identify and address inadequate fluid status",
+      "reduce transmission of infection"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is prevent falls and related injury. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-014-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: excessive accumulation of fluid in the body?",
+    "options": [
+      "Fall precautions",
+      "Therapeutic communication",
+      "Fluid overload",
+      "Vital signs"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Fluid overload. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-014-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Fluid overload?",
+    "options": [
+      "an area maintained free of microorganisms for a sterile procedure",
+      "a record of fluids entering and leaving the body",
+      "excessive accumulation of fluid in the body",
+      "accurate recording of assessments, interventions, responses, and other care information"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is excessive accumulation of fluid in the body. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-014-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient develops edema and rapid weight gain. Which concept best matches it?",
+    "options": [
+      "Fluid overload",
+      "Intake and output",
+      "Hypoglycemia",
+      "Standard precautions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fluid overload. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-014-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Fluid overload?",
+    "options": [
+      "support autonomous decision-making",
+      "protect patient privacy",
+      "promote safe and lawful practice",
+      "recognize an imbalance requiring assessment"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is recognize an imbalance requiring assessment. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-015-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a deficit of body water?",
+    "options": [
+      "Dehydration",
+      "Aseptic technique",
+      "Orthostatic hypotension",
+      "Pulse oximetry"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Dehydration. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-015-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Dehydration?",
+    "options": [
+      "a significant drop in blood pressure after moving to an upright position",
+      "accurate recording of assessments, interventions, responses, and other care information",
+      "a deficit of body water",
+      "practices used to reduce contamination by microorganisms"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a deficit of body water. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-015-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has dry mucous membranes and concentrated urine. Which concept best matches it?",
+    "options": [
+      "Aseptic technique",
+      "Confidentiality",
+      "Fall precautions",
+      "Dehydration"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Dehydration. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-015-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Dehydration?",
+    "options": [
+      "help establish a patient's baseline and detect changes",
+      "protect tissue by relieving pressure and managing risk factors",
+      "guide pain-management decisions",
+      "identify and address inadequate fluid status"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is identify and address inadequate fluid status. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-016-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an abnormally low blood glucose level?",
+    "options": [
+      "Hyperglycemia",
+      "Hypoglycemia",
+      "Therapeutic communication",
+      "Scope of practice"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Hypoglycemia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-016-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Hypoglycemia?",
+    "options": [
+      "an area maintained free of microorganisms for a sterile procedure",
+      "an abnormally low blood glucose level",
+      "systematic evaluation of pain intensity, quality, location, timing, and impact",
+      "accurate recording of assessments, interventions, responses, and other care information"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is an abnormally low blood glucose level. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-016-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient becomes sweaty, shaky, and confused. Which concept best matches it?",
+    "options": [
+      "Confidentiality",
+      "Hypoglycemia",
+      "Dehydration",
+      "Isometric exercise"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Hypoglycemia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-016-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Hypoglycemia?",
+    "options": [
+      "identify and address inadequate fluid status",
+      "monitor oxygenation",
+      "recognize and treat low blood glucose promptly",
+      "identify poor glucose control"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is recognize and treat low blood glucose promptly. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-017-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an abnormally high blood glucose level?",
+    "options": [
+      "Aseptic technique",
+      "Hyperglycemia",
+      "Isometric exercise",
+      "Hand hygiene"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Hyperglycemia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-017-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Hyperglycemia?",
+    "options": [
+      "cleaning hands to remove transient microorganisms",
+      "an abnormally high blood glucose level",
+      "a record of fluids entering and leaving the body",
+      "practices used to reduce contamination by microorganisms"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is an abnormally high blood glucose level. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-017-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has increased thirst and an elevated glucose reading. Which concept best matches it?",
+    "options": [
+      "Hyperglycemia",
+      "Sterile field",
+      "Vital signs",
+      "Fluid overload"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hyperglycemia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-017-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Hyperglycemia?",
+    "options": [
+      "identify poor glucose control",
+      "monitor oxygenation",
+      "guide pain-management decisions",
+      "reduce transmission of infection"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is identify poor glucose control. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-018-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an area maintained free of microorganisms for a sterile procedure?",
+    "options": [
+      "Fall precautions",
+      "Delegation",
+      "Sterile field",
+      "Body mechanics"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Sterile field. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-018-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Sterile field?",
+    "options": [
+      "a patient's voluntary agreement after receiving appropriate information",
+      "noninvasive measurement of peripheral oxygen saturation",
+      "a deficit of body water",
+      "an area maintained free of microorganisms for a sterile procedure"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is an area maintained free of microorganisms for a sterile procedure. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-018-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a nurse prepares a sterile dressing change. Which concept best matches it?",
+    "options": [
+      "Sterile field",
+      "Documentation",
+      "Hand hygiene",
+      "Intake and output"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sterile field. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-018-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Sterile field?",
+    "options": [
+      "reduce transmission of infection",
+      "promote lung expansion and help prevent atelectasis",
+      "maintain sterility during invasive or sterile procedures",
+      "reduce strain and injury during movement"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is maintain sterility during invasive or sterile procedures. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-019-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: comparison of a patient's medication lists to identify discrepancies?",
+    "options": [
+      "Fluid overload",
+      "Documentation",
+      "Confidentiality",
+      "Medication reconciliation"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Medication reconciliation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-019-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Medication reconciliation?",
+    "options": [
+      "an abnormally low blood glucose level",
+      "accurate recording of assessments, interventions, responses, and other care information",
+      "assignment of appropriate tasks to another qualified member of the care team",
+      "comparison of a patient's medication lists to identify discrepancies"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is comparison of a patient's medication lists to identify discrepancies. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-019-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: medications are reviewed at admission, transfer, or discharge. Which concept best matches it?",
+    "options": [
+      "Documentation",
+      "Fluid overload",
+      "Medication reconciliation",
+      "Pressure injury"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Medication reconciliation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-019-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Medication reconciliation?",
+    "options": [
+      "identify a cause of dizziness and fall risk",
+      "monitor oxygenation",
+      "reduce medication errors during transitions",
+      "promote lung expansion and help prevent atelectasis"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is reduce medication errors during transitions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-020-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: assignment of appropriate tasks to another qualified member of the care team?",
+    "options": [
+      "Hand hygiene",
+      "Delegation",
+      "Informed consent",
+      "Scope of practice"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Delegation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-020-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Delegation?",
+    "options": [
+      "an area maintained free of microorganisms for a sterile procedure",
+      "assignment of appropriate tasks to another qualified member of the care team",
+      "muscle contraction without appreciable joint movement",
+      "noninvasive measurement of peripheral oxygen saturation"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is assignment of appropriate tasks to another qualified member of the care team. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-020-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a registered nurse assigns a permitted task while retaining accountability for appropriate oversight. Which concept best matches it?",
+    "options": [
+      "Therapeutic communication",
+      "Pain assessment",
+      "Delegation",
+      "Scope of practice"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Delegation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-020-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Delegation?",
+    "options": [
+      "identify poor glucose control",
+      "use team resources safely",
+      "reduce transmission of infection",
+      "build rapport and obtain useful information"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is use team resources safely. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-021-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a patient's voluntary agreement after receiving appropriate information?",
+    "options": [
+      "Body mechanics",
+      "Pressure injury",
+      "Informed consent",
+      "Hypoglycemia"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Informed consent. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-021-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Informed consent?",
+    "options": [
+      "protection of private patient information from unauthorized disclosure",
+      "an area maintained free of microorganisms for a sterile procedure",
+      "a patient's voluntary agreement after receiving appropriate information",
+      "a record of fluids entering and leaving the body"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a patient's voluntary agreement after receiving appropriate information. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-021-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient signs consent after the procedure and risks are explained. Which concept best matches it?",
+    "options": [
+      "Documentation",
+      "Fluid overload",
+      "Hypoglycemia",
+      "Informed consent"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Informed consent. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-021-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Informed consent?",
+    "options": [
+      "monitor oxygenation",
+      "support continuity, communication, and legal accountability",
+      "reduce transmission of infection",
+      "support autonomous decision-making"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is support autonomous decision-making. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-022-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the activities a healthcare professional is educated, licensed, and authorized to perform?",
+    "options": [
+      "Vital signs",
+      "Scope of practice",
+      "Hypoglycemia",
+      "Orthostatic hypotension"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Scope of practice. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-022-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Scope of practice?",
+    "options": [
+      "the activities a healthcare professional is educated, licensed, and authorized to perform",
+      "excessive accumulation of fluid in the body",
+      "safe positioning and movement principles used when lifting or transferring",
+      "an area maintained free of microorganisms for a sterile procedure"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is the activities a healthcare professional is educated, licensed, and authorized to perform. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-022-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a nurse checks whether a task is within professional authorization. Which concept best matches it?",
+    "options": [
+      "Scope of practice",
+      "Pain assessment",
+      "Orthostatic hypotension",
+      "Body mechanics"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Scope of practice. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-022-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Scope of practice?",
+    "options": [
+      "use team resources safely",
+      "reduce strain and injury during movement",
+      "promote safe and lawful practice",
+      "identify a cause of dizziness and fall risk"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is promote safe and lawful practice. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-023-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: protection of private patient information from unauthorized disclosure?",
+    "options": [
+      "Hand hygiene",
+      "Confidentiality",
+      "Medication reconciliation",
+      "Fluid overload"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Confidentiality. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-023-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Confidentiality?",
+    "options": [
+      "protection of private patient information from unauthorized disclosure",
+      "an area maintained free of microorganisms for a sterile procedure",
+      "a patient's voluntary agreement after receiving appropriate information",
+      "infection-prevention practices applied to patient care based on potential exposure to infectious material"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is protection of private patient information from unauthorized disclosure. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-023-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a nurse avoids discussing patient details in a public area. Which concept best matches it?",
+    "options": [
+      "Hand hygiene",
+      "Delegation",
+      "Intake and output",
+      "Confidentiality"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Confidentiality. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-023-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Confidentiality?",
+    "options": [
+      "promote safe and lawful practice",
+      "identify poor glucose control",
+      "maintain sterility during invasive or sterile procedures",
+      "protect patient privacy"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is protect patient privacy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-024-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: infection-prevention practices applied to patient care based on potential exposure to infectious material?",
+    "options": [
+      "Isometric exercise",
+      "Orthostatic hypotension",
+      "Standard precautions",
+      "Medication reconciliation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Standard precautions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-024-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Standard precautions?",
+    "options": [
+      "protection of private patient information from unauthorized disclosure",
+      "temperature, pulse, respirations, blood pressure, and oxygen saturation",
+      "infection-prevention practices applied to patient care based on potential exposure to infectious material",
+      "safe positioning and movement principles used when lifting or transferring"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is infection-prevention practices applied to patient care based on potential exposure to infectious material. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-024-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: gloves are used when contact with body fluids is anticipated. Which concept best matches it?",
+    "options": [
+      "Standard precautions",
+      "Hypoglycemia",
+      "Pressure injury",
+      "Hyperglycemia"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Standard precautions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-024-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Standard precautions?",
+    "options": [
+      "support autonomous decision-making",
+      "protect tissue by relieving pressure and managing risk factors",
+      "guide pain-management decisions",
+      "reduce transmission of infection"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is reduce transmission of infection. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-025-1",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: accurate recording of assessments, interventions, responses, and other care information?",
+    "options": [
+      "Documentation",
+      "Therapeutic communication",
+      "Fluid overload",
+      "Medication reconciliation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Documentation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-MEDIUM-025-2",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "medium",
+    "question": "Which statement best describes Documentation?",
+    "options": [
+      "assignment of appropriate tasks to another qualified member of the care team",
+      "accurate recording of assessments, interventions, responses, and other care information",
+      "localized damage to skin and underlying tissue caused by pressure or shear",
+      "cleaning hands to remove transient microorganisms"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is accurate recording of assessments, interventions, responses, and other care information. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-HARD-025-3",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a nurse records a medication administration and the patient's response. Which concept best matches it?",
+    "options": [
+      "Delegation",
+      "Pressure injury",
+      "Documentation",
+      "Hand hygiene"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Documentation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURSING-EASY-025-4",
+    "category": "Nursing",
+    "subcategory": "Nursing",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Documentation?",
+    "options": [
+      "protect tissue by relieving pressure and managing risk factors",
+      "support continuity, communication, and legal accountability",
+      "reduce strain and injury during movement",
+      "promote safe and lawful practice"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is support continuity, communication, and legal accountability. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
   }
 ]

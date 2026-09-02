@@ -321,5 +321,1867 @@
       "diseases & disorders"
     ],
     "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-001-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a chronic inflammatory airway disorder characterized by variable airflow limitation?",
+    "options": [
+      "Parkinson disease",
+      "Pneumonia",
+      "Osteoarthritis",
+      "Asthma"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Asthma. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-001-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Asthma?",
+    "options": [
+      "a chronic inflammatory airway disorder characterized by variable airflow limitation",
+      "a chronic inflammatory bowel disease that can affect any part of the gastrointestinal tract",
+      "disease caused by narrowing or blockage of coronary arteries",
+      "a syndrome in which the heart cannot adequately meet the body's circulatory demands"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a chronic inflammatory airway disorder characterized by variable airflow limitation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-001-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: episodes of wheezing, cough, chest tightness, and breathlessness occur. Which concept best matches it?",
+    "options": [
+      "Asthma",
+      "Parkinson disease",
+      "Pneumonia",
+      "Osteoporosis"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Asthma. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-001-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Asthma?",
+    "options": [
+      "recognize impaired cardiac pumping or filling",
+      "recognize variable airway obstruction",
+      "understand absolute insulin deficiency",
+      "recognize gluten-triggered intestinal injury"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is recognize variable airway obstruction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-002-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an autoimmune disorder causing destruction of pancreatic beta cells and absolute insulin deficiency?",
+    "options": [
+      "Celiac disease",
+      "Migraine",
+      "Type 1 diabetes",
+      "Asthma"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Type 1 diabetes. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-002-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Type 1 diabetes?",
+    "options": [
+      "infection of lung tissue that causes inflammation of the alveoli",
+      "an autoimmune disorder causing destruction of pancreatic beta cells and absolute insulin deficiency",
+      "chronic airflow limitation commonly associated with emphysema and chronic bronchitis",
+      "a skeletal disorder characterized by low bone mass and increased fracture risk"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is an autoimmune disorder causing destruction of pancreatic beta cells and absolute insulin deficiency. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-002-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a young patient requires lifelong insulin replacement. Which concept best matches it?",
+    "options": [
+      "Osteoarthritis",
+      "GERD",
+      "Type 1 diabetes",
+      "Pneumonia"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Type 1 diabetes. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-002-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Type 1 diabetes?",
+    "options": [
+      "recognize gastrointestinal ulceration",
+      "recognize variable airway obstruction",
+      "recognize transmural inflammatory bowel disease",
+      "understand absolute insulin deficiency"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is understand absolute insulin deficiency. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-003-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a disorder characterized by insulin resistance with progressive beta-cell dysfunction?",
+    "options": [
+      "Type 2 diabetes",
+      "Hypertension",
+      "GERD",
+      "Alzheimer disease"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Type 2 diabetes. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-003-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Type 2 diabetes?",
+    "options": [
+      "an autoimmune inflammatory arthritis that commonly affects multiple joints",
+      "a disorder characterized by insulin resistance with progressive beta-cell dysfunction",
+      "a progressive neurodegenerative disorder causing cognitive decline",
+      "a degenerative joint disorder involving cartilage and other joint structures"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a disorder characterized by insulin resistance with progressive beta-cell dysfunction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-003-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an adult has chronic hyperglycemia associated with insulin resistance. Which concept best matches it?",
+    "options": [
+      "Type 2 diabetes",
+      "Ulcerative colitis",
+      "Parkinson disease",
+      "Alzheimer disease"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Type 2 diabetes. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-003-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Type 2 diabetes?",
+    "options": [
+      "understand impaired insulin action and secretion",
+      "recognize a migraine pattern",
+      "recognize continuous colonic inflammation",
+      "recognize chronic obstructive lung disease"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is understand impaired insulin action and secretion. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-004-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a chronic condition of persistently elevated blood pressure?",
+    "options": [
+      "Epilepsy",
+      "Ulcerative colitis",
+      "Osteoarthritis",
+      "Hypertension"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Hypertension. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-004-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: repeated blood-pressure readings remain high. Which concept best matches it?",
+    "options": [
+      "Hypertension",
+      "Ulcerative colitis",
+      "Osteoarthritis",
+      "Rheumatoid arthritis"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hypertension. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-005-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: disease caused by narrowing or blockage of coronary arteries?",
+    "options": [
+      "Hyperthyroidism",
+      "Hypertension",
+      "Asthma",
+      "Coronary artery disease"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Coronary artery disease. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-005-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Coronary artery disease?",
+    "options": [
+      "a chronic condition of persistently elevated blood pressure",
+      "an autoimmune inflammatory arthritis that commonly affects multiple joints",
+      "a chronic inflammatory airway disorder characterized by variable airflow limitation",
+      "disease caused by narrowing or blockage of coronary arteries"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is disease caused by narrowing or blockage of coronary arteries. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-005-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: atherosclerotic plaque reduces blood flow to heart muscle. Which concept best matches it?",
+    "options": [
+      "Coronary artery disease",
+      "GERD",
+      "Type 1 diabetes",
+      "Ulcerative colitis"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Coronary artery disease. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-005-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Coronary artery disease?",
+    "options": [
+      "recognize common degenerative joint disease",
+      "understand impaired coronary perfusion",
+      "recognize an acute lung infection",
+      "recognize continuous colonic inflammation"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is understand impaired coronary perfusion. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-006-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a syndrome in which the heart cannot adequately meet the body's circulatory demands?",
+    "options": [
+      "Heart failure",
+      "COPD",
+      "Psoriasis",
+      "Osteoarthritis"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Heart failure. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-006-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Heart failure?",
+    "options": [
+      "a chronic inflammatory airway disorder characterized by variable airflow limitation",
+      "a syndrome in which the heart cannot adequately meet the body's circulatory demands",
+      "a state of insufficient thyroid hormone effect",
+      "an autoimmune disorder causing destruction of pancreatic beta cells and absolute insulin deficiency"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a syndrome in which the heart cannot adequately meet the body's circulatory demands. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-006-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has dyspnea and fluid retention due to impaired cardiac function. Which concept best matches it?",
+    "options": [
+      "Type 1 diabetes",
+      "GERD",
+      "Heart failure",
+      "Epilepsy"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Heart failure. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-006-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Heart failure?",
+    "options": [
+      "recognize fragile bones",
+      "recognize impaired cardiac pumping or filling",
+      "recognize chronic obstructive lung disease",
+      "recognize common degenerative joint disease"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is recognize impaired cardiac pumping or filling. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-007-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: infection of lung tissue that causes inflammation of the alveoli?",
+    "options": [
+      "Pneumonia",
+      "Hyperthyroidism",
+      "Parkinson disease",
+      "Anaphylaxis"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pneumonia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-007-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Pneumonia?",
+    "options": [
+      "infection of lung tissue that causes inflammation of the alveoli",
+      "a chronic condition of persistently elevated blood pressure",
+      "reflux of stomach contents into the esophagus causing symptoms or complications",
+      "a disorder characterized by recurrent unprovoked seizures"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is infection of lung tissue that causes inflammation of the alveoli. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-007-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has fever, cough, and an infiltrate on chest imaging. Which concept best matches it?",
+    "options": [
+      "Coronary artery disease",
+      "Psoriasis",
+      "Heart failure",
+      "Pneumonia"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Pneumonia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-007-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Pneumonia?",
+    "options": [
+      "recognize chronic obstructive lung disease",
+      "recognize autoimmune joint inflammation",
+      "recognize common degenerative joint disease",
+      "recognize an acute lung infection"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is recognize an acute lung infection. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-008-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: chronic airflow limitation commonly associated with emphysema and chronic bronchitis?",
+    "options": [
+      "Heart failure",
+      "Hypothyroidism",
+      "Asthma",
+      "COPD"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is COPD. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-008-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes COPD?",
+    "options": [
+      "a skeletal disorder characterized by low bone mass and increased fracture risk",
+      "an autoimmune disorder causing destruction of pancreatic beta cells and absolute insulin deficiency",
+      "an autoimmune inflammatory arthritis that commonly affects multiple joints",
+      "chronic airflow limitation commonly associated with emphysema and chronic bronchitis"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is chronic airflow limitation commonly associated with emphysema and chronic bronchitis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-008-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has persistent airflow limitation and chronic respiratory symptoms. Which concept best matches it?",
+    "options": [
+      "Osteoporosis",
+      "Type 2 diabetes",
+      "Parkinson disease",
+      "COPD"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is COPD. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-008-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with COPD?",
+    "options": [
+      "recognize chronic obstructive lung disease",
+      "recognize characteristic movement disorder",
+      "understand impaired insulin action and secretion",
+      "recognize variable airway obstruction"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is recognize chronic obstructive lung disease. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-009-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: persistent kidney damage or reduced kidney function over time?",
+    "options": [
+      "Parkinson disease",
+      "Chronic kidney disease",
+      "COPD",
+      "Crohn disease"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Chronic kidney disease. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-009-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Chronic kidney disease?",
+    "options": [
+      "an immune-mediated disorder triggered by gluten that damages the small-intestinal mucosa",
+      "reflux of stomach contents into the esophagus causing symptoms or complications",
+      "a progressive neurodegenerative disorder causing cognitive decline",
+      "persistent kidney damage or reduced kidney function over time"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is persistent kidney damage or reduced kidney function over time. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-009-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: kidney function remains impaired for months. Which concept best matches it?",
+    "options": [
+      "Rheumatoid arthritis",
+      "Chronic kidney disease",
+      "GERD",
+      "Epilepsy"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Chronic kidney disease. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-009-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Chronic kidney disease?",
+    "options": [
+      "recognize reduced thyroid function",
+      "recognize transmural inflammatory bowel disease",
+      "recognize chronic loss of renal function",
+      "recognize a migraine pattern"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is recognize chronic loss of renal function. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-010-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a skeletal disorder characterized by low bone mass and increased fracture risk?",
+    "options": [
+      "Hyperthyroidism",
+      "Osteoporosis",
+      "Asthma",
+      "Anaphylaxis"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Osteoporosis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-010-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Osteoporosis?",
+    "options": [
+      "an immune-mediated disorder triggered by gluten that damages the small-intestinal mucosa",
+      "infection of lung tissue that causes inflammation of the alveoli",
+      "a disorder characterized by recurrent unprovoked seizures",
+      "a skeletal disorder characterized by low bone mass and increased fracture risk"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a skeletal disorder characterized by low bone mass and increased fracture risk. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-010-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient sustains a fracture after a minor fall. Which concept best matches it?",
+    "options": [
+      "Osteoporosis",
+      "GERD",
+      "Hyperthyroidism",
+      "Heart failure"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Osteoporosis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-010-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Osteoporosis?",
+    "options": [
+      "understand absolute insulin deficiency",
+      "recognize fragile bones",
+      "understand impaired coronary perfusion",
+      "recognize a common cause of dementia"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is recognize fragile bones. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-011-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a degenerative joint disorder involving cartilage and other joint structures?",
+    "options": [
+      "Celiac disease",
+      "GERD",
+      "Anaphylaxis",
+      "Osteoarthritis"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Osteoarthritis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-011-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Osteoarthritis?",
+    "options": [
+      "a chronic inflammatory airway disorder characterized by variable airflow limitation",
+      "a degenerative joint disorder involving cartilage and other joint structures",
+      "persistent kidney damage or reduced kidney function over time",
+      "a state of insufficient thyroid hormone effect"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a degenerative joint disorder involving cartilage and other joint structures. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-011-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has activity-related joint pain and stiffness. Which concept best matches it?",
+    "options": [
+      "Migraine",
+      "Osteoarthritis",
+      "Ulcerative colitis",
+      "Hyperthyroidism"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Osteoarthritis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-011-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Osteoarthritis?",
+    "options": [
+      "recognize a migraine pattern",
+      "recognize common degenerative joint disease",
+      "recognize gastrointestinal ulceration",
+      "recognize gastroesophageal reflux"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is recognize common degenerative joint disease. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-012-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an autoimmune inflammatory arthritis that commonly affects multiple joints?",
+    "options": [
+      "Type 1 diabetes",
+      "Anaphylaxis",
+      "Parkinson disease",
+      "Rheumatoid arthritis"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Rheumatoid arthritis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-012-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Rheumatoid arthritis?",
+    "options": [
+      "a chronic inflammatory bowel disease that can affect any part of the gastrointestinal tract",
+      "an autoimmune disorder causing destruction of pancreatic beta cells and absolute insulin deficiency",
+      "persistent kidney damage or reduced kidney function over time",
+      "an autoimmune inflammatory arthritis that commonly affects multiple joints"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is an autoimmune inflammatory arthritis that commonly affects multiple joints. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-012-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has symmetric inflammatory joint symptoms. Which concept best matches it?",
+    "options": [
+      "Psoriasis",
+      "Type 1 diabetes",
+      "Asthma",
+      "Rheumatoid arthritis"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Rheumatoid arthritis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-012-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Rheumatoid arthritis?",
+    "options": [
+      "recognize a migraine pattern",
+      "recognize a medical emergency requiring immediate treatment",
+      "recognize autoimmune joint inflammation",
+      "recognize a common cause of dementia"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is recognize autoimmune joint inflammation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-013-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a progressive neurodegenerative disorder causing cognitive decline?",
+    "options": [
+      "Epilepsy",
+      "Alzheimer disease",
+      "Osteoarthritis",
+      "Hyperthyroidism"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Alzheimer disease. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-013-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Alzheimer disease?",
+    "options": [
+      "a mucosal ulcer in the stomach or proximal duodenum",
+      "a progressive neurodegenerative disorder causing cognitive decline",
+      "a skeletal disorder characterized by low bone mass and increased fracture risk",
+      "a degenerative joint disorder involving cartilage and other joint structures"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a progressive neurodegenerative disorder causing cognitive decline. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-013-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: memory and other cognitive abilities progressively worsen. Which concept best matches it?",
+    "options": [
+      "Crohn disease",
+      "Hyperthyroidism",
+      "Alzheimer disease",
+      "Chronic kidney disease"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Alzheimer disease. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-013-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Alzheimer disease?",
+    "options": [
+      "recognize transmural inflammatory bowel disease",
+      "recognize variable airway obstruction",
+      "recognize a common cause of dementia",
+      "understand impaired insulin action and secretion"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is recognize a common cause of dementia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-014-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a neurodegenerative disorder associated with bradykinesia and other motor features?",
+    "options": [
+      "Parkinson disease",
+      "Pneumonia",
+      "COPD",
+      "Hyperthyroidism"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Parkinson disease. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-014-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Parkinson disease?",
+    "options": [
+      "a disorder characterized by insulin resistance with progressive beta-cell dysfunction",
+      "a disorder characterized by recurrent unprovoked seizures",
+      "a neurodegenerative disorder associated with bradykinesia and other motor features",
+      "an immune-mediated disorder triggered by gluten that damages the small-intestinal mucosa"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a neurodegenerative disorder associated with bradykinesia and other motor features. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-014-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has resting tremor and slowed movement. Which concept best matches it?",
+    "options": [
+      "Parkinson disease",
+      "Peptic ulcer disease",
+      "COPD",
+      "Migraine"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Parkinson disease. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-014-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Parkinson disease?",
+    "options": [
+      "identify a major cardiovascular risk factor",
+      "understand impaired coronary perfusion",
+      "recognize reduced thyroid function",
+      "recognize characteristic movement disorder"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is recognize characteristic movement disorder. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-015-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a disorder characterized by recurrent unprovoked seizures?",
+    "options": [
+      "Epilepsy",
+      "Coronary artery disease",
+      "Ulcerative colitis",
+      "Crohn disease"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Epilepsy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-015-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Epilepsy?",
+    "options": [
+      "a chronic condition of persistently elevated blood pressure",
+      "chronic airflow limitation commonly associated with emphysema and chronic bronchitis",
+      "a disorder characterized by recurrent unprovoked seizures",
+      "a degenerative joint disorder involving cartilage and other joint structures"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a disorder characterized by recurrent unprovoked seizures. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-015-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has repeated unprovoked seizure episodes. Which concept best matches it?",
+    "options": [
+      "COPD",
+      "Ulcerative colitis",
+      "Pneumonia",
+      "Epilepsy"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Epilepsy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-015-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Epilepsy?",
+    "options": [
+      "recognize impaired cardiac pumping or filling",
+      "recognize recurrent seizure disorder",
+      "recognize gluten-triggered intestinal injury",
+      "understand impaired coronary perfusion"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is recognize recurrent seizure disorder. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-016-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a neurologic disorder causing recurrent headache attacks with associated symptoms?",
+    "options": [
+      "Psoriasis",
+      "Migraine",
+      "Peptic ulcer disease",
+      "GERD"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Migraine. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-016-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Migraine?",
+    "options": [
+      "an autoimmune inflammatory arthritis that commonly affects multiple joints",
+      "a chronic inflammatory airway disorder characterized by variable airflow limitation",
+      "a neurologic disorder causing recurrent headache attacks with associated symptoms",
+      "an autoimmune disorder causing destruction of pancreatic beta cells and absolute insulin deficiency"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a neurologic disorder causing recurrent headache attacks with associated symptoms. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-016-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has episodic throbbing headache with nausea or sensory sensitivity. Which concept best matches it?",
+    "options": [
+      "COPD",
+      "Osteoarthritis",
+      "Peptic ulcer disease",
+      "Migraine"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Migraine. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-016-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Migraine?",
+    "options": [
+      "recognize a common inflammatory skin disease",
+      "recognize a migraine pattern",
+      "recognize impaired cardiac pumping or filling",
+      "recognize gastroesophageal reflux"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is recognize a migraine pattern. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-017-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a mucosal ulcer in the stomach or proximal duodenum?",
+    "options": [
+      "Parkinson disease",
+      "Crohn disease",
+      "Pneumonia",
+      "Peptic ulcer disease"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Peptic ulcer disease. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-017-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Peptic ulcer disease?",
+    "options": [
+      "a progressive neurodegenerative disorder causing cognitive decline",
+      "a chronic immune-mediated inflammatory skin disorder with characteristic plaques",
+      "a mucosal ulcer in the stomach or proximal duodenum",
+      "infection of lung tissue that causes inflammation of the alveoli"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a mucosal ulcer in the stomach or proximal duodenum. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-017-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has upper abdominal pain associated with an ulcer. Which concept best matches it?",
+    "options": [
+      "Hypertension",
+      "Psoriasis",
+      "Type 2 diabetes",
+      "Peptic ulcer disease"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Peptic ulcer disease. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-017-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Peptic ulcer disease?",
+    "options": [
+      "recognize gastrointestinal ulceration",
+      "recognize common degenerative joint disease",
+      "recognize a migraine pattern",
+      "recognize transmural inflammatory bowel disease"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is recognize gastrointestinal ulceration. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-018-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: reflux of stomach contents into the esophagus causing symptoms or complications?",
+    "options": [
+      "Hypertension",
+      "GERD",
+      "Coronary artery disease",
+      "Type 1 diabetes"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is GERD. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-018-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes GERD?",
+    "options": [
+      "chronic airflow limitation commonly associated with emphysema and chronic bronchitis",
+      "reflux of stomach contents into the esophagus causing symptoms or complications",
+      "a chronic immune-mediated inflammatory skin disorder with characteristic plaques",
+      "a neurodegenerative disorder associated with bradykinesia and other motor features"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is reflux of stomach contents into the esophagus causing symptoms or complications. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-018-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has recurrent heartburn and regurgitation. Which concept best matches it?",
+    "options": [
+      "Asthma",
+      "Epilepsy",
+      "Type 2 diabetes",
+      "GERD"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is GERD. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-018-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with GERD?",
+    "options": [
+      "recognize a common inflammatory skin disease",
+      "recognize gastroesophageal reflux",
+      "recognize chronic loss of renal function",
+      "recognize continuous colonic inflammation"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is recognize gastroesophageal reflux. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-019-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an immune-mediated disorder triggered by gluten that damages the small-intestinal mucosa?",
+    "options": [
+      "Type 1 diabetes",
+      "Celiac disease",
+      "Psoriasis",
+      "Osteoarthritis"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Celiac disease. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-019-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Celiac disease?",
+    "options": [
+      "an immune-mediated disorder triggered by gluten that damages the small-intestinal mucosa",
+      "a chronic inflammatory airway disorder characterized by variable airflow limitation",
+      "a neurologic disorder causing recurrent headache attacks with associated symptoms",
+      "a progressive neurodegenerative disorder causing cognitive decline"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is an immune-mediated disorder triggered by gluten that damages the small-intestinal mucosa. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-019-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient develops malabsorption after gluten exposure. Which concept best matches it?",
+    "options": [
+      "Peptic ulcer disease",
+      "Migraine",
+      "Parkinson disease",
+      "Celiac disease"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Celiac disease. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-019-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Celiac disease?",
+    "options": [
+      "recognize gluten-triggered intestinal injury",
+      "recognize common degenerative joint disease",
+      "understand impaired coronary perfusion",
+      "recognize chronic obstructive lung disease"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is recognize gluten-triggered intestinal injury. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-020-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a chronic inflammatory bowel disease that can affect any part of the gastrointestinal tract?",
+    "options": [
+      "Type 1 diabetes",
+      "Alzheimer disease",
+      "Crohn disease",
+      "Rheumatoid arthritis"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Crohn disease. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-020-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Crohn disease?",
+    "options": [
+      "a mucosal ulcer in the stomach or proximal duodenum",
+      "a disorder characterized by recurrent unprovoked seizures",
+      "an autoimmune inflammatory arthritis that commonly affects multiple joints",
+      "a chronic inflammatory bowel disease that can affect any part of the gastrointestinal tract"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a chronic inflammatory bowel disease that can affect any part of the gastrointestinal tract. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-020-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: inflammation can occur in discontinuous segments of the GI tract. Which concept best matches it?",
+    "options": [
+      "Osteoarthritis",
+      "Rheumatoid arthritis",
+      "Ulcerative colitis",
+      "Crohn disease"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Crohn disease. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-020-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Crohn disease?",
+    "options": [
+      "recognize variable airway obstruction",
+      "identify a major cardiovascular risk factor",
+      "recognize transmural inflammatory bowel disease",
+      "recognize autoimmune joint inflammation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is recognize transmural inflammatory bowel disease. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-021-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a chronic inflammatory bowel disease primarily affecting the colon and rectum?",
+    "options": [
+      "Type 2 diabetes",
+      "Ulcerative colitis",
+      "Migraine",
+      "Chronic kidney disease"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Ulcerative colitis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-021-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Ulcerative colitis?",
+    "options": [
+      "a degenerative joint disorder involving cartilage and other joint structures",
+      "a severe, rapidly developing systemic hypersensitivity reaction",
+      "a chronic inflammatory airway disorder characterized by variable airflow limitation",
+      "a chronic inflammatory bowel disease primarily affecting the colon and rectum"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a chronic inflammatory bowel disease primarily affecting the colon and rectum. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-021-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: continuous mucosal inflammation begins in the rectum. Which concept best matches it?",
+    "options": [
+      "GERD",
+      "Ulcerative colitis",
+      "Parkinson disease",
+      "Pneumonia"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Ulcerative colitis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-021-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Ulcerative colitis?",
+    "options": [
+      "recognize chronic obstructive lung disease",
+      "recognize a migraine pattern",
+      "recognize continuous colonic inflammation",
+      "recognize characteristic movement disorder"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is recognize continuous colonic inflammation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-022-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a state of insufficient thyroid hormone effect?",
+    "options": [
+      "Migraine",
+      "Hypothyroidism",
+      "Osteoporosis",
+      "Peptic ulcer disease"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Hypothyroidism. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-022-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Hypothyroidism?",
+    "options": [
+      "a chronic immune-mediated inflammatory skin disorder with characteristic plaques",
+      "a chronic condition of persistently elevated blood pressure",
+      "a state of insufficient thyroid hormone effect",
+      "a state of excessive thyroid hormone effect"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a state of insufficient thyroid hormone effect. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-022-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has fatigue, cold intolerance, and a low thyroid hormone state. Which concept best matches it?",
+    "options": [
+      "Heart failure",
+      "Hypothyroidism",
+      "COPD",
+      "Parkinson disease"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Hypothyroidism. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-022-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Hypothyroidism?",
+    "options": [
+      "recognize fragile bones",
+      "recognize reduced thyroid function",
+      "recognize autoimmune joint inflammation",
+      "recognize gastrointestinal ulceration"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is recognize reduced thyroid function. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-023-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a state of excessive thyroid hormone effect?",
+    "options": [
+      "Hyperthyroidism",
+      "Anaphylaxis",
+      "Chronic kidney disease",
+      "GERD"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hyperthyroidism. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-023-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Hyperthyroidism?",
+    "options": [
+      "a state of excessive thyroid hormone effect",
+      "a mucosal ulcer in the stomach or proximal duodenum",
+      "a disorder characterized by insulin resistance with progressive beta-cell dysfunction",
+      "reflux of stomach contents into the esophagus causing symptoms or complications"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a state of excessive thyroid hormone effect. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-023-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has heat intolerance, tremor, and an elevated metabolic state. Which concept best matches it?",
+    "options": [
+      "Ulcerative colitis",
+      "Hyperthyroidism",
+      "Hypertension",
+      "Osteoarthritis"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Hyperthyroidism. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-023-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Hyperthyroidism?",
+    "options": [
+      "recognize gluten-triggered intestinal injury",
+      "understand impaired insulin action and secretion",
+      "recognize reduced thyroid function",
+      "recognize increased thyroid activity"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is recognize increased thyroid activity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-024-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a chronic immune-mediated inflammatory skin disorder with characteristic plaques?",
+    "options": [
+      "Psoriasis",
+      "Alzheimer disease",
+      "GERD",
+      "Rheumatoid arthritis"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Psoriasis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-024-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Psoriasis?",
+    "options": [
+      "a chronic immune-mediated inflammatory skin disorder with characteristic plaques",
+      "a state of insufficient thyroid hormone effect",
+      "a syndrome in which the heart cannot adequately meet the body's circulatory demands",
+      "infection of lung tissue that causes inflammation of the alveoli"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a chronic immune-mediated inflammatory skin disorder with characteristic plaques. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-024-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has well-demarcated scaly plaques. Which concept best matches it?",
+    "options": [
+      "Type 1 diabetes",
+      "Psoriasis",
+      "Parkinson disease",
+      "Hypothyroidism"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Psoriasis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-024-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Psoriasis?",
+    "options": [
+      "recognize characteristic movement disorder",
+      "recognize a common inflammatory skin disease",
+      "recognize common degenerative joint disease",
+      "recognize continuous colonic inflammation"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is recognize a common inflammatory skin disease. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-025-1",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a severe, rapidly developing systemic hypersensitivity reaction?",
+    "options": [
+      "Pneumonia",
+      "Anaphylaxis",
+      "Heart failure",
+      "COPD"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Anaphylaxis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-MEDIUM-025-2",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "medium",
+    "question": "Which statement best describes Anaphylaxis?",
+    "options": [
+      "a skeletal disorder characterized by low bone mass and increased fracture risk",
+      "reflux of stomach contents into the esophagus causing symptoms or complications",
+      "a degenerative joint disorder involving cartilage and other joint structures",
+      "a severe, rapidly developing systemic hypersensitivity reaction"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a severe, rapidly developing systemic hypersensitivity reaction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-HARD-025-3",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient develops airway symptoms and hypotension soon after exposure to an allergen. Which concept best matches it?",
+    "options": [
+      "Pneumonia",
+      "Anaphylaxis",
+      "Parkinson disease",
+      "Coronary artery disease"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Anaphylaxis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DISEASES-DISORDERS-EASY-025-4",
+    "category": "Diseases & Disorders",
+    "subcategory": "Diseases & Disorders",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Anaphylaxis?",
+    "options": [
+      "recognize a medical emergency requiring immediate treatment",
+      "recognize impaired cardiac pumping or filling",
+      "recognize a common inflammatory skin disease",
+      "recognize continuous colonic inflammation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is recognize a medical emergency requiring immediate treatment. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "diseases"
+    ],
+    "status": "active"
   }
 ]

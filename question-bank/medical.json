@@ -321,5 +321,1867 @@
       "medical"
     ],
     "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-001-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: maintenance of relatively stable internal conditions?",
+    "options": [
+      "Homeostasis",
+      "Benign tumor",
+      "Tachycardia",
+      "Electrolyte"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Homeostasis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-001-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Homeostasis?",
+    "options": [
+      "a cancerous neoplasm capable of invasion and potential spread",
+      "persistently elevated arterial blood pressure",
+      "maintenance of relatively stable internal conditions",
+      "subjective difficulty or discomfort with breathing"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is maintenance of relatively stable internal conditions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-001-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: body temperature and blood glucose are kept within functional ranges. Which concept best matches it?",
+    "options": [
+      "Hypertension",
+      "Homeostasis",
+      "Benign tumor",
+      "Jaundice"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Homeostasis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-001-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Homeostasis?",
+    "options": [
+      "keep physiologic variables within appropriate limits",
+      "recognize elevated temperature",
+      "support nerve, muscle, and fluid functions",
+      "understand reduced oxygen-carrying capacity"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is keep physiologic variables within appropriate limits. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-002-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a protective tissue response involving vascular and cellular changes?",
+    "options": [
+      "Perfusion",
+      "Homeostasis",
+      "Inflammation",
+      "Embolism"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Inflammation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-002-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Inflammation?",
+    "options": [
+      "a protective tissue response involving vascular and cellular changes",
+      "abnormally low blood pressure",
+      "subjective difficulty or discomfort with breathing",
+      "the chemical processes that sustain life"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a protective tissue response involving vascular and cellular changes. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-002-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an injured area becomes red, warm, swollen, and tender. Which concept best matches it?",
+    "options": [
+      "Inflammation",
+      "Anemia",
+      "Hypotension",
+      "Malignant tumor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Inflammation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-002-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Inflammation?",
+    "options": [
+      "recognize tissue fluid accumulation",
+      "help protect tissue and begin repair",
+      "describe cancerous behavior",
+      "produce and use energy and cellular materials"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is help protect tissue and begin repair. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-003-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: abnormal accumulation of fluid in tissues?",
+    "options": [
+      "Hypoxia",
+      "Perfusion",
+      "Dyspnea",
+      "Edema"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Edema. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-003-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Edema?",
+    "options": [
+      "abnormal accumulation of fluid in tissues",
+      "an abnormally slow heart rate",
+      "subjective difficulty or discomfort with breathing",
+      "abnormally low blood pressure"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is abnormal accumulation of fluid in tissues. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-003-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: ankles become swollen after fluid retention. Which concept best matches it?",
+    "options": [
+      "Hypertension",
+      "Benign tumor",
+      "Edema",
+      "Dehydration"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Edema. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-003-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Edema?",
+    "options": [
+      "recognize tissue fluid accumulation",
+      "describe breathing difficulty",
+      "help establish a tissue diagnosis",
+      "recognize low arterial pressure"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is recognize tissue fluid accumulation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-004-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an abnormally fast heart rate?",
+    "options": [
+      "Edema",
+      "Bradycardia",
+      "Tachycardia",
+      "Ischemia"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Tachycardia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-004-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Tachycardia?",
+    "options": [
+      "bluish discoloration associated with increased deoxygenated hemoglobin",
+      "the chemical processes that sustain life",
+      "an abnormally fast heart rate",
+      "a mineral ion that participates in physiologic processes"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is an abnormally fast heart rate. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-004-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an adult has a persistently elevated pulse. Which concept best matches it?",
+    "options": [
+      "Hypertension",
+      "Perfusion",
+      "Anemia",
+      "Tachycardia"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Tachycardia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-004-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Tachycardia?",
+    "options": [
+      "describe a rapid heart rate",
+      "describe reduced tissue perfusion",
+      "describe a slow heart rate",
+      "recognize low arterial pressure"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is describe a rapid heart rate. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-005-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an abnormally slow heart rate?",
+    "options": [
+      "Tachycardia",
+      "Hypoxia",
+      "Hypertension",
+      "Bradycardia"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Bradycardia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-005-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Bradycardia?",
+    "options": [
+      "an abnormally fast heart rate",
+      "an abnormally slow heart rate",
+      "inadequate blood supply to a tissue",
+      "a nonmalignant neoplasm that does not invade like a malignant tumor"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is an abnormally slow heart rate. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-005-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: an adult has a pulse below the usual resting range. Which concept best matches it?",
+    "options": [
+      "Perfusion",
+      "Biopsy",
+      "Thrombosis",
+      "Bradycardia"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Bradycardia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-005-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Bradycardia?",
+    "options": [
+      "describe a slow heart rate",
+      "identify inadequate body fluid",
+      "describe inadequate tissue oxygenation",
+      "help protect tissue and begin repair"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is describe a slow heart rate. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-006-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: persistently elevated arterial blood pressure?",
+    "options": [
+      "Hypertension",
+      "Hypoxia",
+      "Leukocytosis",
+      "Bradycardia"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hypertension. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-006-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Hypertension?",
+    "options": [
+      "a low platelet count",
+      "a condition involving reduced red blood cell mass or hemoglobin",
+      "abnormal accumulation of fluid in tissues",
+      "persistently elevated arterial blood pressure"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is persistently elevated arterial blood pressure. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-006-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: repeated measurements show blood pressure above the recommended range. Which concept best matches it?",
+    "options": [
+      "Inflammation",
+      "Embolism",
+      "Hypertension",
+      "Homeostasis"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Hypertension. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-006-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Hypertension?",
+    "options": [
+      "identify a major cardiovascular risk factor",
+      "produce and use energy and cellular materials",
+      "recognize tissue fluid accumulation",
+      "keep physiologic variables within appropriate limits"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is identify a major cardiovascular risk factor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-007-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: abnormally low blood pressure?",
+    "options": [
+      "Benign tumor",
+      "Electrolyte",
+      "Anemia",
+      "Hypotension"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Hypotension. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-007-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Hypotension?",
+    "options": [
+      "persistently elevated arterial blood pressure",
+      "abnormally low blood pressure",
+      "an abnormally fast heart rate",
+      "a low platelet count"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is abnormally low blood pressure. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-007-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has low blood pressure with possible symptoms of poor perfusion. Which concept best matches it?",
+    "options": [
+      "Embolism",
+      "Hypotension",
+      "Fever",
+      "Electrolyte"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Hypotension. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-007-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Hypotension?",
+    "options": [
+      "recognize low arterial pressure",
+      "understand reduced oxygen-carrying capacity",
+      "recognize a sign associated with impaired oxygenation",
+      "describe cancerous behavior"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is recognize low arterial pressure. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-008-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a condition involving reduced red blood cell mass or hemoglobin?",
+    "options": [
+      "Fever",
+      "Hypotension",
+      "Anemia",
+      "Jaundice"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Anemia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-008-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Anemia?",
+    "options": [
+      "formation of a blood clot within a vessel",
+      "removal of tissue for microscopic examination",
+      "abnormally low blood pressure",
+      "a condition involving reduced red blood cell mass or hemoglobin"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a condition involving reduced red blood cell mass or hemoglobin. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-008-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has fatigue and a low hemoglobin concentration. Which concept best matches it?",
+    "options": [
+      "Thrombosis",
+      "Hypotension",
+      "Anemia",
+      "Tachycardia"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Anemia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-008-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Anemia?",
+    "options": [
+      "recognize elevated temperature",
+      "understand reduced oxygen-carrying capacity",
+      "recognize bilirubin-related discoloration",
+      "describe cancerous behavior"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is understand reduced oxygen-carrying capacity. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-009-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an elevated white blood cell count?",
+    "options": [
+      "Ischemia",
+      "Homeostasis",
+      "Leukocytosis",
+      "Electrolyte"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Leukocytosis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-009-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Leukocytosis?",
+    "options": [
+      "an elevated white blood cell count",
+      "an elevation of body temperature above the normal range",
+      "persistently elevated arterial blood pressure",
+      "an abnormally fast heart rate"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is an elevated white blood cell count. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-009-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a blood test shows an increased white blood cell count. Which concept best matches it?",
+    "options": [
+      "Thrombocytopenia",
+      "Leukocytosis",
+      "Jaundice",
+      "Dehydration"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Leukocytosis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-009-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Leukocytosis?",
+    "options": [
+      "keep physiologic variables within appropriate limits",
+      "help protect tissue and begin repair",
+      "provide tissues with oxygen and nutrients",
+      "recognize a laboratory finding that may accompany infection or inflammation"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is recognize a laboratory finding that may accompany infection or inflammation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-010-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a low platelet count?",
+    "options": [
+      "Metabolism",
+      "Thrombocytopenia",
+      "Edema",
+      "Cyanosis"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Thrombocytopenia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-010-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Thrombocytopenia?",
+    "options": [
+      "bluish discoloration associated with increased deoxygenated hemoglobin",
+      "an abnormally slow heart rate",
+      "a nonmalignant neoplasm that does not invade like a malignant tumor",
+      "a low platelet count"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is a low platelet count. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-010-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has an unusually low platelet count. Which concept best matches it?",
+    "options": [
+      "Electrolyte",
+      "Fever",
+      "Benign tumor",
+      "Thrombocytopenia"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Thrombocytopenia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-010-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Thrombocytopenia?",
+    "options": [
+      "recognize a sign associated with impaired oxygenation",
+      "describe a slow heart rate",
+      "recognize increased bleeding risk",
+      "support nerve, muscle, and fluid functions"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is recognize increased bleeding risk. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-011-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: inadequate oxygen availability at the tissue level?",
+    "options": [
+      "Bradycardia",
+      "Hypoxia",
+      "Edema",
+      "Jaundice"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Hypoxia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-011-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Hypoxia?",
+    "options": [
+      "an abnormally fast heart rate",
+      "a protective tissue response involving vascular and cellular changes",
+      "inadequate oxygen availability at the tissue level",
+      "removal of tissue for microscopic examination"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is inadequate oxygen availability at the tissue level. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-011-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: tissues are not receiving enough oxygen. Which concept best matches it?",
+    "options": [
+      "Hypoxia",
+      "Cyanosis",
+      "Embolism",
+      "Jaundice"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hypoxia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-011-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Hypoxia?",
+    "options": [
+      "describe inadequate tissue oxygenation",
+      "recognize a laboratory finding that may accompany infection or inflammation",
+      "provide tissues with oxygen and nutrients",
+      "describe breathing difficulty"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is describe inadequate tissue oxygenation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-012-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: subjective difficulty or discomfort with breathing?",
+    "options": [
+      "Fever",
+      "Inflammation",
+      "Dehydration",
+      "Dyspnea"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Dyspnea. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-012-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Dyspnea?",
+    "options": [
+      "subjective difficulty or discomfort with breathing",
+      "a protective tissue response involving vascular and cellular changes",
+      "an elevated white blood cell count",
+      "an elevation of body temperature above the normal range"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is subjective difficulty or discomfort with breathing. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-012-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient reports shortness of breath. Which concept best matches it?",
+    "options": [
+      "Biopsy",
+      "Homeostasis",
+      "Malignant tumor",
+      "Dyspnea"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Dyspnea. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-012-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Dyspnea?",
+    "options": [
+      "describe breathing difficulty",
+      "recognize a sign associated with impaired oxygenation",
+      "recognize low arterial pressure",
+      "recognize a laboratory finding that may accompany infection or inflammation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is describe breathing difficulty. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-013-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: bluish discoloration associated with increased deoxygenated hemoglobin?",
+    "options": [
+      "Cyanosis",
+      "Dehydration",
+      "Metabolism",
+      "Inflammation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cyanosis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-013-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Cyanosis?",
+    "options": [
+      "formation of a blood clot within a vessel",
+      "bluish discoloration associated with increased deoxygenated hemoglobin",
+      "inadequate oxygen availability at the tissue level",
+      "an elevated white blood cell count"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is bluish discoloration associated with increased deoxygenated hemoglobin. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-013-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: lips appear bluish in a patient with severe oxygenation problems. Which concept best matches it?",
+    "options": [
+      "Malignant tumor",
+      "Hypotension",
+      "Cyanosis",
+      "Homeostasis"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Cyanosis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-013-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Cyanosis?",
+    "options": [
+      "recognize a sign associated with impaired oxygenation",
+      "help protect tissue and begin repair",
+      "produce and use energy and cellular materials",
+      "describe inadequate tissue oxygenation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is recognize a sign associated with impaired oxygenation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-014-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: yellow discoloration of skin or sclera caused by elevated bilirubin?",
+    "options": [
+      "Bradycardia",
+      "Benign tumor",
+      "Malignant tumor",
+      "Jaundice"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Jaundice. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-014-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Jaundice?",
+    "options": [
+      "a low platelet count",
+      "persistently elevated arterial blood pressure",
+      "yellow discoloration of skin or sclera caused by elevated bilirubin",
+      "a condition involving reduced red blood cell mass or hemoglobin"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is yellow discoloration of skin or sclera caused by elevated bilirubin. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-014-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: the whites of the eyes appear yellow. Which concept best matches it?",
+    "options": [
+      "Jaundice",
+      "Thrombocytopenia",
+      "Thrombosis",
+      "Anemia"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Jaundice. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-014-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Jaundice?",
+    "options": [
+      "describe a rapid heart rate",
+      "recognize a sign associated with impaired oxygenation",
+      "understand reduced oxygen-carrying capacity",
+      "recognize bilirubin-related discoloration"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is recognize bilirubin-related discoloration. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-015-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: an elevation of body temperature above the normal range?",
+    "options": [
+      "Thrombosis",
+      "Inflammation",
+      "Fever",
+      "Hypoxia"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Fever. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-015-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Fever?",
+    "options": [
+      "persistently elevated arterial blood pressure",
+      "abnormal accumulation of fluid in tissues",
+      "an elevation of body temperature above the normal range",
+      "a low platelet count"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is an elevation of body temperature above the normal range. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-015-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has an elevated temperature during an illness. Which concept best matches it?",
+    "options": [
+      "Hypoxia",
+      "Fever",
+      "Perfusion",
+      "Biopsy"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Fever. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-015-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Fever?",
+    "options": [
+      "describe a slow heart rate",
+      "support nerve, muscle, and fluid functions",
+      "recognize elevated temperature",
+      "recognize a sign associated with impaired oxygenation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is recognize elevated temperature. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-016-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: loss of body water exceeding intake?",
+    "options": [
+      "Ischemia",
+      "Thrombosis",
+      "Benign tumor",
+      "Dehydration"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Dehydration. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-016-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a patient has thirst, dry mucous membranes, and reduced urine output. Which concept best matches it?",
+    "options": [
+      "Dehydration",
+      "Biopsy",
+      "Inflammation",
+      "Fever"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Dehydration. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-017-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a mineral ion that participates in physiologic processes?",
+    "options": [
+      "Fever",
+      "Jaundice",
+      "Electrolyte",
+      "Hypertension"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Electrolyte. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-017-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Electrolyte?",
+    "options": [
+      "an abnormally slow heart rate",
+      "bluish discoloration associated with increased deoxygenated hemoglobin",
+      "a mineral ion that participates in physiologic processes",
+      "a condition involving reduced red blood cell mass or hemoglobin"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is a mineral ion that participates in physiologic processes. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-017-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: sodium and potassium are measured in blood tests. Which concept best matches it?",
+    "options": [
+      "Benign tumor",
+      "Anemia",
+      "Dehydration",
+      "Electrolyte"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Electrolyte. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-017-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Electrolyte?",
+    "options": [
+      "provide tissues with oxygen and nutrients",
+      "support nerve, muscle, and fluid functions",
+      "describe intravascular clot formation",
+      "identify a major cardiovascular risk factor"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is support nerve, muscle, and fluid functions. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-018-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: the chemical processes that sustain life?",
+    "options": [
+      "Metabolism",
+      "Malignant tumor",
+      "Jaundice",
+      "Thrombosis"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Metabolism. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-018-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Metabolism?",
+    "options": [
+      "the chemical processes that sustain life",
+      "a nonmalignant neoplasm that does not invade like a malignant tumor",
+      "a protective tissue response involving vascular and cellular changes",
+      "bluish discoloration associated with increased deoxygenated hemoglobin"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is the chemical processes that sustain life. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-018-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: cells continuously transform nutrients and energy. Which concept best matches it?",
+    "options": [
+      "Anemia",
+      "Metabolism",
+      "Malignant tumor",
+      "Leukocytosis"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Metabolism. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-018-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Metabolism?",
+    "options": [
+      "describe breathing difficulty",
+      "produce and use energy and cellular materials",
+      "recognize elevated temperature",
+      "support nerve, muscle, and fluid functions"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is produce and use energy and cellular materials. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-019-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: delivery of blood to body tissues?",
+    "options": [
+      "Leukocytosis",
+      "Fever",
+      "Perfusion",
+      "Benign tumor"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Perfusion. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-019-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Perfusion?",
+    "options": [
+      "removal of tissue for microscopic examination",
+      "delivery of blood to body tissues",
+      "abnormally low blood pressure",
+      "a cancerous neoplasm capable of invasion and potential spread"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is delivery of blood to body tissues. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-019-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a limb has reduced blood flow and becomes cool. Which concept best matches it?",
+    "options": [
+      "Dehydration",
+      "Perfusion",
+      "Inflammation",
+      "Hypoxia"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Perfusion. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-019-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Perfusion?",
+    "options": [
+      "provide tissues with oxygen and nutrients",
+      "understand reduced oxygen-carrying capacity",
+      "help protect tissue and begin repair",
+      "describe reduced tissue perfusion"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is provide tissues with oxygen and nutrients. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-020-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: inadequate blood supply to a tissue?",
+    "options": [
+      "Thrombocytopenia",
+      "Leukocytosis",
+      "Biopsy",
+      "Ischemia"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Ischemia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-020-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Ischemia?",
+    "options": [
+      "inadequate blood supply to a tissue",
+      "an elevated white blood cell count",
+      "abnormally low blood pressure",
+      "an abnormally slow heart rate"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is inadequate blood supply to a tissue. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-020-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a tissue receives insufficient blood flow. Which concept best matches it?",
+    "options": [
+      "Malignant tumor",
+      "Ischemia",
+      "Electrolyte",
+      "Hypoxia"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Ischemia. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-020-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Ischemia?",
+    "options": [
+      "recognize a laboratory finding that may accompany infection or inflammation",
+      "describe breathing difficulty",
+      "recognize tissue fluid accumulation",
+      "describe reduced tissue perfusion"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is describe reduced tissue perfusion. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-021-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: formation of a blood clot within a vessel?",
+    "options": [
+      "Thrombocytopenia",
+      "Thrombosis",
+      "Biopsy",
+      "Dehydration"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Thrombosis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-021-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Thrombosis?",
+    "options": [
+      "a protective tissue response involving vascular and cellular changes",
+      "formation of a blood clot within a vessel",
+      "inadequate oxygen availability at the tissue level",
+      "abnormal accumulation of fluid in tissues"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is formation of a blood clot within a vessel. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-021-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a clot forms within a deep vein. Which concept best matches it?",
+    "options": [
+      "Embolism",
+      "Thrombosis",
+      "Perfusion",
+      "Metabolism"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Thrombosis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-021-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Thrombosis?",
+    "options": [
+      "distinguish nonmalignant from malignant growth",
+      "recognize increased bleeding risk",
+      "support nerve, muscle, and fluid functions",
+      "describe intravascular clot formation"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is describe intravascular clot formation. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-022-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: obstruction of a blood vessel by material carried through the bloodstream?",
+    "options": [
+      "Hypotension",
+      "Malignant tumor",
+      "Embolism",
+      "Biopsy"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Embolism. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-022-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Embolism?",
+    "options": [
+      "maintenance of relatively stable internal conditions",
+      "removal of tissue for microscopic examination",
+      "obstruction of a blood vessel by material carried through the bloodstream",
+      "abnormal accumulation of fluid in tissues"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is obstruction of a blood vessel by material carried through the bloodstream. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-022-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a clot travels and blocks a distant vessel. Which concept best matches it?",
+    "options": [
+      "Cyanosis",
+      "Leukocytosis",
+      "Malignant tumor",
+      "Embolism"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Embolism. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-022-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Embolism?",
+    "options": [
+      "help protect tissue and begin repair",
+      "distinguish nonmalignant from malignant growth",
+      "describe a traveling vascular obstruction",
+      "recognize a laboratory finding that may accompany infection or inflammation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is describe a traveling vascular obstruction. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-023-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a nonmalignant neoplasm that does not invade like a malignant tumor?",
+    "options": [
+      "Bradycardia",
+      "Fever",
+      "Benign tumor",
+      "Inflammation"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is Benign tumor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-023-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Benign tumor?",
+    "options": [
+      "a nonmalignant neoplasm that does not invade like a malignant tumor",
+      "the chemical processes that sustain life",
+      "an elevated white blood cell count",
+      "removal of tissue for microscopic examination"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is a nonmalignant neoplasm that does not invade like a malignant tumor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-023-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a mass is identified as nonmalignant. Which concept best matches it?",
+    "options": [
+      "Biopsy",
+      "Benign tumor",
+      "Malignant tumor",
+      "Anemia"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Benign tumor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-023-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which option best identifies the primary purpose or role associated with Benign tumor?",
+    "options": [
+      "distinguish nonmalignant from malignant growth",
+      "produce and use energy and cellular materials",
+      "keep physiologic variables within appropriate limits",
+      "recognize elevated temperature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is distinguish nonmalignant from malignant growth. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-024-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: a cancerous neoplasm capable of invasion and potential spread?",
+    "options": [
+      "Perfusion",
+      "Malignant tumor",
+      "Thrombosis",
+      "Tachycardia"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Malignant tumor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-024-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Malignant tumor?",
+    "options": [
+      "an elevated white blood cell count",
+      "a cancerous neoplasm capable of invasion and potential spread",
+      "maintenance of relatively stable internal conditions",
+      "a mineral ion that participates in physiologic processes"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is a cancerous neoplasm capable of invasion and potential spread. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-024-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a tumor invades surrounding tissue. Which concept best matches it?",
+    "options": [
+      "Inflammation",
+      "Hypotension",
+      "Ischemia",
+      "Malignant tumor"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Malignant tumor. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-024-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "Which option best identifies the primary purpose or role associated with Malignant tumor?",
+    "options": [
+      "help establish a tissue diagnosis",
+      "support nerve, muscle, and fluid functions",
+      "recognize a sign associated with impaired oxygenation",
+      "describe cancerous behavior"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is describe cancerous behavior. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-025-1",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which term is best described by the following definition: removal of tissue for microscopic examination?",
+    "options": [
+      "Hypotension",
+      "Dyspnea",
+      "Jaundice",
+      "Biopsy"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Biopsy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-MEDIUM-025-2",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "medium",
+    "question": "Which statement best describes Biopsy?",
+    "options": [
+      "removal of tissue for microscopic examination",
+      "delivery of blood to body tissues",
+      "the chemical processes that sustain life",
+      "obstruction of a blood vessel by material carried through the bloodstream"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is removal of tissue for microscopic examination. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-HARD-025-3",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "hard",
+    "question": "A learner encounters this situation: a suspicious lesion is sampled for pathology. Which concept best matches it?",
+    "options": [
+      "Biopsy",
+      "Edema",
+      "Electrolyte",
+      "Hypertension"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Biopsy. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDICAL-EASY-025-4",
+    "category": "Medical",
+    "subcategory": "Medical",
+    "difficulty": "easy",
+    "question": "Which option best identifies the primary purpose or role associated with Biopsy?",
+    "options": [
+      "support nerve, muscle, and fluid functions",
+      "help establish a tissue diagnosis",
+      "keep physiologic variables within appropriate limits",
+      "recognize bilirubin-related discoloration"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is help establish a tissue diagnosis. It matches the defining characteristic or role described in the question.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
   }
 ]
