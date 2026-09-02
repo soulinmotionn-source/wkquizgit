@@ -1,0 +1,3763 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no"/>
+  <title>WKQuiz — Play. Learn. Challenge Yourself.</title>
+  <meta name="description" content="WKQuiz is the premier interactive quiz platform for Nursing, NCLEX, Medical, Engineering, Electrical, HVAC, IQ & General Knowledge."/>
+  
+  <style>
+/**
+ * ==============================================================================
+ * WKQUIZ MASTER STYLESHEET
+ * Mobile-First, Ultra-Lightweight, Modern CSS Design System
+ * ==============================================================================
+ */
+
+:root {
+  /* Core Color Palette (Light Mode Default) */
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --primary-light: #e0e7ff;
+  --secondary: #06b6d4;
+  --secondary-hover: #0891b2;
+  
+  --background: #f8fafc;
+  --surface: #ffffff;
+  --surface-2: #f1f5f9;
+  --surface-3: #e2e8f0;
+  
+  --text: #0f172a;
+  --text-muted: #64748b;
+  --border: #e2e8f0;
+  --border-focus: #6366f1;
+  
+  --success: #10b981;
+  --success-light: #d1fae5;
+  --success-text: #065f46;
+  
+  --danger: #ef4444;
+  --danger-light: #fee2e2;
+  --danger-text: #991b1b;
+  
+  --warning: #f59e0b;
+  --warning-light: #fef3c7;
+  --warning-text: #92400e;
+
+  /* Typography & Layout */
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --heading-font: inherit;
+  --body-font: inherit;
+  --container-width: 1200px;
+  --content-width: 800px;
+  --radius-sm: 6px;
+  --radius: 12px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+  
+  /* Shadows & Transitions */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark Mode Theme Overrides */
+[data-theme="dark"] {
+  --primary: #6366f1;
+  --primary-hover: #818cf8;
+  --primary-light: rgba(99, 102, 241, 0.15);
+  --secondary: #22d3ee;
+  --secondary-hover: #06b6d4;
+  
+  --background: #0b0f19;
+  --surface: #131b2e;
+  --surface-2: #1e293b;
+  --surface-3: #334155;
+  
+  --text: #f8fafc;
+  --text-muted: #94a3b8;
+  --border: #1e293b;
+  --border-focus: #818cf8;
+  
+  --success: #34d399;
+  --success-light: rgba(16, 185, 129, 0.2);
+  --success-text: #a7f3d0;
+  
+  --danger: #f87171;
+  --danger-light: rgba(239, 68, 68, 0.2);
+  --danger-text: #fecaca;
+  
+  --warning: #fbbf24;
+  --warning-light: rgba(245, 158, 11, 0.2);
+  --warning-text: #fde68a;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.6);
+}
+
+/* Base Reset & Box Sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+  background-color: var(--background);
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background);
+  color: var(--text);
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button, input, select, textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* ==============================================================================
+   LAYOUT CONTAINERS & GRIDS
+   ============================================================================== */
+.wk-container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.wk-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.5rem 0 3rem;
+}
+
+@media (min-width: 992px) {
+  .wk-layout {
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    align-items: start;
+  }
+}
+
+.wk-main-content {
+  min-width: 0;
+}
+
+.wk-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* ==============================================================================
+   HEADER & NAVIGATION
+   ============================================================================== */
+.wk-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--surface);
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.wk-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  gap: 1rem;
+}
+
+.wk-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--text);
+  text-decoration: none;
+  letter-spacing: -0.02em;
+}
+
+.wk-brand:hover {
+  text-decoration: none;
+}
+
+.wk-brand-badge {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: #ffffff;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.wk-nav-desktop {
+  display: none;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .wk-nav-desktop {
+    display: flex;
+  }
+}
+
+.wk-nav-link {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  padding: 0.5rem 0.25rem;
+  text-decoration: none;
+  position: relative;
+}
+
+.wk-nav-link:hover, .wk-nav-link.active {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.wk-nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: var(--primary);
+  border-radius: 2px;
+}
+
+.wk-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.wk-btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  background-color: var(--surface-2);
+  color: var(--text);
+  transition: var(--transition);
+}
+
+.wk-btn-icon:hover {
+  background-color: var(--surface-3);
+  color: var(--primary);
+}
+
+.wk-mobile-menu-btn {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .wk-mobile-menu-btn {
+    display: none;
+  }
+}
+
+/* Mobile Nav Drawer */
+.wk-mobile-drawer {
+  display: none;
+  position: fixed;
+  top: 64px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--surface);
+  z-index: 99;
+  padding: 1.5rem;
+  border-top: 1px solid var(--border);
+  flex-direction: column;
+  gap: 1rem;
+  overflow-y: auto;
+}
+
+.wk-mobile-drawer.open {
+  display: flex;
+}
+
+.wk-mobile-nav-link {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius);
+  color: var(--text);
+  background-color: var(--surface-2);
+  text-decoration: none;
+}
+
+.wk-mobile-nav-link:hover {
+  background-color: var(--primary-light);
+  color: var(--primary);
+  text-decoration: none;
+}
+
+/* ==============================================================================
+   BUTTONS & BADGES
+   ============================================================================== */
+.wk-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  min-height: 48px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: var(--radius);
+  transition: var(--transition);
+  text-decoration: none;
+  touch-action: manipulation;
+}
+
+.wk-btn-primary {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+.wk-btn-primary:hover {
+  background-color: var(--primary-hover);
+  text-decoration: none;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.wk-btn-secondary {
+  background-color: var(--surface-2);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.wk-btn-secondary:hover {
+  background-color: var(--surface-3);
+  text-decoration: none;
+  color: var(--text);
+}
+
+.wk-btn-success {
+  background-color: var(--success);
+  color: #ffffff;
+}
+
+.wk-btn-block {
+  width: 100%;
+}
+
+.wk-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-radius: var(--radius-full);
+}
+
+.wk-badge-primary { background-color: var(--primary-light); color: var(--primary); }
+.wk-badge-success { background-color: var(--success-light); color: var(--success-text); }
+.wk-badge-warning { background-color: var(--warning-light); color: var(--warning-text); }
+.wk-badge-danger { background-color: var(--danger-light); color: var(--danger-text); }
+
+/* ==============================================================================
+   HERO SECTION
+   ============================================================================== */
+.wk-hero {
+  background: linear-gradient(135deg, rgba(79, 70, 229, 0.08) 0%, rgba(6, 182, 212, 0.08) 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.wk-hero-title {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.02em;
+}
+
+@media (min-width: 768px) {
+  .wk-hero-title {
+    font-size: 2.75rem;
+  }
+}
+
+.wk-hero-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+}
+
+.wk-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+/* ==============================================================================
+   QUIZ ENGINE INTERFACE & CARDS
+   ============================================================================== */
+.wk-quiz-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-md);
+  margin-bottom: 2rem;
+  transition: var(--transition);
+}
+
+@media (min-width: 600px) {
+  .wk-quiz-card {
+    padding: 2rem;
+  }
+}
+
+.wk-quiz-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.wk-quiz-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.wk-quiz-timer {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--warning-text);
+  background-color: var(--warning-light);
+  padding: 0.25rem 0.6rem;
+  border-radius: var(--radius-full);
+}
+
+.wk-quiz-timer.urgent {
+  color: var(--danger-text);
+  background-color: var(--danger-light);
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.wk-progress-bar-wrap {
+  width: 100%;
+  height: 8px;
+  background-color: var(--surface-2);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.wk-progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  transition: width 0.3s ease;
+}
+
+.wk-question-text {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+  color: var(--text);
+}
+
+@media (min-width: 600px) {
+  .wk-question-text {
+    font-size: 1.4rem;
+  }
+}
+
+/* Question Option Buttons */
+.wk-options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.wk-option-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  min-height: 54px;
+  padding: 0.85rem 1.15rem;
+  text-align: left;
+  background-color: var(--surface-2);
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
+  transition: var(--transition);
+  user-select: none;
+}
+
+.wk-option-btn:hover:not(:disabled) {
+  border-color: var(--primary);
+  background-color: var(--primary-light);
+  color: var(--primary);
+}
+
+.wk-option-letter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: var(--radius-sm);
+  background-color: var(--surface-3);
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.wk-option-btn:hover:not(:disabled) .wk-option-letter {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+/* Correct & Incorrect States */
+.wk-option-btn.correct {
+  border-color: var(--success) !important;
+  background-color: var(--success-light) !important;
+  color: var(--success-text) !important;
+  font-weight: 600;
+}
+
+.wk-option-btn.correct .wk-option-letter {
+  background-color: var(--success) !important;
+  color: #ffffff !important;
+}
+
+.wk-option-btn.incorrect {
+  border-color: var(--danger) !important;
+  background-color: var(--danger-light) !important;
+  color: var(--danger-text) !important;
+}
+
+.wk-option-btn.incorrect .wk-option-letter {
+  background-color: var(--danger) !important;
+  color: #ffffff !important;
+}
+
+/* Explanation Box */
+.wk-explanation-box {
+  display: none;
+  background-color: var(--surface-2);
+  border-left: 4px solid var(--primary);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  animation: fadeIn 0.3s ease;
+}
+
+.wk-explanation-box.visible {
+  display: block;
+}
+
+.wk-explanation-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.wk-explanation-text {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.wk-quiz-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+}
+
+/* ==============================================================================
+   RESULTS SCREEN
+   ============================================================================== */
+.wk-results-card {
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+}
+
+.wk-results-badge {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.wk-score-circle {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 140px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: #ffffff;
+  margin: 1rem auto 1.5rem;
+  box-shadow: var(--shadow-lg);
+}
+
+.wk-score-number {
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.wk-score-percent {
+  font-size: 0.9rem;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.wk-results-msg {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  max-width: 500px;
+  margin: 0 auto 2rem;
+}
+
+.wk-results-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+/* Social Share Block */
+.wk-share-section {
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.wk-share-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+.wk-share-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.wk-share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.wk-share-btn:hover {
+  text-decoration: none;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.wk-share-whatsapp { background-color: #25d366; }
+.wk-share-facebook { background-color: #1877f2; }
+.wk-share-twitter { background-color: #000000; }
+.wk-share-copy { background-color: var(--surface-3); color: var(--text); }
+.wk-share-copy:hover { background-color: var(--border-focus); color: #ffffff; }
+
+/* ==============================================================================
+   CATEGORIES GRID & TRENDING
+   ============================================================================== */
+.wk-section-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text);
+}
+
+.wk-categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (min-width: 600px) {
+  .wk-categories-grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+  }
+}
+
+.wk-category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.25rem 1rem;
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--text);
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.wk-category-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  text-decoration: none;
+}
+
+.wk-category-icon {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.wk-category-name {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.wk-category-count {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
+/* ==============================================================================
+   DAILY CHALLENGE BANNER
+   ============================================================================== */
+.wk-daily-banner {
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+  color: #ffffff;
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .wk-daily-banner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.wk-daily-title {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.wk-daily-desc {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* ==============================================================================
+   AD SLOTS (AdSense Clean Layouts)
+   ============================================================================== */
+.wk-ad-slot {
+  background-color: var(--surface-2);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  margin: 1.5rem 0;
+  text-align: center;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wk-ad-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+/* ==============================================================================
+   BLOGGER STANDARD POST & PAGE STYLES
+   ============================================================================== */
+.wk-post-article {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .wk-post-article {
+    padding: 2.5rem;
+  }
+}
+
+.wk-post-title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+.wk-post-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.wk-post-body {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text);
+}
+
+.wk-post-body p {
+  margin-bottom: 1.25rem;
+}
+
+.wk-post-body h2, .wk-post-body h3 {
+  margin: 1.5rem 0 0.75rem;
+  font-weight: 700;
+}
+
+.wk-post-body ul, .wk-post-body ol {
+  margin: 1rem 0 1.25rem 1.5rem;
+}
+
+.wk-post-body blockquote {
+  border-left: 4px solid var(--primary);
+  padding-left: 1rem;
+  font-style: italic;
+  color: var(--text-muted);
+  margin: 1.25rem 0;
+}
+
+/* ==============================================================================
+   INSTANT SEARCH MODAL
+   ============================================================================== */
+.wk-modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  z-index: 200;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 4rem 1rem 1rem;
+}
+
+.wk-modal-overlay.open {
+  display: flex;
+}
+
+.wk-search-modal {
+  width: 100%;
+  max-width: 580px;
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  animation: modalSlide 0.2s ease;
+}
+
+@keyframes modalSlide {
+  from { opacity: 0; transform: translateY(-15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.wk-search-input-wrap {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+  gap: 0.75rem;
+}
+
+.wk-search-input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  font-size: 1.1rem;
+  color: var(--text);
+  outline: none;
+}
+
+.wk-search-results {
+  max-height: 380px;
+  overflow-y: auto;
+  padding: 0.5rem;
+}
+
+.wk-search-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--text);
+  transition: var(--transition);
+}
+
+.wk-search-item:hover {
+  background-color: var(--surface-2);
+  text-decoration: none;
+  color: var(--primary);
+}
+
+/* ==============================================================================
+   FOOTER
+   ============================================================================== */
+.wk-footer {
+  margin-top: auto;
+  background-color: var(--surface);
+  border-top: 1px solid var(--border);
+  padding: 3rem 0 2rem;
+}
+
+.wk-footer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .wk-footer-grid {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+  }
+}
+
+.wk-footer-col h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+
+.wk-footer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.wk-footer-link {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.wk-footer-link:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.wk-footer-bottom {
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+@media (min-width: 600px) {
+  .wk-footer-bottom {
+    flex-direction: row;
+  }
+}
+
+.wk-social-row {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.wk-social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-full);
+  background-color: var(--surface-2);
+  color: var(--text);
+  transition: var(--transition);
+}
+
+.wk-social-icon:hover {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+  </style>
+
+  <script>
+    (function() {
+      try {
+        var t = localStorage.getItem('wkquiz_theme');
+        if (t === 'dark' || (!t && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        } else {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="wk-header">
+    <div class="wk-container">
+      <div class="wk-header-inner">
+        <a class="wk-brand" href="#">
+          <span class="wk-brand-badge">WK</span>
+          <span>Quiz</span>
+        </a>
+
+        <nav class="wk-nav-desktop" aria-label="Main Navigation">
+          <a class="wk-nav-link active" href="#">Home</a>
+          <a class="wk-nav-link" href="#quizzes" data-action="start-random">Quizzes</a>
+          <a class="wk-nav-link" href="#categories">Categories</a>
+          <a class="wk-nav-link" href="javascript:void(0)" data-action="start-daily">Daily Challenge</a>
+          <a class="wk-nav-link" href="#about">About</a>
+        </nav>
+
+        <div class="wk-header-actions">
+          <button type="button" id="wk-search-btn" class="wk-btn-icon" aria-label="Search Quizzes" title="Search Quizzes (Press /)">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          </button>
+          
+          <button type="button" id="wk-dark-toggle" class="wk-btn-icon" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+
+          <button type="button" id="wk-menu-btn" class="wk-btn-icon wk-mobile-menu-btn" aria-label="Open Navigation Menu">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="wk-mobile-drawer" class="wk-mobile-drawer" aria-label="Mobile Navigation">
+    <a class="wk-mobile-nav-link" href="#">🏠 Home</a>
+    <a class="wk-mobile-nav-link" href="javascript:void(0)" data-action="start-random">🎲 Random Quiz</a>
+    <a class="wk-mobile-nav-link" href="javascript:void(0)" data-action="start-daily">🔥 Daily Challenge</a>
+    <a class="wk-mobile-nav-link" href="#categories">📚 Categories</a>
+    <a class="wk-mobile-nav-link" href="#about">ℹ️ About WKQuiz</a>
+  </div>
+
+  <!-- TOP ADVERTISEMENT SLOT -->
+  <div class="wk-container">
+    <div class="wk-ad-slot">
+      <div class="wk-ad-label">ADVERTISEMENT - TOP BANNER</div>
+      <div style="font-size: 0.85rem; color: var(--text-muted);">[AdSense 728x90 or Responsive Ad Slot]</div>
+    </div>
+  </div>
+
+  <!-- MAIN LAYOUT -->
+  <div class="wk-container">
+    <div class="wk-layout">
+      
+      <!-- MAIN CONTENT -->
+      <main class="wk-main-content">
+        <!-- HERO -->
+        <section class="wk-hero">
+          <h1 class="wk-hero-title">Test Your Knowledge</h1>
+          <p class="wk-hero-subtitle">Play thousands of interactive quizzes, challenge yourself, and master Nursing, NCLEX, Engineering, Tech, IQ & more.</p>
+          <div class="wk-hero-actions">
+            <button type="button" class="wk-btn wk-btn-primary" data-action="start-random">
+              ⚡ Start Random Quiz
+            </button>
+            <a href="#categories" class="wk-btn wk-btn-secondary">
+              📚 Explore 29+ Categories
+            </a>
+          </div>
+        </section>
+
+        <!-- DAILY CHALLENGE BANNER -->
+        <section class="wk-daily-banner">
+          <div>
+            <div class="wk-badge wk-badge-danger" style="margin-bottom: 0.5rem;">DAILY SPECIAL</div>
+            <h2 class="wk-daily-title">Today's Daily Challenge</h2>
+            <p class="wk-daily-desc">Fresh questions curated daily. Test your streak against players worldwide!</p>
+          </div>
+          <button type="button" class="wk-btn wk-btn-primary" data-action="start-daily">
+            🔥 Play Daily Quiz
+          </button>
+        </section>
+
+        <!-- IN-CONTENT AD -->
+        <div class="wk-ad-slot">
+          <div class="wk-ad-label">ADVERTISEMENT - BEFORE QUIZ</div>
+          <div style="font-size: 0.85rem; color: var(--text-muted);">[AdSense In-Article Ad Slot]</div>
+        </div>
+
+        <!-- INTERACTIVE QUIZ ENGINE -->
+        <section id="wk-quiz-container" aria-live="polite">
+          <!-- Rendered by WKQuizUI -->
+        </section>
+
+        <!-- CATEGORIES GRID -->
+        <section id="categories" style="margin-top: 2rem;">
+          <h2 class="wk-section-title">
+            <span>📚</span> Browse Quiz Categories
+          </h2>
+          <div class="wk-categories-grid" id="wk-categories-grid"></div>
+        </section>
+
+        <!-- SAMPLE BLOG POST ARTICLE -->
+        <article class="wk-post-article" id="about" style="margin-top: 2rem;">
+          <h1 class="wk-post-title">Welcome to the Official WKQuiz Platform</h1>
+          <div class="wk-post-meta">
+            <span>📅 September 2, 2026</span>
+            <span>✍️ WKQuiz Editorial Team</span>
+          </div>
+          <div class="wk-post-body">
+            <p>
+              Welcome to <strong>WKQuiz</strong>, your premier destination for interactive, high-yield practice quizzes. Whether you are preparing for the <strong>NCLEX-RN</strong>, brushing up on <strong>HVAC & Electrical</strong> schematics, or testing your IQ and general trivia, our platform is designed for rapid, mobile-first learning.
+            </p>
+            <blockquote>
+              "Knowledge is power. Test yourself daily to retain what you learn."
+            </blockquote>
+            <p>
+              Explore our categories above or tap <strong>Start Random Quiz</strong> to begin immediately. No login or registration required!
+            </p>
+          </div>
+        </article>
+      </main>
+
+      <!-- SIDEBAR -->
+      <aside class="wk-sidebar">
+        <!-- SIDEBAR AD -->
+        <div class="wk-ad-slot">
+          <div class="wk-ad-label">ADVERTISEMENT - SIDEBAR</div>
+          <div style="font-size: 0.85rem; color: var(--text-muted);">[AdSense 300x250 Medium Rectangle]</div>
+        </div>
+
+        <!-- QUICK MODES -->
+        <div class="wk-quiz-card" style="padding: 1.25rem;">
+          <h3 style="font-size: 1.1rem; font-weight: 800; margin-bottom: 1rem;">⚡ Quick Quiz Modes</h3>
+          <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            <button type="button" class="wk-btn wk-btn-secondary" data-action="start-mode" data-mode="quick" style="justify-content: flex-start;">
+              ⚡ <strong>Quick Quiz</strong> (5 Qs)
+            </button>
+            <button type="button" class="wk-btn wk-btn-secondary" data-action="start-mode" data-mode="classic" style="justify-content: flex-start;">
+              🎯 <strong>Classic Quiz</strong> (10 Qs)
+            </button>
+            <button type="button" class="wk-btn wk-btn-secondary" data-action="start-mode" data-mode="challenge" style="justify-content: flex-start;">
+              🏆 <strong>Challenge</strong> (20 Qs)
+            </button>
+            <button type="button" class="wk-btn wk-btn-secondary" data-action="start-mode" data-mode="survival" style="justify-content: flex-start;">
+              💀 <strong>Survival Mode</strong> (1 Life)
+            </button>
+            <button type="button" class="wk-btn wk-btn-secondary" data-action="start-mode" data-mode="timed" style="justify-content: flex-start;">
+              ⏱️ <strong>Timed Mode</strong> (Speed)
+            </button>
+          </div>
+        </div>
+
+        <!-- POPULAR CATEGORIES -->
+        <div class="wk-quiz-card" style="padding: 1.25rem;">
+          <h3 style="font-size: 1.1rem; font-weight: 800; margin-bottom: 0.75rem;">🔥 Trending Topics</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.35rem;">
+            <a href="javascript:void(0)" data-action="start-category" data-category="nclex" class="wk-badge wk-badge-primary">NCLEX</a>
+            <a href="javascript:void(0)" data-action="start-category" data-category="nursing" class="wk-badge wk-badge-primary">Nursing</a>
+            <a href="javascript:void(0)" data-action="start-category" data-category="electrical" class="wk-badge wk-badge-primary">Electrical</a>
+            <a href="javascript:void(0)" data-action="start-category" data-category="hvac" class="wk-badge wk-badge-primary">HVAC</a>
+            <a href="javascript:void(0)" data-action="start-category" data-category="iq-logic" class="wk-badge wk-badge-primary">IQ & Logic</a>
+            <a href="javascript:void(0)" data-action="start-category" data-category="movies" class="wk-badge wk-badge-primary">Movies</a>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+
+  <!-- SEARCH MODAL -->
+  <div id="wk-search-modal" class="wk-modal-overlay" role="dialog" aria-modal="true" aria-label="Search Quizzes">
+    <div class="wk-search-modal">
+      <div class="wk-search-input-wrap">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        <input type="search" id="wk-search-input" class="wk-search-input" placeholder="Search quizzes (NCLEX, HVAC, Nursing, Electrical...)" autocomplete="off"/>
+        <button type="button" id="wk-search-close" class="wk-btn-icon" aria-label="Close search">✕</button>
+      </div>
+      <div id="wk-search-results" class="wk-search-results"></div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="wk-footer">
+    <div class="wk-container">
+      <div class="wk-footer-grid">
+        <div class="wk-footer-col">
+          <div class="wk-brand" style="margin-bottom: 0.75rem;">
+            <span class="wk-brand-badge">WK</span>
+            <span>Quiz</span>
+          </div>
+          <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6;">
+            Play. Learn. Challenge Yourself. The premier mobile-first interactive quiz platform for students, professionals, and trivia lovers.
+          </p>
+        </div>
+
+        <div class="wk-footer-col">
+          <h4>Healthcare Quizzes</h4>
+          <ul class="wk-footer-links">
+            <li><a class="wk-footer-link" href="javascript:void(0)" data-action="start-category" data-category="nclex">NCLEX Practice</a></li>
+            <li><a class="wk-footer-link" href="javascript:void(0)" data-action="start-category" data-category="nursing">Nursing Fundamentals</a></li>
+            <li><a class="wk-footer-link" href="javascript:void(0)" data-action="start-category" data-category="pharmacology">Pharmacology</a></li>
+            <li><a class="wk-footer-link" href="javascript:void(0)" data-action="start-category" data-category="anatomy">Anatomy & Physiology</a></li>
+          </ul>
+        </div>
+
+        <div class="wk-footer-col">
+          <h4>Technical & STEM</h4>
+          <ul class="wk-footer-links">
+            <li><a class="wk-footer-link" href="javascript:void(0)" data-action="start-category" data-category="electrical">Electrical Engineering</a></li>
+            <li><a class="wk-footer-link" href="javascript:void(0)" data-action="start-category" data-category="hvac">HVAC & Refrigeration</a></li>
+            <li><a class="wk-footer-link" href="javascript:void(0)" data-action="start-category" data-category="electronics">Electronics</a></li>
+            <li><a class="wk-footer-link" href="javascript:void(0)" data-action="start-category" data-category="iq-logic">IQ & Logic Puzzles</a></li>
+          </ul>
+        </div>
+
+        <div class="wk-footer-col">
+          <h4>Follow WKQuiz</h4>
+          <ul class="wk-footer-links">
+            <li><a class="wk-footer-link" href="https://www.tiktok.com/@wkquiz" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+            <li><a class="wk-footer-link" href="https://www.instagram.com/wkquiz" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a class="wk-footer-link" href="https://www.facebook.com/wkquiz" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a class="wk-footer-link" href="https://www.youtube.com/@wkquiz" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="wk-footer-bottom">
+        <div>
+          &copy; <span id="wk-year">2026</span> WKQuiz. All rights reserved.
+        </div>
+        <div style="display: flex; gap: 1rem;">
+          <a href="#" class="wk-footer-link">Privacy Policy</a>
+          <a href="#" class="wk-footer-link">Terms of Service</a>
+          <a href="#" class="wk-footer-link">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+/* ========================================================================= */
+/* 1. CENTRAL CONFIGURATION                                                  */
+/* ========================================================================= */
+/**
+ * WKQUIZ CONFIGURATION FILE
+ * Central configuration object controlling branding, behavior, modes, and features.
+ * Easily editable by non-developers.
+ */
+
+const WKQUIZ_CONFIG = {
+  // Brand & Site Information
+  siteName: "WKQuiz",
+  tagline: "Play. Learn. Challenge Yourself.",
+  logoText: "WKQuiz",
+  logoImageUrl: "", // Leave empty to use text logo, or provide an image URL
+  faviconUrl: "",
+  defaultShareImage: "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=1200&auto=format&fit=crop&q=80",
+  contactEmail: "support@wkquiz.com",
+
+  // Social Media Channels (Update with real URLs)
+  socialLinks: {
+    tiktok: "https://www.tiktok.com/@wkquiz",
+    instagram: "https://www.instagram.com/wkquiz",
+    facebook: "https://www.facebook.com/wkquiz",
+    youtube: "https://www.youtube.com/@wkquiz",
+    twitter: "https://twitter.com/wkquiz"
+  },
+
+  // Quiz Engine Settings
+  quiz: {
+    defaultLength: 10,
+    availableLengths: [5, 10, 20, 50],
+    defaultMode: "classic", // quick (5), classic (10), challenge (20), exam (50), timed, survival, daily
+    timePerQuestionSeconds: 20, // Used for timed mode
+    examTotalMinutes: 30, // Used for 50-question exam mode
+    enableTimerByDefault: false,
+    enableExplanations: true,
+    enableAnswerShuffle: true,
+    enableQuestionShuffle: true,
+    preventSessionDuplicates: true,
+    soundEffectsEnabled: false, // Synthesized Web Audio API sound effects
+    passingScorePercentage: 70,
+    streakBonusPoints: 10,
+  },
+
+  // Theme & Appearance
+  theme: {
+    enableDarkMode: true,
+    defaultTheme: "light", // "light" | "dark" | "system"
+    accentColor: "#4f46e5", // Indigo / Modern Violet
+    secondaryColor: "#06b6d4", // Cyan
+  },
+
+  // Ad Slots Configuration (Easily enable/disable ad spots)
+  ads: {
+    topAd: { enabled: true, label: "Advertisement - Top Banner" },
+    beforeContentAd: { enabled: true, label: "Advertisement - Before Quiz" },
+    inContentAd: { enabled: true, label: "Advertisement - In-Content" },
+    afterQuizAd: { enabled: true, label: "Advertisement - After Quiz Results" },
+    sidebarAd: { enabled: true, label: "Advertisement - Sidebar" },
+    footerAd: { enabled: true, label: "Advertisement - Footer" }
+  },
+
+  // Quiz Categories Registry
+  categories: [
+    {
+      id: "nursing",
+      name: "Nursing",
+      slug: "nursing",
+      icon: "🩺",
+      description: "Fundamental and clinical nursing knowledge, nursing process, and patient care.",
+      color: "#0284c7"
+    },
+    {
+      id: "nclex",
+      name: "NCLEX",
+      slug: "nclex",
+      icon: "📋",
+      description: "NCLEX-RN & NCLEX-PN exam practice questions, triage, prioritization, and safety.",
+      color: "#0369a1"
+    },
+    {
+      id: "medical",
+      name: "Medical",
+      slug: "medical",
+      icon: "🏥",
+      description: "General medical practice, clinical scenarios, diagnostics, and pathology.",
+      color: "#0d9488"
+    },
+    {
+      id: "medical-terminology",
+      name: "Medical Terminology",
+      slug: "medical-terminology",
+      icon: "📖",
+      description: "Prefixes, suffixes, root words, and essential healthcare vocabulary.",
+      color: "#059669"
+    },
+    {
+      id: "diseases",
+      name: "Diseases & Disorders",
+      slug: "diseases",
+      icon: "🦠",
+      description: "Infectious diseases, chronic illnesses, symptoms, and disease pathophysiology.",
+      color: "#d97706"
+    },
+    {
+      id: "anatomy",
+      name: "Anatomy & Physiology",
+      slug: "anatomy",
+      icon: "🫀",
+      description: "Human body systems, organ functions, skeletal structure, and physiology.",
+      color: "#e11d48"
+    },
+    {
+      id: "pharmacology",
+      name: "Pharmacology",
+      slug: "pharmacology",
+      icon: "💊",
+      description: "Drug classes, mechanisms of action, adverse effects, and dosage calculations.",
+      color: "#7c3aed"
+    },
+    {
+      id: "entertainment",
+      name: "Entertainment",
+      slug: "entertainment",
+      icon: "🎬",
+      description: "Pop culture, cinema, blockbusters, and entertainment trivia.",
+      color: "#db2777"
+    },
+    {
+      id: "movies",
+      name: "Movies",
+      slug: "movies",
+      icon: "🍿",
+      description: "Classic cinema, Oscar winners, movie quotes, and box office hits.",
+      color: "#be185d"
+    },
+    {
+      id: "tv-shows",
+      name: "TV Shows",
+      slug: "tv-shows",
+      icon: "📺",
+      description: "Hit television series, streaming shows, sitcoms, and Emmy winners.",
+      color: "#9333ea"
+    },
+    {
+      id: "drama",
+      name: "Drama",
+      slug: "drama",
+      icon: "🎭",
+      description: "Global drama series, plot twists, theatrical arts, and famous storylines.",
+      color: "#c026d3"
+    },
+    {
+      id: "celebrity",
+      name: "Celebrity",
+      slug: "celebrity",
+      icon: "⭐",
+      description: "Famous personalities, iconic moments, biographies, and stars.",
+      color: "#f59e0b"
+    },
+    {
+      id: "music",
+      name: "Music",
+      slug: "music",
+      icon: "🎵",
+      description: "Music genres, artists, legendary albums, instruments, and charts.",
+      color: "#ec4899"
+    },
+    {
+      id: "general-knowledge",
+      name: "General Knowledge",
+      slug: "general-knowledge",
+      icon: "🌍",
+      description: "Trivia from around the world spanning culture, facts, and trivia.",
+      color: "#4f46e5"
+    },
+    {
+      id: "history",
+      name: "History",
+      slug: "history",
+      icon: "🏛️",
+      description: "World history, ancient civilizations, world wars, and milestones.",
+      color: "#b45309"
+    },
+    {
+      id: "geography",
+      name: "Geography",
+      slug: "geography",
+      icon: "🗺️",
+      description: "Capitals, world flags, mountain ranges, rivers, and country trivia.",
+      color: "#047857"
+    },
+    {
+      id: "science",
+      name: "Science",
+      slug: "science",
+      icon: "🔬",
+      description: "Physics, chemistry, biology, astronomy, and scientific principles.",
+      color: "#2563eb"
+    },
+    {
+      id: "engineering",
+      name: "Engineering",
+      slug: "engineering",
+      icon: "⚙️",
+      description: "Core engineering disciplines, design principles, and problem solving.",
+      color: "#475569"
+    },
+    {
+      id: "electrical",
+      name: "Electrical",
+      slug: "electrical",
+      icon: "⚡",
+      description: "Ohm's law, circuit analysis, wiring standards, and electrical safety.",
+      color: "#eab308"
+    },
+    {
+      id: "electrical-symbols",
+      name: "Electrical Symbols",
+      slug: "electrical-symbols",
+      icon: "🔌",
+      description: "Schematic symbols, blueprint reading, and circuit diagram symbols.",
+      color: "#ca8a04"
+    },
+    {
+      id: "electronics",
+      name: "Electronics",
+      slug: "electronics",
+      icon: "💡",
+      description: "Semiconductors, transistors, microcontrollers, and logic gates.",
+      color: "#0891b2"
+    },
+    {
+      id: "hvac",
+      name: "HVAC",
+      slug: "hvac",
+      icon: "❄️",
+      description: "Heating, ventilation, air conditioning, refrigeration, and psychrometrics.",
+      color: "#06b6d4"
+    },
+    {
+      id: "technology",
+      name: "Technology",
+      slug: "technology",
+      icon: "💻",
+      description: "Innovations, internet history, AI, software, and tech gadgets.",
+      color: "#3b82f6"
+    },
+    {
+      id: "computers",
+      name: "Computers",
+      slug: "computers",
+      icon: "🖥️",
+      description: "Computer hardware, operating systems, networking, and architecture.",
+      color: "#6366f1"
+    },
+    {
+      id: "automotive",
+      name: "Automotive",
+      slug: "automotive",
+      icon: "🚗",
+      description: "Engine mechanics, vehicle diagnostics, automotive systems, and EV tech.",
+      color: "#dc2626"
+    },
+    {
+      id: "iq-logic",
+      name: "IQ & Logic",
+      slug: "iq-logic",
+      icon: "🧩",
+      description: "Pattern recognition, logic puzzles, deductive reasoning, and brain teasers.",
+      color: "#8b5cf6"
+    },
+    {
+      id: "mathematics",
+      name: "Mathematics",
+      slug: "mathematics",
+      icon: "📐",
+      description: "Algebra, geometry, arithmetic, probabilities, and calculus fundamentals.",
+      color: "#10b981"
+    },
+    {
+      id: "english",
+      name: "English & Grammar",
+      slug: "english",
+      icon: "✍️",
+      description: "Grammar rules, vocabulary, idioms, reading comprehension, and syntax.",
+      color: "#f97316"
+    },
+    {
+      id: "mixed-quiz",
+      name: "Mixed Quiz",
+      slug: "mixed-quiz",
+      icon: "🎲",
+      description: "A dynamic randomized blend of questions across all knowledge categories.",
+      color: "#6b7280"
+    }
+  ]
+};
+
+// CommonJS export for Node.js test runners & browser window exposure
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = { WKQUIZ_CONFIG };
+}
+if (typeof window !== "undefined") {
+  window.WKQUIZ_CONFIG = WKQUIZ_CONFIG;
+}
+
+
+/* ========================================================================= */
+/* 2. QUESTION BANK DATA AND REPOSITORY                                      */
+/* ========================================================================= */
+/**
+ * WKQUIZ QUESTION BANK
+ * Structured question repository with scalable schema and helper query methods.
+ * Each question has: id, category, subcategory, difficulty, question, options, answer, explanation, tags.
+ */
+
+const WKQUIZ_QUESTIONS = [
+  // ==========================================
+  // NURSING & NCLEX
+  // ==========================================
+  {
+    id: "nurs_001",
+    category: "nursing",
+    subcategory: "Fundamentals",
+    difficulty: "medium",
+    question: "Which position is most appropriate for a patient experiencing acute shortness of breath (dyspnea)?",
+    options: [
+      "High Fowler's position",
+      "Trendelenburg position",
+      "Prone position",
+      "Supine with legs elevated"
+    ],
+    answer: 0,
+    explanation: "High Fowler's position (sitting upright at 60-90 degrees) maximizes lung expansion and facilitates diaphragm descent, easing respiratory distress.",
+    tags: ["nursing", "respiratory", "patient-care", "positioning"]
+  },
+  {
+    id: "nurs_002",
+    category: "nursing",
+    subcategory: "Infection Control",
+    difficulty: "easy",
+    question: "What is the single most effective intervention to prevent the spread of healthcare-associated infections (HAIs)?",
+    options: [
+      "Routine hand hygiene",
+      "Wearing double gloves for all procedures",
+      "Prophylactic antibiotic administration",
+      "Sterilizing room surfaces twice daily"
+    ],
+    answer: 0,
+    explanation: "Proper and consistent hand hygiene before and after patient contact is universally recognized by the WHO and CDC as the primary measure to break the chain of infection.",
+    tags: ["nursing", "infection-control", "safety"]
+  },
+  {
+    id: "nurs_003",
+    category: "nursing",
+    subcategory: "Vitals & Assessment",
+    difficulty: "hard",
+    question: "When assessing a patient with suspected hypocalcemia, which clinical finding is known as Chvostek's sign?",
+    options: [
+      "Twitching of facial muscles elicited by tapping the facial nerve",
+      "Carpal spasm induced by inflating a blood pressure cuff above systolic pressure",
+      "Numbness and tingling around the lips and fingertips",
+      "Hyperactive deep tendon reflexes in the lower extremities"
+    ],
+    answer: 0,
+    explanation: "Chvostek's sign is facial muscle twitching when tapping anterior to the ear (facial nerve). Trousseau's sign refers to carpal spasm with cuff inflation.",
+    tags: ["nursing", "assessment", "electrolytes", "hypocalcemia"]
+  },
+  {
+    id: "nclex_001",
+    category: "nclex",
+    subcategory: "NCLEX-RN Prioritization",
+    difficulty: "hard",
+    question: "A nurse receives change-of-shift report on four patients. Which patient should the nurse assess first?",
+    options: [
+      "A client with asthma who was wheezing and is now silent with decreased air movement",
+      "A client with diabetes whose fasting blood glucose is 185 mg/dL",
+      "A client postoperative day 1 after knee replacement reporting 7/10 pain",
+      "A client with chronic kidney disease whose serum creatinine is 2.8 mg/dL"
+    ],
+    answer: 0,
+    explanation: "Using the ABC (Airway, Breathing, Circulation) priority framework, a silent chest in acute asthma indicates severe bronchospasm and impending respiratory failure.",
+    tags: ["nclex", "prioritization", "triage", "emergency"]
+  },
+  {
+    id: "nclex_002",
+    category: "nclex",
+    subcategory: "Pharmacology / Safety",
+    difficulty: "medium",
+    question: "A client with heart failure is taking Digoxin (Lanoxin) 0.25 mg daily. Which assessment finding warrants withholding the medication?",
+    options: [
+      "Apical heart rate of 52 beats per minute",
+      "Blood pressure of 130/84 mmHg",
+      "Respiratory rate of 18 breaths per minute",
+      "Serum potassium level of 4.2 mEq/L"
+    ],
+    answer: 0,
+    explanation: "Digoxin should be withheld if the apical heart rate is below 60 bpm in an adult to avoid severe bradycardia and heart block.",
+    tags: ["nclex", "pharmacology", "cardiac", "digoxin"]
+  },
+  {
+    id: "nclex_003",
+    category: "nclex",
+    subcategory: "Maternal-Newborn",
+    difficulty: "medium",
+    question: "Which finding in a postpartum mother 4 hours after an uncomplicated vaginal delivery requires immediate nurse intervention?",
+    options: [
+      "Fundus boggy and displaced to the right of the midline",
+      "Moderate lochia rubra on the perineal pad",
+      "Maternal temperature of 37.8°C (100.0°F)",
+      "Diaphoresis during sleep"
+    ],
+    answer: 0,
+    explanation: "A boggy fundus displaced to the right indicates urinary bladder distension, preventing uterine contraction and increasing the risk of postpartum hemorrhage.",
+    tags: ["nclex", "maternal", "postpartum", "safety"]
+  },
+
+  // ==========================================
+  // MEDICAL & MEDICAL TERMINOLOGY
+  // ==========================================
+  {
+    id: "med_001",
+    category: "medical",
+    subcategory: "Emergency Medicine",
+    difficulty: "medium",
+    question: "What is the recommended compression-to-ventilation ratio for adult single-rescuer CPR?",
+    options: [
+      "30 compressions to 2 breaths",
+      "15 compressions to 2 breaths",
+      "20 compressions to 1 breath",
+      "50 compressions to 5 breaths"
+    ],
+    answer: 0,
+    explanation: "AHA guidelines recommend a 30:2 compression-to-ventilation ratio for adult cardiac arrest in single-rescuer resuscitation.",
+    tags: ["medical", "cpr", "emergency", "cardiology"]
+  },
+  {
+    id: "med_002",
+    category: "medical",
+    subcategory: "Pathology",
+    difficulty: "hard",
+    question: "Which biomarker is considered the gold standard for diagnosing acute myocardial infarction (heart attack)?",
+    options: [
+      "Cardiac Troponin I or T",
+      "Creatine Kinase-MB (CK-MB)",
+      "Myoglobin",
+      "Lactate Dehydrogenase (LDH)"
+    ],
+    answer: 0,
+    explanation: "Cardiac Troponin (I and T) provides the highest cardiac specificity and sensitivity for detecting myocardial cellular necrosis.",
+    tags: ["medical", "cardiology", "lab-values", "diagnostics"]
+  },
+  {
+    id: "medterm_001",
+    category: "medical-terminology",
+    subcategory: "Prefixes & Suffixes",
+    difficulty: "easy",
+    question: "What does the medical prefix 'Brady-' mean?",
+    options: [
+      "Slow",
+      "Fast",
+      "Difficult or painful",
+      "Excessive"
+    ],
+    answer: 0,
+    explanation: "'Brady-' is derived from the Greek 'bradys' meaning slow (e.g., bradycardia = abnormally slow heart rate). 'Tachy-' means fast.",
+    tags: ["medical-terminology", "prefixes", "vocabulary"]
+  },
+  {
+    id: "medterm_002",
+    category: "medical-terminology",
+    subcategory: "Root Words",
+    difficulty: "medium",
+    question: "The surgical suffix '-ectomy' indicates which procedure?",
+    options: [
+      "Surgical removal or excision",
+      "Creating an artificial opening",
+      "Surgical repair or reconstruction",
+      "Visual examination with an instrument"
+    ],
+    answer: 0,
+    explanation: "'-ectomy' denotes surgical removal (e.g., appendectomy, mastectomy). '-ostomy' is creating an opening, and '-plasty' is surgical repair.",
+    tags: ["medical-terminology", "suffixes", "surgery"]
+  },
+  {
+    id: "medterm_003",
+    category: "medical-terminology",
+    subcategory: "Clinical Vocab",
+    difficulty: "medium",
+    question: "What does the medical term 'Hemoptysis' refer to?",
+    options: [
+      "Coughing up blood or blood-stained mucus",
+      "Vomiting blood from the gastrointestinal tract",
+      "Blood in the urine",
+      "Nosebleed"
+    ],
+    answer: 0,
+    explanation: "Hemoptysis is the coughing up of blood from the respiratory tract. Vomiting blood is hematemesis, blood in urine is hematuria, and nosebleed is epistaxis.",
+    tags: ["medical-terminology", "clinical", "pulmonology"]
+  },
+
+  // ==========================================
+  // DISEASES, ANATOMY, PHARMACOLOGY
+  // ==========================================
+  {
+    id: "dis_001",
+    category: "diseases",
+    subcategory: "Endocrinology",
+    difficulty: "medium",
+    question: "Type 1 Diabetes Mellitus is characterized primarily by which underlying mechanism?",
+    options: [
+      "Autoimmune destruction of pancreatic beta cells producing absolute insulin deficiency",
+      "Insulin resistance in peripheral tissues with relative insulin deficiency",
+      "Impaired hepatic glucose storage due to enzyme mutations",
+      "Excessive secretion of glucagon by alpha cells"
+    ],
+    answer: 0,
+    explanation: "Type 1 Diabetes is an autoimmune disorder where T-cells attack and destroy pancreatic beta cells in the islets of Langerhans, leading to zero or negligible insulin synthesis.",
+    tags: ["diseases", "diabetes", "endocrinology"]
+  },
+  {
+    id: "dis_002",
+    category: "diseases",
+    subcategory: "Infectious Disease",
+    difficulty: "easy",
+    question: "Which causative organism is responsible for Tuberculosis (TB)?",
+    options: [
+      "Mycobacterium tuberculosis",
+      "Streptococcus pneumoniae",
+      "Staphylococcus aureus",
+      "Haemophilus influenzae"
+    ],
+    answer: 0,
+    explanation: "Tuberculosis is caused by Mycobacterium tuberculosis, an acid-fast aerobic rod-shaped bacterium primarily affecting the lungs.",
+    tags: ["diseases", "tuberculosis", "microbiology"]
+  },
+  {
+    id: "anat_001",
+    category: "anatomy",
+    subcategory: "Cardiovascular",
+    difficulty: "easy",
+    question: "Which chamber of the human heart pumps oxygen-rich blood into the aorta to supply the entire body?",
+    options: [
+      "Left Ventricle",
+      "Right Ventricle",
+      "Left Atrium",
+      "Right Atrium"
+    ],
+    answer: 0,
+    explanation: "The Left Ventricle has the thickest muscular wall and pumps oxygenated blood under high pressure through the aortic valve into the systemic circulation.",
+    tags: ["anatomy", "heart", "cardiovascular"]
+  },
+  {
+    id: "anat_002",
+    category: "anatomy",
+    subcategory: "Neuroanatomy",
+    difficulty: "medium",
+    question: "Which part of the brain is primarily responsible for motor coordination, balance, and fine motor skills?",
+    options: [
+      "Cerebellum",
+      "Cerebrum",
+      "Hypothalamus",
+      "Medulla oblongata"
+    ],
+    answer: 0,
+    explanation: "The cerebellum (located at the back of the brain) coordinates voluntary muscle movements, posture, and balance.",
+    tags: ["anatomy", "neuroscience", "brain"]
+  },
+  {
+    id: "anat_003",
+    category: "anatomy",
+    subcategory: "Skeletal System",
+    difficulty: "easy",
+    question: "What is the longest and strongest bone in the human skeleton?",
+    options: [
+      "Femur (thigh bone)",
+      "Tibia (shin bone)",
+      "Humerus (upper arm bone)",
+      "Fibula"
+    ],
+    answer: 0,
+    explanation: "The femur (thigh bone) is the longest, heaviest, and strongest bone in the human body, supporting body weight during standing, running, and jumping.",
+    tags: ["anatomy", "skeletal", "bones"]
+  },
+  {
+    id: "pharm_001",
+    category: "pharmacology",
+    subcategory: "Cardiovascular Drugs",
+    difficulty: "medium",
+    question: "Which class of antihypertensive medications commonly causes a dry, persistent cough due to bradykinin accumulation?",
+    options: [
+      "ACE Inhibitors (e.g., Lisinopril)",
+      "Beta Blockers (e.g., Metoprolol)",
+      "Calcium Channel Blockers (e.g., Amlodipine)",
+      "Thiazide Diuretics (e.g., Hydrochlorothiazide)"
+    ],
+    answer: 0,
+    explanation: "ACE (Angiotensin-Converting Enzyme) inhibitors inhibit the breakdown of bradykinin and substance P in the respiratory tract, provoking an intractable dry cough.",
+    tags: ["pharmacology", "hypertension", "ace-inhibitors"]
+  },
+  {
+    id: "pharm_002",
+    category: "pharmacology",
+    subcategory: "Antibiotics & Antidotes",
+    difficulty: "hard",
+    question: "What is the specific reversal agent (antidote) for heparin-induced anticoagulation?",
+    options: [
+      "Protamine Sulfate",
+      "Vitamin K (Phytonadione)",
+      "Naloxone (Narcan)",
+      "Flumazenil"
+    ],
+    answer: 0,
+    explanation: "Protamine sulfate binds strongly to heparin to form an inactive, stable salt complex, reversing its anticoagulant effect. Vitamin K reverses Warfarin.",
+    tags: ["pharmacology", "antidotes", "hematology", "heparin"]
+  },
+
+  // ==========================================
+  // ENTERTAINMENT, MOVIES, TV SHOWS, DRAMA, CELEBRITY, MUSIC
+  // ==========================================
+  {
+    id: "ent_001",
+    category: "entertainment",
+    subcategory: "Pop Culture",
+    difficulty: "easy",
+    question: "Which comic book character is famously known as the 'Dark Knight' of Gotham City?",
+    options: [
+      "Batman",
+      "Superman",
+      "Iron Man",
+      "Spider-Man"
+    ],
+    answer: 0,
+    explanation: "Batman (Bruce Wayne), created by Bob Kane and Bill Finger for DC Comics, is widely known as the Dark Knight and the Caped Crusader.",
+    tags: ["entertainment", "superheroes", "comics", "batman"]
+  },
+  {
+    id: "mov_001",
+    category: "movies",
+    subcategory: "Oscar Winners",
+    difficulty: "medium",
+    question: "Which 1997 James Cameron epic romance and disaster film won 11 Academy Awards, tied for the most in history?",
+    options: [
+      "Titanic",
+      "Avatar",
+      "Gladiator",
+      "Braveheart"
+    ],
+    answer: 0,
+    explanation: "Titanic (1997), starring Leonardo DiCaprio and Kate Winslet, tied Ben-Hur and The Lord of the Rings: The Return of the King with 11 Academy Awards.",
+    tags: ["movies", "cinema", "oscars", "titanic"]
+  },
+  {
+    id: "mov_002",
+    category: "movies",
+    subcategory: "Sci-Fi Classics",
+    difficulty: "easy",
+    question: "In the Star Wars franchise, which iconic villain declares: 'No, I am your father' to Luke Skywalker?",
+    options: [
+      "Darth Vader",
+      "Emperor Palpatine",
+      "Grand Moff Tarkin",
+      "Darth Maul"
+    ],
+    answer: 0,
+    explanation: "In The Empire Strikes Back (1980), Darth Vader reveals this shocking truth during their duel in Cloud City.",
+    tags: ["movies", "star-wars", "sci-fi"]
+  },
+  {
+    id: "tv_001",
+    category: "tv-shows",
+    subcategory: "Streaming Drama",
+    difficulty: "easy",
+    question: "In the Netflix series 'Stranger Things', what is the name of the alternate dimension beneath the town of Hawkins?",
+    options: [
+      "The Upside Down",
+      "The Twilight Zone",
+      "The Netherworld",
+      "The Dark Realm"
+    ],
+    answer: 0,
+    explanation: "The Upside Down is a dark, decaying alternate dimension mirroring Hawkins, inhabited by predatory creatures like the Demogorgon and Mind Flayer.",
+    tags: ["tv-shows", "stranger-things", "netflix"]
+  },
+  {
+    id: "tv_002",
+    category: "tv-shows",
+    subcategory: "Sitcoms",
+    difficulty: "medium",
+    question: "In the sitcom 'Friends', what is the name of the coffee house where the gang spends most of their time?",
+    options: [
+      "Central Perk",
+      "Monk's Diner",
+      "The Roasted Bean",
+      "Cafe Nervosa"
+    ],
+    answer: 0,
+    explanation: "Central Perk in Greenwich Village, New York City, is the famous hangout where Rachel Green worked as a waitress and Gunther managed the counter.",
+    tags: ["tv-shows", "friends", "sitcom"]
+  },
+  {
+    id: "drama_001",
+    category: "drama",
+    subcategory: "Global Drama",
+    difficulty: "medium",
+    question: "Which critically acclaimed HBO drama series created by David Chase revolved around New Jersey mobster Tony and his psychiatric therapy?",
+    options: [
+      "The Sopranos",
+      "The Wire",
+      "Boardwalk Empire",
+      "Peaky Blinders"
+    ],
+    answer: 0,
+    explanation: "The Sopranos (1999-2007) starring James Gandolfini is heralded as one of the greatest television dramas in television history.",
+    tags: ["drama", "the-sopranos", "hbo"]
+  },
+  {
+    id: "celeb_001",
+    category: "celebrity",
+    subcategory: "Pop Icons",
+    difficulty: "easy",
+    question: "Which global music superstar became the first artist in history to achieve billionaire status solely from songwriting and performing in 2023 with the Eras Tour?",
+    options: [
+      "Taylor Swift",
+      "Beyoncé",
+      "Rihanna",
+      "Adele"
+    ],
+    answer: 0,
+    explanation: "Taylor Swift's record-smashing Eras Tour grossed over $1 billion, catapulting her net worth past the billionaire mark solely through music and touring revenue.",
+    tags: ["celebrity", "music", "taylor-swift"]
+  },
+  {
+    id: "mus_001",
+    category: "music",
+    subcategory: "Rock & Pop Legends",
+    difficulty: "easy",
+    question: "Which legendary British band featured John Lennon, Paul McCartney, George Harrison, and Ringo Starr?",
+    options: [
+      "The Beatles",
+      "The Rolling Stones",
+      "The Who",
+      "Led Zeppelin"
+    ],
+    answer: 0,
+    explanation: "The Beatles, formed in Liverpool in 1960, are the best-selling music band in history with over 600 million records sold worldwide.",
+    tags: ["music", "rock", "the-beatles"]
+  },
+
+  // ==========================================
+  // GENERAL KNOWLEDGE, HISTORY, GEOGRAPHY, SCIENCE
+  // ==========================================
+  {
+    id: "gk_001",
+    category: "general-knowledge",
+    subcategory: "World Trivia",
+    difficulty: "easy",
+    question: "What is the hardest naturally occurring mineral substance on planet Earth?",
+    options: [
+      "Diamond",
+      "Corundum",
+      "Topaz",
+      "Quartz"
+    ],
+    answer: 0,
+    explanation: "Diamond rates 10 (maximum) on Mohs hardness scale, consisting of carbon atoms arranged in a rigid diamond cubic crystal lattice.",
+    tags: ["general-knowledge", "minerals", "science"]
+  },
+  {
+    id: "gk_002",
+    category: "general-knowledge",
+    subcategory: "Global Landmarks",
+    difficulty: "medium",
+    question: "In which country can you find the ancient pre-Columbian city ruins of Machu Picchu?",
+    options: [
+      "Peru",
+      "Bolivia",
+      "Chile",
+      "Mexico"
+    ],
+    answer: 0,
+    explanation: "Machu Picchu is a 15th-century Inca citadel situated on a mountain ridge 2,430 metres above sea level in the Cusco Region of Peru.",
+    tags: ["general-knowledge", "geography", "history", "landmarks"]
+  },
+  {
+    id: "hist_001",
+    category: "history",
+    subcategory: "20th Century",
+    difficulty: "easy",
+    question: "In which year did the historic Apollo 11 mission successfully land the first humans on the Moon?",
+    options: [
+      "1969",
+      "1965",
+      "1972",
+      "1959"
+    ],
+    answer: 0,
+    explanation: "On July 20, 1969, American astronauts Neil Armstrong and Buzz Aldrin landed the Apollo Lunar Module Eagle on the Moon.",
+    tags: ["history", "space", "apollo", "moon-landing"]
+  },
+  {
+    id: "hist_002",
+    category: "history",
+    subcategory: "Ancient Civilizations",
+    difficulty: "medium",
+    question: "Who was the first Emperor of a unified China, known for commissioning the Terracotta Army?",
+    options: [
+      "Qin Shi Huang",
+      "Han Wudi",
+      "Kublai Khan",
+      "Sun Yat-sen"
+    ],
+    answer: 0,
+    explanation: "Qin Shi Huang conquered all Warring States in 221 BC to unify China, founding the Qin dynasty and creating the Terracotta Army for his mausoleum.",
+    tags: ["history", "ancient-china", "emperors"]
+  },
+  {
+    id: "geo_001",
+    category: "geography",
+    subcategory: "Rivers & Oceans",
+    difficulty: "easy",
+    question: "Which is the longest river in the world according to Guinness World Records and international geographical authorities?",
+    options: [
+      "The Nile River",
+      "The Amazon River",
+      "The Yangtze River",
+      "The Mississippi River"
+    ],
+    answer: 0,
+    explanation: "The Nile River in northeastern Africa flows approximately 6,650 km (4,132 miles), making it traditionally recognized as the longest river.",
+    tags: ["geography", "rivers", "nature"]
+  },
+  {
+    id: "geo_002",
+    category: "geography",
+    subcategory: "Capitals",
+    difficulty: "medium",
+    question: "What is the capital city of Australia?",
+    options: [
+      "Canberra",
+      "Sydney",
+      "Melbourne",
+      "Brisbane"
+    ],
+    answer: 0,
+    explanation: "Canberra was chosen as the compromise capital of Australia in 1908 to resolve the rivalry between Sydney and Melbourne.",
+    tags: ["geography", "capitals", "australia"]
+  },
+  {
+    id: "sci_001",
+    category: "science",
+    subcategory: "Physics",
+    difficulty: "medium",
+    question: "What is the approximate speed of light in a vacuum (c)?",
+    options: [
+      "299,792 km/s (approx 300,000 km/s)",
+      "150,000 km/s",
+      "500,000 km/s",
+      "343 m/s"
+    ],
+    answer: 0,
+    explanation: "The speed of light in vacuum is exactly 299,792,458 metres per second (approx 3 × 10^8 m/s or 186,282 miles/s). 343 m/s is the speed of sound in air.",
+    tags: ["science", "physics", "light"]
+  },
+  {
+    id: "sci_002",
+    category: "science",
+    subcategory: "Chemistry",
+    difficulty: "easy",
+    question: "What is the chemical symbol for the element Gold on the periodic table?",
+    options: [
+      "Au",
+      "Ag",
+      "Fe",
+      "Gd"
+    ],
+    answer: 0,
+    explanation: "'Au' comes from the Latin name for gold, 'Aurum' (shining dawn). 'Ag' is silver, 'Fe' is iron.",
+    tags: ["science", "chemistry", "periodic-table"]
+  },
+
+  // ==========================================
+  // ENGINEERING, ELECTRICAL, ELECTRICAL SYMBOLS, ELECTRONICS, HVAC
+  // ==========================================
+  {
+    id: "eng_001",
+    category: "engineering",
+    subcategory: "Mechanics",
+    difficulty: "medium",
+    question: "According to Hooke's Law in mechanical engineering, stress is directly proportional to what within the elastic limit?",
+    options: [
+      "Strain",
+      "Temperature",
+      "Volume",
+      "Viscosity"
+    ],
+    answer: 0,
+    explanation: "Hooke's Law states that within the elastic limit of a material, stress is directly proportional to strain (σ = E · ε, where E is Young's Modulus).",
+    tags: ["engineering", "mechanics", "materials"]
+  },
+  {
+    id: "elec_001",
+    category: "electrical",
+    subcategory: "Circuit Laws",
+    difficulty: "easy",
+    question: "According to Ohm's Law, which formula correctly calculates Electric Voltage (V)?",
+    options: [
+      "V = I × R (Current × Resistance)",
+      "V = I / R",
+      "V = R / I",
+      "V = I + R"
+    ],
+    answer: 0,
+    explanation: "Ohm's Law expresses the direct relationship: Voltage (V in Volts) = Current (I in Amperes) multiplied by Resistance (R in Ohms).",
+    tags: ["electrical", "circuits", "ohms-law"]
+  },
+  {
+    id: "elec_002",
+    category: "electrical",
+    subcategory: "Power Calculation",
+    difficulty: "medium",
+    question: "If a 120V circuit draws a current of 5 Amperes, what is the electric power consumed by the load?",
+    options: [
+      "600 Watts",
+      "24 Watts",
+      "125 Watts",
+      "60 Watts"
+    ],
+    answer: 0,
+    explanation: "Electrical power P = V × I = 120 Volts × 5 Amperes = 600 Watts (W).",
+    tags: ["electrical", "power", "calculations"]
+  },
+  {
+    id: "elecsym_001",
+    category: "electrical-symbols",
+    subcategory: "Schematic Symbols",
+    difficulty: "easy",
+    question: "In electrical circuit schematics, what does a symbol composed of alternating long and short parallel lines represent?",
+    options: [
+      "DC Voltage Source / Battery",
+      "Capacitor",
+      "Ground connection",
+      "Transformer"
+    ],
+    answer: 0,
+    explanation: "A series of alternating long (positive terminal) and short thicker (negative terminal) parallel lines represents a DC cell or multi-cell battery.",
+    tags: ["electrical-symbols", "schematics", "circuits"]
+  },
+  {
+    id: "elecsym_002",
+    category: "electrical-symbols",
+    subcategory: "Passive Components",
+    difficulty: "medium",
+    question: "On an electronic blueprint, what component is depicted by a zigzag line in US standards or a plain rectangle in IEC European standards?",
+    options: [
+      "Resistor",
+      "Inductor",
+      "Diode",
+      "Fuse"
+    ],
+    answer: 0,
+    explanation: "In ANSI/IEEE US schematics, a zigzag line designates a fixed resistor. In IEC/European schematics, a simple rectangle represents a resistor.",
+    tags: ["electrical-symbols", "resistors", "blueprints"]
+  },
+  {
+    id: "elx_001",
+    category: "electronics",
+    subcategory: "Semiconductors",
+    difficulty: "medium",
+    question: "What semiconductor component allows electrical current to flow predominantly in only one direction (forward biased)?",
+    options: [
+      "Diode",
+      "Capacitor",
+      "Transformer",
+      "Potentiometer"
+    ],
+    answer: 0,
+    explanation: "A diode (such as a p-n junction diode) has low resistance to current in forward bias and very high resistance in reverse bias, serving as an electronic one-way valve.",
+    tags: ["electronics", "diodes", "semiconductors"]
+  },
+  {
+    id: "elx_002",
+    category: "electronics",
+    subcategory: "Digital Logic",
+    difficulty: "easy",
+    question: "Which digital logic gate produces a HIGH (1) output ONLY when both of its inputs are HIGH (1)?",
+    options: [
+      "AND Gate",
+      "OR Gate",
+      "XOR Gate",
+      "NOR Gate"
+    ],
+    answer: 0,
+    explanation: "An AND gate strictly requires all input conditions to be TRUE (1) to produce a TRUE (1) output.",
+    tags: ["electronics", "digital-logic", "gates"]
+  },
+  {
+    id: "hvac_001",
+    category: "hvac",
+    subcategory: "Refrigeration Cycle",
+    difficulty: "medium",
+    question: "In standard vapor-compression refrigeration, what is the primary function of the Expansion Valve (Metering Device)?",
+    options: [
+      "Drop the refrigerant pressure and temperature before entering the evaporator",
+      "Compress low-pressure vapor into high-pressure vapor",
+      "Condense high-pressure hot gas into liquid",
+      "Absorb room heat directly into the atmosphere"
+    ],
+    answer: 0,
+    explanation: "The expansion valve meters the flow of high-pressure liquid refrigerant and creates a sudden pressure drop, causing it to flash into a low-pressure, low-temperature liquid/vapor mix.",
+    tags: ["hvac", "refrigeration", "thermodynamics"]
+  },
+  {
+    id: "hvac_002",
+    category: "hvac",
+    subcategory: "Thermodynamics & Psychrometrics",
+    difficulty: "hard",
+    question: "What is the term for the heat added to a substance that results in a measurable temperature change without changing its state of matter?",
+    options: [
+      "Sensible Heat",
+      "Latent Heat",
+      "Specific Heat Ratio",
+      "Superheat Subcooling"
+    ],
+    answer: 0,
+    explanation: "Sensible heat is heat that causes a change in temperature that can be sensed by a thermometer. Latent heat causes a change of phase at constant temperature.",
+    tags: ["hvac", "thermodynamics", "psychrometrics"]
+  },
+
+  // ==========================================
+  // TECHNOLOGY, COMPUTERS, AUTOMOTIVE
+  // ==========================================
+  {
+    id: "tech_001",
+    category: "technology",
+    subcategory: "Internet & Networking",
+    difficulty: "easy",
+    question: "What does the abbreviation 'URL' stand for in web browsing and networking?",
+    options: [
+      "Uniform Resource Locator",
+      "Universal Remote Link",
+      "Unified Routing Language",
+      "User Resource Lookup"
+    ],
+    answer: 0,
+    explanation: "A URL (Uniform Resource Locator) is the unique address used to identify and locate a specific resource (such as a webpage or file) on the World Wide Web.",
+    tags: ["technology", "internet", "networking"]
+  },
+  {
+    id: "tech_002",
+    category: "technology",
+    subcategory: "Artificial Intelligence",
+    difficulty: "medium",
+    question: "In Machine Learning, what does 'LLM' stand for?",
+    options: [
+      "Large Language Model",
+      "Linear Logic Matrix",
+      "Layered Learning Module",
+      "Logical Link Mechanism"
+    ],
+    answer: 0,
+    explanation: "Large Language Models (LLMs) are deep learning transformer models trained on massive corpora of text data capable of generating and understanding natural human language.",
+    tags: ["technology", "ai", "machine-learning"]
+  },
+  {
+    id: "comp_001",
+    category: "computers",
+    subcategory: "Hardware & Memory",
+    difficulty: "easy",
+    question: "Which computer hardware component is considered volatile temporary memory, losing its stored data when the system is powered off?",
+    options: [
+      "RAM (Random Access Memory)",
+      "SSD (Solid State Drive)",
+      "ROM (Read-Only Memory)",
+      "NVMe Flash Drive"
+    ],
+    answer: 0,
+    explanation: "RAM is high-speed volatile memory that holds actively working code and data for the CPU; without continuous power, its capacitor-held states clear.",
+    tags: ["computers", "hardware", "ram"]
+  },
+  {
+    id: "comp_002",
+    category: "computers",
+    subcategory: "Operating Systems & Binary",
+    difficulty: "medium",
+    question: "How many bits are contained within exactly one standard Byte of digital data?",
+    options: [
+      "8 bits",
+      "4 bits",
+      "16 bits",
+      "32 bits"
+    ],
+    answer: 0,
+    explanation: "One byte consists of exactly 8 bits (binary digits). A 4-bit group is known as a nibble.",
+    tags: ["computers", "binary", "data-structures"]
+  },
+  {
+    id: "auto_001",
+    category: "automotive",
+    subcategory: "Engine Mechanics",
+    difficulty: "easy",
+    question: "In a four-stroke internal combustion engine, what is the correct chronological sequence of the cycles?",
+    options: [
+      "Intake, Compression, Power (Combustion), Exhaust",
+      "Compression, Intake, Power, Exhaust",
+      "Power, Intake, Compression, Exhaust",
+      "Intake, Power, Compression, Exhaust"
+    ],
+    answer: 0,
+    explanation: "The 4-stroke cycle follows: 1. Intake stroke (air/fuel enters), 2. Compression stroke, 3. Power stroke (spark ignited), 4. Exhaust stroke (spent gases exit).",
+    tags: ["automotive", "engines", "mechanics"]
+  },
+  {
+    id: "auto_002",
+    category: "automotive",
+    subcategory: "Braking & Safety",
+    difficulty: "medium",
+    question: "What is the primary function of an Automotive Anti-lock Braking System (ABS)?",
+    options: [
+      "Prevent wheels from locking up during hard braking to maintain steering control",
+      "Stop the vehicle in half the standard physical distance",
+      "Automatically apply the emergency parking brake",
+      "Cool the brake pads with electric fans"
+    ],
+    answer: 0,
+    explanation: "ABS pulses brake pressure rapidly to prevent tire skidding/wheel lockup under aggressive braking, allowing the driver to steer and avoid obstacles.",
+    tags: ["automotive", "safety", "brakes"]
+  },
+
+  // ==========================================
+  // IQ & LOGIC, MATHEMATICS, ENGLISH
+  // ==========================================
+  {
+    id: "iq_001",
+    category: "iq-logic",
+    subcategory: "Number Series",
+    difficulty: "medium",
+    question: "Look at this sequence: 2, 6, 12, 20, 30, ___ . What number comes next in the pattern?",
+    options: [
+      "42",
+      "40",
+      "38",
+      "48"
+    ],
+    answer: 0,
+    explanation: "The differences between consecutive terms increase by 2: +4 (2 to 6), +6 (6 to 12), +8 (12 to 20), +10 (20 to 30), so the next step is +12: 30 + 12 = 42.",
+    tags: ["iq-logic", "patterns", "series", "deduction"]
+  },
+  {
+    id: "iq_002",
+    category: "iq-logic",
+    subcategory: "Deductive Reasoning",
+    difficulty: "hard",
+    question: "If all Zips are Zaps, and some Zaps are Zops, which of the following statements is DEFINITIVELY true?",
+    options: [
+      "Some Zaps are Zips",
+      "All Zips are Zops",
+      "No Zips are Zops",
+      "All Zops are Zips"
+    ],
+    answer: 0,
+    explanation: "If all Zips are inside the set of Zaps (assuming at least one Zip exists), then necessarily some elements of the Zap set are Zips.",
+    tags: ["iq-logic", "logic", "syllogisms"]
+  },
+  {
+    id: "math_001",
+    category: "mathematics",
+    subcategory: "Geometry & Algebra",
+    difficulty: "easy",
+    question: "What is the Pythagorean theorem formula for a right-angled triangle with hypotenuse c and sides a and b?",
+    options: [
+      "a² + b² = c²",
+      "a + b = c",
+      "a² × b² = c²",
+      "2a + 2b = c²"
+    ],
+    answer: 0,
+    explanation: "The Pythagorean theorem states that in any right triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides: a² + b² = c².",
+    tags: ["mathematics", "geometry", "pythagoras"]
+  },
+  {
+    id: "math_002",
+    category: "mathematics",
+    subcategory: "Arithmetic & Statistics",
+    difficulty: "medium",
+    question: "What is the arithmetic Mean (average) of the numbers: 12, 18, 24, 30, and 36?",
+    options: [
+      "24",
+      "22",
+      "26",
+      "28"
+    ],
+    answer: 0,
+    explanation: "Sum = 12 + 18 + 24 + 30 + 36 = 120. Divide by 5 values: 120 / 5 = 24.",
+    tags: ["mathematics", "statistics", "mean"]
+  },
+  {
+    id: "eng_lang_001",
+    category: "english",
+    subcategory: "Grammar & Syntax",
+    difficulty: "easy",
+    question: "Identify the sentence that uses correct subject-verb agreement:",
+    options: [
+      "Neither the doctor nor the nurses were available.",
+      "Neither the doctor nor the nurses was available.",
+      "Every one of the candidates have submitted their papers.",
+      "The list of items are on the desk."
+    ],
+    answer: 0,
+    explanation: "With 'neither... nor...', the verb agrees with the subject closer to it ('the nurses' is plural, so 'were' is correct).",
+    tags: ["english", "grammar", "agreement"]
+  },
+  {
+    id: "eng_lang_002",
+    category: "english",
+    subcategory: "Vocabulary & Antonyms",
+    difficulty: "medium",
+    question: "What is the direct antonym (opposite meaning) of the word 'Ephemeral'?",
+    options: [
+      "Permanent",
+      "Fleeting",
+      "Transient",
+      "Brief"
+    ],
+    answer: 0,
+    explanation: "'Ephemeral' means lasting for a very short time. Its antonym is 'permanent' or 'enduring'.",
+    tags: ["english", "vocabulary", "antonyms"]
+  }
+];
+
+/**
+ * Question Bank Management Layer
+ * Provides clean query, filter, and extension capabilities.
+ */
+class WKQuizQuestionBank {
+  constructor(initialQuestions = WKQUIZ_QUESTIONS) {
+    this.questions = Array.isArray(initialQuestions) ? [...initialQuestions] : [];
+    this._validate();
+  }
+
+  _validate() {
+    const ids = new Set();
+    this.questions.forEach((q, idx) => {
+      if (!q.id) {
+        q.id = `q_gen_${idx}`;
+      }
+      if (ids.has(q.id)) {
+        console.warn(`[WKQuiz] Duplicate question ID detected: ${q.id}`);
+      }
+      ids.add(q.id);
+
+      if (!Array.isArray(q.options) || q.options.length < 2) {
+        console.error(`[WKQuiz] Invalid options for question ${q.id}`);
+      }
+      if (typeof q.answer !== "number" || q.answer < 0 || q.answer >= q.options.length) {
+        console.error(`[WKQuiz] Invalid answer index for question ${q.id}`);
+      }
+    });
+  }
+
+  /**
+   * Get all questions
+   */
+  getAll() {
+    return [...this.questions];
+  }
+
+  /**
+   * Add a new question to the bank dynamically
+   */
+  addQuestion(questionObj) {
+    if (!questionObj || !questionObj.id || !questionObj.question || !Array.isArray(questionObj.options)) {
+      throw new Error("Invalid question format");
+    }
+    this.questions.push(questionObj);
+  }
+
+  /**
+   * Add multiple questions
+   */
+  addQuestions(questionArray) {
+    if (Array.isArray(questionArray)) {
+      questionArray.forEach(q => this.addQuestion(q));
+    }
+  }
+
+  /**
+   * Get questions by Category ID
+   */
+  getByCategory(categoryId) {
+    if (!categoryId || categoryId === "all" || categoryId === "mixed-quiz") {
+      return this.getAll();
+    }
+    const cat = String(categoryId).toLowerCase().trim();
+    return this.questions.filter(q => 
+      q.category.toLowerCase() === cat || 
+      (q.tags && q.tags.map(t => t.toLowerCase()).includes(cat))
+    );
+  }
+
+  /**
+   * Filter by difficulty and/or category
+   */
+  filter({ category, difficulty, tag, search }) {
+    return this.questions.filter(q => {
+      if (category && category !== "all" && category !== "mixed-quiz") {
+        const matchesCategory = q.category.toLowerCase() === category.toLowerCase();
+        const matchesTags = q.tags && q.tags.map(t => t.toLowerCase()).includes(category.toLowerCase());
+        if (!matchesCategory && !matchesTags) return false;
+      }
+      if (difficulty && difficulty !== "all") {
+        if (q.difficulty.toLowerCase() !== difficulty.toLowerCase()) return false;
+      }
+      if (tag) {
+        if (!q.tags || !q.tags.map(t => t.toLowerCase()).includes(tag.toLowerCase())) return false;
+      }
+      if (search) {
+        const term = search.toLowerCase().trim();
+        const inQuestion = q.question.toLowerCase().includes(term);
+        const inOptions = q.options.some(o => o.toLowerCase().includes(term));
+        const inTags = q.tags && q.tags.some(t => t.toLowerCase().includes(term));
+        const inCategory = q.category.toLowerCase().includes(term);
+        if (!inQuestion && !inOptions && !inTags && !inCategory) return false;
+      }
+      return true;
+    });
+  }
+
+  /**
+   * Get total question count
+   */
+  count() {
+    return this.questions.length;
+  }
+}
+
+// Instantiate default global instance
+const questionBankInstance = new WKQuizQuestionBank(WKQUIZ_QUESTIONS);
+
+// CommonJS and Browser compatibility
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = {
+    WKQUIZ_QUESTIONS,
+    WKQuizQuestionBank,
+    questionBankInstance
+  };
+}
+if (typeof window !== "undefined") {
+  window.WKQUIZ_QUESTIONS = WKQUIZ_QUESTIONS;
+  window.WKQuizQuestionBank = WKQuizQuestionBank;
+  window.wkQuizBank = questionBankInstance;
+}
+
+
+/* ========================================================================= */
+/* 3. QUIZ ENGINE                                                            */
+/* ========================================================================= */
+/**
+ * WKQUIZ ENGINE
+ * Pure Vanilla JavaScript Quiz Engine.
+ * Handles state management, Fisher-Yates shuffling with option remapping,
+ * session duplicate prevention, timer, scoring, and deterministic Daily Quiz generator.
+ */
+
+class WKQuizEngine {
+  constructor(options = {}) {
+    this.config = Object.assign({
+      defaultLength: 10,
+      timePerQuestionSeconds: 20,
+      enableAnswerShuffle: true,
+      enableQuestionShuffle: true,
+      preventSessionDuplicates: true,
+      passingScorePercentage: 70
+    }, options.config || (typeof WKQUIZ_CONFIG !== "undefined" ? WKQUIZ_CONFIG.quiz : {}));
+
+    this.bank = options.bank || (typeof questionBankInstance !== "undefined" ? questionBankInstance : null);
+
+    // Runtime state
+    this.sessionUsedIds = new Set();
+    this.currentQuiz = null;
+    this.currentIndex = 0;
+    this.score = 0;
+    this.streak = 0;
+    this.maxStreak = 0;
+    this.userAnswers = [];
+    this.isCompleted = false;
+    this.mode = "classic"; // classic, quick, challenge, exam, timed, survival, daily
+    this.startTime = null;
+    this.endTime = null;
+
+    // Timer variables
+    this.timerInterval = null;
+    this.timeRemaining = 0;
+    this.onTick = null;
+    this.onTimeExpired = null;
+
+    this._loadSessionStorage();
+  }
+
+  _loadSessionStorage() {
+    if (typeof sessionStorage !== "undefined") {
+      try {
+        const stored = sessionStorage.getItem("wkquiz_used_ids");
+        if (stored) {
+          const parsed = JSON.parse(stored);
+          if (Array.isArray(parsed)) {
+            parsed.forEach(id => this.sessionUsedIds.add(id));
+          }
+        }
+      } catch (e) {
+        // Fallback silently if sessionStorage is blocked
+      }
+    }
+  }
+
+  _saveSessionStorage() {
+    if (typeof sessionStorage !== "undefined") {
+      try {
+        sessionStorage.setItem("wkquiz_used_ids", JSON.stringify([...this.sessionUsedIds]));
+      } catch (e) {
+        // Fallback
+      }
+    }
+  }
+
+  /**
+   * Mulberry32 Deterministic PRNG for Daily Quiz
+   */
+  _mulberry32(seed) {
+    return function() {
+      var t = seed += 0x6D2B79F5;
+      t = Math.imul(t ^ t >>> 15, t | 1);
+      t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+      return ((t ^ t >>> 14) >>> 0) / 4294967296;
+    };
+  }
+
+  /**
+   * String to numeric 32-bit hash
+   */
+  _hashString(str) {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+      const char = str.charCodeAt(i);
+      hash = ((hash << 5) - hash) + char;
+      hash |= 0; // Convert to 32bit integer
+    }
+    return Math.abs(hash);
+  }
+
+  /**
+   * Standard Fisher-Yates Array Shuffle (with optional custom PRNG)
+   */
+  _shuffleArray(array, customRng = Math.random) {
+    const arr = [...array];
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(customRng() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+
+  /**
+   * Shuffle options of a question while preserving the correct answer pointer
+   */
+  _shuffleQuestionOptions(question, customRng = Math.random) {
+    const originalOptions = question.options;
+    const correctOptionText = originalOptions[question.answer];
+
+    // Create indexed array
+    const indexed = originalOptions.map((text, idx) => ({ text, isCorrect: idx === question.answer }));
+    const shuffled = this._shuffleArray(indexed, customRng);
+
+    const newOptions = shuffled.map(item => item.text);
+    const newAnswerIndex = shuffled.findIndex(item => item.isCorrect);
+
+    return Object.assign({}, question, {
+      options: newOptions,
+      answer: newAnswerIndex,
+      _originalAnswerText: correctOptionText
+    });
+  }
+
+  /**
+   * Prepare questions for a new quiz session
+   */
+  startQuiz(params = {}) {
+    const mode = params.mode || "classic";
+    const category = params.category || "all";
+    const difficulty = params.difficulty || "all";
+    let length = params.length || 10;
+
+    // Adjust length according to mode presets
+    if (mode === "quick") length = 5;
+    else if (mode === "classic") length = 10;
+    else if (mode === "challenge") length = 20;
+    else if (mode === "exam") length = 50;
+
+    this.mode = mode;
+    this.currentIndex = 0;
+    this.score = 0;
+    this.streak = 0;
+    this.maxStreak = 0;
+    this.userAnswers = [];
+    this.isCompleted = false;
+    this.startTime = Date.now();
+    this.endTime = null;
+    this.stopTimer();
+
+    let pool = [];
+
+    if (mode === "daily") {
+      // Deterministic Daily Quiz based on today's UTC date
+      const todayStr = new Date().toISOString().slice(0, 10);
+      const seed = this._hashString("WKQUIZ_DAILY_" + todayStr);
+      const rng = this._mulberry32(seed);
+
+      const allQuestions = this.bank ? this.bank.getAll() : [];
+      if (allQuestions.length === 0) {
+        throw new Error("Question bank is empty");
+      }
+
+      // Shuffle entire pool deterministically and pick length
+      const shuffledDaily = this._shuffleArray(allQuestions, rng);
+      const selected = shuffledDaily.slice(0, Math.min(length, shuffledDaily.length));
+
+      pool = selected.map(q => this._shuffleQuestionOptions(q, rng));
+    } else {
+      // Regular or Category Quiz
+      let available = this.bank ? this.bank.filter({ category, difficulty }) : [];
+      if (available.length === 0) {
+        // Fallback to all questions if category is empty
+        available = this.bank ? this.bank.getAll() : [];
+      }
+
+      if (available.length === 0) {
+        throw new Error("No questions found for the selected criteria");
+      }
+
+      // Session duplicate prevention
+      let candidatePool = available;
+      if (this.config.preventSessionDuplicates) {
+        const unused = available.filter(q => !this.sessionUsedIds.has(q.id));
+        if (unused.length >= length) {
+          candidatePool = unused;
+        } else if (unused.length > 0) {
+          // If fewer unused remain than requested length, use all unused and reset session tracking for category
+          candidatePool = unused;
+          this.sessionUsedIds.clear();
+          this._saveSessionStorage();
+        } else {
+          // All used up, reset session tracking
+          this.sessionUsedIds.clear();
+          this._saveSessionStorage();
+          candidatePool = available;
+        }
+      }
+
+      // Shuffle questions
+      const shuffledQuestions = this.config.enableQuestionShuffle 
+        ? this._shuffleArray(candidatePool) 
+        : [...candidatePool];
+
+      const selected = shuffledQuestions.slice(0, Math.min(length, shuffledQuestions.length));
+
+      // Mark IDs as used in this session
+      selected.forEach(q => this.sessionUsedIds.add(q.id));
+      this._saveSessionStorage();
+
+      // Shuffle options for each selected question
+      pool = selected.map(q => {
+        return this.config.enableAnswerShuffle 
+          ? this._shuffleQuestionOptions(q) 
+          : Object.assign({}, q);
+      });
+    }
+
+    this.currentQuiz = {
+      id: `quiz_${Date.now()}`,
+      mode,
+      category,
+      difficulty,
+      totalQuestions: pool.length,
+      questions: pool
+    };
+
+    return this.getCurrentQuestion();
+  }
+
+  /**
+   * Get current question details (without revealing answer directly)
+   */
+  getCurrentQuestion() {
+    if (!this.currentQuiz || this.currentIndex >= this.currentQuiz.questions.length) {
+      return null;
+    }
+
+    const q = this.currentQuiz.questions[this.currentIndex];
+    return {
+      index: this.currentIndex,
+      questionNumber: this.currentIndex + 1,
+      totalQuestions: this.currentQuiz.totalQuestions,
+      id: q.id,
+      category: q.category,
+      subcategory: q.subcategory || "",
+      difficulty: q.difficulty || "medium",
+      question: q.question,
+      options: [...q.options],
+      progressPercentage: Math.round(((this.currentIndex) / this.currentQuiz.totalQuestions) * 100),
+      mode: this.mode
+    };
+  }
+
+  /**
+   * Submit answer for the current question
+   * @param {number} selectedOptionIndex - 0-indexed selection
+   */
+  submitAnswer(selectedOptionIndex) {
+    if (!this.currentQuiz || this.isCompleted) {
+      throw new Error("No active quiz in progress");
+    }
+
+    const currentQ = this.currentQuiz.questions[this.currentIndex];
+    const isCorrect = selectedOptionIndex === currentQ.answer;
+
+    if (isCorrect) {
+      this.score++;
+      this.streak++;
+      if (this.streak > this.maxStreak) {
+        this.maxStreak = this.streak;
+      }
+    } else {
+      this.streak = 0;
+    }
+
+    const answerRecord = {
+      questionId: currentQ.id,
+      questionText: currentQ.question,
+      options: currentQ.options,
+      selectedIndex: selectedOptionIndex,
+      selectedOptionText: selectedOptionIndex !== null && selectedOptionIndex !== undefined ? currentQ.options[selectedOptionIndex] : "Timed Out / Skipped",
+      correctIndex: currentQ.answer,
+      correctOptionText: currentQ.options[currentQ.answer],
+      isCorrect,
+      explanation: currentQ.explanation || "No additional explanation provided."
+    };
+
+    this.userAnswers.push(answerRecord);
+
+    const isSurvivalOver = (this.mode === "survival" && !isCorrect);
+    const hasNext = (this.currentIndex + 1 < this.currentQuiz.totalQuestions) && !isSurvivalOver;
+
+    const result = {
+      isCorrect,
+      correctIndex: currentQ.answer,
+      selectedIndex: selectedOptionIndex,
+      explanation: currentQ.explanation || "No additional explanation provided.",
+      score: this.score,
+      streak: this.streak,
+      hasNext,
+      isSurvivalOver,
+      questionNumber: this.currentIndex + 1,
+      totalQuestions: this.currentQuiz.totalQuestions
+    };
+
+    return result;
+  }
+
+  /**
+   * Advance to the next question
+   */
+  nextQuestion() {
+    if (!this.currentQuiz) return null;
+
+    this.currentIndex++;
+    if (this.currentIndex >= this.currentQuiz.totalQuestions) {
+      this.finishQuiz();
+      return null;
+    }
+
+    return this.getCurrentQuestion();
+  }
+
+  /**
+   * Complete the quiz and generate final evaluation
+   */
+  finishQuiz() {
+    this.isCompleted = true;
+    this.endTime = Date.now();
+    this.stopTimer();
+
+    const total = this.currentQuiz ? this.currentQuiz.totalQuestions : this.userAnswers.length;
+    const percentage = total > 0 ? Math.round((this.score / total) * 100) : 0;
+    const timeSpentSeconds = this.startTime ? Math.round((this.endTime - this.startTime) / 1000) : 0;
+
+    let badge = "Novice";
+    let message = "Good effort! Keep practicing to sharpen your knowledge.";
+
+    if (percentage === 100) {
+      badge = "Grandmaster 🏆";
+      message = "Flawless victory! You scored 100% with absolute mastery.";
+    } else if (percentage >= 90) {
+      badge = "Expert 🌟";
+      message = "Outstanding performance! You possess elite subject knowledge.";
+    } else if (percentage >= 75) {
+      badge = "Scholar 🎓";
+      message = "Great job! You demonstrated solid understanding and skill.";
+    } else if (percentage >= 50) {
+      badge = "Apprentice 📖";
+      message = "Decent start! Review the explanations and challenge yourself again.";
+    } else {
+      badge = "Explorer 🧭";
+      message = "Every expert was once a beginner. Keep exploring and try again!";
+    }
+
+    return {
+      quizId: this.currentQuiz ? this.currentQuiz.id : "",
+      mode: this.mode,
+      category: this.currentQuiz ? this.currentQuiz.category : "all",
+      score: this.score,
+      totalQuestions: total,
+      percentage,
+      passed: percentage >= this.config.passingScorePercentage,
+      timeSpentSeconds,
+      maxStreak: this.maxStreak,
+      badge,
+      message,
+      answersSummary: [...this.userAnswers]
+    };
+  }
+
+  /**
+   * Start question countdown timer
+   */
+  startTimer(durationSeconds, onTick, onTimeExpired) {
+    this.stopTimer();
+    this.timeRemaining = durationSeconds || this.config.timePerQuestionSeconds;
+    this.onTick = onTick;
+    this.onTimeExpired = onTimeExpired;
+
+    if (typeof this.onTick === "function") {
+      this.onTick(this.timeRemaining);
+    }
+
+    this.timerInterval = setInterval(() => {
+      this.timeRemaining--;
+      if (typeof this.onTick === "function") {
+        this.onTick(this.timeRemaining);
+      }
+      if (this.timeRemaining <= 0) {
+        this.stopTimer();
+        if (typeof this.onTimeExpired === "function") {
+          this.onTimeExpired();
+        }
+      }
+    }, 1000);
+  }
+
+  /**
+   * Stop active timer
+   */
+  stopTimer() {
+    if (this.timerInterval) {
+      clearInterval(this.timerInterval);
+      this.timerInterval = null;
+    }
+  }
+
+  /**
+   * Generate viral social share text
+   */
+  getSharePayload(finalStats, siteUrl = "") {
+    const stats = finalStats || this.finishQuiz();
+    const catName = stats.category ? stats.category.toUpperCase() : "WKQUIZ";
+    const text = `I scored ${stats.score}/${stats.totalQuestions} (${stats.percentage}%) on WKQuiz's ${catName} Challenge! Can you beat my score? 🧠🔥`;
+    const shareUrl = siteUrl || (typeof window !== "undefined" ? window.location.href : "https://wkquiz.com");
+
+    return {
+      text,
+      url: shareUrl,
+      whatsapp: `https://api.whatsapp.com/send?text=${encodeURIComponent(text + " " + shareUrl)}`,
+      facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(text)}`,
+      twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(shareUrl)}`,
+      telegram: `https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(text)}`
+    };
+  }
+}
+
+// CommonJS and Browser compatibility
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = { WKQuizEngine };
+}
+if (typeof window !== "undefined") {
+  window.WKQuizEngine = WKQuizEngine;
+}
+
+
+/* ========================================================================= */
+/* 4. UI CONTROLLER AND APP INITIALIZER                                      */
+/* ========================================================================= */
+/**
+ * WKQUIZ UI CONTROLLER
+ * Pure Vanilla JavaScript DOM Controller.
+ * Handles rendering, events, dark mode, mobile drawer, search modal, and social sharing.
+ */
+
+class WKQuizUI {
+  constructor(engine, config) {
+    this.engine = engine;
+    this.config = config || (typeof WKQUIZ_CONFIG !== "undefined" ? WKQUIZ_CONFIG : {});
+    this.currentQuestionData = null;
+    this.isAnswered = false;
+
+    this.dom = {
+      container: document.getElementById("wk-quiz-container"),
+      darkModeToggle: document.getElementById("wk-dark-toggle"),
+      mobileMenuBtn: document.getElementById("wk-menu-btn"),
+      mobileDrawer: document.getElementById("wk-mobile-drawer"),
+      searchBtn: document.getElementById("wk-search-btn"),
+      searchModal: document.getElementById("wk-search-modal"),
+      searchInput: document.getElementById("wk-search-input"),
+      searchResults: document.getElementById("wk-search-results"),
+      searchClose: document.getElementById("wk-search-close"),
+      categoriesContainer: document.getElementById("wk-categories-grid")
+    };
+
+    this.init();
+  }
+
+  init() {
+    this._initTheme();
+    this._initEvents();
+    this._renderCategoriesGrid();
+    
+    // Check if query param exists (e.g. ?quiz=nclex)
+    const hasParams = this._checkUrlParams();
+    if (!hasParams && this.dom.container) {
+      // Initialize a live quiz card immediately on page load without auto-scrolling
+      this.startQuiz({ mode: "classic", category: "all" }, false);
+    }
+  }
+
+  /**
+   * Theme Management (Zero-flash Dark Mode)
+   */
+  _initTheme() {
+    const savedTheme = localStorage.getItem("wkquiz_theme");
+    const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const initialTheme = savedTheme || (prefersDark ? "dark" : (this.config.theme ? this.config.theme.defaultTheme : "light"));
+    
+    document.documentElement.setAttribute("data-theme", initialTheme);
+    if (document.body) document.body.setAttribute("data-theme", initialTheme);
+    this._updateThemeIcon(initialTheme);
+  }
+
+  toggleTheme() {
+    const currentTheme = document.documentElement.getAttribute("data-theme") || "light";
+    const nextTheme = currentTheme === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", nextTheme);
+    if (document.body) document.body.setAttribute("data-theme", nextTheme);
+    localStorage.setItem("wkquiz_theme", nextTheme);
+    this._updateThemeIcon(nextTheme);
+  }
+
+  _updateThemeIcon(theme) {
+    if (this.dom.darkModeToggle) {
+      this.dom.darkModeToggle.innerHTML = theme === "dark" 
+        ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+        : '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+    }
+  }
+
+  /**
+   * Global Event Listeners
+   */
+  _initEvents() {
+    // Theme Toggle
+    if (this.dom.darkModeToggle) {
+      this.dom.darkModeToggle.addEventListener("click", () => this.toggleTheme());
+    }
+
+    // Mobile Menu
+    if (this.dom.mobileMenuBtn && this.dom.mobileDrawer) {
+      this.dom.mobileMenuBtn.addEventListener("click", () => {
+        this.dom.mobileDrawer.classList.toggle("open");
+      });
+    }
+
+    // Search Modal
+    if (this.dom.searchBtn && this.dom.searchModal) {
+      this.dom.searchBtn.addEventListener("click", () => this.openSearch());
+    }
+    if (this.dom.searchClose && this.dom.searchModal) {
+      this.dom.searchClose.addEventListener("click", () => this.closeSearch());
+    }
+    if (this.dom.searchModal) {
+      this.dom.searchModal.addEventListener("click", (e) => {
+        if (e.target === this.dom.searchModal) this.closeSearch();
+      });
+    }
+    if (this.dom.searchInput) {
+      this.dom.searchInput.addEventListener("input", (e) => this.handleSearch(e.target.value));
+    }
+
+    // Keyboard Shortcuts (Esc to close search, / to open search)
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && this.dom.searchModal && this.dom.searchModal.classList.contains("open")) {
+        this.closeSearch();
+      }
+      if (e.key === "/" && document.activeElement.tagName !== "INPUT" && document.activeElement.tagName !== "TEXTAREA") {
+        e.preventDefault();
+        this.openSearch();
+      }
+    });
+
+    // Global CTA handlers
+    document.addEventListener("click", (e) => {
+      const target = e.target.closest("[data-action]");
+      if (!target) return;
+
+      const action = target.getAttribute("data-action");
+      const category = target.getAttribute("data-category");
+      const mode = target.getAttribute("data-mode");
+
+      if (action === "start-random") {
+        e.preventDefault();
+        if (this.dom.mobileDrawer) this.dom.mobileDrawer.classList.remove("open");
+        this.startQuiz({ mode: "classic", category: "all" }, true);
+      } else if (action === "start-daily") {
+        e.preventDefault();
+        if (this.dom.mobileDrawer) this.dom.mobileDrawer.classList.remove("open");
+        this.startQuiz({ mode: "daily", category: "all" }, true);
+      } else if (action === "start-category") {
+        e.preventDefault();
+        if (this.dom.mobileDrawer) this.dom.mobileDrawer.classList.remove("open");
+        this.startQuiz({ mode: "classic", category: category || "all" }, true);
+      } else if (action === "start-mode") {
+        e.preventDefault();
+        if (this.dom.mobileDrawer) this.dom.mobileDrawer.classList.remove("open");
+        this.startQuiz({ mode: mode || "classic", category: category || "all" }, true);
+      } else if (action === "restart-quiz") {
+        e.preventDefault();
+        this.startQuiz({ 
+          mode: this.engine.mode || "classic", 
+          category: this.engine.currentQuiz ? this.engine.currentQuiz.category : "all" 
+        }, true);
+      }
+    });
+  }
+
+  /**
+   * Check URL query parameters on load (e.g. ?quiz=nclex or ?mode=daily)
+   */
+  _checkUrlParams() {
+    if (typeof window === "undefined" || !window.location.search) return false;
+    const params = new URLSearchParams(window.location.search);
+    const category = params.get("quiz") || params.get("category");
+    const mode = params.get("mode");
+
+    if (category || mode) {
+      this.startQuiz({ category: category || "all", mode: mode || "classic" }, true);
+      return true;
+    }
+    return false;
+  }
+
+  /**
+   * Start and Render Quiz
+   */
+  startQuiz(options = {}, shouldScroll = true) {
+    if (!this.engine) return;
+
+    try {
+      this.currentQuestionData = this.engine.startQuiz(options);
+      this.isAnswered = false;
+      this._renderQuizScreen();
+      if (shouldScroll) {
+        this._scrollToQuiz();
+      }
+    } catch (err) {
+      console.error("[WKQuiz] Could not start quiz:", err);
+      this._renderError(err.message || "Failed to load quiz.");
+    }
+  }
+
+  _scrollToQuiz() {
+    if (this.dom.container) {
+      this.dom.container.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+
+  /**
+   * Render Quiz Question Card
+   */
+  _renderQuizScreen() {
+    if (!this.dom.container || !this.currentQuestionData) return;
+
+    const q = this.currentQuestionData;
+    const letters = ["A", "B", "C", "D", "E", "F"];
+
+    const categoryObj = (this.config.categories || []).find(c => c.id === q.category) || {
+      name: q.category.toUpperCase(),
+      icon: "🎯"
+    };
+
+    let html = `
+      <div class="wk-quiz-card" id="wk-active-card">
+        <div class="wk-quiz-header">
+          <div class="wk-quiz-meta">
+            <span class="wk-badge wk-badge-primary">
+              ${categoryObj.icon || "🎯"} ${categoryObj.name}
+            </span>
+            <span class="wk-badge wk-badge-warning">
+              Question ${q.questionNumber} of ${q.totalQuestions}
+            </span>
+            ${q.mode === "daily" ? '<span class="wk-badge wk-badge-danger">🔥 Daily Challenge</span>' : ''}
+          </div>
+          <div id="wk-timer-badge" class="wk-quiz-timer" style="display: none;">
+            ⏱️ <span id="wk-timer-seconds">20</span>s
+          </div>
+        </div>
+
+        <div class="wk-progress-bar-wrap" aria-label="Quiz progress">
+          <div class="wk-progress-bar-fill" style="width: ${q.progressPercentage}%;"></div>
+        </div>
+
+        <h2 class="wk-question-text">${this._escapeHtml(q.question)}</h2>
+
+        <div class="wk-options-list" role="radiogroup" aria-label="Answer options">
+          ${q.options.map((opt, idx) => `
+            <button type="button" class="wk-option-btn" data-index="${idx}" role="radio" aria-checked="false">
+              <span class="wk-option-letter">${letters[idx] || (idx + 1)}</span>
+              <span class="wk-option-label">${this._escapeHtml(opt)}</span>
+            </button>
+          `).join("")}
+        </div>
+
+        <div class="wk-explanation-box" id="wk-explanation">
+          <div class="wk-explanation-title">
+            <span id="wk-expl-icon">💡</span> <span id="wk-expl-heading">Explanation</span>
+          </div>
+          <div class="wk-explanation-text" id="wk-expl-text"></div>
+        </div>
+
+        <div class="wk-quiz-actions">
+          <button type="button" id="wk-next-btn" class="wk-btn wk-btn-primary" style="display: none;">
+            ${q.questionNumber === q.totalQuestions ? "View Final Results 🏆" : "Next Question ➔"}
+          </button>
+        </div>
+      </div>
+    `;
+
+    this.dom.container.innerHTML = html;
+    this._bindOptionClicks();
+
+    // Start timer if mode is timed or config enables it
+    if (q.mode === "timed" || (this.config.quiz && this.config.quiz.enableTimerByDefault)) {
+      const timerBadge = document.getElementById("wk-timer-badge");
+      const timerSeconds = document.getElementById("wk-timer-seconds");
+      if (timerBadge && timerSeconds) {
+        timerBadge.style.display = "inline-flex";
+        this.engine.startTimer(
+          this.config.quiz.timePerQuestionSeconds || 20,
+          (secs) => {
+            timerSeconds.textContent = secs;
+            if (secs <= 5) timerBadge.classList.add("urgent");
+            else timerBadge.classList.remove("urgent");
+          },
+          () => {
+            if (!this.isAnswered) {
+              this._handleAnswerSelect(null); // Time expired
+            }
+          }
+        );
+      }
+    }
+  }
+
+  _bindOptionClicks() {
+    const card = document.getElementById("wk-active-card");
+    if (!card) return;
+
+    const optionBtns = card.querySelectorAll(".wk-option-btn");
+    optionBtns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        if (this.isAnswered) return;
+        const index = parseInt(btn.getAttribute("data-index"), 10);
+        this._handleAnswerSelect(index);
+      });
+    });
+
+    const nextBtn = document.getElementById("wk-next-btn");
+    if (nextBtn) {
+      nextBtn.addEventListener("click", () => {
+        this.engine.stopTimer();
+        const nextQ = this.engine.nextQuestion();
+        if (nextQ) {
+          this.currentQuestionData = nextQ;
+          this.isAnswered = false;
+          this._renderQuizScreen();
+        } else {
+          this._renderResultsScreen();
+        }
+      });
+    }
+  }
+
+  _handleAnswerSelect(selectedIndex) {
+    this.isAnswered = true;
+    this.engine.stopTimer();
+
+    const result = this.engine.submitAnswer(selectedIndex);
+    const card = document.getElementById("wk-active-card");
+    if (!card) return;
+
+    const optionBtns = card.querySelectorAll(".wk-option-btn");
+    optionBtns.forEach((btn, idx) => {
+      btn.disabled = true;
+      if (idx === result.correctIndex) {
+        btn.classList.add("correct");
+        btn.setAttribute("aria-checked", "true");
+      }
+      if (idx === result.selectedIndex && !result.isCorrect) {
+        btn.classList.add("incorrect");
+      }
+    });
+
+    // Show Explanation
+    const explBox = document.getElementById("wk-explanation");
+    const explHeading = document.getElementById("wk-expl-heading");
+    const explText = document.getElementById("wk-expl-text");
+    const explIcon = document.getElementById("wk-expl-icon");
+
+    if (explBox && explText) {
+      explIcon.textContent = result.isCorrect ? "✅" : "❌";
+      explHeading.textContent = result.isCorrect ? "Correct! Well Done" : "Incorrect";
+      explText.textContent = result.explanation;
+      explBox.classList.add("visible");
+    }
+
+    // Show Next or Results button
+    const nextBtn = document.getElementById("wk-next-btn");
+    if (nextBtn) {
+      nextBtn.style.display = "inline-flex";
+      if (result.isSurvivalOver) {
+        nextBtn.textContent = "Game Over - View Results 💀";
+      } else if (!result.hasNext) {
+        nextBtn.textContent = "View Final Results 🏆";
+      }
+    }
+  }
+
+  /**
+   * Render Results Screen
+   */
+  _renderResultsScreen() {
+    if (!this.dom.container) return;
+
+    const stats = this.engine.finishQuiz();
+    const sharePayload = this.engine.getSharePayload(stats);
+
+    let html = `
+      <div class="wk-quiz-card wk-results-card">
+        <div class="wk-results-badge">${stats.badge}</div>
+        <h2 class="wk-section-title" style="justify-content: center;">Quiz Completed!</h2>
+
+        <div class="wk-score-circle">
+          <div class="wk-score-number">${stats.score}/${stats.totalQuestions}</div>
+          <div class="wk-score-percent">${stats.percentage}% Accuracy</div>
+        </div>
+
+        <p class="wk-results-msg">${stats.message}</p>
+
+        <div class="wk-results-buttons">
+          <button type="button" class="wk-btn wk-btn-primary" data-action="restart-quiz">
+            🔄 Try Again
+          </button>
+          <button type="button" class="wk-btn wk-btn-secondary" data-action="start-random">
+            🎲 Random Quiz
+          </button>
+          <button type="button" class="wk-btn wk-btn-secondary" data-action="start-daily">
+            🔥 Daily Challenge
+          </button>
+        </div>
+
+        <!-- Social Viral Sharing -->
+        <div class="wk-share-section">
+          <div class="wk-share-title">Challenge Your Friends</div>
+          <div class="wk-share-grid">
+            <a href="${sharePayload.whatsapp}" target="_blank" rel="noopener noreferrer" class="wk-share-btn wk-share-whatsapp">
+              📱 WhatsApp
+            </a>
+            <a href="${sharePayload.facebook}" target="_blank" rel="noopener noreferrer" class="wk-share-btn wk-share-facebook">
+              📘 Facebook
+            </a>
+            <a href="${sharePayload.twitter}" target="_blank" rel="noopener noreferrer" class="wk-share-btn wk-share-twitter">
+              ✖️ Share on X
+            </a>
+            <button type="button" id="wk-copy-score-btn" class="wk-share-btn wk-share-copy">
+              🔗 Copy Link
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
+
+    this.dom.container.innerHTML = html;
+    this._bindShareButtons(sharePayload);
+    this._scrollToQuiz();
+  }
+
+  _bindShareButtons(sharePayload) {
+    const copyBtn = document.getElementById("wk-copy-score-btn");
+    if (copyBtn) {
+      copyBtn.addEventListener("click", () => {
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(`${sharePayload.text}\n${sharePayload.url}`).then(() => {
+            copyBtn.textContent = "✅ Link Copied!";
+            setTimeout(() => { copyBtn.textContent = "🔗 Copy Link"; }, 2500);
+          }).catch(() => {
+            this._fallbackCopyText(`${sharePayload.text}\n${sharePayload.url}`);
+          });
+        } else {
+          this._fallbackCopyText(`${sharePayload.text}\n${sharePayload.url}`);
+        }
+      });
+    }
+  }
+
+  _fallbackCopyText(text) {
+    const tempInput = document.createElement("textarea");
+    tempInput.value = text;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempInput);
+    alert("Score copied to clipboard! Share it with your friends.");
+  }
+
+  /**
+   * Render Categories Grid on Homepage
+   */
+  _renderCategoriesGrid() {
+    if (!this.dom.categoriesContainer || !this.config.categories) return;
+
+    const categories = this.config.categories;
+    const html = categories.map(cat => `
+      <a href="javascript:void(0)" class="wk-category-card" data-action="start-category" data-category="${cat.id}">
+        <span class="wk-category-icon">${cat.icon || "📚"}</span>
+        <span class="wk-category-name">${cat.name}</span>
+        <span class="wk-category-count">Play Now ➔</span>
+      </a>
+    `).join("");
+
+    this.dom.categoriesContainer.innerHTML = html;
+  }
+
+  /**
+   * Instant Search Modal Controls
+   */
+  openSearch() {
+    if (!this.dom.searchModal) return;
+    this.dom.searchModal.classList.add("open");
+    if (this.dom.searchInput) {
+      this.dom.searchInput.value = "";
+      this.dom.searchInput.focus();
+      this.handleSearch("");
+    }
+  }
+
+  closeSearch() {
+    if (!this.dom.searchModal) return;
+    this.dom.searchModal.classList.remove("open");
+  }
+
+  handleSearch(query) {
+    if (!this.dom.searchResults) return;
+
+    const term = (query || "").toLowerCase().trim();
+    const categories = this.config.categories || [];
+
+    const matched = categories.filter(c => 
+      c.name.toLowerCase().includes(term) || 
+      c.description.toLowerCase().includes(term) ||
+      c.slug.toLowerCase().includes(term)
+    );
+
+    if (matched.length === 0) {
+      this.dom.searchResults.innerHTML = `
+        <div style="padding: 1.5rem; text-align: center; color: var(--text-muted);">
+          No quizzes found matching "<strong>${this._escapeHtml(query)}</strong>". Try searching for <em>NCLEX</em>, <em>HVAC</em>, <em>Electrical</em>, or <em>Medical</em>.
+        </div>
+      `;
+      return;
+    }
+
+    const html = matched.map(cat => `
+      <a href="javascript:void(0)" class="wk-search-item" data-action="start-category" data-category="${cat.id}">
+        <span style="font-size: 1.5rem;">${cat.icon || "📚"}</span>
+        <div>
+          <div style="font-weight: 700;">${cat.name} Quiz</div>
+          <div style="font-size: 0.8rem; color: var(--text-muted);">${cat.description}</div>
+        </div>
+      </a>
+    `).join("");
+
+    this.dom.searchResults.innerHTML = html;
+
+    // Attach click listeners to search results
+    const items = this.dom.searchResults.querySelectorAll(".wk-search-item");
+    items.forEach(item => {
+      item.addEventListener("click", () => {
+        const catId = item.getAttribute("data-category");
+        this.closeSearch();
+        this.startQuiz({ category: catId, mode: "classic" }, true);
+      });
+    });
+  }
+
+  _renderError(message) {
+    if (!this.dom.container) return;
+    this.dom.container.innerHTML = `
+      <div class="wk-quiz-card" style="text-align: center; border-color: var(--danger);">
+        <h3 style="color: var(--danger); margin-bottom: 0.5rem;">⚠️ Oops!</h3>
+        <p style="color: var(--text-muted); margin-bottom: 1.5rem;">${this._escapeHtml(message)}</p>
+        <button type="button" class="wk-btn wk-btn-primary" data-action="start-random">
+          Try Random Quiz
+        </button>
+      </div>
+    `;
+  }
+
+  _escapeHtml(str) {
+    if (typeof str !== "string") return "";
+    return str
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
+}
+
+// CommonJS and Browser compatibility
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = { WKQuizUI };
+}
+if (typeof window !== "undefined") {
+  window.WKQuizUI = WKQuizUI;
+}
+
+
+/* ========================================================================= */
+/* 5. AUTO-INITIALIZE APP ROBUSTLY ON PAGE LOAD                              */
+/* ========================================================================= */
+(function() {
+  function initWKQuizPlatform() {
+    if (window.__wkQuizInitialized) return;
+    window.__wkQuizInitialized = true;
+    try {
+      if (typeof WKQuizEngine !== 'undefined' && typeof WKQuizUI !== 'undefined') {
+        var bank = (typeof wkQuizBank !== 'undefined' && wkQuizBank) ? wkQuizBank : new WKQuizQuestionBank(WKQUIZ_QUESTIONS);
+        var cfg = (typeof WKQUIZ_CONFIG !== 'undefined' && WKQUIZ_CONFIG) ? WKQUIZ_CONFIG : {};
+        var engine = new WKQuizEngine({ bank: bank, config: cfg.quiz || {} });
+        window.wkQuizApp = new WKQuizUI(engine, cfg);
+        console.log('[WKQuiz] Platform successfully initialized.');
+      }
+    } catch (e) {
+      console.error('[WKQuiz] Initialization error:', e);
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initWKQuizPlatform);
+  } else {
+    initWKQuizPlatform();
+  }
+})();
+  </script>
+</body>
+</html>

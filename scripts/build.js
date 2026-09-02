@@ -1,0 +1,732 @@
+/**
+ * WKQUIZ BUILDER SCRIPT
+ * Compiles modular CSS and JS into:
+ * 1. theme.xml (Blogger XML Theme)
+ * 2. dist/wkquiz-theme.xml
+ * 3. dist/index.html (Interactive Local Browser Preview)
+ */
+
+const fs = require("fs");
+const path = require("path");
+
+const rootDir = path.resolve(__dirname, "..");
+const srcDir = path.join(rootDir, "src");
+const distDir = path.join(rootDir, "dist");
+
+if (!fs.existsSync(distDir)) {
+  fs.mkdirSync(distDir, { recursive: true });
+}
+
+// Read Source Files
+const configJs = fs.readFileSync(path.join(srcDir, "config.js"), "utf8");
+const questionsJs = fs.readFileSync(path.join(srcDir, "questions.js"), "utf8");
+const quizEngineJs = fs.readFileSync(path.join(srcDir, "quiz-engine.js"), "utf8");
+const uiControllerJs = fs.readFileSync(path.join(srcDir, "ui-controller.js"), "utf8");
+const stylesCss = fs.readFileSync(path.join(srcDir, "styles.css"), "utf8");
+
+// Combine cleanly without broken regexes
+const bundledJs = [
+  "/* ========================================================================= */",
+  "/* 1. CENTRAL CONFIGURATION                                                  */",
+  "/* ========================================================================= */",
+  configJs,
+  "",
+  "/* ========================================================================= */",
+  "/* 2. QUESTION BANK DATA AND REPOSITORY                                      */",
+  "/* ========================================================================= */",
+  questionsJs,
+  "",
+  "/* ========================================================================= */",
+  "/* 3. QUIZ ENGINE                                                            */",
+  "/* ========================================================================= */",
+  quizEngineJs,
+  "",
+  "/* ========================================================================= */",
+  "/* 4. UI CONTROLLER AND APP INITIALIZER                                      */",
+  "/* ========================================================================= */",
+  uiControllerJs,
+  "",
+  "/* ========================================================================= */",
+  "/* 5. AUTO-INITIALIZE APP ROBUSTLY ON PAGE LOAD                              */",
+  "/* ========================================================================= */",
+  "(function() {",
+  "  function initWKQuizPlatform() {",
+  "    if (window.__wkQuizInitialized) return;",
+  "    window.__wkQuizInitialized = true;",
+  "    try {",
+  "      if (typeof WKQuizEngine !== 'undefined' && typeof WKQuizUI !== 'undefined') {",
+  "        var bank = (typeof wkQuizBank !== 'undefined' && wkQuizBank) ? wkQuizBank : new WKQuizQuestionBank(WKQUIZ_QUESTIONS);",
+  "        var cfg = (typeof WKQUIZ_CONFIG !== 'undefined' && WKQUIZ_CONFIG) ? WKQUIZ_CONFIG : {};",
+  "        var engine = new WKQuizEngine({ bank: bank, config: cfg.quiz || {} });",
+  "        window.wkQuizApp = new WKQuizUI(engine, cfg);",
+  "        console.log('[WKQuiz] Platform successfully initialized.');",
+  "      }",
+  "    } catch (e) {",
+  "      console.error('[WKQuiz] Initialization error:', e);",
+  "    }",
+  "  }",
+  "",
+  "  if (document.readyState === 'loading') {",
+  "    document.addEventListener('DOMContentLoaded', initWKQuizPlatform);",
+  "  } else {",
+  "    initWKQuizPlatform();",
+  "  }",
+  "})();"
+].join("\n");
+
+// ==============================================================================
+// 1. GENERATE BLOGGER XML THEME (theme.xml & dist/wkquiz-theme.xml)
+// ==============================================================================
+const bloggerXmlContent = `<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsversion='3' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+  <meta charset='utf-8'/>
+  <meta content='width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no' name='viewport'/>
+  <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+  
+  <b:if cond='data:view.isHomepage'>
+    <title><data:blog.pageTitle/> | Play, Learn, Challenge Yourself</title>
+  <b:else/>
+    <title><data:blog.pageName/> - <data:blog.title/></title>
+  </b:if>
+
+  <b:include data='blog' name='all-head-content'/>
+
+  <!-- SEO Meta Tags and Open Graph -->
+  <meta expr:content='data:blog.metaDescription ? data:blog.metaDescription : &quot;WKQuiz is the premier interactive quiz platform for Nursing, NCLEX, Medical, Engineering, Electrical, HVAC, IQ and General Knowledge.&quot;' name='description'/>
+  <meta expr:content='data:blog.canonicalUrl' property='og:url'/>
+  <meta expr:content='data:blog.pageName ? data:blog.pageName : data:blog.title' property='og:title'/>
+  <meta expr:content='data:blog.metaDescription ? data:blog.metaDescription : &quot;Challenge yourself with interactive quizzes on WKQuiz.&quot;' property='og:description'/>
+  <meta content='website' property='og:type'/>
+  <meta content='https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=1200&amp;auto=format&amp;fit=crop&amp;q=80' property='og:image'/>
+  <meta content='summary_large_image' name='twitter:card'/>
+
+  <!-- Schema.org JSON-LD Structured Data -->
+  <script type='application/ld+json'>
+  //<![CDATA[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "WKQuiz",
+    "url": "https://www.wkquiz.com"
+  }
+  //]]>
+  </script>
+
+  <!-- Prevent Theme Flash Script -->
+  <script type='text/javascript'>
+  //<![CDATA[
+    (function() {
+      try {
+        var t = localStorage.getItem('wkquiz_theme');
+        if (t === 'dark' || (!t && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          if (document.body) document.body.setAttribute('data-theme', 'dark');
+        } else {
+          document.documentElement.setAttribute('data-theme', 'light');
+          if (document.body) document.body.setAttribute('data-theme', 'light');
+        }
+      } catch (e) {}
+    })();
+  //]]>
+  </script>
+
+  <!-- Main Stylesheet -->
+  <b:skin><![CDATA[
+${stylesCss}
+  ]]></b:skin>
+</head>
+
+<body>
+
+  <!-- ====================================================================== -->
+  <!-- HEADER AND NAVIGATION                                                  -->
+  <!-- ====================================================================== -->
+  <header class='wk-header'>
+    <div class='wk-container'>
+      <div class='wk-header-inner'>
+        <a class='wk-brand' expr:href='data:blog.homepageUrl'>
+          <span class='wk-brand-badge'>WK</span>
+          <span>Quiz</span>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class='wk-nav-desktop' aria-label='Main Navigation'>
+          <a class='wk-nav-link active' expr:href='data:blog.homepageUrl'>Home</a>
+          <a class='wk-nav-link' href='#quizzes' data-action='start-random'>Quizzes</a>
+          <a class='wk-nav-link' href='#categories'>Categories</a>
+          <a class='wk-nav-link' href='javascript:void(0)' data-action='start-daily'>Daily Challenge</a>
+          <a class='wk-nav-link' href='/p/about.html'>About</a>
+        </nav>
+
+        <!-- Actions: Theme Toggle, Search, Mobile Menu -->
+        <div class='wk-header-actions'>
+          <button type='button' id='wk-search-btn' class='wk-btn-icon' aria-label='Search Quizzes' title='Search Quizzes (Press /)'>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          </button>
+          
+          <button type='button' id='wk-dark-toggle' class='wk-btn-icon' aria-label='Toggle Dark/Light Mode' title='Toggle Theme'>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+
+          <button type='button' id='wk-menu-btn' class='wk-btn-icon wk-mobile-menu-btn' aria-label='Open Navigation Menu'>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id='wk-mobile-drawer' class='wk-mobile-drawer' aria-label='Mobile Navigation'>
+    <a class='wk-mobile-nav-link' expr:href='data:blog.homepageUrl'>🏠 Home</a>
+    <a class='wk-mobile-nav-link' href='javascript:void(0)' data-action='start-random'>🎲 Random Quiz</a>
+    <a class='wk-mobile-nav-link' href='javascript:void(0)' data-action='start-daily'>🔥 Daily Challenge</a>
+    <a class='wk-mobile-nav-link' href='#categories'>📚 Categories</a>
+    <a class='wk-mobile-nav-link' href='/p/about.html'>ℹ️ About WKQuiz</a>
+  </div>
+
+  <!-- ====================================================================== -->
+  <!-- TOP ADVERTISEMENT SLOT (AdSense Ready)                                  -->
+  <!-- ====================================================================== -->
+  <b:section id='top-ad' class='wk-container' showaddelement='yes' maxwidgets='1'>
+    <b:widget id='HTML1' locked='false' title='Top Advertisement' type='HTML' version='2'>
+      <b:widget-settings>
+        <b:widget-setting name='content'/>
+      </b:widget-settings>
+      <b:includable id='main'>
+        <div class='wk-ad-slot'>
+          <div class='wk-ad-label'>ADVERTISEMENT</div>
+          <!-- Paste your Google AdSense Top Responsive Ad Code below -->
+          <data:content/>
+        </div>
+      </b:includable>
+    </b:widget>
+  </b:section>
+
+  <!-- ====================================================================== -->
+  <!-- MAIN CONTAINER AND LAYOUT                                              -->
+  <!-- ====================================================================== -->
+  <div class='wk-container'>
+    <div class='wk-layout'>
+
+      <!-- MAIN CONTENT COLUMN -->
+      <main class='wk-main-content' id='main-content'>
+
+        <!-- HOMEPAGE HERO (Visible on Homepage) -->
+        <b:if cond='data:view.isHomepage'>
+          <section class='wk-hero'>
+            <h1 class='wk-hero-title'>Test Your Knowledge</h1>
+            <p class='wk-hero-subtitle'>Play thousands of interactive quizzes, challenge yourself, and master Nursing, NCLEX, Engineering, Tech, IQ and more.</p>
+            <div class='wk-hero-actions'>
+              <button type='button' class='wk-btn wk-btn-primary' data-action='start-random'>
+                ⚡ Start Random Quiz
+              </button>
+              <a href='#categories' class='wk-btn wk-btn-secondary'>
+                📚 Explore 29+ Categories
+              </a>
+            </div>
+          </section>
+
+          <!-- DAILY CHALLENGE BANNER -->
+          <section class='wk-daily-banner'>
+            <div>
+              <div class='wk-badge wk-badge-danger' style='margin-bottom: 0.5rem;'>DAILY SPECIAL</div>
+              <h2 class='wk-daily-title'>Today&#39;s Daily Challenge</h2>
+              <p class='wk-daily-desc'>Fresh questions curated daily. Test your streak against players worldwide!</p>
+            </div>
+            <button type='button' class='wk-btn wk-btn-primary' data-action='start-daily'>
+              🔥 Play Daily Quiz
+            </button>
+          </section>
+        </b:if>
+
+        <!-- BEFORE QUIZ ADVERTISEMENT SLOT -->
+        <div class='wk-ad-slot' id='wk-before-quiz-ad'>
+          <div class='wk-ad-label'>ADVERTISEMENT</div>
+          <!-- Paste your Google AdSense In-Feed / Banner code below -->
+        </div>
+
+        <!-- ================================================================== -->
+        <!-- INTERACTIVE QUIZ ENGINE CONTAINER                                  -->
+        <!-- ================================================================== -->
+        <section id='wk-quiz-container' aria-live='polite'>
+          <!-- Active quiz screen or completed results rendered dynamically by WKQuizUI -->
+        </section>
+
+        <!-- HOMEPAGE CATEGORIES GRID -->
+        <b:if cond='data:view.isHomepage'>
+          <section id='categories' style='margin-top: 2rem;'>
+            <h2 class='wk-section-title'>
+              <span>📚</span> Browse Quiz Categories
+            </h2>
+            <div class='wk-categories-grid' id='wk-categories-grid'>
+              <!-- Categories dynamically rendered by WKQuizUI -->
+            </div>
+          </section>
+        </b:if>
+
+        <!-- ================================================================== -->
+        <!-- STANDARD BLOGGER POSTS AND PAGES (Blog1 Widget)                    -->
+        <!-- ================================================================== -->
+        <b:section id='main' class='main-posts-section' showaddelement='no'>
+          <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2'>
+            <b:includable id='main' var='top'>
+              <b:loop values='data:posts' var='post'>
+                <article class='wk-post-article'>
+                  <h1 class='wk-post-title'>
+                    <a expr:href='data:post.url'><data:post.title/></a>
+                  </h1>
+                  <div class='wk-post-meta'>
+                    <span>📅 <data:post.dateHeader/></span>
+                    <span>✍️ <data:post.author.name/></span>
+                  </div>
+                  <div class='wk-post-body'>
+                    <data:post.body/>
+                  </div>
+                </article>
+              </b:loop>
+            </b:includable>
+          </b:widget>
+        </b:section>
+
+      </main>
+
+      <!-- ================================================================== -->
+      <!-- SIDEBAR COLUMN AND EDITABLE GADGETS                                -->
+      <!-- ================================================================== -->
+      <aside class='wk-sidebar'>
+
+        <!-- SIDEBAR ADVERTISEMENT SLOT -->
+        <b:section id='sidebar-ad' showaddelement='yes' maxwidgets='1'>
+          <b:widget id='HTML2' locked='false' title='Sidebar Advertisement' type='HTML' version='2'>
+            <b:widget-settings>
+              <b:widget-setting name='content'/>
+            </b:widget-settings>
+            <b:includable id='main'>
+              <div class='wk-ad-slot'>
+                <div class='wk-ad-label'>ADVERTISEMENT</div>
+                <!-- Paste your Google AdSense Sidebar Rectangle Ad Code below -->
+                <data:content/>
+              </div>
+            </b:includable>
+          </b:widget>
+        </b:section>
+
+        <!-- QUICK PLAY MODES WIDGET -->
+        <div class='wk-quiz-card' style='padding: 1.25rem;'>
+          <h3 style='font-size: 1.1rem; font-weight: 800; margin-bottom: 1rem;'>⚡ Quick Quiz Modes</h3>
+          <div style='display: flex; flex-direction: column; gap: 0.5rem;'>
+            <button type='button' class='wk-btn wk-btn-secondary' data-action='start-mode' data-mode='quick' style='justify-content: flex-start;'>
+              ⚡ <strong>Quick Quiz</strong> (5 Qs)
+            </button>
+            <button type='button' class='wk-btn wk-btn-secondary' data-action='start-mode' data-mode='classic' style='justify-content: flex-start;'>
+              🎯 <strong>Classic Quiz</strong> (10 Qs)
+            </button>
+            <button type='button' class='wk-btn wk-btn-secondary' data-action='start-mode' data-mode='challenge' style='justify-content: flex-start;'>
+              🏆 <strong>Challenge</strong> (20 Qs)
+            </button>
+            <button type='button' class='wk-btn wk-btn-secondary' data-action='start-mode' data-mode='survival' style='justify-content: flex-start;'>
+              💀 <strong>Survival Mode</strong> (1 Life)
+            </button>
+            <button type='button' class='wk-btn wk-btn-secondary' data-action='start-mode' data-mode='timed' style='justify-content: flex-start;'>
+              ⏱️ <strong>Timed Mode</strong> (Speed)
+            </button>
+          </div>
+        </div>
+
+        <!-- EDITABLE SIDEBAR GADGETS SECTION -->
+        <b:section id='sidebar' showaddelement='yes'>
+          <b:widget id='Label1' locked='false' title='Quiz Topics' type='Label' version='2'>
+            <b:includable id='main'>
+              <div class='wk-quiz-card' style='padding: 1.25rem;'>
+                <h3 style='font-size: 1.1rem; font-weight: 800; margin-bottom: 0.75rem;'><data:title/></h3>
+                <div style='display: flex; flex-wrap: wrap; gap: 0.35rem;'>
+                  <b:loop values='data:labels' var='label'>
+                    <a expr:href='data:label.url' class='wk-badge wk-badge-primary' style='text-decoration: none;'>
+                      <data:label.name/> (<data:label.count/>)
+                    </a>
+                  </b:loop>
+                </div>
+              </div>
+            </b:includable>
+          </b:widget>
+        </b:section>
+
+      </aside>
+    </div>
+  </div>
+
+  <!-- ====================================================================== -->
+  <!-- INSTANT SEARCH MODAL                                                   -->
+  <!-- ====================================================================== -->
+  <div id='wk-search-modal' class='wk-modal-overlay' role='dialog' aria-modal='true' aria-label='Search Quizzes'>
+    <div class='wk-search-modal'>
+      <div class='wk-search-input-wrap'>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        <input type='search' id='wk-search-input' class='wk-search-input' placeholder='Search quizzes (NCLEX, HVAC, Nursing, Electrical...)' autocomplete='off'/>
+        <button type='button' id='wk-search-close' class='wk-btn-icon' aria-label='Close search'>✕</button>
+      </div>
+      <div id='wk-search-results' class='wk-search-results'></div>
+    </div>
+  </div>
+
+  <!-- ====================================================================== -->
+  <!-- FOOTER                                                                 -->
+  <!-- ====================================================================== -->
+  <footer class='wk-footer'>
+    <div class='wk-container'>
+      <div class='wk-footer-grid'>
+        <div class='wk-footer-col'>
+          <div class='wk-brand' style='margin-bottom: 0.75rem;'>
+            <span class='wk-brand-badge'>WK</span>
+            <span>Quiz</span>
+          </div>
+          <p style='color: var(--text-muted); font-size: 0.9rem; line-height: 1.6;'>
+            Play. Learn. Challenge Yourself. The premier mobile-first interactive quiz platform for students, professionals, and trivia lovers.
+          </p>
+        </div>
+
+        <div class='wk-footer-col'>
+          <h4>Healthcare Quizzes</h4>
+          <ul class='wk-footer-links'>
+            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='start-category' data-category='nclex'>NCLEX Practice</a></li>
+            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='start-category' data-category='nursing'>Nursing Fundamentals</a></li>
+            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='start-category' data-category='pharmacology'>Pharmacology</a></li>
+            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='start-category' data-category='anatomy'>Anatomy and Physiology</a></li>
+          </ul>
+        </div>
+
+        <div class='wk-footer-col'>
+          <h4>Technical and STEM</h4>
+          <ul class='wk-footer-links'>
+            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='start-category' data-category='electrical'>Electrical Engineering</a></li>
+            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='start-category' data-category='hvac'>HVAC and Refrigeration</a></li>
+            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='start-category' data-category='electronics'>Electronics</a></li>
+            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='start-category' data-category='iq-logic'>IQ and Logic Puzzles</a></li>
+          </ul>
+        </div>
+
+        <div class='wk-footer-col'>
+          <h4>Follow WKQuiz</h4>
+          <ul class='wk-footer-links'>
+            <li><a class='wk-footer-link' href='https://www.tiktok.com/@wkquiz' target='_blank' rel='noopener noreferrer'>TikTok</a></li>
+            <li><a class='wk-footer-link' href='https://www.instagram.com/wkquiz' target='_blank' rel='noopener noreferrer'>Instagram</a></li>
+            <li><a class='wk-footer-link' href='https://www.facebook.com/wkquiz' target='_blank' rel='noopener noreferrer'>Facebook</a></li>
+            <li><a class='wk-footer-link' href='https://www.youtube.com/@wkquiz' target='_blank' rel='noopener noreferrer'>YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class='wk-footer-bottom'>
+        <div>
+          &#169; <span id='wk-year'>2026</span> WKQuiz. All rights reserved. Built for Google Blogger.
+        </div>
+        <div style='display: flex; gap: 1rem;'>
+          <a href='/p/privacy.html' class='wk-footer-link'>Privacy Policy</a>
+          <a href='/p/terms.html' class='wk-footer-link'>Terms of Service</a>
+          <a href='/p/contact.html' class='wk-footer-link'>Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====================================================================== -->
+  <!-- MASTER QUIZ ENGINE AND SCRIPTS                                         -->
+  <!-- ====================================================================== -->
+  <script type='text/javascript'>
+  //<![CDATA[
+${bundledJs}
+  //]]>
+  </script>
+
+</body>
+</html>
+`;
+
+// Write theme.xml to root and dist
+fs.writeFileSync(path.join(rootDir, "theme.xml"), bloggerXmlContent, "utf8");
+fs.writeFileSync(path.join(distDir, "wkquiz-theme.xml"), bloggerXmlContent, "utf8");
+console.log("✓ Generated theme.xml and dist/wkquiz-theme.xml");
+
+// ==============================================================================
+// 2. GENERATE STANDALONE LOCAL HTML PREVIEW (dist/index.html)
+// ==============================================================================
+const previewHtmlContent = `<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no"/>
+  <title>WKQuiz — Play. Learn. Challenge Yourself.</title>
+  <meta name="description" content="WKQuiz is the premier interactive quiz platform for Nursing, NCLEX, Medical, Engineering, Electrical, HVAC, IQ & General Knowledge."/>
+  
+  <style>
+${stylesCss}
+  </style>
+
+  <script>
+    (function() {
+      try {
+        var t = localStorage.getItem('wkquiz_theme');
+        if (t === 'dark' || (!t && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        } else {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="wk-header">
+    <div class="wk-container">
+      <div class="wk-header-inner">
+        <a class="wk-brand" href="#">
+          <span class="wk-brand-badge">WK</span>
+          <span>Quiz</span>
+        </a>
+
+        <nav class="wk-nav-desktop" aria-label="Main Navigation">
+          <a class="wk-nav-link active" href="#">Home</a>
+          <a class="wk-nav-link" href="#quizzes" data-action="start-random">Quizzes</a>
+          <a class="wk-nav-link" href="#categories">Categories</a>
+          <a class="wk-nav-link" href="javascript:void(0)" data-action="start-daily">Daily Challenge</a>
+          <a class="wk-nav-link" href="#about">About</a>
+        </nav>
+
+        <div class="wk-header-actions">
+          <button type="button" id="wk-search-btn" class="wk-btn-icon" aria-label="Search Quizzes" title="Search Quizzes (Press /)">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          </button>
+          
+          <button type="button" id="wk-dark-toggle" class="wk-btn-icon" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+
+          <button type="button" id="wk-menu-btn" class="wk-btn-icon wk-mobile-menu-btn" aria-label="Open Navigation Menu">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="wk-mobile-drawer" class="wk-mobile-drawer" aria-label="Mobile Navigation">
+    <a class="wk-mobile-nav-link" href="#">🏠 Home</a>
+    <a class="wk-mobile-nav-link" href="javascript:void(0)" data-action="start-random">🎲 Random Quiz</a>
+    <a class="wk-mobile-nav-link" href="javascript:void(0)" data-action="start-daily">🔥 Daily Challenge</a>
+    <a class="wk-mobile-nav-link" href="#categories">📚 Categories</a>
+    <a class="wk-mobile-nav-link" href="#about">ℹ️ About WKQuiz</a>
+  </div>
+
+  <!-- TOP ADVERTISEMENT SLOT -->
+  <div class="wk-container">
+    <div class="wk-ad-slot">
+      <div class="wk-ad-label">ADVERTISEMENT - TOP BANNER</div>
+      <div style="font-size: 0.85rem; color: var(--text-muted);">[AdSense 728x90 or Responsive Ad Slot]</div>
+    </div>
+  </div>
+
+  <!-- MAIN LAYOUT -->
+  <div class="wk-container">
+    <div class="wk-layout">
+      
+      <!-- MAIN CONTENT -->
+      <main class="wk-main-content">
+        <!-- HERO -->
+        <section class="wk-hero">
+          <h1 class="wk-hero-title">Test Your Knowledge</h1>
+          <p class="wk-hero-subtitle">Play thousands of interactive quizzes, challenge yourself, and master Nursing, NCLEX, Engineering, Tech, IQ & more.</p>
+          <div class="wk-hero-actions">
+            <button type="button" class="wk-btn wk-btn-primary" data-action="start-random">
+              ⚡ Start Random Quiz
+            </button>
+            <a href="#categories" class="wk-btn wk-btn-secondary">
+              📚 Explore 29+ Categories
+            </a>
+          </div>
+        </section>
+
+        <!-- DAILY CHALLENGE BANNER -->
+        <section class="wk-daily-banner">
+          <div>
+            <div class="wk-badge wk-badge-danger" style="margin-bottom: 0.5rem;">DAILY SPECIAL</div>
+            <h2 class="wk-daily-title">Today's Daily Challenge</h2>
+            <p class="wk-daily-desc">Fresh questions curated daily. Test your streak against players worldwide!</p>
+          </div>
+          <button type="button" class="wk-btn wk-btn-primary" data-action="start-daily">
+            🔥 Play Daily Quiz
+          </button>
+        </section>
+
+        <!-- IN-CONTENT AD -->
+        <div class="wk-ad-slot">
+          <div class="wk-ad-label">ADVERTISEMENT - BEFORE QUIZ</div>
+          <div style="font-size: 0.85rem; color: var(--text-muted);">[AdSense In-Article Ad Slot]</div>
+        </div>
+
+        <!-- INTERACTIVE QUIZ ENGINE -->
+        <section id="wk-quiz-container" aria-live="polite">
+          <!-- Rendered by WKQuizUI -->
+        </section>
+
+        <!-- CATEGORIES GRID -->
+        <section id="categories" style="margin-top: 2rem;">
+          <h2 class="wk-section-title">
+            <span>📚</span> Browse Quiz Categories
+          </h2>
+          <div class="wk-categories-grid" id="wk-categories-grid"></div>
+        </section>
+
+        <!-- SAMPLE BLOG POST ARTICLE -->
+        <article class="wk-post-article" id="about" style="margin-top: 2rem;">
+          <h1 class="wk-post-title">Welcome to the Official WKQuiz Platform</h1>
+          <div class="wk-post-meta">
+            <span>📅 September 2, 2026</span>
+            <span>✍️ WKQuiz Editorial Team</span>
+          </div>
+          <div class="wk-post-body">
+            <p>
+              Welcome to <strong>WKQuiz</strong>, your premier destination for interactive, high-yield practice quizzes. Whether you are preparing for the <strong>NCLEX-RN</strong>, brushing up on <strong>HVAC & Electrical</strong> schematics, or testing your IQ and general trivia, our platform is designed for rapid, mobile-first learning.
+            </p>
+            <blockquote>
+              "Knowledge is power. Test yourself daily to retain what you learn."
+            </blockquote>
+            <p>
+              Explore our categories above or tap <strong>Start Random Quiz</strong> to begin immediately. No login or registration required!
+            </p>
+          </div>
+        </article>
+      </main>
+
+      <!-- SIDEBAR -->
+      <aside class="wk-sidebar">
+        <!-- SIDEBAR AD -->
+        <div class="wk-ad-slot">
+          <div class="wk-ad-label">ADVERTISEMENT - SIDEBAR</div>
+          <div style="font-size: 0.85rem; color: var(--text-muted);">[AdSense 300x250 Medium Rectangle]</div>
+        </div>
+
+        <!-- QUICK MODES -->
+        <div class="wk-quiz-card" style="padding: 1.25rem;">
+          <h3 style="font-size: 1.1rem; font-weight: 800; margin-bottom: 1rem;">⚡ Quick Quiz Modes</h3>
+          <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            <button type="button" class="wk-btn wk-btn-secondary" data-action="start-mode" data-mode="quick" style="justify-content: flex-start;">
+              ⚡ <strong>Quick Quiz</strong> (5 Qs)
+            </button>
+            <button type="button" class="wk-btn wk-btn-secondary" data-action="start-mode" data-mode="classic" style="justify-content: flex-start;">
+              🎯 <strong>Classic Quiz</strong> (10 Qs)
+            </button>
+            <button type="button" class="wk-btn wk-btn-secondary" data-action="start-mode" data-mode="challenge" style="justify-content: flex-start;">
+              🏆 <strong>Challenge</strong> (20 Qs)
+            </button>
+            <button type="button" class="wk-btn wk-btn-secondary" data-action="start-mode" data-mode="survival" style="justify-content: flex-start;">
+              💀 <strong>Survival Mode</strong> (1 Life)
+            </button>
+            <button type="button" class="wk-btn wk-btn-secondary" data-action="start-mode" data-mode="timed" style="justify-content: flex-start;">
+              ⏱️ <strong>Timed Mode</strong> (Speed)
+            </button>
+          </div>
+        </div>
+
+        <!-- POPULAR CATEGORIES -->
+        <div class="wk-quiz-card" style="padding: 1.25rem;">
+          <h3 style="font-size: 1.1rem; font-weight: 800; margin-bottom: 0.75rem;">🔥 Trending Topics</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.35rem;">
+            <a href="javascript:void(0)" data-action="start-category" data-category="nclex" class="wk-badge wk-badge-primary">NCLEX</a>
+            <a href="javascript:void(0)" data-action="start-category" data-category="nursing" class="wk-badge wk-badge-primary">Nursing</a>
+            <a href="javascript:void(0)" data-action="start-category" data-category="electrical" class="wk-badge wk-badge-primary">Electrical</a>
+            <a href="javascript:void(0)" data-action="start-category" data-category="hvac" class="wk-badge wk-badge-primary">HVAC</a>
+            <a href="javascript:void(0)" data-action="start-category" data-category="iq-logic" class="wk-badge wk-badge-primary">IQ & Logic</a>
+            <a href="javascript:void(0)" data-action="start-category" data-category="movies" class="wk-badge wk-badge-primary">Movies</a>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+
+  <!-- SEARCH MODAL -->
+  <div id="wk-search-modal" class="wk-modal-overlay" role="dialog" aria-modal="true" aria-label="Search Quizzes">
+    <div class="wk-search-modal">
+      <div class="wk-search-input-wrap">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        <input type="search" id="wk-search-input" class="wk-search-input" placeholder="Search quizzes (NCLEX, HVAC, Nursing, Electrical...)" autocomplete="off"/>
+        <button type="button" id="wk-search-close" class="wk-btn-icon" aria-label="Close search">✕</button>
+      </div>
+      <div id="wk-search-results" class="wk-search-results"></div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="wk-footer">
+    <div class="wk-container">
+      <div class="wk-footer-grid">
+        <div class="wk-footer-col">
+          <div class="wk-brand" style="margin-bottom: 0.75rem;">
+            <span class="wk-brand-badge">WK</span>
+            <span>Quiz</span>
+          </div>
+          <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6;">
+            Play. Learn. Challenge Yourself. The premier mobile-first interactive quiz platform for students, professionals, and trivia lovers.
+          </p>
+        </div>
+
+        <div class="wk-footer-col">
+          <h4>Healthcare Quizzes</h4>
+          <ul class="wk-footer-links">
+            <li><a class="wk-footer-link" href="javascript:void(0)" data-action="start-category" data-category="nclex">NCLEX Practice</a></li>
+            <li><a class="wk-footer-link" href="javascript:void(0)" data-action="start-category" data-category="nursing">Nursing Fundamentals</a></li>
+            <li><a class="wk-footer-link" href="javascript:void(0)" data-action="start-category" data-category="pharmacology">Pharmacology</a></li>
+            <li><a class="wk-footer-link" href="javascript:void(0)" data-action="start-category" data-category="anatomy">Anatomy & Physiology</a></li>
+          </ul>
+        </div>
+
+        <div class="wk-footer-col">
+          <h4>Technical & STEM</h4>
+          <ul class="wk-footer-links">
+            <li><a class="wk-footer-link" href="javascript:void(0)" data-action="start-category" data-category="electrical">Electrical Engineering</a></li>
+            <li><a class="wk-footer-link" href="javascript:void(0)" data-action="start-category" data-category="hvac">HVAC & Refrigeration</a></li>
+            <li><a class="wk-footer-link" href="javascript:void(0)" data-action="start-category" data-category="electronics">Electronics</a></li>
+            <li><a class="wk-footer-link" href="javascript:void(0)" data-action="start-category" data-category="iq-logic">IQ & Logic Puzzles</a></li>
+          </ul>
+        </div>
+
+        <div class="wk-footer-col">
+          <h4>Follow WKQuiz</h4>
+          <ul class="wk-footer-links">
+            <li><a class="wk-footer-link" href="https://www.tiktok.com/@wkquiz" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+            <li><a class="wk-footer-link" href="https://www.instagram.com/wkquiz" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a class="wk-footer-link" href="https://www.facebook.com/wkquiz" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a class="wk-footer-link" href="https://www.youtube.com/@wkquiz" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="wk-footer-bottom">
+        <div>
+          &copy; <span id="wk-year">2026</span> WKQuiz. All rights reserved.
+        </div>
+        <div style="display: flex; gap: 1rem;">
+          <a href="#" class="wk-footer-link">Privacy Policy</a>
+          <a href="#" class="wk-footer-link">Terms of Service</a>
+          <a href="#" class="wk-footer-link">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+${bundledJs}
+  </script>
+</body>
+</html>
+`;
+
+fs.writeFileSync(path.join(distDir, "index.html"), previewHtmlContent, "utf8");
+console.log("✓ Generated dist/index.html (Standalone Interactive Preview)");
+console.log("\n🚀 Build completed successfully!");
