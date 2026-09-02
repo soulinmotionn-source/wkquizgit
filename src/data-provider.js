@@ -63,11 +63,19 @@ class WKQuizDataProvider {
    */
   async fetchCategory(categorySlug) {
     if (!categorySlug) return [];
-    const slug = categorySlug.toLowerCase().trim();
+    let slug = categorySlug.toLowerCase().trim();
 
     if (slug === "all" || slug === "mixed-quiz") {
       return this.questions;
     }
+
+    const aliasMap = {
+      "anatomy": "anatomy-physiology",
+      "diseases": "diseases-disorders",
+      "electrical-symbols": "electrical-symbols-items",
+      "english-grammar": "english"
+    };
+    if (aliasMap[slug]) slug = aliasMap[slug];
 
     // Return immediately if already loaded in memory
     if (this.loadedCategories.has(slug)) {
@@ -134,7 +142,7 @@ class WKQuizDataProvider {
       }
     }
 
-    console.warn(`[WKQuiz] Could not fetch question bank for category: ${slug}`);
+    console.warn(`[WKQuiz] Note: Using baseline questions for category "${slug}"`);
     return this.categoriesMap.get(slug) || [];
   }
 
@@ -163,11 +171,12 @@ class WKQuizDataProvider {
       const qStatus = (q.status || "active").toLowerCase().trim();
       if (qStatus !== requiredStatus) return false;
 
-      // Category filter
+      // Category filter with clean slug normalization
       if (category !== "all" && category !== "mixed-quiz") {
-        const qCat = (q.category || "").toLowerCase().trim();
-        const inTags = q.tags && q.tags.map(t => t.toLowerCase()).includes(category);
-        if (qCat !== category && !inTags) return false;
+        const qCatNorm = (q.category || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+        const targetCatNorm = category.replace(/[^a-z0-9]/g, "");
+        const inTags = q.tags && q.tags.some(t => t.toLowerCase().replace(/[^a-z0-9]/g, "") === targetCatNorm);
+        if (!qCatNorm.includes(targetCatNorm) && !targetCatNorm.includes(qCatNorm) && !inTags) return false;
       }
 
       return true;

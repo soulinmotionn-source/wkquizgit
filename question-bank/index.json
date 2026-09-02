@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-09-02T18:30:21.685Z",
+  "generatedAt": "2026-09-02T18:43:29.144Z",
   "totalQuestions": 2285,
   "categories": {
-    "anatomy": {
+    "anatomy-physiology": {
       "total": 117,
       "easy": 40,
       "medium": 39,
@@ -27,7 +27,7 @@
       "medium": 4,
       "hard": 4
     },
-    "diseases": {
+    "diseases-disorders": {
       "total": 115,
       "easy": 39,
       "medium": 38,
@@ -39,7 +39,7 @@
       "medium": 35,
       "hard": 36
     },
-    "electrical-symbols": {
+    "electrical-symbols-items": {
       "total": 115,
       "easy": 39,
       "medium": 38,
