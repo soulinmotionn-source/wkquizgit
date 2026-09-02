@@ -3,62 +3,322 @@
     "id": "DIS-000001",
     "category": "Diseases & Disorders",
     "subcategory": "Endocrinology",
-    "difficulty": "medium",
-    "question": "Type 1 Diabetes Mellitus is characterized primarily by which underlying mechanism?",
+    "difficulty": "easy",
+    "question": "Which organ fails to produce sufficient insulin in Type 1 Diabetes?",
     "options": [
-      "Autoimmune destruction of pancreatic beta cells producing absolute insulin deficiency",
-      "Insulin resistance in peripheral tissues with relative insulin deficiency",
-      "Impaired hepatic glucose storage due to enzyme mutations",
-      "Excessive secretion of glucagon by alpha cells"
+      "Pancreas",
+      "Liver",
+      "Adrenal gland",
+      "Thyroid"
     ],
     "answer": 0,
-    "explanation": "Type 1 Diabetes is an autoimmune disorder where T-cells destroy insulin-producing beta cells in the islets of Langerhans.",
+    "explanation": "Pancreatic beta cells are destroyed in Type 1 diabetes.",
     "tags": [
-      "diseases",
-      "diabetes",
-      "endocrinology"
+      "diseases & disorders"
     ],
     "status": "active"
   },
   {
     "id": "DIS-000002",
     "category": "Diseases & Disorders",
-    "subcategory": "Infectious Disease",
+    "subcategory": "Infectious",
     "difficulty": "easy",
-    "question": "Which causative organism is responsible for Tuberculosis (TB)?",
+    "question": "Which bacterial pathogen causes Tuberculosis?",
     "options": [
       "Mycobacterium tuberculosis",
       "Streptococcus pneumoniae",
       "Staphylococcus aureus",
-      "Haemophilus influenzae"
+      "E. coli"
     ],
     "answer": 0,
-    "explanation": "Tuberculosis is an infectious bacterial disease caused by Mycobacterium tuberculosis.",
+    "explanation": "Tuberculosis is caused by Mycobacterium tuberculosis.",
     "tags": [
-      "diseases",
-      "tuberculosis",
-      "microbiology"
+      "diseases & disorders"
     ],
     "status": "active"
   },
   {
     "id": "DIS-000003",
     "category": "Diseases & Disorders",
+    "subcategory": "Pulmonology",
+    "difficulty": "easy",
+    "question": "What is Asthma fundamentally characterized by?",
+    "options": [
+      "Chronic airway inflammation with reversible bronchospasm",
+      "Permanent destruction of alveolar walls",
+      "Infection of the pleural cavity",
+      "Loss of diaphragm innervation"
+    ],
+    "answer": 0,
+    "explanation": "Asthma is chronic reversible inflammatory bronchospasm.",
+    "tags": [
+      "diseases & disorders"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000004",
+    "category": "Diseases & Disorders",
+    "subcategory": "Gastrointestinal",
+    "difficulty": "easy",
+    "question": "What is Gastroesophageal Reflux Disease (GERD) caused by?",
+    "options": [
+      "Incompetence or relaxation of the lower esophageal sphincter",
+      "Excess bile production in the gallbladder",
+      "Bacterial overgrowth in the ileum",
+      "Pancreatic duct obstruction"
+    ],
+    "answer": 0,
+    "explanation": "GERD occurs when gastric acid flows backward across an incompetent LES.",
+    "tags": [
+      "diseases & disorders"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000005",
+    "category": "Diseases & Disorders",
     "subcategory": "Cardiovascular",
+    "difficulty": "medium",
+    "question": "What is the most common cause of coronary artery disease?",
+    "options": [
+      "Atherosclerosis (plaque buildup)",
+      "Heart valve infection",
+      "Septal defect",
+      "Coronary spasm"
+    ],
+    "answer": 0,
+    "explanation": "Atherosclerosis causes arterial stenosis.",
+    "tags": [
+      "diseases & disorders"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000006",
+    "category": "Diseases & Disorders",
+    "subcategory": "Neurology",
+    "difficulty": "medium",
+    "question": "Which neurotransmitter is deficient in Parkinson's Disease?",
+    "options": [
+      "Dopamine",
+      "Acetylcholine",
+      "Serotonin",
+      "GABA"
+    ],
+    "answer": 0,
+    "explanation": "Dopamine depletion causes Parkinson's motor symptoms.",
+    "tags": [
+      "diseases & disorders"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000007",
+    "category": "Diseases & Disorders",
+    "subcategory": "Rheumatology",
+    "difficulty": "medium",
+    "question": "What is Rheumatoid Arthritis fundamentally classified as?",
+    "options": [
+      "A systemic autoimmune disease targeting synovial joints",
+      "A wear-and-tear degenerative cartilage disorder",
+      "A crystal arthropathy caused by uric acid",
+      "A bacterial joint infection"
+    ],
+    "answer": 0,
+    "explanation": "Rheumatoid arthritis is an autoimmune inflammatory synovitis.",
+    "tags": [
+      "diseases & disorders"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000008",
+    "category": "Diseases & Disorders",
+    "subcategory": "Hepatology",
+    "difficulty": "medium",
+    "question": "Which viral hepatitis infection is primarily transmitted via the fecal-oral route?",
+    "options": [
+      "Hepatitis A",
+      "Hepatitis B",
+      "Hepatitis C",
+      "Hepatitis D"
+    ],
+    "answer": 0,
+    "explanation": "Hepatitis A and E are transmitted via the fecal-oral route.",
+    "tags": [
+      "diseases & disorders"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000009",
+    "category": "Diseases & Disorders",
+    "subcategory": "Genetics",
     "difficulty": "hard",
-    "question": "Which genetic cardiac disorder is the most common cause of sudden cardiac death in young competitive athletes?",
+    "question": "What is the leading genetic cause of sudden cardiac death in young athletes?",
     "options": [
       "Hypertrophic Cardiomyopathy (HCM)",
       "Dilated Cardiomyopathy",
       "Aortic Dissection",
-      "Mitral Valve Prolapse"
+      "Brugada Syndrome"
     ],
     "answer": 0,
-    "explanation": "Hypertrophic cardiomyopathy causes asymmetric ventricular septal thickening and is the leading cause of sudden cardiac arrest in young athletes.",
+    "explanation": "HCM causes ventricular septal thickening.",
     "tags": [
-      "diseases",
-      "cardiology",
-      "genetics"
+      "diseases & disorders"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000010",
+    "category": "Diseases & Disorders",
+    "subcategory": "Hematology",
+    "difficulty": "hard",
+    "question": "What genetic mutation is responsible for Sickle Cell Anemia?",
+    "options": [
+      "Substitution of valine for glutamic acid on the beta-globin chain",
+      "Deletion of the alpha-globin gene cluster",
+      "Trisomy of chromosome 21",
+      "Mutation in the clotting factor VIII gene"
+    ],
+    "answer": 0,
+    "explanation": "Point mutation substituting valine for glutamate at position 6 creates HbS.",
+    "tags": [
+      "diseases & disorders"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000011",
+    "category": "Diseases & Disorders",
+    "subcategory": "Neurology",
+    "difficulty": "hard",
+    "question": "Amyotrophic Lateral Sclerosis (ALS / Lou Gehrig's disease) leads to progressive muscle paralysis due to degeneration of what cells?",
+    "options": [
+      "Upper and lower motor neurons",
+      "Basal ganglia dopamine receptors",
+      "Cerebellar Purkinje cells",
+      "Peripheral sensory axons"
+    ],
+    "answer": 0,
+    "explanation": "ALS selectively destroys upper and lower motor neurons.",
+    "tags": [
+      "diseases & disorders"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000012",
+    "category": "Diseases & Disorders",
+    "subcategory": "Infectious",
+    "difficulty": "easy",
+    "question": "What organism causes Lyme disease, transmitted via black-legged tick bites?",
+    "options": [
+      "Borrelia burgdorferi",
+      "Treponema pallidum",
+      "Rickettsia rickettsii",
+      "Plasmodium falciparum"
+    ],
+    "answer": 0,
+    "explanation": "Borrelia burgdorferi is the spirochete responsible for Lyme disease.",
+    "tags": [
+      "diseases & disorders"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000013",
+    "category": "Diseases & Disorders",
+    "subcategory": "Cardiology",
+    "difficulty": "medium",
+    "question": "Which infectious condition involves inflammation of the inner lining and valves of the heart chambers?",
+    "options": [
+      "Infective Endocarditis",
+      "Pericarditis",
+      "Myocarditis",
+      "Atherosclerosis"
+    ],
+    "answer": 0,
+    "explanation": "Endocarditis is infection of the endocardium and heart valves.",
+    "tags": [
+      "diseases & disorders"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000014",
+    "category": "Diseases & Disorders",
+    "subcategory": "Immunology",
+    "difficulty": "hard",
+    "question": "What systemic autoimmune disease is characterized by anti-double-stranded DNA (anti-dsDNA) antibodies and butterfly rash?",
+    "options": [
+      "Systemic Lupus Erythematosus (SLE)",
+      "Sjogren's Syndrome",
+      "Systemic Sclerosis",
+      "Polymyositis"
+    ],
+    "answer": 0,
+    "explanation": "Anti-dsDNA antibodies and malar butterfly rash are hallmarks of SLE.",
+    "tags": [
+      "diseases & disorders"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000015",
+    "category": "Diseases & Disorders",
+    "subcategory": "Neurology",
+    "difficulty": "easy",
+    "question": "What neurological condition is characterized by recurrent unprovoked seizures?",
+    "options": [
+      "Epilepsy",
+      "Multiple Sclerosis",
+      "Migraine",
+      "Meningitis"
+    ],
+    "answer": 0,
+    "explanation": "Epilepsy is defined by recurrent unprovoked seizures.",
+    "tags": [
+      "diseases & disorders"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000016",
+    "category": "Diseases & Disorders",
+    "subcategory": "Pulmonology",
+    "difficulty": "medium",
+    "question": "What is the primary inherited defect in Cystic Fibrosis?",
+    "options": [
+      "Mutation in the CFTR gene causing thick, viscous mucosal secretions",
+      "Deficiency of alpha-1 antitrypsin",
+      "Hypoplasia of lung alveoli",
+      "Autoimmune destruction of bronchial cilia"
+    ],
+    "answer": 0,
+    "explanation": "CFTR mutations cause defective chloride transport and thick mucus.",
+    "tags": [
+      "diseases & disorders"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000017",
+    "category": "Diseases & Disorders",
+    "subcategory": "Endocrinology",
+    "difficulty": "hard",
+    "question": "What is the underlying endocrine pathophysiology in Addison's Disease?",
+    "options": [
+      "Adrenocortical insufficiency (hyposecretion of cortisol and aldosterone)",
+      "Hypersecretion of cortisol",
+      "Hyperthyroidism",
+      "Pituitary prolactinoma"
+    ],
+    "answer": 0,
+    "explanation": "Addison's disease is primary adrenal insufficiency.",
+    "tags": [
+      "diseases & disorders"
     ],
     "status": "active"
   }

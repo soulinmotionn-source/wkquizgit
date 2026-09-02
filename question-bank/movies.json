@@ -2,30 +2,47 @@
   {
     "id": "MOV-000001",
     "category": "Movies",
-    "subcategory": "Sci-Fi Classics",
+    "subcategory": "Sci-Fi",
     "difficulty": "easy",
-    "question": "In the Star Wars saga, which character is Luke Skywalker's father?",
+    "question": "Who is Luke Skywalker's father in Star Wars?",
     "options": [
       "Darth Vader (Anakin Skywalker)",
       "Obi-Wan Kenobi",
-      "Emperor Palpatine",
-      "Grand Moff Tarkin"
+      "Palpatine",
+      "Yoda"
     ],
     "answer": 0,
-    "explanation": "Darth Vader reveals he is Luke's father in The Empire Strikes Back (1980).",
+    "explanation": "Darth Vader is Luke's father.",
     "tags": [
-      "movies",
-      "star-wars",
-      "sci-fi"
+      "movies"
     ],
     "status": "active"
   },
   {
     "id": "MOV-000002",
     "category": "Movies",
+    "subcategory": "Animation",
+    "difficulty": "easy",
+    "question": "In 'The Lion King', what is the name of Simba's father?",
+    "options": [
+      "Mufasa",
+      "Scar",
+      "Rafiki",
+      "Zazu"
+    ],
+    "answer": 0,
+    "explanation": "Mufasa is Simba's father.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOV-000003",
+    "category": "Movies",
     "subcategory": "Box Office",
     "difficulty": "medium",
-    "question": "Which 2009 James Cameron sci-fi film is the highest-grossing film of all time worldwide?",
+    "question": "Which 2009 film is the highest-grossing movie of all time worldwide?",
     "options": [
       "Avatar",
       "Avengers: Endgame",
@@ -33,32 +50,161 @@
       "Star Wars: The Force Awakens"
     ],
     "answer": 0,
-    "explanation": "Avatar (2009) grossed over $2.9 billion globally to become the highest-grossing movie in box office history.",
+    "explanation": "Avatar grossed over $2.9 billion.",
     "tags": [
-      "movies",
-      "box-office",
-      "avatar"
+      "movies"
     ],
     "status": "active"
   },
   {
-    "id": "MOV-000003",
+    "id": "MOV-000004",
     "category": "Movies",
-    "subcategory": "Directors",
+    "subcategory": "Classics",
+    "difficulty": "medium",
+    "question": "In 'The Wizard of Oz' (1939), what color are Dorothy's magical slippers?",
+    "options": [
+      "Ruby Red",
+      "Emerald Green",
+      "Silver",
+      "Golden Yellow"
+    ],
+    "answer": 0,
+    "explanation": "Dorothy wore ruby red slippers in the 1939 film.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOV-000005",
+    "category": "Movies",
+    "subcategory": "Directing",
     "difficulty": "hard",
-    "question": "Which director won Best Director Oscars for both 'Brokeback Mountain' (2005) and 'Life of Pi' (2012)?",
+    "question": "Which director won Best Director Oscars for both 'Brokeback Mountain' and 'Life of Pi'?",
     "options": [
       "Ang Lee",
       "Bong Joon-ho",
-      "Alejandro G. Iñárritu",
-      "Guillermo del Toro"
+      "Guillermo del Toro",
+      "Alfonso Cuaron"
     ],
     "answer": 0,
-    "explanation": "Taiwanese-born director Ang Lee won two Academy Awards for Best Director for Brokeback Mountain and Life of Pi.",
+    "explanation": "Ang Lee won two Best Director Oscars.",
     "tags": [
-      "movies",
-      "directors",
-      "oscars"
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOV-000006",
+    "category": "Movies",
+    "subcategory": "Classics",
+    "difficulty": "easy",
+    "question": "Which 1972 Francis Ford Coppola masterpiece chronicles the Italian-American Corleone mafia family?",
+    "options": [
+      "The Godfather",
+      "Goodfellas",
+      "Scarface",
+      "Casino"
+    ],
+    "answer": 0,
+    "explanation": "The Godfather stars Marlon Brando and Al Pacino.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOV-000007",
+    "category": "Movies",
+    "subcategory": "Oscars",
+    "difficulty": "medium",
+    "question": "Which 1994 film won Best Picture over 'Pulp Fiction' and 'The Shawshank Redemption'?",
+    "options": [
+      "Forrest Gump",
+      "Braveheart",
+      "Apollo 13",
+      "Schindler's List"
+    ],
+    "answer": 0,
+    "explanation": "Forrest Gump won Best Picture at the 1995 Academy Awards.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOV-000008",
+    "category": "Movies",
+    "subcategory": "Cinematography",
+    "difficulty": "hard",
+    "question": "Who directed the landmark 1968 science fiction film '2001: A Space Odyssey'?",
+    "options": [
+      "Stanley Kubrick",
+      "Ridley Scott",
+      "Steven Spielberg",
+      "George Lucas"
+    ],
+    "answer": 0,
+    "explanation": "Stanley Kubrick directed 2001: A Space Odyssey.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOV-000009",
+    "category": "Movies",
+    "subcategory": "Sci-Fi",
+    "difficulty": "easy",
+    "question": "In 'The Matrix', what color pill does Neo take to wake up and see the truth?",
+    "options": [
+      "The Red Pill",
+      "The Blue Pill",
+      "The Green Pill",
+      "The Yellow Pill"
+    ],
+    "answer": 0,
+    "explanation": "Neo chooses the Red Pill to see reality.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOV-000010",
+    "category": "Movies",
+    "subcategory": "Animation",
+    "difficulty": "medium",
+    "question": "Which 1995 Pixar release was the first fully computer-animated feature film in history?",
+    "options": [
+      "Toy Story",
+      "A Bug's Life",
+      "Monsters, Inc.",
+      "Finding Nemo"
+    ],
+    "answer": 0,
+    "explanation": "Toy Story made cinema history in 1995.",
+    "tags": [
+      "movies"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOV-000011",
+    "category": "Movies",
+    "subcategory": "Classics",
+    "difficulty": "hard",
+    "question": "Which actress starred as Holly Golightly in the 1961 classic 'Breakfast at Tiffany's'?",
+    "options": [
+      "Audrey Hepburn",
+      "Marilyn Monroe",
+      "Grace Kelly",
+      "Elizabeth Taylor"
+    ],
+    "answer": 0,
+    "explanation": "Audrey Hepburn played Holly Golightly.",
+    "tags": [
+      "movies"
     ],
     "status": "active"
   }

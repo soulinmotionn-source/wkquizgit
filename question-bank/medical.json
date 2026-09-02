@@ -2,53 +2,28 @@
   {
     "id": "MED-000001",
     "category": "Medical",
-    "subcategory": "Emergency Medicine",
-    "difficulty": "medium",
-    "question": "What is the recommended compression-to-ventilation ratio for adult single-rescuer CPR?",
+    "subcategory": "Emergency",
+    "difficulty": "easy",
+    "question": "What is the recommended compression-to-ventilation ratio for adult CPR?",
     "options": [
       "30 compressions to 2 breaths",
-      "15 compressions to 2 breaths",
-      "20 compressions to 1 breath",
-      "50 compressions to 5 breaths"
+      "15:2",
+      "20:1",
+      "50:5"
     ],
     "answer": 0,
-    "explanation": "AHA resuscitation guidelines recommend a 30:2 compression-to-ventilation ratio for adult cardiac arrest in single-rescuer CPR.",
+    "explanation": "30:2 is standard for adult single-rescuer CPR.",
     "tags": [
-      "medical",
-      "cpr",
-      "emergency",
-      "cardiology"
+      "medical"
     ],
     "status": "active"
   },
   {
     "id": "MED-000002",
     "category": "Medical",
-    "subcategory": "Diagnostics",
-    "difficulty": "hard",
-    "question": "Which serum cardiac biomarker provides the highest diagnostic specificity and sensitivity for acute myocardial infarction (heart attack)?",
-    "options": [
-      "Cardiac Troponin I or T",
-      "Creatine Kinase-MB (CK-MB)",
-      "Myoglobin",
-      "Lactate Dehydrogenase (LDH)"
-    ],
-    "answer": 0,
-    "explanation": "Cardiac Troponins (I and T) are specific to myocardial tissue necrosis and remain the gold standard biomarker.",
-    "tags": [
-      "medical",
-      "cardiology",
-      "lab-values",
-      "diagnostics"
-    ],
-    "status": "active"
-  },
-  {
-    "id": "MED-000003",
-    "category": "Medical",
     "subcategory": "Vitals",
     "difficulty": "easy",
-    "question": "What is considered a normal adult resting blood pressure according to AHA/ACC guidelines?",
+    "question": "What is defined as normal adult resting blood pressure?",
     "options": [
       "Less than 120/80 mmHg",
       "140/90 mmHg",
@@ -56,11 +31,294 @@
       "130/85 mmHg"
     ],
     "answer": 0,
-    "explanation": "Normal blood pressure is defined as systolic < 120 mmHg and diastolic < 80 mmHg.",
+    "explanation": "Normal BP is systolic < 120 and diastolic < 80.",
     "tags": [
-      "medical",
-      "vitals",
-      "hypertension"
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000003",
+    "category": "Medical",
+    "subcategory": "Infection",
+    "difficulty": "easy",
+    "question": "Which white blood cell is the primary first responder to acute bacterial infection?",
+    "options": [
+      "Neutrophils",
+      "Eosinophils",
+      "Basophils",
+      "Monocytes"
+    ],
+    "answer": 0,
+    "explanation": "Neutrophils rapidly phagocytose bacteria during acute infection.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000004",
+    "category": "Medical",
+    "subcategory": "Diagnostics",
+    "difficulty": "easy",
+    "question": "What does an electrocardiogram (ECG / EKG) record?",
+    "options": [
+      "The electrical activity of the heart",
+      "Mechanical blood flow velocity",
+      "Pulmonary air volume",
+      "Brain wave voltages"
+    ],
+    "answer": 0,
+    "explanation": "ECGs record cardiac electrical conduction cycles.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000005",
+    "category": "Medical",
+    "subcategory": "Diagnostics",
+    "difficulty": "medium",
+    "question": "Which cardiac biomarker is the gold standard for diagnosing acute myocardial infarction?",
+    "options": [
+      "Cardiac Troponin I or T",
+      "CK-MB",
+      "Myoglobin",
+      "LDH"
+    ],
+    "answer": 0,
+    "explanation": "Cardiac troponin is the gold standard.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000006",
+    "category": "Medical",
+    "subcategory": "Pathology",
+    "difficulty": "medium",
+    "question": "What is the primary cause of respiratory acidosis?",
+    "options": [
+      "Alveolar hypoventilation leading to CO2 retention",
+      "Hyperventilation",
+      "Lactic acid excess",
+      "Ketoacidosis"
+    ],
+    "answer": 0,
+    "explanation": "Hypoventilation causes CO2 retention.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000007",
+    "category": "Medical",
+    "subcategory": "Endocrinology",
+    "difficulty": "medium",
+    "question": "Which hormone is secreted by the thyroid gland to lower blood calcium levels?",
+    "options": [
+      "Calcitonin",
+      "Parathyroid hormone",
+      "Thyroxine",
+      "Aldosterone"
+    ],
+    "answer": 0,
+    "explanation": "Calcitonin promotes calcium deposition in bone.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000008",
+    "category": "Medical",
+    "subcategory": "Gastroenterology",
+    "difficulty": "medium",
+    "question": "Which diagnostic test provides direct visualization of the entire large intestine mucosa?",
+    "options": [
+      "Colonoscopy",
+      "Barium enema",
+      "Abdominal ultrasound",
+      "Fecal occult blood test"
+    ],
+    "answer": 0,
+    "explanation": "Colonoscopy provides direct endoscopic visualization.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000009",
+    "category": "Medical",
+    "subcategory": "Emergency",
+    "difficulty": "hard",
+    "question": "Which life-threatening condition presents with Beck's Triad (hypotension, JVD, muffled heart sounds)?",
+    "options": [
+      "Cardiac Tamponade",
+      "Tension Pneumothorax",
+      "Myocardial Infarction",
+      "Pulmonary Embolism"
+    ],
+    "answer": 0,
+    "explanation": "Beck's Triad indicates cardiac tamponade.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000010",
+    "category": "Medical",
+    "subcategory": "Cardiology",
+    "difficulty": "hard",
+    "question": "In acute aortic dissection, which classic symptom is characteristically described by patients?",
+    "options": [
+      "Sudden tearing or ripping chest pain radiating to the interscapular back",
+      "Gradual dull ache worsening on inspiration",
+      "Burning retrosternal epigastric pain",
+      "Painless dyspnea"
+    ],
+    "answer": 0,
+    "explanation": "Aortic dissection produces sudden tearing pain radiating to the back.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000011",
+    "category": "Medical",
+    "subcategory": "Pulmonology",
+    "difficulty": "hard",
+    "question": "Which calculation represents the Alveolar-arterial (A-a) oxygen gradient?",
+    "options": [
+      "P_A_O2 minus P_a_O2",
+      "P_a_O2 divided by FiO2",
+      "PaCO2 times 0.8",
+      "SpO2 minus 90"
+    ],
+    "answer": 0,
+    "explanation": "A-a gradient measures the difference between alveolar and arterial oxygen tension.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000012",
+    "category": "Medical",
+    "subcategory": "Cardiology",
+    "difficulty": "easy",
+    "question": "What is the normal pacemaker of the human heart?",
+    "options": [
+      "Sinoatrial (SA) node",
+      "Atrioventricular (AV) node",
+      "Bundle of His",
+      "Purkinje fibers"
+    ],
+    "answer": 0,
+    "explanation": "The SA node initiates electrical impulses in normal sinus rhythm.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000013",
+    "category": "Medical",
+    "subcategory": "Gastroenterology",
+    "difficulty": "medium",
+    "question": "What is the most common cause of acute upper gastrointestinal bleeding?",
+    "options": [
+      "Peptic Ulcer Disease",
+      "Esophageal Varices",
+      "Mallory-Weiss tear",
+      "Gastric Cancer"
+    ],
+    "answer": 0,
+    "explanation": "Peptic ulcers cause over 50% of upper GI bleeds.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000014",
+    "category": "Medical",
+    "subcategory": "Neurology",
+    "difficulty": "hard",
+    "question": "In an acute ischemic stroke within the therapeutic window (<4.5 hours), what thrombolytic agent is indicated if no contraindications exist?",
+    "options": [
+      "Intravenous Alteplase (tPA) or Tenecteplase",
+      "Heparin bolus",
+      "Warfarin",
+      "Clopidogrel"
+    ],
+    "answer": 0,
+    "explanation": "IV Alteplase/Tenecteplase restores cerebral perfusion in eligible acute ischemic stroke.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000015",
+    "category": "Medical",
+    "subcategory": "Immunology",
+    "difficulty": "easy",
+    "question": "Which immunoglobulin (antibody) is the primary antibody found in bodily secretions like breast milk and saliva?",
+    "options": [
+      "Secretory IgA",
+      "IgG",
+      "IgE",
+      "IgM"
+    ],
+    "answer": 0,
+    "explanation": "IgA provides mucosal immunity.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000016",
+    "category": "Medical",
+    "subcategory": "Hematology",
+    "difficulty": "medium",
+    "question": "What is the primary function of platelets (thrombocytes) in human blood?",
+    "options": [
+      "Initiate blood clot formation (hemostasis)",
+      "Carry oxygen to tissues",
+      "Produce antibodies",
+      "Fight fungal infections"
+    ],
+    "answer": 0,
+    "explanation": "Platelets aggregate to form platelet plugs during hemostasis.",
+    "tags": [
+      "medical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000017",
+    "category": "Medical",
+    "subcategory": "Gastroenterology",
+    "difficulty": "hard",
+    "question": "What is the classic diagnostic triad of acute cholangitis (Charcot's Triad)?",
+    "options": [
+      "Fever/Chills, Right Upper Quadrant Pain, and Jaundice",
+      "Hypotension, Tachycardia, Confusion",
+      "Hemoptysis, Dyspnea, Chest pain",
+      "Ascites, Splenomegaly, Hematemesis"
+    ],
+    "answer": 0,
+    "explanation": "Charcot's Triad for ascending cholangitis: Fever, RUQ pain, Jaundice.",
+    "tags": [
+      "medical"
     ],
     "status": "active"
   }

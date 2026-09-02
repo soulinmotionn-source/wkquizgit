@@ -4,7 +4,7 @@
     "category": "Anatomy & Physiology",
     "subcategory": "Cardiovascular",
     "difficulty": "easy",
-    "question": "Which chamber of the human heart pumps oxygen-rich blood into the aorta to supply the entire body?",
+    "question": "Which heart chamber pumps oxygenated blood into the aorta?",
     "options": [
       "Left Ventricle",
       "Right Ventricle",
@@ -12,74 +12,313 @@
       "Right Atrium"
     ],
     "answer": 0,
-    "explanation": "The Left Ventricle has the thickest myocardium and pumps oxygenated blood under high pressure through the aortic valve into systemic circulation.",
+    "explanation": "Left ventricle pumps into systemic circulation.",
     "tags": [
-      "anatomy",
-      "heart",
-      "cardiovascular"
+      "anatomy & physiology"
     ],
     "status": "active"
   },
   {
     "id": "ANAT-000002",
     "category": "Anatomy & Physiology",
-    "subcategory": "Neuroanatomy",
-    "difficulty": "medium",
-    "question": "Which part of the brain is primarily responsible for motor coordination, balance, and fine motor skills?",
+    "subcategory": "Skeletal",
+    "difficulty": "easy",
+    "question": "What is the longest and strongest bone in the human body?",
     "options": [
-      "Cerebellum",
-      "Cerebrum",
-      "Hypothalamus",
-      "Medulla oblongata"
+      "Femur",
+      "Tibia",
+      "Humerus",
+      "Radius"
     ],
     "answer": 0,
-    "explanation": "The cerebellum coordinates voluntary muscle movements, equilibrium, and motor posture.",
+    "explanation": "The femur is the longest human bone.",
     "tags": [
-      "anatomy",
-      "neuroscience",
-      "brain"
+      "anatomy & physiology"
     ],
     "status": "active"
   },
   {
     "id": "ANAT-000003",
     "category": "Anatomy & Physiology",
-    "subcategory": "Skeletal System",
+    "subcategory": "Circulatory",
     "difficulty": "easy",
-    "question": "What is the longest and strongest bone in the human skeleton?",
+    "question": "Which blood vessels carry oxygen-depleted blood from the body back to the heart?",
     "options": [
-      "Femur (thigh bone)",
-      "Tibia (shin bone)",
-      "Humerus (upper arm bone)",
-      "Fibula"
+      "Veins",
+      "Arteries",
+      "Arterioles",
+      "Capillaries"
     ],
     "answer": 0,
-    "explanation": "The femur is the longest, heaviest, and strongest bone in the human body.",
+    "explanation": "Systemic veins return deoxygenated blood to the right atrium.",
     "tags": [
-      "anatomy",
-      "skeletal",
-      "bones"
+      "anatomy & physiology"
     ],
     "status": "active"
   },
   {
     "id": "ANAT-000004",
     "category": "Anatomy & Physiology",
-    "subcategory": "Endocrine System",
+    "subcategory": "Sensory",
+    "difficulty": "easy",
+    "question": "Which part of the human eye contains photoreceptor cells (rods and cones)?",
+    "options": [
+      "Retina",
+      "Cornea",
+      "Lens",
+      "Iris"
+    ],
+    "answer": 0,
+    "explanation": "The retina converts light into neural signals via rods and cones.",
+    "tags": [
+      "anatomy & physiology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANAT-000005",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Neuroanatomy",
+    "difficulty": "medium",
+    "question": "Which brain structure coordinates voluntary muscle balance and equilibrium?",
+    "options": [
+      "Cerebellum",
+      "Cerebrum",
+      "Hypothalamus",
+      "Medulla"
+    ],
+    "answer": 0,
+    "explanation": "Cerebellum coordinates balance.",
+    "tags": [
+      "anatomy & physiology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANAT-000006",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Respiratory",
+    "difficulty": "medium",
+    "question": "What dome-shaped muscle is the primary muscle of inspiration?",
+    "options": [
+      "Diaphragm",
+      "Internal intercostals",
+      "Sternocleidomastoid",
+      "Abdominals"
+    ],
+    "answer": 0,
+    "explanation": "The diaphragm is the primary inspiratory muscle.",
+    "tags": [
+      "anatomy & physiology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANAT-000007",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Renal",
+    "difficulty": "medium",
+    "question": "What is the basic functional microscopic unit of the human kidney?",
+    "options": [
+      "Nephron",
+      "Alveolus",
+      "Hepatocyte",
+      "Neuron"
+    ],
+    "answer": 0,
+    "explanation": "The nephron filters blood and forms urine.",
+    "tags": [
+      "anatomy & physiology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANAT-000008",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Digestive",
+    "difficulty": "medium",
+    "question": "Where in the human digestive tract does the vast majority of nutrient absorption take place?",
+    "options": [
+      "Small Intestine (Duodenum/Jejunum/Ileum)",
+      "Stomach",
+      "Large Intestine",
+      "Esophagus"
+    ],
+    "answer": 0,
+    "explanation": "The small intestine's villi absorb nutrients into circulation.",
+    "tags": [
+      "anatomy & physiology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANAT-000009",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Endocrine",
     "difficulty": "hard",
-    "question": "The islets of Langerhans are microscopic clusters of endocrine cells located in which organ?",
+    "question": "The islets of Langerhans are endocrine clusters situated within which organ?",
     "options": [
       "Pancreas",
       "Liver",
-      "Adrenal gland",
-      "Thyroid gland"
+      "Spleen",
+      "Thyroid"
     ],
     "answer": 0,
-    "explanation": "The islets of Langerhans in the pancreas contain alpha, beta, and delta cells producing glucagon, insulin, and somatostatin.",
+    "explanation": "Islets of Langerhans reside in the pancreas.",
     "tags": [
-      "anatomy",
-      "endocrine",
-      "pancreas"
+      "anatomy & physiology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANAT-000010",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Cardiac Conduction",
+    "difficulty": "hard",
+    "question": "What is the intrinsic pacemaker of the human heart that initiates normal sinus rhythm?",
+    "options": [
+      "Sinoatrial (SA) Node",
+      "Atrioventricular (AV) Node",
+      "Bundle of His",
+      "Purkinje Fibers"
+    ],
+    "answer": 0,
+    "explanation": "The SA node spontaneously depolarizes at 60-100 bpm.",
+    "tags": [
+      "anatomy & physiology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANAT-000011",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Neurophysiology",
+    "difficulty": "hard",
+    "question": "During the depolarization phase of an action potential in a neuron, which ion rushes rapidly into the cell?",
+    "options": [
+      "Sodium (Na+) ions",
+      "Potassium (K+) ions",
+      "Chloride (Cl-) ions",
+      "Calcium (Ca2+) ions"
+    ],
+    "answer": 0,
+    "explanation": "Voltage-gated sodium channels open, causing rapid Na+ influx.",
+    "tags": [
+      "anatomy & physiology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANAT-000012",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Skeletal",
+    "difficulty": "easy",
+    "question": "How many total bones make up the adult human skeleton?",
+    "options": [
+      "206 bones",
+      "300 bones",
+      "180 bones",
+      "250 bones"
+    ],
+    "answer": 0,
+    "explanation": "An adult human skeleton consists of 206 bones.",
+    "tags": [
+      "anatomy & physiology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANAT-000013",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Endocrine",
+    "difficulty": "medium",
+    "question": "Which endocrine gland is located at the base of the brain and often termed the 'Master Gland'?",
+    "options": [
+      "Pituitary gland",
+      "Thyroid gland",
+      "Adrenal gland",
+      "Pineal gland"
+    ],
+    "answer": 0,
+    "explanation": "The pituitary gland regulates multiple hormone axes under hypothalamic control.",
+    "tags": [
+      "anatomy & physiology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANAT-000014",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Renal",
+    "difficulty": "hard",
+    "question": "Which segment of the nephron is the primary site of action for Loop Diuretics such as Furosemide?",
+    "options": [
+      "Thick ascending limb of the Loop of Henle",
+      "Proximal convoluted tubule",
+      "Distal convoluted tubule",
+      "Cortical collecting duct"
+    ],
+    "answer": 0,
+    "explanation": "Loop diuretics inhibit the Na+/K+/2Cl- cotransporter in the thick ascending limb of Henle.",
+    "tags": [
+      "anatomy & physiology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANAT-000015",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Digestive",
+    "difficulty": "easy",
+    "question": "Which muscular tube connects the pharynx to the stomach?",
+    "options": [
+      "Esophagus",
+      "Trachea",
+      "Duodenum",
+      "Larynx"
+    ],
+    "answer": 0,
+    "explanation": "The esophagus transports food boluses via peristalsis to the stomach.",
+    "tags": [
+      "anatomy & physiology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANAT-000016",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Nervous",
+    "difficulty": "medium",
+    "question": "Which cranial nerve (CN X) provides extensive parasympathetic innervation to the heart, lungs, and GI tract?",
+    "options": [
+      "Vagus Nerve (CN X)",
+      "Facial Nerve (CN VII)",
+      "Trigeminal Nerve (CN V)",
+      "Glossopharyngeal Nerve (CN IX)"
+    ],
+    "answer": 0,
+    "explanation": "The Vagus nerve is the main parasympathetic nerve.",
+    "tags": [
+      "anatomy & physiology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANAT-000017",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Renal",
+    "difficulty": "hard",
+    "question": "What specialized cellular apparatus in the nephron senses sodium concentration and secretes Renin?",
+    "options": [
+      "Juxtaglomerular Apparatus (JGA)",
+      "Bowman's Capsule",
+      "Podocytes",
+      "Loop of Henle"
+    ],
+    "answer": 0,
+    "explanation": "The JGA secretes renin in response to decreased renal perfusion or sodium delivery.",
+    "tags": [
+      "anatomy & physiology"
     ],
     "status": "active"
   }

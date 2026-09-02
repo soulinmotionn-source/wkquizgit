@@ -4,60 +4,264 @@
     "category": "Mathematics",
     "subcategory": "Geometry",
     "difficulty": "easy",
-    "question": "What is the Pythagorean theorem for a right triangle with hypotenuse c and sides a and b?",
+    "question": "What is the formula for the area of a rectangle?",
     "options": [
-      "a² + b² = c²",
-      "a + b = c",
-      "a² × b² = c²",
-      "2a + 2b = c²"
+      "Area = Length × Width",
+      "Area = 2L + 2W",
+      "Area = L² × W²",
+      "Area = (L+W)/2"
     ],
     "answer": 0,
-    "explanation": "The Pythagorean theorem states: in a right-angled triangle, a² + b² = c².",
+    "explanation": "Area = Length × Width.",
     "tags": [
-      "mathematics",
-      "geometry"
+      "mathematics"
     ],
     "status": "active"
   },
   {
     "id": "MATH-000002",
     "category": "Mathematics",
-    "subcategory": "Statistics",
-    "difficulty": "medium",
-    "question": "What is the arithmetic mean (average) of the numbers: 12, 18, 24, 30, and 36?",
+    "subcategory": "Arithmetic",
+    "difficulty": "easy",
+    "question": "What is the square root of 144?",
     "options": [
-      "24",
-      "22",
-      "26",
-      "28"
+      "12",
+      "14",
+      "11",
+      "16"
     ],
     "answer": 0,
-    "explanation": "Sum = 12 + 18 + 24 + 30 + 36 = 120. Divide by 5 = 24.",
+    "explanation": "12 × 12 = 144.",
     "tags": [
-      "mathematics",
-      "statistics",
-      "mean"
+      "mathematics"
     ],
     "status": "active"
   },
   {
     "id": "MATH-000003",
     "category": "Mathematics",
-    "subcategory": "Calculus",
-    "difficulty": "hard",
-    "question": "What is the first derivative with respect to x of the function f(x) = x³ - 4x² + 7x - 5?",
+    "subcategory": "Fractions",
+    "difficulty": "easy",
+    "question": "What is 3/4 expressed as a percentage?",
     "options": [
-      "f'(x) = 3x² - 8x + 7",
-      "f'(x) = 3x² - 4x + 7",
-      "f'(x) = x² - 8x + 7",
-      "f'(x) = 3x³ - 8x² + 7"
+      "75%",
+      "50%",
+      "80%",
+      "65%"
     ],
     "answer": 0,
-    "explanation": "Using the power rule d/dx[x^n] = n*x^(n-1): d/dx[x³] = 3x², d/dx[-4x²] = -8x, d/dx[7x] = 7, d/dx[-5] = 0.",
+    "explanation": "3 divided by 4 = 0.75 = 75%.",
     "tags": [
-      "mathematics",
-      "calculus",
-      "derivatives"
+      "mathematics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MATH-000004",
+    "category": "Mathematics",
+    "subcategory": "Algebra",
+    "difficulty": "medium",
+    "question": "Solve for x: 3x + 15 = 36",
+    "options": [
+      "x = 7",
+      "x = 9",
+      "x = 6",
+      "x = 12"
+    ],
+    "answer": 0,
+    "explanation": "3x = 21; x = 7.",
+    "tags": [
+      "mathematics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MATH-000005",
+    "category": "Mathematics",
+    "subcategory": "Statistics",
+    "difficulty": "medium",
+    "question": "What is the arithmetic mean (average) of 10, 20, 30, 40, and 50?",
+    "options": [
+      "30",
+      "25",
+      "35",
+      "40"
+    ],
+    "answer": 0,
+    "explanation": "Sum = 150 / 5 = 30.",
+    "tags": [
+      "mathematics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MATH-000006",
+    "category": "Mathematics",
+    "subcategory": "Pythagoras",
+    "difficulty": "medium",
+    "question": "In a right triangle with legs of length 6 and 8, what is the length of the hypotenuse?",
+    "options": [
+      "10",
+      "14",
+      "12",
+      "9"
+    ],
+    "answer": 0,
+    "explanation": "6² + 8² = 36 + 64 = 100; √100 = 10.",
+    "tags": [
+      "mathematics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MATH-000007",
+    "category": "Mathematics",
+    "subcategory": "Calculus",
+    "difficulty": "hard",
+    "question": "What is the derivative with respect to x of f(x) = 4x³ - 5x + 9?",
+    "options": [
+      "f'(x) = 12x² - 5",
+      "f'(x) = 12x² - 5x",
+      "f'(x) = 4x² - 5",
+      "f'(x) = 12x³ - 5"
+    ],
+    "answer": 0,
+    "explanation": "d/dx[4x³ - 5x + 9] = 12x² - 5.",
+    "tags": [
+      "mathematics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MATH-000008",
+    "category": "Mathematics",
+    "subcategory": "Probability",
+    "difficulty": "hard",
+    "question": "What is the probability of rolling a total sum of 7 when rolling two standard 6-sided dice?",
+    "options": [
+      "1/6 (6 out of 36 outcomes)",
+      "1/12",
+      "1/4",
+      "1/8"
+    ],
+    "answer": 0,
+    "explanation": "Combinations yielding 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6/36 = 1/6.",
+    "tags": [
+      "mathematics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MATH-000009",
+    "category": "Mathematics",
+    "subcategory": "Trigonometry",
+    "difficulty": "easy",
+    "question": "In a right triangle, what is the trigonometric ratio of Sine of an acute angle?",
+    "options": [
+      "Opposite / Hypotenuse",
+      "Adjacent / Hypotenuse",
+      "Opposite / Adjacent",
+      "Hypotenuse / Opposite"
+    ],
+    "answer": 0,
+    "explanation": "Sin = Opposite / Hypotenuse (SOH).",
+    "tags": [
+      "mathematics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MATH-000010",
+    "category": "Mathematics",
+    "subcategory": "Exponents",
+    "difficulty": "medium",
+    "question": "What is the value of 2^8?",
+    "options": [
+      "256",
+      "128",
+      "512",
+      "64"
+    ],
+    "answer": 0,
+    "explanation": "2^8 = 256.",
+    "tags": [
+      "mathematics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MATH-000011",
+    "category": "Mathematics",
+    "subcategory": "Matrices",
+    "difficulty": "hard",
+    "question": "What is the determinant of a 2x2 matrix [[a, b], [c, d]]?",
+    "options": [
+      "ad - bc",
+      "ab - cd",
+      "ac + bd",
+      "ad + bc"
+    ],
+    "answer": 0,
+    "explanation": "det(A) = ad - bc.",
+    "tags": [
+      "mathematics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MATH-000012",
+    "category": "Mathematics",
+    "subcategory": "Angles",
+    "difficulty": "easy",
+    "question": "What is the sum of interior angles in any geometric triangle?",
+    "options": [
+      "180 degrees",
+      "360 degrees",
+      "90 degrees",
+      "270 degrees"
+    ],
+    "answer": 0,
+    "explanation": "Interior angles of any triangle sum to 180°.",
+    "tags": [
+      "mathematics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MATH-000013",
+    "category": "Mathematics",
+    "subcategory": "Logarithms",
+    "difficulty": "medium",
+    "question": "What is the value of log10(1,000)?",
+    "options": [
+      "3",
+      "10",
+      "100",
+      "4"
+    ],
+    "answer": 0,
+    "explanation": "10^3 = 1,000, so log10(1000) = 3.",
+    "tags": [
+      "mathematics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MATH-000014",
+    "category": "Mathematics",
+    "subcategory": "Integrals",
+    "difficulty": "hard",
+    "question": "What is the indefinite integral ∫ 2x dx?",
+    "options": [
+      "x² + C",
+      "2x² + C",
+      "x + C",
+      "2 + C"
+    ],
+    "answer": 0,
+    "explanation": "∫ 2x dx = x² + C.",
+    "tags": [
+      "mathematics"
     ],
     "status": "active"
   }

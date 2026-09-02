@@ -1,10 +1,10 @@
 [
   {
-    "id": "MUS-000001",
+    "id": "MUSIC-000001",
     "category": "Music",
-    "subcategory": "Rock Legends",
+    "subcategory": "Rock",
     "difficulty": "easy",
-    "question": "Which legendary English rock band featured John Lennon, Paul McCartney, George Harrison, and Ringo Starr?",
+    "question": "Which legendary British band featured John, Paul, George, and Ringo?",
     "options": [
       "The Beatles",
       "The Rolling Stones",
@@ -12,20 +12,37 @@
       "Led Zeppelin"
     ],
     "answer": 0,
-    "explanation": "The Beatles formed in Liverpool in 1960 and are the best-selling band in music history.",
+    "explanation": "The Beatles were from Liverpool.",
     "tags": [
-      "music",
-      "rock",
-      "the-beatles"
+      "music"
     ],
     "status": "active"
   },
   {
-    "id": "MUS-000002",
+    "id": "MUSIC-000002",
     "category": "Music",
-    "subcategory": "Album Milestones",
+    "subcategory": "Pop",
+    "difficulty": "easy",
+    "question": "Who was famously crowned the 'King of Pop'?",
+    "options": [
+      "Michael Jackson",
+      "Prince",
+      "Elvis Presley",
+      "Stevie Wonder"
+    ],
+    "answer": 0,
+    "explanation": "Michael Jackson is the King of Pop.",
+    "tags": [
+      "music"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MUSIC-000003",
+    "category": "Music",
+    "subcategory": "Pop",
     "difficulty": "medium",
-    "question": "Which 1982 album by Michael Jackson is the best-selling studio album of all time worldwide?",
+    "question": "Which 1982 album by Michael Jackson is the best-selling album of all time worldwide?",
     "options": [
       "Thriller",
       "Bad",
@@ -33,20 +50,37 @@
       "Dangerous"
     ],
     "answer": 0,
-    "explanation": "Michael Jackson's Thriller (1982) produced by Quincy Jones has sold over 70 million copies worldwide.",
+    "explanation": "Thriller sold over 70 million copies.",
     "tags": [
-      "music",
-      "pop",
-      "michael-jackson"
+      "music"
     ],
     "status": "active"
   },
   {
-    "id": "MUS-000003",
+    "id": "MUSIC-000004",
     "category": "Music",
-    "subcategory": "Classical & Theory",
+    "subcategory": "Rock",
+    "difficulty": "medium",
+    "question": "Which British band recorded the legendary 1973 concept album 'The Dark Side of the Moon'?",
+    "options": [
+      "Pink Floyd",
+      "Led Zeppelin",
+      "Queen",
+      "The Doors"
+    ],
+    "answer": 0,
+    "explanation": "Pink Floyd released Dark Side of the Moon.",
+    "tags": [
+      "music"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MUSIC-000005",
+    "category": "Music",
+    "subcategory": "Classical",
     "difficulty": "hard",
-    "question": "Which famous classical composer composed his monumental Ninth Symphony (including 'Ode to Joy') while completely deaf?",
+    "question": "Which composer composed his Ninth Symphony (including Ode to Joy) while completely deaf?",
     "options": [
       "Ludwig van Beethoven",
       "Wolfgang Amadeus Mozart",
@@ -54,11 +88,142 @@
       "Johannes Brahms"
     ],
     "answer": 0,
-    "explanation": "Beethoven composed his Ninth Symphony (premiered in 1824) after suffering near-total hearing loss.",
+    "explanation": "Beethoven composed his Ninth Symphony in near-total deafness.",
     "tags": [
-      "music",
-      "classical",
-      "beethoven"
+      "music"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MUSIC-000006",
+    "category": "Music",
+    "subcategory": "Theory",
+    "difficulty": "hard",
+    "question": "What interval in music theory consists of three whole tones (e.g. C to F#) and was historically termed 'Diabolus in Musica'?",
+    "options": [
+      "The Tritone (Augmented 4th / Diminished 5th)",
+      "Perfect Fifth",
+      "Major Third",
+      "Minor Seventh"
+    ],
+    "answer": 0,
+    "explanation": "The Tritone spans 3 whole tones and creates severe harmonic dissonance.",
+    "tags": [
+      "music"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MUSIC-000007",
+    "category": "Music",
+    "subcategory": "Rock",
+    "difficulty": "easy",
+    "question": "Who was the legendary lead guitarist of Queen known for playing the 'Red Special' guitar?",
+    "options": [
+      "Brian May",
+      "Jimmy Page",
+      "Eric Clapton",
+      "Slash"
+    ],
+    "answer": 0,
+    "explanation": "Brian May is the guitarist of Queen.",
+    "tags": [
+      "music"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MUSIC-000008",
+    "category": "Music",
+    "subcategory": "Hip Hop",
+    "difficulty": "medium",
+    "question": "Which rapper released the critically acclaimed 1994 debut album 'Illmatic'?",
+    "options": [
+      "Nas",
+      "Jay-Z",
+      "The Notorious B.I.G.",
+      "Tupac Shakur"
+    ],
+    "answer": 0,
+    "explanation": "Nas released Illmatic in 1994.",
+    "tags": [
+      "music"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MUSIC-000009",
+    "category": "Music",
+    "subcategory": "Classical",
+    "difficulty": "hard",
+    "question": "In what musical form is a multi-movement orchestral composition typically structured in 4 movements?",
+    "options": [
+      "Symphony",
+      "Concerto",
+      "Sonata",
+      "Fugue"
+    ],
+    "answer": 0,
+    "explanation": "Classical symphonies typically have four movements.",
+    "tags": [
+      "music"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MUSIC-000010",
+    "category": "Music",
+    "subcategory": "Instruments",
+    "difficulty": "easy",
+    "question": "How many strings are on a standard acoustic or electric guitar?",
+    "options": [
+      "6 strings",
+      "4 strings",
+      "5 strings",
+      "8 strings"
+    ],
+    "answer": 0,
+    "explanation": "A standard guitar has 6 strings (E-A-D-G-B-E).",
+    "tags": [
+      "music"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MUSIC-000011",
+    "category": "Music",
+    "subcategory": "Rock",
+    "difficulty": "medium",
+    "question": "Which legendary rock band recorded the hits 'Stairway to Heaven' and 'Kashmir'?",
+    "options": [
+      "Led Zeppelin",
+      "The Who",
+      "Deep Purple",
+      "Black Sabbath"
+    ],
+    "answer": 0,
+    "explanation": "Led Zeppelin released Stairway to Heaven in 1971.",
+    "tags": [
+      "music"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MUSIC-000012",
+    "category": "Music",
+    "subcategory": "Classical",
+    "difficulty": "hard",
+    "question": "What famous Polish-French Romantic composer wrote almost exclusively for solo piano, including Nocturnes and Mazurkas?",
+    "options": [
+      "Frederic Chopin",
+      "Franz Liszt",
+      "Claude Debussy",
+      "Robert Schumann"
+    ],
+    "answer": 0,
+    "explanation": "Frederic Chopin is the poetic master of Romantic solo piano.",
+    "tags": [
+      "music"
     ],
     "status": "active"
   }

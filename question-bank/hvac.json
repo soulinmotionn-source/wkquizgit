@@ -4,28 +4,26 @@
     "category": "HVAC",
     "subcategory": "Airflow",
     "difficulty": "easy",
-    "question": "What unit is commonly used in North America to measure volumetric airflow rate in HVAC ductwork?",
+    "question": "What standard unit measures volumetric airflow rate in HVAC ductwork?",
     "options": [
       "CFM (Cubic Feet per Minute)",
-      "PSI (Pounds per Square Inch)",
-      "BTU (British Thermal Unit)",
-      "RPM (Revolutions per Minute)"
+      "PSI",
+      "BTU",
+      "RPM"
     ],
     "answer": 0,
-    "explanation": "CFM (Cubic Feet per Minute) is standard for airflow measurement in heating and air conditioning systems.",
+    "explanation": "CFM measures cubic feet of air moved per minute.",
     "tags": [
-      "hvac",
-      "airflow",
-      "ductwork"
+      "hvac"
     ],
     "status": "active"
   },
   {
     "id": "HVAC-000002",
     "category": "HVAC",
-    "subcategory": "Cooling Capacity",
+    "subcategory": "Capacity",
     "difficulty": "easy",
-    "question": "How many BTUs per hour (BTU/hr) are equal to exactly one standard ton of refrigeration?",
+    "question": "How many BTUs per hour equal 1 standard ton of refrigeration?",
     "options": [
       "12,000 BTU/hr",
       "24,000 BTU/hr",
@@ -33,32 +31,28 @@
       "100,000 BTU/hr"
     ],
     "answer": 0,
-    "explanation": "One ton of refrigeration is defined as 12,000 BTU/hr (the cooling power required to freeze 1 short ton of water in 24 hours).",
+    "explanation": "1 ton of refrigeration = 12,000 BTU/hr.",
     "tags": [
-      "hvac",
-      "calculations",
-      "btu"
+      "hvac"
     ],
     "status": "active"
   },
   {
     "id": "HVAC-000003",
     "category": "HVAC",
-    "subcategory": "Air Filters",
+    "subcategory": "Filters",
     "difficulty": "easy",
-    "question": "What does the MERV rating on an HVAC air filter measure?",
+    "question": "What does a filter's MERV rating indicate?",
     "options": [
-      "Minimum Efficiency Reporting Value (filter particle trapping efficiency)",
-      "Maximum Electrical Resistance Voltage",
-      "Motor Energy Reduction Velocity",
-      "Mass Energy Radiation Value"
+      "Minimum Efficiency Reporting Value",
+      "Motor Energy Resistance",
+      "Moisture Evaporation",
+      "Mass Energy Radiation"
     ],
     "answer": 0,
-    "explanation": "MERV (Minimum Efficiency Reporting Value) scales from 1 to 16+ to measure how effectively a filter traps airborne particles.",
+    "explanation": "MERV measures particle filtration efficiency.",
     "tags": [
-      "hvac",
-      "filters",
-      "iaq"
+      "hvac"
     ],
     "status": "active"
   },
@@ -67,7 +61,7 @@
     "category": "HVAC",
     "subcategory": "Thermostats",
     "difficulty": "easy",
-    "question": "In standard 24VAC HVAC thermostat wiring, which color wire typically connects to the cooling call (Compressor contactor)?",
+    "question": "In standard thermostat wiring, which color wire typically signals cooling?",
     "options": [
       "Yellow (Y)",
       "Red (R)",
@@ -75,125 +69,170 @@
       "Green (G)"
     ],
     "answer": 0,
-    "explanation": "By convention, Yellow (Y) is for cooling, Red (R) is 24V power, White (W) is heating, and Green (G) is the indoor fan relay.",
+    "explanation": "Yellow (Y) controls the cooling compressor contactor.",
     "tags": [
-      "hvac",
-      "controls",
-      "thermostats"
+      "hvac"
     ],
     "status": "active"
   },
   {
     "id": "HVAC-000005",
     "category": "HVAC",
-    "subcategory": "Combustion",
+    "subcategory": "Safety",
     "difficulty": "easy",
-    "question": "What odorless, colorless, and highly toxic gas can be produced by incomplete combustion in a cracked furnace heat exchanger?",
+    "question": "What toxic gas can be produced by a cracked furnace heat exchanger?",
     "options": [
       "Carbon Monoxide (CO)",
-      "Carbon Dioxide (CO2)",
-      "Nitrogen Gas (N2)",
+      "Carbon Dioxide",
+      "Nitrogen",
       "Argon"
     ],
     "answer": 0,
-    "explanation": "Carbon Monoxide (CO) is a deadly byproduct of incomplete fuel combustion.",
+    "explanation": "Incomplete combustion yields Carbon Monoxide.",
     "tags": [
-      "hvac",
-      "safety",
-      "furnace"
+      "hvac"
     ],
     "status": "active"
   },
   {
     "id": "HVAC-000006",
     "category": "HVAC",
-    "subcategory": "Refrigeration Cycle",
-    "difficulty": "medium",
-    "question": "In standard vapor-compression refrigeration, what is the primary function of the Expansion Valve (Metering Device)?",
+    "subcategory": "Components",
+    "difficulty": "easy",
+    "question": "Which component circulates and compresses refrigerant gas throughout the cycle?",
     "options": [
-      "Drop refrigerant pressure and temperature before entering the evaporator",
-      "Compress low-pressure vapor into high-pressure vapor",
-      "Condense high-pressure hot gas into subcooled liquid",
-      "Absorb room heat directly into the atmosphere"
+      "Compressor",
+      "Evaporator",
+      "Condenser fan",
+      "Filter drier"
     ],
     "answer": 0,
-    "explanation": "The expansion valve meters refrigerant flow and creates a sudden pressure drop, causing it to flash into a cold liquid/vapor mix.",
+    "explanation": "The compressor raises refrigerant pressure and temperature.",
     "tags": [
-      "hvac",
-      "refrigeration",
-      "thermodynamics"
+      "hvac"
     ],
     "status": "active"
   },
   {
     "id": "HVAC-000007",
     "category": "HVAC",
-    "subcategory": "Refrigerants",
+    "subcategory": "Refrigeration",
     "difficulty": "medium",
-    "question": "Why is R-410A categorized as a near-azeotropic refrigerant blend?",
+    "question": "What is the primary function of the expansion valve (TXV)?",
     "options": [
-      "It consists of a 50/50 mix of HFC-32 and HFC-125 with near-zero temperature glide during phase change",
-      "It contains chlorine that depletes the ozone layer",
-      "It operates at 50% lower pressure than R-22",
-      "It can be vented directly to the atmosphere legally"
+      "Drop refrigerant pressure and temperature entering the evaporator",
+      "Compress vapor",
+      "Condense hot gas",
+      "Filter oil"
     ],
     "answer": 0,
-    "explanation": "R-410A has minimal temperature glide (< 0.3°F), behaving almost like a single-compound refrigerant.",
+    "explanation": "The TXV meters refrigerant and lowers its pressure.",
     "tags": [
-      "hvac",
-      "refrigerants",
-      "r410a"
+      "hvac"
     ],
     "status": "active"
   },
   {
     "id": "HVAC-000008",
     "category": "HVAC",
-    "subcategory": "Psychrometrics",
+    "subcategory": "Refrigerants",
     "difficulty": "medium",
-    "question": "What is the relative humidity percentage when the dry-bulb temperature equals the wet-bulb temperature?",
+    "question": "Why is R-410A considered near-azeotropic?",
     "options": [
-      "100% Relative Humidity (Saturation)",
-      "0% Relative Humidity",
-      "50% Relative Humidity",
-      "75% Relative Humidity"
+      "It has near-zero temperature glide during phase change",
+      "It contains chlorine",
+      "It operates at low pressure",
+      "It can be vented directly"
     ],
     "answer": 0,
-    "explanation": "When dry-bulb and wet-bulb temperatures are equal, no evaporative cooling can occur because the air is 100% saturated with moisture (dew point reached).",
+    "explanation": "R-410A behaves almost like a single-compound fluid.",
     "tags": [
-      "hvac",
-      "psychrometrics",
-      "humidity"
+      "hvac"
     ],
     "status": "active"
   },
   {
     "id": "HVAC-000009",
     "category": "HVAC",
-    "subcategory": "Motors",
+    "subcategory": "Psychrometrics",
     "difficulty": "medium",
-    "question": "What type of high-efficiency indoor blower motor uses electronic commutators to maintain constant airflow against variable duct static pressure?",
+    "question": "What is the relative humidity when dry-bulb equals wet-bulb temperature?",
     "options": [
-      "ECM (Electronically Commutated Motor)",
-      "PSC (Permanent Split Capacitor) Motor",
-      "Shaded Pole Motor",
-      "Split-Phase Induction Motor"
+      "100% Relative Humidity",
+      "0%",
+      "50%",
+      "75%"
     ],
     "answer": 0,
-    "explanation": "ECM brushless DC motors adjust RPM automatically to deliver target CFM regardless of static pressure changes.",
+    "explanation": "Equal dry and wet bulb temperatures mean 100% RH saturation.",
     "tags": [
-      "hvac",
-      "motors",
-      "ecm"
+      "hvac"
     ],
     "status": "active"
   },
   {
     "id": "HVAC-000010",
     "category": "HVAC",
+    "subcategory": "Motors",
+    "difficulty": "medium",
+    "question": "Which blower motor modulates speed to maintain constant airflow against static pressure?",
+    "options": [
+      "ECM (Electronically Commutated Motor)",
+      "PSC Motor",
+      "Shaded Pole",
+      "Split Phase"
+    ],
+    "answer": 0,
+    "explanation": "ECM motors modulate speed to maintain target CFM.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000011",
+    "category": "HVAC",
+    "subcategory": "Superheat",
+    "difficulty": "medium",
+    "question": "How is total superheat calculated on an operating AC system?",
+    "options": [
+      "Suction line temperature minus evaporator saturation temperature",
+      "Liquid line temp minus condenser temp",
+      "Discharge temp minus suction temp",
+      "Outdoor temp minus indoor temp"
+    ],
+    "answer": 0,
+    "explanation": "Superheat = Suction Line Temp - Evaporator Saturation Temp.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000012",
+    "category": "HVAC",
+    "subcategory": "Subcooling",
+    "difficulty": "medium",
+    "question": "How is total subcooling calculated on an air conditioning condenser?",
+    "options": [
+      "Condenser saturation temperature minus liquid line temperature",
+      "Suction temp minus liquid temp",
+      "Outdoor temp plus indoor temp",
+      "Discharge pressure divided by 2"
+    ],
+    "answer": 0,
+    "explanation": "Subcooling = Condenser Saturation Temp - Liquid Line Temp.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000013",
+    "category": "HVAC",
     "subcategory": "Thermodynamics",
     "difficulty": "hard",
-    "question": "What is the term for the heat added to a substance that causes a measurable temperature change without changing its state of matter?",
+    "question": "What is heat that causes temperature change without changing state of matter?",
     "options": [
       "Sensible Heat",
       "Latent Heat",
@@ -201,54 +240,180 @@
       "Subcooling Enthalpy"
     ],
     "answer": 0,
-    "explanation": "Sensible heat produces a measurable temperature change registered on a thermometer. Latent heat causes a change of phase at constant temperature.",
+    "explanation": "Sensible heat causes a measurable temperature change.",
     "tags": [
-      "hvac",
-      "thermodynamics",
-      "psychrometrics"
+      "hvac"
     ],
     "status": "active"
   },
   {
-    "id": "HVAC-000011",
+    "id": "HVAC-000014",
     "category": "HVAC",
     "subcategory": "Diagnostics",
     "difficulty": "hard",
-    "question": "In a TXV-equipped AC system, high superheat combined with low subcooling most likely indicates which fault?",
+    "question": "In a TXV system, high superheat combined with low subcooling indicates what?",
     "options": [
       "Undercharged system (low refrigerant)",
-      "Overcharged system (excess refrigerant)",
-      "Restricted liquid line filter-drier",
-      "Dirty indoor air filter / low airflow"
+      "Overcharged system",
+      "Liquid line restriction",
+      "Dirty air filter"
     ],
     "answer": 0,
-    "explanation": "Low refrigerant charge results in an underfed evaporator (high superheat) and insufficient liquid backing up in the condenser (low subcooling).",
+    "explanation": "An undercharged system shows high superheat and low subcooling.",
     "tags": [
-      "hvac",
-      "diagnostics",
-      "superheat",
-      "subcooling"
+      "hvac"
     ],
     "status": "active"
   },
   {
-    "id": "HVAC-000012",
+    "id": "HVAC-000015",
     "category": "HVAC",
     "subcategory": "Evacuation",
     "difficulty": "hard",
-    "question": "According to industry standards, what deep vacuum level in microns must be achieved and held during system evacuation to ensure moisture removal?",
+    "question": "What vacuum level in microns must be achieved for system deep dehydration?",
     "options": [
       "500 microns or lower",
       "5,000 microns",
-      "29.92 inches of mercury on analog gauge",
+      "29.9 inches Hg",
       "15,000 microns"
     ],
     "answer": 0,
-    "explanation": "A vacuum of 500 microns or lower held for 10-15 minutes ensures that non-condensable gases and moisture have been boiled out of the system.",
+    "explanation": "500 microns ensures complete moisture evaporation.",
     "tags": [
-      "hvac",
-      "evacuation",
-      "microns"
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000016",
+    "category": "HVAC",
+    "subcategory": "Reversing Valves",
+    "difficulty": "hard",
+    "question": "In a heat pump reversing valve, what mechanism shifts the internal sliding valve spool?",
+    "options": [
+      "Pressure differential between high and low side routed by a pilot solenoid",
+      "Direct mechanical gear motor",
+      "Bimetallic expansion spring",
+      "Centrifugal air fan"
+    ],
+    "answer": 0,
+    "explanation": "Reversing valves use pilot solenoids to create a pressure differential.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000017",
+    "category": "HVAC",
+    "subcategory": "Safety",
+    "difficulty": "easy",
+    "question": "What device shuts off power to a gas furnace if flames roll out of the combustion chamber?",
+    "options": [
+      "Flame Rollout Switch",
+      "Blower door switch",
+      "Thermostat",
+      "Contactor"
+    ],
+    "answer": 0,
+    "explanation": "The flame rollout thermal limit switch trips if flames spill outward.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000018",
+    "category": "HVAC",
+    "subcategory": "Air Quality",
+    "difficulty": "medium",
+    "question": "What is the primary function of an Economizer in commercial rooftop HVAC units?",
+    "options": [
+      "Use cool outdoor ambient air for free cooling when conditions are favorable",
+      "Heat intake air with gas",
+      "Filter ultra-fine carbon soot",
+      "Compress liquid refrigerant"
+    ],
+    "answer": 0,
+    "explanation": "Economizers draw in cool outside air to reduce compressor run-time.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000019",
+    "category": "HVAC",
+    "subcategory": "Psychrometrics",
+    "difficulty": "hard",
+    "question": "On a psychrometric chart, what property remains constant along horizontal straight lines?",
+    "options": [
+      "Humidity Ratio (Specific Humidity / Dew Point)",
+      "Dry-Bulb Temperature",
+      "Enthalpy",
+      "Relative Humidity"
+    ],
+    "answer": 0,
+    "explanation": "Horizontal lines represent constant moisture content and dew point.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000020",
+    "category": "HVAC",
+    "subcategory": "Piping",
+    "difficulty": "easy",
+    "question": "What type of copper tubing is most commonly used in air conditioning refrigeration lines?",
+    "options": [
+      "ACR Copper (dehydrated and sealed)",
+      "Type M Plumbing Copper",
+      "PVC Pipe",
+      "Cast Iron"
+    ],
+    "answer": 0,
+    "explanation": "ACR copper is cleaned, dehydrated, and nitrogen-pressurized.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000021",
+    "category": "HVAC",
+    "subcategory": "Combustion",
+    "difficulty": "medium",
+    "question": "What is the theoretical perfect combustion air-to-natural-gas volume ratio?",
+    "options": [
+      "Approx 10 parts air to 1 part natural gas (10:1)",
+      "2:1",
+      "50:1",
+      "100:1"
+    ],
+    "answer": 0,
+    "explanation": "Natural gas requires roughly 10 cubic feet of air per 1 cubic foot of gas for complete combustion.",
+    "tags": [
+      "hvac"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000022",
+    "category": "HVAC",
+    "subcategory": "Compressors",
+    "difficulty": "hard",
+    "question": "In a scroll compressor, what motion does the orbiting scroll make relative to the stationary scroll?",
+    "options": [
+      "Orbital circular oscillation without rotating",
+      "Linear reciprocating stroke",
+      "Rotary vane spin at 3600 RPM",
+      "Screw axial rotation"
+    ],
+    "answer": 0,
+    "explanation": "The orbiting scroll oscillates in an eccentric circular orbit without rotating.",
+    "tags": [
+      "hvac"
     ],
     "status": "active"
   }

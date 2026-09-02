@@ -2,30 +2,47 @@
   {
     "id": "CELEB-000001",
     "category": "Celebrity",
-    "subcategory": "Pop Icons",
+    "subcategory": "Music",
     "difficulty": "easy",
-    "question": "Which global superstar launched the record-breaking Eras Tour in 2023?",
+    "question": "Which artist launched the record-breaking global Eras Tour in 2023?",
     "options": [
       "Taylor Swift",
-      "Beyoncé",
+      "Beyonce",
       "Rihanna",
       "Adele"
     ],
     "answer": 0,
-    "explanation": "Taylor Swift's Eras Tour became the highest-grossing concert tour of all time.",
+    "explanation": "Taylor Swift's Eras Tour broke all concert tour records.",
     "tags": [
-      "celebrity",
-      "music",
-      "taylor-swift"
+      "celebrity"
     ],
     "status": "active"
   },
   {
     "id": "CELEB-000002",
     "category": "Celebrity",
+    "subcategory": "Athletes",
+    "difficulty": "easy",
+    "question": "Which Argentine soccer icon led his country to victory in the 2022 FIFA World Cup in Qatar?",
+    "options": [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappe",
+      "Neymar Jr."
+    ],
+    "answer": 0,
+    "explanation": "Lionel Messi captained Argentina to the 2022 World Cup.",
+    "tags": [
+      "celebrity"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "CELEB-000003",
+    "category": "Celebrity",
     "subcategory": "Actors",
     "difficulty": "medium",
-    "question": "Which actor won the Best Actor Oscar in 2024 for his portrayal of J. Robert Oppenheimer?",
+    "question": "Which actor won the Best Actor Oscar in 2024 for his role in 'Oppenheimer'?",
     "options": [
       "Cillian Murphy",
       "Bradley Cooper",
@@ -33,20 +50,37 @@
       "Robert Downey Jr."
     ],
     "answer": 0,
-    "explanation": "Irish actor Cillian Murphy won the 2024 Academy Award for Best Actor for Christopher Nolan's Oppenheimer.",
+    "explanation": "Cillian Murphy won the 2024 Best Actor Academy Award.",
     "tags": [
-      "celebrity",
-      "oscars",
-      "actors"
+      "celebrity"
     ],
     "status": "active"
   },
   {
-    "id": "CELEB-000003",
+    "id": "CELEB-000004",
     "category": "Celebrity",
-    "subcategory": "EGOT Winners",
+    "subcategory": "Tech",
+    "difficulty": "medium",
+    "question": "Who founded Apple alongside Steve Wozniak in 1976?",
+    "options": [
+      "Steve Jobs",
+      "Bill Gates",
+      "Elon Musk",
+      "Jeff Bezos"
+    ],
+    "answer": 0,
+    "explanation": "Steve Jobs co-founded Apple.",
+    "tags": [
+      "celebrity"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "CELEB-000005",
+    "category": "Celebrity",
+    "subcategory": "EGOT",
     "difficulty": "hard",
-    "question": "Who was the first Black woman in entertainment history to achieve EGOT status (Emmy, Grammy, Oscar, Tony)?",
+    "question": "Who was the first Black woman in entertainment history to achieve EGOT status?",
     "options": [
       "Whoopi Goldberg",
       "Viola Davis",
@@ -54,11 +88,123 @@
       "Audra McDonald"
     ],
     "answer": 0,
-    "explanation": "Whoopi Goldberg achieved EGOT status in 2002 after winning a Tony Award for Thoroughly Modern Millie.",
+    "explanation": "Whoopi Goldberg achieved EGOT status in 2002.",
     "tags": [
-      "celebrity",
-      "egot",
-      "history"
+      "celebrity"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "CELEB-000006",
+    "category": "Celebrity",
+    "subcategory": "Music",
+    "difficulty": "easy",
+    "question": "Who was crowned the 'Queen of Pop' with hits like 'Like a Virgin' and 'Vogue'?",
+    "options": [
+      "Madonna",
+      "Britney Spears",
+      "Whitney Houston",
+      "Cher"
+    ],
+    "answer": 0,
+    "explanation": "Madonna is widely recognized as the Queen of Pop.",
+    "tags": [
+      "celebrity"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "CELEB-000007",
+    "category": "Celebrity",
+    "subcategory": "Hollywood",
+    "difficulty": "medium",
+    "question": "Which Hollywood actor starred as Jack Dawson in 'Titanic' and won Best Actor for 'The Revenant'?",
+    "options": [
+      "Leonardo DiCaprio",
+      "Brad Pitt",
+      "Johnny Depp",
+      "Matt Damon"
+    ],
+    "answer": 0,
+    "explanation": "Leonardo DiCaprio won his first Oscar for The Revenant in 2016.",
+    "tags": [
+      "celebrity"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "CELEB-000008",
+    "category": "Celebrity",
+    "subcategory": "Royalty",
+    "difficulty": "hard",
+    "question": "In which year did Princess Diana of Wales pass away in Paris?",
+    "options": [
+      "1997",
+      "1995",
+      "1999",
+      "2001"
+    ],
+    "answer": 0,
+    "explanation": "Princess Diana died on August 31, 1997.",
+    "tags": [
+      "celebrity"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "CELEB-000009",
+    "category": "Celebrity",
+    "subcategory": "Hollywood",
+    "difficulty": "easy",
+    "question": "Which actor played Captain Jack Sparrow in the 'Pirates of the Caribbean' movie franchise?",
+    "options": [
+      "Johnny Depp",
+      "Orlando Bloom",
+      "Geoffrey Rush",
+      "Brad Pitt"
+    ],
+    "answer": 0,
+    "explanation": "Johnny Depp created the iconic role of Captain Jack Sparrow.",
+    "tags": [
+      "celebrity"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "CELEB-000010",
+    "category": "Celebrity",
+    "subcategory": "Billionaires",
+    "difficulty": "medium",
+    "question": "Who founded Amazon.com in 1994 as an online bookstore?",
+    "options": [
+      "Jeff Bezos",
+      "Elon Musk",
+      "Bill Gates",
+      "Mark Zuckerberg"
+    ],
+    "answer": 0,
+    "explanation": "Jeff Bezos founded Amazon in Bellevue, Washington.",
+    "tags": [
+      "celebrity"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "CELEB-000011",
+    "category": "Celebrity",
+    "subcategory": "Music Legends",
+    "difficulty": "hard",
+    "question": "Which British rock star adopted the glamorous extraterrestrial alter ego 'Ziggy Stardust' in 1972?",
+    "options": [
+      "David Bowie",
+      "Elton John",
+      "Marc Bolan",
+      "Rod Stewart"
+    ],
+    "answer": 0,
+    "explanation": "David Bowie released The Rise and Fall of Ziggy Stardust in 1972.",
+    "tags": [
+      "celebrity"
     ],
     "status": "active"
   }

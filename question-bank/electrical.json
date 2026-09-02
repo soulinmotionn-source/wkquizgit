@@ -2,21 +2,19 @@
   {
     "id": "ELEC-000001",
     "category": "Electrical",
-    "subcategory": "Circuit Laws",
+    "subcategory": "Ohm's Law",
     "difficulty": "easy",
-    "question": "According to Ohm's Law, which formula correctly calculates Electric Voltage (V)?",
+    "question": "According to Ohm's Law, what formula calculates voltage?",
     "options": [
-      "V = I × R (Current × Resistance)",
+      "V = I × R",
       "V = I / R",
       "V = R / I",
       "V = I + R"
     ],
     "answer": 0,
-    "explanation": "Ohm's Law states that Voltage (V in Volts) equals Current (I in Amperes) multiplied by Resistance (R in Ohms).",
+    "explanation": "Voltage = Current (I) × Resistance (R).",
     "tags": [
-      "electrical",
-      "circuits",
-      "ohms-law"
+      "electrical"
     ],
     "status": "active"
   },
@@ -25,19 +23,17 @@
     "category": "Electrical",
     "subcategory": "Safety",
     "difficulty": "easy",
-    "question": "What is the primary function of a Ground Fault Circuit Interrupter (GFCI / RCD)?",
+    "question": "What is the function of a Ground Fault Circuit Interrupter (GFCI)?",
     "options": [
-      "Protect people from electric shock by detecting current leakage to ground",
-      "Prevent circuit overload during high power draw",
-      "Step down high AC transmission voltage to 120V",
-      "Convert alternating current into direct current"
+      "Protect people from shock by detecting ground current leakage",
+      "Prevent circuit overloads",
+      "Step down voltage",
+      "Convert AC to DC"
     ],
     "answer": 0,
-    "explanation": "GFCIs monitor the balance of current between hot and neutral wires and trip in milliseconds if an imbalance occurs.",
+    "explanation": "GFCIs prevent electrocution from ground faults.",
     "tags": [
-      "electrical",
-      "safety",
-      "gfci"
+      "electrical"
     ],
     "status": "active"
   },
@@ -46,7 +42,7 @@
     "category": "Electrical",
     "subcategory": "Conductors",
     "difficulty": "easy",
-    "question": "Which standard metal conductor is most commonly used for residential branch circuit electrical wiring?",
+    "question": "Which metal is standard for residential electrical wiring?",
     "options": [
       "Copper",
       "Gold",
@@ -54,41 +50,75 @@
       "Lead"
     ],
     "answer": 0,
-    "explanation": "Copper is the industry standard due to its excellent electrical conductivity, thermal properties, and ductility.",
+    "explanation": "Copper is the industry standard conductor.",
     "tags": [
-      "electrical",
-      "wiring",
-      "conductors"
+      "electrical"
     ],
     "status": "active"
   },
   {
     "id": "ELEC-000004",
     "category": "Electrical",
-    "subcategory": "Frequency",
+    "subcategory": "Grid",
     "difficulty": "easy",
-    "question": "What is the standard alternating current (AC) power grid frequency in North America?",
+    "question": "What is the AC utility frequency in North America?",
     "options": [
-      "60 Hertz (Hz)",
-      "50 Hertz (Hz)",
-      "120 Hertz (Hz)",
-      "400 Hertz (Hz)"
+      "60 Hz",
+      "50 Hz",
+      "120 Hz",
+      "400 Hz"
     ],
     "answer": 0,
-    "explanation": "North America uses 60 Hz AC power, whereas Europe and most other regions use 50 Hz.",
+    "explanation": "North American power grids operate at 60 Hz.",
     "tags": [
-      "electrical",
-      "ac-power",
-      "frequency"
+      "electrical"
     ],
     "status": "active"
   },
   {
     "id": "ELEC-000005",
     "category": "Electrical",
-    "subcategory": "Power Calculation",
+    "subcategory": "Circuits",
+    "difficulty": "easy",
+    "question": "In a series electrical circuit, what quantity remains identical through every component?",
+    "options": [
+      "Current (Amperes)",
+      "Voltage (Volts)",
+      "Power (Watts)",
+      "Resistance (Ohms)"
+    ],
+    "answer": 0,
+    "explanation": "In a series circuit, current is uniform throughout.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000006",
+    "category": "Electrical",
+    "subcategory": "Units",
+    "difficulty": "easy",
+    "question": "What unit measures electrical resistance?",
+    "options": [
+      "Ohm (Ω)",
+      "Ampere",
+      "Volt",
+      "Watt"
+    ],
+    "answer": 0,
+    "explanation": "Resistance is measured in Ohms.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000007",
+    "category": "Electrical",
+    "subcategory": "Power",
     "difficulty": "medium",
-    "question": "If a 120V electrical circuit draws a current of 5 Amperes, what is the electrical power consumed by the load?",
+    "question": "If a 120V circuit draws 5A of current, what is the power consumed?",
     "options": [
       "600 Watts",
       "24 Watts",
@@ -96,20 +126,18 @@
       "60 Watts"
     ],
     "answer": 0,
-    "explanation": "Electric power P = V × I = 120 V × 5 A = 600 Watts (W).",
+    "explanation": "P = V × I = 120 × 5 = 600 Watts.",
     "tags": [
-      "electrical",
-      "power",
-      "calculations"
+      "electrical"
     ],
     "status": "active"
   },
   {
-    "id": "ELEC-000006",
+    "id": "ELEC-000008",
     "category": "Electrical",
     "subcategory": "Wire Sizing",
     "difficulty": "medium",
-    "question": "In the American Wire Gauge (AWG) standard, which size copper conductor is required for a standard 20-Ampere branch circuit?",
+    "question": "What copper wire gauge is standard for a 20A branch circuit?",
     "options": [
       "12 AWG",
       "14 AWG",
@@ -117,20 +145,18 @@
       "16 AWG"
     ],
     "answer": 0,
-    "explanation": "12 AWG copper is rated for 20A breakers. 14 AWG is rated for 15A circuits.",
+    "explanation": "12 AWG copper wire is rated for 20 Amps.",
     "tags": [
-      "electrical",
-      "nec",
-      "wire-sizing"
+      "electrical"
     ],
     "status": "active"
   },
   {
-    "id": "ELEC-000007",
+    "id": "ELEC-000009",
     "category": "Electrical",
     "subcategory": "Transformers",
     "difficulty": "medium",
-    "question": "A step-down transformer has 1,000 primary turns and 100 secondary turns. If 240V AC is applied to the primary, what is the secondary output voltage?",
+    "question": "A transformer with a 10:1 turns ratio converts 240V primary into what secondary voltage?",
     "options": [
       "24V AC",
       "2400V AC",
@@ -138,54 +164,237 @@
       "120V AC"
     ],
     "answer": 0,
-    "explanation": "Turns ratio = 10:1. Secondary Voltage = 240V / 10 = 24V AC.",
+    "explanation": "240V / 10 = 24V AC secondary output.",
     "tags": [
-      "electrical",
-      "transformers",
-      "voltage"
+      "electrical"
     ],
     "status": "active"
   },
   {
-    "id": "ELEC-000008",
+    "id": "ELEC-000010",
     "category": "Electrical",
-    "subcategory": "AC Circuits",
-    "difficulty": "hard",
-    "question": "In a purely inductive AC circuit, what is the phase relationship between AC voltage and AC current?",
+    "subcategory": "Resistance",
+    "difficulty": "medium",
+    "question": "What is the equivalent resistance of two 10-Ohm resistors wired in parallel?",
     "options": [
-      "Voltage leads Current by 90 degrees (ELI)",
-      "Current leads Voltage by 90 degrees (ICE)",
-      "Voltage and Current are in phase (0 degrees)",
-      "Voltage leads Current by 180 degrees"
+      "5 Ohms",
+      "20 Ohms",
+      "10 Ohms",
+      "2.5 Ohms"
     ],
     "answer": 0,
-    "explanation": "In an inductor, counter-EMF opposes current change, causing Voltage (E) to lead Current (I) by 90° (remember 'ELI the ICE man').",
+    "explanation": "R_parallel = (10 × 10) / (10 + 10) = 5 Ohms.",
     "tags": [
-      "electrical",
-      "ac-circuits",
-      "phase",
-      "inductance"
+      "electrical"
     ],
     "status": "active"
   },
   {
-    "id": "ELEC-000009",
+    "id": "ELEC-000011",
     "category": "Electrical",
-    "subcategory": "Three Phase",
-    "difficulty": "hard",
-    "question": "In a balanced 3-phase Wye (Y) connected system, what is the mathematical relationship between Line-to-Line voltage (V_LL) and Line-to-Neutral phase voltage (V_LN)?",
+    "subcategory": "Energy",
+    "difficulty": "medium",
+    "question": "Electric utility companies bill residential electrical energy consumption in what unit?",
     "options": [
-      "V_LL = √3 × V_LN (approx 1.732 × V_LN)",
+      "Kilowatt-hours (kWh)",
+      "Kilowatts (kW)",
+      "Ampere-hours (Ah)",
+      "Megajoules"
+    ],
+    "answer": 0,
+    "explanation": "Electrical energy is billed in kilowatt-hours (kWh).",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000012",
+    "category": "Electrical",
+    "subcategory": "AC Theory",
+    "difficulty": "hard",
+    "question": "In a purely inductive AC circuit, what is the phase relationship between voltage and current?",
+    "options": [
+      "Voltage leads current by 90 degrees",
+      "Current leads voltage by 90 degrees",
+      "They are in phase",
+      "Voltage leads current by 180 degrees"
+    ],
+    "answer": 0,
+    "explanation": "In an inductor, voltage leads current by 90° (ELI).",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000013",
+    "category": "Electrical",
+    "subcategory": "Three-Phase",
+    "difficulty": "hard",
+    "question": "In a 3-phase Wye system, what is the formula for line-to-line voltage from line-to-neutral voltage?",
+    "options": [
+      "V_LL = √3 × V_LN",
       "V_LL = V_LN / √3",
       "V_LL = 3 × V_LN",
       "V_LL = V_LN"
     ],
     "answer": 0,
-    "explanation": "In Wye configurations, Line-to-Line voltage equals Line-to-Neutral voltage multiplied by √3 (e.g. 120V × 1.732 = 208V).",
+    "explanation": "Line-to-line voltage equals line-to-neutral multiplied by √3 (1.732).",
     "tags": [
-      "electrical",
-      "three-phase",
-      "wye"
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000014",
+    "category": "Electrical",
+    "subcategory": "Power Factor",
+    "difficulty": "hard",
+    "question": "What does a lagging power factor in an industrial AC plant indicate?",
+    "options": [
+      "The load is predominantly inductive (motors/transformers)",
+      "The load is purely capacitive",
+      "Voltage and current are in phase",
+      "Power consumption is zero"
+    ],
+    "answer": 0,
+    "explanation": "Inductive loads draw lagging current, lowering power factor.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000015",
+    "category": "Electrical",
+    "subcategory": "Capacitive Reactance",
+    "difficulty": "hard",
+    "question": "What happens to the capacitive reactance (X_C) of a capacitor as the AC frequency increases?",
+    "options": [
+      "It decreases inversely with frequency",
+      "It increases proportionally",
+      "It remains constant",
+      "It drops to zero instantly"
+    ],
+    "answer": 0,
+    "explanation": "X_C = 1 / (2πfC), so reactance decreases as frequency increases.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000016",
+    "category": "Electrical",
+    "subcategory": "Safety",
+    "difficulty": "easy",
+    "question": "What standard color insulation denotes the equipment grounding conductor in US branch circuits?",
+    "options": [
+      "Green or Bare Copper",
+      "Black",
+      "White",
+      "Red"
+    ],
+    "answer": 0,
+    "explanation": "Ground wires are green or bare copper; white/gray is neutral; black/red are hot.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000017",
+    "category": "Electrical",
+    "subcategory": "Motors",
+    "difficulty": "medium",
+    "question": "What device is connected in series with the start winding of a single-phase AC induction motor to create phase shift?",
+    "options": [
+      "Start Capacitor",
+      "Step-up transformer",
+      "Bridge rectifier",
+      "Zener diode"
+    ],
+    "answer": 0,
+    "explanation": "Start capacitors create a phase angle shift between start and run windings to generate starting torque.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000018",
+    "category": "Electrical",
+    "subcategory": "Calculations",
+    "difficulty": "hard",
+    "question": "What is the total power (P) in a balanced 3-phase circuit with line voltage V_L, line current I_L, and power factor PF?",
+    "options": [
+      "P = √3 × V_L × I_L × PF",
+      "P = 3 × V_L × I_L × PF",
+      "P = V_L × I_L × PF",
+      "P = V_L / (I_L × PF)"
+    ],
+    "answer": 0,
+    "explanation": "Three-phase power: P = √3 · V_L · I_L · PF.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000019",
+    "category": "Electrical",
+    "subcategory": "Instruments",
+    "difficulty": "easy",
+    "question": "What handheld electrical test instrument measures voltage, current, and resistance in a single unit?",
+    "options": [
+      "Multimeter (DMM)",
+      "Oscilloscope",
+      "Wattmeter",
+      "Galvanometer"
+    ],
+    "answer": 0,
+    "explanation": "Digital multimeters combine voltmeter, ammeter, and ohmmeter functions.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000020",
+    "category": "Electrical",
+    "subcategory": "Conduit",
+    "difficulty": "medium",
+    "question": "What does 'EMT' stand for in electrical wiring conduits?",
+    "options": [
+      "Electrical Metallic Tubing",
+      "Electromagnetic Transfer",
+      "Emergency Main Transmission",
+      "Earth Metal Terminal"
+    ],
+    "answer": 0,
+    "explanation": "EMT is thin-wall steel electrical metallic tubing.",
+    "tags": [
+      "electrical"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000021",
+    "category": "Electrical",
+    "subcategory": "Harmonics",
+    "difficulty": "hard",
+    "question": "In non-linear electrical loads (e.g. computer power supplies), which harmonic causes heavy current on the neutral conductor?",
+    "options": [
+      "Triplen Harmonics (3rd, 9th, 15th harmonics)",
+      "2nd Harmonic",
+      "4th Harmonic",
+      "6th Harmonic"
+    ],
+    "answer": 0,
+    "explanation": "Triplen harmonics add arithmetically in the neutral conductor of 3-phase systems.",
+    "tags": [
+      "electrical"
     ],
     "status": "active"
   }

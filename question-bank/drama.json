@@ -2,30 +2,9 @@
   {
     "id": "DRAMA-000001",
     "category": "Drama",
-    "subcategory": "Crime Drama",
-    "difficulty": "medium",
-    "question": "Which acclaimed HBO drama series followed New Jersey mobster Tony Soprano balancing family and organized crime?",
-    "options": [
-      "The Sopranos",
-      "The Wire",
-      "Boardwalk Empire",
-      "Peaky Blinders"
-    ],
-    "answer": 0,
-    "explanation": "The Sopranos (1999-2007) starring James Gandolfini is considered a landmark television drama.",
-    "tags": [
-      "drama",
-      "the-sopranos",
-      "hbo"
-    ],
-    "status": "active"
-  },
-  {
-    "id": "DRAMA-000002",
-    "category": "Drama",
-    "subcategory": "Korean Drama",
+    "subcategory": "K-Drama",
     "difficulty": "easy",
-    "question": "Which 2021 South Korean survival drama series became Netflix's most-watched series worldwide?",
+    "question": "Which 2021 survival drama series became Netflix's most-watched series worldwide?",
     "options": [
       "Squid Game",
       "Crash Landing on You",
@@ -33,32 +12,199 @@
       "The Glory"
     ],
     "answer": 0,
-    "explanation": "Hwang Dong-hyuk's 'Squid Game' recorded over 1.65 billion viewing hours in its first 28 days.",
+    "explanation": "Squid Game had 1.65B viewing hours.",
     "tags": [
-      "drama",
-      "squid-game",
-      "k-drama"
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-000002",
+    "category": "Drama",
+    "subcategory": "Theater",
+    "difficulty": "easy",
+    "question": "Who wrote the tragic play 'Romeo and Juliet'?",
+    "options": [
+      "William Shakespeare",
+      "Christopher Marlowe",
+      "Arthur Miller",
+      "Tennessee Williams"
+    ],
+    "answer": 0,
+    "explanation": "Shakespeare wrote Romeo and Juliet.",
+    "tags": [
+      "drama"
     ],
     "status": "active"
   },
   {
     "id": "DRAMA-000003",
     "category": "Drama",
-    "subcategory": "Historical Drama",
+    "subcategory": "HBO",
+    "difficulty": "medium",
+    "question": "Which acclaimed series followed New Jersey mobster Tony Soprano?",
+    "options": [
+      "The Sopranos",
+      "The Wire",
+      "Boardwalk Empire",
+      "Peaky Blinders"
+    ],
+    "answer": 0,
+    "explanation": "The Sopranos starred James Gandolfini.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-000004",
+    "category": "Drama",
+    "subcategory": "Royalty",
+    "difficulty": "medium",
+    "question": "Which Netflix drama series chronicles the reign and life of Queen Elizabeth II?",
+    "options": [
+      "The Crown",
+      "Downton Abbey",
+      "Victoria",
+      "The Tudors"
+    ],
+    "answer": 0,
+    "explanation": "The Crown follows Queen Elizabeth II.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-000005",
+    "category": "Drama",
+    "subcategory": "Period",
     "difficulty": "hard",
-    "question": "In the period drama 'Mad Men', what Madison Avenue advertising agency does Don Draper initially work for?",
+    "question": "In 'Mad Men', what Madison Avenue agency does Don Draper work for in early seasons?",
     "options": [
       "Sterling Cooper",
       "McCann Erickson",
-      "Cutler Gleason Chaough",
-      "Ogilvy & Mather"
+      "Ogilvy & Mather",
+      "BBDO"
     ],
     "answer": 0,
-    "explanation": "Don Draper is the creative director at Sterling Cooper Advertising Agency in 1960s New York.",
+    "explanation": "Don Draper worked at Sterling Cooper.",
     "tags": [
-      "drama",
-      "mad-men",
-      "tv"
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-000006",
+    "category": "Drama",
+    "subcategory": "Streaming",
+    "difficulty": "easy",
+    "question": "Which Netflix regency-era romance drama series features the anonymous gossip writer Lady Whistledown?",
+    "options": [
+      "Bridgerton",
+      "Downton Abbey",
+      "Outlander",
+      "The Buccaneers"
+    ],
+    "answer": 0,
+    "explanation": "Bridgerton follows high-society London gossip.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-000007",
+    "category": "Drama",
+    "subcategory": "Crime",
+    "difficulty": "medium",
+    "question": "Which BBC crime drama series stars Cillian Murphy as Birmingham gang leader Thomas Shelby?",
+    "options": [
+      "Peaky Blinders",
+      "Line of Duty",
+      "Broadchurch",
+      "Luther"
+    ],
+    "answer": 0,
+    "explanation": "Peaky Blinders chronicles the Shelby crime family.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-000008",
+    "category": "Drama",
+    "subcategory": "HBO",
+    "difficulty": "hard",
+    "question": "In HBO's 'Succession', what is the name of the global media conglomerate run by patriarch Logan Roy?",
+    "options": [
+      "Waystar Royco",
+      "Pierce Media",
+      "GoJo",
+      "Vanderbilt Corp"
+    ],
+    "answer": 0,
+    "explanation": "Waystar Royco is the media empire in Succession.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-000009",
+    "category": "Drama",
+    "subcategory": "Theater",
+    "difficulty": "easy",
+    "question": "In Shakespeare's 'Hamlet', what Danish prince speaks the soliloquy 'To be, or not to be'?",
+    "options": [
+      "Prince Hamlet",
+      "King Claudius",
+      "Polonius",
+      "Laertes"
+    ],
+    "answer": 0,
+    "explanation": "Prince Hamlet contemplates existence in Act 3.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-000010",
+    "category": "Drama",
+    "subcategory": "Medical Drama",
+    "difficulty": "medium",
+    "question": "Which long-running ABC medical drama series created by Shonda Rhimes stars Ellen Pompeo as Meredith Grey?",
+    "options": [
+      "Grey's Anatomy",
+      "ER",
+      "House M.D.",
+      "The Good Doctor"
+    ],
+    "answer": 0,
+    "explanation": "Grey's Anatomy debuted in 2005.",
+    "tags": [
+      "drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-000011",
+    "category": "Drama",
+    "subcategory": "Legal Drama",
+    "difficulty": "hard",
+    "question": "In 'Better Call Saul', what was Saul Goodman's original birth and legal name before rebranding?",
+    "options": [
+      "Jimmy McGill (James Morgan McGill)",
+      "Chuck McGill",
+      "Howard Hamlin",
+      "Kim Wexler"
+    ],
+    "answer": 0,
+    "explanation": "Saul Goodman is Jimmy McGill.",
+    "tags": [
+      "drama"
     ],
     "status": "active"
   }

@@ -2,9 +2,9 @@
   {
     "id": "TECH-000001",
     "category": "Technology",
-    "subcategory": "Internet",
+    "subcategory": "Web",
     "difficulty": "easy",
-    "question": "What does the abbreviation 'URL' stand for in web computing?",
+    "question": "What does URL stand for in web browsing?",
     "options": [
       "Uniform Resource Locator",
       "Universal Remote Link",
@@ -12,53 +12,218 @@
       "User Resource Lookup"
     ],
     "answer": 0,
-    "explanation": "A URL (Uniform Resource Locator) specifies the web address of a resource on the internet.",
+    "explanation": "URL is Uniform Resource Locator.",
     "tags": [
-      "technology",
-      "internet",
-      "networking"
+      "technology"
     ],
     "status": "active"
   },
   {
     "id": "TECH-000002",
     "category": "Technology",
-    "subcategory": "Artificial Intelligence",
-    "difficulty": "medium",
-    "question": "In Machine Learning, what does 'LLM' stand for?",
+    "subcategory": "Cloud",
+    "difficulty": "easy",
+    "question": "What computing concept delivers on-demand servers, storage, and databases over the Internet?",
     "options": [
-      "Large Language Model",
-      "Linear Logic Matrix",
-      "Layered Learning Module",
-      "Logical Link Mechanism"
+      "Cloud Computing",
+      "Local LAN",
+      "Mainframe Batching",
+      "Dial-up Networking"
     ],
     "answer": 0,
-    "explanation": "Large Language Models (LLMs) are deep learning transformer models trained on vast text corpora.",
+    "explanation": "Cloud computing provides elastic on-demand compute resources.",
     "tags": [
-      "technology",
-      "ai",
-      "machine-learning"
+      "technology"
     ],
     "status": "active"
   },
   {
     "id": "TECH-000003",
     "category": "Technology",
-    "subcategory": "Cybersecurity",
-    "difficulty": "hard",
-    "question": "In asymmetric cryptography, which key is used by a sender to encrypt a message so only the intended recipient can decrypt it?",
+    "subcategory": "AI",
+    "difficulty": "medium",
+    "question": "In Machine Learning, what does LLM stand for?",
     "options": [
-      "The recipient's Public Key",
-      "The sender's Private Key",
-      "The recipient's Private Key",
-      "The sender's Public Key"
+      "Large Language Model",
+      "Linear Logic Model",
+      "Layered Learning Matrix",
+      "Logical Link Model"
     ],
     "answer": 0,
-    "explanation": "In public-key cryptography (e.g. RSA), data encrypted with a recipient's public key can only be decrypted using the recipient's matching private key.",
+    "explanation": "LLM stands for Large Language Model.",
     "tags": [
-      "technology",
-      "security",
-      "cryptography"
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECH-000004",
+    "category": "Technology",
+    "subcategory": "Web Security",
+    "difficulty": "medium",
+    "question": "What protocol encrypts web traffic using TLS/SSL to secure communications between browser and server?",
+    "options": [
+      "HTTPS (HyperText Transfer Protocol Secure)",
+      "HTTP",
+      "FTP",
+      "Telnet"
+    ],
+    "answer": 0,
+    "explanation": "HTTPS encrypts communications via TLS.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECH-000005",
+    "category": "Technology",
+    "subcategory": "Security",
+    "difficulty": "hard",
+    "question": "In public-key cryptography (RSA), which key is used by the sender to encrypt a private message?",
+    "options": [
+      "Recipient's Public Key",
+      "Sender's Private Key",
+      "Recipient's Private Key",
+      "Sender's Public Key"
+    ],
+    "answer": 0,
+    "explanation": "Data encrypted with the recipient's public key can only be opened with their private key.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECH-000006",
+    "category": "Technology",
+    "subcategory": "Distributed Systems",
+    "difficulty": "hard",
+    "question": "According to the CAP Theorem in distributed databases, which three properties cannot all be simultaneously guaranteed in a partitioned network?",
+    "options": [
+      "Consistency, Availability, and Partition Tolerance",
+      "Concurrency, Atomicity, and Performance",
+      "Caching, Authentication, and Persistence",
+      "Capacity, Accuracy, and Parallelism"
+    ],
+    "answer": 0,
+    "explanation": "The CAP theorem states a distributed system can guarantee at most 2 of Consistency, Availability, and Partition tolerance.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECH-000007",
+    "category": "Technology",
+    "subcategory": "Cloud",
+    "difficulty": "easy",
+    "question": "What does 'SaaS' stand for in cloud computing?",
+    "options": [
+      "Software as a Service",
+      "System and Application Software",
+      "Storage as a Server",
+      "Secure Application Socket"
+    ],
+    "answer": 0,
+    "explanation": "SaaS delivers software applications over the internet.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECH-000008",
+    "category": "Technology",
+    "subcategory": "Web",
+    "difficulty": "medium",
+    "question": "What does 'DNS' stand for and do on the Internet?",
+    "options": [
+      "Domain Name System (translates human-readable domain names to IP addresses)",
+      "Digital Network Server",
+      "Dynamic Node Service",
+      "Data Node Security"
+    ],
+    "answer": 0,
+    "explanation": "DNS resolves domain names into numerical IP addresses.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECH-000009",
+    "category": "Technology",
+    "subcategory": "Database",
+    "difficulty": "hard",
+    "question": "In database transactions, what does the 'ACID' acronym stand for?",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Accuracy, Concurrency, Indexing, Delivery",
+      "Authentication, Compression, Integrity, Deletion",
+      "Asynchronous, Connected, Integrated, Distributed"
+    ],
+    "answer": 0,
+    "explanation": "ACID guarantees transactional database reliability.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECH-000010",
+    "category": "Technology",
+    "subcategory": "Wireless",
+    "difficulty": "easy",
+    "question": "What short-range wireless standard operates on 2.4 GHz for peripheral connectivity within ~10 meters?",
+    "options": [
+      "Bluetooth",
+      "NFC",
+      "5G Cellular",
+      "Infrared"
+    ],
+    "answer": 0,
+    "explanation": "Bluetooth connects peripherals at short range.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECH-000011",
+    "category": "Technology",
+    "subcategory": "AI",
+    "difficulty": "medium",
+    "question": "In neural networks, what function converts linear weighted inputs into non-linear activations (e.g. ReLU, Sigmoid)?",
+    "options": [
+      "Activation Function",
+      "Loss Function",
+      "Optimizer",
+      "Backpropagation"
+    ],
+    "answer": 0,
+    "explanation": "Activation functions introduce non-linearity into neural networks.",
+    "tags": [
+      "technology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECH-000012",
+    "category": "Technology",
+    "subcategory": "Cybersecurity",
+    "difficulty": "hard",
+    "question": "What type of cyberattack floods an authoritative server with encrypted queries to exhaust its resources?",
+    "options": [
+      "Distributed Denial of Service (DDoS)",
+      "Cross-Site Scripting (XSS)",
+      "SQL Injection",
+      "Man-in-the-Middle"
+    ],
+    "answer": 0,
+    "explanation": "DDoS attacks overwhelm network bandwidth or processing capacity.",
+    "tags": [
+      "technology"
     ],
     "status": "active"
   }

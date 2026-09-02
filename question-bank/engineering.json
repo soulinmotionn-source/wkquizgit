@@ -2,63 +2,228 @@
   {
     "id": "ENG-000001",
     "category": "Engineering",
-    "subcategory": "Materials",
-    "difficulty": "medium",
-    "question": "According to Hooke's Law in mechanical engineering, stress is directly proportional to what within the elastic limit?",
+    "subcategory": "Structures",
+    "difficulty": "easy",
+    "question": "Which geometric shape is recognized as the most inherently rigid in trusses?",
     "options": [
-      "Strain",
-      "Temperature",
-      "Volume",
-      "Viscosity"
+      "Triangle",
+      "Square",
+      "Hexagon",
+      "Circle"
     ],
     "answer": 0,
-    "explanation": "Hooke's Law states that within a material's elastic limit, stress is proportional to strain (σ = E · ε).",
+    "explanation": "Triangles provide structural rigidity.",
     "tags": [
-      "engineering",
-      "mechanics",
-      "materials"
+      "engineering"
     ],
     "status": "active"
   },
   {
     "id": "ENG-000002",
     "category": "Engineering",
-    "subcategory": "Civil & Structural",
+    "subcategory": "Mechanics",
     "difficulty": "easy",
-    "question": "Which geometric shape is recognized as the most inherently stable and rigid structure used in bridges and roof trusses?",
+    "question": "What is the measure of the rotational force applied around an axis?",
     "options": [
-      "Triangle",
-      "Square",
-      "Pentagon",
-      "Rectangle"
+      "Torque",
+      "Velocity",
+      "Momentum",
+      "Pressure"
     ],
     "answer": 0,
-    "explanation": "Triangles cannot deform without changing the length of one of their sides, making them rigid under load.",
+    "explanation": "Torque is rotational mechanical force (Force × Distance).",
     "tags": [
-      "engineering",
-      "structural",
-      "trusses"
+      "engineering"
     ],
     "status": "active"
   },
   {
     "id": "ENG-000003",
     "category": "Engineering",
-    "subcategory": "Fluid Dynamics",
-    "difficulty": "hard",
-    "question": "In fluid mechanics, which dimensionless number characterizes the transition between laminar and turbulent fluid flow?",
+    "subcategory": "Materials",
+    "difficulty": "medium",
+    "question": "According to Hooke's Law within elastic limits, stress is directly proportional to what?",
     "options": [
-      "Reynolds Number (Re)",
-      "Mach Number (Ma)",
-      "Froude Number (Fr)",
-      "Prandtl Number (Pr)"
+      "Strain",
+      "Temperature",
+      "Volume",
+      "Density"
     ],
     "answer": 0,
-    "explanation": "The Reynolds number (Re) represents the ratio of inertial forces to viscous forces in a fluid flow.",
+    "explanation": "Stress is proportional to strain (σ = E · ε).",
     "tags": [
-      "engineering",
-      "fluids",
-      "reynolds"
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENG-000004",
+    "category": "Engineering",
+    "subcategory": "Thermodynamics",
+    "difficulty": "medium",
+    "question": "Which law of thermodynamics states that entropy in an isolated system always increases?",
+    "options": [
+      "Second Law of Thermodynamics",
+      "First Law",
+      "Third Law",
+      "Zeroth Law"
+    ],
+    "answer": 0,
+    "explanation": "The Second Law dictates spontaneous entropy increase.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENG-000005",
+    "category": "Engineering",
+    "subcategory": "Fluids",
+    "difficulty": "hard",
+    "question": "Which dimensionless number predicts laminar vs turbulent fluid flow?",
+    "options": [
+      "Reynolds Number (Re)",
+      "Mach Number",
+      "Froude Number",
+      "Prandtl Number"
+    ],
+    "answer": 0,
+    "explanation": "Reynolds number characterizes fluid turbulence.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENG-000006",
+    "category": "Engineering",
+    "subcategory": "Statics",
+    "difficulty": "hard",
+    "question": "In beam mechanics, what does the first derivative of the bending moment equation represent?",
+    "options": [
+      "Shear Force (V)",
+      "Deflection (y)",
+      "Slope (θ)",
+      "Distributed Load (w)"
+    ],
+    "answer": 0,
+    "explanation": "dM/dx = V (Shear Force).",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENG-000007",
+    "category": "Engineering",
+    "subcategory": "Dynamics",
+    "difficulty": "easy",
+    "question": "What is Newton's Second Law of Motion?",
+    "options": [
+      "Force = Mass × Acceleration (F = ma)",
+      "For every action there is equal and opposite reaction",
+      "Inertia maintains constant velocity",
+      "Energy cannot be destroyed"
+    ],
+    "answer": 0,
+    "explanation": "F = m · a is Newton's second law.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENG-000008",
+    "category": "Engineering",
+    "subcategory": "Materials",
+    "difficulty": "medium",
+    "question": "What is the point on a stress-strain curve where plastic (permanent) deformation begins?",
+    "options": [
+      "Yield Point (Yield Strength)",
+      "Ultimate Tensile Strength",
+      "Fracture Point",
+      "Elastic Limit"
+    ],
+    "answer": 0,
+    "explanation": "The yield point marks the boundary between elastic and permanent plastic deformation.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENG-000009",
+    "category": "Engineering",
+    "subcategory": "Thermodynamics",
+    "difficulty": "hard",
+    "question": "What is the theoretical maximum thermodynamic efficiency of any heat engine operating between temperatures T_hot and T_cold?",
+    "options": [
+      "Carnot Efficiency = 1 - (T_cold / T_hot)",
+      "Rankine Efficiency",
+      "Otto Efficiency = 1 - (1 / r^(γ-1))",
+      "Diesel Efficiency"
+    ],
+    "answer": 0,
+    "explanation": "The Carnot cycle defines the absolute upper efficiency limit: η = 1 - T_C/T_H.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENG-000010",
+    "category": "Engineering",
+    "subcategory": "Energy",
+    "difficulty": "easy",
+    "question": "What is the SI unit of mechanical work and energy?",
+    "options": [
+      "Joule (J)",
+      "Watt (W)",
+      "Newton (N)",
+      "Pascal (Pa)"
+    ],
+    "answer": 0,
+    "explanation": "Work and energy are measured in Joules (1 N · m).",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENG-000011",
+    "category": "Engineering",
+    "subcategory": "Thermodynamics",
+    "difficulty": "medium",
+    "question": "What is the First Law of Thermodynamics fundamentally known as?",
+    "options": [
+      "The Law of Conservation of Energy",
+      "The Law of Entropy Increase",
+      "The Zeroth Law of Thermal Equilibrium",
+      "The Ideal Gas Law"
+    ],
+    "answer": 0,
+    "explanation": "Energy cannot be created or destroyed, only transformed.",
+    "tags": [
+      "engineering"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENG-000012",
+    "category": "Engineering",
+    "subcategory": "Materials",
+    "difficulty": "hard",
+    "question": "What test is used to measure a material's impact toughness and resistance to brittle fracture?",
+    "options": [
+      "Charpy V-Notch Impact Test",
+      "Brinell Hardness Test",
+      "Tensile Yield Test",
+      "Creep Rupture Test"
+    ],
+    "answer": 0,
+    "explanation": "Charpy tests measure energy absorbed during high-strain impact.",
+    "tags": [
+      "engineering"
     ],
     "status": "active"
   }

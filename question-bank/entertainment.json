@@ -2,31 +2,47 @@
   {
     "id": "ENT-000001",
     "category": "Entertainment",
-    "subcategory": "Comics & Cinema",
+    "subcategory": "Comics",
     "difficulty": "easy",
-    "question": "Which superhero is famously known as the 'Dark Knight' of Gotham City?",
+    "question": "Which superhero is known as the 'Dark Knight' of Gotham City?",
     "options": [
       "Batman",
       "Superman",
-      "Iron Man",
-      "Spider-Man"
+      "Spider-Man",
+      "Iron Man"
     ],
     "answer": 0,
-    "explanation": "Batman (Bruce Wayne) is widely referred to as the Dark Knight and Caped Crusader of Gotham City.",
+    "explanation": "Batman is the Dark Knight.",
     "tags": [
-      "entertainment",
-      "superheroes",
-      "comics",
-      "batman"
+      "entertainment"
     ],
     "status": "active"
   },
   {
     "id": "ENT-000002",
     "category": "Entertainment",
-    "subcategory": "Academy Awards",
+    "subcategory": "Animation",
+    "difficulty": "easy",
+    "question": "What is the name of Mickey Mouse's pet dog?",
+    "options": [
+      "Pluto",
+      "Goofy",
+      "Donald",
+      "Bolt"
+    ],
+    "answer": 0,
+    "explanation": "Pluto is Mickey's loyal pet dog.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENT-000003",
+    "category": "Entertainment",
+    "subcategory": "Oscars",
     "difficulty": "medium",
-    "question": "Which movie tied the record with 11 Academy Awards in 1997?",
+    "question": "Which 1997 James Cameron film won 11 Academy Awards?",
     "options": [
       "Titanic",
       "Avatar",
@@ -34,32 +50,161 @@
       "Braveheart"
     ],
     "answer": 0,
-    "explanation": "James Cameron's Titanic won 11 Oscars at the 70th Academy Awards.",
+    "explanation": "Titanic tied the record with 11 Oscars.",
     "tags": [
-      "entertainment",
-      "movies",
-      "oscars"
+      "entertainment"
     ],
     "status": "active"
   },
   {
-    "id": "ENT-000003",
+    "id": "ENT-000004",
     "category": "Entertainment",
-    "subcategory": "Film History",
+    "subcategory": "Gaming",
+    "difficulty": "medium",
+    "question": "Which gaming franchise features the characters Master Chief and Cortana?",
+    "options": [
+      "Halo",
+      "Gears of War",
+      "Call of Duty",
+      "Destiny"
+    ],
+    "answer": 0,
+    "explanation": "Master Chief stars in the Halo series.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENT-000005",
+    "category": "Entertainment",
+    "subcategory": "Cinema",
     "difficulty": "hard",
-    "question": "Who directed the 1927 groundbreaking German expressionist science-fiction film 'Metropolis'?",
+    "question": "Who directed the 1927 silent dystopian masterpiece 'Metropolis'?",
     "options": [
       "Fritz Lang",
-      "F. W. Murnau",
+      "F.W. Murnau",
       "Robert Wiene",
       "Billy Wilder"
     ],
     "answer": 0,
-    "explanation": "Fritz Lang directed the iconic silent dystopian film Metropolis in Weimar Germany in 1927.",
+    "explanation": "Fritz Lang directed Metropolis in 1927.",
     "tags": [
-      "entertainment",
-      "movies",
-      "film-history"
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENT-000006",
+    "category": "Entertainment",
+    "subcategory": "Animation",
+    "difficulty": "easy",
+    "question": "What is the name of the green ogre character voiced by Mike Myers in the DreamWorks franchise?",
+    "options": [
+      "Shrek",
+      "Fiona",
+      "Donkey",
+      "Lord Farquaad"
+    ],
+    "answer": 0,
+    "explanation": "Shrek is DreamWorks' iconic ogre.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENT-000007",
+    "category": "Entertainment",
+    "subcategory": "Video Games",
+    "difficulty": "medium",
+    "question": "Which Nintendo video game character travels through the Mushroom Kingdom to rescue Princess Peach?",
+    "options": [
+      "Mario",
+      "Link",
+      "Donkey Kong",
+      "Kirby"
+    ],
+    "answer": 0,
+    "explanation": "Mario rescues Princess Peach in the Super Mario series.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENT-000008",
+    "category": "Entertainment",
+    "subcategory": "Comics",
+    "difficulty": "hard",
+    "question": "What fictional metal alloy is bonded to Wolverine's skeleton and claws in Marvel Comics?",
+    "options": [
+      "Adamantium",
+      "Vibranium",
+      "Mithril",
+      "Uru"
+    ],
+    "answer": 0,
+    "explanation": "Wolverine's skeleton is bonded with indestructible Adamantium.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENT-000009",
+    "category": "Entertainment",
+    "subcategory": "Animation",
+    "difficulty": "easy",
+    "question": "What is the name of SpongeBob SquarePants' pet snail?",
+    "options": [
+      "Gary",
+      "Larry",
+      "Patrick",
+      "Plankton"
+    ],
+    "answer": 0,
+    "explanation": "Gary the Snail is SpongeBob's pet.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENT-000010",
+    "category": "Entertainment",
+    "subcategory": "Music",
+    "difficulty": "medium",
+    "question": "Who is the legendary lead singer of the rock band Queen?",
+    "options": [
+      "Freddie Mercury",
+      "Mick Jagger",
+      "Robert Plant",
+      "David Bowie"
+    ],
+    "answer": 0,
+    "explanation": "Freddie Mercury was the front man of Queen.",
+    "tags": [
+      "entertainment"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENT-000011",
+    "category": "Entertainment",
+    "subcategory": "Franchises",
+    "difficulty": "hard",
+    "question": "In 'The Lord of the Rings', what is the name of the volcano in Mordor where the One Ring was forged?",
+    "options": [
+      "Mount Doom (Orodruin)",
+      "Erebor",
+      "Caradhras",
+      "Mindolluin"
+    ],
+    "answer": 0,
+    "explanation": "The One Ring was forged in the fires of Mount Doom.",
+    "tags": [
+      "entertainment"
     ],
     "status": "active"
   }

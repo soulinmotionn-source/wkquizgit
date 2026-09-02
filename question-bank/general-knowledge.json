@@ -1,65 +1,210 @@
 [
   {
-    "id": "GK-000001",
+    "id": "GENKNOW-000001",
     "category": "General Knowledge",
-    "subcategory": "Earth Science",
+    "subcategory": "Earth",
     "difficulty": "easy",
-    "question": "What is the hardest naturally occurring mineral substance on planet Earth?",
+    "question": "What is the hardest naturally occurring mineral on Earth?",
     "options": [
       "Diamond",
       "Corundum",
-      "Topaz",
-      "Quartz"
+      "Quartz",
+      "Topaz"
     ],
     "answer": 0,
-    "explanation": "Diamond rates a maximum of 10 on the Mohs scale of mineral hardness.",
+    "explanation": "Diamond is 10 on the Mohs hardness scale.",
     "tags": [
-      "general-knowledge",
-      "minerals",
-      "science"
+      "general knowledge"
     ],
     "status": "active"
   },
   {
-    "id": "GK-000002",
+    "id": "GENKNOW-000002",
     "category": "General Knowledge",
-    "subcategory": "World Heritage",
+    "subcategory": "Time",
+    "difficulty": "easy",
+    "question": "How many days are in a standard leap year?",
+    "options": [
+      "366 days",
+      "365 days",
+      "364 days",
+      "360 days"
+    ],
+    "answer": 0,
+    "explanation": "A leap year adds February 29th for 366 days.",
+    "tags": [
+      "general knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENKNOW-000003",
+    "category": "General Knowledge",
+    "subcategory": "Landmarks",
     "difficulty": "medium",
-    "question": "In which country is the ancient pre-Columbian Inca citadel of Machu Picchu located?",
+    "question": "In which country is the ancient citadel of Machu Picchu located?",
     "options": [
       "Peru",
-      "Bolivia",
       "Chile",
-      "Mexico"
+      "Bolivia",
+      "Ecuador"
     ],
     "answer": 0,
-    "explanation": "Machu Picchu is a 15th-century Inca citadel located in the Cusco Region of Peru.",
+    "explanation": "Machu Picchu is in Peru.",
     "tags": [
-      "general-knowledge",
-      "geography",
-      "history",
-      "landmarks"
+      "general knowledge"
     ],
     "status": "active"
   },
   {
-    "id": "GK-000003",
+    "id": "GENKNOW-000004",
     "category": "General Knowledge",
-    "subcategory": "Oceans & Geography",
-    "difficulty": "hard",
-    "question": "What is the deepest known point in the Earth's oceans, situated in the Western Pacific?",
+    "subcategory": "Inventions",
+    "difficulty": "medium",
+    "question": "Who is credited with inventing the modern telephone in 1876?",
     "options": [
-      "Challenger Deep (Mariana Trench)",
-      "Puerto Rico Trench",
-      "Java Trench",
-      "Tonga Trench"
+      "Alexander Graham Bell",
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Guglielmo Marconi"
     ],
     "answer": 0,
-    "explanation": "Challenger Deep in the Mariana Trench reaches a depth of approximately 10,928 meters (35,853 feet).",
+    "explanation": "Alexander Graham Bell patented the telephone.",
     "tags": [
-      "general-knowledge",
-      "geography",
-      "oceans"
+      "general knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENKNOW-000005",
+    "category": "General Knowledge",
+    "subcategory": "Oceans",
+    "difficulty": "hard",
+    "question": "What is the only sea on Earth without land boundaries, defined by North Atlantic currents?",
+    "options": [
+      "Sargasso Sea",
+      "Coral Sea",
+      "Baltic Sea",
+      "Tasman Sea"
+    ],
+    "answer": 0,
+    "explanation": "Sargasso Sea is bounded by ocean currents.",
+    "tags": [
+      "general knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENKNOW-000006",
+    "category": "General Knowledge",
+    "subcategory": "Atmosphere",
+    "difficulty": "easy",
+    "question": "Which gas makes up approximately 78% of Earth's atmosphere by volume?",
+    "options": [
+      "Nitrogen (N2)",
+      "Oxygen (O2)",
+      "Carbon Dioxide",
+      "Argon"
+    ],
+    "answer": 0,
+    "explanation": "Nitrogen constitutes ~78% of Earth's air.",
+    "tags": [
+      "general knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENKNOW-000007",
+    "category": "General Knowledge",
+    "subcategory": "Anatomy",
+    "difficulty": "medium",
+    "question": "What is the largest organ of the human body by surface area and weight?",
+    "options": [
+      "Skin (Integumentary system)",
+      "Liver",
+      "Brain",
+      "Lungs"
+    ],
+    "answer": 0,
+    "explanation": "The skin is the largest human organ.",
+    "tags": [
+      "general knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENKNOW-000008",
+    "category": "General Knowledge",
+    "subcategory": "Astronomy",
+    "difficulty": "hard",
+    "question": "What type of astronomical star explosion marks the explosive gravitational collapse of a massive star?",
+    "options": [
+      "Supernova",
+      "Nebula",
+      "Pulsar",
+      "White Dwarf"
+    ],
+    "answer": 0,
+    "explanation": "A supernova is the catastrophic explosion of a massive star.",
+    "tags": [
+      "general knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENKNOW-000009",
+    "category": "General Knowledge",
+    "subcategory": "Chemistry",
+    "difficulty": "easy",
+    "question": "What is the primary chemical element that diamonds and graphite are composed of?",
+    "options": [
+      "Carbon",
+      "Silicon",
+      "Sulfur",
+      "Iron"
+    ],
+    "answer": 0,
+    "explanation": "Diamonds and graphite are allotropes of pure carbon.",
+    "tags": [
+      "general knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENKNOW-000010",
+    "category": "General Knowledge",
+    "subcategory": "Biology",
+    "difficulty": "medium",
+    "question": "How many chambers are inside the human heart?",
+    "options": [
+      "4 chambers",
+      "2 chambers",
+      "3 chambers",
+      "6 chambers"
+    ],
+    "answer": 0,
+    "explanation": "The human heart has 4 chambers: two atria and two ventricles.",
+    "tags": [
+      "general knowledge"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GENKNOW-000011",
+    "category": "General Knowledge",
+    "subcategory": "Architecture",
+    "difficulty": "hard",
+    "question": "In which city is the famous leaning bell tower (Campanile) of Pisa located?",
+    "options": [
+      "Pisa, Italy",
+      "Rome, Italy",
+      "Florence, Italy",
+      "Venice, Italy"
+    ],
+    "answer": 0,
+    "explanation": "The Leaning Tower is in the Piazza dei Miracoli in Pisa, Italy.",
+    "tags": [
+      "general knowledge"
     ],
     "status": "active"
   }

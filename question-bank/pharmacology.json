@@ -2,65 +2,323 @@
   {
     "id": "PHARM-000001",
     "category": "Pharmacology",
-    "subcategory": "Antihypertensives",
-    "difficulty": "medium",
-    "question": "Which class of antihypertensive medications commonly causes a dry, persistent cough due to bradykinin accumulation?",
+    "subcategory": "Analgesics",
+    "difficulty": "easy",
+    "question": "What emergency medication reverses opioid overdose respiratory depression?",
     "options": [
-      "ACE Inhibitors (e.g. Lisinopril)",
-      "Beta Blockers (e.g. Metoprolol)",
-      "Calcium Channel Blockers (e.g. Amlodipine)",
-      "Thiazide Diuretics (e.g. Hydrochlorothiazide)"
+      "Naloxone (Narcan)",
+      "Atropine",
+      "Epinephrine",
+      "Flumazenil"
     ],
     "answer": 0,
-    "explanation": "ACE inhibitors prevent the breakdown of bradykinin and substance P in the respiratory tract, provoking a dry cough.",
+    "explanation": "Naloxone reverses opioids.",
     "tags": [
-      "pharmacology",
-      "hypertension",
-      "ace-inhibitors"
+      "pharmacology"
     ],
     "status": "active"
   },
   {
     "id": "PHARM-000002",
     "category": "Pharmacology",
-    "subcategory": "Antidotes",
-    "difficulty": "hard",
-    "question": "What is the specific reversal agent (antidote) for heparin-induced anticoagulation?",
+    "subcategory": "Antipyretics",
+    "difficulty": "easy",
+    "question": "Which common analgesic carries high risk of liver toxicity in overdose?",
     "options": [
-      "Protamine Sulfate",
-      "Vitamin K (Phytonadione)",
-      "Naloxone (Narcan)",
-      "Flumazenil"
+      "Acetaminophen (Paracetamol)",
+      "Ibuprofen",
+      "Naproxen",
+      "Aspirin"
     ],
     "answer": 0,
-    "explanation": "Protamine sulfate binds strongly to heparin to form an inactive salt complex. Vitamin K reverses Warfarin.",
+    "explanation": "Acetaminophen can cause acute liver failure.",
     "tags": [
-      "pharmacology",
-      "antidotes",
-      "hematology",
-      "heparin"
+      "pharmacology"
     ],
     "status": "active"
   },
   {
     "id": "PHARM-000003",
     "category": "Pharmacology",
-    "subcategory": "Analgesics",
+    "subcategory": "Antibiotics",
     "difficulty": "easy",
-    "question": "What is the specific emergency reversal medication administered for opioid overdose (respiratory depression)?",
+    "question": "What common class of antibiotics includes amoxicillin and piperacillin?",
     "options": [
-      "Naloxone (Narcan)",
-      "Atropine",
-      "Epinephrine",
-      "Glucagon"
+      "Penicillins",
+      "Macrolides",
+      "Aminoglycosides",
+      "Fluoroquinolones"
     ],
     "answer": 0,
-    "explanation": "Naloxone is a pure opioid antagonist that rapidly displaces opioids from mu-receptors, reversing life-threatening respiratory depression.",
+    "explanation": "Amoxicillin belongs to the beta-lactam penicillin class.",
     "tags": [
-      "pharmacology",
-      "emergency",
-      "opioids",
-      "naloxone"
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000004",
+    "category": "Pharmacology",
+    "subcategory": "Cardiac",
+    "difficulty": "easy",
+    "question": "What is sublingual Nitroglycerin primarily prescribed to relieve in cardiac clients?",
+    "options": [
+      "Acute angina pectoris (chest pain)",
+      "Severe asthma attack",
+      "Diabetic ketoacidosis",
+      "High fever"
+    ],
+    "answer": 0,
+    "explanation": "Nitroglycerin vasodilates coronary vessels to relieve angina.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000005",
+    "category": "Pharmacology",
+    "subcategory": "Cardiology",
+    "difficulty": "medium",
+    "question": "Which blood pressure drug class commonly causes a persistent dry cough?",
+    "options": [
+      "ACE Inhibitors (e.g. Lisinopril)",
+      "Beta Blockers",
+      "Calcium Channel Blockers",
+      "Diuretics"
+    ],
+    "answer": 0,
+    "explanation": "ACE inhibitors increase bradykinin.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000006",
+    "category": "Pharmacology",
+    "subcategory": "Anticoagulants",
+    "difficulty": "medium",
+    "question": "What is the specific dietary education required for clients taking Warfarin (Coumadin)?",
+    "options": [
+      "Maintain a consistent daily intake of Vitamin K rich green vegetables",
+      "Completely avoid all sodium",
+      "Eat high potassium bananas daily",
+      "Drink 4 liters of grapefruit juice"
+    ],
+    "answer": 0,
+    "explanation": "Fluctuating Vitamin K intake alters Warfarin anticoagulation efficacy.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000007",
+    "category": "Pharmacology",
+    "subcategory": "Diuretics",
+    "difficulty": "medium",
+    "question": "Furosemide (Lasix) is a loop diuretic that requires monitoring of which serum electrolyte to prevent cardiac arrhythmias?",
+    "options": [
+      "Potassium (K+)",
+      "Calcium (Ca2+)",
+      "Phosphate",
+      "Iron"
+    ],
+    "answer": 0,
+    "explanation": "Loop diuretics cause renal potassium excretion and hypokalemia.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000008",
+    "category": "Pharmacology",
+    "subcategory": "Respiratory",
+    "difficulty": "medium",
+    "question": "What classification of drug is Albuterol (Ventolin) during an acute asthma attack?",
+    "options": [
+      "Short-acting beta-2 adrenergic agonist (SABA)",
+      "Inhaled corticosteroid",
+      "Long-acting anticholinergic",
+      "Mast cell stabilizer"
+    ],
+    "answer": 0,
+    "explanation": "Albuterol is a fast-acting bronchodilator SABA.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000009",
+    "category": "Pharmacology",
+    "subcategory": "Antidotes",
+    "difficulty": "hard",
+    "question": "What is the specific antidote used to reverse Heparin anticoagulation?",
+    "options": [
+      "Protamine Sulfate",
+      "Vitamin K",
+      "Naloxone",
+      "Digibind"
+    ],
+    "answer": 0,
+    "explanation": "Protamine sulfate neutralizes heparin.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000010",
+    "category": "Pharmacology",
+    "subcategory": "Benzodiazepines",
+    "difficulty": "hard",
+    "question": "What is the specific reversal agent (antagonist) for benzodiazepine overdose (e.g. Midazolam, Lorazepam)?",
+    "options": [
+      "Flumazenil",
+      "Protamine Sulfate",
+      "N-acetylcysteine",
+      "Deferoxamine"
+    ],
+    "answer": 0,
+    "explanation": "Flumazenil is the competitive benzodiazepine receptor antagonist.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000011",
+    "category": "Pharmacology",
+    "subcategory": "Therapeutic Range",
+    "difficulty": "hard",
+    "question": "What is the narrow therapeutic serum range for Digoxin in heart failure management?",
+    "options": [
+      "0.5 to 0.9 ng/mL (or up to 2.0 ng/mL in arrhythmias)",
+      "5.0 to 10.0 ng/mL",
+      "10 to 20 mcg/mL",
+      "50 to 100 mg/dL"
+    ],
+    "answer": 0,
+    "explanation": "Digoxin toxicity occurs frequently when serum levels exceed 2.0 ng/mL.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000012",
+    "category": "Pharmacology",
+    "subcategory": "Cardiovascular",
+    "difficulty": "easy",
+    "question": "What class of medication is Metoprolol (Lopressor)?",
+    "options": [
+      "Beta-blocker (beta-1 selective antagonist)",
+      "ACE inhibitor",
+      "Calcium channel blocker",
+      "Alpha agonist"
+    ],
+    "answer": 0,
+    "explanation": "Metoprolol is a cardioselective beta-1 adrenergic antagonist.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000013",
+    "category": "Pharmacology",
+    "subcategory": "Endocrine",
+    "difficulty": "medium",
+    "question": "What is the rapid-acting insulin analog that has an onset of action in 10-15 minutes?",
+    "options": [
+      "Insulin Lispro (Humalog) / Aspart",
+      "Regular Insulin (Humulin R)",
+      "NPH Insulin",
+      "Insulin Glargine (Lantus)"
+    ],
+    "answer": 0,
+    "explanation": "Lispro/Aspart are rapid-acting insulins with 10-15 min onset.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000014",
+    "category": "Pharmacology",
+    "subcategory": "Toxicology",
+    "difficulty": "hard",
+    "question": "What is the specific antidote for Acetaminophen (Tylenol) overdose toxicity?",
+    "options": [
+      "N-acetylcysteine (NAC)",
+      "Deferoxamine",
+      "Dimercaprol",
+      "Pralidoxime"
+    ],
+    "answer": 0,
+    "explanation": "N-acetylcysteine replenishes hepatic glutathione reserves to detoxify NAPQI.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000015",
+    "category": "Pharmacology",
+    "subcategory": "GI",
+    "difficulty": "easy",
+    "question": "What class of medication is Omeprazole (Prilosec)?",
+    "options": [
+      "Proton Pump Inhibitor (PPI)",
+      "H2 Receptor Blocker",
+      "Antacid",
+      "Prokinetic"
+    ],
+    "answer": 0,
+    "explanation": "Omeprazole irreversibly inhibits H+/K+ ATPase proton pumps in gastric parietal cells.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000016",
+    "category": "Pharmacology",
+    "subcategory": "Psychiatry",
+    "difficulty": "medium",
+    "question": "What class of antidepressants includes Fluoxetine (Prozac) and Sertraline (Zoloft)?",
+    "options": [
+      "Selective Serotonin Reuptake Inhibitors (SSRIs)",
+      "Tricyclic Antidepressants (TCAs)",
+      "Monoamine Oxidase Inhibitors (MAOIs)",
+      "Benzodiazepines"
+    ],
+    "answer": 0,
+    "explanation": "SSRIs inhibit presynaptic serotonin reuptake.",
+    "tags": [
+      "pharmacology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000017",
+    "category": "Pharmacology",
+    "subcategory": "Cardiac",
+    "difficulty": "hard",
+    "question": "What is the primary mechanism of action of Amiodarone in cardiac arrhythmia management?",
+    "options": [
+      "Class III Potassium Channel Blocker that prolongs action potential duration",
+      "Class I Sodium Channel Blocker",
+      "Pure Beta-1 Agonist",
+      "Adenosine receptor antagonist"
+    ],
+    "answer": 0,
+    "explanation": "Amiodarone is predominantly a Class III antiarrhythmic prolonging repolarization.",
+    "tags": [
+      "pharmacology"
     ],
     "status": "active"
   }

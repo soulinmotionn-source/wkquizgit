@@ -4,61 +4,226 @@
     "category": "Automotive",
     "subcategory": "Engines",
     "difficulty": "easy",
-    "question": "In a 4-stroke internal combustion engine, what is the correct sequence of strokes?",
+    "question": "What is the correct sequence of strokes in a four-stroke internal combustion engine?",
     "options": [
-      "Intake, Compression, Power (Combustion), Exhaust",
+      "Intake, Compression, Power, Exhaust",
       "Compression, Intake, Power, Exhaust",
       "Power, Intake, Compression, Exhaust",
       "Intake, Power, Compression, Exhaust"
     ],
     "answer": 0,
-    "explanation": "The 4-stroke cycle consists of: 1. Intake, 2. Compression, 3. Power, 4. Exhaust.",
+    "explanation": "Cycle is Intake, Compression, Power, Exhaust.",
     "tags": [
-      "automotive",
-      "engines",
-      "mechanics"
+      "automotive"
     ],
     "status": "active"
   },
   {
     "id": "AUTO-000002",
     "category": "Automotive",
-    "subcategory": "Braking",
-    "difficulty": "medium",
-    "question": "What is the primary function of an Anti-lock Braking System (ABS)?",
+    "subcategory": "Fluids",
+    "difficulty": "easy",
+    "question": "What fluid is used to lubricate internal engine components and reduce friction?",
     "options": [
-      "Prevent wheels from locking up during hard braking to maintain steering control",
-      "Cut braking distance by 80%",
-      "Engage the emergency parking brake automatically",
-      "Cool the brake pads with fans"
+      "Motor Engine Oil",
+      "Brake fluid",
+      "Windshield washer fluid",
+      "Power steering fluid"
     ],
     "answer": 0,
-    "explanation": "ABS pulses brake hydraulic pressure to prevent tire skidding, allowing the driver to steer safely while braking hard.",
+    "explanation": "Engine oil lubricates pistons, crankshafts, and bearings.",
     "tags": [
-      "automotive",
-      "safety",
-      "brakes"
+      "automotive"
     ],
     "status": "active"
   },
   {
     "id": "AUTO-000003",
     "category": "Automotive",
-    "subcategory": "Diagnostics",
-    "difficulty": "hard",
-    "question": "In automotive OBD-II onboard diagnostics, what does a Diagnostic Trouble Code (DTC) starting with 'P0300' indicate?",
+    "subcategory": "Brakes",
+    "difficulty": "medium",
+    "question": "What is the primary function of Anti-lock Brakes (ABS)?",
     "options": [
-      "Random or multiple cylinder engine misfire detected",
-      "Oxygen sensor heater circuit malfunction",
-      "Catalytic converter efficiency below threshold",
-      "Evaporative emission system leak"
+      "Prevent wheel lock-up during hard braking to preserve steering control",
+      "Cut stopping distance in half",
+      "Apply emergency brake",
+      "Cool the rotors"
     ],
     "answer": 0,
-    "explanation": "P0300 indicates that random or multiple cylinders are experiencing combustion misfires.",
+    "explanation": "ABS pulses pressure to avoid skids and keep steering.",
     "tags": [
-      "automotive",
-      "obd2",
-      "diagnostics"
+      "automotive"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "AUTO-000004",
+    "category": "Automotive",
+    "subcategory": "Electrical",
+    "difficulty": "medium",
+    "question": "What automotive component generates electrical power while the engine runs and recharges the 12V battery?",
+    "options": [
+      "Alternator",
+      "Starter motor",
+      "Ignition coil",
+      "Distributor"
+    ],
+    "answer": 0,
+    "explanation": "The alternator converts mechanical engine rotation into DC electrical power.",
+    "tags": [
+      "automotive"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "AUTO-000005",
+    "category": "Automotive",
+    "subcategory": "Diagnostics",
+    "difficulty": "hard",
+    "question": "In OBD-II diagnostics, what does trouble code P0300 indicate?",
+    "options": [
+      "Random or multiple cylinder misfire detected",
+      "O2 sensor fault",
+      "Catalytic converter failure",
+      "EVAP leak"
+    ],
+    "answer": 0,
+    "explanation": "P0300 indicates multi-cylinder misfires.",
+    "tags": [
+      "automotive"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "AUTO-000006",
+    "category": "Automotive",
+    "subcategory": "Emissions",
+    "difficulty": "hard",
+    "question": "What is the primary function of the Catalytic Converter in an automobile exhaust system?",
+    "options": [
+      "Convert toxic exhaust gases (CO, HC, NOx) into CO2, H2O, and N2 using precious metals",
+      "Muffle engine exhaust sound",
+      "Increase engine horsepower by 20%",
+      "Filter solid carbon soot particles"
+    ],
+    "answer": 0,
+    "explanation": "Catalytic converters use platinum/palladium/rhodium to catalyze redox reactions on toxic exhaust gases.",
+    "tags": [
+      "automotive"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "AUTO-000007",
+    "category": "Automotive",
+    "subcategory": "Cooling",
+    "difficulty": "easy",
+    "question": "What automotive component regulates engine coolant flow to maintain optimal operating temperature?",
+    "options": [
+      "Thermostat",
+      "Radiator Cap",
+      "Water Pump",
+      "Heater Core"
+    ],
+    "answer": 0,
+    "explanation": "The thermostat opens when coolant reaches operating temperature.",
+    "tags": [
+      "automotive"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "AUTO-000008",
+    "category": "Automotive",
+    "subcategory": "Transmission",
+    "difficulty": "medium",
+    "question": "What component in a torque converter uses fluid dynamics to multiply engine torque at low speeds?",
+    "options": [
+      "Stator",
+      "Impeller",
+      "Turbine",
+      "Lockup Clutch"
+    ],
+    "answer": 0,
+    "explanation": "The stator redirects fluid between impeller and turbine to multiply torque.",
+    "tags": [
+      "automotive"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "AUTO-000009",
+    "category": "Automotive",
+    "subcategory": "Ignition",
+    "difficulty": "hard",
+    "question": "In gasoline direct injection (GDI) engines, what pressure range does the high-pressure fuel rail typically operate at?",
+    "options": [
+      "500 to 2,900+ PSI (35 to 200 bar)",
+      "40 to 60 PSI",
+      "10 to 15 PSI",
+      "10,000 to 20,000 PSI"
+    ],
+    "answer": 0,
+    "explanation": "GDI systems operate at high pressures (up to 200+ bar) to atomize fuel directly into cylinders.",
+    "tags": [
+      "automotive"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "AUTO-000010",
+    "category": "Automotive",
+    "subcategory": "Tires",
+    "difficulty": "easy",
+    "question": "What does 'PSI' measure when inflating automotive vehicle tires?",
+    "options": [
+      "Pounds per Square Inch (pressure)",
+      "Power Speed Index",
+      "Piston Stroke Interval",
+      "Pedal Sensitivity Indicator"
+    ],
+    "answer": 0,
+    "explanation": "PSI measures pneumatic tire air pressure.",
+    "tags": [
+      "automotive"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "AUTO-000011",
+    "category": "Automotive",
+    "subcategory": "Suspension",
+    "difficulty": "medium",
+    "question": "What suspension component dampens spring oscillations to prevent bouncing after hitting a bump?",
+    "options": [
+      "Shock Absorber (Strut)",
+      "Sway bar",
+      "Control Arm",
+      "Tie Rod"
+    ],
+    "answer": 0,
+    "explanation": "Shock absorbers convert kinetic spring energy into heat via hydraulic fluid.",
+    "tags": [
+      "automotive"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "AUTO-000012",
+    "category": "Automotive",
+    "subcategory": "Forced Induction",
+    "difficulty": "hard",
+    "question": "What drives the turbine impeller in an automotive Turbocharger?",
+    "options": [
+      "Engine exhaust gases",
+      "A belt driven by the crankshaft",
+      "An electric 48V motor",
+      "Intake manifold vacuum"
+    ],
+    "answer": 0,
+    "explanation": "Turbochargers utilize hot exhaust gas energy; Superchargers are belt-driven.",
+    "tags": [
+      "automotive"
     ],
     "status": "active"
   }

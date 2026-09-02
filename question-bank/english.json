@@ -1,51 +1,86 @@
 [
   {
-    "id": "ENG-LANG-000001",
+    "id": "ENGL-000001",
     "category": "English & Grammar",
     "subcategory": "Grammar",
     "difficulty": "easy",
-    "question": "Which sentence demonstrates correct subject-verb agreement?",
+    "question": "Which part of speech modifies or describes a noun?",
     "options": [
-      "Neither the doctor nor the nurses were available.",
-      "Neither the doctor nor the nurses was available.",
-      "Every one of the candidates have submitted papers.",
-      "The list of items are on the desk."
+      "Adjective",
+      "Verb",
+      "Preposition",
+      "Adverb"
     ],
     "answer": 0,
-    "explanation": "With 'neither... nor...', the verb agrees with the closer subject ('the nurses' is plural, requiring 'were').",
+    "explanation": "Adjectives modify nouns.",
     "tags": [
-      "english",
-      "grammar"
+      "english & grammar"
     ],
     "status": "active"
   },
   {
-    "id": "ENG-LANG-000002",
+    "id": "ENGL-000002",
+    "category": "English & Grammar",
+    "subcategory": "Punctuation",
+    "difficulty": "easy",
+    "question": "Which punctuation mark is used to indicate a direct question?",
+    "options": [
+      "Question mark (?)",
+      "Exclamation mark (!)",
+      "Comma (,)",
+      "Semicolon (;)"
+    ],
+    "answer": 0,
+    "explanation": "A question mark ends interrogative sentences.",
+    "tags": [
+      "english & grammar"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGL-000003",
+    "category": "English & Grammar",
+    "subcategory": "Grammar",
+    "difficulty": "medium",
+    "question": "Which sentence exhibits correct subject-verb agreement?",
+    "options": [
+      "Neither the doctor nor the nurses were available",
+      "Neither the doctor nor the nurses was available",
+      "Each of the boys are here",
+      "The list of items are lost"
+    ],
+    "answer": 0,
+    "explanation": "Verb agrees with closer subject ('nurses were').",
+    "tags": [
+      "english & grammar"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGL-000004",
     "category": "English & Grammar",
     "subcategory": "Vocabulary",
     "difficulty": "medium",
-    "question": "What is the antonym (opposite meaning) of the word 'Ephemeral'?",
+    "question": "What is the antonym of 'Ephemeral'?",
     "options": [
       "Permanent",
       "Fleeting",
       "Transient",
-      "Brief"
+      "Short-lived"
     ],
     "answer": 0,
-    "explanation": "'Ephemeral' means lasting for a very short time; its antonym is 'permanent' or 'enduring'.",
+    "explanation": "Permanent is the opposite of ephemeral.",
     "tags": [
-      "english",
-      "vocabulary",
-      "antonyms"
+      "english & grammar"
     ],
     "status": "active"
   },
   {
-    "id": "ENG-LANG-000003",
+    "id": "ENGL-000005",
     "category": "English & Grammar",
-    "subcategory": "Figures of Speech",
+    "subcategory": "Rhetoric",
     "difficulty": "hard",
-    "question": "What rhetorical device is used in the phrase 'He is no fool' to affirm a positive by negating its contrary?",
+    "question": "What rhetorical figure uses understatement by denying the contrary (e.g. 'not bad')?",
     "options": [
       "Litotes",
       "Chiasmus",
@@ -53,11 +88,142 @@
       "Metonymy"
     ],
     "answer": 0,
-    "explanation": "Litotes is an understatement in which an affirmative is expressed by negating its opposite (e.g. 'not bad', 'no fool').",
+    "explanation": "Litotes expresses an affirmative by negating its opposite.",
     "tags": [
-      "english",
-      "rhetoric",
-      "figures-of-speech"
+      "english & grammar"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGL-000006",
+    "category": "English & Grammar",
+    "subcategory": "Syntax",
+    "difficulty": "hard",
+    "question": "What is the term for a clause that cannot stand alone as a complete sentence and starts with a subordinating conjunction?",
+    "options": [
+      "Subordinate (Dependent) Clause",
+      "Independent Clause",
+      "Absolute Phrase",
+      "Appositive"
+    ],
+    "answer": 0,
+    "explanation": "A dependent clause cannot stand alone as a complete thought.",
+    "tags": [
+      "english & grammar"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGL-000007",
+    "category": "English & Grammar",
+    "subcategory": "Punctuation",
+    "difficulty": "easy",
+    "question": "Which punctuation mark is used to show possession (e.g. 'Sarah's book') or contraction ('don't')?",
+    "options": [
+      "Apostrophe (')",
+      "Hyphen (-)",
+      "Colon (:)",
+      "Semicolon (;)"
+    ],
+    "answer": 0,
+    "explanation": "Apostrophes denote possession and contractions.",
+    "tags": [
+      "english & grammar"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGL-000008",
+    "category": "English & Grammar",
+    "subcategory": "Vocabulary",
+    "difficulty": "medium",
+    "question": "What word describes an exaggeration used for rhetorical emphasis, such as 'I have a million things to do'?",
+    "options": [
+      "Hyperbole",
+      "Metaphor",
+      "Simile",
+      "Oxymoron"
+    ],
+    "answer": 0,
+    "explanation": "Hyperbole is intentional rhetorical exaggeration.",
+    "tags": [
+      "english & grammar"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGL-000009",
+    "category": "English & Grammar",
+    "subcategory": "Grammar",
+    "difficulty": "hard",
+    "question": "Which verbal form ends in '-ing' and functions as a noun in a sentence (e.g. 'Swimming is great exercise')?",
+    "options": [
+      "Gerund",
+      "Participle",
+      "Infinitive",
+      "Preposition"
+    ],
+    "answer": 0,
+    "explanation": "A gerund is a verb form ending in -ing that functions as a noun.",
+    "tags": [
+      "english & grammar"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGL-000010",
+    "category": "English & Grammar",
+    "subcategory": "Vocabulary",
+    "difficulty": "easy",
+    "question": "What is a word that means the opposite of another word called?",
+    "options": [
+      "Antonym",
+      "Synonym",
+      "Homophone",
+      "Acronym"
+    ],
+    "answer": 0,
+    "explanation": "Antonyms are words with opposite meanings.",
+    "tags": [
+      "english & grammar"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGL-000011",
+    "category": "English & Grammar",
+    "subcategory": "Syntax",
+    "difficulty": "medium",
+    "question": "Which word in the sentence 'She quickly ran home' is an adverb?",
+    "options": [
+      "Quickly",
+      "Ran",
+      "She",
+      "Home"
+    ],
+    "answer": 0,
+    "explanation": "'Quickly' modifies the verb 'ran', making it an adverb.",
+    "tags": [
+      "english & grammar"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENGL-000012",
+    "category": "English & Grammar",
+    "subcategory": "Literature",
+    "difficulty": "hard",
+    "question": "What literary term describes the attribution of human characteristics or emotions to inanimate objects or animals?",
+    "options": [
+      "Personification / Anthropomorphism",
+      "Oxymoron",
+      "Alliteration",
+      "Synecdoche"
+    ],
+    "answer": 0,
+    "explanation": "Personification attributes human qualities to non-human entities.",
+    "tags": [
+      "english & grammar"
     ],
     "status": "active"
   }

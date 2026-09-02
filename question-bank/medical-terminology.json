@@ -8,57 +8,317 @@
     "options": [
       "Slow",
       "Fast",
-      "Difficult or painful",
+      "Difficult",
       "Excessive"
     ],
     "answer": 0,
-    "explanation": "'Brady-' means slow (e.g. bradycardia = abnormally slow heart rate). 'Tachy-' means fast.",
+    "explanation": "'Brady-' means slow.",
     "tags": [
-      "medical-terminology",
-      "prefixes",
-      "vocabulary"
+      "medical terminology"
     ],
     "status": "active"
   },
   {
     "id": "MEDTERM-000002",
     "category": "Medical Terminology",
-    "subcategory": "Suffixes",
-    "difficulty": "medium",
-    "question": "The surgical suffix '-ectomy' indicates which procedure?",
+    "subcategory": "Prefixes",
+    "difficulty": "easy",
+    "question": "What does the medical prefix 'Tachy-' mean?",
     "options": [
-      "Surgical removal or excision",
-      "Creating an artificial opening",
-      "Surgical repair or reconstruction",
-      "Visual examination with an endoscope"
+      "Fast / Rapid",
+      "Slow",
+      "Below",
+      "Against"
     ],
     "answer": 0,
-    "explanation": "'-ectomy' denotes surgical excision (e.g. appendectomy). '-ostomy' is creating an opening, and '-plasty' is surgical repair.",
+    "explanation": "'Tachy-' means fast.",
     "tags": [
-      "medical-terminology",
-      "suffixes",
-      "surgery"
+      "medical terminology"
     ],
     "status": "active"
   },
   {
     "id": "MEDTERM-000003",
     "category": "Medical Terminology",
-    "subcategory": "Clinical Terms",
-    "difficulty": "hard",
-    "question": "What does the medical term 'Hemoptysis' specifically refer to?",
+    "subcategory": "Prefixes",
+    "difficulty": "easy",
+    "question": "What does the prefix 'Hyper-' indicate?",
     "options": [
-      "Coughing up blood from the respiratory tract",
-      "Vomiting blood from the gastrointestinal tract",
-      "Blood in the urine",
-      "Bleeding from the nasal cavity"
+      "Above / Excessive",
+      "Below / Deficient",
+      "Within",
+      "Around"
     ],
     "answer": 0,
-    "explanation": "Hemoptysis is the coughing up of blood. Vomiting blood is hematemesis, blood in urine is hematuria, and nosebleed is epistaxis.",
+    "explanation": "'Hyper-' means above normal or excessive.",
     "tags": [
-      "medical-terminology",
-      "clinical",
-      "pulmonology"
+      "medical terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000004",
+    "category": "Medical Terminology",
+    "subcategory": "Prefixes",
+    "difficulty": "easy",
+    "question": "What does the prefix 'Hypo-' indicate?",
+    "options": [
+      "Below / Deficient",
+      "Above",
+      "Between",
+      "Across"
+    ],
+    "answer": 0,
+    "explanation": "'Hypo-' indicates deficient or below normal.",
+    "tags": [
+      "medical terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000005",
+    "category": "Medical Terminology",
+    "subcategory": "Suffixes",
+    "difficulty": "medium",
+    "question": "What does the surgical suffix '-ectomy' indicate?",
+    "options": [
+      "Surgical removal or excision",
+      "Creating an artificial opening",
+      "Surgical repair",
+      "Endoscopic viewing"
+    ],
+    "answer": 0,
+    "explanation": "'-ectomy' means surgical removal.",
+    "tags": [
+      "medical terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000006",
+    "category": "Medical Terminology",
+    "subcategory": "Suffixes",
+    "difficulty": "medium",
+    "question": "What does the surgical suffix '-ostomy' signify?",
+    "options": [
+      "Creating a new artificial opening",
+      "Incision / cutting into",
+      "Surgical repair",
+      "Crushing of stone"
+    ],
+    "answer": 0,
+    "explanation": "'-ostomy' creates an opening.",
+    "tags": [
+      "medical terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000007",
+    "category": "Medical Terminology",
+    "subcategory": "Suffixes",
+    "difficulty": "medium",
+    "question": "What does the diagnostic suffix '-scopy' denote?",
+    "options": [
+      "Visual examination with an instrument",
+      "Surgical puncture to aspirate fluid",
+      "Record or picture",
+      "Incision into an organ"
+    ],
+    "answer": 0,
+    "explanation": "'-scopy' means visual examination (e.g. endoscopy).",
+    "tags": [
+      "medical terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000008",
+    "category": "Medical Terminology",
+    "subcategory": "Root Words",
+    "difficulty": "medium",
+    "question": "What anatomical structure does the root word 'Nephr/o' or 'Ren/o' refer to?",
+    "options": [
+      "Kidney",
+      "Liver",
+      "Spleen",
+      "Lung"
+    ],
+    "answer": 0,
+    "explanation": "'Nephro' and 'Reno' refer to the kidneys.",
+    "tags": [
+      "medical terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000009",
+    "category": "Medical Terminology",
+    "subcategory": "Pathology",
+    "difficulty": "hard",
+    "question": "What does the clinical term 'Hemoptysis' refer to?",
+    "options": [
+      "Coughing up blood from the respiratory tract",
+      "Vomiting blood",
+      "Blood in urine",
+      "Nosebleed"
+    ],
+    "answer": 0,
+    "explanation": "Hemoptysis is coughing up blood.",
+    "tags": [
+      "medical terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000010",
+    "category": "Medical Terminology",
+    "subcategory": "Clinical Terms",
+    "difficulty": "hard",
+    "question": "What does the term 'Oliguria' specifically define in an adult clinical context?",
+    "options": [
+      "Urine output less than 400-500 mL per 24 hours",
+      "Absence of any urine output",
+      "Excessive urination over 3 liters daily",
+      "Painful urination with burning"
+    ],
+    "answer": 0,
+    "explanation": "Oliguria is defined as urine output < 400 mL/24 hr in adults.",
+    "tags": [
+      "medical terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000011",
+    "category": "Medical Terminology",
+    "subcategory": "Anatomical Planes",
+    "difficulty": "hard",
+    "question": "Which anatomical plane divides the human body into anterior (front) and posterior (back) portions?",
+    "options": [
+      "Coronal (Frontal) plane",
+      "Sagittal plane",
+      "Transverse (Horizontal) plane",
+      "Midsagittal plane"
+    ],
+    "answer": 0,
+    "explanation": "The coronal/frontal plane separates front and back.",
+    "tags": [
+      "medical terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000012",
+    "category": "Medical Terminology",
+    "subcategory": "Roots",
+    "difficulty": "easy",
+    "question": "What organ does the medical root 'Hepat/o' refer to?",
+    "options": [
+      "Liver",
+      "Stomach",
+      "Heart",
+      "Brain"
+    ],
+    "answer": 0,
+    "explanation": "'Hepato' refers to the liver (e.g. hepatitis).",
+    "tags": [
+      "medical terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000013",
+    "category": "Medical Terminology",
+    "subcategory": "Suffixes",
+    "difficulty": "medium",
+    "question": "What does the suffix '-megaly' mean in medical conditions?",
+    "options": [
+      "Abnormal enlargement",
+      "Inflammation",
+      "Surgical repair",
+      "Deficiency"
+    ],
+    "answer": 0,
+    "explanation": "'-megaly' denotes enlargement (e.g. cardiomegaly, hepatomegaly).",
+    "tags": [
+      "medical terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000014",
+    "category": "Medical Terminology",
+    "subcategory": "Prefixes",
+    "difficulty": "hard",
+    "question": "What does the term 'Dysphagia' specifically denote?",
+    "options": [
+      "Difficulty swallowing",
+      "Difficulty speaking",
+      "Difficulty breathing",
+      "Painful urination"
+    ],
+    "answer": 0,
+    "explanation": "Dysphagia is difficulty swallowing; Dysphasia is difficulty speaking.",
+    "tags": [
+      "medical terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000015",
+    "category": "Medical Terminology",
+    "subcategory": "Roots",
+    "difficulty": "easy",
+    "question": "What anatomical structure does the medical root 'Cardi/o' refer to?",
+    "options": [
+      "Heart",
+      "Lungs",
+      "Brain",
+      "Liver"
+    ],
+    "answer": 0,
+    "explanation": "'Cardio' refers to the heart.",
+    "tags": [
+      "medical terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000016",
+    "category": "Medical Terminology",
+    "subcategory": "Suffixes",
+    "difficulty": "medium",
+    "question": "What does the suffix '-itis' indicate?",
+    "options": [
+      "Inflammation",
+      "Surgical removal",
+      "Pain",
+      "Paralysis"
+    ],
+    "answer": 0,
+    "explanation": "'-itis' indicates inflammation (e.g. appendicitis, gastritis).",
+    "tags": [
+      "medical terminology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000017",
+    "category": "Medical Terminology",
+    "subcategory": "Prefixes",
+    "difficulty": "hard",
+    "question": "What does the clinical term 'Anisocoria' describe?",
+    "options": [
+      "Unequal pupil sizes",
+      "Absence of iris",
+      "Double vision",
+      "Involuntary rapid eye movements"
+    ],
+    "answer": 0,
+    "explanation": "Anisocoria is unequal pupil diameter.",
+    "tags": [
+      "medical terminology"
     ],
     "status": "active"
   }

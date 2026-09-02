@@ -2,51 +2,123 @@
   {
     "id": "ELECSYM-000001",
     "category": "Electrical Symbols",
-    "subcategory": "Schematic Symbols",
+    "subcategory": "Schematic",
     "difficulty": "easy",
-    "question": "In electrical circuit schematics, what does a symbol composed of alternating long and short parallel lines represent?",
+    "question": "What does a symbol of alternating long and short parallel lines represent?",
     "options": [
-      "DC Voltage Source / Battery",
+      "DC Battery / Cell",
       "Capacitor",
-      "Ground connection",
-      "Transformer"
+      "Ground",
+      "Inductor"
     ],
     "answer": 0,
-    "explanation": "Alternating long (positive) and short thick (negative) parallel lines represent a DC chemical battery or cell.",
+    "explanation": "Long/short lines represent a battery.",
     "tags": [
-      "electrical-symbols",
-      "schematics",
-      "circuits"
+      "electrical symbols"
     ],
     "status": "active"
   },
   {
     "id": "ELECSYM-000002",
     "category": "Electrical Symbols",
-    "subcategory": "Passive Components",
-    "difficulty": "medium",
-    "question": "On an electronic schematic, what component is depicted by a zigzag line in US standards or a plain rectangle in IEC European standards?",
+    "subcategory": "Grounding",
+    "difficulty": "easy",
+    "question": "What does a symbol with three decreasing horizontal lines attached to a vertical line represent?",
     "options": [
-      "Resistor",
-      "Inductor",
-      "Diode",
-      "Fuse"
+      "Earth / Chassis Ground",
+      "Fuse",
+      "Antenna",
+      "Diode"
     ],
     "answer": 0,
-    "explanation": "ANSI/IEEE US schematics use a zigzag line for fixed resistors; IEC/European schematics use an open rectangle.",
+    "explanation": "The descending parallel lines represent Earth ground.",
     "tags": [
-      "electrical-symbols",
-      "resistors",
-      "blueprints"
+      "electrical symbols"
     ],
     "status": "active"
   },
   {
     "id": "ELECSYM-000003",
     "category": "Electrical Symbols",
+    "subcategory": "Switching",
+    "difficulty": "easy",
+    "question": "What component is depicted by a break in a line with a diagonal open lever?",
+    "options": [
+      "Single Pole Single Throw (SPST) Switch",
+      "Capacitor",
+      "Resistor",
+      "Fuse"
+    ],
+    "answer": 0,
+    "explanation": "An open diagonal line represents a SPST switch.",
+    "tags": [
+      "electrical symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECSYM-000004",
+    "category": "Electrical Symbols",
+    "subcategory": "Passive",
+    "difficulty": "medium",
+    "question": "In US schematics, what component is depicted by a sharp zigzag line?",
+    "options": [
+      "Fixed Resistor",
+      "Inductor",
+      "Transformer",
+      "Switch"
+    ],
+    "answer": 0,
+    "explanation": "Zigzag lines represent resistors in US standards.",
+    "tags": [
+      "electrical symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECSYM-000005",
+    "category": "Electrical Symbols",
+    "subcategory": "Coils",
+    "difficulty": "medium",
+    "question": "What component is represented on a schematic by a series of connected curved loops or semicircles?",
+    "options": [
+      "Inductor / Choke coil",
+      "Resistor",
+      "Capacitor",
+      "Crystal oscillator"
+    ],
+    "answer": 0,
+    "explanation": "Curved loops depict an inductor coil.",
+    "tags": [
+      "electrical symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECSYM-000006",
+    "category": "Electrical Symbols",
+    "subcategory": "Transformers",
+    "difficulty": "medium",
+    "question": "What symbol consists of two inductor coils separated by two parallel straight lines?",
+    "options": [
+      "Iron-core Transformer",
+      "Air-core Inductor",
+      "Bipolar Transistor",
+      "Potentiometer"
+    ],
+    "answer": 0,
+    "explanation": "Two coils separated by parallel lines indicate an iron-core transformer.",
+    "tags": [
+      "electrical symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECSYM-000007",
+    "category": "Electrical Symbols",
     "subcategory": "Semiconductors",
     "difficulty": "hard",
-    "question": "What electronic symbol is represented by a triangle pointing toward a vertical line with two small outward arrows pointing away from the triangle?",
+    "question": "What does a diode triangle with two outward-pointing arrows represent?",
     "options": [
       "Light Emitting Diode (LED)",
       "Photodiode",
@@ -54,11 +126,161 @@
       "Schottky Diode"
     ],
     "answer": 0,
-    "explanation": "A diode triangle with outward-pointing arrows signifies a Light Emitting Diode (LED). Inward arrows represent a photodiode.",
+    "explanation": "Outward arrows represent emitted light in an LED.",
     "tags": [
-      "electrical-symbols",
-      "diodes",
-      "led"
+      "electrical symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECSYM-000008",
+    "category": "Electrical Symbols",
+    "subcategory": "Zener",
+    "difficulty": "hard",
+    "question": "What distinguishes the schematic symbol of a Zener diode from a standard rectifier diode?",
+    "options": [
+      "A bent / cathode bar with angled wings (resembling a Z)",
+      "Two circles around the triangle",
+      "Three outward arrows",
+      "A dashed anode line"
+    ],
+    "answer": 0,
+    "explanation": "A Zener diode has a bent cathode bar resembling a 'Z'.",
+    "tags": [
+      "electrical symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECSYM-000009",
+    "category": "Electrical Symbols",
+    "subcategory": "MOSFET",
+    "difficulty": "hard",
+    "question": "On an N-channel MOSFET schematic symbol, in which direction does the channel arrow point?",
+    "options": [
+      "Inward toward the gate channel",
+      "Outward away from the gate",
+      "Straight upward toward drain",
+      "Diagonally toward source"
+    ],
+    "answer": 0,
+    "explanation": "N-channel MOSFETs have an inward-pointing channel arrow (In = N).",
+    "tags": [
+      "electrical symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECSYM-000010",
+    "category": "Electrical Symbols",
+    "subcategory": "Capacitors",
+    "difficulty": "easy",
+    "question": "What does a symbol of two parallel straight lines perpendicular to a wire represent?",
+    "options": [
+      "Fixed Capacitor",
+      "Battery",
+      "Inductor",
+      "Fuse"
+    ],
+    "answer": 0,
+    "explanation": "Two parallel straight lines depict a fixed capacitor.",
+    "tags": [
+      "electrical symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECSYM-000011",
+    "category": "Electrical Symbols",
+    "subcategory": "Switches",
+    "difficulty": "medium",
+    "question": "What does the schematic symbol 'NO' stand for in relay contacts?",
+    "options": [
+      "Normally Open",
+      "Neutral Output",
+      "Non-Operational",
+      "Negative Offset"
+    ],
+    "answer": 0,
+    "explanation": "'NO' denotes Normally Open contact pairs.",
+    "tags": [
+      "electrical symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECSYM-000012",
+    "category": "Electrical Symbols",
+    "subcategory": "Transistors",
+    "difficulty": "hard",
+    "question": "In a BJT transistor schematic symbol, which terminal has an arrow pointing outward for NPN?",
+    "options": [
+      "Emitter",
+      "Collector",
+      "Base",
+      "Gate"
+    ],
+    "answer": 0,
+    "explanation": "NPN transistors have the arrow pointing outward on the Emitter (Not Pointing iN).",
+    "tags": [
+      "electrical symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECSYM-000013",
+    "category": "Electrical Symbols",
+    "subcategory": "Fuses",
+    "difficulty": "easy",
+    "question": "What electrical protection component is depicted on a schematic by a rectangle with a straight line through the center or a wavy wire?",
+    "options": [
+      "Fuse",
+      "Circuit Breaker",
+      "Resistor",
+      "Inductor"
+    ],
+    "answer": 0,
+    "explanation": "A straight line through a rectangle or wavy line denotes a fuse.",
+    "tags": [
+      "electrical symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECSYM-000014",
+    "category": "Electrical Symbols",
+    "subcategory": "Meters",
+    "difficulty": "medium",
+    "question": "What does an uppercase letter 'A' enclosed inside a circle represent on a schematic?",
+    "options": [
+      "Ammeter (Current meter)",
+      "Voltmeter",
+      "Alternator",
+      "Amplifier"
+    ],
+    "answer": 0,
+    "explanation": "A circled 'A' represents an ammeter.",
+    "tags": [
+      "electrical symbols"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECSYM-000015",
+    "category": "Electrical Symbols",
+    "subcategory": "Thyristors",
+    "difficulty": "hard",
+    "question": "What semiconductor symbol consists of a diode with a third terminal attached to the cathode called a Gate?",
+    "options": [
+      "Silicon Controlled Rectifier (SCR)",
+      "TRIAC",
+      "DIAC",
+      "Phototransistor"
+    ],
+    "answer": 0,
+    "explanation": "An SCR is a 4-layer thyristor with Anode, Cathode, and Gate.",
+    "tags": [
+      "electrical symbols"
     ],
     "status": "active"
   }

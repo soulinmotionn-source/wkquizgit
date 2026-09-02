@@ -4,19 +4,17 @@
     "category": "NCLEX",
     "subcategory": "Fundamentals",
     "difficulty": "easy",
-    "question": "What is the normal expected adult resting heart rate range in beats per minute (bpm)?",
+    "question": "What is the normal resting adult pulse rate range?",
     "options": [
-      "60 to 100 bpm",
-      "40 to 60 bpm",
-      "100 to 140 bpm",
-      "50 to 70 bpm"
+      "60 to 100 beats/min",
+      "40-60 bpm",
+      "100-140 bpm",
+      "50-70 bpm"
     ],
     "answer": 0,
-    "explanation": "A normal resting heart rate for healthy adults ranges from 60 to 100 beats per minute.",
+    "explanation": "Normal resting adult pulse is 60 to 100 bpm.",
     "tags": [
-      "NCLEX",
-      "vitals",
-      "fundamentals"
+      "nclex"
     ],
     "status": "active"
   },
@@ -25,305 +23,311 @@
     "category": "NCLEX",
     "subcategory": "Infection Control",
     "difficulty": "easy",
-    "question": "Which personal protective equipment (PPE) should the nurse don first when caring for a client on contact precautions?",
+    "question": "Which PPE is donned first for contact precautions?",
     "options": [
-      "Gown followed by gloves",
-      "Gloves followed by gown",
-      "N95 respirator only",
-      "Shoe covers and goggles"
+      "Clean isolation gown",
+      "Gloves",
+      "N95 mask",
+      "Shoe covers"
     ],
     "answer": 0,
-    "explanation": "Standard contact precautions require donning a clean gown first, followed by gloves covering the gown cuffs.",
+    "explanation": "Gown is donned first, followed by mask, eye protection, and gloves.",
     "tags": [
-      "NCLEX",
-      "infection-control",
-      "ppe"
+      "nclex"
     ],
     "status": "active"
   },
   {
     "id": "NCLEX-000003",
     "category": "NCLEX",
-    "subcategory": "Patient Safety",
+    "subcategory": "Safety",
     "difficulty": "easy",
-    "question": "Before administering any scheduled medication, which two client identifiers are required by Joint Commission standards?",
+    "question": "Which two client identifiers are required before medication administration?",
     "options": [
       "Full name and date of birth",
-      "Room number and bed number",
-      "Primary diagnosis and room number",
-      "Physician name and hospital badge"
+      "Room and bed number",
+      "Diagnosis and room",
+      "Doctor name and badge"
     ],
     "answer": 0,
-    "explanation": "Acceptable identifiers include the client's full legal name and date of birth or assigned medical record number. Room numbers must never be used.",
+    "explanation": "Full name and DOB or MRN are standard.",
     "tags": [
-      "NCLEX",
-      "safety",
-      "medication"
+      "nclex"
     ],
     "status": "active"
   },
   {
     "id": "NCLEX-000004",
     "category": "NCLEX",
-    "subcategory": "Thermoregulation",
+    "subcategory": "Respiratory",
     "difficulty": "easy",
-    "question": "What is considered a normal core body temperature in a resting adult in Celsius?",
+    "question": "What is the normal resting adult respiratory rate range?",
     "options": [
-      "36.5°C to 37.5°C (97.7°F to 99.5°F)",
-      "34.0°C to 35.0°C",
-      "38.5°C to 39.5°C",
-      "35.0°C to 36.0°C"
+      "12 to 20 breaths/min",
+      "8-10 bpm",
+      "24-32 bpm",
+      "30-40 bpm"
     ],
     "answer": 0,
-    "explanation": "Normal adult body temperature typically falls between 36.5°C and 37.5°C.",
+    "explanation": "Normal adult resting rate is 12-20 bpm.",
     "tags": [
-      "NCLEX",
-      "vitals",
-      "assessment"
+      "nclex"
     ],
     "status": "active"
   },
   {
     "id": "NCLEX-000005",
     "category": "NCLEX",
-    "subcategory": "Respiratory Basics",
+    "subcategory": "Positioning",
     "difficulty": "easy",
-    "question": "What is the expected normal resting respiratory rate range for an adult?",
+    "question": "Which position is best to prevent aspiration during oral meals?",
     "options": [
-      "12 to 20 breaths per minute",
-      "8 to 10 breaths per minute",
-      "24 to 32 breaths per minute",
-      "30 to 40 breaths per minute"
+      "High Fowler's (90 degrees)",
+      "Supine flat",
+      "Trendelenburg",
+      "Left lateral"
     ],
     "answer": 0,
-    "explanation": "Normal resting adult respiratory rate is 12 to 20 breaths per minute (eupnea).",
+    "explanation": "High Fowler's facilitates safe swallowing.",
     "tags": [
-      "NCLEX",
-      "vitals",
-      "respiratory"
+      "nclex"
     ],
     "status": "active"
   },
   {
     "id": "NCLEX-000006",
     "category": "NCLEX",
-    "subcategory": "Positioning",
+    "subcategory": "Oxygen",
     "difficulty": "easy",
-    "question": "Which position is recommended to prevent aspiration when feeding an alert client via oral route?",
+    "question": "What is the maximum flow rate for a standard nasal cannula in L/min?",
     "options": [
-      "Upright High Fowler's position (90 degrees)",
-      "Supine position with head flat",
-      "Trendelenburg position",
-      "Left lateral prone position"
+      "6 L/min",
+      "15 L/min",
+      "25 L/min",
+      "2 L/min"
     ],
     "answer": 0,
-    "explanation": "Sitting upright in High Fowler's during meals facilitates gravity-assisted swallowing and prevents aspiration.",
+    "explanation": "Standard nasal cannula flow is 1-6 L/min.",
     "tags": [
-      "NCLEX",
-      "safety",
-      "feeding"
+      "nclex"
     ],
     "status": "active"
   },
   {
     "id": "NCLEX-000007",
     "category": "NCLEX",
-    "subcategory": "Pharmacology & Safety",
-    "difficulty": "medium",
-    "question": "A client with heart failure is taking Digoxin 0.25 mg daily. Which assessment finding warrants withholding the medication?",
+    "subcategory": "Renal",
+    "difficulty": "easy",
+    "question": "What is minimum expected hourly urine output in an adult?",
     "options": [
-      "Apical heart rate of 52 beats per minute",
-      "Blood pressure of 130/84 mmHg",
-      "Respiratory rate of 18 breaths per minute",
-      "Serum potassium level of 4.2 mEq/L"
+      "30 mL/hr",
+      "5 mL/hr",
+      "100 mL/hr",
+      "10 mL/hr"
     ],
     "answer": 0,
-    "explanation": "Digoxin should be withheld if the apical heart rate is below 60 bpm in an adult to avoid severe bradycardia and heart block.",
+    "explanation": "Hourly output < 30 mL/hr signals oliguria.",
     "tags": [
-      "NCLEX",
-      "pharmacology",
-      "cardiac",
-      "digoxin"
+      "nclex"
     ],
     "status": "active"
   },
   {
     "id": "NCLEX-000008",
     "category": "NCLEX",
-    "subcategory": "Maternal-Newborn",
-    "difficulty": "medium",
-    "question": "Which finding in a postpartum mother 4 hours after an uncomplicated vaginal delivery requires immediate nurse intervention?",
+    "subcategory": "Post-op",
+    "difficulty": "easy",
+    "question": "How often should an awake post-op client use an incentive spirometer?",
     "options": [
-      "Fundus boggy and displaced to the right of the midline",
-      "Moderate lochia rubra on the perineal pad",
-      "Maternal temperature of 37.8°C (100.0°F)",
-      "Diaphoresis during sleep"
+      "10 times every hour",
+      "Once every 8 hours",
+      "Twice a day",
+      "Only when coughing"
     ],
     "answer": 0,
-    "explanation": "A boggy fundus displaced to the right indicates urinary bladder distension, preventing uterine contraction and increasing the risk of postpartum hemorrhage.",
+    "explanation": "10 times per hour prevents atelectasis.",
     "tags": [
-      "NCLEX",
-      "maternal",
-      "postpartum",
-      "safety"
+      "nclex"
     ],
     "status": "active"
   },
   {
     "id": "NCLEX-000009",
     "category": "NCLEX",
-    "subcategory": "Endocrine",
+    "subcategory": "Cardiology",
     "difficulty": "medium",
-    "question": "A diabetic client is exhibiting shakiness, sweating, confusion, and palpitations. Which immediate action should the nurse take?",
+    "question": "A patient taking Digoxin has an apical pulse of 52 bpm. What is the priority nursing action?",
     "options": [
-      "Administer 15 grams of fast-acting simple carbohydrates",
-      "Administer 10 units of regular insulin subcutaneous",
-      "Place client in reverse Trendelenburg",
-      "Encourage the client to drink 500 mL of pure water"
+      "Withhold the dose and notify provider",
+      "Give dose with water",
+      "Double dose tomorrow",
+      "Encourage exercise"
     ],
     "answer": 0,
-    "explanation": "These symptoms indicate acute hypoglycemia. The Rule of 15 dictates immediate ingestion of 15 grams of simple carbs.",
+    "explanation": "Withhold digoxin if apical HR < 60 bpm.",
     "tags": [
-      "NCLEX",
-      "endocrine",
-      "hypoglycemia"
+      "nclex"
     ],
     "status": "active"
   },
   {
     "id": "NCLEX-000010",
     "category": "NCLEX",
-    "subcategory": "Fluid & Electrolytes",
+    "subcategory": "Maternal",
     "difficulty": "medium",
-    "question": "Which intravenous solution is considered isotonic and suitable for initial fluid resuscitation in hypovolemic shock?",
+    "question": "Four hours postpartum, a client's fundus is boggy and deviated right. What is the first action?",
     "options": [
-      "0.9% Normal Saline (0.9% NaCl)",
-      "0.45% Normal Saline (0.45% NaCl)",
-      "3% Hypertonic Saline",
-      "Dextrose 10% in Water (D10W)"
+      "Assist client to void or catheterize",
+      "Massage fundus with high pressure",
+      "Give IV oxytocin",
+      "Place in Trendelenburg"
     ],
     "answer": 0,
-    "explanation": "0.9% Normal Saline and Lactated Ringer's are isotonic solutions that expand extracellular intravascular fluid volume without causing cell lysis.",
+    "explanation": "Deviation to the right indicates full bladder.",
     "tags": [
-      "NCLEX",
-      "fluids",
-      "emergency"
+      "nclex"
     ],
     "status": "active"
   },
   {
     "id": "NCLEX-000011",
     "category": "NCLEX",
-    "subcategory": "Cardiology",
+    "subcategory": "Endocrine",
     "difficulty": "medium",
-    "question": "Which symptom is considered a classic early clinical manifestation of left-sided heart failure?",
+    "question": "A diabetic client exhibits shakiness, sweating, and confusion. What is the immediate treatment?",
     "options": [
-      "Dyspnea on exertion and orthopnea",
-      "Peripheral pitting edema in the lower ankles",
-      "Jugular venous distension (JVD)",
-      "Hepatomegaly and ascites"
+      "Provide 15g fast-acting carbohydrates",
+      "Give 10 units regular insulin",
+      "Place in Trendelenburg",
+      "Withhold fluids"
     ],
     "answer": 0,
-    "explanation": "Left-sided heart failure causes pulmonary venous congestion leading to exertional dyspnea, orthopnea, and crackles.",
+    "explanation": "Hypoglycemia requires 15g fast carbs.",
     "tags": [
-      "NCLEX",
-      "cardiology",
-      "heart-failure"
+      "nclex"
     ],
     "status": "active"
   },
   {
     "id": "NCLEX-000012",
     "category": "NCLEX",
-    "subcategory": "Gastrointestinal",
+    "subcategory": "Fluids",
     "difficulty": "medium",
-    "question": "A client with acute pancreatitis should be placed on which dietary order during the initial acute stage?",
+    "question": "Which IV fluid is isotonic with plasma and standard for resuscitation?",
     "options": [
-      "NPO (Nothing by Mouth)",
-      "High fat, high protein liquid diet",
-      "Low fiber, high sodium soft diet",
-      "High dairy soft puree"
+      "0.9% Normal Saline",
+      "0.45% Saline",
+      "3% Saline",
+      "Dextrose 10%"
     ],
     "answer": 0,
-    "explanation": "NPO status rests the inflamed pancreas by halting pancreatic enzyme secretion.",
+    "explanation": "0.9% Normal Saline is isotonic.",
     "tags": [
-      "NCLEX",
-      "pancreatitis",
-      "nutrition"
+      "nclex"
     ],
     "status": "active"
   },
   {
     "id": "NCLEX-000013",
     "category": "NCLEX",
-    "subcategory": "Prioritization",
-    "difficulty": "hard",
-    "question": "A nurse receives change-of-shift report on four clients. Which client should the nurse assess first?",
+    "subcategory": "Delegation",
+    "difficulty": "medium",
+    "question": "Which task can be safely delegated to an unlicensed assistive personnel (UAP)?",
     "options": [
-      "A client with asthma who was wheezing and is now silent with decreased air movement",
-      "A client with diabetes whose fasting blood glucose is 185 mg/dL",
-      "A client postoperative day 1 after knee replacement reporting 7/10 pain",
-      "A client with chronic kidney disease whose serum creatinine is 2.8 mg/dL"
+      "Measuring routine intake and output",
+      "Assessing a central line",
+      "Discharge teaching",
+      "Giving oral pain meds"
     ],
     "answer": 0,
-    "explanation": "Using the ABC (Airway, Breathing, Circulation) priority framework, a silent chest in acute asthma indicates severe bronchospasm and impending respiratory failure.",
+    "explanation": "UAPs can measure routine intake and output.",
     "tags": [
-      "NCLEX",
-      "prioritization",
-      "triage",
-      "emergency"
+      "nclex"
     ],
     "status": "active"
   },
   {
     "id": "NCLEX-000014",
     "category": "NCLEX",
-    "subcategory": "Critical Care",
-    "difficulty": "hard",
-    "question": "A client with traumatic brain injury has an intracranial pressure (ICP) of 24 mmHg. Which nursing intervention is contraindicated?",
+    "subcategory": "Anticoagulation",
+    "difficulty": "medium",
+    "question": "Which lab test is used to monitor continuous IV Heparin therapy?",
     "options": [
-      "Placing the client in Trendelenburg position",
-      "Elevating the head of the bed 30 degrees",
-      "Administering prescribed osmotic diuretics (mannitol)",
-      "Maintaining the client's head and neck in neutral alignment"
+      "aPTT (Activated Partial Thromboplastin Time)",
+      "INR",
+      "Platelet factor 4",
+      "Bleeding time"
     ],
     "answer": 0,
-    "explanation": "Trendelenburg position increases venous return from the lower extremities and impedes cerebral venous drainage, dangerously increasing ICP.",
+    "explanation": "aPTT monitors Heparin; INR monitors Warfarin.",
     "tags": [
-      "NCLEX",
-      "neurology",
-      "critical-care",
-      "safety"
+      "nclex"
     ],
     "status": "active"
   },
   {
     "id": "NCLEX-000015",
     "category": "NCLEX",
-    "subcategory": "Hemodynamics",
+    "subcategory": "Prioritization",
     "difficulty": "hard",
-    "question": "What triad of clinical symptoms constitutes Cushing's Triad, signaling dangerously elevated intracranial pressure (ICP) and brain herniation?",
+    "question": "Which client should the nurse assess first after change-of-shift report?",
     "options": [
-      "Severe hypertension with widening pulse pressure, bradycardia, and irregular respirations",
-      "Hypotension, tachycardia, and tachypnea",
-      "Hypertension, tachycardia, and high fever",
-      "Hypotension, bradycardia, and bradypnea"
+      "Asthmatic whose loud wheezing suddenly becomes silent",
+      "Diabetic with glucose of 185 mg/dL",
+      "Post-op knee with 7/10 pain",
+      "CKD with creatinine 2.8 mg/dL"
     ],
     "answer": 0,
-    "explanation": "Cushing's Triad consists of widening pulse pressure (high systolic), bradycardia, and irregular respirations (Cheyne-Stokes).",
+    "explanation": "Silent chest indicates impending respiratory arrest.",
     "tags": [
-      "NCLEX",
-      "neurology",
-      "critical-care"
+      "nclex"
     ],
     "status": "active"
   },
   {
     "id": "NCLEX-000016",
     "category": "NCLEX",
-    "subcategory": "Acid-Base Balance",
+    "subcategory": "Neurology",
     "difficulty": "hard",
-    "question": "Arterial Blood Gas (ABG) values: pH 7.28, PaCO2 56 mmHg, HCO3 25 mEq/L. Which acid-base imbalance is present?",
+    "question": "A client with ICP of 24 mmHg is in bed. Which intervention is contraindicated?",
+    "options": [
+      "Trendelenburg position",
+      "Elevating head of bed 30 degrees",
+      "Administering mannitol IV",
+      "Maintaining neutral neck alignment"
+    ],
+    "answer": 0,
+    "explanation": "Trendelenburg elevates ICP.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000017",
+    "category": "NCLEX",
+    "subcategory": "Hemodynamics",
+    "difficulty": "hard",
+    "question": "Which triad indicates impending brain herniation from severe intracranial pressure?",
+    "options": [
+      "Cushing's Triad (Widening pulse pressure, bradycardia, irregular respirations)",
+      "Beck's Triad",
+      "Charcot's Triad",
+      "Virchow's Triad"
+    ],
+    "answer": 0,
+    "explanation": "Cushing's Triad signifies severe ICP elevation.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000018",
+    "category": "NCLEX",
+    "subcategory": "Acid-Base",
+    "difficulty": "hard",
+    "question": "ABG results: pH 7.28, PaCO2 56 mmHg, HCO3 25 mEq/L. What is the interpretation?",
     "options": [
       "Uncompensated Respiratory Acidosis",
       "Compensated Metabolic Acidosis",
@@ -331,53 +335,161 @@
       "Compensated Respiratory Alkalosis"
     ],
     "answer": 0,
-    "explanation": "pH < 7.35 indicates acidosis; PaCO2 > 45 mmHg indicates respiratory origin; normal HCO3 indicates lack of renal compensation.",
+    "explanation": "Low pH with high PaCO2 and normal HCO3 is uncompensated respiratory acidosis.",
     "tags": [
-      "NCLEX",
-      "abg",
-      "acid-base"
+      "nclex"
     ],
     "status": "active"
   },
   {
-    "id": "NCLEX-000017",
+    "id": "NCLEX-000019",
     "category": "NCLEX",
-    "subcategory": "Pharmacology Toxicity",
+    "subcategory": "Pharmacology",
     "difficulty": "hard",
-    "question": "A client on Lithium therapy presents with coarse hand tremors, persistent diarrhea, ataxia, and confusion. What is the priority nursing action?",
+    "question": "A client on Lithium presents with coarse tremors, persistent vomiting, confusion, and ataxia. What is the priority?",
     "options": [
-      "Withhold next lithium dose and immediately notify the provider to obtain a serum lithium level",
-      "Administer the next scheduled lithium dose with milk",
-      "Instruct the client to restrict dietary sodium intake",
-      "Encourage vigorous aerobic exercise"
+      "Hold lithium and notify physician immediately for serum level",
+      "Give next dose with food",
+      "Restrict dietary sodium",
+      "Encourage exercise"
     ],
     "answer": 0,
-    "explanation": "Coarse tremors, ataxia, and mental confusion indicate severe lithium toxicity (level > 1.5-2.0 mEq/L).",
+    "explanation": "Coarse tremors and ataxia indicate lithium toxicity.",
     "tags": [
-      "NCLEX",
-      "pharmacology",
-      "toxicity"
+      "nclex"
     ],
     "status": "active"
   },
   {
-    "id": "NCLEX-000018",
+    "id": "NCLEX-000020",
     "category": "NCLEX",
-    "subcategory": "Oncology & Safety",
+    "subcategory": "Shock",
     "difficulty": "hard",
-    "question": "Which clinical manifestation in a client with acute leukemia undergoing chemotherapy indicates Tumor Lysis Syndrome (TLS)?",
+    "question": "In neurogenic shock from spinal injury above T6, which hemodynamic profile is observed?",
     "options": [
-      "Hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia",
-      "Hypokalemia, hypophosphatemia, and hypercalcemia",
-      "Hypernatremia, hypokalemia, and hypoglycemia",
-      "Severe thrombocytopenia with elevated hemoglobin"
+      "Hypotension with Bradycardia and warm, dry skin",
+      "Hypotension with Tachycardia and cold skin",
+      "Hypertension with Tachycardia",
+      "Hypertension with Tachypnea"
     ],
     "answer": 0,
-    "explanation": "Rapid tumor cell lysis releases intracellular ions resulting in hyperkalemia, hyperphosphatemia, hyperuricemia, and secondary hypocalcemia.",
+    "explanation": "Loss of sympathetic tone causes vasodilation and bradycardia.",
     "tags": [
-      "NCLEX",
-      "oncology",
-      "critical-care"
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000021",
+    "category": "NCLEX",
+    "subcategory": "Pediatrics",
+    "difficulty": "easy",
+    "question": "At what age does the anterior fontanelle typically close in a healthy infant?",
+    "options": [
+      "12 to 18 months",
+      "2 to 3 months",
+      "6 to 8 months",
+      "24 to 36 months"
+    ],
+    "answer": 0,
+    "explanation": "The anterior fontanelle closes between 12-18 months; posterior fontanelle closes at 2-3 months.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000022",
+    "category": "NCLEX",
+    "subcategory": "Medication Admin",
+    "difficulty": "medium",
+    "question": "When administering ear drops (otic solution) to a 2-year-old child, in which direction should the pinna be pulled?",
+    "options": [
+      "Down and back",
+      "Up and back",
+      "Straight forward",
+      "Directly inward"
+    ],
+    "answer": 0,
+    "explanation": "For children under 3 years, pull pinna down and back. For older children and adults, pull up and back.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000023",
+    "category": "NCLEX",
+    "subcategory": "Critical Care",
+    "difficulty": "hard",
+    "question": "A client with acute myocardial infarction develops sudden pulmonary edema and a new holosystolic apical murmur. What mechanical complication is suspected?",
+    "options": [
+      "Acute Mitral Valve Papillary Muscle Rupture",
+      "Ventricular Septal Aneurysm",
+      "Cardiac Tamponade",
+      "Aortic Dissection"
+    ],
+    "answer": 0,
+    "explanation": "Papillary muscle rupture post-MI causes acute severe mitral regurgitation and flash pulmonary edema.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000024",
+    "category": "NCLEX",
+    "subcategory": "Maternal",
+    "difficulty": "easy",
+    "question": "What is the normal fetal heart rate (FHR) baseline range in beats per minute?",
+    "options": [
+      "110 to 160 bpm",
+      "80 to 100 bpm",
+      "170 to 200 bpm",
+      "60 to 90 bpm"
+    ],
+    "answer": 0,
+    "explanation": "Normal baseline fetal heart rate is 110-160 bpm.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000025",
+    "category": "NCLEX",
+    "subcategory": "Mental Health",
+    "difficulty": "medium",
+    "question": "When interacting with a client experiencing auditory hallucinations, what is the best therapeutic response?",
+    "options": [
+      "'I know the voices seem real to you, but I do not hear any voices.'",
+      "'Tell the voices to leave right now.'",
+      "'Why are you making up stories?'",
+      "'What are the voices planning to do?'"
+    ],
+    "answer": 0,
+    "explanation": "Acknowledge the client's feelings while stating reality without validating hallucinations.",
+    "tags": [
+      "nclex"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000026",
+    "category": "NCLEX",
+    "subcategory": "Orthopedics",
+    "difficulty": "hard",
+    "question": "A client in skeletal traction reports sudden severe calf pain and warmth. What is the priority concern?",
+    "options": [
+      "Deep Vein Thrombosis (DVT)",
+      "Normal pin-site pain",
+      "Compartment syndrome in foot",
+      "Fat embolism syndrome"
+    ],
+    "answer": 0,
+    "explanation": "Unilateral calf pain, swelling, and warmth in immobilized traction clients indicate DVT.",
+    "tags": [
+      "nclex"
     ],
     "status": "active"
   }

@@ -1,64 +1,210 @@
 [
   {
-    "id": "TV-000001",
+    "id": "TVSHOW-000001",
     "category": "TV Shows",
-    "subcategory": "Streaming Series",
+    "subcategory": "Streaming",
     "difficulty": "easy",
-    "question": "In the Netflix series 'Stranger Things', what is the name of the alternate dimension beneath Hawkins?",
+    "question": "In 'Stranger Things', what is the name of the dark alternate dimension?",
     "options": [
       "The Upside Down",
-      "The Twilight Zone",
       "The Netherworld",
-      "The Dark Realm"
+      "The Twilight Zone",
+      "The Abyss"
     ],
     "answer": 0,
-    "explanation": "The Upside Down is the dark alternate dimension mirroring Hawkins in Stranger Things.",
+    "explanation": "The Upside Down is the alternate dimension in Stranger Things.",
     "tags": [
-      "tv-shows",
-      "stranger-things",
-      "netflix"
+      "tv shows"
     ],
     "status": "active"
   },
   {
-    "id": "TV-000002",
+    "id": "TVSHOW-000002",
+    "category": "TV Shows",
+    "subcategory": "Animation",
+    "difficulty": "easy",
+    "question": "In 'The Simpsons', what is the name of the nuclear power plant owner in Springfield?",
+    "options": [
+      "Mr. Burns",
+      "Ned Flanders",
+      "Homer Simpson",
+      "Waylon Smithers"
+    ],
+    "answer": 0,
+    "explanation": "Mr. Montgomery Burns owns the nuclear plant.",
+    "tags": [
+      "tv shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TVSHOW-000003",
     "category": "TV Shows",
     "subcategory": "Sitcoms",
     "difficulty": "medium",
-    "question": "In the comedy sitcom 'Friends', what is the name of the central coffee shop where the gang meets?",
+    "question": "In 'Friends', what is the name of the coffee shop where the gang meets?",
     "options": [
       "Central Perk",
       "Monk's Diner",
-      "The Roasted Bean",
+      "The Daily Grind",
       "Cafe Nervosa"
     ],
     "answer": 0,
-    "explanation": "Central Perk in Greenwich Village, NYC, is the iconic coffee house in Friends.",
+    "explanation": "Central Perk is the coffee shop in Friends.",
     "tags": [
-      "tv-shows",
-      "friends",
-      "sitcom"
+      "tv shows"
     ],
     "status": "active"
   },
   {
-    "id": "TV-000003",
+    "id": "TVSHOW-000004",
     "category": "TV Shows",
-    "subcategory": "Emmy Winners",
+    "subcategory": "Fantasy",
+    "difficulty": "medium",
+    "question": "In HBO's 'Game of Thrones', what is the ancestral castle home of House Stark?",
+    "options": [
+      "Winterfell",
+      "King's Landing",
+      "Dragonstone",
+      "Highgarden"
+    ],
+    "answer": 0,
+    "explanation": "Winterfell is the home of House Stark.",
+    "tags": [
+      "tv shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TVSHOW-000005",
+    "category": "TV Shows",
+    "subcategory": "Drama",
     "difficulty": "hard",
-    "question": "In AMC's 'Breaking Bad', what pseudonym did chemistry teacher Walter White adopt in the meth trade?",
+    "question": "In 'Breaking Bad', what pseudonym did Walter White adopt in the meth trade?",
     "options": [
       "Heisenberg",
       "Oppenheimer",
-      "Schrödinger",
+      "Schrodinger",
       "Fermi"
     ],
     "answer": 0,
-    "explanation": "Walter White took the moniker 'Heisenberg', honoring German theoretical physicist Werner Heisenberg.",
+    "explanation": "Walter White used the pseudonym Heisenberg.",
     "tags": [
-      "tv-shows",
-      "breaking-bad",
-      "drama"
+      "tv shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TVSHOW-000006",
+    "category": "TV Shows",
+    "subcategory": "Animation",
+    "difficulty": "easy",
+    "question": "Which animated show features Peter Griffin, Lois, Meg, Chris, Stewie, and Brian the dog?",
+    "options": [
+      "Family Guy",
+      "The Simpsons",
+      "South Park",
+      "Bob's Burgers"
+    ],
+    "answer": 0,
+    "explanation": "Family Guy was created by Seth MacFarlane.",
+    "tags": [
+      "tv shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TVSHOW-000007",
+    "category": "TV Shows",
+    "subcategory": "Comedy",
+    "difficulty": "medium",
+    "question": "In 'The Office' (US), who is the eccentric Assistant to the Regional Manager at Dunder Mifflin Scranton?",
+    "options": [
+      "Dwight Schrute",
+      "Jim Halpert",
+      "Andy Bernard",
+      "Michael Scott"
+    ],
+    "answer": 0,
+    "explanation": "Dwight Schrute is the Assistant to the Regional Manager.",
+    "tags": [
+      "tv shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TVSHOW-000008",
+    "category": "TV Shows",
+    "subcategory": "Sci-Fi",
+    "difficulty": "hard",
+    "question": "In 'The X-Files', what are the first names of FBI Special Agents Fox Mulder and Dana Scully?",
+    "options": [
+      "Fox and Dana",
+      "John and Mary",
+      "William and Samantha",
+      "Walter and Monica"
+    ],
+    "answer": 0,
+    "explanation": "Fox Mulder and Dana Scully investigate paranormal phenomena.",
+    "tags": [
+      "tv shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TVSHOW-000009",
+    "category": "TV Shows",
+    "subcategory": "Sitcoms",
+    "difficulty": "easy",
+    "question": "In 'The Big Bang Theory', what is physicist Sheldon Cooper's signature catchphrase?",
+    "options": [
+      "Bazinga!",
+      "D'oh!",
+      "How you doin'?",
+      "Dyn-o-mite!"
+    ],
+    "answer": 0,
+    "explanation": "Bazinga! is Sheldon's comedic victory catchphrase.",
+    "tags": [
+      "tv shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TVSHOW-000010",
+    "category": "TV Shows",
+    "subcategory": "Drama",
+    "difficulty": "medium",
+    "question": "Which drug is manufactured and sold by Walter White and Jesse Pinkman in 'Breaking Bad'?",
+    "options": [
+      "Blue Methamphetamine",
+      "Cocaine",
+      "Heroin",
+      "MDMA"
+    ],
+    "answer": 0,
+    "explanation": "Walter White produces high-purity blue crystal meth.",
+    "tags": [
+      "tv shows"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TVSHOW-000011",
+    "category": "TV Shows",
+    "subcategory": "Fantasy",
+    "difficulty": "hard",
+    "question": "In HBO's 'Game of Thrones', what is the ancestral Valyrian steel sword of House Stark called?",
+    "options": [
+      "Ice",
+      "Longclaw",
+      "Widow's Wail",
+      "Oathkeeper"
+    ],
+    "answer": 0,
+    "explanation": "Ice was the massive greatsword of Lord Eddard Stark.",
+    "tags": [
+      "tv shows"
     ],
     "status": "active"
   }

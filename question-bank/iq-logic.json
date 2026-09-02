@@ -1,10 +1,67 @@
 [
   {
-    "id": "IQ-000001",
+    "id": "IQLOGIC-000001",
     "category": "IQ & Logic",
-    "subcategory": "Number Series",
+    "subcategory": "Series",
+    "difficulty": "easy",
+    "question": "Look at this sequence: 5, 10, 15, 20, ___ . What comes next?",
+    "options": [
+      "25",
+      "30",
+      "22",
+      "35"
+    ],
+    "answer": 0,
+    "explanation": "Pattern adds 5 each step: 20 + 5 = 25.",
+    "tags": [
+      "iq & logic"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "IQLOGIC-000002",
+    "category": "IQ & Logic",
+    "subcategory": "Riddles",
+    "difficulty": "easy",
+    "question": "A farmer has 15 sheep and all but 8 die. How many sheep are still alive?",
+    "options": [
+      "8",
+      "7",
+      "0",
+      "15"
+    ],
+    "answer": 0,
+    "explanation": "All but 8 die means 8 survive.",
+    "tags": [
+      "iq & logic"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "IQLOGIC-000003",
+    "category": "IQ & Logic",
+    "subcategory": "Analogies",
+    "difficulty": "easy",
+    "question": "Puppy is to Dog as Kitten is to ___ ?",
+    "options": [
+      "Cat",
+      "Tiger",
+      "Mouse",
+      "Hamster"
+    ],
+    "answer": 0,
+    "explanation": "A kitten is a young cat.",
+    "tags": [
+      "iq & logic"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "IQLOGIC-000004",
+    "category": "IQ & Logic",
+    "subcategory": "Patterns",
     "difficulty": "medium",
-    "question": "Look at this sequence: 2, 6, 12, 20, 30, ___ . What number comes next in the pattern?",
+    "question": "What number comes next: 2, 6, 12, 20, 30, ___ ?",
     "options": [
       "42",
       "40",
@@ -12,54 +69,199 @@
       "48"
     ],
     "answer": 0,
-    "explanation": "The differences between consecutive terms increase by 2: +4, +6, +8, +10, so next is +12: 30 + 12 = 42.",
+    "explanation": "Differences increase by 2: +4, +6, +8, +10, +12 -> 30 + 12 = 42.",
     "tags": [
-      "iq-logic",
-      "patterns",
-      "series",
-      "deduction"
+      "iq & logic"
     ],
     "status": "active"
   },
   {
-    "id": "IQ-000002",
+    "id": "IQLOGIC-000005",
     "category": "IQ & Logic",
-    "subcategory": "Deductive Reasoning",
+    "subcategory": "Logic",
+    "difficulty": "medium",
+    "question": "If yesterday was Tuesday, what day will it be 3 days after tomorrow?",
+    "options": [
+      "Sunday",
+      "Monday",
+      "Saturday",
+      "Friday"
+    ],
+    "answer": 0,
+    "explanation": "Yesterday = Tue, Today = Wed, Tomorrow = Thu, +3 days = Sunday.",
+    "tags": [
+      "iq & logic"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "IQLOGIC-000006",
+    "category": "IQ & Logic",
+    "subcategory": "Math Logic",
+    "difficulty": "medium",
+    "question": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?",
+    "options": [
+      "$0.05 (5 cents)",
+      "$0.10",
+      "$0.15",
+      "$0.01"
+    ],
+    "answer": 0,
+    "explanation": "Ball = x; Bat = x + 1.00; 2x + 1.00 = 1.10; 2x = 0.10; x = $0.05.",
+    "tags": [
+      "iq & logic"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "IQLOGIC-000007",
+    "category": "IQ & Logic",
+    "subcategory": "Syllogisms",
     "difficulty": "hard",
-    "question": "If all Zips are Zaps, and some Zaps are Zops, which of the following statements is DEFINITIVELY true?",
+    "question": "If all Bloops are Razzies, and all Razzies are Lizzies, which statement is guaranteed true?",
     "options": [
-      "Some Zaps are Zips",
-      "All Zips are Zops",
-      "No Zips are Zops",
-      "All Zops are Zips"
+      "All Bloops are Lizzies",
+      "All Lizzies are Bloops",
+      "No Bloops are Lizzies",
+      "Some Bloops are not Lizzies"
     ],
     "answer": 0,
-    "explanation": "If all Zips belong to the set of Zaps (assuming at least one Zip exists), then necessarily some elements in the set of Zaps are Zips.",
+    "explanation": "By transitive logic, all Bloops are Lizzies.",
     "tags": [
-      "iq-logic",
-      "logic",
-      "syllogisms"
+      "iq & logic"
     ],
     "status": "active"
   },
   {
-    "id": "IQ-000003",
+    "id": "IQLOGIC-000008",
     "category": "IQ & Logic",
-    "subcategory": "Logic Riddles",
-    "difficulty": "easy",
-    "question": "A farmer has 17 sheep and all but 9 die. How many sheep are still alive?",
+    "subcategory": "Deduction",
+    "difficulty": "hard",
+    "question": "Four people (A, B, C, D) are in a race. A finishes ahead of B but behind C. D finishes ahead of C. Who won the race?",
     "options": [
-      "9",
-      "8",
-      "0",
-      "17"
+      "D",
+      "C",
+      "A",
+      "B"
     ],
     "answer": 0,
-    "explanation": "'All but 9 die' means exactly 9 sheep survived and are still alive.",
+    "explanation": "Order from first to last: D > C > A > B. D won the race.",
     "tags": [
-      "iq-logic",
-      "riddles",
-      "math"
+      "iq & logic"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "IQLOGIC-000009",
+    "category": "IQ & Logic",
+    "subcategory": "Math Logic",
+    "difficulty": "easy",
+    "question": "If 3 cats can catch 3 mice in 3 minutes, how many cats are needed to catch 100 mice in 100 minutes?",
+    "options": [
+      "3 cats",
+      "100 cats",
+      "33 cats",
+      "30 cats"
+    ],
+    "answer": 0,
+    "explanation": "1 cat catches 1 mouse in 3 minutes. In 100 minutes, 1 cat catches 33.3 mice; 3 cats catch 100 mice.",
+    "tags": [
+      "iq & logic"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "IQLOGIC-000010",
+    "category": "IQ & Logic",
+    "subcategory": "Patterns",
+    "difficulty": "medium",
+    "question": "What comes next in the letter sequence: J, F, M, A, M, J, ___ ?",
+    "options": [
+      "J (July)",
+      "A",
+      "S",
+      "O"
+    ],
+    "answer": 0,
+    "explanation": "First letters of the months: January, February, March, April, May, June, July (J).",
+    "tags": [
+      "iq & logic"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "IQLOGIC-000011",
+    "category": "IQ & Logic",
+    "subcategory": "Probability",
+    "difficulty": "hard",
+    "question": "In the Monty Hall problem with 3 doors (1 car, 2 goats), what is your winning probability if you switch doors after a goat is revealed?",
+    "options": [
+      "2/3 (approx 66.7%)",
+      "1/2 (50%)",
+      "1/3 (33.3%)",
+      "3/4 (75%)"
+    ],
+    "answer": 0,
+    "explanation": "Switching captures the initial 2/3 probability of picking a goat.",
+    "tags": [
+      "iq & logic"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "IQLOGIC-000012",
+    "category": "IQ & Logic",
+    "subcategory": "Patterns",
+    "difficulty": "easy",
+    "question": "Which word does not belong with the others: Apple, Orange, Banana, Carrot?",
+    "options": [
+      "Carrot (it is a vegetable/root)",
+      "Apple",
+      "Orange",
+      "Banana"
+    ],
+    "answer": 0,
+    "explanation": "Carrot is a root vegetable; the others are fruits.",
+    "tags": [
+      "iq & logic"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "IQLOGIC-000013",
+    "category": "IQ & Logic",
+    "subcategory": "Math Riddle",
+    "difficulty": "medium",
+    "question": "If two's company, and three's a crowd, what are four and five?",
+    "options": [
+      "9 (4 + 5 = 9)",
+      "A party",
+      "Ten",
+      "Seven"
+    ],
+    "answer": 0,
+    "explanation": "Four and five are 9 (classic wordplay riddle).",
+    "tags": [
+      "iq & logic"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "IQLOGIC-000014",
+    "category": "IQ & Logic",
+    "subcategory": "Logic",
+    "difficulty": "hard",
+    "question": "You have 8 identical-looking coins; 1 is lighter than the rest. What is the minimum weighings on a balance scale to find it?",
+    "options": [
+      "2 weighings",
+      "3 weighings",
+      "4 weighings",
+      "1 weighing"
+    ],
+    "answer": 0,
+    "explanation": "Split into 3-3-2: Weigh 3 vs 3. If equal, weigh remaining 2. Total = 2 weighings.",
+    "tags": [
+      "iq & logic"
     ],
     "status": "active"
   }

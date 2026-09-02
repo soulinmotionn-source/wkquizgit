@@ -2,63 +2,266 @@
   {
     "id": "SCI-000001",
     "category": "Science",
-    "subcategory": "Physics",
-    "difficulty": "medium",
-    "question": "What is the speed of light in a vacuum (c)?",
+    "subcategory": "Chemistry",
+    "difficulty": "easy",
+    "question": "What is the chemical formula for pure water?",
     "options": [
-      "Approximately 300,000 km/s (299,792 km/s)",
-      "Approximately 150,000 km/s",
-      "Approximately 500,000 km/s",
-      "343 m/s"
+      "H2O",
+      "CO2",
+      "NaCl",
+      "O2"
     ],
     "answer": 0,
-    "explanation": "Light in a vacuum travels at 299,792,458 meters per second (approx 3.0 × 10^8 m/s).",
+    "explanation": "Water is H2O.",
     "tags": [
-      "science",
-      "physics",
-      "light"
+      "science"
     ],
     "status": "active"
   },
   {
     "id": "SCI-000002",
     "category": "Science",
-    "subcategory": "Chemistry",
+    "subcategory": "Physics",
     "difficulty": "easy",
-    "question": "What is the chemical symbol for Gold on the periodic table of elements?",
+    "question": "What force pulls objects toward the center of the Earth?",
     "options": [
-      "Au",
-      "Ag",
-      "Fe",
-      "Gd"
+      "Gravity",
+      "Magnetism",
+      "Friction",
+      "Centrifugal force"
     ],
     "answer": 0,
-    "explanation": "'Au' comes from the Latin word for gold, 'Aurum'.",
+    "explanation": "Gravity attracts mass.",
     "tags": [
-      "science",
-      "chemistry",
-      "periodic-table"
+      "science"
     ],
     "status": "active"
   },
   {
     "id": "SCI-000003",
     "category": "Science",
-    "subcategory": "Biology & Genetics",
-    "difficulty": "hard",
-    "question": "In molecular biology, which enzyme is responsible for synthesizing new DNA strands during replication by adding complementary nucleotides?",
+    "subcategory": "Biology",
+    "difficulty": "easy",
+    "question": "What green pigment in plants is responsible for absorbing sunlight in photosynthesis?",
     "options": [
+      "Chlorophyll",
+      "Hemoglobin",
+      "Melanin",
+      "Carotene"
+    ],
+    "answer": 0,
+    "explanation": "Chlorophyll absorbs light energy in chloroplasts.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCI-000004",
+    "category": "Science",
+    "subcategory": "Physics",
+    "difficulty": "medium",
+    "question": "What is the speed of light in a vacuum?",
+    "options": [
+      "Approx 300,000 km/s (3 × 10^8 m/s)",
+      "150,000 km/s",
+      "343 m/s",
+      "1,000 km/s"
+    ],
+    "answer": 0,
+    "explanation": "Speed of light c ≈ 3 × 10^8 m/s.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCI-000005",
+    "category": "Science",
+    "subcategory": "Chemistry",
+    "difficulty": "medium",
+    "question": "What is the pH value of pure neutral distilled water at 25°C?",
+    "options": [
+      "7.0",
+      "0.0",
+      "14.0",
+      "5.5"
+    ],
+    "answer": 0,
+    "explanation": "Neutral pH is exactly 7.0.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCI-000006",
+    "category": "Science",
+    "subcategory": "Astronomy",
+    "difficulty": "medium",
+    "question": "What is the largest planet in our solar system by mass and volume?",
+    "options": [
+      "Jupiter",
+      "Saturn",
+      "Neptune",
+      "Uranus"
+    ],
+    "answer": 0,
+    "explanation": "Jupiter is the largest planet.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCI-000007",
+    "category": "Science",
+    "subcategory": "Biology",
+    "difficulty": "hard",
+    "question": "Which organelle is the site of cellular respiration and ATP synthesis in eukaryotes?",
+    "options": [
+      "Mitochondria",
+      "Ribosome",
+      "Endoplasmic Reticulum",
+      "Golgi apparatus"
+    ],
+    "answer": 0,
+    "explanation": "Mitochondria produce ATP.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCI-000008",
+    "category": "Science",
+    "subcategory": "Genetics",
+    "difficulty": "hard",
+    "question": "In DNA replication, which enzyme unwinds the double helix at the replication fork?",
+    "options": [
+      "DNA Helicase",
       "DNA Polymerase",
-      "RNA Helicase",
       "DNA Ligase",
       "Topoisomerase"
     ],
     "answer": 0,
-    "explanation": "DNA Polymerase synthesizes new DNA strands by matching complementary deoxynucleotides to the template strand in the 5' to 3' direction.",
+    "explanation": "Helicase breaks hydrogen bonds to unwind DNA.",
     "tags": [
-      "science",
-      "biology",
-      "dna"
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCI-000009",
+    "category": "Science",
+    "subcategory": "Periodic Table",
+    "difficulty": "easy",
+    "question": "What is the atomic number of Carbon, which has 6 protons?",
+    "options": [
+      "6",
+      "12",
+      "14",
+      "8"
+    ],
+    "answer": 0,
+    "explanation": "Carbon has atomic number 6.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCI-000010",
+    "category": "Science",
+    "subcategory": "Physics",
+    "difficulty": "medium",
+    "question": "What is the unit of electrical power named after Scottish inventor James Watt?",
+    "options": [
+      "Watt (W)",
+      "Joule (J)",
+      "Volt (V)",
+      "Newton (N)"
+    ],
+    "answer": 0,
+    "explanation": "Power is measured in Watts (1 Joule/second).",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCI-000011",
+    "category": "Science",
+    "subcategory": "Chemistry",
+    "difficulty": "hard",
+    "question": "According to Le Chatelier's Principle, what happens to an exothermic equilibrium reaction when temperature is increased?",
+    "options": [
+      "The equilibrium shifts toward reactants (left) to absorb added heat",
+      "The equilibrium shifts toward products (right)",
+      "No shift occurs",
+      "The reaction stops completely"
+    ],
+    "answer": 0,
+    "explanation": "Increasing temperature favors the endothermic reverse reaction.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCI-000012",
+    "category": "Science",
+    "subcategory": "Astronomy",
+    "difficulty": "easy",
+    "question": "What star is located at the center of our solar system?",
+    "options": [
+      "The Sun",
+      "Proxima Centauri",
+      "Polaris",
+      "Sirius"
+    ],
+    "answer": 0,
+    "explanation": "The Sun is the central G-type main-sequence star.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCI-000013",
+    "category": "Science",
+    "subcategory": "Biology",
+    "difficulty": "medium",
+    "question": "What is the process by which cells divide to produce four genetically diverse haploid gametes?",
+    "options": [
+      "Meiosis",
+      "Mitosis",
+      "Binary Fission",
+      "Budding"
+    ],
+    "answer": 0,
+    "explanation": "Meiosis produces gametes with half the somatic chromosome count.",
+    "tags": [
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCI-000014",
+    "category": "Science",
+    "subcategory": "Physics",
+    "difficulty": "hard",
+    "question": "What fundamental principle states that you cannot simultaneously know both the precise position and momentum of a subatomic particle?",
+    "options": [
+      "Heisenberg Uncertainty Principle",
+      "Pauli Exclusion Principle",
+      "Schrodinger Wave Equation",
+      "Planck's Quantum Law"
+    ],
+    "answer": 0,
+    "explanation": "Heisenberg's Uncertainty Principle dictates Δx · Δp ≥ ℏ/2.",
+    "tags": [
+      "science"
     ],
     "status": "active"
   }

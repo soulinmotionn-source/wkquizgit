@@ -2,9 +2,9 @@
   {
     "id": "HIST-000001",
     "category": "History",
-    "subcategory": "Space Exploration",
+    "subcategory": "Space",
     "difficulty": "easy",
-    "question": "In which year did the Apollo 11 mission land the first humans on the Moon?",
+    "question": "In which year did the Apollo 11 Moon landing occur?",
     "options": [
       "1969",
       "1965",
@@ -12,52 +12,256 @@
       "1959"
     ],
     "answer": 0,
-    "explanation": "On July 20, 1969, Neil Armstrong and Buzz Aldrin landed on the Moon aboard the Apollo 11 Lunar Module.",
+    "explanation": "Apollo 11 landed on July 20, 1969.",
     "tags": [
-      "history",
-      "space",
-      "apollo"
+      "history"
     ],
     "status": "active"
   },
   {
     "id": "HIST-000002",
     "category": "History",
-    "subcategory": "Ancient World",
-    "difficulty": "medium",
-    "question": "Who was the first Emperor of a unified China, known for the Terracotta Army?",
+    "subcategory": "Ancient",
+    "difficulty": "easy",
+    "question": "Which ancient civilization built the Great Pyramids of Giza?",
     "options": [
-      "Qin Shi Huang",
-      "Han Wudi",
-      "Kublai Khan",
-      "Sun Yat-sen"
+      "Ancient Egyptians",
+      "Romans",
+      "Greeks",
+      "Babylonians"
     ],
     "answer": 0,
-    "explanation": "Qin Shi Huang unified China in 221 BC and established the Qin dynasty.",
+    "explanation": "Egyptians built the Pyramids of Giza.",
     "tags": [
-      "history",
-      "ancient-china"
+      "history"
     ],
     "status": "active"
   },
   {
     "id": "HIST-000003",
     "category": "History",
-    "subcategory": "Treaties & Wars",
-    "difficulty": "hard",
-    "question": "The Treaty of Westphalia (1648) famously brought an end to which devastating European conflict?",
+    "subcategory": "US History",
+    "difficulty": "easy",
+    "question": "Who was the first President of the United States?",
     "options": [
-      "The Thirty Years' War",
-      "The Hundred Years' War",
-      "The Seven Years' War",
-      "The War of the Spanish Succession"
+      "George Washington",
+      "Thomas Jefferson",
+      "John Adams",
+      "Benjamin Franklin"
     ],
     "answer": 0,
-    "explanation": "The 1648 Peace of Westphalia ended the Thirty Years' War and established the concept of state sovereignty.",
+    "explanation": "George Washington served from 1789 to 1797.",
     "tags": [
-      "history",
-      "europe",
-      "treaties"
+      "history"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HIST-000004",
+    "category": "History",
+    "subcategory": "World Wars",
+    "difficulty": "medium",
+    "question": "In which year did World War II end?",
+    "options": [
+      "1945",
+      "1944",
+      "1939",
+      "1950"
+    ],
+    "answer": 0,
+    "explanation": "WWII ended in 1945.",
+    "tags": [
+      "history"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HIST-000005",
+    "category": "History",
+    "subcategory": "Renaissance",
+    "difficulty": "medium",
+    "question": "Which Italian polymath painted the Mona Lisa and The Last Supper?",
+    "options": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "answer": 0,
+    "explanation": "Leonardo da Vinci painted the Mona Lisa.",
+    "tags": [
+      "history"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HIST-000006",
+    "category": "History",
+    "subcategory": "French Revolution",
+    "difficulty": "medium",
+    "question": "What fortress prison was stormed in Paris on July 14, 1789, marking the French Revolution?",
+    "options": [
+      "The Bastille",
+      "Versailles",
+      "The Conciergerie",
+      "The Louvre"
+    ],
+    "answer": 0,
+    "explanation": "Storming of the Bastille ignited the French Revolution.",
+    "tags": [
+      "history"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HIST-000007",
+    "category": "History",
+    "subcategory": "Treaties",
+    "difficulty": "hard",
+    "question": "Which 1648 peace treaties ended the Thirty Years' War and established European state sovereignty?",
+    "options": [
+      "Peace of Westphalia",
+      "Treaty of Versailles",
+      "Treaty of Utrecht",
+      "Congress of Vienna"
+    ],
+    "answer": 0,
+    "explanation": "Peace of Westphalia established modern state sovereignty.",
+    "tags": [
+      "history"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HIST-000008",
+    "category": "History",
+    "subcategory": "Ancient Empires",
+    "difficulty": "hard",
+    "question": "In which year did the Western Roman Empire traditionally fall with the deposition of Romulus Augustulus?",
+    "options": [
+      "476 AD",
+      "312 AD",
+      "1066 AD",
+      "1453 AD"
+    ],
+    "answer": 0,
+    "explanation": "The Western Roman Empire fell in 476 AD.",
+    "tags": [
+      "history"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HIST-000009",
+    "category": "History",
+    "subcategory": "Renaissance",
+    "difficulty": "easy",
+    "question": "Which German blacksmith invented the movable type printing press around 1440?",
+    "options": [
+      "Johannes Gutenberg",
+      "Martin Luther",
+      "Albrecht Durer",
+      "Nicolaus Copernicus"
+    ],
+    "answer": 0,
+    "explanation": "Gutenberg's printing press revolutionized information distribution.",
+    "tags": [
+      "history"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HIST-000010",
+    "category": "History",
+    "subcategory": "World History",
+    "difficulty": "medium",
+    "question": "What famous wall built in 1961 divided East and West Berlin during the Cold War before falling in 1989?",
+    "options": [
+      "The Berlin Wall",
+      "Hadrian's Wall",
+      "The Great Wall",
+      "The Antonine Wall"
+    ],
+    "answer": 0,
+    "explanation": "The Berlin Wall separated East and West Berlin from 1961 to 1989.",
+    "tags": [
+      "history"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HIST-000011",
+    "category": "History",
+    "subcategory": "Ancient Rome",
+    "difficulty": "hard",
+    "question": "On what date in 44 BC was Julius Caesar assassinated on the Ides of March?",
+    "options": [
+      "March 15, 44 BC",
+      "March 1, 44 BC",
+      "July 4, 44 BC",
+      "December 25, 44 BC"
+    ],
+    "answer": 0,
+    "explanation": "The Ides of March corresponds to March 15.",
+    "tags": [
+      "history"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HIST-000012",
+    "category": "History",
+    "subcategory": "Civilizations",
+    "difficulty": "easy",
+    "question": "Which river was central to the survival and agriculture of Ancient Egypt?",
+    "options": [
+      "The Nile River",
+      "The Tigris",
+      "The Euphrates",
+      "The Indus"
+    ],
+    "answer": 0,
+    "explanation": "The Nile River sustained ancient Egyptian civilization.",
+    "tags": [
+      "history"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HIST-000013",
+    "category": "History",
+    "subcategory": "Documents",
+    "difficulty": "medium",
+    "question": "In what year was the Magna Carta signed by King John of England at Runnymede?",
+    "options": [
+      "1215",
+      "1066",
+      "1492",
+      "1776"
+    ],
+    "answer": 0,
+    "explanation": "The Magna Carta was signed in 1215.",
+    "tags": [
+      "history"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HIST-000014",
+    "category": "History",
+    "subcategory": "Wars",
+    "difficulty": "hard",
+    "question": "Which decisive naval battle in 1805 established British naval supremacy during the Napoleonic Wars?",
+    "options": [
+      "Battle of Trafalgar",
+      "Battle of Waterloo",
+      "Battle of Jutland",
+      "Battle of the Nile"
+    ],
+    "answer": 0,
+    "explanation": "Admiral Lord Nelson defeated the Franco-Spanish fleet at Trafalgar in 1805.",
+    "tags": [
+      "history"
     ],
     "status": "active"
   }

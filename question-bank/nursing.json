@@ -4,49 +4,45 @@
     "category": "Nursing",
     "subcategory": "Infection Control",
     "difficulty": "easy",
-    "question": "What is the single most effective intervention to prevent the spread of healthcare-associated infections (HAIs)?",
+    "question": "What is the single most effective action to prevent healthcare-associated infections?",
     "options": [
-      "Routine hand hygiene before and after patient contact",
-      "Wearing double gloves for all procedures",
-      "Prophylactic antibiotic administration",
-      "Sterilizing room surfaces twice daily"
+      "Hand hygiene before and after patient contact",
+      "Double gloving",
+      "Prophylactic antibiotics",
+      "Wiping doors daily"
     ],
     "answer": 0,
-    "explanation": "Consistent hand hygiene before and after patient contact is recognized globally as the primary measure to prevent HAIs.",
+    "explanation": "Hand hygiene is the gold standard.",
     "tags": [
-      "nursing",
-      "infection-control",
-      "safety"
+      "nursing"
     ],
     "status": "active"
   },
   {
     "id": "NURS-000002",
     "category": "Nursing",
-    "subcategory": "Wound Care",
+    "subcategory": "Skin Care",
     "difficulty": "easy",
-    "question": "What is a Stage 1 pressure injury characterized by?",
+    "question": "What characterizes a Stage 1 pressure injury?",
     "options": [
       "Non-blanchable erythema of intact skin",
-      "Partial-thickness skin loss with exposed dermis",
-      "Full-thickness skin loss with visible adipose tissue",
-      "Full-thickness skin and tissue loss with exposed bone"
+      "Partial-thickness dermis loss",
+      "Full-thickness fat exposure",
+      "Exposed bone and tendon"
     ],
     "answer": 0,
-    "explanation": "Stage 1 pressure injury involves intact skin with a localized area of non-blanchable erythema.",
+    "explanation": "Stage 1 is non-blanchable redness on intact skin.",
     "tags": [
-      "nursing",
-      "wound-care",
-      "skin"
+      "nursing"
     ],
     "status": "active"
   },
   {
     "id": "NURS-000003",
     "category": "Nursing",
-    "subcategory": "Patient Rights",
+    "subcategory": "Ethics",
     "difficulty": "easy",
-    "question": "What ethical principle is being practiced when a nurse respects an alert adult patient's informed refusal of medical treatment?",
+    "question": "Honoring a patient's informed refusal of medical treatment demonstrates which principle?",
     "options": [
       "Autonomy",
       "Beneficence",
@@ -54,11 +50,9 @@
       "Justice"
     ],
     "answer": 0,
-    "explanation": "Autonomy is the ethical principle recognizing an individual's right to make self-determining decisions regarding their own healthcare.",
+    "explanation": "Autonomy respects patient self-determination.",
     "tags": [
-      "nursing",
-      "ethics",
-      "patient-rights"
+      "nursing"
     ],
     "status": "active"
   },
@@ -67,232 +61,378 @@
     "category": "Nursing",
     "subcategory": "Communication",
     "difficulty": "easy",
-    "question": "Which standardized communication tool is widely used for handoff communication between healthcare providers?",
+    "question": "What does SBAR stand for in clinical handoff communication?",
     "options": [
-      "SBAR (Situation, Background, Assessment, Recommendation)",
-      "SOAP note format only",
-      "PIE charting",
-      "APGAR score"
+      "Situation, Background, Assessment, Recommendation",
+      "Safety, Baseline, Action, Response",
+      "Subjective, Bedside, Analysis, Review",
+      "Sign, Behavior, Action, Result"
     ],
     "answer": 0,
-    "explanation": "SBAR provides a structured, concise framework for urgent handoff and clinical communication.",
+    "explanation": "SBAR standardizes clinical communication.",
     "tags": [
-      "nursing",
-      "communication",
-      "sbar"
+      "nursing"
     ],
     "status": "active"
   },
   {
     "id": "NURS-000005",
     "category": "Nursing",
-    "subcategory": "Comfort",
+    "subcategory": "Mobility",
     "difficulty": "easy",
-    "question": "How often should an immobile, bedbound patient be repositioned to prevent skin breakdown?",
+    "question": "How frequently should bedbound clients be repositioned?",
     "options": [
-      "At least every 2 hours",
+      "Every 2 hours",
       "Every 6 hours",
-      "Once per shift (8 hours)",
-      "Only when the patient requests"
+      "Every 8 hours",
+      "Once a day"
     ],
     "answer": 0,
-    "explanation": "Repositioning every 2 hours relieves pressure over bony prominences and maintains tissue perfusion.",
+    "explanation": "Repositioning every 2 hours prevents pressure ulcers.",
     "tags": [
-      "nursing",
-      "pressure-injury",
-      "mobility"
+      "nursing"
     ],
     "status": "active"
   },
   {
     "id": "NURS-000006",
     "category": "Nursing",
-    "subcategory": "Fundamentals",
-    "difficulty": "medium",
-    "question": "Which position is most appropriate for a patient experiencing acute shortness of breath (dyspnea)?",
+    "subcategory": "Vitals",
+    "difficulty": "easy",
+    "question": "Where is the apical pulse auscultated in an adult?",
     "options": [
-      "High Fowler's position (60-90 degrees)",
-      "Trendelenburg position",
-      "Prone position",
-      "Supine with legs elevated"
+      "5th intercostal space, left midclavicular line",
+      "2nd intercostal space, right sternal border",
+      "4th intercostal space, right midclavicular line",
+      "6th intercostal space, anterior axillary line"
     ],
     "answer": 0,
-    "explanation": "High Fowler's position maximizes lung expansion and facilitates diaphragm descent, easing respiratory distress.",
+    "explanation": "Apical pulse is at the 5th intercostal space left midclavicular line.",
     "tags": [
-      "nursing",
-      "respiratory",
-      "patient-care",
-      "positioning"
+      "nursing"
     ],
     "status": "active"
   },
   {
     "id": "NURS-000007",
     "category": "Nursing",
-    "subcategory": "Medication Administration",
+    "subcategory": "Respiratory",
     "difficulty": "medium",
-    "question": "When administering an intramuscular (IM) injection to an adult in the ventrogluteal site, which needle length is standard?",
+    "question": "Which position is best to relieve acute dyspnea and maximize lung expansion?",
     "options": [
-      "1.5 inches (38 mm)",
-      "0.5 inches (12 mm)",
-      "3.0 inches (76 mm)",
-      "0.25 inches (6 mm)"
+      "High Fowler's position",
+      "Trendelenburg",
+      "Prone",
+      "Supine"
     ],
     "answer": 0,
-    "explanation": "A 1 to 1.5 inch needle is standard for adult ventrogluteal intramuscular injections to reach deep muscle tissue safely.",
+    "explanation": "High Fowler's lowers the diaphragm for maximum thoracic expansion.",
     "tags": [
-      "nursing",
-      "medication",
-      "im-injection"
+      "nursing"
     ],
     "status": "active"
   },
   {
     "id": "NURS-000008",
     "category": "Nursing",
-    "subcategory": "Enteral Nutrition",
+    "subcategory": "Injections",
     "difficulty": "medium",
-    "question": "Before administering an enteral feeding through a nasogastric (NG) tube, which bedside method best verifies initial placement prior to X-ray confirmation?",
+    "question": "What is the preferred intramuscular injection site for volumes over 1 mL in adults?",
     "options": [
-      "Testing the pH of aspirated gastric contents (pH < 5.5)",
-      "Auscultating an air bolus over the epigastrium",
-      "Immersing the tube tip in water to look for bubbles",
-      "Measuring the client's abdominal circumference"
+      "Ventrogluteal site",
+      "Dorsogluteal site",
+      "Deltoid muscle",
+      "Vastus medialis"
     ],
     "answer": 0,
-    "explanation": "Aspirate pH testing (< 5.5 in fasting stomach) is standard bedside verification. Auscultation is no longer recommended due to unreliability.",
+    "explanation": "Ventrogluteal is free of major nerves.",
     "tags": [
-      "nursing",
-      "ng-tube",
-      "nutrition"
+      "nursing"
     ],
     "status": "active"
   },
   {
     "id": "NURS-000009",
     "category": "Nursing",
-    "subcategory": "Blood Transfusion",
+    "subcategory": "NG Tube",
     "difficulty": "medium",
-    "question": "During a packed red blood cell (PRBC) transfusion, the nurse must remain at the bedside to monitor the patient for how long after starting?",
+    "question": "What is the gold standard bedside test to confirm NG tube placement before feeding?",
     "options": [
-      "First 15 minutes",
-      "First 3 minutes",
-      "Entire 4 hours",
-      "First 45 minutes"
+      "pH testing of aspirate (pH < 5.5)",
+      "Air auscultation",
+      "Water bubble check",
+      "Visual inspection"
     ],
     "answer": 0,
-    "explanation": "Severe acute hemolytic and anaphylactic transfusion reactions most commonly manifest within the first 15 minutes or first 50 mL.",
+    "explanation": "Aspirate pH < 5.5 confirms gastric placement.",
     "tags": [
-      "nursing",
-      "blood-transfusion",
-      "safety"
+      "nursing"
     ],
     "status": "active"
   },
   {
     "id": "NURS-000010",
     "category": "Nursing",
-    "subcategory": "IV Therapy",
+    "subcategory": "Blood Transfusion",
     "difficulty": "medium",
-    "question": "A patient's peripheral IV site appears pale, cool to touch, and swollen with slowed infusion rate. What complication has occurred?",
+    "question": "How long must the nurse remain at the bedside when starting a blood transfusion?",
     "options": [
-      "Infiltration",
-      "Phlebitis",
-      "Air embolism",
-      "Extravasation of vesicant"
+      "First 15 minutes",
+      "First 2 minutes",
+      "Entire 4 hours",
+      "First 45 minutes"
     ],
     "answer": 0,
-    "explanation": "Infiltration is characterized by coolness, pallor, and edema. Phlebitis presents with warmth, erythema, and cord-like hardness.",
+    "explanation": "Acute transfusion reactions occur most frequently in the first 15 minutes.",
     "tags": [
-      "nursing",
-      "iv-therapy",
-      "complications"
+      "nursing"
     ],
     "status": "active"
   },
   {
     "id": "NURS-000011",
     "category": "Nursing",
-    "subcategory": "Assessment",
-    "difficulty": "hard",
-    "question": "When assessing a patient with suspected hypocalcemia, which clinical finding is known as Chvostek's sign?",
+    "subcategory": "IV Therapy",
+    "difficulty": "medium",
+    "question": "An IV site is cool to touch, pale, and swollen. What complication is present?",
     "options": [
-      "Twitching of facial muscles elicited by tapping the facial nerve",
-      "Carpal spasm induced by inflating a blood pressure cuff above systolic pressure",
-      "Numbness and tingling around the lips and fingertips",
-      "Hyperactive deep tendon reflexes in the lower extremities"
+      "Infiltration",
+      "Phlebitis",
+      "Thrombosis",
+      "Air embolism"
     ],
     "answer": 0,
-    "explanation": "Chvostek's sign is facial muscle twitching when tapping anterior to the ear. Trousseau's sign refers to carpal spasm with cuff inflation.",
+    "explanation": "Coolness and swelling signify IV infiltration.",
     "tags": [
-      "nursing",
-      "assessment",
-      "electrolytes",
-      "hypocalcemia"
+      "nursing"
     ],
     "status": "active"
   },
   {
     "id": "NURS-000012",
     "category": "Nursing",
-    "subcategory": "Fluid & Electrolytes",
+    "subcategory": "Assessment",
     "difficulty": "hard",
-    "question": "Which ECG change is most characteristic of severe hyperkalemia (elevated serum potassium)?",
+    "question": "Tapping the facial nerve anterior to the ear produces facial twitching. What is this sign?",
     "options": [
-      "Tall, peaked T waves and widened QRS complexes",
-      "Prominent U waves and ST segment depression",
-      "Shortened PR interval and Delta waves",
-      "Prolonged QT interval and inverted P waves"
+      "Chvostek's sign (hypocalcemia)",
+      "Trousseau's sign",
+      "Brudzinski's sign",
+      "Kernig's sign"
     ],
     "answer": 0,
-    "explanation": "Tall, peaked ('tented') T waves, prolonged PR intervals, and widened QRS complexes are hallmark signs of severe hyperkalemia.",
+    "explanation": "Chvostek's sign indicates hypocalcemia.",
     "tags": [
-      "nursing",
-      "electrolytes",
-      "ecg",
-      "hyperkalemia"
+      "nursing"
     ],
     "status": "active"
   },
   {
     "id": "NURS-000013",
     "category": "Nursing",
-    "subcategory": "Sepsis",
+    "subcategory": "ECG",
     "difficulty": "hard",
-    "question": "In the Surviving Sepsis Campaign 1-Hour Bundle, which initial intervention is highest priority for septic shock with hypotension?",
+    "question": "Tall peaked T waves, prolonged PR interval, and wide QRS complexes indicate which condition?",
     "options": [
-      "Measure lactate level, obtain blood cultures before antibiotics, and administer rapid crystalloid bolus (30 mL/kg)",
-      "Administer high-dose steroids immediately",
-      "Administer oral antipyretics and maintain room temperature",
-      "Start subcutaneous low molecular weight heparin"
+      "Severe Hyperkalemia",
+      "Hypocalcemia",
+      "Hypernatremia",
+      "Hypomagnesemia"
     ],
     "answer": 0,
-    "explanation": "The 1-hour sepsis bundle mandates measuring lactate, drawing blood cultures prior to broad-spectrum antibiotics, and infusing 30 mL/kg crystalloids for hypotension.",
+    "explanation": "Hyperkalemia causes peaked T waves.",
     "tags": [
-      "nursing",
-      "sepsis",
-      "critical-care"
+      "nursing"
     ],
     "status": "active"
   },
   {
     "id": "NURS-000014",
     "category": "Nursing",
-    "subcategory": "Neurology",
+    "subcategory": "Sepsis",
     "difficulty": "hard",
-    "question": "In a spinal cord injury patient at T6 or above, sudden severe throbbing headache, profuse diaphoresis above the injury, and severe hypertension indicate what medical emergency?",
+    "question": "In the 1-hour sepsis bundle for hypotension, what crystalloid fluid bolus is recommended?",
     "options": [
-      "Autonomic Dysreflexia (Hyperreflexia)",
-      "Spinal Shock",
-      "Neurogenic Shock",
-      "Transient Ischemic Attack"
+      "30 mL/kg",
+      "10 mL/kg",
+      "50 mL/kg",
+      "5 mL/kg"
     ],
     "answer": 0,
-    "explanation": "Autonomic dysreflexia is triggered by noxious stimuli (e.g. distended bladder) below the lesion, causing uninhibited sympathetic response and malignant hypertension.",
+    "explanation": "30 mL/kg crystalloids is standard for septic hypotension.",
     "tags": [
-      "nursing",
-      "neurology",
-      "emergency"
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000015",
+    "category": "Nursing",
+    "subcategory": "Pancreatitis",
+    "difficulty": "hard",
+    "question": "Bluish discoloration around the umbilicus in acute pancreatitis is called what?",
+    "options": [
+      "Cullen's sign",
+      "Grey Turner's sign",
+      "Murphy's sign",
+      "McBurney's sign"
+    ],
+    "answer": 0,
+    "explanation": "Cullen's sign indicates retroperitoneal hemorrhage.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000016",
+    "category": "Nursing",
+    "subcategory": "Vital Signs",
+    "difficulty": "easy",
+    "question": "Which pulse site is located in the groove along the thumb side of the inner wrist?",
+    "options": [
+      "Radial pulse",
+      "Carotid pulse",
+      "Brachial pulse",
+      "Femoral pulse"
+    ],
+    "answer": 0,
+    "explanation": "The radial artery runs along the radial bone on the thumb side.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000017",
+    "category": "Nursing",
+    "subcategory": "Thermoregulation",
+    "difficulty": "easy",
+    "question": "What is the medical term for an abnormally elevated body temperature or fever?",
+    "options": [
+      "Pyrexia / Hyperthermia",
+      "Hypothermia",
+      "Eupnea",
+      "Bradypnea"
+    ],
+    "answer": 0,
+    "explanation": "Pyrexia refers to elevated body temperature / fever.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000018",
+    "category": "Nursing",
+    "subcategory": "Infection Control",
+    "difficulty": "medium",
+    "question": "When caring for a client with active Pulmonary Tuberculosis, what type of transmission precaution is required?",
+    "options": [
+      "Airborne Precautions (with negative pressure room & N95)",
+      "Contact Precautions",
+      "Droplet Precautions",
+      "Standard Precautions only"
+    ],
+    "answer": 0,
+    "explanation": "Mycobacterium tuberculosis particles remain suspended in air, requiring airborne isolation.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000019",
+    "category": "Nursing",
+    "subcategory": "Fluids",
+    "difficulty": "medium",
+    "question": "Which laboratory finding is the most sensitive indicator of acute changes in nutritional protein status?",
+    "options": [
+      "Prealbumin level",
+      "Serum Albumin",
+      "Total Protein",
+      "Hemoglobin A1c"
+    ],
+    "answer": 0,
+    "explanation": "Prealbumin has a short half-life of 2 days, reflecting acute nutritional status.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000020",
+    "category": "Nursing",
+    "subcategory": "Emergency",
+    "difficulty": "hard",
+    "question": "A client with a tracheostomy suddenly experiences acute respiratory distress. The nurse cannot pass a suction catheter. What is the immediate action?",
+    "options": [
+      "Remove the inner cannula and reattempt suctioning or change the tube",
+      "Deflate the tracheostomy cuff immediately",
+      "Administer 100% O2 via nasal cannula",
+      "Call for a STAT chest X-ray"
+    ],
+    "answer": 0,
+    "explanation": "An obstructed inner cannula must be removed immediately to clear the airway.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000021",
+    "category": "Nursing",
+    "subcategory": "Infection Control",
+    "difficulty": "easy",
+    "question": "Which standard precautions measure is required for handling soiled hospital linen?",
+    "options": [
+      "Wear clean gloves and avoid holding soiled linen against uniform",
+      "Sterile gloves and gown",
+      "N95 respirator",
+      "Double bagging outside room"
+    ],
+    "answer": 0,
+    "explanation": "Standard precautions dictate gloves and keeping soiled linen away from uniform.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000022",
+    "category": "Nursing",
+    "subcategory": "Cardiovascular",
+    "difficulty": "medium",
+    "question": "Where is the dorsalis pedis pulse palpated?",
+    "options": [
+      "On the dorsum of the foot, lateral to the extensor tendon of the great toe",
+      "Behind the medial malleolus",
+      "In the popliteal fossa",
+      "Over the femoral triangle"
+    ],
+    "answer": 0,
+    "explanation": "Dorsalis pedis pulse is on the top of the foot lateral to the big toe tendon.",
+    "tags": [
+      "nursing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000023",
+    "category": "Nursing",
+    "subcategory": "Fluid & Electrolytes",
+    "difficulty": "hard",
+    "question": "A client on prolonged nasogastric suctioning is at highest risk for which acid-base disturbance?",
+    "options": [
+      "Metabolic Alkalosis",
+      "Metabolic Acidosis",
+      "Respiratory Acidosis",
+      "Respiratory Alkalosis"
+    ],
+    "answer": 0,
+    "explanation": "Loss of hydrochloric acid from gastric suction leads to metabolic alkalosis.",
+    "tags": [
+      "nursing"
     ],
     "status": "active"
   }

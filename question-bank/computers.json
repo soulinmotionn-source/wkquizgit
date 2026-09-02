@@ -4,28 +4,26 @@
     "category": "Computers",
     "subcategory": "Hardware",
     "difficulty": "easy",
-    "question": "Which computer component is volatile memory that loses all data when the power is turned off?",
+    "question": "Which computer component provides fast volatile temporary memory?",
     "options": [
-      "RAM (Random Access Memory)",
-      "SSD (Solid State Drive)",
-      "ROM (Read-Only Memory)",
-      "NVMe Storage"
+      "RAM",
+      "SSD",
+      "ROM BIOS",
+      "Hard Drive"
     ],
     "answer": 0,
-    "explanation": "RAM is high-speed volatile working memory that clears when electrical power is removed.",
+    "explanation": "RAM is volatile memory.",
     "tags": [
-      "computers",
-      "hardware",
-      "ram"
+      "computers"
     ],
     "status": "active"
   },
   {
     "id": "COMP-000002",
     "category": "Computers",
-    "subcategory": "Data Units",
+    "subcategory": "Units",
     "difficulty": "easy",
-    "question": "How many binary bits are contained within exactly one standard Byte?",
+    "question": "How many bits are in exactly one byte?",
     "options": [
       "8 bits",
       "4 bits",
@@ -33,32 +31,218 @@
       "32 bits"
     ],
     "answer": 0,
-    "explanation": "One byte consists of 8 bits. A 4-bit nibble is half a byte.",
+    "explanation": "1 Byte = 8 bits.",
     "tags": [
-      "computers",
-      "binary",
-      "data"
+      "computers"
     ],
     "status": "active"
   },
   {
     "id": "COMP-000003",
     "category": "Computers",
-    "subcategory": "Architecture",
-    "difficulty": "hard",
-    "question": "In CPU architecture, what does the 'L1 Cache' offer compared to L2, L3, and main RAM?",
+    "subcategory": "Storage",
+    "difficulty": "easy",
+    "question": "What solid-state component has largely replaced mechanical spinning HDDs in modern laptops?",
     "options": [
-      "Smallest capacity but lowest latency and fastest access speed",
-      "Largest storage capacity for persistent files",
-      "Direct connection to graphics processing cores",
-      "Non-volatile storage for BIOS firmware"
+      "SSD (Solid State Drive)",
+      "Floppy Disk",
+      "Optical Drive",
+      "Magnetic Tape"
     ],
     "answer": 0,
-    "explanation": "Level 1 (L1) cache is built directly into the processor core, operating at CPU clock speed with sub-nanosecond latency.",
+    "explanation": "SSDs use flash memory with no moving parts.",
     "tags": [
-      "computers",
-      "cpu",
-      "cache"
+      "computers"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "COMP-000004",
+    "category": "Computers",
+    "subcategory": "CPU",
+    "difficulty": "medium",
+    "question": "What CPU register holds the memory address of the next instruction to execute?",
+    "options": [
+      "Program Counter (PC)",
+      "Accumulator",
+      "Instruction Register",
+      "Data Register"
+    ],
+    "answer": 0,
+    "explanation": "The Program Counter points to the next instruction.",
+    "tags": [
+      "computers"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "COMP-000005",
+    "category": "Computers",
+    "subcategory": "Networking",
+    "difficulty": "medium",
+    "question": "What layer of the OSI model is responsible for logical IP addressing and packet routing?",
+    "options": [
+      "Network Layer (Layer 3)",
+      "Data Link Layer (Layer 2)",
+      "Transport Layer (Layer 4)",
+      "Application Layer (Layer 7)"
+    ],
+    "answer": 0,
+    "explanation": "Layer 3 (Network Layer) handles IP routing.",
+    "tags": [
+      "computers"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "COMP-000006",
+    "category": "Computers",
+    "subcategory": "Architecture",
+    "difficulty": "hard",
+    "question": "Why is L1 cache faster than L2 and L3 cache?",
+    "options": [
+      "Built directly into processor core pipelines with sub-nanosecond latency",
+      "Holds more gigabytes",
+      "Uses flash storage",
+      "Runs on AC power"
+    ],
+    "answer": 0,
+    "explanation": "L1 cache is integrated directly in the execution core.",
+    "tags": [
+      "computers"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "COMP-000007",
+    "category": "Computers",
+    "subcategory": "Virtual Memory",
+    "difficulty": "hard",
+    "question": "What occurs during a 'Page Fault' in modern operating systems?",
+    "options": [
+      "The CPU accesses a virtual memory address whose page is not currently in physical RAM",
+      "The CPU cache fails a parity check",
+      "The hard disk sector is physically damaged",
+      "The BIOS battery runs low"
+    ],
+    "answer": 0,
+    "explanation": "A page fault triggers OS memory managers to load the requested page from swap/disk into RAM.",
+    "tags": [
+      "computers"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "COMP-000008",
+    "category": "Computers",
+    "subcategory": "OS",
+    "difficulty": "easy",
+    "question": "What core component of an Operating System manages hardware resources, memory, and CPU processes?",
+    "options": [
+      "Kernel",
+      "GUI Shell",
+      "File Browser",
+      "Compiler"
+    ],
+    "answer": 0,
+    "explanation": "The Kernel is the central core of an operating system.",
+    "tags": [
+      "computers"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "COMP-000009",
+    "category": "Computers",
+    "subcategory": "Networking",
+    "difficulty": "medium",
+    "question": "What port number is standard for unencrypted HTTP web traffic?",
+    "options": [
+      "Port 80",
+      "Port 443",
+      "Port 22",
+      "Port 21"
+    ],
+    "answer": 0,
+    "explanation": "Port 80 is HTTP; Port 443 is HTTPS; Port 22 is SSH.",
+    "tags": [
+      "computers"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "COMP-000010",
+    "category": "Computers",
+    "subcategory": "Architecture",
+    "difficulty": "hard",
+    "question": "What pipelining hazard occurs when an instruction depends on the result of a previous instruction that has not yet completed?",
+    "options": [
+      "Data Hazard",
+      "Structural Hazard",
+      "Control (Branch) Hazard",
+      "Interrupt Hazard"
+    ],
+    "answer": 0,
+    "explanation": "Data hazards (e.g. Read-After-Write) occur when operands are not yet available.",
+    "tags": [
+      "computers"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "COMP-000011",
+    "category": "Computers",
+    "subcategory": "Binary",
+    "difficulty": "easy",
+    "question": "What is the decimal equivalent of the 4-bit binary number 1010?",
+    "options": [
+      "10",
+      "12",
+      "8",
+      "15"
+    ],
+    "answer": 0,
+    "explanation": "1010 in binary = 8 + 0 + 2 + 0 = 10 in decimal.",
+    "tags": [
+      "computers"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "COMP-000012",
+    "category": "Computers",
+    "subcategory": "Protocols",
+    "difficulty": "medium",
+    "question": "What protocol dynamically assigns IP addresses, subnet masks, and default gateways to client devices?",
+    "options": [
+      "DHCP (Dynamic Host Configuration Protocol)",
+      "DNS",
+      "SNMP",
+      "ARP"
+    ],
+    "answer": 0,
+    "explanation": "DHCP automatically distributes network configuration.",
+    "tags": [
+      "computers"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "COMP-000013",
+    "category": "Computers",
+    "subcategory": "Concurrency",
+    "difficulty": "hard",
+    "question": "What condition occurs when two concurrent threads hold resources each other needs and wait indefinitely?",
+    "options": [
+      "Deadlock",
+      "Race Condition",
+      "Starvation",
+      "Livelock"
+    ],
+    "answer": 0,
+    "explanation": "Deadlock occurs when circular wait prevents progress.",
+    "tags": [
+      "computers"
     ],
     "status": "active"
   }

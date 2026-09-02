@@ -3,20 +3,18 @@
     "id": "ELX-000001",
     "category": "Electronics",
     "subcategory": "Semiconductors",
-    "difficulty": "medium",
-    "question": "What semiconductor component allows electrical current to flow predominantly in only one direction (forward biased)?",
+    "difficulty": "easy",
+    "question": "What component permits current to flow in one direction only?",
     "options": [
       "Diode",
+      "Resistor",
       "Capacitor",
-      "Transformer",
-      "Potentiometer"
+      "Inductor"
     ],
     "answer": 0,
-    "explanation": "A p-n junction diode conducts current easily when forward biased and blocks current when reverse biased.",
+    "explanation": "Diodes conduct in the forward bias direction only.",
     "tags": [
-      "electronics",
-      "diodes",
-      "semiconductors"
+      "electronics"
     ],
     "status": "active"
   },
@@ -25,40 +23,245 @@
     "category": "Electronics",
     "subcategory": "Digital Logic",
     "difficulty": "easy",
-    "question": "Which digital logic gate produces a HIGH (1) output ONLY when both of its inputs are HIGH (1)?",
+    "question": "Which logic gate outputs HIGH only when all of its inputs are HIGH?",
     "options": [
       "AND Gate",
       "OR Gate",
-      "XOR Gate",
-      "NOR Gate"
+      "NOT Gate",
+      "XOR Gate"
     ],
     "answer": 0,
-    "explanation": "An AND gate requires all inputs to be TRUE (1) to produce a TRUE (1) output.",
+    "explanation": "AND gates require all inputs to be 1.",
     "tags": [
-      "electronics",
-      "digital-logic",
-      "gates"
+      "electronics"
     ],
     "status": "active"
   },
   {
     "id": "ELX-000003",
     "category": "Electronics",
-    "subcategory": "Transistors",
-    "difficulty": "hard",
-    "question": "In an N-channel enhancement-mode MOSFET, what voltage condition is required between Gate and Source (Vgs) to create an inversion channel and conduct drain current?",
+    "subcategory": "Inverters",
+    "difficulty": "easy",
+    "question": "Which logic gate outputs the inverted complement of its single input (HIGH becomes LOW)?",
     "options": [
-      "Vgs must exceed the positive threshold voltage (Vth)",
-      "Vgs must be zero volts",
-      "Vgs must be negative with respect to source",
-      "Drain voltage must be lower than source voltage"
+      "NOT Gate (Inverter)",
+      "OR Gate",
+      "AND Gate",
+      "NAND Gate"
     ],
     "answer": 0,
-    "explanation": "An enhancement-mode N-channel MOSFET is normally OFF; applying a gate-to-source voltage greater than Vth induces a conducting channel.",
+    "explanation": "A NOT gate inverts a logic signal.",
     "tags": [
-      "electronics",
-      "mosfet",
-      "transistors"
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELX-000004",
+    "category": "Electronics",
+    "subcategory": "Transistors",
+    "difficulty": "medium",
+    "question": "What are the three terminals of a BJT transistor?",
+    "options": [
+      "Emitter, Base, Collector",
+      "Gate, Drain, Source",
+      "Anode, Cathode, Gate",
+      "Positive, Negative, Neutral"
+    ],
+    "answer": 0,
+    "explanation": "BJTs have Emitter, Base, Collector.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELX-000005",
+    "category": "Electronics",
+    "subcategory": "Op-Amps",
+    "difficulty": "medium",
+    "question": "What is the theoretical input impedance of an ideal operational amplifier (Op-Amp)?",
+    "options": [
+      "Infinite (∞ Ohms)",
+      "Zero (0 Ohms)",
+      "50 Ohms",
+      "1 Megohm"
+    ],
+    "answer": 0,
+    "explanation": "Ideal Op-Amps have infinite input impedance and zero input bias current.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELX-000006",
+    "category": "Electronics",
+    "subcategory": "Capacitors",
+    "difficulty": "medium",
+    "question": "What is the basic unit of electrical capacitance?",
+    "options": [
+      "Farad (F)",
+      "Henry (H)",
+      "Ohm (Ω)",
+      "Tesla (T)"
+    ],
+    "answer": 0,
+    "explanation": "Capacitance is measured in Farads.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELX-000007",
+    "category": "Electronics",
+    "subcategory": "MOSFETs",
+    "difficulty": "hard",
+    "question": "In an N-channel enhancement MOSFET, what is required to conduct drain current?",
+    "options": [
+      "V_GS must exceed positive threshold voltage (V_th)",
+      "V_GS must be zero",
+      "V_GS must be negative",
+      "V_DS must equal zero"
+    ],
+    "answer": 0,
+    "explanation": "Positive V_GS above V_th creates an inversion channel.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELX-000008",
+    "category": "Electronics",
+    "subcategory": "Rectification",
+    "difficulty": "hard",
+    "question": "What is the ripple frequency of a full-wave bridge rectifier operating on a 60 Hz AC source?",
+    "options": [
+      "120 Hz",
+      "60 Hz",
+      "30 Hz",
+      "240 Hz"
+    ],
+    "answer": 0,
+    "explanation": "Full-wave rectifiers double the AC line frequency to 120 Hz ripple.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELX-000009",
+    "category": "Electronics",
+    "subcategory": "Components",
+    "difficulty": "easy",
+    "question": "What passive electronic component stores energy in an electrostatic field?",
+    "options": [
+      "Capacitor",
+      "Inductor",
+      "Resistor",
+      "Diode"
+    ],
+    "answer": 0,
+    "explanation": "Capacitors store charge and electrostatic energy.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELX-000010",
+    "category": "Electronics",
+    "subcategory": "Digital",
+    "difficulty": "medium",
+    "question": "Which digital logic gate produces a LOW (0) output only when both inputs are HIGH (1)?",
+    "options": [
+      "NAND Gate",
+      "NOR Gate",
+      "AND Gate",
+      "XOR Gate"
+    ],
+    "answer": 0,
+    "explanation": "NAND gate is the inverse of an AND gate.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELX-000011",
+    "category": "Electronics",
+    "subcategory": "Oscillators",
+    "difficulty": "hard",
+    "question": "What type of multivibrator circuit has no stable states and continuously oscillates generating a square wave?",
+    "options": [
+      "Astable Multivibrator",
+      "Monostable Multivibrator",
+      "Bistable Flip-Flop",
+      "Schmitt Trigger"
+    ],
+    "answer": 0,
+    "explanation": "Astable multivibrators oscillate freely without external triggers.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELX-000012",
+    "category": "Electronics",
+    "subcategory": "Diodes",
+    "difficulty": "easy",
+    "question": "What type of diode is designed to operate reliably in its reverse breakdown region to regulate voltage?",
+    "options": [
+      "Zener Diode",
+      "Schottky Diode",
+      "Varactor Diode",
+      "Tunnel Diode"
+    ],
+    "answer": 0,
+    "explanation": "Zener diodes maintain a constant reverse breakdown reference voltage.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELX-000013",
+    "category": "Electronics",
+    "subcategory": "Filtering",
+    "difficulty": "medium",
+    "question": "What passive filter circuit configuration allows high frequencies to pass while attenuating low frequencies?",
+    "options": [
+      "High-Pass Filter (Series capacitor with shunt resistor)",
+      "Low-Pass Filter",
+      "Band-Stop Filter",
+      "Notch Filter"
+    ],
+    "answer": 0,
+    "explanation": "A High-Pass Filter blocks DC and low frequencies.",
+    "tags": [
+      "electronics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELX-000014",
+    "category": "Electronics",
+    "subcategory": "Feedback",
+    "difficulty": "hard",
+    "question": "In an amplifier circuit, what effect does Negative Feedback have on circuit bandwidth and gain?",
+    "options": [
+      "Reduces gain but increases bandwidth and linearity",
+      "Increases gain and decreases bandwidth",
+      "Oscillates uncontrollably",
+      "Reduces input impedance to zero"
+    ],
+    "answer": 0,
+    "explanation": "Negative feedback trades voltage gain for expanded bandwidth, stability, and lower distortion.",
+    "tags": [
+      "electronics"
     ],
     "status": "active"
   }

@@ -2,25 +2,62 @@
   {
     "id": "GEO-000001",
     "category": "Geography",
-    "subcategory": "Rivers",
+    "subcategory": "Capitals",
     "difficulty": "easy",
-    "question": "Which is widely recognized as the longest river in the world?",
+    "question": "What is the capital city of France?",
     "options": [
-      "The Nile River",
-      "The Amazon River",
-      "The Yangtze River",
-      "The Mississippi River"
+      "Paris",
+      "Lyon",
+      "Marseille",
+      "Bordeaux"
     ],
     "answer": 0,
-    "explanation": "The Nile River in northeastern Africa flows approximately 6,650 km (4,132 miles).",
+    "explanation": "Paris is France's capital.",
     "tags": [
-      "geography",
-      "rivers"
+      "geography"
     ],
     "status": "active"
   },
   {
     "id": "GEO-000002",
+    "category": "Geography",
+    "subcategory": "Rivers",
+    "difficulty": "easy",
+    "question": "Which river is recognized as the longest in the world?",
+    "options": [
+      "The Nile River",
+      "The Amazon River",
+      "The Yangtze River",
+      "The Mississippi"
+    ],
+    "answer": 0,
+    "explanation": "The Nile is approx 6,650 km long.",
+    "tags": [
+      "geography"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GEO-000003",
+    "category": "Geography",
+    "subcategory": "Continents",
+    "difficulty": "easy",
+    "question": "Which is the largest continent on Earth by both land area and population?",
+    "options": [
+      "Asia",
+      "Africa",
+      "North America",
+      "Europe"
+    ],
+    "answer": 0,
+    "explanation": "Asia is the largest continent.",
+    "tags": [
+      "geography"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GEO-000004",
     "category": "Geography",
     "subcategory": "Capitals",
     "difficulty": "medium",
@@ -32,30 +69,199 @@
       "Brisbane"
     ],
     "answer": 0,
-    "explanation": "Canberra was founded in 1913 as the compromise capital between Sydney and Melbourne.",
+    "explanation": "Canberra is Australia's capital.",
     "tags": [
-      "geography",
-      "capitals"
+      "geography"
     ],
     "status": "active"
   },
   {
-    "id": "GEO-000003",
+    "id": "GEO-000005",
     "category": "Geography",
-    "subcategory": "Physical Geography",
-    "difficulty": "hard",
-    "question": "What is the only sea on Earth with no land boundaries, bounded entirely by ocean currents in the North Atlantic?",
+    "subcategory": "Mountains",
+    "difficulty": "medium",
+    "question": "What is the highest mountain peak in the world above sea level?",
     "options": [
-      "Sargasso Sea",
-      "Coral Sea",
-      "Baltic Sea",
-      "Tasman Sea"
+      "Mount Everest",
+      "K2",
+      "Kangchenjunga",
+      "Lhotse"
     ],
     "answer": 0,
-    "explanation": "The Sargasso Sea is defined entirely by four North Atlantic ocean currents that form an ocean gyre.",
+    "explanation": "Mount Everest stands at 8,848 meters.",
     "tags": [
-      "geography",
-      "oceans"
+      "geography"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GEO-000006",
+    "category": "Geography",
+    "subcategory": "Lakes",
+    "difficulty": "medium",
+    "question": "Which lake is the largest freshwater lake in the world by surface area?",
+    "options": [
+      "Lake Superior",
+      "Lake Victoria",
+      "Lake Baikal",
+      "Caspian Sea"
+    ],
+    "answer": 0,
+    "explanation": "Lake Superior has the largest freshwater surface area.",
+    "tags": [
+      "geography"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GEO-000007",
+    "category": "Geography",
+    "subcategory": "Oceans",
+    "difficulty": "hard",
+    "question": "Which ocean trench contains Challenger Deep, the lowest point on Earth?",
+    "options": [
+      "Mariana Trench",
+      "Puerto Rico Trench",
+      "Java Trench",
+      "Tonga Trench"
+    ],
+    "answer": 0,
+    "explanation": "Mariana Trench holds Challenger Deep (11,000m).",
+    "tags": [
+      "geography"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GEO-000008",
+    "category": "Geography",
+    "subcategory": "Geopolitics",
+    "difficulty": "hard",
+    "question": "Which country in the world is completely surrounded as an enclave within South Africa?",
+    "options": [
+      "Lesotho",
+      "Eswatini",
+      "Botswana",
+      "Namibia"
+    ],
+    "answer": 0,
+    "explanation": "Lesotho is a landlocked enclave inside South Africa.",
+    "tags": [
+      "geography"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GEO-000009",
+    "category": "Geography",
+    "subcategory": "Capitals",
+    "difficulty": "easy",
+    "question": "What is the capital city of Japan?",
+    "options": [
+      "Tokyo",
+      "Kyoto",
+      "Osaka",
+      "Hiroshima"
+    ],
+    "answer": 0,
+    "explanation": "Tokyo is the capital of Japan.",
+    "tags": [
+      "geography"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GEO-000010",
+    "category": "Geography",
+    "subcategory": "Deserts",
+    "difficulty": "medium",
+    "question": "Which is the largest hot desert in the world?",
+    "options": [
+      "The Sahara Desert",
+      "The Arabian Desert",
+      "The Gobi Desert",
+      "The Kalahari Desert"
+    ],
+    "answer": 0,
+    "explanation": "The Sahara is the largest subtropical hot desert.",
+    "tags": [
+      "geography"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GEO-000011",
+    "category": "Geography",
+    "subcategory": "Straits",
+    "difficulty": "hard",
+    "question": "Which narrow maritime strait connects the Persian Gulf with the Gulf of Oman and Arabian Sea?",
+    "options": [
+      "Strait of Hormuz",
+      "Strait of Malacca",
+      "Strait of Gibraltar",
+      "Bosphorus Strait"
+    ],
+    "answer": 0,
+    "explanation": "The Strait of Hormuz is a vital global oil transit chokepoint.",
+    "tags": [
+      "geography"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GEO-000012",
+    "category": "Geography",
+    "subcategory": "Capitals",
+    "difficulty": "easy",
+    "question": "What is the capital city of Canada?",
+    "options": [
+      "Ottawa",
+      "Toronto",
+      "Montreal",
+      "Vancouver"
+    ],
+    "answer": 0,
+    "explanation": "Ottawa is the capital of Canada.",
+    "tags": [
+      "geography"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GEO-000013",
+    "category": "Geography",
+    "subcategory": "Islands",
+    "difficulty": "medium",
+    "question": "Which is the largest island in the world by land area?",
+    "options": [
+      "Greenland",
+      "New Guinea",
+      "Borneo",
+      "Madagascar"
+    ],
+    "answer": 0,
+    "explanation": "Greenland is the world's largest non-continental island.",
+    "tags": [
+      "geography"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GEO-000014",
+    "category": "Geography",
+    "subcategory": "Mountains",
+    "difficulty": "hard",
+    "question": "What mountain range forms the traditional geographical boundary between Europe and Asia in Russia?",
+    "options": [
+      "The Ural Mountains",
+      "The Caucasus Mountains",
+      "The Alps",
+      "The Carpathian Mountains"
+    ],
+    "answer": 0,
+    "explanation": "The Ural Mountains divide European and Asian Russia.",
+    "tags": [
+      "geography"
     ],
     "status": "active"
   }
