@@ -2,48 +2,6 @@
   {
     "id": "HVAC-000001",
     "category": "HVAC",
-    "subcategory": "Refrigeration Cycle",
-    "difficulty": "medium",
-    "question": "In standard vapor-compression refrigeration, what is the primary function of the Expansion Valve (Metering Device)?",
-    "options": [
-      "Drop refrigerant pressure and temperature before entering the evaporator",
-      "Compress low-pressure vapor into high-pressure vapor",
-      "Condense high-pressure hot gas into subcooled liquid",
-      "Absorb room heat directly into the atmosphere"
-    ],
-    "answer": 0,
-    "explanation": "The expansion valve meters refrigerant flow and creates a sudden pressure drop, causing it to flash into a cold liquid/vapor mix.",
-    "tags": [
-      "hvac",
-      "refrigeration",
-      "thermodynamics"
-    ],
-    "status": "active"
-  },
-  {
-    "id": "HVAC-000002",
-    "category": "HVAC",
-    "subcategory": "Thermodynamics",
-    "difficulty": "hard",
-    "question": "What is the term for the heat added to a substance that causes a measurable temperature change without changing its state of matter?",
-    "options": [
-      "Sensible Heat",
-      "Latent Heat",
-      "Specific Heat Ratio",
-      "Subcooling Enthalpy"
-    ],
-    "answer": 0,
-    "explanation": "Sensible heat produces a measurable temperature change registered on a thermometer. Latent heat causes a change of phase at constant temperature.",
-    "tags": [
-      "hvac",
-      "thermodynamics",
-      "psychrometrics"
-    ],
-    "status": "active"
-  },
-  {
-    "id": "HVAC-000003",
-    "category": "HVAC",
     "subcategory": "Airflow",
     "difficulty": "easy",
     "question": "What unit is commonly used in North America to measure volumetric airflow rate in HVAC ductwork?",
@@ -63,7 +21,7 @@
     "status": "active"
   },
   {
-    "id": "HVAC-000004",
+    "id": "HVAC-000002",
     "category": "HVAC",
     "subcategory": "Cooling Capacity",
     "difficulty": "easy",
@@ -84,7 +42,175 @@
     "status": "active"
   },
   {
+    "id": "HVAC-000003",
+    "category": "HVAC",
+    "subcategory": "Air Filters",
+    "difficulty": "easy",
+    "question": "What does the MERV rating on an HVAC air filter measure?",
+    "options": [
+      "Minimum Efficiency Reporting Value (filter particle trapping efficiency)",
+      "Maximum Electrical Resistance Voltage",
+      "Motor Energy Reduction Velocity",
+      "Mass Energy Radiation Value"
+    ],
+    "answer": 0,
+    "explanation": "MERV (Minimum Efficiency Reporting Value) scales from 1 to 16+ to measure how effectively a filter traps airborne particles.",
+    "tags": [
+      "hvac",
+      "filters",
+      "iaq"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000004",
+    "category": "HVAC",
+    "subcategory": "Thermostats",
+    "difficulty": "easy",
+    "question": "In standard 24VAC HVAC thermostat wiring, which color wire typically connects to the cooling call (Compressor contactor)?",
+    "options": [
+      "Yellow (Y)",
+      "Red (R)",
+      "White (W)",
+      "Green (G)"
+    ],
+    "answer": 0,
+    "explanation": "By convention, Yellow (Y) is for cooling, Red (R) is 24V power, White (W) is heating, and Green (G) is the indoor fan relay.",
+    "tags": [
+      "hvac",
+      "controls",
+      "thermostats"
+    ],
+    "status": "active"
+  },
+  {
     "id": "HVAC-000005",
+    "category": "HVAC",
+    "subcategory": "Combustion",
+    "difficulty": "easy",
+    "question": "What odorless, colorless, and highly toxic gas can be produced by incomplete combustion in a cracked furnace heat exchanger?",
+    "options": [
+      "Carbon Monoxide (CO)",
+      "Carbon Dioxide (CO2)",
+      "Nitrogen Gas (N2)",
+      "Argon"
+    ],
+    "answer": 0,
+    "explanation": "Carbon Monoxide (CO) is a deadly byproduct of incomplete fuel combustion.",
+    "tags": [
+      "hvac",
+      "safety",
+      "furnace"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000006",
+    "category": "HVAC",
+    "subcategory": "Refrigeration Cycle",
+    "difficulty": "medium",
+    "question": "In standard vapor-compression refrigeration, what is the primary function of the Expansion Valve (Metering Device)?",
+    "options": [
+      "Drop refrigerant pressure and temperature before entering the evaporator",
+      "Compress low-pressure vapor into high-pressure vapor",
+      "Condense high-pressure hot gas into subcooled liquid",
+      "Absorb room heat directly into the atmosphere"
+    ],
+    "answer": 0,
+    "explanation": "The expansion valve meters refrigerant flow and creates a sudden pressure drop, causing it to flash into a cold liquid/vapor mix.",
+    "tags": [
+      "hvac",
+      "refrigeration",
+      "thermodynamics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000007",
+    "category": "HVAC",
+    "subcategory": "Refrigerants",
+    "difficulty": "medium",
+    "question": "Why is R-410A categorized as a near-azeotropic refrigerant blend?",
+    "options": [
+      "It consists of a 50/50 mix of HFC-32 and HFC-125 with near-zero temperature glide during phase change",
+      "It contains chlorine that depletes the ozone layer",
+      "It operates at 50% lower pressure than R-22",
+      "It can be vented directly to the atmosphere legally"
+    ],
+    "answer": 0,
+    "explanation": "R-410A has minimal temperature glide (< 0.3°F), behaving almost like a single-compound refrigerant.",
+    "tags": [
+      "hvac",
+      "refrigerants",
+      "r410a"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000008",
+    "category": "HVAC",
+    "subcategory": "Psychrometrics",
+    "difficulty": "medium",
+    "question": "What is the relative humidity percentage when the dry-bulb temperature equals the wet-bulb temperature?",
+    "options": [
+      "100% Relative Humidity (Saturation)",
+      "0% Relative Humidity",
+      "50% Relative Humidity",
+      "75% Relative Humidity"
+    ],
+    "answer": 0,
+    "explanation": "When dry-bulb and wet-bulb temperatures are equal, no evaporative cooling can occur because the air is 100% saturated with moisture (dew point reached).",
+    "tags": [
+      "hvac",
+      "psychrometrics",
+      "humidity"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000009",
+    "category": "HVAC",
+    "subcategory": "Motors",
+    "difficulty": "medium",
+    "question": "What type of high-efficiency indoor blower motor uses electronic commutators to maintain constant airflow against variable duct static pressure?",
+    "options": [
+      "ECM (Electronically Commutated Motor)",
+      "PSC (Permanent Split Capacitor) Motor",
+      "Shaded Pole Motor",
+      "Split-Phase Induction Motor"
+    ],
+    "answer": 0,
+    "explanation": "ECM brushless DC motors adjust RPM automatically to deliver target CFM regardless of static pressure changes.",
+    "tags": [
+      "hvac",
+      "motors",
+      "ecm"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000010",
+    "category": "HVAC",
+    "subcategory": "Thermodynamics",
+    "difficulty": "hard",
+    "question": "What is the term for the heat added to a substance that causes a measurable temperature change without changing its state of matter?",
+    "options": [
+      "Sensible Heat",
+      "Latent Heat",
+      "Specific Heat Ratio",
+      "Subcooling Enthalpy"
+    ],
+    "answer": 0,
+    "explanation": "Sensible heat produces a measurable temperature change registered on a thermometer. Latent heat causes a change of phase at constant temperature.",
+    "tags": [
+      "hvac",
+      "thermodynamics",
+      "psychrometrics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000011",
     "category": "HVAC",
     "subcategory": "Diagnostics",
     "difficulty": "hard",
@@ -102,6 +228,27 @@
       "diagnostics",
       "superheat",
       "subcooling"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000012",
+    "category": "HVAC",
+    "subcategory": "Evacuation",
+    "difficulty": "hard",
+    "question": "According to industry standards, what deep vacuum level in microns must be achieved and held during system evacuation to ensure moisture removal?",
+    "options": [
+      "500 microns or lower",
+      "5,000 microns",
+      "29.92 inches of mercury on analog gauge",
+      "15,000 microns"
+    ],
+    "answer": 0,
+    "explanation": "A vacuum of 500 microns or lower held for 10-15 minutes ensures that non-condensable gases and moisture have been boiled out of the system.",
+    "tags": [
+      "hvac",
+      "evacuation",
+      "microns"
     ],
     "status": "active"
   }

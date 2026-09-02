@@ -1,8 +1,8 @@
 /**
  * WKQUIZ ENGINE
  * Pure Vanilla JavaScript Quiz Engine.
- * Handles state management, Fisher-Yates shuffling with option remapping,
- * session duplicate prevention, timer, scoring, and deterministic Daily Quiz generator.
+ * Handles state management, unbiased Fisher-Yates shuffling with option remapping,
+ * strict session duplicate prevention, timer, scoring, and deterministic Daily Quiz generator.
  * Decoupled from storage via Data Provider layer.
  */
 
@@ -12,7 +12,6 @@ class WKQuizEngine {
       defaultLength: 10,
       availableLengths: [5, 10, 20, 50],
       availableDifficulties: ["easy", "medium", "hard"],
-      defaultDifficulty: "medium",
       timePerQuestionSeconds: 20,
       enableAnswerShuffle: true,
       enableQuestionShuffle: true,
@@ -23,16 +22,13 @@ class WKQuizEngine {
     // Data Provider interface
     if (options.provider) {
       this.provider = options.provider;
-    } else if (options.bank) {
-      // Compatibility wrapper
-      this.provider = new WKQuizDataProvider({ questions: options.bank.getAll ? options.bank.getAll() : [] });
     } else if (typeof WKQuizDataProvider !== "undefined") {
       this.provider = new WKQuizDataProvider();
     } else {
       this.provider = null;
     }
 
-    // Runtime state
+    // Runtime state (initially null until a quiz is started)
     this.sessionUsedIds = new Set();
     this.currentQuiz = null;
     this.currentIndex = 0;
@@ -41,9 +37,9 @@ class WKQuizEngine {
     this.maxStreak = 0;
     this.userAnswers = [];
     this.isCompleted = false;
-    this.mode = "classic";
-    this.difficulty = "medium";
-    this.category = "all";
+    this.mode = null;
+    this.category = null;
+    this.difficulty = null;
     this.shortageNotice = "";
     this.startTime = null;
     this.endTime = null;
@@ -102,7 +98,7 @@ class WKQuizEngine {
   }
 
   /**
-   * Standard Fisher-Yates Array Shuffle
+   * Standard Unbiased Fisher-Yates Array Shuffle
    */
   _shuffleArray(array, customRng = Math.random) {
     const arr = [...array];
@@ -114,7 +110,7 @@ class WKQuizEngine {
   }
 
   /**
-   * Shuffle options of a question while preserving the correct answer pointer
+   * Shuffle options of a question while preserving the exact correct answer pointer
    */
   _shuffleQuestionOptions(question, customRng = Math.random) {
     const originalOptions = question.options;
@@ -135,11 +131,12 @@ class WKQuizEngine {
 
   /**
    * Prepare questions for a new quiz session
+   * @param {Object} params - { category, difficulty, length, mode }
    */
   startQuiz(params = {}) {
     const mode = params.mode || "classic";
     const category = params.category || "all";
-    const difficulty = params.difficulty || this.config.defaultDifficulty || "medium";
+    const difficulty = params.difficulty || "medium";
     let length = params.length || this.config.defaultLength || 10;
 
     if (mode === "quick") length = 5;
@@ -185,7 +182,7 @@ class WKQuizEngine {
 
       pool = selected.map(q => this._shuffleQuestionOptions(q, rng));
     } else {
-      // Standard or Category Quiz filtered by 3 Difficulties (Easy, Medium, Hard)
+      // Strict category + difficulty query (No Cross-Difficulty Fallback!)
       const queryResult = this.provider.getQuestions({
         category,
         difficulty,
@@ -193,16 +190,10 @@ class WKQuizEngine {
         status: "active"
       });
 
-      let available = queryResult.questions;
+      const available = queryResult.questions;
 
       if (available.length === 0) {
-        // Fallback to all difficulties within category if requested difficulty has 0 questions
-        const fallbackQuery = this.provider.getQuestions({ category, difficulty: "all", status: "active" });
-        available = fallbackQuery.questions;
-      }
-
-      if (available.length === 0) {
-        throw new Error(`No active questions available for "${category}".`);
+        throw new Error(`No active questions available for "${category}" (${difficulty.toUpperCase()}).`);
       }
 
       // Session duplicate prevention
@@ -222,9 +213,9 @@ class WKQuizEngine {
         }
       }
 
-      // Check for shortage notice (never duplicate questions!)
+      // Shortage notice if pool has fewer questions than requested (NEVER DUPLICATE QUESTIONS!)
       if (candidatePool.length < length) {
-        this.shortageNotice = `Note: Only ${candidatePool.length} active questions available for ${category.toUpperCase()} (${difficulty.toUpperCase()}).`;
+        this.shortageNotice = `Note: Only ${candidatePool.length} active unique questions available for ${category.toUpperCase()} (${difficulty.toUpperCase()}).`;
       }
 
       const shuffledQuestions = this.config.enableQuestionShuffle 
@@ -232,6 +223,12 @@ class WKQuizEngine {
         : [...candidatePool];
 
       const selected = shuffledQuestions.slice(0, Math.min(length, shuffledQuestions.length));
+
+      // Assert uniqueness
+      const uniqueCheck = new Set(selected.map(q => q.id));
+      if (uniqueCheck.size !== selected.length) {
+        throw new Error("Duplicate questions detected in quiz generation!");
+      }
 
       selected.forEach(q => this.sessionUsedIds.add(q.id));
       this._saveSessionStorage();

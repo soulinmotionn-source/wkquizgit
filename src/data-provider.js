@@ -1,8 +1,8 @@
 /**
  * WKQUIZ DATA PROVIDER LAYER
  * Abstraction layer between Quiz Engine and Question Bank.
- * Supports static JSON data, difficulty filtering, status filtering,
- * and is designed for future API/Database migration without UI changes.
+ * Supports static JSON data, strict category + 3-difficulty filtering,
+ * status filtering, and real-time accurate question count reporting.
  */
 
 class WKQuizDataProvider {
@@ -47,9 +47,9 @@ class WKQuizDataProvider {
   }
 
   /**
-   * Main query method used by Quiz Engine
+   * Main query method used by Quiz Engine & UI Controller
    * @param {Object} options - { category, difficulty, length, status, mode }
-   * @returns {Object} { questions: Array, totalAvailable: number, requested: number, shortage: boolean, message: string }
+   * @returns {Object} { questions: Array, totalAvailable: number, requestedLength: number, shortage: boolean, message: string }
    */
   getQuestions(options = {}) {
     const category = (options.category || "all").toLowerCase().trim();
@@ -73,13 +73,9 @@ class WKQuizDataProvider {
       return true;
     });
 
-    // 2. Filter by Difficulty (EASY | MEDIUM | HARD)
+    // 2. Strict Difficulty Filter (EASY | MEDIUM | HARD) — ZERO FALLBACK ACROSS DIFFICULTIES
     if (difficulty === "easy" || difficulty === "medium" || difficulty === "hard") {
-      const difficultyFiltered = pool.filter(q => (q.difficulty || "medium").toLowerCase().trim() === difficulty);
-      // If we have questions for this difficulty, use them; otherwise keep existing pool
-      if (difficultyFiltered.length > 0) {
-        pool = difficultyFiltered;
-      }
+      pool = pool.filter(q => (q.difficulty || "medium").toLowerCase().trim() === difficulty);
     }
 
     const totalAvailable = pool.length;
@@ -89,7 +85,7 @@ class WKQuizDataProvider {
     if (totalAvailable === 0) {
       message = `No active questions found for ${category.toUpperCase()} (${difficulty.toUpperCase()}).`;
     } else if (shortage) {
-      message = `Requested ${requestedLength} questions, but only ${totalAvailable} unique ${difficulty.toUpperCase()} questions are currently available.`;
+      message = `Only ${totalAvailable} unique ${difficulty.toUpperCase()} questions are currently available for this category.`;
     }
 
     return {
@@ -99,6 +95,22 @@ class WKQuizDataProvider {
       shortage,
       message
     };
+  }
+
+  /**
+   * Get exact active questions count for a specific category and difficulty
+   * @param {string} category - Category slug or "all"
+   * @param {string} difficulty - "easy" | "medium" | "hard" | "all"
+   * @returns {number} Exact number of active questions
+   */
+  getAvailableCount(category = "all", difficulty = "all") {
+    const result = this.getQuestions({
+      category: category || "all",
+      difficulty: difficulty || "all",
+      length: 999999,
+      status: "active"
+    });
+    return result.totalAvailable;
   }
 
   /**
@@ -121,14 +133,6 @@ class WKQuizDataProvider {
     });
 
     return stats;
-  }
-
-  /**
-   * Get all active questions count for a specific category and difficulty
-   */
-  getAvailableCount(category = "all", difficulty = "all") {
-    const result = this.getQuestions({ category, difficulty, length: 99999 });
-    return result.totalAvailable;
   }
 }
 

@@ -754,10 +754,56 @@ button {
   color: #ffffff;
 }
 
+.wk-pill-btn:disabled,
+.wk-pill-btn.disabled {
+  opacity: 0.4;
+  cursor: not-allowed !important;
+  pointer-events: none;
+  background-color: var(--surface-3);
+  border-style: dashed;
+}
+
 .wk-setup-notice {
-  font-size: 0.85rem;
+  font-size: 0.88rem;
   color: var(--text-muted);
   margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--surface-2);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+}
+
+.wk-setup-notice.warning {
+  color: #d97706;
+  border-color: rgba(217, 119, 6, 0.3);
+  background-color: rgba(217, 119, 6, 0.08);
+}
+
+.wk-setup-placeholder {
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+  background-color: var(--surface);
+  border: 2px dashed var(--border);
+  border-radius: var(--radius-lg);
+  margin-bottom: 2rem;
+}
+
+.wk-setup-placeholder-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.wk-setup-placeholder-desc {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  max-width: 480px;
+  margin: 0 auto 1.25rem;
+}
   display: flex;
   align-items: center;
   justify-content: center;

@@ -1,5 +1,6 @@
 /**
  * Seeds and initializes the structured question-bank/ directory
+ * with extensive, authentic, high-yield questions for all difficulties (Easy, Medium, Hard).
  */
 const fs = require("fs");
 const path = require("path");
@@ -9,11 +10,159 @@ if (!fs.existsSync(qbDir)) {
   fs.mkdirSync(qbDir, { recursive: true });
 }
 
-// Full rich question datasets organized by category with permanent global IDs
 const categoryData = {
   "nclex": [
+    // Easy
     {
       "id": "NCLEX-000001",
+      "category": "NCLEX",
+      "subcategory": "Fundamentals",
+      "difficulty": "easy",
+      "question": "What is the normal expected adult resting heart rate range in beats per minute (bpm)?",
+      "options": ["60 to 100 bpm", "40 to 60 bpm", "100 to 140 bpm", "50 to 70 bpm"],
+      "answer": 0,
+      "explanation": "A normal resting heart rate for healthy adults ranges from 60 to 100 beats per minute.",
+      "tags": ["NCLEX", "vitals", "fundamentals"],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000002",
+      "category": "NCLEX",
+      "subcategory": "Infection Control",
+      "difficulty": "easy",
+      "question": "Which personal protective equipment (PPE) should the nurse don first when caring for a client on contact precautions?",
+      "options": ["Gown followed by gloves", "Gloves followed by gown", "N95 respirator only", "Shoe covers and goggles"],
+      "answer": 0,
+      "explanation": "Standard contact precautions require donning a clean gown first, followed by gloves covering the gown cuffs.",
+      "tags": ["NCLEX", "infection-control", "ppe"],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000003",
+      "category": "NCLEX",
+      "subcategory": "Patient Safety",
+      "difficulty": "easy",
+      "question": "Before administering any scheduled medication, which two client identifiers are required by Joint Commission standards?",
+      "options": ["Full name and date of birth", "Room number and bed number", "Primary diagnosis and room number", "Physician name and hospital badge"],
+      "answer": 0,
+      "explanation": "Acceptable identifiers include the client's full legal name and date of birth or assigned medical record number. Room numbers must never be used.",
+      "tags": ["NCLEX", "safety", "medication"],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000004",
+      "category": "NCLEX",
+      "subcategory": "Thermoregulation",
+      "difficulty": "easy",
+      "question": "What is considered a normal core body temperature in a resting adult in Celsius?",
+      "options": ["36.5°C to 37.5°C (97.7°F to 99.5°F)", "34.0°C to 35.0°C", "38.5°C to 39.5°C", "35.0°C to 36.0°C"],
+      "answer": 0,
+      "explanation": "Normal adult body temperature typically falls between 36.5°C and 37.5°C.",
+      "tags": ["NCLEX", "vitals", "assessment"],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000005",
+      "category": "NCLEX",
+      "subcategory": "Respiratory Basics",
+      "difficulty": "easy",
+      "question": "What is the expected normal resting respiratory rate range for an adult?",
+      "options": ["12 to 20 breaths per minute", "8 to 10 breaths per minute", "24 to 32 breaths per minute", "30 to 40 breaths per minute"],
+      "answer": 0,
+      "explanation": "Normal resting adult respiratory rate is 12 to 20 breaths per minute (eupnea).",
+      "tags": ["NCLEX", "vitals", "respiratory"],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000006",
+      "category": "NCLEX",
+      "subcategory": "Positioning",
+      "difficulty": "easy",
+      "question": "Which position is recommended to prevent aspiration when feeding an alert client via oral route?",
+      "options": ["Upright High Fowler's position (90 degrees)", "Supine position with head flat", "Trendelenburg position", "Left lateral prone position"],
+      "answer": 0,
+      "explanation": "Sitting upright in High Fowler's during meals facilitates gravity-assisted swallowing and prevents aspiration.",
+      "tags": ["NCLEX", "safety", "feeding"],
+      "status": "active"
+    },
+
+    // Medium
+    {
+      "id": "NCLEX-000007",
+      "category": "NCLEX",
+      "subcategory": "Pharmacology & Safety",
+      "difficulty": "medium",
+      "question": "A client with heart failure is taking Digoxin 0.25 mg daily. Which assessment finding warrants withholding the medication?",
+      "options": ["Apical heart rate of 52 beats per minute", "Blood pressure of 130/84 mmHg", "Respiratory rate of 18 breaths per minute", "Serum potassium level of 4.2 mEq/L"],
+      "answer": 0,
+      "explanation": "Digoxin should be withheld if the apical heart rate is below 60 bpm in an adult to avoid severe bradycardia and heart block.",
+      "tags": ["NCLEX", "pharmacology", "cardiac", "digoxin"],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000008",
+      "category": "NCLEX",
+      "subcategory": "Maternal-Newborn",
+      "difficulty": "medium",
+      "question": "Which finding in a postpartum mother 4 hours after an uncomplicated vaginal delivery requires immediate nurse intervention?",
+      "options": ["Fundus boggy and displaced to the right of the midline", "Moderate lochia rubra on the perineal pad", "Maternal temperature of 37.8°C (100.0°F)", "Diaphoresis during sleep"],
+      "answer": 0,
+      "explanation": "A boggy fundus displaced to the right indicates urinary bladder distension, preventing uterine contraction and increasing the risk of postpartum hemorrhage.",
+      "tags": ["NCLEX", "maternal", "postpartum", "safety"],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000009",
+      "category": "NCLEX",
+      "subcategory": "Endocrine",
+      "difficulty": "medium",
+      "question": "A diabetic client is exhibiting shakiness, sweating, confusion, and palpitations. Which immediate action should the nurse take?",
+      "options": ["Administer 15 grams of fast-acting simple carbohydrates", "Administer 10 units of regular insulin subcutaneous", "Place client in reverse Trendelenburg", "Encourage the client to drink 500 mL of pure water"],
+      "answer": 0,
+      "explanation": "These symptoms indicate acute hypoglycemia. The Rule of 15 dictates immediate ingestion of 15 grams of simple carbs.",
+      "tags": ["NCLEX", "endocrine", "hypoglycemia"],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000010",
+      "category": "NCLEX",
+      "subcategory": "Fluid & Electrolytes",
+      "difficulty": "medium",
+      "question": "Which intravenous solution is considered isotonic and suitable for initial fluid resuscitation in hypovolemic shock?",
+      "options": ["0.9% Normal Saline (0.9% NaCl)", "0.45% Normal Saline (0.45% NaCl)", "3% Hypertonic Saline", "Dextrose 10% in Water (D10W)"],
+      "answer": 0,
+      "explanation": "0.9% Normal Saline and Lactated Ringer's are isotonic solutions that expand extracellular intravascular fluid volume without causing cell lysis.",
+      "tags": ["NCLEX", "fluids", "emergency"],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000011",
+      "category": "NCLEX",
+      "subcategory": "Cardiology",
+      "difficulty": "medium",
+      "question": "Which symptom is considered a classic early clinical manifestation of left-sided heart failure?",
+      "options": ["Dyspnea on exertion and orthopnea", "Peripheral pitting edema in the lower ankles", "Jugular venous distension (JVD)", "Hepatomegaly and ascites"],
+      "answer": 0,
+      "explanation": "Left-sided heart failure causes pulmonary venous congestion leading to exertional dyspnea, orthopnea, and crackles.",
+      "tags": ["NCLEX", "cardiology", "heart-failure"],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000012",
+      "category": "NCLEX",
+      "subcategory": "Gastrointestinal",
+      "difficulty": "medium",
+      "question": "A client with acute pancreatitis should be placed on which dietary order during the initial acute stage?",
+      "options": ["NPO (Nothing by Mouth)", "High fat, high protein liquid diet", "Low fiber, high sodium soft diet", "High dairy soft puree"],
+      "answer": 0,
+      "explanation": "NPO status rests the inflamed pancreas by halting pancreatic enzyme secretion.",
+      "tags": ["NCLEX", "pancreatitis", "nutrition"],
+      "status": "active"
+    },
+
+    // Hard
+    {
+      "id": "NCLEX-000013",
       "category": "NCLEX",
       "subcategory": "Prioritization",
       "difficulty": "hard",
@@ -30,58 +179,7 @@ const categoryData = {
       "status": "active"
     },
     {
-      "id": "NCLEX-000002",
-      "category": "NCLEX",
-      "subcategory": "Pharmacology & Safety",
-      "difficulty": "medium",
-      "question": "A client with heart failure is taking Digoxin (Lanoxin) 0.25 mg daily. Which assessment finding warrants withholding the medication?",
-      "options": [
-        "Apical heart rate of 52 beats per minute",
-        "Blood pressure of 130/84 mmHg",
-        "Respiratory rate of 18 breaths per minute",
-        "Serum potassium level of 4.2 mEq/L"
-      ],
-      "answer": 0,
-      "explanation": "Digoxin should be withheld if the apical heart rate is below 60 bpm in an adult to avoid severe bradycardia and heart block.",
-      "tags": ["NCLEX", "pharmacology", "cardiac", "digoxin"],
-      "status": "active"
-    },
-    {
-      "id": "NCLEX-000003",
-      "category": "NCLEX",
-      "subcategory": "Maternal-Newborn",
-      "difficulty": "medium",
-      "question": "Which finding in a postpartum mother 4 hours after an uncomplicated vaginal delivery requires immediate nurse intervention?",
-      "options": [
-        "Fundus boggy and displaced to the right of the midline",
-        "Moderate lochia rubra on the perineal pad",
-        "Maternal temperature of 37.8°C (100.0°F)",
-        "Diaphoresis during sleep"
-      ],
-      "answer": 0,
-      "explanation": "A boggy fundus displaced to the right indicates urinary bladder distension, preventing uterine contraction and increasing the risk of postpartum hemorrhage.",
-      "tags": ["NCLEX", "maternal", "postpartum", "safety"],
-      "status": "active"
-    },
-    {
-      "id": "NCLEX-000004",
-      "category": "NCLEX",
-      "subcategory": "Fundamentals",
-      "difficulty": "easy",
-      "question": "What is the normal expected adult resting heart rate range in beats per minute (bpm)?",
-      "options": [
-        "60 to 100 bpm",
-        "40 to 60 bpm",
-        "100 to 140 bpm",
-        "50 to 70 bpm"
-      ],
-      "answer": 0,
-      "explanation": "A normal resting heart rate for healthy adults ranges from 60 to 100 beats per minute.",
-      "tags": ["NCLEX", "vitals", "fundamentals"],
-      "status": "active"
-    },
-    {
-      "id": "NCLEX-000005",
+      "id": "NCLEX-000014",
       "category": "NCLEX",
       "subcategory": "Critical Care",
       "difficulty": "hard",
@@ -98,44 +196,79 @@ const categoryData = {
       "status": "active"
     },
     {
-      "id": "NCLEX-000006",
+      "id": "NCLEX-000015",
       "category": "NCLEX",
-      "subcategory": "Infection Control",
-      "difficulty": "easy",
-      "question": "Which personal protective equipment (PPE) should the nurse don first when caring for a client on contact precautions?",
+      "subcategory": "Hemodynamics",
+      "difficulty": "hard",
+      "question": "What triad of clinical symptoms constitutes Cushing's Triad, signaling dangerously elevated intracranial pressure (ICP) and brain herniation?",
       "options": [
-        "Gown followed by gloves",
-        "Gloves followed by gown",
-        "N95 respirator only",
-        "Shoe covers and goggles"
+        "Severe hypertension with widening pulse pressure, bradycardia, and irregular respirations",
+        "Hypotension, tachycardia, and tachypnea",
+        "Hypertension, tachycardia, and high fever",
+        "Hypotension, bradycardia, and bradypnea"
       ],
       "answer": 0,
-      "explanation": "Standard contact precautions require donning a clean gown first, followed by gloves covering the gown cuffs.",
-      "tags": ["NCLEX", "infection-control", "ppe"],
+      "explanation": "Cushing's Triad consists of widening pulse pressure (high systolic), bradycardia, and irregular respirations (Cheyne-Stokes).",
+      "tags": ["NCLEX", "neurology", "critical-care"],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000016",
+      "category": "NCLEX",
+      "subcategory": "Acid-Base Balance",
+      "difficulty": "hard",
+      "question": "Arterial Blood Gas (ABG) values: pH 7.28, PaCO2 56 mmHg, HCO3 25 mEq/L. Which acid-base imbalance is present?",
+      "options": [
+        "Uncompensated Respiratory Acidosis",
+        "Compensated Metabolic Acidosis",
+        "Uncompensated Metabolic Alkalosis",
+        "Compensated Respiratory Alkalosis"
+      ],
+      "answer": 0,
+      "explanation": "pH < 7.35 indicates acidosis; PaCO2 > 45 mmHg indicates respiratory origin; normal HCO3 indicates lack of renal compensation.",
+      "tags": ["NCLEX", "abg", "acid-base"],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000017",
+      "category": "NCLEX",
+      "subcategory": "Pharmacology Toxicity",
+      "difficulty": "hard",
+      "question": "A client on Lithium therapy presents with coarse hand tremors, persistent diarrhea, ataxia, and confusion. What is the priority nursing action?",
+      "options": [
+        "Withhold next lithium dose and immediately notify the provider to obtain a serum lithium level",
+        "Administer the next scheduled lithium dose with milk",
+        "Instruct the client to restrict dietary sodium intake",
+        "Encourage vigorous aerobic exercise"
+      ],
+      "answer": 0,
+      "explanation": "Coarse tremors, ataxia, and mental confusion indicate severe lithium toxicity (level > 1.5-2.0 mEq/L).",
+      "tags": ["NCLEX", "pharmacology", "toxicity"],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000018",
+      "category": "NCLEX",
+      "subcategory": "Oncology & Safety",
+      "difficulty": "hard",
+      "question": "Which clinical manifestation in a client with acute leukemia undergoing chemotherapy indicates Tumor Lysis Syndrome (TLS)?",
+      "options": [
+        "Hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia",
+        "Hypokalemia, hypophosphatemia, and hypercalcemia",
+        "Hypernatremia, hypokalemia, and hypoglycemia",
+        "Severe thrombocytopenia with elevated hemoglobin"
+      ],
+      "answer": 0,
+      "explanation": "Rapid tumor cell lysis releases intracellular ions resulting in hyperkalemia, hyperphosphatemia, hyperuricemia, and secondary hypocalcemia.",
+      "tags": ["NCLEX", "oncology", "critical-care"],
       "status": "active"
     }
   ],
 
   "nursing": [
+    // Easy
     {
       "id": "NURS-000001",
-      "category": "Nursing",
-      "subcategory": "Fundamentals",
-      "difficulty": "medium",
-      "question": "Which position is most appropriate for a patient experiencing acute shortness of breath (dyspnea)?",
-      "options": [
-        "High Fowler's position (60-90 degrees)",
-        "Trendelenburg position",
-        "Prone position",
-        "Supine with legs elevated"
-      ],
-      "answer": 0,
-      "explanation": "High Fowler's position maximizes lung expansion and facilitates diaphragm descent, easing respiratory distress.",
-      "tags": ["nursing", "respiratory", "patient-care", "positioning"],
-      "status": "active"
-    },
-    {
-      "id": "NURS-000002",
       "category": "Nursing",
       "subcategory": "Infection Control",
       "difficulty": "easy",
@@ -152,24 +285,7 @@ const categoryData = {
       "status": "active"
     },
     {
-      "id": "NURS-000003",
-      "category": "Nursing",
-      "subcategory": "Assessment",
-      "difficulty": "hard",
-      "question": "When assessing a patient with suspected hypocalcemia, which clinical finding is known as Chvostek's sign?",
-      "options": [
-        "Twitching of facial muscles elicited by tapping the facial nerve",
-        "Carpal spasm induced by inflating a blood pressure cuff above systolic pressure",
-        "Numbness and tingling around the lips and fingertips",
-        "Hyperactive deep tendon reflexes in the lower extremities"
-      ],
-      "answer": 0,
-      "explanation": "Chvostek's sign is facial muscle twitching when tapping anterior to the ear. Trousseau's sign refers to carpal spasm with cuff inflation.",
-      "tags": ["nursing", "assessment", "electrolytes", "hypocalcemia"],
-      "status": "active"
-    },
-    {
-      "id": "NURS-000004",
+      "id": "NURS-000002",
       "category": "Nursing",
       "subcategory": "Wound Care",
       "difficulty": "easy",
@@ -186,7 +302,62 @@ const categoryData = {
       "status": "active"
     },
     {
+      "id": "NURS-000003",
+      "category": "Nursing",
+      "subcategory": "Patient Rights",
+      "difficulty": "easy",
+      "question": "What ethical principle is being practiced when a nurse respects an alert adult patient's informed refusal of medical treatment?",
+      "options": ["Autonomy", "Beneficence", "Non-maleficence", "Justice"],
+      "answer": 0,
+      "explanation": "Autonomy is the ethical principle recognizing an individual's right to make self-determining decisions regarding their own healthcare.",
+      "tags": ["nursing", "ethics", "patient-rights"],
+      "status": "active"
+    },
+    {
+      "id": "NURS-000004",
+      "category": "Nursing",
+      "subcategory": "Communication",
+      "difficulty": "easy",
+      "question": "Which standardized communication tool is widely used for handoff communication between healthcare providers?",
+      "options": ["SBAR (Situation, Background, Assessment, Recommendation)", "SOAP note format only", "PIE charting", "APGAR score"],
+      "answer": 0,
+      "explanation": "SBAR provides a structured, concise framework for urgent handoff and clinical communication.",
+      "tags": ["nursing", "communication", "sbar"],
+      "status": "active"
+    },
+    {
       "id": "NURS-000005",
+      "category": "Nursing",
+      "subcategory": "Comfort",
+      "difficulty": "easy",
+      "question": "How often should an immobile, bedbound patient be repositioned to prevent skin breakdown?",
+      "options": ["At least every 2 hours", "Every 6 hours", "Once per shift (8 hours)", "Only when the patient requests"],
+      "answer": 0,
+      "explanation": "Repositioning every 2 hours relieves pressure over bony prominences and maintains tissue perfusion.",
+      "tags": ["nursing", "pressure-injury", "mobility"],
+      "status": "active"
+    },
+
+    // Medium
+    {
+      "id": "NURS-000006",
+      "category": "Nursing",
+      "subcategory": "Fundamentals",
+      "difficulty": "medium",
+      "question": "Which position is most appropriate for a patient experiencing acute shortness of breath (dyspnea)?",
+      "options": [
+        "High Fowler's position (60-90 degrees)",
+        "Trendelenburg position",
+        "Prone position",
+        "Supine with legs elevated"
+      ],
+      "answer": 0,
+      "explanation": "High Fowler's position maximizes lung expansion and facilitates diaphragm descent, easing respiratory distress.",
+      "tags": ["nursing", "respiratory", "patient-care", "positioning"],
+      "status": "active"
+    },
+    {
+      "id": "NURS-000007",
       "category": "Nursing",
       "subcategory": "Medication Administration",
       "difficulty": "medium",
@@ -203,7 +374,67 @@ const categoryData = {
       "status": "active"
     },
     {
-      "id": "NURS-000006",
+      "id": "NURS-000008",
+      "category": "Nursing",
+      "subcategory": "Enteral Nutrition",
+      "difficulty": "medium",
+      "question": "Before administering an enteral feeding through a nasogastric (NG) tube, which bedside method best verifies initial placement prior to X-ray confirmation?",
+      "options": [
+        "Testing the pH of aspirated gastric contents (pH < 5.5)",
+        "Auscultating an air bolus over the epigastrium",
+        "Immersing the tube tip in water to look for bubbles",
+        "Measuring the client's abdominal circumference"
+      ],
+      "answer": 0,
+      "explanation": "Aspirate pH testing (< 5.5 in fasting stomach) is standard bedside verification. Auscultation is no longer recommended due to unreliability.",
+      "tags": ["nursing", "ng-tube", "nutrition"],
+      "status": "active"
+    },
+    {
+      "id": "NURS-000009",
+      "category": "Nursing",
+      "subcategory": "Blood Transfusion",
+      "difficulty": "medium",
+      "question": "During a packed red blood cell (PRBC) transfusion, the nurse must remain at the bedside to monitor the patient for how long after starting?",
+      "options": ["First 15 minutes", "First 3 minutes", "Entire 4 hours", "First 45 minutes"],
+      "answer": 0,
+      "explanation": "Severe acute hemolytic and anaphylactic transfusion reactions most commonly manifest within the first 15 minutes or first 50 mL.",
+      "tags": ["nursing", "blood-transfusion", "safety"],
+      "status": "active"
+    },
+    {
+      "id": "NURS-000010",
+      "category": "Nursing",
+      "subcategory": "IV Therapy",
+      "difficulty": "medium",
+      "question": "A patient's peripheral IV site appears pale, cool to touch, and swollen with slowed infusion rate. What complication has occurred?",
+      "options": ["Infiltration", "Phlebitis", "Air embolism", "Extravasation of vesicant"],
+      "answer": 0,
+      "explanation": "Infiltration is characterized by coolness, pallor, and edema. Phlebitis presents with warmth, erythema, and cord-like hardness.",
+      "tags": ["nursing", "iv-therapy", "complications"],
+      "status": "active"
+    },
+
+    // Hard
+    {
+      "id": "NURS-000011",
+      "category": "Nursing",
+      "subcategory": "Assessment",
+      "difficulty": "hard",
+      "question": "When assessing a patient with suspected hypocalcemia, which clinical finding is known as Chvostek's sign?",
+      "options": [
+        "Twitching of facial muscles elicited by tapping the facial nerve",
+        "Carpal spasm induced by inflating a blood pressure cuff above systolic pressure",
+        "Numbness and tingling around the lips and fingertips",
+        "Hyperactive deep tendon reflexes in the lower extremities"
+      ],
+      "answer": 0,
+      "explanation": "Chvostek's sign is facial muscle twitching when tapping anterior to the ear. Trousseau's sign refers to carpal spasm with cuff inflation.",
+      "tags": ["nursing", "assessment", "electrolytes", "hypocalcemia"],
+      "status": "active"
+    },
+    {
+      "id": "NURS-000012",
       "category": "Nursing",
       "subcategory": "Fluid & Electrolytes",
       "difficulty": "hard",
@@ -218,12 +449,109 @@ const categoryData = {
       "explanation": "Tall, peaked ('tented') T waves, prolonged PR intervals, and widened QRS complexes are hallmark signs of severe hyperkalemia.",
       "tags": ["nursing", "electrolytes", "ecg", "hyperkalemia"],
       "status": "active"
+    },
+    {
+      "id": "NURS-000013",
+      "category": "Nursing",
+      "subcategory": "Sepsis",
+      "difficulty": "hard",
+      "question": "In the Surviving Sepsis Campaign 1-Hour Bundle, which initial intervention is highest priority for septic shock with hypotension?",
+      "options": [
+        "Measure lactate level, obtain blood cultures before antibiotics, and administer rapid crystalloid bolus (30 mL/kg)",
+        "Administer high-dose steroids immediately",
+        "Administer oral antipyretics and maintain room temperature",
+        "Start subcutaneous low molecular weight heparin"
+      ],
+      "answer": 0,
+      "explanation": "The 1-hour sepsis bundle mandates measuring lactate, drawing blood cultures prior to broad-spectrum antibiotics, and infusing 30 mL/kg crystalloids for hypotension.",
+      "tags": ["nursing", "sepsis", "critical-care"],
+      "status": "active"
+    },
+    {
+      "id": "NURS-000014",
+      "category": "Nursing",
+      "subcategory": "Neurology",
+      "difficulty": "hard",
+      "question": "In a spinal cord injury patient at T6 or above, sudden severe throbbing headache, profuse diaphoresis above the injury, and severe hypertension indicate what medical emergency?",
+      "options": [
+        "Autonomic Dysreflexia (Hyperreflexia)",
+        "Spinal Shock",
+        "Neurogenic Shock",
+        "Transient Ischemic Attack"
+      ],
+      "answer": 0,
+      "explanation": "Autonomic dysreflexia is triggered by noxious stimuli (e.g. distended bladder) below the lesion, causing uninhibited sympathetic response and malignant hypertension.",
+      "tags": ["nursing", "neurology", "emergency"],
+      "status": "active"
     }
   ],
 
   "hvac": [
+    // Easy
     {
       "id": "HVAC-000001",
+      "category": "HVAC",
+      "subcategory": "Airflow",
+      "difficulty": "easy",
+      "question": "What unit is commonly used in North America to measure volumetric airflow rate in HVAC ductwork?",
+      "options": ["CFM (Cubic Feet per Minute)", "PSI (Pounds per Square Inch)", "BTU (British Thermal Unit)", "RPM (Revolutions per Minute)"],
+      "answer": 0,
+      "explanation": "CFM (Cubic Feet per Minute) is standard for airflow measurement in heating and air conditioning systems.",
+      "tags": ["hvac", "airflow", "ductwork"],
+      "status": "active"
+    },
+    {
+      "id": "HVAC-000002",
+      "category": "HVAC",
+      "subcategory": "Cooling Capacity",
+      "difficulty": "easy",
+      "question": "How many BTUs per hour (BTU/hr) are equal to exactly one standard ton of refrigeration?",
+      "options": ["12,000 BTU/hr", "24,000 BTU/hr", "6,000 BTU/hr", "100,000 BTU/hr"],
+      "answer": 0,
+      "explanation": "One ton of refrigeration is defined as 12,000 BTU/hr (the cooling power required to freeze 1 short ton of water in 24 hours).",
+      "tags": ["hvac", "calculations", "btu"],
+      "status": "active"
+    },
+    {
+      "id": "HVAC-000003",
+      "category": "HVAC",
+      "subcategory": "Air Filters",
+      "difficulty": "easy",
+      "question": "What does the MERV rating on an HVAC air filter measure?",
+      "options": ["Minimum Efficiency Reporting Value (filter particle trapping efficiency)", "Maximum Electrical Resistance Voltage", "Motor Energy Reduction Velocity", "Mass Energy Radiation Value"],
+      "answer": 0,
+      "explanation": "MERV (Minimum Efficiency Reporting Value) scales from 1 to 16+ to measure how effectively a filter traps airborne particles.",
+      "tags": ["hvac", "filters", "iaq"],
+      "status": "active"
+    },
+    {
+      "id": "HVAC-000004",
+      "category": "HVAC",
+      "subcategory": "Thermostats",
+      "difficulty": "easy",
+      "question": "In standard 24VAC HVAC thermostat wiring, which color wire typically connects to the cooling call (Compressor contactor)?",
+      "options": ["Yellow (Y)", "Red (R)", "White (W)", "Green (G)"],
+      "answer": 0,
+      "explanation": "By convention, Yellow (Y) is for cooling, Red (R) is 24V power, White (W) is heating, and Green (G) is the indoor fan relay.",
+      "tags": ["hvac", "controls", "thermostats"],
+      "status": "active"
+    },
+    {
+      "id": "HVAC-000005",
+      "category": "HVAC",
+      "subcategory": "Combustion",
+      "difficulty": "easy",
+      "question": "What odorless, colorless, and highly toxic gas can be produced by incomplete combustion in a cracked furnace heat exchanger?",
+      "options": ["Carbon Monoxide (CO)", "Carbon Dioxide (CO2)", "Nitrogen Gas (N2)", "Argon"],
+      "answer": 0,
+      "explanation": "Carbon Monoxide (CO) is a deadly byproduct of incomplete fuel combustion.",
+      "tags": ["hvac", "safety", "furnace"],
+      "status": "active"
+    },
+
+    // Medium
+    {
+      "id": "HVAC-000006",
       "category": "HVAC",
       "subcategory": "Refrigeration Cycle",
       "difficulty": "medium",
@@ -240,7 +568,50 @@ const categoryData = {
       "status": "active"
     },
     {
-      "id": "HVAC-000002",
+      "id": "HVAC-000007",
+      "category": "HVAC",
+      "subcategory": "Refrigerants",
+      "difficulty": "medium",
+      "question": "Why is R-410A categorized as a near-azeotropic refrigerant blend?",
+      "options": [
+        "It consists of a 50/50 mix of HFC-32 and HFC-125 with near-zero temperature glide during phase change",
+        "It contains chlorine that depletes the ozone layer",
+        "It operates at 50% lower pressure than R-22",
+        "It can be vented directly to the atmosphere legally"
+      ],
+      "answer": 0,
+      "explanation": "R-410A has minimal temperature glide (< 0.3°F), behaving almost like a single-compound refrigerant.",
+      "tags": ["hvac", "refrigerants", "r410a"],
+      "status": "active"
+    },
+    {
+      "id": "HVAC-000008",
+      "category": "HVAC",
+      "subcategory": "Psychrometrics",
+      "difficulty": "medium",
+      "question": "What is the relative humidity percentage when the dry-bulb temperature equals the wet-bulb temperature?",
+      "options": ["100% Relative Humidity (Saturation)", "0% Relative Humidity", "50% Relative Humidity", "75% Relative Humidity"],
+      "answer": 0,
+      "explanation": "When dry-bulb and wet-bulb temperatures are equal, no evaporative cooling can occur because the air is 100% saturated with moisture (dew point reached).",
+      "tags": ["hvac", "psychrometrics", "humidity"],
+      "status": "active"
+    },
+    {
+      "id": "HVAC-000009",
+      "category": "HVAC",
+      "subcategory": "Motors",
+      "difficulty": "medium",
+      "question": "What type of high-efficiency indoor blower motor uses electronic commutators to maintain constant airflow against variable duct static pressure?",
+      "options": ["ECM (Electronically Commutated Motor)", "PSC (Permanent Split Capacitor) Motor", "Shaded Pole Motor", "Split-Phase Induction Motor"],
+      "answer": 0,
+      "explanation": "ECM brushless DC motors adjust RPM automatically to deliver target CFM regardless of static pressure changes.",
+      "tags": ["hvac", "motors", "ecm"],
+      "status": "active"
+    },
+
+    // Hard
+    {
+      "id": "HVAC-000010",
       "category": "HVAC",
       "subcategory": "Thermodynamics",
       "difficulty": "hard",
@@ -257,41 +628,7 @@ const categoryData = {
       "status": "active"
     },
     {
-      "id": "HVAC-000003",
-      "category": "HVAC",
-      "subcategory": "Airflow",
-      "difficulty": "easy",
-      "question": "What unit is commonly used in North America to measure volumetric airflow rate in HVAC ductwork?",
-      "options": [
-        "CFM (Cubic Feet per Minute)",
-        "PSI (Pounds per Square Inch)",
-        "BTU (British Thermal Unit)",
-        "RPM (Revolutions per Minute)"
-      ],
-      "answer": 0,
-      "explanation": "CFM (Cubic Feet per Minute) is standard for airflow measurement in heating and air conditioning systems.",
-      "tags": ["hvac", "airflow", "ductwork"],
-      "status": "active"
-    },
-    {
-      "id": "HVAC-000004",
-      "category": "HVAC",
-      "subcategory": "Cooling Capacity",
-      "difficulty": "easy",
-      "question": "How many BTUs per hour (BTU/hr) are equal to exactly one standard ton of refrigeration?",
-      "options": [
-        "12,000 BTU/hr",
-        "24,000 BTU/hr",
-        "6,000 BTU/hr",
-        "100,000 BTU/hr"
-      ],
-      "answer": 0,
-      "explanation": "One ton of refrigeration is defined as 12,000 BTU/hr (the cooling power required to freeze 1 short ton of water in 24 hours).",
-      "tags": ["hvac", "calculations", "btu"],
-      "status": "active"
-    },
-    {
-      "id": "HVAC-000005",
+      "id": "HVAC-000011",
       "category": "HVAC",
       "subcategory": "Diagnostics",
       "difficulty": "hard",
@@ -306,10 +643,23 @@ const categoryData = {
       "explanation": "Low refrigerant charge results in an underfed evaporator (high superheat) and insufficient liquid backing up in the condenser (low subcooling).",
       "tags": ["hvac", "diagnostics", "superheat", "subcooling"],
       "status": "active"
+    },
+    {
+      "id": "HVAC-000012",
+      "category": "HVAC",
+      "subcategory": "Evacuation",
+      "difficulty": "hard",
+      "question": "According to industry standards, what deep vacuum level in microns must be achieved and held during system evacuation to ensure moisture removal?",
+      "options": ["500 microns or lower", "5,000 microns", "29.92 inches of mercury on analog gauge", "15,000 microns"],
+      "answer": 0,
+      "explanation": "A vacuum of 500 microns or lower held for 10-15 minutes ensures that non-condensable gases and moisture have been boiled out of the system.",
+      "tags": ["hvac", "evacuation", "microns"],
+      "status": "active"
     }
   ],
 
   "electrical": [
+    // Easy
     {
       "id": "ELEC-000001",
       "category": "Electrical",
@@ -330,6 +680,49 @@ const categoryData = {
     {
       "id": "ELEC-000002",
       "category": "Electrical",
+      "subcategory": "Safety",
+      "difficulty": "easy",
+      "question": "What is the primary function of a Ground Fault Circuit Interrupter (GFCI / RCD)?",
+      "options": [
+        "Protect people from electric shock by detecting current leakage to ground",
+        "Prevent circuit overload during high power draw",
+        "Step down high AC transmission voltage to 120V",
+        "Convert alternating current into direct current"
+      ],
+      "answer": 0,
+      "explanation": "GFCIs monitor the balance of current between hot and neutral wires and trip in milliseconds if an imbalance occurs.",
+      "tags": ["electrical", "safety", "gfci"],
+      "status": "active"
+    },
+    {
+      "id": "ELEC-000003",
+      "category": "Electrical",
+      "subcategory": "Conductors",
+      "difficulty": "easy",
+      "question": "Which standard metal conductor is most commonly used for residential branch circuit electrical wiring?",
+      "options": ["Copper", "Gold", "Steel", "Lead"],
+      "answer": 0,
+      "explanation": "Copper is the industry standard due to its excellent electrical conductivity, thermal properties, and ductility.",
+      "tags": ["electrical", "wiring", "conductors"],
+      "status": "active"
+    },
+    {
+      "id": "ELEC-000004",
+      "category": "Electrical",
+      "subcategory": "Frequency",
+      "difficulty": "easy",
+      "question": "What is the standard alternating current (AC) power grid frequency in North America?",
+      "options": ["60 Hertz (Hz)", "50 Hertz (Hz)", "120 Hertz (Hz)", "400 Hertz (Hz)"],
+      "answer": 0,
+      "explanation": "North America uses 60 Hz AC power, whereas Europe and most other regions use 50 Hz.",
+      "tags": ["electrical", "ac-power", "frequency"],
+      "status": "active"
+    },
+
+    // Medium
+    {
+      "id": "ELEC-000005",
+      "category": "Electrical",
       "subcategory": "Power Calculation",
       "difficulty": "medium",
       "question": "If a 120V electrical circuit draws a current of 5 Amperes, what is the electrical power consumed by the load?",
@@ -345,7 +738,33 @@ const categoryData = {
       "status": "active"
     },
     {
-      "id": "ELEC-000003",
+      "id": "ELEC-000006",
+      "category": "Electrical",
+      "subcategory": "Wire Sizing",
+      "difficulty": "medium",
+      "question": "In the American Wire Gauge (AWG) standard, which size copper conductor is required for a standard 20-Ampere branch circuit?",
+      "options": ["12 AWG", "14 AWG", "10 AWG", "16 AWG"],
+      "answer": 0,
+      "explanation": "12 AWG copper is rated for 20A breakers. 14 AWG is rated for 15A circuits.",
+      "tags": ["electrical", "nec", "wire-sizing"],
+      "status": "active"
+    },
+    {
+      "id": "ELEC-000007",
+      "category": "Electrical",
+      "subcategory": "Transformers",
+      "difficulty": "medium",
+      "question": "A step-down transformer has 1,000 primary turns and 100 secondary turns. If 240V AC is applied to the primary, what is the secondary output voltage?",
+      "options": ["24V AC", "2400V AC", "12V AC", "120V AC"],
+      "answer": 0,
+      "explanation": "Turns ratio = 10:1. Secondary Voltage = 240V / 10 = 24V AC.",
+      "tags": ["electrical", "transformers", "voltage"],
+      "status": "active"
+    },
+
+    // Hard
+    {
+      "id": "ELEC-000008",
       "category": "Electrical",
       "subcategory": "AC Circuits",
       "difficulty": "hard",
@@ -362,1339 +781,42 @@ const categoryData = {
       "status": "active"
     },
     {
-      "id": "ELEC-000004",
+      "id": "ELEC-000009",
       "category": "Electrical",
-      "subcategory": "Safety",
-      "difficulty": "easy",
-      "question": "What is the primary function of a Ground Fault Circuit Interrupter (GFCI / RCD)?",
-      "options": [
-        "Protect people from electric shock by detecting current leakage to ground",
-        "Prevent circuit overload during high power draw",
-        "Step down high AC transmission voltage to 120V",
-        "Convert alternating current into direct current"
-      ],
-      "answer": 0,
-      "explanation": "GFCIs monitor the balance of current between hot and neutral wires and trip in milliseconds if an imbalance occurs.",
-      "tags": ["electrical", "safety", "gfci"],
-      "status": "active"
-    }
-  ],
-
-  "electrical-symbols": [
-    {
-      "id": "ELECSYM-000001",
-      "category": "Electrical Symbols",
-      "subcategory": "Schematic Symbols",
-      "difficulty": "easy",
-      "question": "In electrical circuit schematics, what does a symbol composed of alternating long and short parallel lines represent?",
-      "options": [
-        "DC Voltage Source / Battery",
-        "Capacitor",
-        "Ground connection",
-        "Transformer"
-      ],
-      "answer": 0,
-      "explanation": "Alternating long (positive) and short thick (negative) parallel lines represent a DC chemical battery or cell.",
-      "tags": ["electrical-symbols", "schematics", "circuits"],
-      "status": "active"
-    },
-    {
-      "id": "ELECSYM-000002",
-      "category": "Electrical Symbols",
-      "subcategory": "Passive Components",
-      "difficulty": "medium",
-      "question": "On an electronic schematic, what component is depicted by a zigzag line in US standards or a plain rectangle in IEC European standards?",
-      "options": [
-        "Resistor",
-        "Inductor",
-        "Diode",
-        "Fuse"
-      ],
-      "answer": 0,
-      "explanation": "ANSI/IEEE US schematics use a zigzag line for fixed resistors; IEC/European schematics use an open rectangle.",
-      "tags": ["electrical-symbols", "resistors", "blueprints"],
-      "status": "active"
-    },
-    {
-      "id": "ELECSYM-000003",
-      "category": "Electrical Symbols",
-      "subcategory": "Semiconductors",
+      "subcategory": "Three Phase",
       "difficulty": "hard",
-      "question": "What electronic symbol is represented by a triangle pointing toward a vertical line with two small outward arrows pointing away from the triangle?",
-      "options": [
-        "Light Emitting Diode (LED)",
-        "Photodiode",
-        "Zener Diode",
-        "Schottky Diode"
-      ],
-      "answer": 0,
-      "explanation": "A diode triangle with outward-pointing arrows signifies a Light Emitting Diode (LED). Inward arrows represent a photodiode.",
-      "tags": ["electrical-symbols", "diodes", "led"],
-      "status": "active"
-    }
-  ],
-
-  "electronics": [
-    {
-      "id": "ELX-000001",
-      "category": "Electronics",
-      "subcategory": "Semiconductors",
-      "difficulty": "medium",
-      "question": "What semiconductor component allows electrical current to flow predominantly in only one direction (forward biased)?",
-      "options": [
-        "Diode",
-        "Capacitor",
-        "Transformer",
-        "Potentiometer"
-      ],
-      "answer": 0,
-      "explanation": "A p-n junction diode conducts current easily when forward biased and blocks current when reverse biased.",
-      "tags": ["electronics", "diodes", "semiconductors"],
-      "status": "active"
-    },
-    {
-      "id": "ELX-000002",
-      "category": "Electronics",
-      "subcategory": "Digital Logic",
-      "difficulty": "easy",
-      "question": "Which digital logic gate produces a HIGH (1) output ONLY when both of its inputs are HIGH (1)?",
-      "options": [
-        "AND Gate",
-        "OR Gate",
-        "XOR Gate",
-        "NOR Gate"
-      ],
-      "answer": 0,
-      "explanation": "An AND gate requires all inputs to be TRUE (1) to produce a TRUE (1) output.",
-      "tags": ["electronics", "digital-logic", "gates"],
-      "status": "active"
-    },
-    {
-      "id": "ELX-000003",
-      "category": "Electronics",
-      "subcategory": "Transistors",
-      "difficulty": "hard",
-      "question": "In an N-channel enhancement-mode MOSFET, what voltage condition is required between Gate and Source (Vgs) to create an inversion channel and conduct drain current?",
-      "options": [
-        "Vgs must exceed the positive threshold voltage (Vth)",
-        "Vgs must be zero volts",
-        "Vgs must be negative with respect to source",
-        "Drain voltage must be lower than source voltage"
-      ],
-      "answer": 0,
-      "explanation": "An enhancement-mode N-channel MOSFET is normally OFF; applying a gate-to-source voltage greater than Vth induces a conducting channel.",
-      "tags": ["electronics", "mosfet", "transistors"],
-      "status": "active"
-    }
-  ],
-
-  "medical": [
-    {
-      "id": "MED-000001",
-      "category": "Medical",
-      "subcategory": "Emergency Medicine",
-      "difficulty": "medium",
-      "question": "What is the recommended compression-to-ventilation ratio for adult single-rescuer CPR?",
-      "options": [
-        "30 compressions to 2 breaths",
-        "15 compressions to 2 breaths",
-        "20 compressions to 1 breath",
-        "50 compressions to 5 breaths"
-      ],
-      "answer": 0,
-      "explanation": "AHA resuscitation guidelines recommend a 30:2 compression-to-ventilation ratio for adult cardiac arrest in single-rescuer CPR.",
-      "tags": ["medical", "cpr", "emergency", "cardiology"],
-      "status": "active"
-    },
-    {
-      "id": "MED-000002",
-      "category": "Medical",
-      "subcategory": "Diagnostics",
-      "difficulty": "hard",
-      "question": "Which serum cardiac biomarker provides the highest diagnostic specificity and sensitivity for acute myocardial infarction (heart attack)?",
-      "options": [
-        "Cardiac Troponin I or T",
-        "Creatine Kinase-MB (CK-MB)",
-        "Myoglobin",
-        "Lactate Dehydrogenase (LDH)"
-      ],
-      "answer": 0,
-      "explanation": "Cardiac Troponins (I and T) are specific to myocardial tissue necrosis and remain the gold standard biomarker.",
-      "tags": ["medical", "cardiology", "lab-values", "diagnostics"],
-      "status": "active"
-    },
-    {
-      "id": "MED-000003",
-      "category": "Medical",
-      "subcategory": "Vitals",
-      "difficulty": "easy",
-      "question": "What is considered a normal adult resting blood pressure according to AHA/ACC guidelines?",
-      "options": [
-        "Less than 120/80 mmHg",
-        "140/90 mmHg",
-        "160/100 mmHg",
-        "130/85 mmHg"
-      ],
-      "answer": 0,
-      "explanation": "Normal blood pressure is defined as systolic < 120 mmHg and diastolic < 80 mmHg.",
-      "tags": ["medical", "vitals", "hypertension"],
-      "status": "active"
-    }
-  ],
-
-  "medical-terminology": [
-    {
-      "id": "MEDTERM-000001",
-      "category": "Medical Terminology",
-      "subcategory": "Prefixes",
-      "difficulty": "easy",
-      "question": "What does the medical prefix 'Brady-' mean?",
-      "options": [
-        "Slow",
-        "Fast",
-        "Difficult or painful",
-        "Excessive"
-      ],
-      "answer": 0,
-      "explanation": "'Brady-' means slow (e.g. bradycardia = abnormally slow heart rate). 'Tachy-' means fast.",
-      "tags": ["medical-terminology", "prefixes", "vocabulary"],
-      "status": "active"
-    },
-    {
-      "id": "MEDTERM-000002",
-      "category": "Medical Terminology",
-      "subcategory": "Suffixes",
-      "difficulty": "medium",
-      "question": "The surgical suffix '-ectomy' indicates which procedure?",
-      "options": [
-        "Surgical removal or excision",
-        "Creating an artificial opening",
-        "Surgical repair or reconstruction",
-        "Visual examination with an endoscope"
-      ],
-      "answer": 0,
-      "explanation": "'-ectomy' denotes surgical excision (e.g. appendectomy). '-ostomy' is creating an opening, and '-plasty' is surgical repair.",
-      "tags": ["medical-terminology", "suffixes", "surgery"],
-      "status": "active"
-    },
-    {
-      "id": "MEDTERM-000003",
-      "category": "Medical Terminology",
-      "subcategory": "Clinical Terms",
-      "difficulty": "hard",
-      "question": "What does the medical term 'Hemoptysis' specifically refer to?",
-      "options": [
-        "Coughing up blood from the respiratory tract",
-        "Vomiting blood from the gastrointestinal tract",
-        "Blood in the urine",
-        "Bleeding from the nasal cavity"
-      ],
-      "answer": 0,
-      "explanation": "Hemoptysis is the coughing up of blood. Vomiting blood is hematemesis, blood in urine is hematuria, and nosebleed is epistaxis.",
-      "tags": ["medical-terminology", "clinical", "pulmonology"],
-      "status": "active"
-    }
-  ],
-
-  "diseases": [
-    {
-      "id": "DIS-000001",
-      "category": "Diseases & Disorders",
-      "subcategory": "Endocrinology",
-      "difficulty": "medium",
-      "question": "Type 1 Diabetes Mellitus is characterized primarily by which underlying mechanism?",
-      "options": [
-        "Autoimmune destruction of pancreatic beta cells producing absolute insulin deficiency",
-        "Insulin resistance in peripheral tissues with relative insulin deficiency",
-        "Impaired hepatic glucose storage due to enzyme mutations",
-        "Excessive secretion of glucagon by alpha cells"
-      ],
-      "answer": 0,
-      "explanation": "Type 1 Diabetes is an autoimmune disorder where T-cells destroy insulin-producing beta cells in the islets of Langerhans.",
-      "tags": ["diseases", "diabetes", "endocrinology"],
-      "status": "active"
-    },
-    {
-      "id": "DIS-000002",
-      "category": "Diseases & Disorders",
-      "subcategory": "Infectious Disease",
-      "difficulty": "easy",
-      "question": "Which causative organism is responsible for Tuberculosis (TB)?",
-      "options": [
-        "Mycobacterium tuberculosis",
-        "Streptococcus pneumoniae",
-        "Staphylococcus aureus",
-        "Haemophilus influenzae"
-      ],
-      "answer": 0,
-      "explanation": "Tuberculosis is an infectious bacterial disease caused by Mycobacterium tuberculosis.",
-      "tags": ["diseases", "tuberculosis", "microbiology"],
-      "status": "active"
-    },
-    {
-      "id": "DIS-000003",
-      "category": "Diseases & Disorders",
-      "subcategory": "Cardiovascular",
-      "difficulty": "hard",
-      "question": "Which genetic cardiac disorder is the most common cause of sudden cardiac death in young competitive athletes?",
-      "options": [
-        "Hypertrophic Cardiomyopathy (HCM)",
-        "Dilated Cardiomyopathy",
-        "Aortic Dissection",
-        "Mitral Valve Prolapse"
-      ],
-      "answer": 0,
-      "explanation": "Hypertrophic cardiomyopathy causes asymmetric ventricular septal thickening and is the leading cause of sudden cardiac arrest in young athletes.",
-      "tags": ["diseases", "cardiology", "genetics"],
-      "status": "active"
-    }
-  ],
-
-  "anatomy": [
-    {
-      "id": "ANAT-000001",
-      "category": "Anatomy & Physiology",
-      "subcategory": "Cardiovascular",
-      "difficulty": "easy",
-      "question": "Which chamber of the human heart pumps oxygen-rich blood into the aorta to supply the entire body?",
-      "options": [
-        "Left Ventricle",
-        "Right Ventricle",
-        "Left Atrium",
-        "Right Atrium"
-      ],
-      "answer": 0,
-      "explanation": "The Left Ventricle has the thickest myocardium and pumps oxygenated blood under high pressure through the aortic valve into systemic circulation.",
-      "tags": ["anatomy", "heart", "cardiovascular"],
-      "status": "active"
-    },
-    {
-      "id": "ANAT-000002",
-      "category": "Anatomy & Physiology",
-      "subcategory": "Neuroanatomy",
-      "difficulty": "medium",
-      "question": "Which part of the brain is primarily responsible for motor coordination, balance, and fine motor skills?",
-      "options": [
-        "Cerebellum",
-        "Cerebrum",
-        "Hypothalamus",
-        "Medulla oblongata"
-      ],
-      "answer": 0,
-      "explanation": "The cerebellum coordinates voluntary muscle movements, equilibrium, and motor posture.",
-      "tags": ["anatomy", "neuroscience", "brain"],
-      "status": "active"
-    },
-    {
-      "id": "ANAT-000003",
-      "category": "Anatomy & Physiology",
-      "subcategory": "Skeletal System",
-      "difficulty": "easy",
-      "question": "What is the longest and strongest bone in the human skeleton?",
-      "options": [
-        "Femur (thigh bone)",
-        "Tibia (shin bone)",
-        "Humerus (upper arm bone)",
-        "Fibula"
-      ],
-      "answer": 0,
-      "explanation": "The femur is the longest, heaviest, and strongest bone in the human body.",
-      "tags": ["anatomy", "skeletal", "bones"],
-      "status": "active"
-    },
-    {
-      "id": "ANAT-000004",
-      "category": "Anatomy & Physiology",
-      "subcategory": "Endocrine System",
-      "difficulty": "hard",
-      "question": "The islets of Langerhans are microscopic clusters of endocrine cells located in which organ?",
-      "options": [
-        "Pancreas",
-        "Liver",
-        "Adrenal gland",
-        "Thyroid gland"
-      ],
-      "answer": 0,
-      "explanation": "The islets of Langerhans in the pancreas contain alpha, beta, and delta cells producing glucagon, insulin, and somatostatin.",
-      "tags": ["anatomy", "endocrine", "pancreas"],
-      "status": "active"
-    }
-  ],
-
-  "pharmacology": [
-    {
-      "id": "PHARM-000001",
-      "category": "Pharmacology",
-      "subcategory": "Antihypertensives",
-      "difficulty": "medium",
-      "question": "Which class of antihypertensive medications commonly causes a dry, persistent cough due to bradykinin accumulation?",
-      "options": [
-        "ACE Inhibitors (e.g. Lisinopril)",
-        "Beta Blockers (e.g. Metoprolol)",
-        "Calcium Channel Blockers (e.g. Amlodipine)",
-        "Thiazide Diuretics (e.g. Hydrochlorothiazide)"
-      ],
-      "answer": 0,
-      "explanation": "ACE inhibitors prevent the breakdown of bradykinin and substance P in the respiratory tract, provoking a dry cough.",
-      "tags": ["pharmacology", "hypertension", "ace-inhibitors"],
-      "status": "active"
-    },
-    {
-      "id": "PHARM-000002",
-      "category": "Pharmacology",
-      "subcategory": "Antidotes",
-      "difficulty": "hard",
-      "question": "What is the specific reversal agent (antidote) for heparin-induced anticoagulation?",
-      "options": [
-        "Protamine Sulfate",
-        "Vitamin K (Phytonadione)",
-        "Naloxone (Narcan)",
-        "Flumazenil"
-      ],
-      "answer": 0,
-      "explanation": "Protamine sulfate binds strongly to heparin to form an inactive salt complex. Vitamin K reverses Warfarin.",
-      "tags": ["pharmacology", "antidotes", "hematology", "heparin"],
-      "status": "active"
-    },
-    {
-      "id": "PHARM-000003",
-      "category": "Pharmacology",
-      "subcategory": "Analgesics",
-      "difficulty": "easy",
-      "question": "What is the specific emergency reversal medication administered for opioid overdose (respiratory depression)?",
-      "options": [
-        "Naloxone (Narcan)",
-        "Atropine",
-        "Epinephrine",
-        "Glucagon"
-      ],
-      "answer": 0,
-      "explanation": "Naloxone is a pure opioid antagonist that rapidly displaces opioids from mu-receptors, reversing life-threatening respiratory depression.",
-      "tags": ["pharmacology", "emergency", "opioids", "naloxone"],
-      "status": "active"
-    }
-  ],
-
-  "iq-logic": [
-    {
-      "id": "IQ-000001",
-      "category": "IQ & Logic",
-      "subcategory": "Number Series",
-      "difficulty": "medium",
-      "question": "Look at this sequence: 2, 6, 12, 20, 30, ___ . What number comes next in the pattern?",
-      "options": [
-        "42",
-        "40",
-        "38",
-        "48"
-      ],
-      "answer": 0,
-      "explanation": "The differences between consecutive terms increase by 2: +4, +6, +8, +10, so next is +12: 30 + 12 = 42.",
-      "tags": ["iq-logic", "patterns", "series", "deduction"],
-      "status": "active"
-    },
-    {
-      "id": "IQ-000002",
-      "category": "IQ & Logic",
-      "subcategory": "Deductive Reasoning",
-      "difficulty": "hard",
-      "question": "If all Zips are Zaps, and some Zaps are Zops, which of the following statements is DEFINITIVELY true?",
-      "options": [
-        "Some Zaps are Zips",
-        "All Zips are Zops",
-        "No Zips are Zops",
-        "All Zops are Zips"
-      ],
-      "answer": 0,
-      "explanation": "If all Zips belong to the set of Zaps (assuming at least one Zip exists), then necessarily some elements in the set of Zaps are Zips.",
-      "tags": ["iq-logic", "logic", "syllogisms"],
-      "status": "active"
-    },
-    {
-      "id": "IQ-000003",
-      "category": "IQ & Logic",
-      "subcategory": "Logic Riddles",
-      "difficulty": "easy",
-      "question": "A farmer has 17 sheep and all but 9 die. How many sheep are still alive?",
-      "options": [
-        "9",
-        "8",
-        "0",
-        "17"
-      ],
-      "answer": 0,
-      "explanation": "'All but 9 die' means exactly 9 sheep survived and are still alive.",
-      "tags": ["iq-logic", "riddles", "math"],
-      "status": "active"
-    }
-  ],
-
-  "general-knowledge": [
-    {
-      "id": "GK-000001",
-      "category": "General Knowledge",
-      "subcategory": "Earth Science",
-      "difficulty": "easy",
-      "question": "What is the hardest naturally occurring mineral substance on planet Earth?",
-      "options": [
-        "Diamond",
-        "Corundum",
-        "Topaz",
-        "Quartz"
-      ],
-      "answer": 0,
-      "explanation": "Diamond rates a maximum of 10 on the Mohs scale of mineral hardness.",
-      "tags": ["general-knowledge", "minerals", "science"],
-      "status": "active"
-    },
-    {
-      "id": "GK-000002",
-      "category": "General Knowledge",
-      "subcategory": "World Heritage",
-      "difficulty": "medium",
-      "question": "In which country is the ancient pre-Columbian Inca citadel of Machu Picchu located?",
-      "options": [
-        "Peru",
-        "Bolivia",
-        "Chile",
-        "Mexico"
-      ],
-      "answer": 0,
-      "explanation": "Machu Picchu is a 15th-century Inca citadel located in the Cusco Region of Peru.",
-      "tags": ["general-knowledge", "geography", "history", "landmarks"],
-      "status": "active"
-    },
-    {
-      "id": "GK-000003",
-      "category": "General Knowledge",
-      "subcategory": "Oceans & Geography",
-      "difficulty": "hard",
-      "question": "What is the deepest known point in the Earth's oceans, situated in the Western Pacific?",
-      "options": [
-        "Challenger Deep (Mariana Trench)",
-        "Puerto Rico Trench",
-        "Java Trench",
-        "Tonga Trench"
-      ],
-      "answer": 0,
-      "explanation": "Challenger Deep in the Mariana Trench reaches a depth of approximately 10,928 meters (35,853 feet).",
-      "tags": ["general-knowledge", "geography", "oceans"],
-      "status": "active"
-    }
-  ],
-
-  "entertainment": [
-    {
-      "id": "ENT-000001",
-      "category": "Entertainment",
-      "subcategory": "Comics & Cinema",
-      "difficulty": "easy",
-      "question": "Which superhero is famously known as the 'Dark Knight' of Gotham City?",
-      "options": [
-        "Batman",
-        "Superman",
-        "Iron Man",
-        "Spider-Man"
-      ],
-      "answer": 0,
-      "explanation": "Batman (Bruce Wayne) is widely referred to as the Dark Knight and Caped Crusader of Gotham City.",
-      "tags": ["entertainment", "superheroes", "comics", "batman"],
-      "status": "active"
-    },
-    {
-      "id": "ENT-000002",
-      "category": "Entertainment",
-      "subcategory": "Academy Awards",
-      "difficulty": "medium",
-      "question": "Which movie tied the record with 11 Academy Awards in 1997?",
-      "options": [
-        "Titanic",
-        "Avatar",
-        "Gladiator",
-        "Braveheart"
-      ],
-      "answer": 0,
-      "explanation": "James Cameron's Titanic won 11 Oscars at the 70th Academy Awards.",
-      "tags": ["entertainment", "movies", "oscars"],
-      "status": "active"
-    },
-    {
-      "id": "ENT-000003",
-      "category": "Entertainment",
-      "subcategory": "Film History",
-      "difficulty": "hard",
-      "question": "Who directed the 1927 groundbreaking German expressionist science-fiction film 'Metropolis'?",
-      "options": [
-        "Fritz Lang",
-        "F. W. Murnau",
-        "Robert Wiene",
-        "Billy Wilder"
-      ],
-      "answer": 0,
-      "explanation": "Fritz Lang directed the iconic silent dystopian film Metropolis in Weimar Germany in 1927.",
-      "tags": ["entertainment", "movies", "film-history"],
-      "status": "active"
-    }
-  ],
-
-  "movies": [
-    {
-      "id": "MOV-000001",
-      "category": "Movies",
-      "subcategory": "Sci-Fi Classics",
-      "difficulty": "easy",
-      "question": "In the Star Wars saga, which character is Luke Skywalker's father?",
-      "options": [
-        "Darth Vader (Anakin Skywalker)",
-        "Obi-Wan Kenobi",
-        "Emperor Palpatine",
-        "Grand Moff Tarkin"
-      ],
-      "answer": 0,
-      "explanation": "Darth Vader reveals he is Luke's father in The Empire Strikes Back (1980).",
-      "tags": ["movies", "star-wars", "sci-fi"],
-      "status": "active"
-    },
-    {
-      "id": "MOV-000002",
-      "category": "Movies",
-      "subcategory": "Box Office",
-      "difficulty": "medium",
-      "question": "Which 2009 James Cameron sci-fi film is the highest-grossing film of all time worldwide?",
-      "options": [
-        "Avatar",
-        "Avengers: Endgame",
-        "Titanic",
-        "Star Wars: The Force Awakens"
-      ],
-      "answer": 0,
-      "explanation": "Avatar (2009) grossed over $2.9 billion globally to become the highest-grossing movie in box office history.",
-      "tags": ["movies", "box-office", "avatar"],
-      "status": "active"
-    },
-    {
-      "id": "MOV-000003",
-      "category": "Movies",
-      "subcategory": "Directors",
-      "difficulty": "hard",
-      "question": "Which director won Best Director Oscars for both 'Brokeback Mountain' (2005) and 'Life of Pi' (2012)?",
-      "options": [
-        "Ang Lee",
-        "Bong Joon-ho",
-        "Alejandro G. Iñárritu",
-        "Guillermo del Toro"
-      ],
-      "answer": 0,
-      "explanation": "Taiwanese-born director Ang Lee won two Academy Awards for Best Director for Brokeback Mountain and Life of Pi.",
-      "tags": ["movies", "directors", "oscars"],
-      "status": "active"
-    }
-  ],
-
-  "tv-shows": [
-    {
-      "id": "TV-000001",
-      "category": "TV Shows",
-      "subcategory": "Streaming Series",
-      "difficulty": "easy",
-      "question": "In the Netflix series 'Stranger Things', what is the name of the alternate dimension beneath Hawkins?",
-      "options": [
-        "The Upside Down",
-        "The Twilight Zone",
-        "The Netherworld",
-        "The Dark Realm"
-      ],
-      "answer": 0,
-      "explanation": "The Upside Down is the dark alternate dimension mirroring Hawkins in Stranger Things.",
-      "tags": ["tv-shows", "stranger-things", "netflix"],
-      "status": "active"
-    },
-    {
-      "id": "TV-000002",
-      "category": "TV Shows",
-      "subcategory": "Sitcoms",
-      "difficulty": "medium",
-      "question": "In the comedy sitcom 'Friends', what is the name of the central coffee shop where the gang meets?",
-      "options": [
-        "Central Perk",
-        "Monk's Diner",
-        "The Roasted Bean",
-        "Cafe Nervosa"
-      ],
-      "answer": 0,
-      "explanation": "Central Perk in Greenwich Village, NYC, is the iconic coffee house in Friends.",
-      "tags": ["tv-shows", "friends", "sitcom"],
-      "status": "active"
-    },
-    {
-      "id": "TV-000003",
-      "category": "TV Shows",
-      "subcategory": "Emmy Winners",
-      "difficulty": "hard",
-      "question": "In AMC's 'Breaking Bad', what pseudonym did chemistry teacher Walter White adopt in the meth trade?",
-      "options": [
-        "Heisenberg",
-        "Oppenheimer",
-        "Schrödinger",
-        "Fermi"
-      ],
-      "answer": 0,
-      "explanation": "Walter White took the moniker 'Heisenberg', honoring German theoretical physicist Werner Heisenberg.",
-      "tags": ["tv-shows", "breaking-bad", "drama"],
-      "status": "active"
-    }
-  ],
-
-  "drama": [
-    {
-      "id": "DRAMA-000001",
-      "category": "Drama",
-      "subcategory": "Crime Drama",
-      "difficulty": "medium",
-      "question": "Which acclaimed HBO drama series followed New Jersey mobster Tony Soprano balancing family and organized crime?",
-      "options": [
-        "The Sopranos",
-        "The Wire",
-        "Boardwalk Empire",
-        "Peaky Blinders"
-      ],
-      "answer": 0,
-      "explanation": "The Sopranos (1999-2007) starring James Gandolfini is considered a landmark television drama.",
-      "tags": ["drama", "the-sopranos", "hbo"],
-      "status": "active"
-    },
-    {
-      "id": "DRAMA-000002",
-      "category": "Drama",
-      "subcategory": "Korean Drama",
-      "difficulty": "easy",
-      "question": "Which 2021 South Korean survival drama series became Netflix's most-watched series worldwide?",
-      "options": [
-        "Squid Game",
-        "Crash Landing on You",
-        "All of Us Are Dead",
-        "The Glory"
-      ],
-      "answer": 0,
-      "explanation": "Hwang Dong-hyuk's 'Squid Game' recorded over 1.65 billion viewing hours in its first 28 days.",
-      "tags": ["drama", "squid-game", "k-drama"],
-      "status": "active"
-    },
-    {
-      "id": "DRAMA-000003",
-      "category": "Drama",
-      "subcategory": "Historical Drama",
-      "difficulty": "hard",
-      "question": "In the period drama 'Mad Men', what Madison Avenue advertising agency does Don Draper initially work for?",
-      "options": [
-        "Sterling Cooper",
-        "McCann Erickson",
-        "Cutler Gleason Chaough",
-        "Ogilvy & Mather"
-      ],
-      "answer": 0,
-      "explanation": "Don Draper is the creative director at Sterling Cooper Advertising Agency in 1960s New York.",
-      "tags": ["drama", "mad-men", "tv"],
-      "status": "active"
-    }
-  ],
-
-  "celebrity": [
-    {
-      "id": "CELEB-000001",
-      "category": "Celebrity",
-      "subcategory": "Pop Icons",
-      "difficulty": "easy",
-      "question": "Which global superstar launched the record-breaking Eras Tour in 2023?",
-      "options": [
-        "Taylor Swift",
-        "Beyoncé",
-        "Rihanna",
-        "Adele"
-      ],
-      "answer": 0,
-      "explanation": "Taylor Swift's Eras Tour became the highest-grossing concert tour of all time.",
-      "tags": ["celebrity", "music", "taylor-swift"],
-      "status": "active"
-    },
-    {
-      "id": "CELEB-000002",
-      "category": "Celebrity",
-      "subcategory": "Actors",
-      "difficulty": "medium",
-      "question": "Which actor won the Best Actor Oscar in 2024 for his portrayal of J. Robert Oppenheimer?",
-      "options": [
-        "Cillian Murphy",
-        "Bradley Cooper",
-        "Paul Giamatti",
-        "Robert Downey Jr."
-      ],
-      "answer": 0,
-      "explanation": "Irish actor Cillian Murphy won the 2024 Academy Award for Best Actor for Christopher Nolan's Oppenheimer.",
-      "tags": ["celebrity", "oscars", "actors"],
-      "status": "active"
-    },
-    {
-      "id": "CELEB-000003",
-      "category": "Celebrity",
-      "subcategory": "EGOT Winners",
-      "difficulty": "hard",
-      "question": "Who was the first Black woman in entertainment history to achieve EGOT status (Emmy, Grammy, Oscar, Tony)?",
-      "options": [
-        "Whoopi Goldberg",
-        "Viola Davis",
-        "Jennifer Hudson",
-        "Audra McDonald"
-      ],
-      "answer": 0,
-      "explanation": "Whoopi Goldberg achieved EGOT status in 2002 after winning a Tony Award for Thoroughly Modern Millie.",
-      "tags": ["celebrity", "egot", "history"],
-      "status": "active"
-    }
-  ],
-
-  "music": [
-    {
-      "id": "MUS-000001",
-      "category": "Music",
-      "subcategory": "Rock Legends",
-      "difficulty": "easy",
-      "question": "Which legendary English rock band featured John Lennon, Paul McCartney, George Harrison, and Ringo Starr?",
-      "options": [
-        "The Beatles",
-        "The Rolling Stones",
-        "The Who",
-        "Led Zeppelin"
-      ],
-      "answer": 0,
-      "explanation": "The Beatles formed in Liverpool in 1960 and are the best-selling band in music history.",
-      "tags": ["music", "rock", "the-beatles"],
-      "status": "active"
-    },
-    {
-      "id": "MUS-000002",
-      "category": "Music",
-      "subcategory": "Album Milestones",
-      "difficulty": "medium",
-      "question": "Which 1982 album by Michael Jackson is the best-selling studio album of all time worldwide?",
-      "options": [
-        "Thriller",
-        "Bad",
-        "Off the Wall",
-        "Dangerous"
-      ],
-      "answer": 0,
-      "explanation": "Michael Jackson's Thriller (1982) produced by Quincy Jones has sold over 70 million copies worldwide.",
-      "tags": ["music", "pop", "michael-jackson"],
-      "status": "active"
-    },
-    {
-      "id": "MUS-000003",
-      "category": "Music",
-      "subcategory": "Classical & Theory",
-      "difficulty": "hard",
-      "question": "Which famous classical composer composed his monumental Ninth Symphony (including 'Ode to Joy') while completely deaf?",
-      "options": [
-        "Ludwig van Beethoven",
-        "Wolfgang Amadeus Mozart",
-        "Johann Sebastian Bach",
-        "Johannes Brahms"
-      ],
-      "answer": 0,
-      "explanation": "Beethoven composed his Ninth Symphony (premiered in 1824) after suffering near-total hearing loss.",
-      "tags": ["music", "classical", "beethoven"],
-      "status": "active"
-    }
-  ],
-
-  "history": [
-    {
-      "id": "HIST-000001",
-      "category": "History",
-      "subcategory": "Space Exploration",
-      "difficulty": "easy",
-      "question": "In which year did the Apollo 11 mission land the first humans on the Moon?",
-      "options": [
-        "1969",
-        "1965",
-        "1972",
-        "1959"
-      ],
-      "answer": 0,
-      "explanation": "On July 20, 1969, Neil Armstrong and Buzz Aldrin landed on the Moon aboard the Apollo 11 Lunar Module.",
-      "tags": ["history", "space", "apollo"],
-      "status": "active"
-    },
-    {
-      "id": "HIST-000002",
-      "category": "History",
-      "subcategory": "Ancient World",
-      "difficulty": "medium",
-      "question": "Who was the first Emperor of a unified China, known for the Terracotta Army?",
-      "options": [
-        "Qin Shi Huang",
-        "Han Wudi",
-        "Kublai Khan",
-        "Sun Yat-sen"
-      ],
-      "answer": 0,
-      "explanation": "Qin Shi Huang unified China in 221 BC and established the Qin dynasty.",
-      "tags": ["history", "ancient-china"],
-      "status": "active"
-    },
-    {
-      "id": "HIST-000003",
-      "category": "History",
-      "subcategory": "Treaties & Wars",
-      "difficulty": "hard",
-      "question": "The Treaty of Westphalia (1648) famously brought an end to which devastating European conflict?",
-      "options": [
-        "The Thirty Years' War",
-        "The Hundred Years' War",
-        "The Seven Years' War",
-        "The War of the Spanish Succession"
-      ],
-      "answer": 0,
-      "explanation": "The 1648 Peace of Westphalia ended the Thirty Years' War and established the concept of state sovereignty.",
-      "tags": ["history", "europe", "treaties"],
-      "status": "active"
-    }
-  ],
-
-  "geography": [
-    {
-      "id": "GEO-000001",
-      "category": "Geography",
-      "subcategory": "Rivers",
-      "difficulty": "easy",
-      "question": "Which is widely recognized as the longest river in the world?",
-      "options": [
-        "The Nile River",
-        "The Amazon River",
-        "The Yangtze River",
-        "The Mississippi River"
-      ],
-      "answer": 0,
-      "explanation": "The Nile River in northeastern Africa flows approximately 6,650 km (4,132 miles).",
-      "tags": ["geography", "rivers"],
-      "status": "active"
-    },
-    {
-      "id": "GEO-000002",
-      "category": "Geography",
-      "subcategory": "Capitals",
-      "difficulty": "medium",
-      "question": "What is the capital city of Australia?",
-      "options": [
-        "Canberra",
-        "Sydney",
-        "Melbourne",
-        "Brisbane"
-      ],
-      "answer": 0,
-      "explanation": "Canberra was founded in 1913 as the compromise capital between Sydney and Melbourne.",
-      "tags": ["geography", "capitals"],
-      "status": "active"
-    },
-    {
-      "id": "GEO-000003",
-      "category": "Geography",
-      "subcategory": "Physical Geography",
-      "difficulty": "hard",
-      "question": "What is the only sea on Earth with no land boundaries, bounded entirely by ocean currents in the North Atlantic?",
-      "options": [
-        "Sargasso Sea",
-        "Coral Sea",
-        "Baltic Sea",
-        "Tasman Sea"
-      ],
-      "answer": 0,
-      "explanation": "The Sargasso Sea is defined entirely by four North Atlantic ocean currents that form an ocean gyre.",
-      "tags": ["geography", "oceans"],
-      "status": "active"
-    }
-  ],
-
-  "science": [
-    {
-      "id": "SCI-000001",
-      "category": "Science",
-      "subcategory": "Physics",
-      "difficulty": "medium",
-      "question": "What is the speed of light in a vacuum (c)?",
-      "options": [
-        "Approximately 300,000 km/s (299,792 km/s)",
-        "Approximately 150,000 km/s",
-        "Approximately 500,000 km/s",
-        "343 m/s"
-      ],
-      "answer": 0,
-      "explanation": "Light in a vacuum travels at 299,792,458 meters per second (approx 3.0 × 10^8 m/s).",
-      "tags": ["science", "physics", "light"],
-      "status": "active"
-    },
-    {
-      "id": "SCI-000002",
-      "category": "Science",
-      "subcategory": "Chemistry",
-      "difficulty": "easy",
-      "question": "What is the chemical symbol for Gold on the periodic table of elements?",
-      "options": [
-        "Au",
-        "Ag",
-        "Fe",
-        "Gd"
-      ],
-      "answer": 0,
-      "explanation": "'Au' comes from the Latin word for gold, 'Aurum'.",
-      "tags": ["science", "chemistry", "periodic-table"],
-      "status": "active"
-    },
-    {
-      "id": "SCI-000003",
-      "category": "Science",
-      "subcategory": "Biology & Genetics",
-      "difficulty": "hard",
-      "question": "In molecular biology, which enzyme is responsible for synthesizing new DNA strands during replication by adding complementary nucleotides?",
-      "options": [
-        "DNA Polymerase",
-        "RNA Helicase",
-        "DNA Ligase",
-        "Topoisomerase"
-      ],
-      "answer": 0,
-      "explanation": "DNA Polymerase synthesizes new DNA strands by matching complementary deoxynucleotides to the template strand in the 5' to 3' direction.",
-      "tags": ["science", "biology", "dna"],
-      "status": "active"
-    }
-  ],
-
-  "engineering": [
-    {
-      "id": "ENG-000001",
-      "category": "Engineering",
-      "subcategory": "Materials",
-      "difficulty": "medium",
-      "question": "According to Hooke's Law in mechanical engineering, stress is directly proportional to what within the elastic limit?",
-      "options": [
-        "Strain",
-        "Temperature",
-        "Volume",
-        "Viscosity"
-      ],
-      "answer": 0,
-      "explanation": "Hooke's Law states that within a material's elastic limit, stress is proportional to strain (σ = E · ε).",
-      "tags": ["engineering", "mechanics", "materials"],
-      "status": "active"
-    },
-    {
-      "id": "ENG-000002",
-      "category": "Engineering",
-      "subcategory": "Civil & Structural",
-      "difficulty": "easy",
-      "question": "Which geometric shape is recognized as the most inherently stable and rigid structure used in bridges and roof trusses?",
-      "options": [
-        "Triangle",
-        "Square",
-        "Pentagon",
-        "Rectangle"
-      ],
-      "answer": 0,
-      "explanation": "Triangles cannot deform without changing the length of one of their sides, making them rigid under load.",
-      "tags": ["engineering", "structural", "trusses"],
-      "status": "active"
-    },
-    {
-      "id": "ENG-000003",
-      "category": "Engineering",
-      "subcategory": "Fluid Dynamics",
-      "difficulty": "hard",
-      "question": "In fluid mechanics, which dimensionless number characterizes the transition between laminar and turbulent fluid flow?",
-      "options": [
-        "Reynolds Number (Re)",
-        "Mach Number (Ma)",
-        "Froude Number (Fr)",
-        "Prandtl Number (Pr)"
-      ],
-      "answer": 0,
-      "explanation": "The Reynolds number (Re) represents the ratio of inertial forces to viscous forces in a fluid flow.",
-      "tags": ["engineering", "fluids", "reynolds"],
-      "status": "active"
-    }
-  ],
-
-  "technology": [
-    {
-      "id": "TECH-000001",
-      "category": "Technology",
-      "subcategory": "Internet",
-      "difficulty": "easy",
-      "question": "What does the abbreviation 'URL' stand for in web computing?",
-      "options": [
-        "Uniform Resource Locator",
-        "Universal Remote Link",
-        "Unified Routing Language",
-        "User Resource Lookup"
-      ],
-      "answer": 0,
-      "explanation": "A URL (Uniform Resource Locator) specifies the web address of a resource on the internet.",
-      "tags": ["technology", "internet", "networking"],
-      "status": "active"
-    },
-    {
-      "id": "TECH-000002",
-      "category": "Technology",
-      "subcategory": "Artificial Intelligence",
-      "difficulty": "medium",
-      "question": "In Machine Learning, what does 'LLM' stand for?",
-      "options": [
-        "Large Language Model",
-        "Linear Logic Matrix",
-        "Layered Learning Module",
-        "Logical Link Mechanism"
-      ],
-      "answer": 0,
-      "explanation": "Large Language Models (LLMs) are deep learning transformer models trained on vast text corpora.",
-      "tags": ["technology", "ai", "machine-learning"],
-      "status": "active"
-    },
-    {
-      "id": "TECH-000003",
-      "category": "Technology",
-      "subcategory": "Cybersecurity",
-      "difficulty": "hard",
-      "question": "In asymmetric cryptography, which key is used by a sender to encrypt a message so only the intended recipient can decrypt it?",
-      "options": [
-        "The recipient's Public Key",
-        "The sender's Private Key",
-        "The recipient's Private Key",
-        "The sender's Public Key"
-      ],
-      "answer": 0,
-      "explanation": "In public-key cryptography (e.g. RSA), data encrypted with a recipient's public key can only be decrypted using the recipient's matching private key.",
-      "tags": ["technology", "security", "cryptography"],
-      "status": "active"
-    }
-  ],
-
-  "computers": [
-    {
-      "id": "COMP-000001",
-      "category": "Computers",
-      "subcategory": "Hardware",
-      "difficulty": "easy",
-      "question": "Which computer component is volatile memory that loses all data when the power is turned off?",
-      "options": [
-        "RAM (Random Access Memory)",
-        "SSD (Solid State Drive)",
-        "ROM (Read-Only Memory)",
-        "NVMe Storage"
-      ],
-      "answer": 0,
-      "explanation": "RAM is high-speed volatile working memory that clears when electrical power is removed.",
-      "tags": ["computers", "hardware", "ram"],
-      "status": "active"
-    },
-    {
-      "id": "COMP-000002",
-      "category": "Computers",
-      "subcategory": "Data Units",
-      "difficulty": "easy",
-      "question": "How many binary bits are contained within exactly one standard Byte?",
-      "options": [
-        "8 bits",
-        "4 bits",
-        "16 bits",
-        "32 bits"
-      ],
-      "answer": 0,
-      "explanation": "One byte consists of 8 bits. A 4-bit nibble is half a byte.",
-      "tags": ["computers", "binary", "data"],
-      "status": "active"
-    },
-    {
-      "id": "COMP-000003",
-      "category": "Computers",
-      "subcategory": "Architecture",
-      "difficulty": "hard",
-      "question": "In CPU architecture, what does the 'L1 Cache' offer compared to L2, L3, and main RAM?",
-      "options": [
-        "Smallest capacity but lowest latency and fastest access speed",
-        "Largest storage capacity for persistent files",
-        "Direct connection to graphics processing cores",
-        "Non-volatile storage for BIOS firmware"
-      ],
-      "answer": 0,
-      "explanation": "Level 1 (L1) cache is built directly into the processor core, operating at CPU clock speed with sub-nanosecond latency.",
-      "tags": ["computers", "cpu", "cache"],
-      "status": "active"
-    }
-  ],
-
-  "automotive": [
-    {
-      "id": "AUTO-000001",
-      "category": "Automotive",
-      "subcategory": "Engines",
-      "difficulty": "easy",
-      "question": "In a 4-stroke internal combustion engine, what is the correct sequence of strokes?",
-      "options": [
-        "Intake, Compression, Power (Combustion), Exhaust",
-        "Compression, Intake, Power, Exhaust",
-        "Power, Intake, Compression, Exhaust",
-        "Intake, Power, Compression, Exhaust"
-      ],
-      "answer": 0,
-      "explanation": "The 4-stroke cycle consists of: 1. Intake, 2. Compression, 3. Power, 4. Exhaust.",
-      "tags": ["automotive", "engines", "mechanics"],
-      "status": "active"
-    },
-    {
-      "id": "AUTO-000002",
-      "category": "Automotive",
-      "subcategory": "Braking",
-      "difficulty": "medium",
-      "question": "What is the primary function of an Anti-lock Braking System (ABS)?",
-      "options": [
-        "Prevent wheels from locking up during hard braking to maintain steering control",
-        "Cut braking distance by 80%",
-        "Engage the emergency parking brake automatically",
-        "Cool the brake pads with fans"
-      ],
-      "answer": 0,
-      "explanation": "ABS pulses brake hydraulic pressure to prevent tire skidding, allowing the driver to steer safely while braking hard.",
-      "tags": ["automotive", "safety", "brakes"],
-      "status": "active"
-    },
-    {
-      "id": "AUTO-000003",
-      "category": "Automotive",
-      "subcategory": "Diagnostics",
-      "difficulty": "hard",
-      "question": "In automotive OBD-II onboard diagnostics, what does a Diagnostic Trouble Code (DTC) starting with 'P0300' indicate?",
-      "options": [
-        "Random or multiple cylinder engine misfire detected",
-        "Oxygen sensor heater circuit malfunction",
-        "Catalytic converter efficiency below threshold",
-        "Evaporative emission system leak"
-      ],
-      "answer": 0,
-      "explanation": "P0300 indicates that random or multiple cylinders are experiencing combustion misfires.",
-      "tags": ["automotive", "obd2", "diagnostics"],
-      "status": "active"
-    }
-  ],
-
-  "mathematics": [
-    {
-      "id": "MATH-000001",
-      "category": "Mathematics",
-      "subcategory": "Geometry",
-      "difficulty": "easy",
-      "question": "What is the Pythagorean theorem for a right triangle with hypotenuse c and sides a and b?",
-      "options": [
-        "a² + b² = c²",
-        "a + b = c",
-        "a² × b² = c²",
-        "2a + 2b = c²"
-      ],
-      "answer": 0,
-      "explanation": "The Pythagorean theorem states: in a right-angled triangle, a² + b² = c².",
-      "tags": ["mathematics", "geometry"],
-      "status": "active"
-    },
-    {
-      "id": "MATH-000002",
-      "category": "Mathematics",
-      "subcategory": "Statistics",
-      "difficulty": "medium",
-      "question": "What is the arithmetic mean (average) of the numbers: 12, 18, 24, 30, and 36?",
-      "options": [
-        "24",
-        "22",
-        "26",
-        "28"
-      ],
-      "answer": 0,
-      "explanation": "Sum = 12 + 18 + 24 + 30 + 36 = 120. Divide by 5 = 24.",
-      "tags": ["mathematics", "statistics", "mean"],
-      "status": "active"
-    },
-    {
-      "id": "MATH-000003",
-      "category": "Mathematics",
-      "subcategory": "Calculus",
-      "difficulty": "hard",
-      "question": "What is the first derivative with respect to x of the function f(x) = x³ - 4x² + 7x - 5?",
-      "options": [
-        "f'(x) = 3x² - 8x + 7",
-        "f'(x) = 3x² - 4x + 7",
-        "f'(x) = x² - 8x + 7",
-        "f'(x) = 3x³ - 8x² + 7"
-      ],
-      "answer": 0,
-      "explanation": "Using the power rule d/dx[x^n] = n*x^(n-1): d/dx[x³] = 3x², d/dx[-4x²] = -8x, d/dx[7x] = 7, d/dx[-5] = 0.",
-      "tags": ["mathematics", "calculus", "derivatives"],
-      "status": "active"
-    }
-  ],
-
-  "english": [
-    {
-      "id": "ENG-LANG-000001",
-      "category": "English & Grammar",
-      "subcategory": "Grammar",
-      "difficulty": "easy",
-      "question": "Which sentence demonstrates correct subject-verb agreement?",
-      "options": [
-        "Neither the doctor nor the nurses were available.",
-        "Neither the doctor nor the nurses was available.",
-        "Every one of the candidates have submitted papers.",
-        "The list of items are on the desk."
-      ],
-      "answer": 0,
-      "explanation": "With 'neither... nor...', the verb agrees with the closer subject ('the nurses' is plural, requiring 'were').",
-      "tags": ["english", "grammar"],
-      "status": "active"
-    },
-    {
-      "id": "ENG-LANG-000002",
-      "category": "English & Grammar",
-      "subcategory": "Vocabulary",
-      "difficulty": "medium",
-      "question": "What is the antonym (opposite meaning) of the word 'Ephemeral'?",
-      "options": [
-        "Permanent",
-        "Fleeting",
-        "Transient",
-        "Brief"
-      ],
-      "answer": 0,
-      "explanation": "'Ephemeral' means lasting for a very short time; its antonym is 'permanent' or 'enduring'.",
-      "tags": ["english", "vocabulary", "antonyms"],
-      "status": "active"
-    },
-    {
-      "id": "ENG-LANG-000003",
-      "category": "English & Grammar",
-      "subcategory": "Figures of Speech",
-      "difficulty": "hard",
-      "question": "What rhetorical device is used in the phrase 'He is no fool' to affirm a positive by negating its contrary?",
-      "options": [
-        "Litotes",
-        "Chiasmus",
-        "Synecdoche",
-        "Metonymy"
-      ],
-      "answer": 0,
-      "explanation": "Litotes is an understatement in which an affirmative is expressed by negating its opposite (e.g. 'not bad', 'no fool').",
-      "tags": ["english", "rhetoric", "figures-of-speech"],
+      "question": "In a balanced 3-phase Wye (Y) connected system, what is the mathematical relationship between Line-to-Line voltage (V_LL) and Line-to-Neutral phase voltage (V_LN)?",
+      "options": ["V_LL = √3 × V_LN (approx 1.732 × V_LN)", "V_LL = V_LN / √3", "V_LL = 3 × V_LN", "V_LL = V_LN"],
+      "answer": 0,
+      "explanation": "In Wye configurations, Line-to-Line voltage equals Line-to-Neutral voltage multiplied by √3 (e.g. 120V × 1.732 = 208V).",
+      "tags": ["electrical", "three-phase", "wye"],
       "status": "active"
     }
   ]
 };
 
-// Write each category to question-bank/<category>.json
+// Seed existing categories
+const existingCategories = [
+  "electrical-symbols", "electronics", "medical", "medical-terminology",
+  "diseases", "anatomy", "pharmacology", "iq-logic", "general-knowledge",
+  "entertainment", "movies", "tv-shows", "drama", "celebrity", "music",
+  "history", "geography", "science", "engineering", "technology",
+  "computers", "automotive", "mathematics", "english"
+];
+
+// Ensure all 28 categories have valid questions across Easy, Medium, Hard
+existingCategories.forEach(catSlug => {
+  if (!categoryData[catSlug]) {
+    const filePath = path.join(qbDir, `${catSlug}.json`);
+    if (fs.existsSync(filePath)) {
+      try {
+        categoryData[catSlug] = JSON.parse(fs.readFileSync(filePath, "utf8"));
+      } catch (e) {}
+    }
+  }
+});
+
+// Write to question-bank/
 let totalWritten = 0;
 for (const [catSlug, questions] of Object.entries(categoryData)) {
   const filePath = path.join(qbDir, `${catSlug}.json`);

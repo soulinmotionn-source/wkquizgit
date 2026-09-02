@@ -23,6 +23,69 @@
   {
     "id": "ELEC-000002",
     "category": "Electrical",
+    "subcategory": "Safety",
+    "difficulty": "easy",
+    "question": "What is the primary function of a Ground Fault Circuit Interrupter (GFCI / RCD)?",
+    "options": [
+      "Protect people from electric shock by detecting current leakage to ground",
+      "Prevent circuit overload during high power draw",
+      "Step down high AC transmission voltage to 120V",
+      "Convert alternating current into direct current"
+    ],
+    "answer": 0,
+    "explanation": "GFCIs monitor the balance of current between hot and neutral wires and trip in milliseconds if an imbalance occurs.",
+    "tags": [
+      "electrical",
+      "safety",
+      "gfci"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000003",
+    "category": "Electrical",
+    "subcategory": "Conductors",
+    "difficulty": "easy",
+    "question": "Which standard metal conductor is most commonly used for residential branch circuit electrical wiring?",
+    "options": [
+      "Copper",
+      "Gold",
+      "Steel",
+      "Lead"
+    ],
+    "answer": 0,
+    "explanation": "Copper is the industry standard due to its excellent electrical conductivity, thermal properties, and ductility.",
+    "tags": [
+      "electrical",
+      "wiring",
+      "conductors"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000004",
+    "category": "Electrical",
+    "subcategory": "Frequency",
+    "difficulty": "easy",
+    "question": "What is the standard alternating current (AC) power grid frequency in North America?",
+    "options": [
+      "60 Hertz (Hz)",
+      "50 Hertz (Hz)",
+      "120 Hertz (Hz)",
+      "400 Hertz (Hz)"
+    ],
+    "answer": 0,
+    "explanation": "North America uses 60 Hz AC power, whereas Europe and most other regions use 50 Hz.",
+    "tags": [
+      "electrical",
+      "ac-power",
+      "frequency"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000005",
+    "category": "Electrical",
     "subcategory": "Power Calculation",
     "difficulty": "medium",
     "question": "If a 120V electrical circuit draws a current of 5 Amperes, what is the electrical power consumed by the load?",
@@ -42,7 +105,49 @@
     "status": "active"
   },
   {
-    "id": "ELEC-000003",
+    "id": "ELEC-000006",
+    "category": "Electrical",
+    "subcategory": "Wire Sizing",
+    "difficulty": "medium",
+    "question": "In the American Wire Gauge (AWG) standard, which size copper conductor is required for a standard 20-Ampere branch circuit?",
+    "options": [
+      "12 AWG",
+      "14 AWG",
+      "10 AWG",
+      "16 AWG"
+    ],
+    "answer": 0,
+    "explanation": "12 AWG copper is rated for 20A breakers. 14 AWG is rated for 15A circuits.",
+    "tags": [
+      "electrical",
+      "nec",
+      "wire-sizing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000007",
+    "category": "Electrical",
+    "subcategory": "Transformers",
+    "difficulty": "medium",
+    "question": "A step-down transformer has 1,000 primary turns and 100 secondary turns. If 240V AC is applied to the primary, what is the secondary output voltage?",
+    "options": [
+      "24V AC",
+      "2400V AC",
+      "12V AC",
+      "120V AC"
+    ],
+    "answer": 0,
+    "explanation": "Turns ratio = 10:1. Secondary Voltage = 240V / 10 = 24V AC.",
+    "tags": [
+      "electrical",
+      "transformers",
+      "voltage"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000008",
     "category": "Electrical",
     "subcategory": "AC Circuits",
     "difficulty": "hard",
@@ -64,23 +169,23 @@
     "status": "active"
   },
   {
-    "id": "ELEC-000004",
+    "id": "ELEC-000009",
     "category": "Electrical",
-    "subcategory": "Safety",
-    "difficulty": "easy",
-    "question": "What is the primary function of a Ground Fault Circuit Interrupter (GFCI / RCD)?",
+    "subcategory": "Three Phase",
+    "difficulty": "hard",
+    "question": "In a balanced 3-phase Wye (Y) connected system, what is the mathematical relationship between Line-to-Line voltage (V_LL) and Line-to-Neutral phase voltage (V_LN)?",
     "options": [
-      "Protect people from electric shock by detecting current leakage to ground",
-      "Prevent circuit overload during high power draw",
-      "Step down high AC transmission voltage to 120V",
-      "Convert alternating current into direct current"
+      "V_LL = √3 × V_LN (approx 1.732 × V_LN)",
+      "V_LL = V_LN / √3",
+      "V_LL = 3 × V_LN",
+      "V_LL = V_LN"
     ],
     "answer": 0,
-    "explanation": "GFCIs monitor the balance of current between hot and neutral wires and trip in milliseconds if an imbalance occurs.",
+    "explanation": "In Wye configurations, Line-to-Line voltage equals Line-to-Neutral voltage multiplied by √3 (e.g. 120V × 1.732 = 208V).",
     "tags": [
       "electrical",
-      "safety",
-      "gfci"
+      "three-phase",
+      "wye"
     ],
     "status": "active"
   }

@@ -2,6 +2,111 @@
   {
     "id": "NURS-000001",
     "category": "Nursing",
+    "subcategory": "Infection Control",
+    "difficulty": "easy",
+    "question": "What is the single most effective intervention to prevent the spread of healthcare-associated infections (HAIs)?",
+    "options": [
+      "Routine hand hygiene before and after patient contact",
+      "Wearing double gloves for all procedures",
+      "Prophylactic antibiotic administration",
+      "Sterilizing room surfaces twice daily"
+    ],
+    "answer": 0,
+    "explanation": "Consistent hand hygiene before and after patient contact is recognized globally as the primary measure to prevent HAIs.",
+    "tags": [
+      "nursing",
+      "infection-control",
+      "safety"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000002",
+    "category": "Nursing",
+    "subcategory": "Wound Care",
+    "difficulty": "easy",
+    "question": "What is a Stage 1 pressure injury characterized by?",
+    "options": [
+      "Non-blanchable erythema of intact skin",
+      "Partial-thickness skin loss with exposed dermis",
+      "Full-thickness skin loss with visible adipose tissue",
+      "Full-thickness skin and tissue loss with exposed bone"
+    ],
+    "answer": 0,
+    "explanation": "Stage 1 pressure injury involves intact skin with a localized area of non-blanchable erythema.",
+    "tags": [
+      "nursing",
+      "wound-care",
+      "skin"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000003",
+    "category": "Nursing",
+    "subcategory": "Patient Rights",
+    "difficulty": "easy",
+    "question": "What ethical principle is being practiced when a nurse respects an alert adult patient's informed refusal of medical treatment?",
+    "options": [
+      "Autonomy",
+      "Beneficence",
+      "Non-maleficence",
+      "Justice"
+    ],
+    "answer": 0,
+    "explanation": "Autonomy is the ethical principle recognizing an individual's right to make self-determining decisions regarding their own healthcare.",
+    "tags": [
+      "nursing",
+      "ethics",
+      "patient-rights"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000004",
+    "category": "Nursing",
+    "subcategory": "Communication",
+    "difficulty": "easy",
+    "question": "Which standardized communication tool is widely used for handoff communication between healthcare providers?",
+    "options": [
+      "SBAR (Situation, Background, Assessment, Recommendation)",
+      "SOAP note format only",
+      "PIE charting",
+      "APGAR score"
+    ],
+    "answer": 0,
+    "explanation": "SBAR provides a structured, concise framework for urgent handoff and clinical communication.",
+    "tags": [
+      "nursing",
+      "communication",
+      "sbar"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000005",
+    "category": "Nursing",
+    "subcategory": "Comfort",
+    "difficulty": "easy",
+    "question": "How often should an immobile, bedbound patient be repositioned to prevent skin breakdown?",
+    "options": [
+      "At least every 2 hours",
+      "Every 6 hours",
+      "Once per shift (8 hours)",
+      "Only when the patient requests"
+    ],
+    "answer": 0,
+    "explanation": "Repositioning every 2 hours relieves pressure over bony prominences and maintains tissue perfusion.",
+    "tags": [
+      "nursing",
+      "pressure-injury",
+      "mobility"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000006",
+    "category": "Nursing",
     "subcategory": "Fundamentals",
     "difficulty": "medium",
     "question": "Which position is most appropriate for a patient experiencing acute shortness of breath (dyspnea)?",
@@ -22,28 +127,91 @@
     "status": "active"
   },
   {
-    "id": "NURS-000002",
+    "id": "NURS-000007",
     "category": "Nursing",
-    "subcategory": "Infection Control",
-    "difficulty": "easy",
-    "question": "What is the single most effective intervention to prevent the spread of healthcare-associated infections (HAIs)?",
+    "subcategory": "Medication Administration",
+    "difficulty": "medium",
+    "question": "When administering an intramuscular (IM) injection to an adult in the ventrogluteal site, which needle length is standard?",
     "options": [
-      "Routine hand hygiene before and after patient contact",
-      "Wearing double gloves for all procedures",
-      "Prophylactic antibiotic administration",
-      "Sterilizing room surfaces twice daily"
+      "1.5 inches (38 mm)",
+      "0.5 inches (12 mm)",
+      "3.0 inches (76 mm)",
+      "0.25 inches (6 mm)"
     ],
     "answer": 0,
-    "explanation": "Consistent hand hygiene before and after patient contact is recognized globally as the primary measure to prevent HAIs.",
+    "explanation": "A 1 to 1.5 inch needle is standard for adult ventrogluteal intramuscular injections to reach deep muscle tissue safely.",
     "tags": [
       "nursing",
-      "infection-control",
+      "medication",
+      "im-injection"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000008",
+    "category": "Nursing",
+    "subcategory": "Enteral Nutrition",
+    "difficulty": "medium",
+    "question": "Before administering an enteral feeding through a nasogastric (NG) tube, which bedside method best verifies initial placement prior to X-ray confirmation?",
+    "options": [
+      "Testing the pH of aspirated gastric contents (pH < 5.5)",
+      "Auscultating an air bolus over the epigastrium",
+      "Immersing the tube tip in water to look for bubbles",
+      "Measuring the client's abdominal circumference"
+    ],
+    "answer": 0,
+    "explanation": "Aspirate pH testing (< 5.5 in fasting stomach) is standard bedside verification. Auscultation is no longer recommended due to unreliability.",
+    "tags": [
+      "nursing",
+      "ng-tube",
+      "nutrition"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000009",
+    "category": "Nursing",
+    "subcategory": "Blood Transfusion",
+    "difficulty": "medium",
+    "question": "During a packed red blood cell (PRBC) transfusion, the nurse must remain at the bedside to monitor the patient for how long after starting?",
+    "options": [
+      "First 15 minutes",
+      "First 3 minutes",
+      "Entire 4 hours",
+      "First 45 minutes"
+    ],
+    "answer": 0,
+    "explanation": "Severe acute hemolytic and anaphylactic transfusion reactions most commonly manifest within the first 15 minutes or first 50 mL.",
+    "tags": [
+      "nursing",
+      "blood-transfusion",
       "safety"
     ],
     "status": "active"
   },
   {
-    "id": "NURS-000003",
+    "id": "NURS-000010",
+    "category": "Nursing",
+    "subcategory": "IV Therapy",
+    "difficulty": "medium",
+    "question": "A patient's peripheral IV site appears pale, cool to touch, and swollen with slowed infusion rate. What complication has occurred?",
+    "options": [
+      "Infiltration",
+      "Phlebitis",
+      "Air embolism",
+      "Extravasation of vesicant"
+    ],
+    "answer": 0,
+    "explanation": "Infiltration is characterized by coolness, pallor, and edema. Phlebitis presents with warmth, erythema, and cord-like hardness.",
+    "tags": [
+      "nursing",
+      "iv-therapy",
+      "complications"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000011",
     "category": "Nursing",
     "subcategory": "Assessment",
     "difficulty": "hard",
@@ -65,49 +233,7 @@
     "status": "active"
   },
   {
-    "id": "NURS-000004",
-    "category": "Nursing",
-    "subcategory": "Wound Care",
-    "difficulty": "easy",
-    "question": "What is a Stage 1 pressure injury characterized by?",
-    "options": [
-      "Non-blanchable erythema of intact skin",
-      "Partial-thickness skin loss with exposed dermis",
-      "Full-thickness skin loss with visible adipose tissue",
-      "Full-thickness skin and tissue loss with exposed bone"
-    ],
-    "answer": 0,
-    "explanation": "Stage 1 pressure injury involves intact skin with a localized area of non-blanchable erythema.",
-    "tags": [
-      "nursing",
-      "wound-care",
-      "skin"
-    ],
-    "status": "active"
-  },
-  {
-    "id": "NURS-000005",
-    "category": "Nursing",
-    "subcategory": "Medication Administration",
-    "difficulty": "medium",
-    "question": "When administering an intramuscular (IM) injection to an adult in the ventrogluteal site, which needle length is standard?",
-    "options": [
-      "1.5 inches (38 mm)",
-      "0.5 inches (12 mm)",
-      "3.0 inches (76 mm)",
-      "0.25 inches (6 mm)"
-    ],
-    "answer": 0,
-    "explanation": "A 1 to 1.5 inch needle is standard for adult ventrogluteal intramuscular injections to reach deep muscle tissue safely.",
-    "tags": [
-      "nursing",
-      "medication",
-      "im-injection"
-    ],
-    "status": "active"
-  },
-  {
-    "id": "NURS-000006",
+    "id": "NURS-000012",
     "category": "Nursing",
     "subcategory": "Fluid & Electrolytes",
     "difficulty": "hard",
@@ -125,6 +251,48 @@
       "electrolytes",
       "ecg",
       "hyperkalemia"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000013",
+    "category": "Nursing",
+    "subcategory": "Sepsis",
+    "difficulty": "hard",
+    "question": "In the Surviving Sepsis Campaign 1-Hour Bundle, which initial intervention is highest priority for septic shock with hypotension?",
+    "options": [
+      "Measure lactate level, obtain blood cultures before antibiotics, and administer rapid crystalloid bolus (30 mL/kg)",
+      "Administer high-dose steroids immediately",
+      "Administer oral antipyretics and maintain room temperature",
+      "Start subcutaneous low molecular weight heparin"
+    ],
+    "answer": 0,
+    "explanation": "The 1-hour sepsis bundle mandates measuring lactate, drawing blood cultures prior to broad-spectrum antibiotics, and infusing 30 mL/kg crystalloids for hypotension.",
+    "tags": [
+      "nursing",
+      "sepsis",
+      "critical-care"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000014",
+    "category": "Nursing",
+    "subcategory": "Neurology",
+    "difficulty": "hard",
+    "question": "In a spinal cord injury patient at T6 or above, sudden severe throbbing headache, profuse diaphoresis above the injury, and severe hypertension indicate what medical emergency?",
+    "options": [
+      "Autonomic Dysreflexia (Hyperreflexia)",
+      "Spinal Shock",
+      "Neurogenic Shock",
+      "Transient Ischemic Attack"
+    ],
+    "answer": 0,
+    "explanation": "Autonomic dysreflexia is triggered by noxious stimuli (e.g. distended bladder) below the lesion, causing uninhibited sympathetic response and malignant hypertension.",
+    "tags": [
+      "nursing",
+      "neurology",
+      "emergency"
     ],
     "status": "active"
   }

@@ -1,8 +1,9 @@
 /**
  * WKQUIZ UI CONTROLLER
  * Pure Vanilla JavaScript DOM Controller.
- * Handles interactive 3-step setup (Category -> Difficulty -> Length -> Play),
- * quiz question rendering, immediate feedback, results, instant search, and dark mode.
+ * Handles category-first quiz flow:
+ * STEP 1: Select Category -> STEP 2: Select Difficulty -> STEP 3: Select Question Count -> STEP 4: Play
+ * Real-time data-aware question counts, zero fake numbers, zero question duplication.
  */
 
 class WKQuizUI {
@@ -12,11 +13,11 @@ class WKQuizUI {
     this.currentQuestionData = null;
     this.isAnswered = false;
 
-    // Current setup selection state
+    // Current setup selection state (strictly null until category is selected)
     this.setupState = {
-      category: "all",
-      difficulty: (this.config.quiz && this.config.quiz.defaultDifficulty) || "medium",
-      length: (this.config.quiz && this.config.quiz.defaultLength) || 10
+      category: null,
+      difficulty: null,
+      length: null
     };
 
     this.dom = {
@@ -43,8 +44,8 @@ class WKQuizUI {
     // Check if query param exists (e.g. ?quiz=nclex)
     const hasParams = this._checkUrlParams();
     if (!hasParams && this.dom.container) {
-      // Render clean Setup Card on initial load
-      this.renderSetupScreen("all", false);
+      // On initial page load: Show clean placeholder inviting category selection (NO premature difficulty screen)
+      this._renderInitialCategoryPrompt();
     }
   }
 
@@ -117,7 +118,7 @@ class WKQuizUI {
       }
     });
 
-    // Global CTA handlers
+    // Global CTA Handlers
     document.addEventListener("click", (e) => {
       const target = e.target.closest("[data-action]");
       if (!target) return;
@@ -126,10 +127,18 @@ class WKQuizUI {
       const category = target.getAttribute("data-category");
       const mode = target.getAttribute("data-mode");
 
-      if (action === "open-setup" || action === "start-random" || action === "start-category") {
+      if (action === "select-category" || action === "open-setup" || action === "start-category") {
         e.preventDefault();
         if (this.dom.mobileDrawer) this.dom.mobileDrawer.classList.remove("open");
-        this.renderSetupScreen(category || "all", true);
+        if (category) {
+          this.renderSetupScreen(category, true);
+        } else {
+          this._scrollToCategories();
+        }
+      } else if (action === "start-random") {
+        e.preventDefault();
+        if (this.dom.mobileDrawer) this.dom.mobileDrawer.classList.remove("open");
+        this.renderSetupScreen("mixed-quiz", true);
       } else if (action === "start-daily") {
         e.preventDefault();
         if (this.dom.mobileDrawer) this.dom.mobileDrawer.classList.remove("open");
@@ -140,7 +149,11 @@ class WKQuizUI {
         this.startQuiz({ mode: mode || "classic", category: category || "all" }, true);
       } else if (action === "restart-quiz") {
         e.preventDefault();
-        this.renderSetupScreen(this.engine.currentQuiz ? this.engine.currentQuiz.category : "all", true);
+        const lastCat = this.engine.currentQuiz ? this.engine.currentQuiz.category : "mixed-quiz";
+        this.renderSetupScreen(lastCat, true);
+      } else if (action === "browse-categories") {
+        e.preventDefault();
+        this._scrollToCategories();
       }
     });
   }
@@ -157,7 +170,7 @@ class WKQuizUI {
     const mode = params.get("mode");
 
     if (category || mode) {
-      if (difficulty || length) {
+      if (difficulty && length) {
         this.startQuiz({
           category: category || "all",
           difficulty: difficulty || "medium",
@@ -165,7 +178,7 @@ class WKQuizUI {
           mode: mode || "classic"
         }, true);
       } else {
-        this.renderSetupScreen(category || "all", true);
+        this.renderSetupScreen(category || "mixed-quiz", true);
       }
       return true;
     }
@@ -173,32 +186,79 @@ class WKQuizUI {
   }
 
   /**
-   * Render Quiz Setup Screen (Difficulty & Length Selector)
-   * User Flow: Category -> Difficulty [EASY | MEDIUM | HARD] -> Question Count [5 | 10 | 20 | 50] -> Play
+   * Initial page load view: Prompt user to choose a category first
    */
-  renderSetupScreen(categoryId = "all", shouldScroll = true) {
+  _renderInitialCategoryPrompt() {
     if (!this.dom.container) return;
+    this.dom.container.innerHTML = `
+      <div class="wk-setup-placeholder">
+        <span style="font-size: 2.2rem; display: block; margin-bottom: 0.5rem;">🎯</span>
+        <h3 class="wk-setup-placeholder-title">Ready to Test Your Skills?</h3>
+        <p class="wk-setup-placeholder-desc">
+          Choose any topic from our <strong>Browse Quiz Categories</strong> section below to customize your difficulty and question count.
+        </p>
+        <button type="button" class="wk-btn wk-btn-primary" data-action="browse-categories">
+          📚 Browse Quiz Categories ➔
+        </button>
+      </div>
+    `;
+  }
 
-    this.setupState.category = categoryId || "all";
+  _scrollToCategories() {
+    const catSection = document.getElementById("categories");
+    if (catSection) {
+      catSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+
+  /**
+   * STEP 2 & 3: Render Quiz Customization Screen (Difficulty & Question Count)
+   * User Flow: Category chosen -> Difficulty [Easy | Medium | Hard] -> Real Data-Aware Question Count -> Start
+   */
+  renderSetupScreen(categoryId, shouldScroll = true) {
+    if (!this.dom.container || !categoryId) return;
+
+    // 1. Establish Selected Category
+    this.setupState.category = categoryId;
+    
+    // Default difficulty to easy or medium
+    if (!this.setupState.difficulty) {
+      this.setupState.difficulty = "easy";
+    }
+
     const cat = (this.config.categories || []).find(c => c.id === categoryId) || {
-      name: categoryId === "all" ? "Random Mixed Quiz" : categoryId.toUpperCase(),
-      icon: categoryId === "all" ? "🎲" : "📚",
-      description: "Challenge yourself with interactive questions."
+      id: categoryId,
+      name: categoryId === "mixed-quiz" ? "Random Mixed Quiz" : categoryId.toUpperCase(),
+      icon: categoryId === "mixed-quiz" ? "🎲" : "📚",
+      description: "Test your knowledge across a curated set of questions."
     };
 
-    const lengths = (this.config.quiz && this.config.quiz.availableLengths) || [5, 10, 20, 50];
-    const availableCount = (this.engine.provider && typeof this.engine.provider.getAvailableCount === "function")
-      ? this.engine.provider.getAvailableCount(this.setupState.category, this.setupState.difficulty)
-      : 10;
+    // 2. Query Real Active Pool for this exact Category + Difficulty
+    const availableCount = this._getRealPoolCount(this.setupState.category, this.setupState.difficulty);
+
+    // 3. Determine available question count options
+    const standardLengths = (this.config.quiz && this.config.quiz.availableLengths) || [5, 10, 20, 50];
+    
+    // Auto-adjust selected length to a valid value
+    if (!this.setupState.length || this.setupState.length > availableCount) {
+      const validLengths = standardLengths.filter(len => len <= availableCount);
+      if (validLengths.length > 0) {
+        this.setupState.length = validLengths[validLengths.length - 1]; // pick highest available standard count
+      } else if (availableCount > 0) {
+        this.setupState.length = availableCount; // allow playing all available questions
+      } else {
+        this.setupState.length = 0;
+      }
+    }
 
     let html = `
       <div class="wk-quiz-card wk-setup-card">
         <div class="wk-setup-header">
-          <span class="wk-badge wk-badge-primary" style="margin-bottom: 0.5rem;">
-            ${cat.icon || "🎯"} ${cat.name}
+          <span class="wk-badge wk-badge-primary" style="margin-bottom: 0.5rem; font-size: 0.85rem;">
+            ${cat.icon || "🎯"} ${cat.name.toUpperCase()}
           </span>
           <h2 class="wk-setup-title">Customize Your Quiz</h2>
-          <p class="wk-setup-desc">Select your preferred difficulty and number of questions to begin.</p>
+          <p class="wk-setup-desc">${cat.description || "Select your preferred difficulty and number of questions to begin."}</p>
         </div>
 
         <!-- 1. Difficulty Selector: Strictly Easy | Medium | Hard -->
@@ -217,24 +277,22 @@ class WKQuizUI {
           </div>
         </div>
 
-        <!-- 2. Question Count Selector -->
+        <!-- 2. Question Count Selector (Data-Aware) -->
         <div class="wk-setup-section">
-          <label class="wk-setup-label">2. Question Count</label>
-          <div class="wk-length-pills-grid" role="radiogroup" aria-label="Question count selection">
-            ${lengths.map(len => `
-              <button type="button" class="wk-pill-btn ${this.setupState.length === len ? 'active' : ''}" data-length="${len}">
-                <span>${len} Questions</span>
-              </button>
-            `).join("")}
+          <label class="wk-setup-label">2. Select Question Count</label>
+          <div class="wk-length-pills-grid" id="wk-length-pills" role="radiogroup" aria-label="Question count selection">
+            ${this._renderLengthButtonsHtml(standardLengths, availableCount)}
           </div>
         </div>
 
-        <div class="wk-setup-notice" id="wk-setup-availability">
-          <span>📊 ${availableCount} active questions ready in this pool</span>
+        <!-- Real Question Pool Availability Notice -->
+        <div id="wk-availability-box">
+          ${this._renderAvailabilityNoticeHtml(availableCount)}
         </div>
 
-        <button type="button" id="wk-start-quiz-btn" class="wk-btn wk-btn-primary wk-btn-block">
-          🚀 Start Quiz Now ➔
+        <!-- Start Quiz CTA -->
+        <button type="button" id="wk-start-quiz-btn" class="wk-btn wk-btn-primary wk-btn-block" ${availableCount === 0 ? 'disabled' : ''}>
+          🚀 Start ${cat.name} Quiz ➔
         </button>
       </div>
     `;
@@ -247,55 +305,164 @@ class WKQuizUI {
     }
   }
 
+  _getRealPoolCount(category, difficulty) {
+    if (!this.engine || !this.engine.provider) return 0;
+    return this.engine.provider.getAvailableCount(category, difficulty);
+  }
+
+  _renderLengthButtonsHtml(standardLengths, availableCount) {
+    let buttons = "";
+
+    standardLengths.forEach(len => {
+      const isAvailable = len <= availableCount;
+      const isSelected = this.setupState.length === len && isAvailable;
+      const disabledAttr = isAvailable ? "" : "disabled";
+      const disabledClass = isAvailable ? "" : "disabled";
+      const activeClass = isSelected ? "active" : "";
+
+      buttons += `
+        <button type="button" class="wk-pill-btn ${activeClass} ${disabledClass}" data-length="${len}" ${disabledAttr} title="${isAvailable ? `${len} Questions` : `Needs at least ${len} questions (only ${availableCount} available)`}">
+          <span>${len} Questions</span>
+          ${!isAvailable ? `<span style="font-size: 0.65rem; opacity: 0.8;">(Unavailable)</span>` : ''}
+        </button>
+      `;
+    });
+
+    // If pool has fewer than 5 questions but > 0, offer a special custom count for all available questions
+    if (availableCount > 0 && availableCount < 5) {
+      const isCustomSelected = this.setupState.length === availableCount;
+      buttons += `
+        <button type="button" class="wk-pill-btn ${isCustomSelected ? 'active' : ''}" data-length="${availableCount}" style="grid-column: span 2; border-color: var(--primary);">
+          <span>🎯 All ${availableCount} Available Questions</span>
+        </button>
+      `;
+    }
+
+    return buttons;
+  }
+
+  _renderAvailabilityNoticeHtml(availableCount) {
+    const diffName = (this.setupState.difficulty || "medium").toUpperCase();
+
+    if (availableCount === 0) {
+      return `
+        <div class="wk-setup-notice warning">
+          ⚠️ <strong>No active ${diffName} questions</strong> are currently available for this category. Please select another difficulty.
+        </div>
+      `;
+    }
+
+    if (availableCount < 5) {
+      return `
+        <div class="wk-setup-notice warning">
+          ⚠️ Only <strong>${availableCount} active ${diffName} questions</strong> are currently available in this pool.
+        </div>
+      `;
+    }
+
+    return `
+      <div class="wk-setup-notice">
+        <span>📊 <strong>${availableCount} active unique ${diffName} questions</strong> ready in this pool</span>
+      </div>
+    `;
+  }
+
   _bindSetupEvents() {
     const container = this.dom.container;
     if (!container) return;
 
-    // Difficulty pill clicks
+    // Difficulty pill buttons
     const diffButtons = container.querySelectorAll("[data-difficulty]");
     diffButtons.forEach(btn => {
       btn.addEventListener("click", () => {
+        const newDiff = btn.getAttribute("data-difficulty");
+        this.setupState.difficulty = newDiff;
+        
         diffButtons.forEach(b => b.classList.remove("active"));
         btn.classList.add("active");
-        this.setupState.difficulty = btn.getAttribute("data-difficulty");
-        this._updateAvailabilityBadge();
+
+        // Re-evaluate real pool count and update length buttons
+        this._refreshAvailabilityAndLengths();
       });
     });
 
-    // Length pill clicks
-    const lenButtons = container.querySelectorAll("[data-length]");
-    lenButtons.forEach(btn => {
-      btn.addEventListener("click", () => {
-        lenButtons.forEach(b => b.classList.remove("active"));
-        btn.classList.add("active");
-        this.setupState.length = parseInt(btn.getAttribute("data-length"), 10);
-      });
-    });
+    // Length pill buttons
+    this._bindLengthButtons();
 
     // Start Quiz button
-    const startBtn = container.getElementById ? container.getElementById("wk-start-quiz-btn") : document.getElementById("wk-start-quiz-btn");
+    const startBtn = document.getElementById("wk-start-quiz-btn");
     if (startBtn) {
       startBtn.addEventListener("click", () => {
+        const available = this._getRealPoolCount(this.setupState.category, this.setupState.difficulty);
+        if (available === 0) {
+          alert("No questions available for this difficulty level. Please choose another difficulty.");
+          return;
+        }
+
+        const len = this.setupState.length || Math.min(10, available);
         this.startQuiz({
           category: this.setupState.category,
           difficulty: this.setupState.difficulty,
-          length: this.setupState.length,
+          length: len,
           mode: "classic"
         }, true);
       });
     }
   }
 
-  _updateAvailabilityBadge() {
-    const badge = document.getElementById("wk-setup-availability");
-    if (badge && this.engine.provider) {
-      const count = this.engine.provider.getAvailableCount(this.setupState.category, this.setupState.difficulty);
-      badge.innerHTML = `<span>📊 ${count} active questions ready in this pool</span>`;
+  _bindLengthButtons() {
+    const container = this.dom.container;
+    if (!container) return;
+
+    const lenButtons = container.querySelectorAll("#wk-length-pills [data-length]");
+    lenButtons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        if (btn.disabled || btn.classList.contains("disabled")) return;
+        lenButtons.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        this.setupState.length = parseInt(btn.getAttribute("data-length"), 10);
+      });
+    });
+  }
+
+  _refreshAvailabilityAndLengths() {
+    const availableCount = this._getRealPoolCount(this.setupState.category, this.setupState.difficulty);
+    const standardLengths = (this.config.quiz && this.config.quiz.availableLengths) || [5, 10, 20, 50];
+
+    // Adjust selected length
+    if (!this.setupState.length || this.setupState.length > availableCount) {
+      const validLengths = standardLengths.filter(len => len <= availableCount);
+      if (validLengths.length > 0) {
+        this.setupState.length = validLengths[validLengths.length - 1];
+      } else if (availableCount > 0) {
+        this.setupState.length = availableCount;
+      } else {
+        this.setupState.length = 0;
+      }
+    }
+
+    // Update Length Pills Container
+    const pillsContainer = document.getElementById("wk-length-pills");
+    if (pillsContainer) {
+      pillsContainer.innerHTML = this._renderLengthButtonsHtml(standardLengths, availableCount);
+      this._bindLengthButtons();
+    }
+
+    // Update Availability Notice Box
+    const availBox = document.getElementById("wk-availability-box");
+    if (availBox) {
+      availBox.innerHTML = this._renderAvailabilityNoticeHtml(availableCount);
+    }
+
+    // Update Start Button Disabled State
+    const startBtn = document.getElementById("wk-start-quiz-btn");
+    if (startBtn) {
+      startBtn.disabled = (availableCount === 0);
     }
   }
 
   /**
-   * Start and Render Quiz
+   * STEP 4: Start Quiz and Render Question Screen
    */
   startQuiz(options = {}, shouldScroll = true) {
     if (!this.engine) return;
@@ -575,17 +742,17 @@ class WKQuizUI {
   }
 
   /**
-   * Render Categories Grid on Homepage
+   * STEP 1: Render Categories Grid on Homepage
    */
   _renderCategoriesGrid() {
     if (!this.dom.categoriesContainer || !this.config.categories) return;
 
     const categories = this.config.categories;
     const html = categories.map(cat => `
-      <a href="javascript:void(0)" class="wk-category-card" data-action="open-setup" data-category="${cat.id}">
+      <a href="javascript:void(0)" class="wk-category-card" data-action="select-category" data-category="${cat.id}">
         <span class="wk-category-icon">${cat.icon || "📚"}</span>
         <span class="wk-category-name">${cat.name}</span>
-        <span class="wk-category-count">Choose Difficulty ➔</span>
+        <span class="wk-category-count">Select Category ➔</span>
       </a>
     `).join("");
 
@@ -632,7 +799,7 @@ class WKQuizUI {
     }
 
     const html = matched.map(cat => `
-      <a href="javascript:void(0)" class="wk-search-item" data-action="open-setup" data-category="${cat.id}">
+      <a href="javascript:void(0)" class="wk-search-item" data-action="select-category" data-category="${cat.id}">
         <span style="font-size: 1.5rem;">${cat.icon || "📚"}</span>
         <div>
           <div style="font-weight: 700;">${cat.name} Quiz</div>
@@ -659,8 +826,8 @@ class WKQuizUI {
       <div class="wk-quiz-card" style="text-align: center; border-color: var(--danger);">
         <h3 style="color: var(--danger); margin-bottom: 0.5rem;">⚠️ Notice</h3>
         <p style="color: var(--text-muted); margin-bottom: 1.5rem;">${this._escapeHtml(message)}</p>
-        <button type="button" class="wk-btn wk-btn-primary" data-action="open-setup" data-category="all">
-          Customize Quiz
+        <button type="button" class="wk-btn wk-btn-primary" data-action="browse-categories">
+          Browse Categories
         </button>
       </div>
     `;
