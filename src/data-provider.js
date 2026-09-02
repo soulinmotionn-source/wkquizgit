@@ -1,8 +1,8 @@
 /**
  * WKQUIZ DATA PROVIDER LAYER
  * Abstraction layer between Quiz Engine and Question Bank.
- * Supports static JSON data, strict category + 3-difficulty filtering,
- * status filtering, and real-time accurate question count reporting.
+ * Supports on-demand Git/CDN fetching, local caching, static JSON data,
+ * strict category + 3-difficulty filtering, and real-time accurate count reporting.
  */
 
 class WKQuizDataProvider {
@@ -10,13 +10,31 @@ class WKQuizDataProvider {
     this.questions = [];
     this.categoriesMap = new Map();
     this.byIdMap = new Map();
-    
-    // Load initial question pool
+    this.loadedCategories = new Set();
+    this.categoryIndex = new Map();
+    this.config = (options.config && options.config.questionBank) || (typeof WKQUIZ_CONFIG !== "undefined" && WKQUIZ_CONFIG.questionBank) || {};
+
+    // Load lightweight index if available (keeps theme.xml small while providing instant count stats)
+    if (typeof WKQUIZ_INDEX !== "undefined" && WKQUIZ_INDEX.categories) {
+      this.loadIndex(WKQUIZ_INDEX);
+    }
+
+    // Load initial question pool if passed or globally defined
     if (options.questions && Array.isArray(options.questions)) {
       this.loadQuestions(options.questions);
-    } else if (typeof WKQUIZ_QUESTIONS !== "undefined" && Array.isArray(WKQUIZ_QUESTIONS)) {
+    } else if (typeof WKQUIZ_QUESTIONS !== "undefined" && Array.isArray(WKQUIZ_QUESTIONS) && WKQUIZ_QUESTIONS.length > 0) {
       this.loadQuestions(WKQUIZ_QUESTIONS);
     }
+  }
+
+  /**
+   * Load metadata index of category question counts
+   */
+  loadIndex(indexData) {
+    if (!indexData || !indexData.categories) return;
+    Object.entries(indexData.categories).forEach(([catSlug, stats]) => {
+      this.categoryIndex.set(catSlug.toLowerCase().trim(), stats);
+    });
   }
 
   /**
@@ -26,7 +44,7 @@ class WKQuizDataProvider {
     if (!Array.isArray(questionArray)) return;
 
     questionArray.forEach(q => {
-      if (!q || !q.id) return;
+      if (!q || !q.id || this.byIdMap.has(q.id)) return;
       this.questions.push(q);
       this.byIdMap.set(q.id, q);
 
@@ -36,6 +54,88 @@ class WKQuizDataProvider {
       }
       this.categoriesMap.get(catKey).push(q);
     });
+  }
+
+  /**
+   * Fetch category questions dynamically from Git/CDN/Local storage
+   * @param {string} categorySlug - e.g. "nursing", "nclex"
+   * @returns {Promise<Array>} Array of questions loaded
+   */
+  async fetchCategory(categorySlug) {
+    if (!categorySlug) return [];
+    const slug = categorySlug.toLowerCase().trim();
+
+    if (slug === "all" || slug === "mixed-quiz") {
+      return this.questions;
+    }
+
+    // Return immediately if already loaded in memory
+    if (this.loadedCategories.has(slug)) {
+      return this.categoriesMap.get(slug) || [];
+    }
+
+    // 1. Check LocalStorage Cache (with TTL check)
+    const cacheKey = `wk_qb_${slug}`;
+    const cacheTtlMs = (this.config.cacheTtlMinutes || 120) * 60 * 1000;
+    try {
+      if (typeof window !== "undefined" && window.localStorage) {
+        const cached = window.localStorage.getItem(cacheKey);
+        if (cached) {
+          const parsedCache = JSON.parse(cached);
+          if (parsedCache && parsedCache.timestamp && (Date.now() - parsedCache.timestamp < cacheTtlMs) && Array.isArray(parsedCache.data)) {
+            this.loadQuestions(parsedCache.data);
+            this.loadedCategories.add(slug);
+            return parsedCache.data;
+          }
+        }
+      }
+    } catch (e) {
+      console.warn(`[WKQuiz] LocalStorage cache read failed for ${slug}:`, e);
+    }
+
+    // 2. Fetch from Git / CDN / Local endpoint
+    const urls = [];
+    const isLocal = typeof window !== "undefined" && (window.location.protocol === "file:" || window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1");
+
+    if (isLocal) {
+      urls.push(`question-bank/${slug}.json`);
+      urls.push(`../question-bank/${slug}.json`);
+    }
+
+    if (this.config.cdnBaseUrl) {
+      urls.push(`${this.config.cdnBaseUrl}/${slug}.json`);
+    }
+    if (this.config.githubRawBaseUrl) {
+      urls.push(`${this.config.githubRawBaseUrl}/${slug}.json`);
+    }
+    urls.push(`https://cdn.jsdelivr.net/gh/wkquiz/question-bank@main/question-bank/${slug}.json`);
+
+    for (const url of urls) {
+      try {
+        const res = await fetch(url, { cache: "default" });
+        if (res.ok) {
+          const data = await res.json();
+          if (Array.isArray(data)) {
+            this.loadQuestions(data);
+            this.loadedCategories.add(slug);
+
+            // Save to LocalStorage cache
+            try {
+              if (typeof window !== "undefined" && window.localStorage) {
+                window.localStorage.setItem(cacheKey, JSON.stringify({ timestamp: Date.now(), data }));
+              }
+            } catch (ce) {}
+
+            return data;
+          }
+        }
+      } catch (err) {
+        // Try next URL fallback
+      }
+    }
+
+    console.warn(`[WKQuiz] Could not fetch question bank for category: ${slug}`);
+    return this.categoriesMap.get(slug) || [];
   }
 
   /**
@@ -104,9 +204,33 @@ class WKQuizDataProvider {
    * @returns {number} Exact number of active questions
    */
   getAvailableCount(category = "all", difficulty = "all") {
+    const catKey = (category || "all").toLowerCase().trim();
+    const diffKey = (difficulty || "all").toLowerCase().trim();
+
+    // If questions are already loaded in memory, count directly
+    if (this.questions.length > 0 && (catKey === "all" || this.loadedCategories.has(catKey))) {
+      const result = this.getQuestions({
+        category: catKey,
+        difficulty: diffKey,
+        length: 999999,
+        status: "active"
+      });
+      return result.totalAvailable;
+    }
+
+    // Check pre-compiled lightweight index for instant count
+    if (this.categoryIndex.has(catKey)) {
+      const stats = this.categoryIndex.get(catKey);
+      if (diffKey === "easy") return stats.easy || 0;
+      if (diffKey === "medium") return stats.medium || 0;
+      if (diffKey === "hard") return stats.hard || 0;
+      return stats.total || 0;
+    }
+
+    // Fallback to in-memory check
     const result = this.getQuestions({
-      category: category || "all",
-      difficulty: difficulty || "all",
+      category: catKey,
+      difficulty: diffKey,
       length: 999999,
       status: "active"
     });

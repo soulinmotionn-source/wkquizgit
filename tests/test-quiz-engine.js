@@ -2,14 +2,23 @@
  * Quiz Engine Unit & Integration Tests
  */
 const assert = require("assert");
-const { WKQUIZ_QUESTIONS } = require("../src/questions");
+const fs = require("fs");
+const path = require("path");
 const { WKQuizDataProvider } = require("../src/data-provider");
 const { WKQuizEngine } = require("../src/quiz-engine");
 
 function runQuizEngineTests() {
   console.log("▶ Running Quiz Engine Logic, Difficulty & Randomization Tests...");
 
-  const provider = new WKQuizDataProvider({ questions: WKQUIZ_QUESTIONS });
+  const qbDir = path.join(__dirname, "..", "question-bank");
+  const files = fs.readdirSync(qbDir).filter(f => f.endsWith(".json") && f !== "index.json");
+  const allQuestions = [];
+  files.forEach(file => {
+    const questions = JSON.parse(fs.readFileSync(path.join(qbDir, file), "utf8"));
+    if (Array.isArray(questions)) allQuestions.push(...questions);
+  });
+
+  const provider = new WKQuizDataProvider({ questions: allQuestions });
   const engine = new WKQuizEngine({ provider });
 
   // Test 1: Start Quiz with Specific Category, Difficulty, and Length

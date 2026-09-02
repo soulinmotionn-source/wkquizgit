@@ -11,22 +11,29 @@ function runQuestionBankTests() {
   console.log("▶ Running Question Bank & Provider Validation Tests...");
 
   const qbDir = path.join(__dirname, "..", "question-bank");
-  const files = fs.readdirSync(qbDir).filter(f => f.endsWith(".json"));
+  const files = fs.readdirSync(qbDir).filter(f => f.endsWith(".json") && f !== "index.json");
 
   assert(files.length >= 25, `Expected at least 25 category files, found ${files.length}`);
   console.log(`  ✓ Found ${files.length} category files in question-bank/`);
 
+  // Aggregate questions from files
+  const allQuestions = [];
+  files.forEach(file => {
+    const questions = JSON.parse(fs.readFileSync(path.join(qbDir, file), "utf8"));
+    if (Array.isArray(questions)) allQuestions.push(...questions);
+  });
+
   // Test 1: Bank is loaded and non-empty
-  assert(Array.isArray(WKQUIZ_QUESTIONS), "WKQUIZ_QUESTIONS must be an array");
-  assert(WKQUIZ_QUESTIONS.length >= 90, `Expected at least 90 questions, found ${WKQUIZ_QUESTIONS.length}`);
-  console.log(`  ✓ Loaded ${WKQUIZ_QUESTIONS.length} compiled questions`);
+  assert(Array.isArray(allQuestions), "Questions must be an array");
+  assert(allQuestions.length >= 100, `Expected at least 100 questions, found ${allQuestions.length}`);
+  console.log(`  ✓ Loaded ${allQuestions.length} questions from question-bank repository`);
 
   // Test 2: Unique IDs and valid schemas
   const seenIds = new Set();
   const validDifficulties = new Set(["easy", "medium", "hard"]);
   const validStatuses = new Set(["active", "review", "draft", "disabled"]);
 
-  WKQUIZ_QUESTIONS.forEach((q, index) => {
+  allQuestions.forEach((q, index) => {
     assert(q.id && typeof q.id === "string", `Question at index ${index} must have a valid string id`);
     assert(!seenIds.has(q.id), `Duplicate question ID detected: "${q.id}"`);
     seenIds.add(q.id);
@@ -42,7 +49,7 @@ function runQuestionBankTests() {
   console.log("  ✓ All question schemas, 3-level difficulties, and unique IDs validated");
 
   // Test 3: Data Provider filtering
-  const provider = new WKQuizDataProvider({ questions: WKQUIZ_QUESTIONS });
+  const provider = new WKQuizDataProvider({ questions: allQuestions });
   
   const nclexHard = provider.getQuestions({ category: "nclex", difficulty: "hard", status: "active" });
   assert(nclexHard.questions.length > 0, "NCLEX hard query must return questions");

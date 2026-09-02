@@ -215,7 +215,7 @@ class WKQuizUI {
    * STEP 2 & 3: Render Quiz Customization Screen (Difficulty & Question Count)
    * User Flow: Category chosen -> Difficulty [Easy | Medium | Hard] -> Real Data-Aware Question Count -> Start
    */
-  renderSetupScreen(categoryId, shouldScroll = true) {
+  async renderSetupScreen(categoryId, shouldScroll = true) {
     if (!this.dom.container || !categoryId) return;
 
     // 1. Establish Selected Category
@@ -224,6 +224,15 @@ class WKQuizUI {
     // Default difficulty to easy or medium
     if (!this.setupState.difficulty) {
       this.setupState.difficulty = "easy";
+    }
+
+    // If category questions not yet in memory, fetch asynchronously from Git/CDN
+    if (this.engine.provider && typeof this.engine.provider.fetchCategory === "function") {
+      try {
+        await this.engine.provider.fetchCategory(categoryId);
+      } catch (e) {
+        console.warn("[WKQuiz] Category async fetch notice:", e);
+      }
     }
 
     const cat = (this.config.categories || []).find(c => c.id === categoryId) || {
@@ -464,10 +473,16 @@ class WKQuizUI {
   /**
    * STEP 4: Start Quiz and Render Question Screen
    */
-  startQuiz(options = {}, shouldScroll = true) {
+  async startQuiz(options = {}, shouldScroll = true) {
     if (!this.engine) return;
 
     try {
+      if (this.engine.provider && typeof this.engine.provider.fetchCategory === "function") {
+        if (options.category && options.category !== "all" && options.category !== "mixed-quiz") {
+          await this.engine.provider.fetchCategory(options.category);
+        }
+      }
+
       this.currentQuestionData = this.engine.startQuiz(options);
       this.isAnswered = false;
       this._renderQuizScreen();
