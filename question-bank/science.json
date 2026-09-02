@@ -1,0 +1,65 @@
+[
+  {
+    "id": "SCI-000001",
+    "category": "Science",
+    "subcategory": "Physics",
+    "difficulty": "medium",
+    "question": "What is the speed of light in a vacuum (c)?",
+    "options": [
+      "Approximately 300,000 km/s (299,792 km/s)",
+      "Approximately 150,000 km/s",
+      "Approximately 500,000 km/s",
+      "343 m/s"
+    ],
+    "answer": 0,
+    "explanation": "Light in a vacuum travels at 299,792,458 meters per second (approx 3.0 × 10^8 m/s).",
+    "tags": [
+      "science",
+      "physics",
+      "light"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCI-000002",
+    "category": "Science",
+    "subcategory": "Chemistry",
+    "difficulty": "easy",
+    "question": "What is the chemical symbol for Gold on the periodic table of elements?",
+    "options": [
+      "Au",
+      "Ag",
+      "Fe",
+      "Gd"
+    ],
+    "answer": 0,
+    "explanation": "'Au' comes from the Latin word for gold, 'Aurum'.",
+    "tags": [
+      "science",
+      "chemistry",
+      "periodic-table"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCI-000003",
+    "category": "Science",
+    "subcategory": "Biology & Genetics",
+    "difficulty": "hard",
+    "question": "In molecular biology, which enzyme is responsible for synthesizing new DNA strands during replication by adding complementary nucleotides?",
+    "options": [
+      "DNA Polymerase",
+      "RNA Helicase",
+      "DNA Ligase",
+      "Topoisomerase"
+    ],
+    "answer": 0,
+    "explanation": "DNA Polymerase synthesizes new DNA strands by matching complementary deoxynucleotides to the template strand in the 5' to 3' direction.",
+    "tags": [
+      "science",
+      "biology",
+      "dna"
+    ],
+    "status": "active"
+  }
+]

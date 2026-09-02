@@ -1,0 +1,65 @@
+[
+  {
+    "id": "MEDTERM-000001",
+    "category": "Medical Terminology",
+    "subcategory": "Prefixes",
+    "difficulty": "easy",
+    "question": "What does the medical prefix 'Brady-' mean?",
+    "options": [
+      "Slow",
+      "Fast",
+      "Difficult or painful",
+      "Excessive"
+    ],
+    "answer": 0,
+    "explanation": "'Brady-' means slow (e.g. bradycardia = abnormally slow heart rate). 'Tachy-' means fast.",
+    "tags": [
+      "medical-terminology",
+      "prefixes",
+      "vocabulary"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000002",
+    "category": "Medical Terminology",
+    "subcategory": "Suffixes",
+    "difficulty": "medium",
+    "question": "The surgical suffix '-ectomy' indicates which procedure?",
+    "options": [
+      "Surgical removal or excision",
+      "Creating an artificial opening",
+      "Surgical repair or reconstruction",
+      "Visual examination with an endoscope"
+    ],
+    "answer": 0,
+    "explanation": "'-ectomy' denotes surgical excision (e.g. appendectomy). '-ostomy' is creating an opening, and '-plasty' is surgical repair.",
+    "tags": [
+      "medical-terminology",
+      "suffixes",
+      "surgery"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000003",
+    "category": "Medical Terminology",
+    "subcategory": "Clinical Terms",
+    "difficulty": "hard",
+    "question": "What does the medical term 'Hemoptysis' specifically refer to?",
+    "options": [
+      "Coughing up blood from the respiratory tract",
+      "Vomiting blood from the gastrointestinal tract",
+      "Blood in the urine",
+      "Bleeding from the nasal cavity"
+    ],
+    "answer": 0,
+    "explanation": "Hemoptysis is the coughing up of blood. Vomiting blood is hematemesis, blood in urine is hematuria, and nosebleed is epistaxis.",
+    "tags": [
+      "medical-terminology",
+      "clinical",
+      "pulmonology"
+    ],
+    "status": "active"
+  }
+]

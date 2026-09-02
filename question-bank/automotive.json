@@ -1,0 +1,65 @@
+[
+  {
+    "id": "AUTO-000001",
+    "category": "Automotive",
+    "subcategory": "Engines",
+    "difficulty": "easy",
+    "question": "In a 4-stroke internal combustion engine, what is the correct sequence of strokes?",
+    "options": [
+      "Intake, Compression, Power (Combustion), Exhaust",
+      "Compression, Intake, Power, Exhaust",
+      "Power, Intake, Compression, Exhaust",
+      "Intake, Power, Compression, Exhaust"
+    ],
+    "answer": 0,
+    "explanation": "The 4-stroke cycle consists of: 1. Intake, 2. Compression, 3. Power, 4. Exhaust.",
+    "tags": [
+      "automotive",
+      "engines",
+      "mechanics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "AUTO-000002",
+    "category": "Automotive",
+    "subcategory": "Braking",
+    "difficulty": "medium",
+    "question": "What is the primary function of an Anti-lock Braking System (ABS)?",
+    "options": [
+      "Prevent wheels from locking up during hard braking to maintain steering control",
+      "Cut braking distance by 80%",
+      "Engage the emergency parking brake automatically",
+      "Cool the brake pads with fans"
+    ],
+    "answer": 0,
+    "explanation": "ABS pulses brake hydraulic pressure to prevent tire skidding, allowing the driver to steer safely while braking hard.",
+    "tags": [
+      "automotive",
+      "safety",
+      "brakes"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "AUTO-000003",
+    "category": "Automotive",
+    "subcategory": "Diagnostics",
+    "difficulty": "hard",
+    "question": "In automotive OBD-II onboard diagnostics, what does a Diagnostic Trouble Code (DTC) starting with 'P0300' indicate?",
+    "options": [
+      "Random or multiple cylinder engine misfire detected",
+      "Oxygen sensor heater circuit malfunction",
+      "Catalytic converter efficiency below threshold",
+      "Evaporative emission system leak"
+    ],
+    "answer": 0,
+    "explanation": "P0300 indicates that random or multiple cylinders are experiencing combustion misfires.",
+    "tags": [
+      "automotive",
+      "obd2",
+      "diagnostics"
+    ],
+    "status": "active"
+  }
+]

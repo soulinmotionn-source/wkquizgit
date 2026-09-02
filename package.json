@@ -1,15 +1,19 @@
 {
   "name": "wk-quiz",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Production-ready, lightweight, mobile-first Google Blogger Quiz Platform.",
   "main": "src/quiz-engine.js",
   "scripts": {
     "test": "node tests/run-tests.js",
-    "build": "node scripts/build.js"
+    "build": "node scripts/build.js",
+    "validate": "node tools/validate.js",
+    "duplicates": "node tools/find-duplicates.js",
+    "stats": "node tools/stats.js"
   },
   "keywords": [
     "blogger-theme",
     "quiz-platform",
+    "question-bank",
     "vanilla-js",
     "nclex",
     "nursing",

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "MED-000001",
+    "category": "Medical",
+    "subcategory": "Emergency Medicine",
+    "difficulty": "medium",
+    "question": "What is the recommended compression-to-ventilation ratio for adult single-rescuer CPR?",
+    "options": [
+      "30 compressions to 2 breaths",
+      "15 compressions to 2 breaths",
+      "20 compressions to 1 breath",
+      "50 compressions to 5 breaths"
+    ],
+    "answer": 0,
+    "explanation": "AHA resuscitation guidelines recommend a 30:2 compression-to-ventilation ratio for adult cardiac arrest in single-rescuer CPR.",
+    "tags": [
+      "medical",
+      "cpr",
+      "emergency",
+      "cardiology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000002",
+    "category": "Medical",
+    "subcategory": "Diagnostics",
+    "difficulty": "hard",
+    "question": "Which serum cardiac biomarker provides the highest diagnostic specificity and sensitivity for acute myocardial infarction (heart attack)?",
+    "options": [
+      "Cardiac Troponin I or T",
+      "Creatine Kinase-MB (CK-MB)",
+      "Myoglobin",
+      "Lactate Dehydrogenase (LDH)"
+    ],
+    "answer": 0,
+    "explanation": "Cardiac Troponins (I and T) are specific to myocardial tissue necrosis and remain the gold standard biomarker.",
+    "tags": [
+      "medical",
+      "cardiology",
+      "lab-values",
+      "diagnostics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000003",
+    "category": "Medical",
+    "subcategory": "Vitals",
+    "difficulty": "easy",
+    "question": "What is considered a normal adult resting blood pressure according to AHA/ACC guidelines?",
+    "options": [
+      "Less than 120/80 mmHg",
+      "140/90 mmHg",
+      "160/100 mmHg",
+      "130/85 mmHg"
+    ],
+    "answer": 0,
+    "explanation": "Normal blood pressure is defined as systolic < 120 mmHg and diastolic < 80 mmHg.",
+    "tags": [
+      "medical",
+      "vitals",
+      "hypertension"
+    ],
+    "status": "active"
+  }
+]

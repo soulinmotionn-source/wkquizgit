@@ -1,0 +1,64 @@
+[
+  {
+    "id": "HIST-000001",
+    "category": "History",
+    "subcategory": "Space Exploration",
+    "difficulty": "easy",
+    "question": "In which year did the Apollo 11 mission land the first humans on the Moon?",
+    "options": [
+      "1969",
+      "1965",
+      "1972",
+      "1959"
+    ],
+    "answer": 0,
+    "explanation": "On July 20, 1969, Neil Armstrong and Buzz Aldrin landed on the Moon aboard the Apollo 11 Lunar Module.",
+    "tags": [
+      "history",
+      "space",
+      "apollo"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HIST-000002",
+    "category": "History",
+    "subcategory": "Ancient World",
+    "difficulty": "medium",
+    "question": "Who was the first Emperor of a unified China, known for the Terracotta Army?",
+    "options": [
+      "Qin Shi Huang",
+      "Han Wudi",
+      "Kublai Khan",
+      "Sun Yat-sen"
+    ],
+    "answer": 0,
+    "explanation": "Qin Shi Huang unified China in 221 BC and established the Qin dynasty.",
+    "tags": [
+      "history",
+      "ancient-china"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HIST-000003",
+    "category": "History",
+    "subcategory": "Treaties & Wars",
+    "difficulty": "hard",
+    "question": "The Treaty of Westphalia (1648) famously brought an end to which devastating European conflict?",
+    "options": [
+      "The Thirty Years' War",
+      "The Hundred Years' War",
+      "The Seven Years' War",
+      "The War of the Spanish Succession"
+    ],
+    "answer": 0,
+    "explanation": "The 1648 Peace of Westphalia ended the Thirty Years' War and established the concept of state sovereignty.",
+    "tags": [
+      "history",
+      "europe",
+      "treaties"
+    ],
+    "status": "active"
+  }
+]

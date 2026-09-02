@@ -706,6 +706,121 @@ button {
   line-height: 1.5;
 }
 
+/* ==============================================================================
+   QUIZ SETUP SCREEN (Difficulty & Length Selector)
+   ============================================================================== */
+.wk-setup-card {
+  text-align: center;
+  padding: 2rem 1.5rem;
+}
+
+.wk-setup-header {
+  margin-bottom: 1.5rem;
+}
+
+.wk-setup-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.wk-setup-desc {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.wk-setup-section {
+  margin-bottom: 1.75rem;
+  text-align: left;
+}
+
+.wk-setup-label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.wk-pills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+
+.wk-length-pills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+@media (max-width: 480px) {
+  .wk-length-pills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.wk-pill-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  padding: 0.85rem 0.5rem;
+  background-color: var(--surface-2);
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+  user-select: none;
+}
+
+.wk-pill-btn:hover {
+  border-color: var(--primary);
+  background-color: var(--primary-light);
+  color: var(--primary);
+}
+
+.wk-pill-btn.active {
+  border-color: var(--primary);
+  background-color: var(--primary);
+  color: #ffffff;
+  box-shadow: var(--shadow-md);
+}
+
+.wk-pill-btn.active.pill-easy {
+  background-color: var(--success);
+  border-color: var(--success);
+  color: #ffffff;
+}
+
+.wk-pill-btn.active.pill-medium {
+  background-color: #f59e0b;
+  border-color: #f59e0b;
+  color: #ffffff;
+}
+
+.wk-pill-btn.active.pill-hard {
+  background-color: var(--danger);
+  border-color: var(--danger);
+  color: #ffffff;
+}
+
+.wk-setup-notice {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(6px); }
   to { opacity: 1; transform: translateY(0); }
@@ -1253,7 +1368,7 @@ button {
             <h1 class='wk-hero-title'>Test Your Knowledge</h1>
             <p class='wk-hero-subtitle'>Play thousands of interactive quizzes, challenge yourself, and master Nursing, NCLEX, Engineering, Tech, IQ and more.</p>
             <div class='wk-hero-actions'>
-              <button type='button' class='wk-btn wk-btn-primary' data-action='start-random'>
+              <button type='button' class='wk-btn wk-btn-primary' data-action='open-setup' data-category='all'>
                 ⚡ Start Random Quiz
               </button>
               <a href='#categories' class='wk-btn wk-btn-secondary'>
@@ -1285,7 +1400,7 @@ button {
         <!-- INTERACTIVE QUIZ ENGINE CONTAINER                                  -->
         <!-- ================================================================== -->
         <section id='wk-quiz-container' aria-live='polite'>
-          <!-- Active quiz screen or completed results rendered dynamically by WKQuizUI -->
+          <!-- Active quiz screen, setup screen, or completed results rendered dynamically by WKQuizUI -->
         </section>
 
         <!-- HOMEPAGE CATEGORIES GRID -->
@@ -1424,20 +1539,20 @@ button {
         <div class='wk-footer-col'>
           <h4>Healthcare Quizzes</h4>
           <ul class='wk-footer-links'>
-            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='start-category' data-category='nclex'>NCLEX Practice</a></li>
-            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='start-category' data-category='nursing'>Nursing Fundamentals</a></li>
-            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='start-category' data-category='pharmacology'>Pharmacology</a></li>
-            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='start-category' data-category='anatomy'>Anatomy and Physiology</a></li>
+            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='open-setup' data-category='nclex'>NCLEX Practice</a></li>
+            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='open-setup' data-category='nursing'>Nursing Fundamentals</a></li>
+            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='open-setup' data-category='pharmacology'>Pharmacology</a></li>
+            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='open-setup' data-category='anatomy'>Anatomy and Physiology</a></li>
           </ul>
         </div>
 
         <div class='wk-footer-col'>
           <h4>Technical and STEM</h4>
           <ul class='wk-footer-links'>
-            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='start-category' data-category='electrical'>Electrical Engineering</a></li>
-            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='start-category' data-category='hvac'>HVAC and Refrigeration</a></li>
-            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='start-category' data-category='electronics'>Electronics</a></li>
-            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='start-category' data-category='iq-logic'>IQ and Logic Puzzles</a></li>
+            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='open-setup' data-category='electrical'>Electrical Engineering</a></li>
+            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='open-setup' data-category='hvac'>HVAC and Refrigeration</a></li>
+            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='open-setup' data-category='electronics'>Electronics</a></li>
+            <li><a class='wk-footer-link' href='javascript:void(0)' data-action='open-setup' data-category='iq-logic'>IQ and Logic Puzzles</a></li>
           </ul>
         </div>
 
@@ -1501,16 +1616,18 @@ const WKQUIZ_CONFIG = {
   // Quiz Engine Settings
   quiz: {
     defaultLength: 10,
-    availableLengths: [5, 10, 20, 50],
-    defaultMode: "classic", // quick (5), classic (10), challenge (20), exam (50), timed, survival, daily
-    timePerQuestionSeconds: 20, // Used for timed mode
-    examTotalMinutes: 30, // Used for 50-question exam mode
+    availableLengths: [5, 10, 20, 50], // Central configurable question counts
+    availableDifficulties: ["easy", "medium", "hard"], // Strictly 3 difficulty levels
+    defaultDifficulty: "medium",
+    defaultMode: "classic",
+    timePerQuestionSeconds: 20,
+    examTotalMinutes: 30,
     enableTimerByDefault: false,
     enableExplanations: true,
     enableAnswerShuffle: true,
     enableQuestionShuffle: true,
     preventSessionDuplicates: true,
-    soundEffectsEnabled: false, // Synthesized Web Audio API sound effects
+    soundEffectsEnabled: false,
     passingScorePercentage: 70,
     streakBonusPoints: 10,
   },
@@ -1518,12 +1635,12 @@ const WKQUIZ_CONFIG = {
   // Theme & Appearance
   theme: {
     enableDarkMode: true,
-    defaultTheme: "light", // "light" | "dark" | "system"
-    accentColor: "#4f46e5", // Indigo / Modern Violet
-    secondaryColor: "#06b6d4", // Cyan
+    defaultTheme: "light",
+    accentColor: "#4f46e5",
+    secondaryColor: "#06b6d4",
   },
 
-  // Ad Slots Configuration (Easily enable/disable ad spots)
+  // Ad Slots Configuration
   ads: {
     topAd: { enabled: true, label: "Advertisement - Top Banner" },
     beforeContentAd: { enabled: true, label: "Advertisement - Before Quiz" },
@@ -1780,1066 +1897,2173 @@ if (typeof window !== "undefined") {
 
 
 /* ========================================================================= */
-/* 2. QUESTION BANK DATA AND REPOSITORY                                      */
+/* 2. COMPILED QUESTION BANK                                                 */
 /* ========================================================================= */
 /**
- * WKQUIZ QUESTION BANK
- * Structured question repository with scalable schema and helper query methods.
- * Each question has: id, category, subcategory, difficulty, question, options, answer, explanation, tags.
+ * WKQUIZ COMPILED QUESTION BANK
+ * Auto-generated by scripts/build.js from question-bank/*.json
+ * Total Questions: 94
  */
 
 const WKQUIZ_QUESTIONS = [
-  // ==========================================
-  // NURSING & NCLEX
-  // ==========================================
   {
-    id: "nurs_001",
-    category: "nursing",
-    subcategory: "Fundamentals",
-    difficulty: "medium",
-    question: "Which position is most appropriate for a patient experiencing acute shortness of breath (dyspnea)?",
-    options: [
-      "High Fowler's position",
-      "Trendelenburg position",
-      "Prone position",
-      "Supine with legs elevated"
-    ],
-    answer: 0,
-    explanation: "High Fowler's position (sitting upright at 60-90 degrees) maximizes lung expansion and facilitates diaphragm descent, easing respiratory distress.",
-    tags: ["nursing", "respiratory", "patient-care", "positioning"]
-  },
-  {
-    id: "nurs_002",
-    category: "nursing",
-    subcategory: "Infection Control",
-    difficulty: "easy",
-    question: "What is the single most effective intervention to prevent the spread of healthcare-associated infections (HAIs)?",
-    options: [
-      "Routine hand hygiene",
-      "Wearing double gloves for all procedures",
-      "Prophylactic antibiotic administration",
-      "Sterilizing room surfaces twice daily"
-    ],
-    answer: 0,
-    explanation: "Proper and consistent hand hygiene before and after patient contact is universally recognized by the WHO and CDC as the primary measure to break the chain of infection.",
-    tags: ["nursing", "infection-control", "safety"]
-  },
-  {
-    id: "nurs_003",
-    category: "nursing",
-    subcategory: "Vitals & Assessment",
-    difficulty: "hard",
-    question: "When assessing a patient with suspected hypocalcemia, which clinical finding is known as Chvostek's sign?",
-    options: [
-      "Twitching of facial muscles elicited by tapping the facial nerve",
-      "Carpal spasm induced by inflating a blood pressure cuff above systolic pressure",
-      "Numbness and tingling around the lips and fingertips",
-      "Hyperactive deep tendon reflexes in the lower extremities"
-    ],
-    answer: 0,
-    explanation: "Chvostek's sign is facial muscle twitching when tapping anterior to the ear (facial nerve). Trousseau's sign refers to carpal spasm with cuff inflation.",
-    tags: ["nursing", "assessment", "electrolytes", "hypocalcemia"]
-  },
-  {
-    id: "nclex_001",
-    category: "nclex",
-    subcategory: "NCLEX-RN Prioritization",
-    difficulty: "hard",
-    question: "A nurse receives change-of-shift report on four patients. Which patient should the nurse assess first?",
-    options: [
-      "A client with asthma who was wheezing and is now silent with decreased air movement",
-      "A client with diabetes whose fasting blood glucose is 185 mg/dL",
-      "A client postoperative day 1 after knee replacement reporting 7/10 pain",
-      "A client with chronic kidney disease whose serum creatinine is 2.8 mg/dL"
-    ],
-    answer: 0,
-    explanation: "Using the ABC (Airway, Breathing, Circulation) priority framework, a silent chest in acute asthma indicates severe bronchospasm and impending respiratory failure.",
-    tags: ["nclex", "prioritization", "triage", "emergency"]
-  },
-  {
-    id: "nclex_002",
-    category: "nclex",
-    subcategory: "Pharmacology / Safety",
-    difficulty: "medium",
-    question: "A client with heart failure is taking Digoxin (Lanoxin) 0.25 mg daily. Which assessment finding warrants withholding the medication?",
-    options: [
-      "Apical heart rate of 52 beats per minute",
-      "Blood pressure of 130/84 mmHg",
-      "Respiratory rate of 18 breaths per minute",
-      "Serum potassium level of 4.2 mEq/L"
-    ],
-    answer: 0,
-    explanation: "Digoxin should be withheld if the apical heart rate is below 60 bpm in an adult to avoid severe bradycardia and heart block.",
-    tags: ["nclex", "pharmacology", "cardiac", "digoxin"]
-  },
-  {
-    id: "nclex_003",
-    category: "nclex",
-    subcategory: "Maternal-Newborn",
-    difficulty: "medium",
-    question: "Which finding in a postpartum mother 4 hours after an uncomplicated vaginal delivery requires immediate nurse intervention?",
-    options: [
-      "Fundus boggy and displaced to the right of the midline",
-      "Moderate lochia rubra on the perineal pad",
-      "Maternal temperature of 37.8°C (100.0°F)",
-      "Diaphoresis during sleep"
-    ],
-    answer: 0,
-    explanation: "A boggy fundus displaced to the right indicates urinary bladder distension, preventing uterine contraction and increasing the risk of postpartum hemorrhage.",
-    tags: ["nclex", "maternal", "postpartum", "safety"]
-  },
-
-  // ==========================================
-  // MEDICAL & MEDICAL TERMINOLOGY
-  // ==========================================
-  {
-    id: "med_001",
-    category: "medical",
-    subcategory: "Emergency Medicine",
-    difficulty: "medium",
-    question: "What is the recommended compression-to-ventilation ratio for adult single-rescuer CPR?",
-    options: [
-      "30 compressions to 2 breaths",
-      "15 compressions to 2 breaths",
-      "20 compressions to 1 breath",
-      "50 compressions to 5 breaths"
-    ],
-    answer: 0,
-    explanation: "AHA guidelines recommend a 30:2 compression-to-ventilation ratio for adult cardiac arrest in single-rescuer resuscitation.",
-    tags: ["medical", "cpr", "emergency", "cardiology"]
-  },
-  {
-    id: "med_002",
-    category: "medical",
-    subcategory: "Pathology",
-    difficulty: "hard",
-    question: "Which biomarker is considered the gold standard for diagnosing acute myocardial infarction (heart attack)?",
-    options: [
-      "Cardiac Troponin I or T",
-      "Creatine Kinase-MB (CK-MB)",
-      "Myoglobin",
-      "Lactate Dehydrogenase (LDH)"
-    ],
-    answer: 0,
-    explanation: "Cardiac Troponin (I and T) provides the highest cardiac specificity and sensitivity for detecting myocardial cellular necrosis.",
-    tags: ["medical", "cardiology", "lab-values", "diagnostics"]
-  },
-  {
-    id: "medterm_001",
-    category: "medical-terminology",
-    subcategory: "Prefixes & Suffixes",
-    difficulty: "easy",
-    question: "What does the medical prefix 'Brady-' mean?",
-    options: [
-      "Slow",
-      "Fast",
-      "Difficult or painful",
-      "Excessive"
-    ],
-    answer: 0,
-    explanation: "'Brady-' is derived from the Greek 'bradys' meaning slow (e.g., bradycardia = abnormally slow heart rate). 'Tachy-' means fast.",
-    tags: ["medical-terminology", "prefixes", "vocabulary"]
-  },
-  {
-    id: "medterm_002",
-    category: "medical-terminology",
-    subcategory: "Root Words",
-    difficulty: "medium",
-    question: "The surgical suffix '-ectomy' indicates which procedure?",
-    options: [
-      "Surgical removal or excision",
-      "Creating an artificial opening",
-      "Surgical repair or reconstruction",
-      "Visual examination with an instrument"
-    ],
-    answer: 0,
-    explanation: "'-ectomy' denotes surgical removal (e.g., appendectomy, mastectomy). '-ostomy' is creating an opening, and '-plasty' is surgical repair.",
-    tags: ["medical-terminology", "suffixes", "surgery"]
-  },
-  {
-    id: "medterm_003",
-    category: "medical-terminology",
-    subcategory: "Clinical Vocab",
-    difficulty: "medium",
-    question: "What does the medical term 'Hemoptysis' refer to?",
-    options: [
-      "Coughing up blood or blood-stained mucus",
-      "Vomiting blood from the gastrointestinal tract",
-      "Blood in the urine",
-      "Nosebleed"
-    ],
-    answer: 0,
-    explanation: "Hemoptysis is the coughing up of blood from the respiratory tract. Vomiting blood is hematemesis, blood in urine is hematuria, and nosebleed is epistaxis.",
-    tags: ["medical-terminology", "clinical", "pulmonology"]
-  },
-
-  // ==========================================
-  // DISEASES, ANATOMY, PHARMACOLOGY
-  // ==========================================
-  {
-    id: "dis_001",
-    category: "diseases",
-    subcategory: "Endocrinology",
-    difficulty: "medium",
-    question: "Type 1 Diabetes Mellitus is characterized primarily by which underlying mechanism?",
-    options: [
-      "Autoimmune destruction of pancreatic beta cells producing absolute insulin deficiency",
-      "Insulin resistance in peripheral tissues with relative insulin deficiency",
-      "Impaired hepatic glucose storage due to enzyme mutations",
-      "Excessive secretion of glucagon by alpha cells"
-    ],
-    answer: 0,
-    explanation: "Type 1 Diabetes is an autoimmune disorder where T-cells attack and destroy pancreatic beta cells in the islets of Langerhans, leading to zero or negligible insulin synthesis.",
-    tags: ["diseases", "diabetes", "endocrinology"]
-  },
-  {
-    id: "dis_002",
-    category: "diseases",
-    subcategory: "Infectious Disease",
-    difficulty: "easy",
-    question: "Which causative organism is responsible for Tuberculosis (TB)?",
-    options: [
-      "Mycobacterium tuberculosis",
-      "Streptococcus pneumoniae",
-      "Staphylococcus aureus",
-      "Haemophilus influenzae"
-    ],
-    answer: 0,
-    explanation: "Tuberculosis is caused by Mycobacterium tuberculosis, an acid-fast aerobic rod-shaped bacterium primarily affecting the lungs.",
-    tags: ["diseases", "tuberculosis", "microbiology"]
-  },
-  {
-    id: "anat_001",
-    category: "anatomy",
-    subcategory: "Cardiovascular",
-    difficulty: "easy",
-    question: "Which chamber of the human heart pumps oxygen-rich blood into the aorta to supply the entire body?",
-    options: [
+    "id": "ANAT-000001",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Cardiovascular",
+    "difficulty": "easy",
+    "question": "Which chamber of the human heart pumps oxygen-rich blood into the aorta to supply the entire body?",
+    "options": [
       "Left Ventricle",
       "Right Ventricle",
       "Left Atrium",
       "Right Atrium"
     ],
-    answer: 0,
-    explanation: "The Left Ventricle has the thickest muscular wall and pumps oxygenated blood under high pressure through the aortic valve into the systemic circulation.",
-    tags: ["anatomy", "heart", "cardiovascular"]
+    "answer": 0,
+    "explanation": "The Left Ventricle has the thickest myocardium and pumps oxygenated blood under high pressure through the aortic valve into systemic circulation.",
+    "tags": [
+      "anatomy",
+      "heart",
+      "cardiovascular"
+    ],
+    "status": "active"
   },
   {
-    id: "anat_002",
-    category: "anatomy",
-    subcategory: "Neuroanatomy",
-    difficulty: "medium",
-    question: "Which part of the brain is primarily responsible for motor coordination, balance, and fine motor skills?",
-    options: [
+    "id": "ANAT-000002",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Neuroanatomy",
+    "difficulty": "medium",
+    "question": "Which part of the brain is primarily responsible for motor coordination, balance, and fine motor skills?",
+    "options": [
       "Cerebellum",
       "Cerebrum",
       "Hypothalamus",
       "Medulla oblongata"
     ],
-    answer: 0,
-    explanation: "The cerebellum (located at the back of the brain) coordinates voluntary muscle movements, posture, and balance.",
-    tags: ["anatomy", "neuroscience", "brain"]
+    "answer": 0,
+    "explanation": "The cerebellum coordinates voluntary muscle movements, equilibrium, and motor posture.",
+    "tags": [
+      "anatomy",
+      "neuroscience",
+      "brain"
+    ],
+    "status": "active"
   },
   {
-    id: "anat_003",
-    category: "anatomy",
-    subcategory: "Skeletal System",
-    difficulty: "easy",
-    question: "What is the longest and strongest bone in the human skeleton?",
-    options: [
+    "id": "ANAT-000003",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Skeletal System",
+    "difficulty": "easy",
+    "question": "What is the longest and strongest bone in the human skeleton?",
+    "options": [
       "Femur (thigh bone)",
       "Tibia (shin bone)",
       "Humerus (upper arm bone)",
       "Fibula"
     ],
-    answer: 0,
-    explanation: "The femur (thigh bone) is the longest, heaviest, and strongest bone in the human body, supporting body weight during standing, running, and jumping.",
-    tags: ["anatomy", "skeletal", "bones"]
-  },
-  {
-    id: "pharm_001",
-    category: "pharmacology",
-    subcategory: "Cardiovascular Drugs",
-    difficulty: "medium",
-    question: "Which class of antihypertensive medications commonly causes a dry, persistent cough due to bradykinin accumulation?",
-    options: [
-      "ACE Inhibitors (e.g., Lisinopril)",
-      "Beta Blockers (e.g., Metoprolol)",
-      "Calcium Channel Blockers (e.g., Amlodipine)",
-      "Thiazide Diuretics (e.g., Hydrochlorothiazide)"
+    "answer": 0,
+    "explanation": "The femur is the longest, heaviest, and strongest bone in the human body.",
+    "tags": [
+      "anatomy",
+      "skeletal",
+      "bones"
     ],
-    answer: 0,
-    explanation: "ACE (Angiotensin-Converting Enzyme) inhibitors inhibit the breakdown of bradykinin and substance P in the respiratory tract, provoking an intractable dry cough.",
-    tags: ["pharmacology", "hypertension", "ace-inhibitors"]
+    "status": "active"
   },
   {
-    id: "pharm_002",
-    category: "pharmacology",
-    subcategory: "Antibiotics & Antidotes",
-    difficulty: "hard",
-    question: "What is the specific reversal agent (antidote) for heparin-induced anticoagulation?",
-    options: [
-      "Protamine Sulfate",
-      "Vitamin K (Phytonadione)",
-      "Naloxone (Narcan)",
-      "Flumazenil"
+    "id": "ANAT-000004",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Endocrine System",
+    "difficulty": "hard",
+    "question": "The islets of Langerhans are microscopic clusters of endocrine cells located in which organ?",
+    "options": [
+      "Pancreas",
+      "Liver",
+      "Adrenal gland",
+      "Thyroid gland"
     ],
-    answer: 0,
-    explanation: "Protamine sulfate binds strongly to heparin to form an inactive, stable salt complex, reversing its anticoagulant effect. Vitamin K reverses Warfarin.",
-    tags: ["pharmacology", "antidotes", "hematology", "heparin"]
-  },
-
-  // ==========================================
-  // ENTERTAINMENT, MOVIES, TV SHOWS, DRAMA, CELEBRITY, MUSIC
-  // ==========================================
-  {
-    id: "ent_001",
-    category: "entertainment",
-    subcategory: "Pop Culture",
-    difficulty: "easy",
-    question: "Which comic book character is famously known as the 'Dark Knight' of Gotham City?",
-    options: [
-      "Batman",
-      "Superman",
-      "Iron Man",
-      "Spider-Man"
+    "answer": 0,
+    "explanation": "The islets of Langerhans in the pancreas contain alpha, beta, and delta cells producing glucagon, insulin, and somatostatin.",
+    "tags": [
+      "anatomy",
+      "endocrine",
+      "pancreas"
     ],
-    answer: 0,
-    explanation: "Batman (Bruce Wayne), created by Bob Kane and Bill Finger for DC Comics, is widely known as the Dark Knight and the Caped Crusader.",
-    tags: ["entertainment", "superheroes", "comics", "batman"]
+    "status": "active"
   },
   {
-    id: "mov_001",
-    category: "movies",
-    subcategory: "Oscar Winners",
-    difficulty: "medium",
-    question: "Which 1997 James Cameron epic romance and disaster film won 11 Academy Awards, tied for the most in history?",
-    options: [
-      "Titanic",
-      "Avatar",
-      "Gladiator",
-      "Braveheart"
-    ],
-    answer: 0,
-    explanation: "Titanic (1997), starring Leonardo DiCaprio and Kate Winslet, tied Ben-Hur and The Lord of the Rings: The Return of the King with 11 Academy Awards.",
-    tags: ["movies", "cinema", "oscars", "titanic"]
-  },
-  {
-    id: "mov_002",
-    category: "movies",
-    subcategory: "Sci-Fi Classics",
-    difficulty: "easy",
-    question: "In the Star Wars franchise, which iconic villain declares: 'No, I am your father' to Luke Skywalker?",
-    options: [
-      "Darth Vader",
-      "Emperor Palpatine",
-      "Grand Moff Tarkin",
-      "Darth Maul"
-    ],
-    answer: 0,
-    explanation: "In The Empire Strikes Back (1980), Darth Vader reveals this shocking truth during their duel in Cloud City.",
-    tags: ["movies", "star-wars", "sci-fi"]
-  },
-  {
-    id: "tv_001",
-    category: "tv-shows",
-    subcategory: "Streaming Drama",
-    difficulty: "easy",
-    question: "In the Netflix series 'Stranger Things', what is the name of the alternate dimension beneath the town of Hawkins?",
-    options: [
-      "The Upside Down",
-      "The Twilight Zone",
-      "The Netherworld",
-      "The Dark Realm"
-    ],
-    answer: 0,
-    explanation: "The Upside Down is a dark, decaying alternate dimension mirroring Hawkins, inhabited by predatory creatures like the Demogorgon and Mind Flayer.",
-    tags: ["tv-shows", "stranger-things", "netflix"]
-  },
-  {
-    id: "tv_002",
-    category: "tv-shows",
-    subcategory: "Sitcoms",
-    difficulty: "medium",
-    question: "In the sitcom 'Friends', what is the name of the coffee house where the gang spends most of their time?",
-    options: [
-      "Central Perk",
-      "Monk's Diner",
-      "The Roasted Bean",
-      "Cafe Nervosa"
-    ],
-    answer: 0,
-    explanation: "Central Perk in Greenwich Village, New York City, is the famous hangout where Rachel Green worked as a waitress and Gunther managed the counter.",
-    tags: ["tv-shows", "friends", "sitcom"]
-  },
-  {
-    id: "drama_001",
-    category: "drama",
-    subcategory: "Global Drama",
-    difficulty: "medium",
-    question: "Which critically acclaimed HBO drama series created by David Chase revolved around New Jersey mobster Tony and his psychiatric therapy?",
-    options: [
-      "The Sopranos",
-      "The Wire",
-      "Boardwalk Empire",
-      "Peaky Blinders"
-    ],
-    answer: 0,
-    explanation: "The Sopranos (1999-2007) starring James Gandolfini is heralded as one of the greatest television dramas in television history.",
-    tags: ["drama", "the-sopranos", "hbo"]
-  },
-  {
-    id: "celeb_001",
-    category: "celebrity",
-    subcategory: "Pop Icons",
-    difficulty: "easy",
-    question: "Which global music superstar became the first artist in history to achieve billionaire status solely from songwriting and performing in 2023 with the Eras Tour?",
-    options: [
-      "Taylor Swift",
-      "Beyoncé",
-      "Rihanna",
-      "Adele"
-    ],
-    answer: 0,
-    explanation: "Taylor Swift's record-smashing Eras Tour grossed over $1 billion, catapulting her net worth past the billionaire mark solely through music and touring revenue.",
-    tags: ["celebrity", "music", "taylor-swift"]
-  },
-  {
-    id: "mus_001",
-    category: "music",
-    subcategory: "Rock & Pop Legends",
-    difficulty: "easy",
-    question: "Which legendary British band featured John Lennon, Paul McCartney, George Harrison, and Ringo Starr?",
-    options: [
-      "The Beatles",
-      "The Rolling Stones",
-      "The Who",
-      "Led Zeppelin"
-    ],
-    answer: 0,
-    explanation: "The Beatles, formed in Liverpool in 1960, are the best-selling music band in history with over 600 million records sold worldwide.",
-    tags: ["music", "rock", "the-beatles"]
-  },
-
-  // ==========================================
-  // GENERAL KNOWLEDGE, HISTORY, GEOGRAPHY, SCIENCE
-  // ==========================================
-  {
-    id: "gk_001",
-    category: "general-knowledge",
-    subcategory: "World Trivia",
-    difficulty: "easy",
-    question: "What is the hardest naturally occurring mineral substance on planet Earth?",
-    options: [
-      "Diamond",
-      "Corundum",
-      "Topaz",
-      "Quartz"
-    ],
-    answer: 0,
-    explanation: "Diamond rates 10 (maximum) on Mohs hardness scale, consisting of carbon atoms arranged in a rigid diamond cubic crystal lattice.",
-    tags: ["general-knowledge", "minerals", "science"]
-  },
-  {
-    id: "gk_002",
-    category: "general-knowledge",
-    subcategory: "Global Landmarks",
-    difficulty: "medium",
-    question: "In which country can you find the ancient pre-Columbian city ruins of Machu Picchu?",
-    options: [
-      "Peru",
-      "Bolivia",
-      "Chile",
-      "Mexico"
-    ],
-    answer: 0,
-    explanation: "Machu Picchu is a 15th-century Inca citadel situated on a mountain ridge 2,430 metres above sea level in the Cusco Region of Peru.",
-    tags: ["general-knowledge", "geography", "history", "landmarks"]
-  },
-  {
-    id: "hist_001",
-    category: "history",
-    subcategory: "20th Century",
-    difficulty: "easy",
-    question: "In which year did the historic Apollo 11 mission successfully land the first humans on the Moon?",
-    options: [
-      "1969",
-      "1965",
-      "1972",
-      "1959"
-    ],
-    answer: 0,
-    explanation: "On July 20, 1969, American astronauts Neil Armstrong and Buzz Aldrin landed the Apollo Lunar Module Eagle on the Moon.",
-    tags: ["history", "space", "apollo", "moon-landing"]
-  },
-  {
-    id: "hist_002",
-    category: "history",
-    subcategory: "Ancient Civilizations",
-    difficulty: "medium",
-    question: "Who was the first Emperor of a unified China, known for commissioning the Terracotta Army?",
-    options: [
-      "Qin Shi Huang",
-      "Han Wudi",
-      "Kublai Khan",
-      "Sun Yat-sen"
-    ],
-    answer: 0,
-    explanation: "Qin Shi Huang conquered all Warring States in 221 BC to unify China, founding the Qin dynasty and creating the Terracotta Army for his mausoleum.",
-    tags: ["history", "ancient-china", "emperors"]
-  },
-  {
-    id: "geo_001",
-    category: "geography",
-    subcategory: "Rivers & Oceans",
-    difficulty: "easy",
-    question: "Which is the longest river in the world according to Guinness World Records and international geographical authorities?",
-    options: [
-      "The Nile River",
-      "The Amazon River",
-      "The Yangtze River",
-      "The Mississippi River"
-    ],
-    answer: 0,
-    explanation: "The Nile River in northeastern Africa flows approximately 6,650 km (4,132 miles), making it traditionally recognized as the longest river.",
-    tags: ["geography", "rivers", "nature"]
-  },
-  {
-    id: "geo_002",
-    category: "geography",
-    subcategory: "Capitals",
-    difficulty: "medium",
-    question: "What is the capital city of Australia?",
-    options: [
-      "Canberra",
-      "Sydney",
-      "Melbourne",
-      "Brisbane"
-    ],
-    answer: 0,
-    explanation: "Canberra was chosen as the compromise capital of Australia in 1908 to resolve the rivalry between Sydney and Melbourne.",
-    tags: ["geography", "capitals", "australia"]
-  },
-  {
-    id: "sci_001",
-    category: "science",
-    subcategory: "Physics",
-    difficulty: "medium",
-    question: "What is the approximate speed of light in a vacuum (c)?",
-    options: [
-      "299,792 km/s (approx 300,000 km/s)",
-      "150,000 km/s",
-      "500,000 km/s",
-      "343 m/s"
-    ],
-    answer: 0,
-    explanation: "The speed of light in vacuum is exactly 299,792,458 metres per second (approx 3 × 10^8 m/s or 186,282 miles/s). 343 m/s is the speed of sound in air.",
-    tags: ["science", "physics", "light"]
-  },
-  {
-    id: "sci_002",
-    category: "science",
-    subcategory: "Chemistry",
-    difficulty: "easy",
-    question: "What is the chemical symbol for the element Gold on the periodic table?",
-    options: [
-      "Au",
-      "Ag",
-      "Fe",
-      "Gd"
-    ],
-    answer: 0,
-    explanation: "'Au' comes from the Latin name for gold, 'Aurum' (shining dawn). 'Ag' is silver, 'Fe' is iron.",
-    tags: ["science", "chemistry", "periodic-table"]
-  },
-
-  // ==========================================
-  // ENGINEERING, ELECTRICAL, ELECTRICAL SYMBOLS, ELECTRONICS, HVAC
-  // ==========================================
-  {
-    id: "eng_001",
-    category: "engineering",
-    subcategory: "Mechanics",
-    difficulty: "medium",
-    question: "According to Hooke's Law in mechanical engineering, stress is directly proportional to what within the elastic limit?",
-    options: [
-      "Strain",
-      "Temperature",
-      "Volume",
-      "Viscosity"
-    ],
-    answer: 0,
-    explanation: "Hooke's Law states that within the elastic limit of a material, stress is directly proportional to strain (σ = E · ε, where E is Young's Modulus).",
-    tags: ["engineering", "mechanics", "materials"]
-  },
-  {
-    id: "elec_001",
-    category: "electrical",
-    subcategory: "Circuit Laws",
-    difficulty: "easy",
-    question: "According to Ohm's Law, which formula correctly calculates Electric Voltage (V)?",
-    options: [
-      "V = I × R (Current × Resistance)",
-      "V = I / R",
-      "V = R / I",
-      "V = I + R"
-    ],
-    answer: 0,
-    explanation: "Ohm's Law expresses the direct relationship: Voltage (V in Volts) = Current (I in Amperes) multiplied by Resistance (R in Ohms).",
-    tags: ["electrical", "circuits", "ohms-law"]
-  },
-  {
-    id: "elec_002",
-    category: "electrical",
-    subcategory: "Power Calculation",
-    difficulty: "medium",
-    question: "If a 120V circuit draws a current of 5 Amperes, what is the electric power consumed by the load?",
-    options: [
-      "600 Watts",
-      "24 Watts",
-      "125 Watts",
-      "60 Watts"
-    ],
-    answer: 0,
-    explanation: "Electrical power P = V × I = 120 Volts × 5 Amperes = 600 Watts (W).",
-    tags: ["electrical", "power", "calculations"]
-  },
-  {
-    id: "elecsym_001",
-    category: "electrical-symbols",
-    subcategory: "Schematic Symbols",
-    difficulty: "easy",
-    question: "In electrical circuit schematics, what does a symbol composed of alternating long and short parallel lines represent?",
-    options: [
-      "DC Voltage Source / Battery",
-      "Capacitor",
-      "Ground connection",
-      "Transformer"
-    ],
-    answer: 0,
-    explanation: "A series of alternating long (positive terminal) and short thicker (negative terminal) parallel lines represents a DC cell or multi-cell battery.",
-    tags: ["electrical-symbols", "schematics", "circuits"]
-  },
-  {
-    id: "elecsym_002",
-    category: "electrical-symbols",
-    subcategory: "Passive Components",
-    difficulty: "medium",
-    question: "On an electronic blueprint, what component is depicted by a zigzag line in US standards or a plain rectangle in IEC European standards?",
-    options: [
-      "Resistor",
-      "Inductor",
-      "Diode",
-      "Fuse"
-    ],
-    answer: 0,
-    explanation: "In ANSI/IEEE US schematics, a zigzag line designates a fixed resistor. In IEC/European schematics, a simple rectangle represents a resistor.",
-    tags: ["electrical-symbols", "resistors", "blueprints"]
-  },
-  {
-    id: "elx_001",
-    category: "electronics",
-    subcategory: "Semiconductors",
-    difficulty: "medium",
-    question: "What semiconductor component allows electrical current to flow predominantly in only one direction (forward biased)?",
-    options: [
-      "Diode",
-      "Capacitor",
-      "Transformer",
-      "Potentiometer"
-    ],
-    answer: 0,
-    explanation: "A diode (such as a p-n junction diode) has low resistance to current in forward bias and very high resistance in reverse bias, serving as an electronic one-way valve.",
-    tags: ["electronics", "diodes", "semiconductors"]
-  },
-  {
-    id: "elx_002",
-    category: "electronics",
-    subcategory: "Digital Logic",
-    difficulty: "easy",
-    question: "Which digital logic gate produces a HIGH (1) output ONLY when both of its inputs are HIGH (1)?",
-    options: [
-      "AND Gate",
-      "OR Gate",
-      "XOR Gate",
-      "NOR Gate"
-    ],
-    answer: 0,
-    explanation: "An AND gate strictly requires all input conditions to be TRUE (1) to produce a TRUE (1) output.",
-    tags: ["electronics", "digital-logic", "gates"]
-  },
-  {
-    id: "hvac_001",
-    category: "hvac",
-    subcategory: "Refrigeration Cycle",
-    difficulty: "medium",
-    question: "In standard vapor-compression refrigeration, what is the primary function of the Expansion Valve (Metering Device)?",
-    options: [
-      "Drop the refrigerant pressure and temperature before entering the evaporator",
-      "Compress low-pressure vapor into high-pressure vapor",
-      "Condense high-pressure hot gas into liquid",
-      "Absorb room heat directly into the atmosphere"
-    ],
-    answer: 0,
-    explanation: "The expansion valve meters the flow of high-pressure liquid refrigerant and creates a sudden pressure drop, causing it to flash into a low-pressure, low-temperature liquid/vapor mix.",
-    tags: ["hvac", "refrigeration", "thermodynamics"]
-  },
-  {
-    id: "hvac_002",
-    category: "hvac",
-    subcategory: "Thermodynamics & Psychrometrics",
-    difficulty: "hard",
-    question: "What is the term for the heat added to a substance that results in a measurable temperature change without changing its state of matter?",
-    options: [
-      "Sensible Heat",
-      "Latent Heat",
-      "Specific Heat Ratio",
-      "Superheat Subcooling"
-    ],
-    answer: 0,
-    explanation: "Sensible heat is heat that causes a change in temperature that can be sensed by a thermometer. Latent heat causes a change of phase at constant temperature.",
-    tags: ["hvac", "thermodynamics", "psychrometrics"]
-  },
-
-  // ==========================================
-  // TECHNOLOGY, COMPUTERS, AUTOMOTIVE
-  // ==========================================
-  {
-    id: "tech_001",
-    category: "technology",
-    subcategory: "Internet & Networking",
-    difficulty: "easy",
-    question: "What does the abbreviation 'URL' stand for in web browsing and networking?",
-    options: [
-      "Uniform Resource Locator",
-      "Universal Remote Link",
-      "Unified Routing Language",
-      "User Resource Lookup"
-    ],
-    answer: 0,
-    explanation: "A URL (Uniform Resource Locator) is the unique address used to identify and locate a specific resource (such as a webpage or file) on the World Wide Web.",
-    tags: ["technology", "internet", "networking"]
-  },
-  {
-    id: "tech_002",
-    category: "technology",
-    subcategory: "Artificial Intelligence",
-    difficulty: "medium",
-    question: "In Machine Learning, what does 'LLM' stand for?",
-    options: [
-      "Large Language Model",
-      "Linear Logic Matrix",
-      "Layered Learning Module",
-      "Logical Link Mechanism"
-    ],
-    answer: 0,
-    explanation: "Large Language Models (LLMs) are deep learning transformer models trained on massive corpora of text data capable of generating and understanding natural human language.",
-    tags: ["technology", "ai", "machine-learning"]
-  },
-  {
-    id: "comp_001",
-    category: "computers",
-    subcategory: "Hardware & Memory",
-    difficulty: "easy",
-    question: "Which computer hardware component is considered volatile temporary memory, losing its stored data when the system is powered off?",
-    options: [
-      "RAM (Random Access Memory)",
-      "SSD (Solid State Drive)",
-      "ROM (Read-Only Memory)",
-      "NVMe Flash Drive"
-    ],
-    answer: 0,
-    explanation: "RAM is high-speed volatile memory that holds actively working code and data for the CPU; without continuous power, its capacitor-held states clear.",
-    tags: ["computers", "hardware", "ram"]
-  },
-  {
-    id: "comp_002",
-    category: "computers",
-    subcategory: "Operating Systems & Binary",
-    difficulty: "medium",
-    question: "How many bits are contained within exactly one standard Byte of digital data?",
-    options: [
-      "8 bits",
-      "4 bits",
-      "16 bits",
-      "32 bits"
-    ],
-    answer: 0,
-    explanation: "One byte consists of exactly 8 bits (binary digits). A 4-bit group is known as a nibble.",
-    tags: ["computers", "binary", "data-structures"]
-  },
-  {
-    id: "auto_001",
-    category: "automotive",
-    subcategory: "Engine Mechanics",
-    difficulty: "easy",
-    question: "In a four-stroke internal combustion engine, what is the correct chronological sequence of the cycles?",
-    options: [
+    "id": "AUTO-000001",
+    "category": "Automotive",
+    "subcategory": "Engines",
+    "difficulty": "easy",
+    "question": "In a 4-stroke internal combustion engine, what is the correct sequence of strokes?",
+    "options": [
       "Intake, Compression, Power (Combustion), Exhaust",
       "Compression, Intake, Power, Exhaust",
       "Power, Intake, Compression, Exhaust",
       "Intake, Power, Compression, Exhaust"
     ],
-    answer: 0,
-    explanation: "The 4-stroke cycle follows: 1. Intake stroke (air/fuel enters), 2. Compression stroke, 3. Power stroke (spark ignited), 4. Exhaust stroke (spent gases exit).",
-    tags: ["automotive", "engines", "mechanics"]
+    "answer": 0,
+    "explanation": "The 4-stroke cycle consists of: 1. Intake, 2. Compression, 3. Power, 4. Exhaust.",
+    "tags": [
+      "automotive",
+      "engines",
+      "mechanics"
+    ],
+    "status": "active"
   },
   {
-    id: "auto_002",
-    category: "automotive",
-    subcategory: "Braking & Safety",
-    difficulty: "medium",
-    question: "What is the primary function of an Automotive Anti-lock Braking System (ABS)?",
-    options: [
+    "id": "AUTO-000002",
+    "category": "Automotive",
+    "subcategory": "Braking",
+    "difficulty": "medium",
+    "question": "What is the primary function of an Anti-lock Braking System (ABS)?",
+    "options": [
       "Prevent wheels from locking up during hard braking to maintain steering control",
-      "Stop the vehicle in half the standard physical distance",
-      "Automatically apply the emergency parking brake",
-      "Cool the brake pads with electric fans"
+      "Cut braking distance by 80%",
+      "Engage the emergency parking brake automatically",
+      "Cool the brake pads with fans"
     ],
-    answer: 0,
-    explanation: "ABS pulses brake pressure rapidly to prevent tire skidding/wheel lockup under aggressive braking, allowing the driver to steer and avoid obstacles.",
-    tags: ["automotive", "safety", "brakes"]
-  },
-
-  // ==========================================
-  // IQ & LOGIC, MATHEMATICS, ENGLISH
-  // ==========================================
-  {
-    id: "iq_001",
-    category: "iq-logic",
-    subcategory: "Number Series",
-    difficulty: "medium",
-    question: "Look at this sequence: 2, 6, 12, 20, 30, ___ . What number comes next in the pattern?",
-    options: [
-      "42",
-      "40",
-      "38",
-      "48"
+    "answer": 0,
+    "explanation": "ABS pulses brake hydraulic pressure to prevent tire skidding, allowing the driver to steer safely while braking hard.",
+    "tags": [
+      "automotive",
+      "safety",
+      "brakes"
     ],
-    answer: 0,
-    explanation: "The differences between consecutive terms increase by 2: +4 (2 to 6), +6 (6 to 12), +8 (12 to 20), +10 (20 to 30), so the next step is +12: 30 + 12 = 42.",
-    tags: ["iq-logic", "patterns", "series", "deduction"]
+    "status": "active"
   },
   {
-    id: "iq_002",
-    category: "iq-logic",
-    subcategory: "Deductive Reasoning",
-    difficulty: "hard",
-    question: "If all Zips are Zaps, and some Zaps are Zops, which of the following statements is DEFINITIVELY true?",
-    options: [
-      "Some Zaps are Zips",
-      "All Zips are Zops",
-      "No Zips are Zops",
-      "All Zops are Zips"
+    "id": "AUTO-000003",
+    "category": "Automotive",
+    "subcategory": "Diagnostics",
+    "difficulty": "hard",
+    "question": "In automotive OBD-II onboard diagnostics, what does a Diagnostic Trouble Code (DTC) starting with 'P0300' indicate?",
+    "options": [
+      "Random or multiple cylinder engine misfire detected",
+      "Oxygen sensor heater circuit malfunction",
+      "Catalytic converter efficiency below threshold",
+      "Evaporative emission system leak"
     ],
-    answer: 0,
-    explanation: "If all Zips are inside the set of Zaps (assuming at least one Zip exists), then necessarily some elements of the Zap set are Zips.",
-    tags: ["iq-logic", "logic", "syllogisms"]
+    "answer": 0,
+    "explanation": "P0300 indicates that random or multiple cylinders are experiencing combustion misfires.",
+    "tags": [
+      "automotive",
+      "obd2",
+      "diagnostics"
+    ],
+    "status": "active"
   },
   {
-    id: "math_001",
-    category: "mathematics",
-    subcategory: "Geometry & Algebra",
-    difficulty: "easy",
-    question: "What is the Pythagorean theorem formula for a right-angled triangle with hypotenuse c and sides a and b?",
-    options: [
-      "a² + b² = c²",
-      "a + b = c",
-      "a² × b² = c²",
-      "2a + 2b = c²"
+    "id": "CELEB-000001",
+    "category": "Celebrity",
+    "subcategory": "Pop Icons",
+    "difficulty": "easy",
+    "question": "Which global superstar launched the record-breaking Eras Tour in 2023?",
+    "options": [
+      "Taylor Swift",
+      "Beyoncé",
+      "Rihanna",
+      "Adele"
     ],
-    answer: 0,
-    explanation: "The Pythagorean theorem states that in any right triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides: a² + b² = c².",
-    tags: ["mathematics", "geometry", "pythagoras"]
+    "answer": 0,
+    "explanation": "Taylor Swift's Eras Tour became the highest-grossing concert tour of all time.",
+    "tags": [
+      "celebrity",
+      "music",
+      "taylor-swift"
+    ],
+    "status": "active"
   },
   {
-    id: "math_002",
-    category: "mathematics",
-    subcategory: "Arithmetic & Statistics",
-    difficulty: "medium",
-    question: "What is the arithmetic Mean (average) of the numbers: 12, 18, 24, 30, and 36?",
-    options: [
-      "24",
-      "22",
-      "26",
-      "28"
+    "id": "CELEB-000002",
+    "category": "Celebrity",
+    "subcategory": "Actors",
+    "difficulty": "medium",
+    "question": "Which actor won the Best Actor Oscar in 2024 for his portrayal of J. Robert Oppenheimer?",
+    "options": [
+      "Cillian Murphy",
+      "Bradley Cooper",
+      "Paul Giamatti",
+      "Robert Downey Jr."
     ],
-    answer: 0,
-    explanation: "Sum = 12 + 18 + 24 + 30 + 36 = 120. Divide by 5 values: 120 / 5 = 24.",
-    tags: ["mathematics", "statistics", "mean"]
+    "answer": 0,
+    "explanation": "Irish actor Cillian Murphy won the 2024 Academy Award for Best Actor for Christopher Nolan's Oppenheimer.",
+    "tags": [
+      "celebrity",
+      "oscars",
+      "actors"
+    ],
+    "status": "active"
   },
   {
-    id: "eng_lang_001",
-    category: "english",
-    subcategory: "Grammar & Syntax",
-    difficulty: "easy",
-    question: "Identify the sentence that uses correct subject-verb agreement:",
-    options: [
+    "id": "CELEB-000003",
+    "category": "Celebrity",
+    "subcategory": "EGOT Winners",
+    "difficulty": "hard",
+    "question": "Who was the first Black woman in entertainment history to achieve EGOT status (Emmy, Grammy, Oscar, Tony)?",
+    "options": [
+      "Whoopi Goldberg",
+      "Viola Davis",
+      "Jennifer Hudson",
+      "Audra McDonald"
+    ],
+    "answer": 0,
+    "explanation": "Whoopi Goldberg achieved EGOT status in 2002 after winning a Tony Award for Thoroughly Modern Millie.",
+    "tags": [
+      "celebrity",
+      "egot",
+      "history"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "COMP-000001",
+    "category": "Computers",
+    "subcategory": "Hardware",
+    "difficulty": "easy",
+    "question": "Which computer component is volatile memory that loses all data when the power is turned off?",
+    "options": [
+      "RAM (Random Access Memory)",
+      "SSD (Solid State Drive)",
+      "ROM (Read-Only Memory)",
+      "NVMe Storage"
+    ],
+    "answer": 0,
+    "explanation": "RAM is high-speed volatile working memory that clears when electrical power is removed.",
+    "tags": [
+      "computers",
+      "hardware",
+      "ram"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "COMP-000002",
+    "category": "Computers",
+    "subcategory": "Data Units",
+    "difficulty": "easy",
+    "question": "How many binary bits are contained within exactly one standard Byte?",
+    "options": [
+      "8 bits",
+      "4 bits",
+      "16 bits",
+      "32 bits"
+    ],
+    "answer": 0,
+    "explanation": "One byte consists of 8 bits. A 4-bit nibble is half a byte.",
+    "tags": [
+      "computers",
+      "binary",
+      "data"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "COMP-000003",
+    "category": "Computers",
+    "subcategory": "Architecture",
+    "difficulty": "hard",
+    "question": "In CPU architecture, what does the 'L1 Cache' offer compared to L2, L3, and main RAM?",
+    "options": [
+      "Smallest capacity but lowest latency and fastest access speed",
+      "Largest storage capacity for persistent files",
+      "Direct connection to graphics processing cores",
+      "Non-volatile storage for BIOS firmware"
+    ],
+    "answer": 0,
+    "explanation": "Level 1 (L1) cache is built directly into the processor core, operating at CPU clock speed with sub-nanosecond latency.",
+    "tags": [
+      "computers",
+      "cpu",
+      "cache"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000001",
+    "category": "Diseases & Disorders",
+    "subcategory": "Endocrinology",
+    "difficulty": "medium",
+    "question": "Type 1 Diabetes Mellitus is characterized primarily by which underlying mechanism?",
+    "options": [
+      "Autoimmune destruction of pancreatic beta cells producing absolute insulin deficiency",
+      "Insulin resistance in peripheral tissues with relative insulin deficiency",
+      "Impaired hepatic glucose storage due to enzyme mutations",
+      "Excessive secretion of glucagon by alpha cells"
+    ],
+    "answer": 0,
+    "explanation": "Type 1 Diabetes is an autoimmune disorder where T-cells destroy insulin-producing beta cells in the islets of Langerhans.",
+    "tags": [
+      "diseases",
+      "diabetes",
+      "endocrinology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000002",
+    "category": "Diseases & Disorders",
+    "subcategory": "Infectious Disease",
+    "difficulty": "easy",
+    "question": "Which causative organism is responsible for Tuberculosis (TB)?",
+    "options": [
+      "Mycobacterium tuberculosis",
+      "Streptococcus pneumoniae",
+      "Staphylococcus aureus",
+      "Haemophilus influenzae"
+    ],
+    "answer": 0,
+    "explanation": "Tuberculosis is an infectious bacterial disease caused by Mycobacterium tuberculosis.",
+    "tags": [
+      "diseases",
+      "tuberculosis",
+      "microbiology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000003",
+    "category": "Diseases & Disorders",
+    "subcategory": "Cardiovascular",
+    "difficulty": "hard",
+    "question": "Which genetic cardiac disorder is the most common cause of sudden cardiac death in young competitive athletes?",
+    "options": [
+      "Hypertrophic Cardiomyopathy (HCM)",
+      "Dilated Cardiomyopathy",
+      "Aortic Dissection",
+      "Mitral Valve Prolapse"
+    ],
+    "answer": 0,
+    "explanation": "Hypertrophic cardiomyopathy causes asymmetric ventricular septal thickening and is the leading cause of sudden cardiac arrest in young athletes.",
+    "tags": [
+      "diseases",
+      "cardiology",
+      "genetics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-000001",
+    "category": "Drama",
+    "subcategory": "Crime Drama",
+    "difficulty": "medium",
+    "question": "Which acclaimed HBO drama series followed New Jersey mobster Tony Soprano balancing family and organized crime?",
+    "options": [
+      "The Sopranos",
+      "The Wire",
+      "Boardwalk Empire",
+      "Peaky Blinders"
+    ],
+    "answer": 0,
+    "explanation": "The Sopranos (1999-2007) starring James Gandolfini is considered a landmark television drama.",
+    "tags": [
+      "drama",
+      "the-sopranos",
+      "hbo"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-000002",
+    "category": "Drama",
+    "subcategory": "Korean Drama",
+    "difficulty": "easy",
+    "question": "Which 2021 South Korean survival drama series became Netflix's most-watched series worldwide?",
+    "options": [
+      "Squid Game",
+      "Crash Landing on You",
+      "All of Us Are Dead",
+      "The Glory"
+    ],
+    "answer": 0,
+    "explanation": "Hwang Dong-hyuk's 'Squid Game' recorded over 1.65 billion viewing hours in its first 28 days.",
+    "tags": [
+      "drama",
+      "squid-game",
+      "k-drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-000003",
+    "category": "Drama",
+    "subcategory": "Historical Drama",
+    "difficulty": "hard",
+    "question": "In the period drama 'Mad Men', what Madison Avenue advertising agency does Don Draper initially work for?",
+    "options": [
+      "Sterling Cooper",
+      "McCann Erickson",
+      "Cutler Gleason Chaough",
+      "Ogilvy & Mather"
+    ],
+    "answer": 0,
+    "explanation": "Don Draper is the creative director at Sterling Cooper Advertising Agency in 1960s New York.",
+    "tags": [
+      "drama",
+      "mad-men",
+      "tv"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECSYM-000001",
+    "category": "Electrical Symbols",
+    "subcategory": "Schematic Symbols",
+    "difficulty": "easy",
+    "question": "In electrical circuit schematics, what does a symbol composed of alternating long and short parallel lines represent?",
+    "options": [
+      "DC Voltage Source / Battery",
+      "Capacitor",
+      "Ground connection",
+      "Transformer"
+    ],
+    "answer": 0,
+    "explanation": "Alternating long (positive) and short thick (negative) parallel lines represent a DC chemical battery or cell.",
+    "tags": [
+      "electrical-symbols",
+      "schematics",
+      "circuits"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECSYM-000002",
+    "category": "Electrical Symbols",
+    "subcategory": "Passive Components",
+    "difficulty": "medium",
+    "question": "On an electronic schematic, what component is depicted by a zigzag line in US standards or a plain rectangle in IEC European standards?",
+    "options": [
+      "Resistor",
+      "Inductor",
+      "Diode",
+      "Fuse"
+    ],
+    "answer": 0,
+    "explanation": "ANSI/IEEE US schematics use a zigzag line for fixed resistors; IEC/European schematics use an open rectangle.",
+    "tags": [
+      "electrical-symbols",
+      "resistors",
+      "blueprints"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECSYM-000003",
+    "category": "Electrical Symbols",
+    "subcategory": "Semiconductors",
+    "difficulty": "hard",
+    "question": "What electronic symbol is represented by a triangle pointing toward a vertical line with two small outward arrows pointing away from the triangle?",
+    "options": [
+      "Light Emitting Diode (LED)",
+      "Photodiode",
+      "Zener Diode",
+      "Schottky Diode"
+    ],
+    "answer": 0,
+    "explanation": "A diode triangle with outward-pointing arrows signifies a Light Emitting Diode (LED). Inward arrows represent a photodiode.",
+    "tags": [
+      "electrical-symbols",
+      "diodes",
+      "led"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000001",
+    "category": "Electrical",
+    "subcategory": "Circuit Laws",
+    "difficulty": "easy",
+    "question": "According to Ohm's Law, which formula correctly calculates Electric Voltage (V)?",
+    "options": [
+      "V = I × R (Current × Resistance)",
+      "V = I / R",
+      "V = R / I",
+      "V = I + R"
+    ],
+    "answer": 0,
+    "explanation": "Ohm's Law states that Voltage (V in Volts) equals Current (I in Amperes) multiplied by Resistance (R in Ohms).",
+    "tags": [
+      "electrical",
+      "circuits",
+      "ohms-law"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000002",
+    "category": "Electrical",
+    "subcategory": "Power Calculation",
+    "difficulty": "medium",
+    "question": "If a 120V electrical circuit draws a current of 5 Amperes, what is the electrical power consumed by the load?",
+    "options": [
+      "600 Watts",
+      "24 Watts",
+      "125 Watts",
+      "60 Watts"
+    ],
+    "answer": 0,
+    "explanation": "Electric power P = V × I = 120 V × 5 A = 600 Watts (W).",
+    "tags": [
+      "electrical",
+      "power",
+      "calculations"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000003",
+    "category": "Electrical",
+    "subcategory": "AC Circuits",
+    "difficulty": "hard",
+    "question": "In a purely inductive AC circuit, what is the phase relationship between AC voltage and AC current?",
+    "options": [
+      "Voltage leads Current by 90 degrees (ELI)",
+      "Current leads Voltage by 90 degrees (ICE)",
+      "Voltage and Current are in phase (0 degrees)",
+      "Voltage leads Current by 180 degrees"
+    ],
+    "answer": 0,
+    "explanation": "In an inductor, counter-EMF opposes current change, causing Voltage (E) to lead Current (I) by 90° (remember 'ELI the ICE man').",
+    "tags": [
+      "electrical",
+      "ac-circuits",
+      "phase",
+      "inductance"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000004",
+    "category": "Electrical",
+    "subcategory": "Safety",
+    "difficulty": "easy",
+    "question": "What is the primary function of a Ground Fault Circuit Interrupter (GFCI / RCD)?",
+    "options": [
+      "Protect people from electric shock by detecting current leakage to ground",
+      "Prevent circuit overload during high power draw",
+      "Step down high AC transmission voltage to 120V",
+      "Convert alternating current into direct current"
+    ],
+    "answer": 0,
+    "explanation": "GFCIs monitor the balance of current between hot and neutral wires and trip in milliseconds if an imbalance occurs.",
+    "tags": [
+      "electrical",
+      "safety",
+      "gfci"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELX-000001",
+    "category": "Electronics",
+    "subcategory": "Semiconductors",
+    "difficulty": "medium",
+    "question": "What semiconductor component allows electrical current to flow predominantly in only one direction (forward biased)?",
+    "options": [
+      "Diode",
+      "Capacitor",
+      "Transformer",
+      "Potentiometer"
+    ],
+    "answer": 0,
+    "explanation": "A p-n junction diode conducts current easily when forward biased and blocks current when reverse biased.",
+    "tags": [
+      "electronics",
+      "diodes",
+      "semiconductors"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELX-000002",
+    "category": "Electronics",
+    "subcategory": "Digital Logic",
+    "difficulty": "easy",
+    "question": "Which digital logic gate produces a HIGH (1) output ONLY when both of its inputs are HIGH (1)?",
+    "options": [
+      "AND Gate",
+      "OR Gate",
+      "XOR Gate",
+      "NOR Gate"
+    ],
+    "answer": 0,
+    "explanation": "An AND gate requires all inputs to be TRUE (1) to produce a TRUE (1) output.",
+    "tags": [
+      "electronics",
+      "digital-logic",
+      "gates"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELX-000003",
+    "category": "Electronics",
+    "subcategory": "Transistors",
+    "difficulty": "hard",
+    "question": "In an N-channel enhancement-mode MOSFET, what voltage condition is required between Gate and Source (Vgs) to create an inversion channel and conduct drain current?",
+    "options": [
+      "Vgs must exceed the positive threshold voltage (Vth)",
+      "Vgs must be zero volts",
+      "Vgs must be negative with respect to source",
+      "Drain voltage must be lower than source voltage"
+    ],
+    "answer": 0,
+    "explanation": "An enhancement-mode N-channel MOSFET is normally OFF; applying a gate-to-source voltage greater than Vth induces a conducting channel.",
+    "tags": [
+      "electronics",
+      "mosfet",
+      "transistors"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENG-000001",
+    "category": "Engineering",
+    "subcategory": "Materials",
+    "difficulty": "medium",
+    "question": "According to Hooke's Law in mechanical engineering, stress is directly proportional to what within the elastic limit?",
+    "options": [
+      "Strain",
+      "Temperature",
+      "Volume",
+      "Viscosity"
+    ],
+    "answer": 0,
+    "explanation": "Hooke's Law states that within a material's elastic limit, stress is proportional to strain (σ = E · ε).",
+    "tags": [
+      "engineering",
+      "mechanics",
+      "materials"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENG-000002",
+    "category": "Engineering",
+    "subcategory": "Civil & Structural",
+    "difficulty": "easy",
+    "question": "Which geometric shape is recognized as the most inherently stable and rigid structure used in bridges and roof trusses?",
+    "options": [
+      "Triangle",
+      "Square",
+      "Pentagon",
+      "Rectangle"
+    ],
+    "answer": 0,
+    "explanation": "Triangles cannot deform without changing the length of one of their sides, making them rigid under load.",
+    "tags": [
+      "engineering",
+      "structural",
+      "trusses"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENG-000003",
+    "category": "Engineering",
+    "subcategory": "Fluid Dynamics",
+    "difficulty": "hard",
+    "question": "In fluid mechanics, which dimensionless number characterizes the transition between laminar and turbulent fluid flow?",
+    "options": [
+      "Reynolds Number (Re)",
+      "Mach Number (Ma)",
+      "Froude Number (Fr)",
+      "Prandtl Number (Pr)"
+    ],
+    "answer": 0,
+    "explanation": "The Reynolds number (Re) represents the ratio of inertial forces to viscous forces in a fluid flow.",
+    "tags": [
+      "engineering",
+      "fluids",
+      "reynolds"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENG-LANG-000001",
+    "category": "English & Grammar",
+    "subcategory": "Grammar",
+    "difficulty": "easy",
+    "question": "Which sentence demonstrates correct subject-verb agreement?",
+    "options": [
       "Neither the doctor nor the nurses were available.",
       "Neither the doctor nor the nurses was available.",
-      "Every one of the candidates have submitted their papers.",
+      "Every one of the candidates have submitted papers.",
       "The list of items are on the desk."
     ],
-    answer: 0,
-    explanation: "With 'neither... nor...', the verb agrees with the subject closer to it ('the nurses' is plural, so 'were' is correct).",
-    tags: ["english", "grammar", "agreement"]
+    "answer": 0,
+    "explanation": "With 'neither... nor...', the verb agrees with the closer subject ('the nurses' is plural, requiring 'were').",
+    "tags": [
+      "english",
+      "grammar"
+    ],
+    "status": "active"
   },
   {
-    id: "eng_lang_002",
-    category: "english",
-    subcategory: "Vocabulary & Antonyms",
-    difficulty: "medium",
-    question: "What is the direct antonym (opposite meaning) of the word 'Ephemeral'?",
-    options: [
+    "id": "ENG-LANG-000002",
+    "category": "English & Grammar",
+    "subcategory": "Vocabulary",
+    "difficulty": "medium",
+    "question": "What is the antonym (opposite meaning) of the word 'Ephemeral'?",
+    "options": [
       "Permanent",
       "Fleeting",
       "Transient",
       "Brief"
     ],
-    answer: 0,
-    explanation: "'Ephemeral' means lasting for a very short time. Its antonym is 'permanent' or 'enduring'.",
-    tags: ["english", "vocabulary", "antonyms"]
+    "answer": 0,
+    "explanation": "'Ephemeral' means lasting for a very short time; its antonym is 'permanent' or 'enduring'.",
+    "tags": [
+      "english",
+      "vocabulary",
+      "antonyms"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENG-LANG-000003",
+    "category": "English & Grammar",
+    "subcategory": "Figures of Speech",
+    "difficulty": "hard",
+    "question": "What rhetorical device is used in the phrase 'He is no fool' to affirm a positive by negating its contrary?",
+    "options": [
+      "Litotes",
+      "Chiasmus",
+      "Synecdoche",
+      "Metonymy"
+    ],
+    "answer": 0,
+    "explanation": "Litotes is an understatement in which an affirmative is expressed by negating its opposite (e.g. 'not bad', 'no fool').",
+    "tags": [
+      "english",
+      "rhetoric",
+      "figures-of-speech"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENT-000001",
+    "category": "Entertainment",
+    "subcategory": "Comics & Cinema",
+    "difficulty": "easy",
+    "question": "Which superhero is famously known as the 'Dark Knight' of Gotham City?",
+    "options": [
+      "Batman",
+      "Superman",
+      "Iron Man",
+      "Spider-Man"
+    ],
+    "answer": 0,
+    "explanation": "Batman (Bruce Wayne) is widely referred to as the Dark Knight and Caped Crusader of Gotham City.",
+    "tags": [
+      "entertainment",
+      "superheroes",
+      "comics",
+      "batman"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENT-000002",
+    "category": "Entertainment",
+    "subcategory": "Academy Awards",
+    "difficulty": "medium",
+    "question": "Which movie tied the record with 11 Academy Awards in 1997?",
+    "options": [
+      "Titanic",
+      "Avatar",
+      "Gladiator",
+      "Braveheart"
+    ],
+    "answer": 0,
+    "explanation": "James Cameron's Titanic won 11 Oscars at the 70th Academy Awards.",
+    "tags": [
+      "entertainment",
+      "movies",
+      "oscars"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENT-000003",
+    "category": "Entertainment",
+    "subcategory": "Film History",
+    "difficulty": "hard",
+    "question": "Who directed the 1927 groundbreaking German expressionist science-fiction film 'Metropolis'?",
+    "options": [
+      "Fritz Lang",
+      "F. W. Murnau",
+      "Robert Wiene",
+      "Billy Wilder"
+    ],
+    "answer": 0,
+    "explanation": "Fritz Lang directed the iconic silent dystopian film Metropolis in Weimar Germany in 1927.",
+    "tags": [
+      "entertainment",
+      "movies",
+      "film-history"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GK-000001",
+    "category": "General Knowledge",
+    "subcategory": "Earth Science",
+    "difficulty": "easy",
+    "question": "What is the hardest naturally occurring mineral substance on planet Earth?",
+    "options": [
+      "Diamond",
+      "Corundum",
+      "Topaz",
+      "Quartz"
+    ],
+    "answer": 0,
+    "explanation": "Diamond rates a maximum of 10 on the Mohs scale of mineral hardness.",
+    "tags": [
+      "general-knowledge",
+      "minerals",
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GK-000002",
+    "category": "General Knowledge",
+    "subcategory": "World Heritage",
+    "difficulty": "medium",
+    "question": "In which country is the ancient pre-Columbian Inca citadel of Machu Picchu located?",
+    "options": [
+      "Peru",
+      "Bolivia",
+      "Chile",
+      "Mexico"
+    ],
+    "answer": 0,
+    "explanation": "Machu Picchu is a 15th-century Inca citadel located in the Cusco Region of Peru.",
+    "tags": [
+      "general-knowledge",
+      "geography",
+      "history",
+      "landmarks"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GK-000003",
+    "category": "General Knowledge",
+    "subcategory": "Oceans & Geography",
+    "difficulty": "hard",
+    "question": "What is the deepest known point in the Earth's oceans, situated in the Western Pacific?",
+    "options": [
+      "Challenger Deep (Mariana Trench)",
+      "Puerto Rico Trench",
+      "Java Trench",
+      "Tonga Trench"
+    ],
+    "answer": 0,
+    "explanation": "Challenger Deep in the Mariana Trench reaches a depth of approximately 10,928 meters (35,853 feet).",
+    "tags": [
+      "general-knowledge",
+      "geography",
+      "oceans"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GEO-000001",
+    "category": "Geography",
+    "subcategory": "Rivers",
+    "difficulty": "easy",
+    "question": "Which is widely recognized as the longest river in the world?",
+    "options": [
+      "The Nile River",
+      "The Amazon River",
+      "The Yangtze River",
+      "The Mississippi River"
+    ],
+    "answer": 0,
+    "explanation": "The Nile River in northeastern Africa flows approximately 6,650 km (4,132 miles).",
+    "tags": [
+      "geography",
+      "rivers"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GEO-000002",
+    "category": "Geography",
+    "subcategory": "Capitals",
+    "difficulty": "medium",
+    "question": "What is the capital city of Australia?",
+    "options": [
+      "Canberra",
+      "Sydney",
+      "Melbourne",
+      "Brisbane"
+    ],
+    "answer": 0,
+    "explanation": "Canberra was founded in 1913 as the compromise capital between Sydney and Melbourne.",
+    "tags": [
+      "geography",
+      "capitals"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GEO-000003",
+    "category": "Geography",
+    "subcategory": "Physical Geography",
+    "difficulty": "hard",
+    "question": "What is the only sea on Earth with no land boundaries, bounded entirely by ocean currents in the North Atlantic?",
+    "options": [
+      "Sargasso Sea",
+      "Coral Sea",
+      "Baltic Sea",
+      "Tasman Sea"
+    ],
+    "answer": 0,
+    "explanation": "The Sargasso Sea is defined entirely by four North Atlantic ocean currents that form an ocean gyre.",
+    "tags": [
+      "geography",
+      "oceans"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HIST-000001",
+    "category": "History",
+    "subcategory": "Space Exploration",
+    "difficulty": "easy",
+    "question": "In which year did the Apollo 11 mission land the first humans on the Moon?",
+    "options": [
+      "1969",
+      "1965",
+      "1972",
+      "1959"
+    ],
+    "answer": 0,
+    "explanation": "On July 20, 1969, Neil Armstrong and Buzz Aldrin landed on the Moon aboard the Apollo 11 Lunar Module.",
+    "tags": [
+      "history",
+      "space",
+      "apollo"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HIST-000002",
+    "category": "History",
+    "subcategory": "Ancient World",
+    "difficulty": "medium",
+    "question": "Who was the first Emperor of a unified China, known for the Terracotta Army?",
+    "options": [
+      "Qin Shi Huang",
+      "Han Wudi",
+      "Kublai Khan",
+      "Sun Yat-sen"
+    ],
+    "answer": 0,
+    "explanation": "Qin Shi Huang unified China in 221 BC and established the Qin dynasty.",
+    "tags": [
+      "history",
+      "ancient-china"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HIST-000003",
+    "category": "History",
+    "subcategory": "Treaties & Wars",
+    "difficulty": "hard",
+    "question": "The Treaty of Westphalia (1648) famously brought an end to which devastating European conflict?",
+    "options": [
+      "The Thirty Years' War",
+      "The Hundred Years' War",
+      "The Seven Years' War",
+      "The War of the Spanish Succession"
+    ],
+    "answer": 0,
+    "explanation": "The 1648 Peace of Westphalia ended the Thirty Years' War and established the concept of state sovereignty.",
+    "tags": [
+      "history",
+      "europe",
+      "treaties"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000001",
+    "category": "HVAC",
+    "subcategory": "Refrigeration Cycle",
+    "difficulty": "medium",
+    "question": "In standard vapor-compression refrigeration, what is the primary function of the Expansion Valve (Metering Device)?",
+    "options": [
+      "Drop refrigerant pressure and temperature before entering the evaporator",
+      "Compress low-pressure vapor into high-pressure vapor",
+      "Condense high-pressure hot gas into subcooled liquid",
+      "Absorb room heat directly into the atmosphere"
+    ],
+    "answer": 0,
+    "explanation": "The expansion valve meters refrigerant flow and creates a sudden pressure drop, causing it to flash into a cold liquid/vapor mix.",
+    "tags": [
+      "hvac",
+      "refrigeration",
+      "thermodynamics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000002",
+    "category": "HVAC",
+    "subcategory": "Thermodynamics",
+    "difficulty": "hard",
+    "question": "What is the term for the heat added to a substance that causes a measurable temperature change without changing its state of matter?",
+    "options": [
+      "Sensible Heat",
+      "Latent Heat",
+      "Specific Heat Ratio",
+      "Subcooling Enthalpy"
+    ],
+    "answer": 0,
+    "explanation": "Sensible heat produces a measurable temperature change registered on a thermometer. Latent heat causes a change of phase at constant temperature.",
+    "tags": [
+      "hvac",
+      "thermodynamics",
+      "psychrometrics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000003",
+    "category": "HVAC",
+    "subcategory": "Airflow",
+    "difficulty": "easy",
+    "question": "What unit is commonly used in North America to measure volumetric airflow rate in HVAC ductwork?",
+    "options": [
+      "CFM (Cubic Feet per Minute)",
+      "PSI (Pounds per Square Inch)",
+      "BTU (British Thermal Unit)",
+      "RPM (Revolutions per Minute)"
+    ],
+    "answer": 0,
+    "explanation": "CFM (Cubic Feet per Minute) is standard for airflow measurement in heating and air conditioning systems.",
+    "tags": [
+      "hvac",
+      "airflow",
+      "ductwork"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000004",
+    "category": "HVAC",
+    "subcategory": "Cooling Capacity",
+    "difficulty": "easy",
+    "question": "How many BTUs per hour (BTU/hr) are equal to exactly one standard ton of refrigeration?",
+    "options": [
+      "12,000 BTU/hr",
+      "24,000 BTU/hr",
+      "6,000 BTU/hr",
+      "100,000 BTU/hr"
+    ],
+    "answer": 0,
+    "explanation": "One ton of refrigeration is defined as 12,000 BTU/hr (the cooling power required to freeze 1 short ton of water in 24 hours).",
+    "tags": [
+      "hvac",
+      "calculations",
+      "btu"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000005",
+    "category": "HVAC",
+    "subcategory": "Diagnostics",
+    "difficulty": "hard",
+    "question": "In a TXV-equipped AC system, high superheat combined with low subcooling most likely indicates which fault?",
+    "options": [
+      "Undercharged system (low refrigerant)",
+      "Overcharged system (excess refrigerant)",
+      "Restricted liquid line filter-drier",
+      "Dirty indoor air filter / low airflow"
+    ],
+    "answer": 0,
+    "explanation": "Low refrigerant charge results in an underfed evaporator (high superheat) and insufficient liquid backing up in the condenser (low subcooling).",
+    "tags": [
+      "hvac",
+      "diagnostics",
+      "superheat",
+      "subcooling"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "IQ-000001",
+    "category": "IQ & Logic",
+    "subcategory": "Number Series",
+    "difficulty": "medium",
+    "question": "Look at this sequence: 2, 6, 12, 20, 30, ___ . What number comes next in the pattern?",
+    "options": [
+      "42",
+      "40",
+      "38",
+      "48"
+    ],
+    "answer": 0,
+    "explanation": "The differences between consecutive terms increase by 2: +4, +6, +8, +10, so next is +12: 30 + 12 = 42.",
+    "tags": [
+      "iq-logic",
+      "patterns",
+      "series",
+      "deduction"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "IQ-000002",
+    "category": "IQ & Logic",
+    "subcategory": "Deductive Reasoning",
+    "difficulty": "hard",
+    "question": "If all Zips are Zaps, and some Zaps are Zops, which of the following statements is DEFINITIVELY true?",
+    "options": [
+      "Some Zaps are Zips",
+      "All Zips are Zops",
+      "No Zips are Zops",
+      "All Zops are Zips"
+    ],
+    "answer": 0,
+    "explanation": "If all Zips belong to the set of Zaps (assuming at least one Zip exists), then necessarily some elements in the set of Zaps are Zips.",
+    "tags": [
+      "iq-logic",
+      "logic",
+      "syllogisms"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "IQ-000003",
+    "category": "IQ & Logic",
+    "subcategory": "Logic Riddles",
+    "difficulty": "easy",
+    "question": "A farmer has 17 sheep and all but 9 die. How many sheep are still alive?",
+    "options": [
+      "9",
+      "8",
+      "0",
+      "17"
+    ],
+    "answer": 0,
+    "explanation": "'All but 9 die' means exactly 9 sheep survived and are still alive.",
+    "tags": [
+      "iq-logic",
+      "riddles",
+      "math"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MATH-000001",
+    "category": "Mathematics",
+    "subcategory": "Geometry",
+    "difficulty": "easy",
+    "question": "What is the Pythagorean theorem for a right triangle with hypotenuse c and sides a and b?",
+    "options": [
+      "a² + b² = c²",
+      "a + b = c",
+      "a² × b² = c²",
+      "2a + 2b = c²"
+    ],
+    "answer": 0,
+    "explanation": "The Pythagorean theorem states: in a right-angled triangle, a² + b² = c².",
+    "tags": [
+      "mathematics",
+      "geometry"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MATH-000002",
+    "category": "Mathematics",
+    "subcategory": "Statistics",
+    "difficulty": "medium",
+    "question": "What is the arithmetic mean (average) of the numbers: 12, 18, 24, 30, and 36?",
+    "options": [
+      "24",
+      "22",
+      "26",
+      "28"
+    ],
+    "answer": 0,
+    "explanation": "Sum = 12 + 18 + 24 + 30 + 36 = 120. Divide by 5 = 24.",
+    "tags": [
+      "mathematics",
+      "statistics",
+      "mean"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MATH-000003",
+    "category": "Mathematics",
+    "subcategory": "Calculus",
+    "difficulty": "hard",
+    "question": "What is the first derivative with respect to x of the function f(x) = x³ - 4x² + 7x - 5?",
+    "options": [
+      "f'(x) = 3x² - 8x + 7",
+      "f'(x) = 3x² - 4x + 7",
+      "f'(x) = x² - 8x + 7",
+      "f'(x) = 3x³ - 8x² + 7"
+    ],
+    "answer": 0,
+    "explanation": "Using the power rule d/dx[x^n] = n*x^(n-1): d/dx[x³] = 3x², d/dx[-4x²] = -8x, d/dx[7x] = 7, d/dx[-5] = 0.",
+    "tags": [
+      "mathematics",
+      "calculus",
+      "derivatives"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000001",
+    "category": "Medical Terminology",
+    "subcategory": "Prefixes",
+    "difficulty": "easy",
+    "question": "What does the medical prefix 'Brady-' mean?",
+    "options": [
+      "Slow",
+      "Fast",
+      "Difficult or painful",
+      "Excessive"
+    ],
+    "answer": 0,
+    "explanation": "'Brady-' means slow (e.g. bradycardia = abnormally slow heart rate). 'Tachy-' means fast.",
+    "tags": [
+      "medical-terminology",
+      "prefixes",
+      "vocabulary"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000002",
+    "category": "Medical Terminology",
+    "subcategory": "Suffixes",
+    "difficulty": "medium",
+    "question": "The surgical suffix '-ectomy' indicates which procedure?",
+    "options": [
+      "Surgical removal or excision",
+      "Creating an artificial opening",
+      "Surgical repair or reconstruction",
+      "Visual examination with an endoscope"
+    ],
+    "answer": 0,
+    "explanation": "'-ectomy' denotes surgical excision (e.g. appendectomy). '-ostomy' is creating an opening, and '-plasty' is surgical repair.",
+    "tags": [
+      "medical-terminology",
+      "suffixes",
+      "surgery"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MEDTERM-000003",
+    "category": "Medical Terminology",
+    "subcategory": "Clinical Terms",
+    "difficulty": "hard",
+    "question": "What does the medical term 'Hemoptysis' specifically refer to?",
+    "options": [
+      "Coughing up blood from the respiratory tract",
+      "Vomiting blood from the gastrointestinal tract",
+      "Blood in the urine",
+      "Bleeding from the nasal cavity"
+    ],
+    "answer": 0,
+    "explanation": "Hemoptysis is the coughing up of blood. Vomiting blood is hematemesis, blood in urine is hematuria, and nosebleed is epistaxis.",
+    "tags": [
+      "medical-terminology",
+      "clinical",
+      "pulmonology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000001",
+    "category": "Medical",
+    "subcategory": "Emergency Medicine",
+    "difficulty": "medium",
+    "question": "What is the recommended compression-to-ventilation ratio for adult single-rescuer CPR?",
+    "options": [
+      "30 compressions to 2 breaths",
+      "15 compressions to 2 breaths",
+      "20 compressions to 1 breath",
+      "50 compressions to 5 breaths"
+    ],
+    "answer": 0,
+    "explanation": "AHA resuscitation guidelines recommend a 30:2 compression-to-ventilation ratio for adult cardiac arrest in single-rescuer CPR.",
+    "tags": [
+      "medical",
+      "cpr",
+      "emergency",
+      "cardiology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000002",
+    "category": "Medical",
+    "subcategory": "Diagnostics",
+    "difficulty": "hard",
+    "question": "Which serum cardiac biomarker provides the highest diagnostic specificity and sensitivity for acute myocardial infarction (heart attack)?",
+    "options": [
+      "Cardiac Troponin I or T",
+      "Creatine Kinase-MB (CK-MB)",
+      "Myoglobin",
+      "Lactate Dehydrogenase (LDH)"
+    ],
+    "answer": 0,
+    "explanation": "Cardiac Troponins (I and T) are specific to myocardial tissue necrosis and remain the gold standard biomarker.",
+    "tags": [
+      "medical",
+      "cardiology",
+      "lab-values",
+      "diagnostics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MED-000003",
+    "category": "Medical",
+    "subcategory": "Vitals",
+    "difficulty": "easy",
+    "question": "What is considered a normal adult resting blood pressure according to AHA/ACC guidelines?",
+    "options": [
+      "Less than 120/80 mmHg",
+      "140/90 mmHg",
+      "160/100 mmHg",
+      "130/85 mmHg"
+    ],
+    "answer": 0,
+    "explanation": "Normal blood pressure is defined as systolic < 120 mmHg and diastolic < 80 mmHg.",
+    "tags": [
+      "medical",
+      "vitals",
+      "hypertension"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOV-000001",
+    "category": "Movies",
+    "subcategory": "Sci-Fi Classics",
+    "difficulty": "easy",
+    "question": "In the Star Wars saga, which character is Luke Skywalker's father?",
+    "options": [
+      "Darth Vader (Anakin Skywalker)",
+      "Obi-Wan Kenobi",
+      "Emperor Palpatine",
+      "Grand Moff Tarkin"
+    ],
+    "answer": 0,
+    "explanation": "Darth Vader reveals he is Luke's father in The Empire Strikes Back (1980).",
+    "tags": [
+      "movies",
+      "star-wars",
+      "sci-fi"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOV-000002",
+    "category": "Movies",
+    "subcategory": "Box Office",
+    "difficulty": "medium",
+    "question": "Which 2009 James Cameron sci-fi film is the highest-grossing film of all time worldwide?",
+    "options": [
+      "Avatar",
+      "Avengers: Endgame",
+      "Titanic",
+      "Star Wars: The Force Awakens"
+    ],
+    "answer": 0,
+    "explanation": "Avatar (2009) grossed over $2.9 billion globally to become the highest-grossing movie in box office history.",
+    "tags": [
+      "movies",
+      "box-office",
+      "avatar"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOV-000003",
+    "category": "Movies",
+    "subcategory": "Directors",
+    "difficulty": "hard",
+    "question": "Which director won Best Director Oscars for both 'Brokeback Mountain' (2005) and 'Life of Pi' (2012)?",
+    "options": [
+      "Ang Lee",
+      "Bong Joon-ho",
+      "Alejandro G. Iñárritu",
+      "Guillermo del Toro"
+    ],
+    "answer": 0,
+    "explanation": "Taiwanese-born director Ang Lee won two Academy Awards for Best Director for Brokeback Mountain and Life of Pi.",
+    "tags": [
+      "movies",
+      "directors",
+      "oscars"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MUS-000001",
+    "category": "Music",
+    "subcategory": "Rock Legends",
+    "difficulty": "easy",
+    "question": "Which legendary English rock band featured John Lennon, Paul McCartney, George Harrison, and Ringo Starr?",
+    "options": [
+      "The Beatles",
+      "The Rolling Stones",
+      "The Who",
+      "Led Zeppelin"
+    ],
+    "answer": 0,
+    "explanation": "The Beatles formed in Liverpool in 1960 and are the best-selling band in music history.",
+    "tags": [
+      "music",
+      "rock",
+      "the-beatles"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MUS-000002",
+    "category": "Music",
+    "subcategory": "Album Milestones",
+    "difficulty": "medium",
+    "question": "Which 1982 album by Michael Jackson is the best-selling studio album of all time worldwide?",
+    "options": [
+      "Thriller",
+      "Bad",
+      "Off the Wall",
+      "Dangerous"
+    ],
+    "answer": 0,
+    "explanation": "Michael Jackson's Thriller (1982) produced by Quincy Jones has sold over 70 million copies worldwide.",
+    "tags": [
+      "music",
+      "pop",
+      "michael-jackson"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MUS-000003",
+    "category": "Music",
+    "subcategory": "Classical & Theory",
+    "difficulty": "hard",
+    "question": "Which famous classical composer composed his monumental Ninth Symphony (including 'Ode to Joy') while completely deaf?",
+    "options": [
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart",
+      "Johann Sebastian Bach",
+      "Johannes Brahms"
+    ],
+    "answer": 0,
+    "explanation": "Beethoven composed his Ninth Symphony (premiered in 1824) after suffering near-total hearing loss.",
+    "tags": [
+      "music",
+      "classical",
+      "beethoven"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000001",
+    "category": "NCLEX",
+    "subcategory": "Prioritization",
+    "difficulty": "hard",
+    "question": "A nurse receives change-of-shift report on four clients. Which client should the nurse assess first?",
+    "options": [
+      "A client with asthma who was wheezing and is now silent with decreased air movement",
+      "A client with diabetes whose fasting blood glucose is 185 mg/dL",
+      "A client postoperative day 1 after knee replacement reporting 7/10 pain",
+      "A client with chronic kidney disease whose serum creatinine is 2.8 mg/dL"
+    ],
+    "answer": 0,
+    "explanation": "Using the ABC (Airway, Breathing, Circulation) priority framework, a silent chest in acute asthma indicates severe bronchospasm and impending respiratory failure.",
+    "tags": [
+      "NCLEX",
+      "prioritization",
+      "triage",
+      "emergency"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000002",
+    "category": "NCLEX",
+    "subcategory": "Pharmacology & Safety",
+    "difficulty": "medium",
+    "question": "A client with heart failure is taking Digoxin (Lanoxin) 0.25 mg daily. Which assessment finding warrants withholding the medication?",
+    "options": [
+      "Apical heart rate of 52 beats per minute",
+      "Blood pressure of 130/84 mmHg",
+      "Respiratory rate of 18 breaths per minute",
+      "Serum potassium level of 4.2 mEq/L"
+    ],
+    "answer": 0,
+    "explanation": "Digoxin should be withheld if the apical heart rate is below 60 bpm in an adult to avoid severe bradycardia and heart block.",
+    "tags": [
+      "NCLEX",
+      "pharmacology",
+      "cardiac",
+      "digoxin"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000003",
+    "category": "NCLEX",
+    "subcategory": "Maternal-Newborn",
+    "difficulty": "medium",
+    "question": "Which finding in a postpartum mother 4 hours after an uncomplicated vaginal delivery requires immediate nurse intervention?",
+    "options": [
+      "Fundus boggy and displaced to the right of the midline",
+      "Moderate lochia rubra on the perineal pad",
+      "Maternal temperature of 37.8°C (100.0°F)",
+      "Diaphoresis during sleep"
+    ],
+    "answer": 0,
+    "explanation": "A boggy fundus displaced to the right indicates urinary bladder distension, preventing uterine contraction and increasing the risk of postpartum hemorrhage.",
+    "tags": [
+      "NCLEX",
+      "maternal",
+      "postpartum",
+      "safety"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000004",
+    "category": "NCLEX",
+    "subcategory": "Fundamentals",
+    "difficulty": "easy",
+    "question": "What is the normal expected adult resting heart rate range in beats per minute (bpm)?",
+    "options": [
+      "60 to 100 bpm",
+      "40 to 60 bpm",
+      "100 to 140 bpm",
+      "50 to 70 bpm"
+    ],
+    "answer": 0,
+    "explanation": "A normal resting heart rate for healthy adults ranges from 60 to 100 beats per minute.",
+    "tags": [
+      "NCLEX",
+      "vitals",
+      "fundamentals"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000005",
+    "category": "NCLEX",
+    "subcategory": "Critical Care",
+    "difficulty": "hard",
+    "question": "A client with traumatic brain injury has an intracranial pressure (ICP) of 24 mmHg. Which nursing intervention is contraindicated?",
+    "options": [
+      "Placing the client in Trendelenburg position",
+      "Elevating the head of the bed 30 degrees",
+      "Administering prescribed osmotic diuretics (mannitol)",
+      "Maintaining the client's head and neck in neutral alignment"
+    ],
+    "answer": 0,
+    "explanation": "Trendelenburg position increases venous return from the lower extremities and impedes cerebral venous drainage, dangerously increasing ICP.",
+    "tags": [
+      "NCLEX",
+      "neurology",
+      "critical-care",
+      "safety"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000006",
+    "category": "NCLEX",
+    "subcategory": "Infection Control",
+    "difficulty": "easy",
+    "question": "Which personal protective equipment (PPE) should the nurse don first when caring for a client on contact precautions?",
+    "options": [
+      "Gown followed by gloves",
+      "Gloves followed by gown",
+      "N95 respirator only",
+      "Shoe covers and goggles"
+    ],
+    "answer": 0,
+    "explanation": "Standard contact precautions require donning a clean gown first, followed by gloves covering the gown cuffs.",
+    "tags": [
+      "NCLEX",
+      "infection-control",
+      "ppe"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000001",
+    "category": "Nursing",
+    "subcategory": "Fundamentals",
+    "difficulty": "medium",
+    "question": "Which position is most appropriate for a patient experiencing acute shortness of breath (dyspnea)?",
+    "options": [
+      "High Fowler's position (60-90 degrees)",
+      "Trendelenburg position",
+      "Prone position",
+      "Supine with legs elevated"
+    ],
+    "answer": 0,
+    "explanation": "High Fowler's position maximizes lung expansion and facilitates diaphragm descent, easing respiratory distress.",
+    "tags": [
+      "nursing",
+      "respiratory",
+      "patient-care",
+      "positioning"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000002",
+    "category": "Nursing",
+    "subcategory": "Infection Control",
+    "difficulty": "easy",
+    "question": "What is the single most effective intervention to prevent the spread of healthcare-associated infections (HAIs)?",
+    "options": [
+      "Routine hand hygiene before and after patient contact",
+      "Wearing double gloves for all procedures",
+      "Prophylactic antibiotic administration",
+      "Sterilizing room surfaces twice daily"
+    ],
+    "answer": 0,
+    "explanation": "Consistent hand hygiene before and after patient contact is recognized globally as the primary measure to prevent HAIs.",
+    "tags": [
+      "nursing",
+      "infection-control",
+      "safety"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000003",
+    "category": "Nursing",
+    "subcategory": "Assessment",
+    "difficulty": "hard",
+    "question": "When assessing a patient with suspected hypocalcemia, which clinical finding is known as Chvostek's sign?",
+    "options": [
+      "Twitching of facial muscles elicited by tapping the facial nerve",
+      "Carpal spasm induced by inflating a blood pressure cuff above systolic pressure",
+      "Numbness and tingling around the lips and fingertips",
+      "Hyperactive deep tendon reflexes in the lower extremities"
+    ],
+    "answer": 0,
+    "explanation": "Chvostek's sign is facial muscle twitching when tapping anterior to the ear. Trousseau's sign refers to carpal spasm with cuff inflation.",
+    "tags": [
+      "nursing",
+      "assessment",
+      "electrolytes",
+      "hypocalcemia"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000004",
+    "category": "Nursing",
+    "subcategory": "Wound Care",
+    "difficulty": "easy",
+    "question": "What is a Stage 1 pressure injury characterized by?",
+    "options": [
+      "Non-blanchable erythema of intact skin",
+      "Partial-thickness skin loss with exposed dermis",
+      "Full-thickness skin loss with visible adipose tissue",
+      "Full-thickness skin and tissue loss with exposed bone"
+    ],
+    "answer": 0,
+    "explanation": "Stage 1 pressure injury involves intact skin with a localized area of non-blanchable erythema.",
+    "tags": [
+      "nursing",
+      "wound-care",
+      "skin"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000005",
+    "category": "Nursing",
+    "subcategory": "Medication Administration",
+    "difficulty": "medium",
+    "question": "When administering an intramuscular (IM) injection to an adult in the ventrogluteal site, which needle length is standard?",
+    "options": [
+      "1.5 inches (38 mm)",
+      "0.5 inches (12 mm)",
+      "3.0 inches (76 mm)",
+      "0.25 inches (6 mm)"
+    ],
+    "answer": 0,
+    "explanation": "A 1 to 1.5 inch needle is standard for adult ventrogluteal intramuscular injections to reach deep muscle tissue safely.",
+    "tags": [
+      "nursing",
+      "medication",
+      "im-injection"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000006",
+    "category": "Nursing",
+    "subcategory": "Fluid & Electrolytes",
+    "difficulty": "hard",
+    "question": "Which ECG change is most characteristic of severe hyperkalemia (elevated serum potassium)?",
+    "options": [
+      "Tall, peaked T waves and widened QRS complexes",
+      "Prominent U waves and ST segment depression",
+      "Shortened PR interval and Delta waves",
+      "Prolonged QT interval and inverted P waves"
+    ],
+    "answer": 0,
+    "explanation": "Tall, peaked ('tented') T waves, prolonged PR intervals, and widened QRS complexes are hallmark signs of severe hyperkalemia.",
+    "tags": [
+      "nursing",
+      "electrolytes",
+      "ecg",
+      "hyperkalemia"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000001",
+    "category": "Pharmacology",
+    "subcategory": "Antihypertensives",
+    "difficulty": "medium",
+    "question": "Which class of antihypertensive medications commonly causes a dry, persistent cough due to bradykinin accumulation?",
+    "options": [
+      "ACE Inhibitors (e.g. Lisinopril)",
+      "Beta Blockers (e.g. Metoprolol)",
+      "Calcium Channel Blockers (e.g. Amlodipine)",
+      "Thiazide Diuretics (e.g. Hydrochlorothiazide)"
+    ],
+    "answer": 0,
+    "explanation": "ACE inhibitors prevent the breakdown of bradykinin and substance P in the respiratory tract, provoking a dry cough.",
+    "tags": [
+      "pharmacology",
+      "hypertension",
+      "ace-inhibitors"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000002",
+    "category": "Pharmacology",
+    "subcategory": "Antidotes",
+    "difficulty": "hard",
+    "question": "What is the specific reversal agent (antidote) for heparin-induced anticoagulation?",
+    "options": [
+      "Protamine Sulfate",
+      "Vitamin K (Phytonadione)",
+      "Naloxone (Narcan)",
+      "Flumazenil"
+    ],
+    "answer": 0,
+    "explanation": "Protamine sulfate binds strongly to heparin to form an inactive salt complex. Vitamin K reverses Warfarin.",
+    "tags": [
+      "pharmacology",
+      "antidotes",
+      "hematology",
+      "heparin"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000003",
+    "category": "Pharmacology",
+    "subcategory": "Analgesics",
+    "difficulty": "easy",
+    "question": "What is the specific emergency reversal medication administered for opioid overdose (respiratory depression)?",
+    "options": [
+      "Naloxone (Narcan)",
+      "Atropine",
+      "Epinephrine",
+      "Glucagon"
+    ],
+    "answer": 0,
+    "explanation": "Naloxone is a pure opioid antagonist that rapidly displaces opioids from mu-receptors, reversing life-threatening respiratory depression.",
+    "tags": [
+      "pharmacology",
+      "emergency",
+      "opioids",
+      "naloxone"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCI-000001",
+    "category": "Science",
+    "subcategory": "Physics",
+    "difficulty": "medium",
+    "question": "What is the speed of light in a vacuum (c)?",
+    "options": [
+      "Approximately 300,000 km/s (299,792 km/s)",
+      "Approximately 150,000 km/s",
+      "Approximately 500,000 km/s",
+      "343 m/s"
+    ],
+    "answer": 0,
+    "explanation": "Light in a vacuum travels at 299,792,458 meters per second (approx 3.0 × 10^8 m/s).",
+    "tags": [
+      "science",
+      "physics",
+      "light"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCI-000002",
+    "category": "Science",
+    "subcategory": "Chemistry",
+    "difficulty": "easy",
+    "question": "What is the chemical symbol for Gold on the periodic table of elements?",
+    "options": [
+      "Au",
+      "Ag",
+      "Fe",
+      "Gd"
+    ],
+    "answer": 0,
+    "explanation": "'Au' comes from the Latin word for gold, 'Aurum'.",
+    "tags": [
+      "science",
+      "chemistry",
+      "periodic-table"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "SCI-000003",
+    "category": "Science",
+    "subcategory": "Biology & Genetics",
+    "difficulty": "hard",
+    "question": "In molecular biology, which enzyme is responsible for synthesizing new DNA strands during replication by adding complementary nucleotides?",
+    "options": [
+      "DNA Polymerase",
+      "RNA Helicase",
+      "DNA Ligase",
+      "Topoisomerase"
+    ],
+    "answer": 0,
+    "explanation": "DNA Polymerase synthesizes new DNA strands by matching complementary deoxynucleotides to the template strand in the 5' to 3' direction.",
+    "tags": [
+      "science",
+      "biology",
+      "dna"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECH-000001",
+    "category": "Technology",
+    "subcategory": "Internet",
+    "difficulty": "easy",
+    "question": "What does the abbreviation 'URL' stand for in web computing?",
+    "options": [
+      "Uniform Resource Locator",
+      "Universal Remote Link",
+      "Unified Routing Language",
+      "User Resource Lookup"
+    ],
+    "answer": 0,
+    "explanation": "A URL (Uniform Resource Locator) specifies the web address of a resource on the internet.",
+    "tags": [
+      "technology",
+      "internet",
+      "networking"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECH-000002",
+    "category": "Technology",
+    "subcategory": "Artificial Intelligence",
+    "difficulty": "medium",
+    "question": "In Machine Learning, what does 'LLM' stand for?",
+    "options": [
+      "Large Language Model",
+      "Linear Logic Matrix",
+      "Layered Learning Module",
+      "Logical Link Mechanism"
+    ],
+    "answer": 0,
+    "explanation": "Large Language Models (LLMs) are deep learning transformer models trained on vast text corpora.",
+    "tags": [
+      "technology",
+      "ai",
+      "machine-learning"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECH-000003",
+    "category": "Technology",
+    "subcategory": "Cybersecurity",
+    "difficulty": "hard",
+    "question": "In asymmetric cryptography, which key is used by a sender to encrypt a message so only the intended recipient can decrypt it?",
+    "options": [
+      "The recipient's Public Key",
+      "The sender's Private Key",
+      "The recipient's Private Key",
+      "The sender's Public Key"
+    ],
+    "answer": 0,
+    "explanation": "In public-key cryptography (e.g. RSA), data encrypted with a recipient's public key can only be decrypted using the recipient's matching private key.",
+    "tags": [
+      "technology",
+      "security",
+      "cryptography"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-000001",
+    "category": "TV Shows",
+    "subcategory": "Streaming Series",
+    "difficulty": "easy",
+    "question": "In the Netflix series 'Stranger Things', what is the name of the alternate dimension beneath Hawkins?",
+    "options": [
+      "The Upside Down",
+      "The Twilight Zone",
+      "The Netherworld",
+      "The Dark Realm"
+    ],
+    "answer": 0,
+    "explanation": "The Upside Down is the dark alternate dimension mirroring Hawkins in Stranger Things.",
+    "tags": [
+      "tv-shows",
+      "stranger-things",
+      "netflix"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-000002",
+    "category": "TV Shows",
+    "subcategory": "Sitcoms",
+    "difficulty": "medium",
+    "question": "In the comedy sitcom 'Friends', what is the name of the central coffee shop where the gang meets?",
+    "options": [
+      "Central Perk",
+      "Monk's Diner",
+      "The Roasted Bean",
+      "Cafe Nervosa"
+    ],
+    "answer": 0,
+    "explanation": "Central Perk in Greenwich Village, NYC, is the iconic coffee house in Friends.",
+    "tags": [
+      "tv-shows",
+      "friends",
+      "sitcom"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-000003",
+    "category": "TV Shows",
+    "subcategory": "Emmy Winners",
+    "difficulty": "hard",
+    "question": "In AMC's 'Breaking Bad', what pseudonym did chemistry teacher Walter White adopt in the meth trade?",
+    "options": [
+      "Heisenberg",
+      "Oppenheimer",
+      "Schrödinger",
+      "Fermi"
+    ],
+    "answer": 0,
+    "explanation": "Walter White took the moniker 'Heisenberg', honoring German theoretical physicist Werner Heisenberg.",
+    "tags": [
+      "tv-shows",
+      "breaking-bad",
+      "drama"
+    ],
+    "status": "active"
   }
 ];
 
-/**
- * Question Bank Management Layer
- * Provides clean query, filter, and extension capabilities.
- */
-class WKQuizQuestionBank {
-  constructor(initialQuestions = WKQUIZ_QUESTIONS) {
-    this.questions = Array.isArray(initialQuestions) ? [...initialQuestions] : [];
-    this._validate();
-  }
-
-  _validate() {
-    const ids = new Set();
-    this.questions.forEach((q, idx) => {
-      if (!q.id) {
-        q.id = `q_gen_${idx}`;
-      }
-      if (ids.has(q.id)) {
-        console.warn(`[WKQuiz] Duplicate question ID detected: ${q.id}`);
-      }
-      ids.add(q.id);
-
-      if (!Array.isArray(q.options) || q.options.length < 2) {
-        console.error(`[WKQuiz] Invalid options for question ${q.id}`);
-      }
-      if (typeof q.answer !== "number" || q.answer < 0 || q.answer >= q.options.length) {
-        console.error(`[WKQuiz] Invalid answer index for question ${q.id}`);
-      }
-    });
-  }
-
-  /**
-   * Get all questions
-   */
-  getAll() {
-    return [...this.questions];
-  }
-
-  /**
-   * Add a new question to the bank dynamically
-   */
-  addQuestion(questionObj) {
-    if (!questionObj || !questionObj.id || !questionObj.question || !Array.isArray(questionObj.options)) {
-      throw new Error("Invalid question format");
-    }
-    this.questions.push(questionObj);
-  }
-
-  /**
-   * Add multiple questions
-   */
-  addQuestions(questionArray) {
-    if (Array.isArray(questionArray)) {
-      questionArray.forEach(q => this.addQuestion(q));
-    }
-  }
-
-  /**
-   * Get questions by Category ID
-   */
-  getByCategory(categoryId) {
-    if (!categoryId || categoryId === "all" || categoryId === "mixed-quiz") {
-      return this.getAll();
-    }
-    const cat = String(categoryId).toLowerCase().trim();
-    return this.questions.filter(q => 
-      q.category.toLowerCase() === cat || 
-      (q.tags && q.tags.map(t => t.toLowerCase()).includes(cat))
-    );
-  }
-
-  /**
-   * Filter by difficulty and/or category
-   */
-  filter({ category, difficulty, tag, search }) {
-    return this.questions.filter(q => {
-      if (category && category !== "all" && category !== "mixed-quiz") {
-        const matchesCategory = q.category.toLowerCase() === category.toLowerCase();
-        const matchesTags = q.tags && q.tags.map(t => t.toLowerCase()).includes(category.toLowerCase());
-        if (!matchesCategory && !matchesTags) return false;
-      }
-      if (difficulty && difficulty !== "all") {
-        if (q.difficulty.toLowerCase() !== difficulty.toLowerCase()) return false;
-      }
-      if (tag) {
-        if (!q.tags || !q.tags.map(t => t.toLowerCase()).includes(tag.toLowerCase())) return false;
-      }
-      if (search) {
-        const term = search.toLowerCase().trim();
-        const inQuestion = q.question.toLowerCase().includes(term);
-        const inOptions = q.options.some(o => o.toLowerCase().includes(term));
-        const inTags = q.tags && q.tags.some(t => t.toLowerCase().includes(term));
-        const inCategory = q.category.toLowerCase().includes(term);
-        if (!inQuestion && !inOptions && !inTags && !inCategory) return false;
-      }
-      return true;
-    });
-  }
-
-  /**
-   * Get total question count
-   */
-  count() {
-    return this.questions.length;
-  }
-}
-
-// Instantiate default global instance
-const questionBankInstance = new WKQuizQuestionBank(WKQUIZ_QUESTIONS);
-
-// CommonJS and Browser compatibility
 if (typeof module !== "undefined" && module.exports) {
-  module.exports = {
-    WKQUIZ_QUESTIONS,
-    WKQuizQuestionBank,
-    questionBankInstance
-  };
+  module.exports = { WKQUIZ_QUESTIONS };
 }
 if (typeof window !== "undefined") {
   window.WKQUIZ_QUESTIONS = WKQUIZ_QUESTIONS;
-  window.WKQuizQuestionBank = WKQuizQuestionBank;
-  window.wkQuizBank = questionBankInstance;
 }
 
 
 /* ========================================================================= */
-/* 3. QUIZ ENGINE                                                            */
+/* 3. DATA PROVIDER ABSTRACTION LAYER                                        */
+/* ========================================================================= */
+/**
+ * WKQUIZ DATA PROVIDER LAYER
+ * Abstraction layer between Quiz Engine and Question Bank.
+ * Supports static JSON data, difficulty filtering, status filtering,
+ * and is designed for future API/Database migration without UI changes.
+ */
+
+class WKQuizDataProvider {
+  constructor(options = {}) {
+    this.questions = [];
+    this.categoriesMap = new Map();
+    this.byIdMap = new Map();
+    
+    // Load initial question pool
+    if (options.questions && Array.isArray(options.questions)) {
+      this.loadQuestions(options.questions);
+    } else if (typeof WKQUIZ_QUESTIONS !== "undefined" && Array.isArray(WKQUIZ_QUESTIONS)) {
+      this.loadQuestions(WKQUIZ_QUESTIONS);
+    }
+  }
+
+  /**
+   * Load or append questions into the provider
+   */
+  loadQuestions(questionArray) {
+    if (!Array.isArray(questionArray)) return;
+
+    questionArray.forEach(q => {
+      if (!q || !q.id) return;
+      this.questions.push(q);
+      this.byIdMap.set(q.id, q);
+
+      const catKey = (q.category || "general").toLowerCase().trim();
+      if (!this.categoriesMap.has(catKey)) {
+        this.categoriesMap.set(catKey, []);
+      }
+      this.categoriesMap.get(catKey).push(q);
+    });
+  }
+
+  /**
+   * Get single question by its permanent ID
+   * @param {string} id - e.g. "NCLEX-000001"
+   */
+  getQuestionById(id) {
+    return this.byIdMap.get(id) || null;
+  }
+
+  /**
+   * Main query method used by Quiz Engine
+   * @param {Object} options - { category, difficulty, length, status, mode }
+   * @returns {Object} { questions: Array, totalAvailable: number, requested: number, shortage: boolean, message: string }
+   */
+  getQuestions(options = {}) {
+    const category = (options.category || "all").toLowerCase().trim();
+    const difficulty = (options.difficulty || "all").toLowerCase().trim();
+    const requestedLength = options.length || 10;
+    const requiredStatus = (options.status || "active").toLowerCase().trim();
+
+    // 1. Filter pool by category and status
+    let pool = this.questions.filter(q => {
+      // Status filter (strictly "active" for public gameplay)
+      const qStatus = (q.status || "active").toLowerCase().trim();
+      if (qStatus !== requiredStatus) return false;
+
+      // Category filter
+      if (category !== "all" && category !== "mixed-quiz") {
+        const qCat = (q.category || "").toLowerCase().trim();
+        const inTags = q.tags && q.tags.map(t => t.toLowerCase()).includes(category);
+        if (qCat !== category && !inTags) return false;
+      }
+
+      return true;
+    });
+
+    // 2. Filter by Difficulty (EASY | MEDIUM | HARD)
+    if (difficulty === "easy" || difficulty === "medium" || difficulty === "hard") {
+      const difficultyFiltered = pool.filter(q => (q.difficulty || "medium").toLowerCase().trim() === difficulty);
+      // If we have questions for this difficulty, use them; otherwise keep existing pool
+      if (difficultyFiltered.length > 0) {
+        pool = difficultyFiltered;
+      }
+    }
+
+    const totalAvailable = pool.length;
+    const shortage = totalAvailable < requestedLength;
+    let message = "";
+
+    if (totalAvailable === 0) {
+      message = `No active questions found for ${category.toUpperCase()} (${difficulty.toUpperCase()}).`;
+    } else if (shortage) {
+      message = `Requested ${requestedLength} questions, but only ${totalAvailable} unique ${difficulty.toUpperCase()} questions are currently available.`;
+    }
+
+    return {
+      questions: pool,
+      totalAvailable,
+      requestedLength,
+      shortage,
+      message
+    };
+  }
+
+  /**
+   * Get category counts and difficulty breakdown
+   */
+  getStats() {
+    const stats = {};
+    this.questions.forEach(q => {
+      const cat = (q.category || "General").trim();
+      const diff = (q.difficulty || "medium").toLowerCase().trim();
+      const status = (q.status || "active").toLowerCase().trim();
+
+      if (!stats[cat]) {
+        stats[cat] = { easy: 0, medium: 0, hard: 0, active: 0, review: 0, draft: 0, disabled: 0, total: 0 };
+      }
+
+      stats[cat].total++;
+      if (stats[cat][diff] !== undefined) stats[cat][diff]++;
+      if (stats[cat][status] !== undefined) stats[cat][status]++;
+    });
+
+    return stats;
+  }
+
+  /**
+   * Get all active questions count for a specific category and difficulty
+   */
+  getAvailableCount(category = "all", difficulty = "all") {
+    const result = this.getQuestions({ category, difficulty, length: 99999 });
+    return result.totalAvailable;
+  }
+}
+
+// CommonJS export for Node.js test runners & browser window exposure
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = { WKQuizDataProvider };
+}
+if (typeof window !== "undefined") {
+  window.WKQuizDataProvider = WKQuizDataProvider;
+}
+
+
+/* ========================================================================= */
+/* 4. QUIZ ENGINE                                                            */
 /* ========================================================================= */
 /**
  * WKQUIZ ENGINE
  * Pure Vanilla JavaScript Quiz Engine.
  * Handles state management, Fisher-Yates shuffling with option remapping,
  * session duplicate prevention, timer, scoring, and deterministic Daily Quiz generator.
+ * Decoupled from storage via Data Provider layer.
  */
 
 class WKQuizEngine {
   constructor(options = {}) {
     this.config = Object.assign({
       defaultLength: 10,
+      availableLengths: [5, 10, 20, 50],
+      availableDifficulties: ["easy", "medium", "hard"],
+      defaultDifficulty: "medium",
       timePerQuestionSeconds: 20,
       enableAnswerShuffle: true,
       enableQuestionShuffle: true,
@@ -2847,7 +4071,17 @@ class WKQuizEngine {
       passingScorePercentage: 70
     }, options.config || (typeof WKQUIZ_CONFIG !== "undefined" ? WKQUIZ_CONFIG.quiz : {}));
 
-    this.bank = options.bank || (typeof questionBankInstance !== "undefined" ? questionBankInstance : null);
+    // Data Provider interface
+    if (options.provider) {
+      this.provider = options.provider;
+    } else if (options.bank) {
+      // Compatibility wrapper
+      this.provider = new WKQuizDataProvider({ questions: options.bank.getAll ? options.bank.getAll() : [] });
+    } else if (typeof WKQuizDataProvider !== "undefined") {
+      this.provider = new WKQuizDataProvider();
+    } else {
+      this.provider = null;
+    }
 
     // Runtime state
     this.sessionUsedIds = new Set();
@@ -2858,7 +4092,10 @@ class WKQuizEngine {
     this.maxStreak = 0;
     this.userAnswers = [];
     this.isCompleted = false;
-    this.mode = "classic"; // classic, quick, challenge, exam, timed, survival, daily
+    this.mode = "classic";
+    this.difficulty = "medium";
+    this.category = "all";
+    this.shortageNotice = "";
     this.startTime = null;
     this.endTime = null;
 
@@ -2881,9 +4118,7 @@ class WKQuizEngine {
             parsed.forEach(id => this.sessionUsedIds.add(id));
           }
         }
-      } catch (e) {
-        // Fallback silently if sessionStorage is blocked
-      }
+      } catch (e) {}
     }
   }
 
@@ -2891,9 +4126,7 @@ class WKQuizEngine {
     if (typeof sessionStorage !== "undefined") {
       try {
         sessionStorage.setItem("wkquiz_used_ids", JSON.stringify([...this.sessionUsedIds]));
-      } catch (e) {
-        // Fallback
-      }
+      } catch (e) {}
     }
   }
 
@@ -2909,21 +4142,18 @@ class WKQuizEngine {
     };
   }
 
-  /**
-   * String to numeric 32-bit hash
-   */
   _hashString(str) {
     let hash = 0;
     for (let i = 0; i < str.length; i++) {
       const char = str.charCodeAt(i);
       hash = ((hash << 5) - hash) + char;
-      hash |= 0; // Convert to 32bit integer
+      hash |= 0;
     }
     return Math.abs(hash);
   }
 
   /**
-   * Standard Fisher-Yates Array Shuffle (with optional custom PRNG)
+   * Standard Fisher-Yates Array Shuffle
    */
   _shuffleArray(array, customRng = Math.random) {
     const arr = [...array];
@@ -2941,7 +4171,6 @@ class WKQuizEngine {
     const originalOptions = question.options;
     const correctOptionText = originalOptions[question.answer];
 
-    // Create indexed array
     const indexed = originalOptions.map((text, idx) => ({ text, isCorrect: idx === question.answer }));
     const shuffled = this._shuffleArray(indexed, customRng);
 
@@ -2961,25 +4190,31 @@ class WKQuizEngine {
   startQuiz(params = {}) {
     const mode = params.mode || "classic";
     const category = params.category || "all";
-    const difficulty = params.difficulty || "all";
-    let length = params.length || 10;
+    const difficulty = params.difficulty || this.config.defaultDifficulty || "medium";
+    let length = params.length || this.config.defaultLength || 10;
 
-    // Adjust length according to mode presets
     if (mode === "quick") length = 5;
-    else if (mode === "classic") length = 10;
+    else if (mode === "classic" && !params.length) length = 10;
     else if (mode === "challenge") length = 20;
     else if (mode === "exam") length = 50;
 
     this.mode = mode;
+    this.category = category;
+    this.difficulty = difficulty;
     this.currentIndex = 0;
     this.score = 0;
     this.streak = 0;
     this.maxStreak = 0;
     this.userAnswers = [];
     this.isCompleted = false;
+    this.shortageNotice = "";
     this.startTime = Date.now();
     this.endTime = null;
     this.stopTimer();
+
+    if (!this.provider) {
+      throw new Error("No Data Provider configured for Quiz Engine");
+    }
 
     let pool = [];
 
@@ -2989,26 +4224,36 @@ class WKQuizEngine {
       const seed = this._hashString("WKQUIZ_DAILY_" + todayStr);
       const rng = this._mulberry32(seed);
 
-      const allQuestions = this.bank ? this.bank.getAll() : [];
-      if (allQuestions.length === 0) {
+      const queryResult = this.provider.getQuestions({ category: "all", difficulty: "all", status: "active" });
+      const allActive = queryResult.questions;
+
+      if (allActive.length === 0) {
         throw new Error("Question bank is empty");
       }
 
-      // Shuffle entire pool deterministically and pick length
-      const shuffledDaily = this._shuffleArray(allQuestions, rng);
+      const shuffledDaily = this._shuffleArray(allActive, rng);
       const selected = shuffledDaily.slice(0, Math.min(length, shuffledDaily.length));
 
       pool = selected.map(q => this._shuffleQuestionOptions(q, rng));
     } else {
-      // Regular or Category Quiz
-      let available = this.bank ? this.bank.filter({ category, difficulty }) : [];
+      // Standard or Category Quiz filtered by 3 Difficulties (Easy, Medium, Hard)
+      const queryResult = this.provider.getQuestions({
+        category,
+        difficulty,
+        length,
+        status: "active"
+      });
+
+      let available = queryResult.questions;
+
       if (available.length === 0) {
-        // Fallback to all questions if category is empty
-        available = this.bank ? this.bank.getAll() : [];
+        // Fallback to all difficulties within category if requested difficulty has 0 questions
+        const fallbackQuery = this.provider.getQuestions({ category, difficulty: "all", status: "active" });
+        available = fallbackQuery.questions;
       }
 
       if (available.length === 0) {
-        throw new Error("No questions found for the selected criteria");
+        throw new Error(`No active questions available for "${category}".`);
       }
 
       // Session duplicate prevention
@@ -3018,30 +4263,30 @@ class WKQuizEngine {
         if (unused.length >= length) {
           candidatePool = unused;
         } else if (unused.length > 0) {
-          // If fewer unused remain than requested length, use all unused and reset session tracking for category
           candidatePool = unused;
           this.sessionUsedIds.clear();
           this._saveSessionStorage();
         } else {
-          // All used up, reset session tracking
           this.sessionUsedIds.clear();
           this._saveSessionStorage();
           candidatePool = available;
         }
       }
 
-      // Shuffle questions
+      // Check for shortage notice (never duplicate questions!)
+      if (candidatePool.length < length) {
+        this.shortageNotice = `Note: Only ${candidatePool.length} active questions available for ${category.toUpperCase()} (${difficulty.toUpperCase()}).`;
+      }
+
       const shuffledQuestions = this.config.enableQuestionShuffle 
         ? this._shuffleArray(candidatePool) 
         : [...candidatePool];
 
       const selected = shuffledQuestions.slice(0, Math.min(length, shuffledQuestions.length));
 
-      // Mark IDs as used in this session
       selected.forEach(q => this.sessionUsedIds.add(q.id));
       this._saveSessionStorage();
 
-      // Shuffle options for each selected question
       pool = selected.map(q => {
         return this.config.enableAnswerShuffle 
           ? this._shuffleQuestionOptions(q) 
@@ -3054,16 +4299,15 @@ class WKQuizEngine {
       mode,
       category,
       difficulty,
+      requestedLength: length,
       totalQuestions: pool.length,
+      shortageNotice: this.shortageNotice,
       questions: pool
     };
 
     return this.getCurrentQuestion();
   }
 
-  /**
-   * Get current question details (without revealing answer directly)
-   */
   getCurrentQuestion() {
     if (!this.currentQuiz || this.currentIndex >= this.currentQuiz.questions.length) {
       return null;
@@ -3081,14 +4325,11 @@ class WKQuizEngine {
       question: q.question,
       options: [...q.options],
       progressPercentage: Math.round(((this.currentIndex) / this.currentQuiz.totalQuestions) * 100),
-      mode: this.mode
+      mode: this.mode,
+      shortageNotice: this.shortageNotice
     };
   }
 
-  /**
-   * Submit answer for the current question
-   * @param {number} selectedOptionIndex - 0-indexed selection
-   */
   submitAnswer(selectedOptionIndex) {
     if (!this.currentQuiz || this.isCompleted) {
       throw new Error("No active quiz in progress");
@@ -3124,7 +4365,7 @@ class WKQuizEngine {
     const isSurvivalOver = (this.mode === "survival" && !isCorrect);
     const hasNext = (this.currentIndex + 1 < this.currentQuiz.totalQuestions) && !isSurvivalOver;
 
-    const result = {
+    return {
       isCorrect,
       correctIndex: currentQ.answer,
       selectedIndex: selectedOptionIndex,
@@ -3136,13 +4377,8 @@ class WKQuizEngine {
       questionNumber: this.currentIndex + 1,
       totalQuestions: this.currentQuiz.totalQuestions
     };
-
-    return result;
   }
 
-  /**
-   * Advance to the next question
-   */
   nextQuestion() {
     if (!this.currentQuiz) return null;
 
@@ -3155,9 +4391,6 @@ class WKQuizEngine {
     return this.getCurrentQuestion();
   }
 
-  /**
-   * Complete the quiz and generate final evaluation
-   */
   finishQuiz() {
     this.isCompleted = true;
     this.endTime = Date.now();
@@ -3191,6 +4424,7 @@ class WKQuizEngine {
       quizId: this.currentQuiz ? this.currentQuiz.id : "",
       mode: this.mode,
       category: this.currentQuiz ? this.currentQuiz.category : "all",
+      difficulty: this.difficulty,
       score: this.score,
       totalQuestions: total,
       percentage,
@@ -3203,9 +4437,6 @@ class WKQuizEngine {
     };
   }
 
-  /**
-   * Start question countdown timer
-   */
   startTimer(durationSeconds, onTick, onTimeExpired) {
     this.stopTimer();
     this.timeRemaining = durationSeconds || this.config.timePerQuestionSeconds;
@@ -3230,9 +4461,6 @@ class WKQuizEngine {
     }, 1000);
   }
 
-  /**
-   * Stop active timer
-   */
   stopTimer() {
     if (this.timerInterval) {
       clearInterval(this.timerInterval);
@@ -3240,13 +4468,10 @@ class WKQuizEngine {
     }
   }
 
-  /**
-   * Generate viral social share text
-   */
   getSharePayload(finalStats, siteUrl = "") {
     const stats = finalStats || this.finishQuiz();
     const catName = stats.category ? stats.category.toUpperCase() : "WKQUIZ";
-    const text = `I scored ${stats.score}/${stats.totalQuestions} (${stats.percentage}%) on WKQuiz's ${catName} Challenge! Can you beat my score? 🧠🔥`;
+    const text = `I scored ${stats.score}/${stats.totalQuestions} (${stats.percentage}%) on WKQuiz's ${catName} Challenge (${(stats.difficulty || 'MEDIUM').toUpperCase()})! Can you beat my score? 🧠🔥`;
     const shareUrl = siteUrl || (typeof window !== "undefined" ? window.location.href : "https://wkquiz.com");
 
     return {
@@ -3270,12 +4495,13 @@ if (typeof window !== "undefined") {
 
 
 /* ========================================================================= */
-/* 4. UI CONTROLLER AND APP INITIALIZER                                      */
+/* 5. UI CONTROLLER                                                          */
 /* ========================================================================= */
 /**
  * WKQUIZ UI CONTROLLER
  * Pure Vanilla JavaScript DOM Controller.
- * Handles rendering, events, dark mode, mobile drawer, search modal, and social sharing.
+ * Handles interactive 3-step setup (Category -> Difficulty -> Length -> Play),
+ * quiz question rendering, immediate feedback, results, instant search, and dark mode.
  */
 
 class WKQuizUI {
@@ -3284,6 +4510,13 @@ class WKQuizUI {
     this.config = config || (typeof WKQUIZ_CONFIG !== "undefined" ? WKQUIZ_CONFIG : {});
     this.currentQuestionData = null;
     this.isAnswered = false;
+
+    // Current setup selection state
+    this.setupState = {
+      category: "all",
+      difficulty: (this.config.quiz && this.config.quiz.defaultDifficulty) || "medium",
+      length: (this.config.quiz && this.config.quiz.defaultLength) || 10
+    };
 
     this.dom = {
       container: document.getElementById("wk-quiz-container"),
@@ -3309,8 +4542,8 @@ class WKQuizUI {
     // Check if query param exists (e.g. ?quiz=nclex)
     const hasParams = this._checkUrlParams();
     if (!hasParams && this.dom.container) {
-      // Initialize a live quiz card immediately on page load without auto-scrolling
-      this.startQuiz({ mode: "classic", category: "all" }, false);
+      // Render clean Setup Card on initial load
+      this.renderSetupScreen("all", false);
     }
   }
 
@@ -3348,19 +4581,16 @@ class WKQuizUI {
    * Global Event Listeners
    */
   _initEvents() {
-    // Theme Toggle
     if (this.dom.darkModeToggle) {
       this.dom.darkModeToggle.addEventListener("click", () => this.toggleTheme());
     }
 
-    // Mobile Menu
     if (this.dom.mobileMenuBtn && this.dom.mobileDrawer) {
       this.dom.mobileMenuBtn.addEventListener("click", () => {
         this.dom.mobileDrawer.classList.toggle("open");
       });
     }
 
-    // Search Modal
     if (this.dom.searchBtn && this.dom.searchModal) {
       this.dom.searchBtn.addEventListener("click", () => this.openSearch());
     }
@@ -3376,7 +4606,6 @@ class WKQuizUI {
       this.dom.searchInput.addEventListener("input", (e) => this.handleSearch(e.target.value));
     }
 
-    // Keyboard Shortcuts (Esc to close search, / to open search)
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && this.dom.searchModal && this.dom.searchModal.classList.contains("open")) {
         this.closeSearch();
@@ -3396,46 +4625,172 @@ class WKQuizUI {
       const category = target.getAttribute("data-category");
       const mode = target.getAttribute("data-mode");
 
-      if (action === "start-random") {
+      if (action === "open-setup" || action === "start-random" || action === "start-category") {
         e.preventDefault();
         if (this.dom.mobileDrawer) this.dom.mobileDrawer.classList.remove("open");
-        this.startQuiz({ mode: "classic", category: "all" }, true);
+        this.renderSetupScreen(category || "all", true);
       } else if (action === "start-daily") {
         e.preventDefault();
         if (this.dom.mobileDrawer) this.dom.mobileDrawer.classList.remove("open");
         this.startQuiz({ mode: "daily", category: "all" }, true);
-      } else if (action === "start-category") {
-        e.preventDefault();
-        if (this.dom.mobileDrawer) this.dom.mobileDrawer.classList.remove("open");
-        this.startQuiz({ mode: "classic", category: category || "all" }, true);
       } else if (action === "start-mode") {
         e.preventDefault();
         if (this.dom.mobileDrawer) this.dom.mobileDrawer.classList.remove("open");
         this.startQuiz({ mode: mode || "classic", category: category || "all" }, true);
       } else if (action === "restart-quiz") {
         e.preventDefault();
-        this.startQuiz({ 
-          mode: this.engine.mode || "classic", 
-          category: this.engine.currentQuiz ? this.engine.currentQuiz.category : "all" 
-        }, true);
+        this.renderSetupScreen(this.engine.currentQuiz ? this.engine.currentQuiz.category : "all", true);
       }
     });
   }
 
   /**
-   * Check URL query parameters on load (e.g. ?quiz=nclex or ?mode=daily)
+   * Check URL query parameters on load (e.g. ?quiz=nclex)
    */
   _checkUrlParams() {
     if (typeof window === "undefined" || !window.location.search) return false;
     const params = new URLSearchParams(window.location.search);
     const category = params.get("quiz") || params.get("category");
+    const difficulty = params.get("difficulty");
+    const length = parseInt(params.get("length"), 10);
     const mode = params.get("mode");
 
     if (category || mode) {
-      this.startQuiz({ category: category || "all", mode: mode || "classic" }, true);
+      if (difficulty || length) {
+        this.startQuiz({
+          category: category || "all",
+          difficulty: difficulty || "medium",
+          length: length || 10,
+          mode: mode || "classic"
+        }, true);
+      } else {
+        this.renderSetupScreen(category || "all", true);
+      }
       return true;
     }
     return false;
+  }
+
+  /**
+   * Render Quiz Setup Screen (Difficulty & Length Selector)
+   * User Flow: Category -> Difficulty [EASY | MEDIUM | HARD] -> Question Count [5 | 10 | 20 | 50] -> Play
+   */
+  renderSetupScreen(categoryId = "all", shouldScroll = true) {
+    if (!this.dom.container) return;
+
+    this.setupState.category = categoryId || "all";
+    const cat = (this.config.categories || []).find(c => c.id === categoryId) || {
+      name: categoryId === "all" ? "Random Mixed Quiz" : categoryId.toUpperCase(),
+      icon: categoryId === "all" ? "🎲" : "📚",
+      description: "Challenge yourself with interactive questions."
+    };
+
+    const lengths = (this.config.quiz && this.config.quiz.availableLengths) || [5, 10, 20, 50];
+    const availableCount = (this.engine.provider && typeof this.engine.provider.getAvailableCount === "function")
+      ? this.engine.provider.getAvailableCount(this.setupState.category, this.setupState.difficulty)
+      : 10;
+
+    let html = `
+      <div class="wk-quiz-card wk-setup-card">
+        <div class="wk-setup-header">
+          <span class="wk-badge wk-badge-primary" style="margin-bottom: 0.5rem;">
+            ${cat.icon || "🎯"} ${cat.name}
+          </span>
+          <h2 class="wk-setup-title">Customize Your Quiz</h2>
+          <p class="wk-setup-desc">Select your preferred difficulty and number of questions to begin.</p>
+        </div>
+
+        <!-- 1. Difficulty Selector: Strictly Easy | Medium | Hard -->
+        <div class="wk-setup-section">
+          <label class="wk-setup-label">1. Select Difficulty</label>
+          <div class="wk-pills-grid" role="radiogroup" aria-label="Difficulty selection">
+            <button type="button" class="wk-pill-btn pill-easy ${this.setupState.difficulty === 'easy' ? 'active' : ''}" data-difficulty="easy">
+              <span>🟢 EASY</span>
+            </button>
+            <button type="button" class="wk-pill-btn pill-medium ${this.setupState.difficulty === 'medium' ? 'active' : ''}" data-difficulty="medium">
+              <span>🟡 MEDIUM</span>
+            </button>
+            <button type="button" class="wk-pill-btn pill-hard ${this.setupState.difficulty === 'hard' ? 'active' : ''}" data-difficulty="hard">
+              <span>🔴 HARD</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 2. Question Count Selector -->
+        <div class="wk-setup-section">
+          <label class="wk-setup-label">2. Question Count</label>
+          <div class="wk-length-pills-grid" role="radiogroup" aria-label="Question count selection">
+            ${lengths.map(len => `
+              <button type="button" class="wk-pill-btn ${this.setupState.length === len ? 'active' : ''}" data-length="${len}">
+                <span>${len} Questions</span>
+              </button>
+            `).join("")}
+          </div>
+        </div>
+
+        <div class="wk-setup-notice" id="wk-setup-availability">
+          <span>📊 ${availableCount} active questions ready in this pool</span>
+        </div>
+
+        <button type="button" id="wk-start-quiz-btn" class="wk-btn wk-btn-primary wk-btn-block">
+          🚀 Start Quiz Now ➔
+        </button>
+      </div>
+    `;
+
+    this.dom.container.innerHTML = html;
+    this._bindSetupEvents();
+
+    if (shouldScroll) {
+      this._scrollToQuiz();
+    }
+  }
+
+  _bindSetupEvents() {
+    const container = this.dom.container;
+    if (!container) return;
+
+    // Difficulty pill clicks
+    const diffButtons = container.querySelectorAll("[data-difficulty]");
+    diffButtons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        diffButtons.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        this.setupState.difficulty = btn.getAttribute("data-difficulty");
+        this._updateAvailabilityBadge();
+      });
+    });
+
+    // Length pill clicks
+    const lenButtons = container.querySelectorAll("[data-length]");
+    lenButtons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        lenButtons.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        this.setupState.length = parseInt(btn.getAttribute("data-length"), 10);
+      });
+    });
+
+    // Start Quiz button
+    const startBtn = container.getElementById ? container.getElementById("wk-start-quiz-btn") : document.getElementById("wk-start-quiz-btn");
+    if (startBtn) {
+      startBtn.addEventListener("click", () => {
+        this.startQuiz({
+          category: this.setupState.category,
+          difficulty: this.setupState.difficulty,
+          length: this.setupState.length,
+          mode: "classic"
+        }, true);
+      });
+    }
+  }
+
+  _updateAvailabilityBadge() {
+    const badge = document.getElementById("wk-setup-availability");
+    if (badge && this.engine.provider) {
+      const count = this.engine.provider.getAvailableCount(this.setupState.category, this.setupState.difficulty);
+      badge.innerHTML = `<span>📊 ${count} active questions ready in this pool</span>`;
+    }
   }
 
   /**
@@ -3473,9 +4828,11 @@ class WKQuizUI {
     const letters = ["A", "B", "C", "D", "E", "F"];
 
     const categoryObj = (this.config.categories || []).find(c => c.id === q.category) || {
-      name: q.category.toUpperCase(),
+      name: (q.category || "General").toUpperCase(),
       icon: "🎯"
     };
+
+    const difficultyBadgeClass = q.difficulty === "hard" ? "wk-badge-danger" : (q.difficulty === "medium" ? "wk-badge-warning" : "wk-badge-success");
 
     let html = `
       <div class="wk-quiz-card" id="wk-active-card">
@@ -3484,15 +4841,20 @@ class WKQuizUI {
             <span class="wk-badge wk-badge-primary">
               ${categoryObj.icon || "🎯"} ${categoryObj.name}
             </span>
+            <span class="wk-badge ${difficultyBadgeClass}">
+              ${(q.difficulty || "medium").toUpperCase()}
+            </span>
             <span class="wk-badge wk-badge-warning">
               Question ${q.questionNumber} of ${q.totalQuestions}
             </span>
-            ${q.mode === "daily" ? '<span class="wk-badge wk-badge-danger">🔥 Daily Challenge</span>' : ''}
+            ${q.mode === "daily" ? '<span class="wk-badge wk-badge-danger">🔥 Daily</span>' : ''}
           </div>
           <div id="wk-timer-badge" class="wk-quiz-timer" style="display: none;">
             ⏱️ <span id="wk-timer-seconds">20</span>s
           </div>
         </div>
+
+        ${q.shortageNotice ? `<div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.75rem;">${this._escapeHtml(q.shortageNotice)}</div>` : ''}
 
         <div class="wk-progress-bar-wrap" aria-label="Quiz progress">
           <div class="wk-progress-bar-fill" style="width: ${q.progressPercentage}%;"></div>
@@ -3542,7 +4904,7 @@ class WKQuizUI {
           },
           () => {
             if (!this.isAnswered) {
-              this._handleAnswerSelect(null); // Time expired
+              this._handleAnswerSelect(null);
             }
           }
         );
@@ -3647,7 +5009,7 @@ class WKQuizUI {
 
         <div class="wk-results-buttons">
           <button type="button" class="wk-btn wk-btn-primary" data-action="restart-quiz">
-            🔄 Try Again
+            🔄 New Quiz / Retry
           </button>
           <button type="button" class="wk-btn wk-btn-secondary" data-action="start-random">
             🎲 Random Quiz
@@ -3719,10 +5081,10 @@ class WKQuizUI {
 
     const categories = this.config.categories;
     const html = categories.map(cat => `
-      <a href="javascript:void(0)" class="wk-category-card" data-action="start-category" data-category="${cat.id}">
+      <a href="javascript:void(0)" class="wk-category-card" data-action="open-setup" data-category="${cat.id}">
         <span class="wk-category-icon">${cat.icon || "📚"}</span>
         <span class="wk-category-name">${cat.name}</span>
-        <span class="wk-category-count">Play Now ➔</span>
+        <span class="wk-category-count">Choose Difficulty ➔</span>
       </a>
     `).join("");
 
@@ -3769,7 +5131,7 @@ class WKQuizUI {
     }
 
     const html = matched.map(cat => `
-      <a href="javascript:void(0)" class="wk-search-item" data-action="start-category" data-category="${cat.id}">
+      <a href="javascript:void(0)" class="wk-search-item" data-action="open-setup" data-category="${cat.id}">
         <span style="font-size: 1.5rem;">${cat.icon || "📚"}</span>
         <div>
           <div style="font-weight: 700;">${cat.name} Quiz</div>
@@ -3780,13 +5142,12 @@ class WKQuizUI {
 
     this.dom.searchResults.innerHTML = html;
 
-    // Attach click listeners to search results
     const items = this.dom.searchResults.querySelectorAll(".wk-search-item");
     items.forEach(item => {
       item.addEventListener("click", () => {
         const catId = item.getAttribute("data-category");
         this.closeSearch();
-        this.startQuiz({ category: catId, mode: "classic" }, true);
+        this.renderSetupScreen(catId, true);
       });
     });
   }
@@ -3795,10 +5156,10 @@ class WKQuizUI {
     if (!this.dom.container) return;
     this.dom.container.innerHTML = `
       <div class="wk-quiz-card" style="text-align: center; border-color: var(--danger);">
-        <h3 style="color: var(--danger); margin-bottom: 0.5rem;">⚠️ Oops!</h3>
+        <h3 style="color: var(--danger); margin-bottom: 0.5rem;">⚠️ Notice</h3>
         <p style="color: var(--text-muted); margin-bottom: 1.5rem;">${this._escapeHtml(message)}</p>
-        <button type="button" class="wk-btn wk-btn-primary" data-action="start-random">
-          Try Random Quiz
+        <button type="button" class="wk-btn wk-btn-primary" data-action="open-setup" data-category="all">
+          Customize Quiz
         </button>
       </div>
     `;
@@ -3825,7 +5186,7 @@ if (typeof window !== "undefined") {
 
 
 /* ========================================================================= */
-/* 5. AUTO-INITIALIZE APP ROBUSTLY ON PAGE LOAD                              */
+/* 6. AUTO-INITIALIZE PLATFORM ON LOAD                                       */
 /* ========================================================================= */
 (function() {
   function initWKQuizPlatform() {
@@ -3833,9 +5194,11 @@ if (typeof window !== "undefined") {
     window.__wkQuizInitialized = true;
     try {
       if (typeof WKQuizEngine !== 'undefined' && typeof WKQuizUI !== 'undefined') {
-        var bank = (typeof wkQuizBank !== 'undefined' && wkQuizBank) ? wkQuizBank : new WKQuizQuestionBank(WKQUIZ_QUESTIONS);
+        var provider = new WKQuizDataProvider({ questions: (typeof WKQUIZ_QUESTIONS !== 'undefined') ? WKQUIZ_QUESTIONS : [] });
         var cfg = (typeof WKQUIZ_CONFIG !== 'undefined' && WKQUIZ_CONFIG) ? WKQUIZ_CONFIG : {};
-        var engine = new WKQuizEngine({ bank: bank, config: cfg.quiz || {} });
+        var engine = new WKQuizEngine({ provider: provider, config: cfg.quiz || {} });
+        window.wkQuizProvider = provider;
+        window.wkQuizEngine = engine;
         window.wkQuizApp = new WKQuizUI(engine, cfg);
         console.log('[WKQuiz] Platform successfully initialized.');
       }

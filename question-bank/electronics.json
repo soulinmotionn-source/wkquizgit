@@ -1,0 +1,65 @@
+[
+  {
+    "id": "ELX-000001",
+    "category": "Electronics",
+    "subcategory": "Semiconductors",
+    "difficulty": "medium",
+    "question": "What semiconductor component allows electrical current to flow predominantly in only one direction (forward biased)?",
+    "options": [
+      "Diode",
+      "Capacitor",
+      "Transformer",
+      "Potentiometer"
+    ],
+    "answer": 0,
+    "explanation": "A p-n junction diode conducts current easily when forward biased and blocks current when reverse biased.",
+    "tags": [
+      "electronics",
+      "diodes",
+      "semiconductors"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELX-000002",
+    "category": "Electronics",
+    "subcategory": "Digital Logic",
+    "difficulty": "easy",
+    "question": "Which digital logic gate produces a HIGH (1) output ONLY when both of its inputs are HIGH (1)?",
+    "options": [
+      "AND Gate",
+      "OR Gate",
+      "XOR Gate",
+      "NOR Gate"
+    ],
+    "answer": 0,
+    "explanation": "An AND gate requires all inputs to be TRUE (1) to produce a TRUE (1) output.",
+    "tags": [
+      "electronics",
+      "digital-logic",
+      "gates"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELX-000003",
+    "category": "Electronics",
+    "subcategory": "Transistors",
+    "difficulty": "hard",
+    "question": "In an N-channel enhancement-mode MOSFET, what voltage condition is required between Gate and Source (Vgs) to create an inversion channel and conduct drain current?",
+    "options": [
+      "Vgs must exceed the positive threshold voltage (Vth)",
+      "Vgs must be zero volts",
+      "Vgs must be negative with respect to source",
+      "Drain voltage must be lower than source voltage"
+    ],
+    "answer": 0,
+    "explanation": "An enhancement-mode N-channel MOSFET is normally OFF; applying a gate-to-source voltage greater than Vth induces a conducting channel.",
+    "tags": [
+      "electronics",
+      "mosfet",
+      "transistors"
+    ],
+    "status": "active"
+  }
+]

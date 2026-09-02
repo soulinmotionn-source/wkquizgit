@@ -1,0 +1,65 @@
+[
+  {
+    "id": "MUS-000001",
+    "category": "Music",
+    "subcategory": "Rock Legends",
+    "difficulty": "easy",
+    "question": "Which legendary English rock band featured John Lennon, Paul McCartney, George Harrison, and Ringo Starr?",
+    "options": [
+      "The Beatles",
+      "The Rolling Stones",
+      "The Who",
+      "Led Zeppelin"
+    ],
+    "answer": 0,
+    "explanation": "The Beatles formed in Liverpool in 1960 and are the best-selling band in music history.",
+    "tags": [
+      "music",
+      "rock",
+      "the-beatles"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MUS-000002",
+    "category": "Music",
+    "subcategory": "Album Milestones",
+    "difficulty": "medium",
+    "question": "Which 1982 album by Michael Jackson is the best-selling studio album of all time worldwide?",
+    "options": [
+      "Thriller",
+      "Bad",
+      "Off the Wall",
+      "Dangerous"
+    ],
+    "answer": 0,
+    "explanation": "Michael Jackson's Thriller (1982) produced by Quincy Jones has sold over 70 million copies worldwide.",
+    "tags": [
+      "music",
+      "pop",
+      "michael-jackson"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MUS-000003",
+    "category": "Music",
+    "subcategory": "Classical & Theory",
+    "difficulty": "hard",
+    "question": "Which famous classical composer composed his monumental Ninth Symphony (including 'Ode to Joy') while completely deaf?",
+    "options": [
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart",
+      "Johann Sebastian Bach",
+      "Johannes Brahms"
+    ],
+    "answer": 0,
+    "explanation": "Beethoven composed his Ninth Symphony (premiered in 1824) after suffering near-total hearing loss.",
+    "tags": [
+      "music",
+      "classical",
+      "beethoven"
+    ],
+    "status": "active"
+  }
+]

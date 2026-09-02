@@ -1,0 +1,87 @@
+[
+  {
+    "id": "ELEC-000001",
+    "category": "Electrical",
+    "subcategory": "Circuit Laws",
+    "difficulty": "easy",
+    "question": "According to Ohm's Law, which formula correctly calculates Electric Voltage (V)?",
+    "options": [
+      "V = I × R (Current × Resistance)",
+      "V = I / R",
+      "V = R / I",
+      "V = I + R"
+    ],
+    "answer": 0,
+    "explanation": "Ohm's Law states that Voltage (V in Volts) equals Current (I in Amperes) multiplied by Resistance (R in Ohms).",
+    "tags": [
+      "electrical",
+      "circuits",
+      "ohms-law"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000002",
+    "category": "Electrical",
+    "subcategory": "Power Calculation",
+    "difficulty": "medium",
+    "question": "If a 120V electrical circuit draws a current of 5 Amperes, what is the electrical power consumed by the load?",
+    "options": [
+      "600 Watts",
+      "24 Watts",
+      "125 Watts",
+      "60 Watts"
+    ],
+    "answer": 0,
+    "explanation": "Electric power P = V × I = 120 V × 5 A = 600 Watts (W).",
+    "tags": [
+      "electrical",
+      "power",
+      "calculations"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000003",
+    "category": "Electrical",
+    "subcategory": "AC Circuits",
+    "difficulty": "hard",
+    "question": "In a purely inductive AC circuit, what is the phase relationship between AC voltage and AC current?",
+    "options": [
+      "Voltage leads Current by 90 degrees (ELI)",
+      "Current leads Voltage by 90 degrees (ICE)",
+      "Voltage and Current are in phase (0 degrees)",
+      "Voltage leads Current by 180 degrees"
+    ],
+    "answer": 0,
+    "explanation": "In an inductor, counter-EMF opposes current change, causing Voltage (E) to lead Current (I) by 90° (remember 'ELI the ICE man').",
+    "tags": [
+      "electrical",
+      "ac-circuits",
+      "phase",
+      "inductance"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELEC-000004",
+    "category": "Electrical",
+    "subcategory": "Safety",
+    "difficulty": "easy",
+    "question": "What is the primary function of a Ground Fault Circuit Interrupter (GFCI / RCD)?",
+    "options": [
+      "Protect people from electric shock by detecting current leakage to ground",
+      "Prevent circuit overload during high power draw",
+      "Step down high AC transmission voltage to 120V",
+      "Convert alternating current into direct current"
+    ],
+    "answer": 0,
+    "explanation": "GFCIs monitor the balance of current between hot and neutral wires and trip in milliseconds if an imbalance occurs.",
+    "tags": [
+      "electrical",
+      "safety",
+      "gfci"
+    ],
+    "status": "active"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "MOV-000001",
+    "category": "Movies",
+    "subcategory": "Sci-Fi Classics",
+    "difficulty": "easy",
+    "question": "In the Star Wars saga, which character is Luke Skywalker's father?",
+    "options": [
+      "Darth Vader (Anakin Skywalker)",
+      "Obi-Wan Kenobi",
+      "Emperor Palpatine",
+      "Grand Moff Tarkin"
+    ],
+    "answer": 0,
+    "explanation": "Darth Vader reveals he is Luke's father in The Empire Strikes Back (1980).",
+    "tags": [
+      "movies",
+      "star-wars",
+      "sci-fi"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOV-000002",
+    "category": "Movies",
+    "subcategory": "Box Office",
+    "difficulty": "medium",
+    "question": "Which 2009 James Cameron sci-fi film is the highest-grossing film of all time worldwide?",
+    "options": [
+      "Avatar",
+      "Avengers: Endgame",
+      "Titanic",
+      "Star Wars: The Force Awakens"
+    ],
+    "answer": 0,
+    "explanation": "Avatar (2009) grossed over $2.9 billion globally to become the highest-grossing movie in box office history.",
+    "tags": [
+      "movies",
+      "box-office",
+      "avatar"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MOV-000003",
+    "category": "Movies",
+    "subcategory": "Directors",
+    "difficulty": "hard",
+    "question": "Which director won Best Director Oscars for both 'Brokeback Mountain' (2005) and 'Life of Pi' (2012)?",
+    "options": [
+      "Ang Lee",
+      "Bong Joon-ho",
+      "Alejandro G. Iñárritu",
+      "Guillermo del Toro"
+    ],
+    "answer": 0,
+    "explanation": "Taiwanese-born director Ang Lee won two Academy Awards for Best Director for Brokeback Mountain and Life of Pi.",
+    "tags": [
+      "movies",
+      "directors",
+      "oscars"
+    ],
+    "status": "active"
+  }
+]

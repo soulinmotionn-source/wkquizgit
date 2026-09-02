@@ -1,0 +1,65 @@
+[
+  {
+    "id": "DIS-000001",
+    "category": "Diseases & Disorders",
+    "subcategory": "Endocrinology",
+    "difficulty": "medium",
+    "question": "Type 1 Diabetes Mellitus is characterized primarily by which underlying mechanism?",
+    "options": [
+      "Autoimmune destruction of pancreatic beta cells producing absolute insulin deficiency",
+      "Insulin resistance in peripheral tissues with relative insulin deficiency",
+      "Impaired hepatic glucose storage due to enzyme mutations",
+      "Excessive secretion of glucagon by alpha cells"
+    ],
+    "answer": 0,
+    "explanation": "Type 1 Diabetes is an autoimmune disorder where T-cells destroy insulin-producing beta cells in the islets of Langerhans.",
+    "tags": [
+      "diseases",
+      "diabetes",
+      "endocrinology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000002",
+    "category": "Diseases & Disorders",
+    "subcategory": "Infectious Disease",
+    "difficulty": "easy",
+    "question": "Which causative organism is responsible for Tuberculosis (TB)?",
+    "options": [
+      "Mycobacterium tuberculosis",
+      "Streptococcus pneumoniae",
+      "Staphylococcus aureus",
+      "Haemophilus influenzae"
+    ],
+    "answer": 0,
+    "explanation": "Tuberculosis is an infectious bacterial disease caused by Mycobacterium tuberculosis.",
+    "tags": [
+      "diseases",
+      "tuberculosis",
+      "microbiology"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DIS-000003",
+    "category": "Diseases & Disorders",
+    "subcategory": "Cardiovascular",
+    "difficulty": "hard",
+    "question": "Which genetic cardiac disorder is the most common cause of sudden cardiac death in young competitive athletes?",
+    "options": [
+      "Hypertrophic Cardiomyopathy (HCM)",
+      "Dilated Cardiomyopathy",
+      "Aortic Dissection",
+      "Mitral Valve Prolapse"
+    ],
+    "answer": 0,
+    "explanation": "Hypertrophic cardiomyopathy causes asymmetric ventricular septal thickening and is the leading cause of sudden cardiac arrest in young athletes.",
+    "tags": [
+      "diseases",
+      "cardiology",
+      "genetics"
+    ],
+    "status": "active"
+  }
+]

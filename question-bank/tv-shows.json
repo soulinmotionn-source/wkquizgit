@@ -1,0 +1,65 @@
+[
+  {
+    "id": "TV-000001",
+    "category": "TV Shows",
+    "subcategory": "Streaming Series",
+    "difficulty": "easy",
+    "question": "In the Netflix series 'Stranger Things', what is the name of the alternate dimension beneath Hawkins?",
+    "options": [
+      "The Upside Down",
+      "The Twilight Zone",
+      "The Netherworld",
+      "The Dark Realm"
+    ],
+    "answer": 0,
+    "explanation": "The Upside Down is the dark alternate dimension mirroring Hawkins in Stranger Things.",
+    "tags": [
+      "tv-shows",
+      "stranger-things",
+      "netflix"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-000002",
+    "category": "TV Shows",
+    "subcategory": "Sitcoms",
+    "difficulty": "medium",
+    "question": "In the comedy sitcom 'Friends', what is the name of the central coffee shop where the gang meets?",
+    "options": [
+      "Central Perk",
+      "Monk's Diner",
+      "The Roasted Bean",
+      "Cafe Nervosa"
+    ],
+    "answer": 0,
+    "explanation": "Central Perk in Greenwich Village, NYC, is the iconic coffee house in Friends.",
+    "tags": [
+      "tv-shows",
+      "friends",
+      "sitcom"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TV-000003",
+    "category": "TV Shows",
+    "subcategory": "Emmy Winners",
+    "difficulty": "hard",
+    "question": "In AMC's 'Breaking Bad', what pseudonym did chemistry teacher Walter White adopt in the meth trade?",
+    "options": [
+      "Heisenberg",
+      "Oppenheimer",
+      "Schrödinger",
+      "Fermi"
+    ],
+    "answer": 0,
+    "explanation": "Walter White took the moniker 'Heisenberg', honoring German theoretical physicist Werner Heisenberg.",
+    "tags": [
+      "tv-shows",
+      "breaking-bad",
+      "drama"
+    ],
+    "status": "active"
+  }
+]

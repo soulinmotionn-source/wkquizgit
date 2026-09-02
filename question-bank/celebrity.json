@@ -1,0 +1,65 @@
+[
+  {
+    "id": "CELEB-000001",
+    "category": "Celebrity",
+    "subcategory": "Pop Icons",
+    "difficulty": "easy",
+    "question": "Which global superstar launched the record-breaking Eras Tour in 2023?",
+    "options": [
+      "Taylor Swift",
+      "Beyoncé",
+      "Rihanna",
+      "Adele"
+    ],
+    "answer": 0,
+    "explanation": "Taylor Swift's Eras Tour became the highest-grossing concert tour of all time.",
+    "tags": [
+      "celebrity",
+      "music",
+      "taylor-swift"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "CELEB-000002",
+    "category": "Celebrity",
+    "subcategory": "Actors",
+    "difficulty": "medium",
+    "question": "Which actor won the Best Actor Oscar in 2024 for his portrayal of J. Robert Oppenheimer?",
+    "options": [
+      "Cillian Murphy",
+      "Bradley Cooper",
+      "Paul Giamatti",
+      "Robert Downey Jr."
+    ],
+    "answer": 0,
+    "explanation": "Irish actor Cillian Murphy won the 2024 Academy Award for Best Actor for Christopher Nolan's Oppenheimer.",
+    "tags": [
+      "celebrity",
+      "oscars",
+      "actors"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "CELEB-000003",
+    "category": "Celebrity",
+    "subcategory": "EGOT Winners",
+    "difficulty": "hard",
+    "question": "Who was the first Black woman in entertainment history to achieve EGOT status (Emmy, Grammy, Oscar, Tony)?",
+    "options": [
+      "Whoopi Goldberg",
+      "Viola Davis",
+      "Jennifer Hudson",
+      "Audra McDonald"
+    ],
+    "answer": 0,
+    "explanation": "Whoopi Goldberg achieved EGOT status in 2002 after winning a Tony Award for Thoroughly Modern Millie.",
+    "tags": [
+      "celebrity",
+      "egot",
+      "history"
+    ],
+    "status": "active"
+  }
+]

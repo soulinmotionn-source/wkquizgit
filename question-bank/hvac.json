@@ -1,0 +1,108 @@
+[
+  {
+    "id": "HVAC-000001",
+    "category": "HVAC",
+    "subcategory": "Refrigeration Cycle",
+    "difficulty": "medium",
+    "question": "In standard vapor-compression refrigeration, what is the primary function of the Expansion Valve (Metering Device)?",
+    "options": [
+      "Drop refrigerant pressure and temperature before entering the evaporator",
+      "Compress low-pressure vapor into high-pressure vapor",
+      "Condense high-pressure hot gas into subcooled liquid",
+      "Absorb room heat directly into the atmosphere"
+    ],
+    "answer": 0,
+    "explanation": "The expansion valve meters refrigerant flow and creates a sudden pressure drop, causing it to flash into a cold liquid/vapor mix.",
+    "tags": [
+      "hvac",
+      "refrigeration",
+      "thermodynamics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000002",
+    "category": "HVAC",
+    "subcategory": "Thermodynamics",
+    "difficulty": "hard",
+    "question": "What is the term for the heat added to a substance that causes a measurable temperature change without changing its state of matter?",
+    "options": [
+      "Sensible Heat",
+      "Latent Heat",
+      "Specific Heat Ratio",
+      "Subcooling Enthalpy"
+    ],
+    "answer": 0,
+    "explanation": "Sensible heat produces a measurable temperature change registered on a thermometer. Latent heat causes a change of phase at constant temperature.",
+    "tags": [
+      "hvac",
+      "thermodynamics",
+      "psychrometrics"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000003",
+    "category": "HVAC",
+    "subcategory": "Airflow",
+    "difficulty": "easy",
+    "question": "What unit is commonly used in North America to measure volumetric airflow rate in HVAC ductwork?",
+    "options": [
+      "CFM (Cubic Feet per Minute)",
+      "PSI (Pounds per Square Inch)",
+      "BTU (British Thermal Unit)",
+      "RPM (Revolutions per Minute)"
+    ],
+    "answer": 0,
+    "explanation": "CFM (Cubic Feet per Minute) is standard for airflow measurement in heating and air conditioning systems.",
+    "tags": [
+      "hvac",
+      "airflow",
+      "ductwork"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000004",
+    "category": "HVAC",
+    "subcategory": "Cooling Capacity",
+    "difficulty": "easy",
+    "question": "How many BTUs per hour (BTU/hr) are equal to exactly one standard ton of refrigeration?",
+    "options": [
+      "12,000 BTU/hr",
+      "24,000 BTU/hr",
+      "6,000 BTU/hr",
+      "100,000 BTU/hr"
+    ],
+    "answer": 0,
+    "explanation": "One ton of refrigeration is defined as 12,000 BTU/hr (the cooling power required to freeze 1 short ton of water in 24 hours).",
+    "tags": [
+      "hvac",
+      "calculations",
+      "btu"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "HVAC-000005",
+    "category": "HVAC",
+    "subcategory": "Diagnostics",
+    "difficulty": "hard",
+    "question": "In a TXV-equipped AC system, high superheat combined with low subcooling most likely indicates which fault?",
+    "options": [
+      "Undercharged system (low refrigerant)",
+      "Overcharged system (excess refrigerant)",
+      "Restricted liquid line filter-drier",
+      "Dirty indoor air filter / low airflow"
+    ],
+    "answer": 0,
+    "explanation": "Low refrigerant charge results in an underfed evaporator (high superheat) and insufficient liquid backing up in the condenser (low subcooling).",
+    "tags": [
+      "hvac",
+      "diagnostics",
+      "superheat",
+      "subcooling"
+    ],
+    "status": "active"
+  }
+]

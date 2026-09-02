@@ -1,0 +1,65 @@
+[
+  {
+    "id": "TECH-000001",
+    "category": "Technology",
+    "subcategory": "Internet",
+    "difficulty": "easy",
+    "question": "What does the abbreviation 'URL' stand for in web computing?",
+    "options": [
+      "Uniform Resource Locator",
+      "Universal Remote Link",
+      "Unified Routing Language",
+      "User Resource Lookup"
+    ],
+    "answer": 0,
+    "explanation": "A URL (Uniform Resource Locator) specifies the web address of a resource on the internet.",
+    "tags": [
+      "technology",
+      "internet",
+      "networking"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECH-000002",
+    "category": "Technology",
+    "subcategory": "Artificial Intelligence",
+    "difficulty": "medium",
+    "question": "In Machine Learning, what does 'LLM' stand for?",
+    "options": [
+      "Large Language Model",
+      "Linear Logic Matrix",
+      "Layered Learning Module",
+      "Logical Link Mechanism"
+    ],
+    "answer": 0,
+    "explanation": "Large Language Models (LLMs) are deep learning transformer models trained on vast text corpora.",
+    "tags": [
+      "technology",
+      "ai",
+      "machine-learning"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "TECH-000003",
+    "category": "Technology",
+    "subcategory": "Cybersecurity",
+    "difficulty": "hard",
+    "question": "In asymmetric cryptography, which key is used by a sender to encrypt a message so only the intended recipient can decrypt it?",
+    "options": [
+      "The recipient's Public Key",
+      "The sender's Private Key",
+      "The recipient's Private Key",
+      "The sender's Public Key"
+    ],
+    "answer": 0,
+    "explanation": "In public-key cryptography (e.g. RSA), data encrypted with a recipient's public key can only be decrypted using the recipient's matching private key.",
+    "tags": [
+      "technology",
+      "security",
+      "cryptography"
+    ],
+    "status": "active"
+  }
+]

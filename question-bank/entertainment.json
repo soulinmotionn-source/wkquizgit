@@ -1,0 +1,66 @@
+[
+  {
+    "id": "ENT-000001",
+    "category": "Entertainment",
+    "subcategory": "Comics & Cinema",
+    "difficulty": "easy",
+    "question": "Which superhero is famously known as the 'Dark Knight' of Gotham City?",
+    "options": [
+      "Batman",
+      "Superman",
+      "Iron Man",
+      "Spider-Man"
+    ],
+    "answer": 0,
+    "explanation": "Batman (Bruce Wayne) is widely referred to as the Dark Knight and Caped Crusader of Gotham City.",
+    "tags": [
+      "entertainment",
+      "superheroes",
+      "comics",
+      "batman"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENT-000002",
+    "category": "Entertainment",
+    "subcategory": "Academy Awards",
+    "difficulty": "medium",
+    "question": "Which movie tied the record with 11 Academy Awards in 1997?",
+    "options": [
+      "Titanic",
+      "Avatar",
+      "Gladiator",
+      "Braveheart"
+    ],
+    "answer": 0,
+    "explanation": "James Cameron's Titanic won 11 Oscars at the 70th Academy Awards.",
+    "tags": [
+      "entertainment",
+      "movies",
+      "oscars"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENT-000003",
+    "category": "Entertainment",
+    "subcategory": "Film History",
+    "difficulty": "hard",
+    "question": "Who directed the 1927 groundbreaking German expressionist science-fiction film 'Metropolis'?",
+    "options": [
+      "Fritz Lang",
+      "F. W. Murnau",
+      "Robert Wiene",
+      "Billy Wilder"
+    ],
+    "answer": 0,
+    "explanation": "Fritz Lang directed the iconic silent dystopian film Metropolis in Weimar Germany in 1927.",
+    "tags": [
+      "entertainment",
+      "movies",
+      "film-history"
+    ],
+    "status": "active"
+  }
+]

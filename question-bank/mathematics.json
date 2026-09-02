@@ -1,0 +1,64 @@
+[
+  {
+    "id": "MATH-000001",
+    "category": "Mathematics",
+    "subcategory": "Geometry",
+    "difficulty": "easy",
+    "question": "What is the Pythagorean theorem for a right triangle with hypotenuse c and sides a and b?",
+    "options": [
+      "a² + b² = c²",
+      "a + b = c",
+      "a² × b² = c²",
+      "2a + 2b = c²"
+    ],
+    "answer": 0,
+    "explanation": "The Pythagorean theorem states: in a right-angled triangle, a² + b² = c².",
+    "tags": [
+      "mathematics",
+      "geometry"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MATH-000002",
+    "category": "Mathematics",
+    "subcategory": "Statistics",
+    "difficulty": "medium",
+    "question": "What is the arithmetic mean (average) of the numbers: 12, 18, 24, 30, and 36?",
+    "options": [
+      "24",
+      "22",
+      "26",
+      "28"
+    ],
+    "answer": 0,
+    "explanation": "Sum = 12 + 18 + 24 + 30 + 36 = 120. Divide by 5 = 24.",
+    "tags": [
+      "mathematics",
+      "statistics",
+      "mean"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "MATH-000003",
+    "category": "Mathematics",
+    "subcategory": "Calculus",
+    "difficulty": "hard",
+    "question": "What is the first derivative with respect to x of the function f(x) = x³ - 4x² + 7x - 5?",
+    "options": [
+      "f'(x) = 3x² - 8x + 7",
+      "f'(x) = 3x² - 4x + 7",
+      "f'(x) = x² - 8x + 7",
+      "f'(x) = 3x³ - 8x² + 7"
+    ],
+    "answer": 0,
+    "explanation": "Using the power rule d/dx[x^n] = n*x^(n-1): d/dx[x³] = 3x², d/dx[-4x²] = -8x, d/dx[7x] = 7, d/dx[-5] = 0.",
+    "tags": [
+      "mathematics",
+      "calculus",
+      "derivatives"
+    ],
+    "status": "active"
+  }
+]

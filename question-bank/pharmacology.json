@@ -1,0 +1,67 @@
+[
+  {
+    "id": "PHARM-000001",
+    "category": "Pharmacology",
+    "subcategory": "Antihypertensives",
+    "difficulty": "medium",
+    "question": "Which class of antihypertensive medications commonly causes a dry, persistent cough due to bradykinin accumulation?",
+    "options": [
+      "ACE Inhibitors (e.g. Lisinopril)",
+      "Beta Blockers (e.g. Metoprolol)",
+      "Calcium Channel Blockers (e.g. Amlodipine)",
+      "Thiazide Diuretics (e.g. Hydrochlorothiazide)"
+    ],
+    "answer": 0,
+    "explanation": "ACE inhibitors prevent the breakdown of bradykinin and substance P in the respiratory tract, provoking a dry cough.",
+    "tags": [
+      "pharmacology",
+      "hypertension",
+      "ace-inhibitors"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000002",
+    "category": "Pharmacology",
+    "subcategory": "Antidotes",
+    "difficulty": "hard",
+    "question": "What is the specific reversal agent (antidote) for heparin-induced anticoagulation?",
+    "options": [
+      "Protamine Sulfate",
+      "Vitamin K (Phytonadione)",
+      "Naloxone (Narcan)",
+      "Flumazenil"
+    ],
+    "answer": 0,
+    "explanation": "Protamine sulfate binds strongly to heparin to form an inactive salt complex. Vitamin K reverses Warfarin.",
+    "tags": [
+      "pharmacology",
+      "antidotes",
+      "hematology",
+      "heparin"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "PHARM-000003",
+    "category": "Pharmacology",
+    "subcategory": "Analgesics",
+    "difficulty": "easy",
+    "question": "What is the specific emergency reversal medication administered for opioid overdose (respiratory depression)?",
+    "options": [
+      "Naloxone (Narcan)",
+      "Atropine",
+      "Epinephrine",
+      "Glucagon"
+    ],
+    "answer": 0,
+    "explanation": "Naloxone is a pure opioid antagonist that rapidly displaces opioids from mu-receptors, reversing life-threatening respiratory depression.",
+    "tags": [
+      "pharmacology",
+      "emergency",
+      "opioids",
+      "naloxone"
+    ],
+    "status": "active"
+  }
+]

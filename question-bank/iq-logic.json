@@ -1,0 +1,66 @@
+[
+  {
+    "id": "IQ-000001",
+    "category": "IQ & Logic",
+    "subcategory": "Number Series",
+    "difficulty": "medium",
+    "question": "Look at this sequence: 2, 6, 12, 20, 30, ___ . What number comes next in the pattern?",
+    "options": [
+      "42",
+      "40",
+      "38",
+      "48"
+    ],
+    "answer": 0,
+    "explanation": "The differences between consecutive terms increase by 2: +4, +6, +8, +10, so next is +12: 30 + 12 = 42.",
+    "tags": [
+      "iq-logic",
+      "patterns",
+      "series",
+      "deduction"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "IQ-000002",
+    "category": "IQ & Logic",
+    "subcategory": "Deductive Reasoning",
+    "difficulty": "hard",
+    "question": "If all Zips are Zaps, and some Zaps are Zops, which of the following statements is DEFINITIVELY true?",
+    "options": [
+      "Some Zaps are Zips",
+      "All Zips are Zops",
+      "No Zips are Zops",
+      "All Zops are Zips"
+    ],
+    "answer": 0,
+    "explanation": "If all Zips belong to the set of Zaps (assuming at least one Zip exists), then necessarily some elements in the set of Zaps are Zips.",
+    "tags": [
+      "iq-logic",
+      "logic",
+      "syllogisms"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "IQ-000003",
+    "category": "IQ & Logic",
+    "subcategory": "Logic Riddles",
+    "difficulty": "easy",
+    "question": "A farmer has 17 sheep and all but 9 die. How many sheep are still alive?",
+    "options": [
+      "9",
+      "8",
+      "0",
+      "17"
+    ],
+    "answer": 0,
+    "explanation": "'All but 9 die' means exactly 9 sheep survived and are still alive.",
+    "tags": [
+      "iq-logic",
+      "riddles",
+      "math"
+    ],
+    "status": "active"
+  }
+]

@@ -3,12 +3,16 @@
  * Pure Vanilla JavaScript Quiz Engine.
  * Handles state management, Fisher-Yates shuffling with option remapping,
  * session duplicate prevention, timer, scoring, and deterministic Daily Quiz generator.
+ * Decoupled from storage via Data Provider layer.
  */
 
 class WKQuizEngine {
   constructor(options = {}) {
     this.config = Object.assign({
       defaultLength: 10,
+      availableLengths: [5, 10, 20, 50],
+      availableDifficulties: ["easy", "medium", "hard"],
+      defaultDifficulty: "medium",
       timePerQuestionSeconds: 20,
       enableAnswerShuffle: true,
       enableQuestionShuffle: true,
@@ -16,7 +20,17 @@ class WKQuizEngine {
       passingScorePercentage: 70
     }, options.config || (typeof WKQUIZ_CONFIG !== "undefined" ? WKQUIZ_CONFIG.quiz : {}));
 
-    this.bank = options.bank || (typeof questionBankInstance !== "undefined" ? questionBankInstance : null);
+    // Data Provider interface
+    if (options.provider) {
+      this.provider = options.provider;
+    } else if (options.bank) {
+      // Compatibility wrapper
+      this.provider = new WKQuizDataProvider({ questions: options.bank.getAll ? options.bank.getAll() : [] });
+    } else if (typeof WKQuizDataProvider !== "undefined") {
+      this.provider = new WKQuizDataProvider();
+    } else {
+      this.provider = null;
+    }
 
     // Runtime state
     this.sessionUsedIds = new Set();
@@ -27,7 +41,10 @@ class WKQuizEngine {
     this.maxStreak = 0;
     this.userAnswers = [];
     this.isCompleted = false;
-    this.mode = "classic"; // classic, quick, challenge, exam, timed, survival, daily
+    this.mode = "classic";
+    this.difficulty = "medium";
+    this.category = "all";
+    this.shortageNotice = "";
     this.startTime = null;
     this.endTime = null;
 
@@ -50,9 +67,7 @@ class WKQuizEngine {
             parsed.forEach(id => this.sessionUsedIds.add(id));
           }
         }
-      } catch (e) {
-        // Fallback silently if sessionStorage is blocked
-      }
+      } catch (e) {}
     }
   }
 
@@ -60,9 +75,7 @@ class WKQuizEngine {
     if (typeof sessionStorage !== "undefined") {
       try {
         sessionStorage.setItem("wkquiz_used_ids", JSON.stringify([...this.sessionUsedIds]));
-      } catch (e) {
-        // Fallback
-      }
+      } catch (e) {}
     }
   }
 
@@ -78,21 +91,18 @@ class WKQuizEngine {
     };
   }
 
-  /**
-   * String to numeric 32-bit hash
-   */
   _hashString(str) {
     let hash = 0;
     for (let i = 0; i < str.length; i++) {
       const char = str.charCodeAt(i);
       hash = ((hash << 5) - hash) + char;
-      hash |= 0; // Convert to 32bit integer
+      hash |= 0;
     }
     return Math.abs(hash);
   }
 
   /**
-   * Standard Fisher-Yates Array Shuffle (with optional custom PRNG)
+   * Standard Fisher-Yates Array Shuffle
    */
   _shuffleArray(array, customRng = Math.random) {
     const arr = [...array];
@@ -110,7 +120,6 @@ class WKQuizEngine {
     const originalOptions = question.options;
     const correctOptionText = originalOptions[question.answer];
 
-    // Create indexed array
     const indexed = originalOptions.map((text, idx) => ({ text, isCorrect: idx === question.answer }));
     const shuffled = this._shuffleArray(indexed, customRng);
 
@@ -130,25 +139,31 @@ class WKQuizEngine {
   startQuiz(params = {}) {
     const mode = params.mode || "classic";
     const category = params.category || "all";
-    const difficulty = params.difficulty || "all";
-    let length = params.length || 10;
+    const difficulty = params.difficulty || this.config.defaultDifficulty || "medium";
+    let length = params.length || this.config.defaultLength || 10;
 
-    // Adjust length according to mode presets
     if (mode === "quick") length = 5;
-    else if (mode === "classic") length = 10;
+    else if (mode === "classic" && !params.length) length = 10;
     else if (mode === "challenge") length = 20;
     else if (mode === "exam") length = 50;
 
     this.mode = mode;
+    this.category = category;
+    this.difficulty = difficulty;
     this.currentIndex = 0;
     this.score = 0;
     this.streak = 0;
     this.maxStreak = 0;
     this.userAnswers = [];
     this.isCompleted = false;
+    this.shortageNotice = "";
     this.startTime = Date.now();
     this.endTime = null;
     this.stopTimer();
+
+    if (!this.provider) {
+      throw new Error("No Data Provider configured for Quiz Engine");
+    }
 
     let pool = [];
 
@@ -158,26 +173,36 @@ class WKQuizEngine {
       const seed = this._hashString("WKQUIZ_DAILY_" + todayStr);
       const rng = this._mulberry32(seed);
 
-      const allQuestions = this.bank ? this.bank.getAll() : [];
-      if (allQuestions.length === 0) {
+      const queryResult = this.provider.getQuestions({ category: "all", difficulty: "all", status: "active" });
+      const allActive = queryResult.questions;
+
+      if (allActive.length === 0) {
         throw new Error("Question bank is empty");
       }
 
-      // Shuffle entire pool deterministically and pick length
-      const shuffledDaily = this._shuffleArray(allQuestions, rng);
+      const shuffledDaily = this._shuffleArray(allActive, rng);
       const selected = shuffledDaily.slice(0, Math.min(length, shuffledDaily.length));
 
       pool = selected.map(q => this._shuffleQuestionOptions(q, rng));
     } else {
-      // Regular or Category Quiz
-      let available = this.bank ? this.bank.filter({ category, difficulty }) : [];
+      // Standard or Category Quiz filtered by 3 Difficulties (Easy, Medium, Hard)
+      const queryResult = this.provider.getQuestions({
+        category,
+        difficulty,
+        length,
+        status: "active"
+      });
+
+      let available = queryResult.questions;
+
       if (available.length === 0) {
-        // Fallback to all questions if category is empty
-        available = this.bank ? this.bank.getAll() : [];
+        // Fallback to all difficulties within category if requested difficulty has 0 questions
+        const fallbackQuery = this.provider.getQuestions({ category, difficulty: "all", status: "active" });
+        available = fallbackQuery.questions;
       }
 
       if (available.length === 0) {
-        throw new Error("No questions found for the selected criteria");
+        throw new Error(`No active questions available for "${category}".`);
       }
 
       // Session duplicate prevention
@@ -187,30 +212,30 @@ class WKQuizEngine {
         if (unused.length >= length) {
           candidatePool = unused;
         } else if (unused.length > 0) {
-          // If fewer unused remain than requested length, use all unused and reset session tracking for category
           candidatePool = unused;
           this.sessionUsedIds.clear();
           this._saveSessionStorage();
         } else {
-          // All used up, reset session tracking
           this.sessionUsedIds.clear();
           this._saveSessionStorage();
           candidatePool = available;
         }
       }
 
-      // Shuffle questions
+      // Check for shortage notice (never duplicate questions!)
+      if (candidatePool.length < length) {
+        this.shortageNotice = `Note: Only ${candidatePool.length} active questions available for ${category.toUpperCase()} (${difficulty.toUpperCase()}).`;
+      }
+
       const shuffledQuestions = this.config.enableQuestionShuffle 
         ? this._shuffleArray(candidatePool) 
         : [...candidatePool];
 
       const selected = shuffledQuestions.slice(0, Math.min(length, shuffledQuestions.length));
 
-      // Mark IDs as used in this session
       selected.forEach(q => this.sessionUsedIds.add(q.id));
       this._saveSessionStorage();
 
-      // Shuffle options for each selected question
       pool = selected.map(q => {
         return this.config.enableAnswerShuffle 
           ? this._shuffleQuestionOptions(q) 
@@ -223,16 +248,15 @@ class WKQuizEngine {
       mode,
       category,
       difficulty,
+      requestedLength: length,
       totalQuestions: pool.length,
+      shortageNotice: this.shortageNotice,
       questions: pool
     };
 
     return this.getCurrentQuestion();
   }
 
-  /**
-   * Get current question details (without revealing answer directly)
-   */
   getCurrentQuestion() {
     if (!this.currentQuiz || this.currentIndex >= this.currentQuiz.questions.length) {
       return null;
@@ -250,14 +274,11 @@ class WKQuizEngine {
       question: q.question,
       options: [...q.options],
       progressPercentage: Math.round(((this.currentIndex) / this.currentQuiz.totalQuestions) * 100),
-      mode: this.mode
+      mode: this.mode,
+      shortageNotice: this.shortageNotice
     };
   }
 
-  /**
-   * Submit answer for the current question
-   * @param {number} selectedOptionIndex - 0-indexed selection
-   */
   submitAnswer(selectedOptionIndex) {
     if (!this.currentQuiz || this.isCompleted) {
       throw new Error("No active quiz in progress");
@@ -293,7 +314,7 @@ class WKQuizEngine {
     const isSurvivalOver = (this.mode === "survival" && !isCorrect);
     const hasNext = (this.currentIndex + 1 < this.currentQuiz.totalQuestions) && !isSurvivalOver;
 
-    const result = {
+    return {
       isCorrect,
       correctIndex: currentQ.answer,
       selectedIndex: selectedOptionIndex,
@@ -305,13 +326,8 @@ class WKQuizEngine {
       questionNumber: this.currentIndex + 1,
       totalQuestions: this.currentQuiz.totalQuestions
     };
-
-    return result;
   }
 
-  /**
-   * Advance to the next question
-   */
   nextQuestion() {
     if (!this.currentQuiz) return null;
 
@@ -324,9 +340,6 @@ class WKQuizEngine {
     return this.getCurrentQuestion();
   }
 
-  /**
-   * Complete the quiz and generate final evaluation
-   */
   finishQuiz() {
     this.isCompleted = true;
     this.endTime = Date.now();
@@ -360,6 +373,7 @@ class WKQuizEngine {
       quizId: this.currentQuiz ? this.currentQuiz.id : "",
       mode: this.mode,
       category: this.currentQuiz ? this.currentQuiz.category : "all",
+      difficulty: this.difficulty,
       score: this.score,
       totalQuestions: total,
       percentage,
@@ -372,9 +386,6 @@ class WKQuizEngine {
     };
   }
 
-  /**
-   * Start question countdown timer
-   */
   startTimer(durationSeconds, onTick, onTimeExpired) {
     this.stopTimer();
     this.timeRemaining = durationSeconds || this.config.timePerQuestionSeconds;
@@ -399,9 +410,6 @@ class WKQuizEngine {
     }, 1000);
   }
 
-  /**
-   * Stop active timer
-   */
   stopTimer() {
     if (this.timerInterval) {
       clearInterval(this.timerInterval);
@@ -409,13 +417,10 @@ class WKQuizEngine {
     }
   }
 
-  /**
-   * Generate viral social share text
-   */
   getSharePayload(finalStats, siteUrl = "") {
     const stats = finalStats || this.finishQuiz();
     const catName = stats.category ? stats.category.toUpperCase() : "WKQUIZ";
-    const text = `I scored ${stats.score}/${stats.totalQuestions} (${stats.percentage}%) on WKQuiz's ${catName} Challenge! Can you beat my score? 🧠🔥`;
+    const text = `I scored ${stats.score}/${stats.totalQuestions} (${stats.percentage}%) on WKQuiz's ${catName} Challenge (${(stats.difficulty || 'MEDIUM').toUpperCase()})! Can you beat my score? 🧠🔥`;
     const shareUrl = siteUrl || (typeof window !== "undefined" ? window.location.href : "https://wkquiz.com");
 
     return {

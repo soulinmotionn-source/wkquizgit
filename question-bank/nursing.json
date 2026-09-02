@@ -1,0 +1,131 @@
+[
+  {
+    "id": "NURS-000001",
+    "category": "Nursing",
+    "subcategory": "Fundamentals",
+    "difficulty": "medium",
+    "question": "Which position is most appropriate for a patient experiencing acute shortness of breath (dyspnea)?",
+    "options": [
+      "High Fowler's position (60-90 degrees)",
+      "Trendelenburg position",
+      "Prone position",
+      "Supine with legs elevated"
+    ],
+    "answer": 0,
+    "explanation": "High Fowler's position maximizes lung expansion and facilitates diaphragm descent, easing respiratory distress.",
+    "tags": [
+      "nursing",
+      "respiratory",
+      "patient-care",
+      "positioning"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000002",
+    "category": "Nursing",
+    "subcategory": "Infection Control",
+    "difficulty": "easy",
+    "question": "What is the single most effective intervention to prevent the spread of healthcare-associated infections (HAIs)?",
+    "options": [
+      "Routine hand hygiene before and after patient contact",
+      "Wearing double gloves for all procedures",
+      "Prophylactic antibiotic administration",
+      "Sterilizing room surfaces twice daily"
+    ],
+    "answer": 0,
+    "explanation": "Consistent hand hygiene before and after patient contact is recognized globally as the primary measure to prevent HAIs.",
+    "tags": [
+      "nursing",
+      "infection-control",
+      "safety"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000003",
+    "category": "Nursing",
+    "subcategory": "Assessment",
+    "difficulty": "hard",
+    "question": "When assessing a patient with suspected hypocalcemia, which clinical finding is known as Chvostek's sign?",
+    "options": [
+      "Twitching of facial muscles elicited by tapping the facial nerve",
+      "Carpal spasm induced by inflating a blood pressure cuff above systolic pressure",
+      "Numbness and tingling around the lips and fingertips",
+      "Hyperactive deep tendon reflexes in the lower extremities"
+    ],
+    "answer": 0,
+    "explanation": "Chvostek's sign is facial muscle twitching when tapping anterior to the ear. Trousseau's sign refers to carpal spasm with cuff inflation.",
+    "tags": [
+      "nursing",
+      "assessment",
+      "electrolytes",
+      "hypocalcemia"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000004",
+    "category": "Nursing",
+    "subcategory": "Wound Care",
+    "difficulty": "easy",
+    "question": "What is a Stage 1 pressure injury characterized by?",
+    "options": [
+      "Non-blanchable erythema of intact skin",
+      "Partial-thickness skin loss with exposed dermis",
+      "Full-thickness skin loss with visible adipose tissue",
+      "Full-thickness skin and tissue loss with exposed bone"
+    ],
+    "answer": 0,
+    "explanation": "Stage 1 pressure injury involves intact skin with a localized area of non-blanchable erythema.",
+    "tags": [
+      "nursing",
+      "wound-care",
+      "skin"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000005",
+    "category": "Nursing",
+    "subcategory": "Medication Administration",
+    "difficulty": "medium",
+    "question": "When administering an intramuscular (IM) injection to an adult in the ventrogluteal site, which needle length is standard?",
+    "options": [
+      "1.5 inches (38 mm)",
+      "0.5 inches (12 mm)",
+      "3.0 inches (76 mm)",
+      "0.25 inches (6 mm)"
+    ],
+    "answer": 0,
+    "explanation": "A 1 to 1.5 inch needle is standard for adult ventrogluteal intramuscular injections to reach deep muscle tissue safely.",
+    "tags": [
+      "nursing",
+      "medication",
+      "im-injection"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NURS-000006",
+    "category": "Nursing",
+    "subcategory": "Fluid & Electrolytes",
+    "difficulty": "hard",
+    "question": "Which ECG change is most characteristic of severe hyperkalemia (elevated serum potassium)?",
+    "options": [
+      "Tall, peaked T waves and widened QRS complexes",
+      "Prominent U waves and ST segment depression",
+      "Shortened PR interval and Delta waves",
+      "Prolonged QT interval and inverted P waves"
+    ],
+    "answer": 0,
+    "explanation": "Tall, peaked ('tented') T waves, prolonged PR intervals, and widened QRS complexes are hallmark signs of severe hyperkalemia.",
+    "tags": [
+      "nursing",
+      "electrolytes",
+      "ecg",
+      "hyperkalemia"
+    ],
+    "status": "active"
+  }
+]

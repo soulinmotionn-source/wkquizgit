@@ -1,0 +1,65 @@
+[
+  {
+    "id": "ELECSYM-000001",
+    "category": "Electrical Symbols",
+    "subcategory": "Schematic Symbols",
+    "difficulty": "easy",
+    "question": "In electrical circuit schematics, what does a symbol composed of alternating long and short parallel lines represent?",
+    "options": [
+      "DC Voltage Source / Battery",
+      "Capacitor",
+      "Ground connection",
+      "Transformer"
+    ],
+    "answer": 0,
+    "explanation": "Alternating long (positive) and short thick (negative) parallel lines represent a DC chemical battery or cell.",
+    "tags": [
+      "electrical-symbols",
+      "schematics",
+      "circuits"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECSYM-000002",
+    "category": "Electrical Symbols",
+    "subcategory": "Passive Components",
+    "difficulty": "medium",
+    "question": "On an electronic schematic, what component is depicted by a zigzag line in US standards or a plain rectangle in IEC European standards?",
+    "options": [
+      "Resistor",
+      "Inductor",
+      "Diode",
+      "Fuse"
+    ],
+    "answer": 0,
+    "explanation": "ANSI/IEEE US schematics use a zigzag line for fixed resistors; IEC/European schematics use an open rectangle.",
+    "tags": [
+      "electrical-symbols",
+      "resistors",
+      "blueprints"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ELECSYM-000003",
+    "category": "Electrical Symbols",
+    "subcategory": "Semiconductors",
+    "difficulty": "hard",
+    "question": "What electronic symbol is represented by a triangle pointing toward a vertical line with two small outward arrows pointing away from the triangle?",
+    "options": [
+      "Light Emitting Diode (LED)",
+      "Photodiode",
+      "Zener Diode",
+      "Schottky Diode"
+    ],
+    "answer": 0,
+    "explanation": "A diode triangle with outward-pointing arrows signifies a Light Emitting Diode (LED). Inward arrows represent a photodiode.",
+    "tags": [
+      "electrical-symbols",
+      "diodes",
+      "led"
+    ],
+    "status": "active"
+  }
+]

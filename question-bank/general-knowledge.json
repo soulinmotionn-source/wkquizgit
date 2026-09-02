@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GK-000001",
+    "category": "General Knowledge",
+    "subcategory": "Earth Science",
+    "difficulty": "easy",
+    "question": "What is the hardest naturally occurring mineral substance on planet Earth?",
+    "options": [
+      "Diamond",
+      "Corundum",
+      "Topaz",
+      "Quartz"
+    ],
+    "answer": 0,
+    "explanation": "Diamond rates a maximum of 10 on the Mohs scale of mineral hardness.",
+    "tags": [
+      "general-knowledge",
+      "minerals",
+      "science"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GK-000002",
+    "category": "General Knowledge",
+    "subcategory": "World Heritage",
+    "difficulty": "medium",
+    "question": "In which country is the ancient pre-Columbian Inca citadel of Machu Picchu located?",
+    "options": [
+      "Peru",
+      "Bolivia",
+      "Chile",
+      "Mexico"
+    ],
+    "answer": 0,
+    "explanation": "Machu Picchu is a 15th-century Inca citadel located in the Cusco Region of Peru.",
+    "tags": [
+      "general-knowledge",
+      "geography",
+      "history",
+      "landmarks"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GK-000003",
+    "category": "General Knowledge",
+    "subcategory": "Oceans & Geography",
+    "difficulty": "hard",
+    "question": "What is the deepest known point in the Earth's oceans, situated in the Western Pacific?",
+    "options": [
+      "Challenger Deep (Mariana Trench)",
+      "Puerto Rico Trench",
+      "Java Trench",
+      "Tonga Trench"
+    ],
+    "answer": 0,
+    "explanation": "Challenger Deep in the Mariana Trench reaches a depth of approximately 10,928 meters (35,853 feet).",
+    "tags": [
+      "general-knowledge",
+      "geography",
+      "oceans"
+    ],
+    "status": "active"
+  }
+]

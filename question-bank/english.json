@@ -1,0 +1,64 @@
+[
+  {
+    "id": "ENG-LANG-000001",
+    "category": "English & Grammar",
+    "subcategory": "Grammar",
+    "difficulty": "easy",
+    "question": "Which sentence demonstrates correct subject-verb agreement?",
+    "options": [
+      "Neither the doctor nor the nurses were available.",
+      "Neither the doctor nor the nurses was available.",
+      "Every one of the candidates have submitted papers.",
+      "The list of items are on the desk."
+    ],
+    "answer": 0,
+    "explanation": "With 'neither... nor...', the verb agrees with the closer subject ('the nurses' is plural, requiring 'were').",
+    "tags": [
+      "english",
+      "grammar"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENG-LANG-000002",
+    "category": "English & Grammar",
+    "subcategory": "Vocabulary",
+    "difficulty": "medium",
+    "question": "What is the antonym (opposite meaning) of the word 'Ephemeral'?",
+    "options": [
+      "Permanent",
+      "Fleeting",
+      "Transient",
+      "Brief"
+    ],
+    "answer": 0,
+    "explanation": "'Ephemeral' means lasting for a very short time; its antonym is 'permanent' or 'enduring'.",
+    "tags": [
+      "english",
+      "vocabulary",
+      "antonyms"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENG-LANG-000003",
+    "category": "English & Grammar",
+    "subcategory": "Figures of Speech",
+    "difficulty": "hard",
+    "question": "What rhetorical device is used in the phrase 'He is no fool' to affirm a positive by negating its contrary?",
+    "options": [
+      "Litotes",
+      "Chiasmus",
+      "Synecdoche",
+      "Metonymy"
+    ],
+    "answer": 0,
+    "explanation": "Litotes is an understatement in which an affirmative is expressed by negating its opposite (e.g. 'not bad', 'no fool').",
+    "tags": [
+      "english",
+      "rhetoric",
+      "figures-of-speech"
+    ],
+    "status": "active"
+  }
+]

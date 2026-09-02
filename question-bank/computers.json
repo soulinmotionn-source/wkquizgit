@@ -1,0 +1,65 @@
+[
+  {
+    "id": "COMP-000001",
+    "category": "Computers",
+    "subcategory": "Hardware",
+    "difficulty": "easy",
+    "question": "Which computer component is volatile memory that loses all data when the power is turned off?",
+    "options": [
+      "RAM (Random Access Memory)",
+      "SSD (Solid State Drive)",
+      "ROM (Read-Only Memory)",
+      "NVMe Storage"
+    ],
+    "answer": 0,
+    "explanation": "RAM is high-speed volatile working memory that clears when electrical power is removed.",
+    "tags": [
+      "computers",
+      "hardware",
+      "ram"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "COMP-000002",
+    "category": "Computers",
+    "subcategory": "Data Units",
+    "difficulty": "easy",
+    "question": "How many binary bits are contained within exactly one standard Byte?",
+    "options": [
+      "8 bits",
+      "4 bits",
+      "16 bits",
+      "32 bits"
+    ],
+    "answer": 0,
+    "explanation": "One byte consists of 8 bits. A 4-bit nibble is half a byte.",
+    "tags": [
+      "computers",
+      "binary",
+      "data"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "COMP-000003",
+    "category": "Computers",
+    "subcategory": "Architecture",
+    "difficulty": "hard",
+    "question": "In CPU architecture, what does the 'L1 Cache' offer compared to L2, L3, and main RAM?",
+    "options": [
+      "Smallest capacity but lowest latency and fastest access speed",
+      "Largest storage capacity for persistent files",
+      "Direct connection to graphics processing cores",
+      "Non-volatile storage for BIOS firmware"
+    ],
+    "answer": 0,
+    "explanation": "Level 1 (L1) cache is built directly into the processor core, operating at CPU clock speed with sub-nanosecond latency.",
+    "tags": [
+      "computers",
+      "cpu",
+      "cache"
+    ],
+    "status": "active"
+  }
+]

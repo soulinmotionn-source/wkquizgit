@@ -26,16 +26,18 @@ const WKQUIZ_CONFIG = {
   // Quiz Engine Settings
   quiz: {
     defaultLength: 10,
-    availableLengths: [5, 10, 20, 50],
-    defaultMode: "classic", // quick (5), classic (10), challenge (20), exam (50), timed, survival, daily
-    timePerQuestionSeconds: 20, // Used for timed mode
-    examTotalMinutes: 30, // Used for 50-question exam mode
+    availableLengths: [5, 10, 20, 50], // Central configurable question counts
+    availableDifficulties: ["easy", "medium", "hard"], // Strictly 3 difficulty levels
+    defaultDifficulty: "medium",
+    defaultMode: "classic",
+    timePerQuestionSeconds: 20,
+    examTotalMinutes: 30,
     enableTimerByDefault: false,
     enableExplanations: true,
     enableAnswerShuffle: true,
     enableQuestionShuffle: true,
     preventSessionDuplicates: true,
-    soundEffectsEnabled: false, // Synthesized Web Audio API sound effects
+    soundEffectsEnabled: false,
     passingScorePercentage: 70,
     streakBonusPoints: 10,
   },
@@ -43,12 +45,12 @@ const WKQUIZ_CONFIG = {
   // Theme & Appearance
   theme: {
     enableDarkMode: true,
-    defaultTheme: "light", // "light" | "dark" | "system"
-    accentColor: "#4f46e5", // Indigo / Modern Violet
-    secondaryColor: "#06b6d4", // Cyan
+    defaultTheme: "light",
+    accentColor: "#4f46e5",
+    secondaryColor: "#06b6d4",
   },
 
-  // Ad Slots Configuration (Easily enable/disable ad spots)
+  // Ad Slots Configuration
   ads: {
     topAd: { enabled: true, label: "Advertisement - Top Banner" },
     beforeContentAd: { enabled: true, label: "Advertisement - Before Quiz" },

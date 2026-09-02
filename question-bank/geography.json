@@ -1,0 +1,62 @@
+[
+  {
+    "id": "GEO-000001",
+    "category": "Geography",
+    "subcategory": "Rivers",
+    "difficulty": "easy",
+    "question": "Which is widely recognized as the longest river in the world?",
+    "options": [
+      "The Nile River",
+      "The Amazon River",
+      "The Yangtze River",
+      "The Mississippi River"
+    ],
+    "answer": 0,
+    "explanation": "The Nile River in northeastern Africa flows approximately 6,650 km (4,132 miles).",
+    "tags": [
+      "geography",
+      "rivers"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GEO-000002",
+    "category": "Geography",
+    "subcategory": "Capitals",
+    "difficulty": "medium",
+    "question": "What is the capital city of Australia?",
+    "options": [
+      "Canberra",
+      "Sydney",
+      "Melbourne",
+      "Brisbane"
+    ],
+    "answer": 0,
+    "explanation": "Canberra was founded in 1913 as the compromise capital between Sydney and Melbourne.",
+    "tags": [
+      "geography",
+      "capitals"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "GEO-000003",
+    "category": "Geography",
+    "subcategory": "Physical Geography",
+    "difficulty": "hard",
+    "question": "What is the only sea on Earth with no land boundaries, bounded entirely by ocean currents in the North Atlantic?",
+    "options": [
+      "Sargasso Sea",
+      "Coral Sea",
+      "Baltic Sea",
+      "Tasman Sea"
+    ],
+    "answer": 0,
+    "explanation": "The Sargasso Sea is defined entirely by four North Atlantic ocean currents that form an ocean gyre.",
+    "tags": [
+      "geography",
+      "oceans"
+    ],
+    "status": "active"
+  }
+]

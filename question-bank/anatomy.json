@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ANAT-000001",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Cardiovascular",
+    "difficulty": "easy",
+    "question": "Which chamber of the human heart pumps oxygen-rich blood into the aorta to supply the entire body?",
+    "options": [
+      "Left Ventricle",
+      "Right Ventricle",
+      "Left Atrium",
+      "Right Atrium"
+    ],
+    "answer": 0,
+    "explanation": "The Left Ventricle has the thickest myocardium and pumps oxygenated blood under high pressure through the aortic valve into systemic circulation.",
+    "tags": [
+      "anatomy",
+      "heart",
+      "cardiovascular"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANAT-000002",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Neuroanatomy",
+    "difficulty": "medium",
+    "question": "Which part of the brain is primarily responsible for motor coordination, balance, and fine motor skills?",
+    "options": [
+      "Cerebellum",
+      "Cerebrum",
+      "Hypothalamus",
+      "Medulla oblongata"
+    ],
+    "answer": 0,
+    "explanation": "The cerebellum coordinates voluntary muscle movements, equilibrium, and motor posture.",
+    "tags": [
+      "anatomy",
+      "neuroscience",
+      "brain"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANAT-000003",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Skeletal System",
+    "difficulty": "easy",
+    "question": "What is the longest and strongest bone in the human skeleton?",
+    "options": [
+      "Femur (thigh bone)",
+      "Tibia (shin bone)",
+      "Humerus (upper arm bone)",
+      "Fibula"
+    ],
+    "answer": 0,
+    "explanation": "The femur is the longest, heaviest, and strongest bone in the human body.",
+    "tags": [
+      "anatomy",
+      "skeletal",
+      "bones"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ANAT-000004",
+    "category": "Anatomy & Physiology",
+    "subcategory": "Endocrine System",
+    "difficulty": "hard",
+    "question": "The islets of Langerhans are microscopic clusters of endocrine cells located in which organ?",
+    "options": [
+      "Pancreas",
+      "Liver",
+      "Adrenal gland",
+      "Thyroid gland"
+    ],
+    "answer": 0,
+    "explanation": "The islets of Langerhans in the pancreas contain alpha, beta, and delta cells producing glucagon, insulin, and somatostatin.",
+    "tags": [
+      "anatomy",
+      "endocrine",
+      "pancreas"
+    ],
+    "status": "active"
+  }
+]

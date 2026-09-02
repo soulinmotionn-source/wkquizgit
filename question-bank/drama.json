@@ -1,0 +1,65 @@
+[
+  {
+    "id": "DRAMA-000001",
+    "category": "Drama",
+    "subcategory": "Crime Drama",
+    "difficulty": "medium",
+    "question": "Which acclaimed HBO drama series followed New Jersey mobster Tony Soprano balancing family and organized crime?",
+    "options": [
+      "The Sopranos",
+      "The Wire",
+      "Boardwalk Empire",
+      "Peaky Blinders"
+    ],
+    "answer": 0,
+    "explanation": "The Sopranos (1999-2007) starring James Gandolfini is considered a landmark television drama.",
+    "tags": [
+      "drama",
+      "the-sopranos",
+      "hbo"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-000002",
+    "category": "Drama",
+    "subcategory": "Korean Drama",
+    "difficulty": "easy",
+    "question": "Which 2021 South Korean survival drama series became Netflix's most-watched series worldwide?",
+    "options": [
+      "Squid Game",
+      "Crash Landing on You",
+      "All of Us Are Dead",
+      "The Glory"
+    ],
+    "answer": 0,
+    "explanation": "Hwang Dong-hyuk's 'Squid Game' recorded over 1.65 billion viewing hours in its first 28 days.",
+    "tags": [
+      "drama",
+      "squid-game",
+      "k-drama"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "DRAMA-000003",
+    "category": "Drama",
+    "subcategory": "Historical Drama",
+    "difficulty": "hard",
+    "question": "In the period drama 'Mad Men', what Madison Avenue advertising agency does Don Draper initially work for?",
+    "options": [
+      "Sterling Cooper",
+      "McCann Erickson",
+      "Cutler Gleason Chaough",
+      "Ogilvy & Mather"
+    ],
+    "answer": 0,
+    "explanation": "Don Draper is the creative director at Sterling Cooper Advertising Agency in 1960s New York.",
+    "tags": [
+      "drama",
+      "mad-men",
+      "tv"
+    ],
+    "status": "active"
+  }
+]

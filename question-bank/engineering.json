@@ -1,0 +1,65 @@
+[
+  {
+    "id": "ENG-000001",
+    "category": "Engineering",
+    "subcategory": "Materials",
+    "difficulty": "medium",
+    "question": "According to Hooke's Law in mechanical engineering, stress is directly proportional to what within the elastic limit?",
+    "options": [
+      "Strain",
+      "Temperature",
+      "Volume",
+      "Viscosity"
+    ],
+    "answer": 0,
+    "explanation": "Hooke's Law states that within a material's elastic limit, stress is proportional to strain (σ = E · ε).",
+    "tags": [
+      "engineering",
+      "mechanics",
+      "materials"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENG-000002",
+    "category": "Engineering",
+    "subcategory": "Civil & Structural",
+    "difficulty": "easy",
+    "question": "Which geometric shape is recognized as the most inherently stable and rigid structure used in bridges and roof trusses?",
+    "options": [
+      "Triangle",
+      "Square",
+      "Pentagon",
+      "Rectangle"
+    ],
+    "answer": 0,
+    "explanation": "Triangles cannot deform without changing the length of one of their sides, making them rigid under load.",
+    "tags": [
+      "engineering",
+      "structural",
+      "trusses"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ENG-000003",
+    "category": "Engineering",
+    "subcategory": "Fluid Dynamics",
+    "difficulty": "hard",
+    "question": "In fluid mechanics, which dimensionless number characterizes the transition between laminar and turbulent fluid flow?",
+    "options": [
+      "Reynolds Number (Re)",
+      "Mach Number (Ma)",
+      "Froude Number (Fr)",
+      "Prandtl Number (Pr)"
+    ],
+    "answer": 0,
+    "explanation": "The Reynolds number (Re) represents the ratio of inertial forces to viscous forces in a fluid flow.",
+    "tags": [
+      "engineering",
+      "fluids",
+      "reynolds"
+    ],
+    "status": "active"
+  }
+]

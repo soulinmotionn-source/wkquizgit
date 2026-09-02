@@ -1,0 +1,132 @@
+[
+  {
+    "id": "NCLEX-000001",
+    "category": "NCLEX",
+    "subcategory": "Prioritization",
+    "difficulty": "hard",
+    "question": "A nurse receives change-of-shift report on four clients. Which client should the nurse assess first?",
+    "options": [
+      "A client with asthma who was wheezing and is now silent with decreased air movement",
+      "A client with diabetes whose fasting blood glucose is 185 mg/dL",
+      "A client postoperative day 1 after knee replacement reporting 7/10 pain",
+      "A client with chronic kidney disease whose serum creatinine is 2.8 mg/dL"
+    ],
+    "answer": 0,
+    "explanation": "Using the ABC (Airway, Breathing, Circulation) priority framework, a silent chest in acute asthma indicates severe bronchospasm and impending respiratory failure.",
+    "tags": [
+      "NCLEX",
+      "prioritization",
+      "triage",
+      "emergency"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000002",
+    "category": "NCLEX",
+    "subcategory": "Pharmacology & Safety",
+    "difficulty": "medium",
+    "question": "A client with heart failure is taking Digoxin (Lanoxin) 0.25 mg daily. Which assessment finding warrants withholding the medication?",
+    "options": [
+      "Apical heart rate of 52 beats per minute",
+      "Blood pressure of 130/84 mmHg",
+      "Respiratory rate of 18 breaths per minute",
+      "Serum potassium level of 4.2 mEq/L"
+    ],
+    "answer": 0,
+    "explanation": "Digoxin should be withheld if the apical heart rate is below 60 bpm in an adult to avoid severe bradycardia and heart block.",
+    "tags": [
+      "NCLEX",
+      "pharmacology",
+      "cardiac",
+      "digoxin"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000003",
+    "category": "NCLEX",
+    "subcategory": "Maternal-Newborn",
+    "difficulty": "medium",
+    "question": "Which finding in a postpartum mother 4 hours after an uncomplicated vaginal delivery requires immediate nurse intervention?",
+    "options": [
+      "Fundus boggy and displaced to the right of the midline",
+      "Moderate lochia rubra on the perineal pad",
+      "Maternal temperature of 37.8°C (100.0°F)",
+      "Diaphoresis during sleep"
+    ],
+    "answer": 0,
+    "explanation": "A boggy fundus displaced to the right indicates urinary bladder distension, preventing uterine contraction and increasing the risk of postpartum hemorrhage.",
+    "tags": [
+      "NCLEX",
+      "maternal",
+      "postpartum",
+      "safety"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000004",
+    "category": "NCLEX",
+    "subcategory": "Fundamentals",
+    "difficulty": "easy",
+    "question": "What is the normal expected adult resting heart rate range in beats per minute (bpm)?",
+    "options": [
+      "60 to 100 bpm",
+      "40 to 60 bpm",
+      "100 to 140 bpm",
+      "50 to 70 bpm"
+    ],
+    "answer": 0,
+    "explanation": "A normal resting heart rate for healthy adults ranges from 60 to 100 beats per minute.",
+    "tags": [
+      "NCLEX",
+      "vitals",
+      "fundamentals"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000005",
+    "category": "NCLEX",
+    "subcategory": "Critical Care",
+    "difficulty": "hard",
+    "question": "A client with traumatic brain injury has an intracranial pressure (ICP) of 24 mmHg. Which nursing intervention is contraindicated?",
+    "options": [
+      "Placing the client in Trendelenburg position",
+      "Elevating the head of the bed 30 degrees",
+      "Administering prescribed osmotic diuretics (mannitol)",
+      "Maintaining the client's head and neck in neutral alignment"
+    ],
+    "answer": 0,
+    "explanation": "Trendelenburg position increases venous return from the lower extremities and impedes cerebral venous drainage, dangerously increasing ICP.",
+    "tags": [
+      "NCLEX",
+      "neurology",
+      "critical-care",
+      "safety"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "NCLEX-000006",
+    "category": "NCLEX",
+    "subcategory": "Infection Control",
+    "difficulty": "easy",
+    "question": "Which personal protective equipment (PPE) should the nurse don first when caring for a client on contact precautions?",
+    "options": [
+      "Gown followed by gloves",
+      "Gloves followed by gown",
+      "N95 respirator only",
+      "Shoe covers and goggles"
+    ],
+    "answer": 0,
+    "explanation": "Standard contact precautions require donning a clean gown first, followed by gloves covering the gown cuffs.",
+    "tags": [
+      "NCLEX",
+      "infection-control",
+      "ppe"
+    ],
+    "status": "active"
+  }
+]
