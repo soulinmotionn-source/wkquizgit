@@ -1,0 +1,11 @@
+{
+  "category": "NCLEX",
+  "slug": "nclex",
+  "version": "1.0.0-batch1",
+  "question_count": 8,
+  "easy": 3,
+  "medium": 3,
+  "hard": 2,
+  "status": "active",
+  "last_updated": "2026-09-03"
+}

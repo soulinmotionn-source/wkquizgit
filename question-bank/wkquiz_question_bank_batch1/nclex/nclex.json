@@ -1,0 +1,166 @@
+{
+  "category": "NCLEX",
+  "version": "1.0.0-batch1",
+  "questions": [
+    {
+      "id": "NCLEX-000001",
+      "category": "NCLEX",
+      "subcategory": "prioritization",
+      "difficulty": "easy",
+      "question": "Which client should the nurse assess first?",
+      "options": [
+        "A client with new-onset stridor",
+        "A client requesting a blanket",
+        "A client with chronic back pain rated 4/10",
+        "A client waiting for discharge papers"
+      ],
+      "answer": 0,
+      "explanation": "A client with new-onset stridor is correct because it directly matches the established definition, principle, or fact tested by the question.",
+      "tags": [
+        "nclex",
+        "prioritization"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000002",
+      "category": "NCLEX",
+      "subcategory": "delegation",
+      "difficulty": "easy",
+      "question": "Which task is appropriate to delegate to an unlicensed assistive personnel when allowed by policy?",
+      "options": [
+        "Developing a nursing care plan",
+        "Obtaining routine vital signs on a stable client",
+        "Initial assessment of a new client",
+        "Teaching insulin injection"
+      ],
+      "answer": 1,
+      "explanation": "Obtaining routine vital signs on a stable client is correct because it directly matches the established definition, principle, or fact tested by the question.",
+      "tags": [
+        "nclex",
+        "delegation"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000003",
+      "category": "NCLEX",
+      "subcategory": "infection-control",
+      "difficulty": "easy",
+      "question": "Which action is part of standard precautions?",
+      "options": [
+        "Place every patient in a negative-pressure room",
+        "Use sterile gloves for all contact",
+        "Perform hand hygiene before and after patient contact",
+        "Use an N95 respirator for every patient"
+      ],
+      "answer": 2,
+      "explanation": "Perform hand hygiene before and after patient contact is correct because it directly matches the established definition, principle, or fact tested by the question.",
+      "tags": [
+        "nclex",
+        "infection-control"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000004",
+      "category": "NCLEX",
+      "subcategory": "hypoglycemia",
+      "difficulty": "medium",
+      "question": "A client with suspected hypoglycemia is awake and able to swallow. What is the priority action?",
+      "options": [
+        "Administer long-acting insulin",
+        "Restrict oral intake",
+        "Encourage vigorous exercise",
+        "Give a rapid-acting source of carbohydrate"
+      ],
+      "answer": 3,
+      "explanation": "Give a rapid-acting source of carbohydrate is correct because it directly matches the established definition, principle, or fact tested by the question.",
+      "tags": [
+        "nclex",
+        "hypoglycemia"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000005",
+      "category": "NCLEX",
+      "subcategory": "postoperative",
+      "difficulty": "medium",
+      "question": "Which client finding requires the most immediate intervention after surgery?",
+      "options": [
+        "Oxygen saturation of 86% with increasing respiratory distress",
+        "Incisional pain rated 5/10",
+        "Temperature of 37.5°C (99.5°F)",
+        "Small amount of serosanguineous drainage"
+      ],
+      "answer": 0,
+      "explanation": "Oxygen saturation of 86% with increasing respiratory distress is correct because it directly matches the established definition, principle, or fact tested by the question.",
+      "tags": [
+        "nclex",
+        "postoperative"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000006",
+      "category": "NCLEX",
+      "subcategory": "triage",
+      "difficulty": "medium",
+      "question": "A nurse receives four phone messages. Which should be returned first?",
+      "options": [
+        "A client asking when records will be ready",
+        "A client reporting new chest pressure and diaphoresis",
+        "A client asking about clinic hours",
+        "A client requesting a refill of a nonurgent medication"
+      ],
+      "answer": 1,
+      "explanation": "A client reporting new chest pressure and diaphoresis is correct because it directly matches the established definition, principle, or fact tested by the question.",
+      "tags": [
+        "nclex",
+        "triage"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000007",
+      "category": "NCLEX",
+      "subcategory": "sepsis",
+      "difficulty": "hard",
+      "question": "A client with sepsis has persistent hypotension despite initial fluid resuscitation. Which therapy is most consistent with escalation of hemodynamic support?",
+      "options": [
+        "A sedating antihistamine",
+        "A topical emollient",
+        "A vasopressor such as norepinephrine",
+        "A routine oral antacid"
+      ],
+      "answer": 2,
+      "explanation": "A vasopressor such as norepinephrine is correct because it directly matches the established definition, principle, or fact tested by the question.",
+      "tags": [
+        "nclex",
+        "sepsis"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "NCLEX-000008",
+      "category": "NCLEX",
+      "subcategory": "anticoagulation",
+      "difficulty": "hard",
+      "question": "A client taking warfarin has a markedly elevated INR and active bleeding. Which problem is the priority?",
+      "options": [
+        "Risk of constipation",
+        "Impaired verbal communication",
+        "Disturbed sleep pattern",
+        "Risk of life-threatening hemorrhage"
+      ],
+      "answer": 3,
+      "explanation": "Risk of life-threatening hemorrhage is correct because it directly matches the established definition, principle, or fact tested by the question.",
+      "tags": [
+        "nclex",
+        "anticoagulation"
+      ],
+      "status": "active"
+    }
+  ]
+}

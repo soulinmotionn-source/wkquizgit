@@ -1,0 +1,166 @@
+{
+  "category": "History",
+  "version": "1.0.0-batch1",
+  "questions": [
+    {
+      "id": "HISTORY-000001",
+      "category": "History",
+      "subcategory": "ancient-history",
+      "difficulty": "easy",
+      "question": "Which ancient civilization built the pyramids at Giza?",
+      "options": [
+        "Vikings",
+        "Aztecs",
+        "Ancient Egyptians",
+        "Romans"
+      ],
+      "answer": 2,
+      "explanation": "Ancient Egyptians is correct because it directly matches the established definition, principle, or fact tested by the question.",
+      "tags": [
+        "history",
+        "ancient-history"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "HISTORY-000002",
+      "category": "History",
+      "subcategory": "rome",
+      "difficulty": "easy",
+      "question": "Who was the first emperor of Rome?",
+      "options": [
+        "Julius Caesar",
+        "Nero",
+        "Constantine",
+        "Augustus"
+      ],
+      "answer": 3,
+      "explanation": "Augustus is correct because it directly matches the established definition, principle, or fact tested by the question.",
+      "tags": [
+        "history",
+        "rome"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "HISTORY-000003",
+      "category": "History",
+      "subcategory": "modern-history",
+      "difficulty": "easy",
+      "question": "In which year did World War II end?",
+      "options": [
+        "1945",
+        "1939",
+        "1941",
+        "1950"
+      ],
+      "answer": 0,
+      "explanation": "1945 is correct because it directly matches the established definition, principle, or fact tested by the question.",
+      "tags": [
+        "history",
+        "modern-history"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "HISTORY-000004",
+      "category": "History",
+      "subcategory": "medieval",
+      "difficulty": "medium",
+      "question": "Which document signed in 1215 limited the power of the English king?",
+      "options": [
+        "Code of Hammurabi",
+        "Magna Carta",
+        "Treaty of Versailles",
+        "Edict of Milan"
+      ],
+      "answer": 1,
+      "explanation": "Magna Carta is correct because it directly matches the established definition, principle, or fact tested by the question.",
+      "tags": [
+        "history",
+        "medieval"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "HISTORY-000005",
+      "category": "History",
+      "subcategory": "revolutions",
+      "difficulty": "medium",
+      "question": "Which revolution began in France in 1789?",
+      "options": [
+        "Russian Revolution",
+        "Glorious Revolution",
+        "French Revolution",
+        "Industrial Revolution"
+      ],
+      "answer": 2,
+      "explanation": "French Revolution is correct because it directly matches the established definition, principle, or fact tested by the question.",
+      "tags": [
+        "history",
+        "revolutions"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "HISTORY-000006",
+      "category": "History",
+      "subcategory": "empires",
+      "difficulty": "medium",
+      "question": "Which empire was centered at Constantinople and continued the Roman imperial tradition in the East?",
+      "options": [
+        "Mughal Empire",
+        "Mali Empire",
+        "Inca Empire",
+        "Byzantine Empire"
+      ],
+      "answer": 3,
+      "explanation": "Byzantine Empire is correct because it directly matches the established definition, principle, or fact tested by the question.",
+      "tags": [
+        "history",
+        "empires"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "HISTORY-000007",
+      "category": "History",
+      "subcategory": "world-war-i",
+      "difficulty": "hard",
+      "question": "Which treaty formally ended World War I between Germany and the Allied Powers?",
+      "options": [
+        "Treaty of Versailles",
+        "Treaty of Tordesillas",
+        "Treaty of Utrecht",
+        "Treaty of Paris 1783"
+      ],
+      "answer": 0,
+      "explanation": "Treaty of Versailles is correct because it directly matches the established definition, principle, or fact tested by the question.",
+      "tags": [
+        "history",
+        "world-war-i"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "HISTORY-000008",
+      "category": "History",
+      "subcategory": "england",
+      "difficulty": "hard",
+      "question": "Which 1066 battle led to William the Conqueror's establishment of Norman rule in England?",
+      "options": [
+        "Battle of Bosworth Field",
+        "Battle of Hastings",
+        "Battle of Agincourt",
+        "Battle of Tours"
+      ],
+      "answer": 1,
+      "explanation": "Battle of Hastings is correct because it directly matches the established definition, principle, or fact tested by the question.",
+      "tags": [
+        "history",
+        "england"
+      ],
+      "status": "active"
+    }
+  ]
+}
