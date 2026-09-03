@@ -52,8 +52,10 @@ const WKQUIZ_CONFIG = {
   // Remote Git Question Bank Configuration
   // Questions are stored in Git and pulled on demand, keeping theme.xml ultra lightweight (<50 KB)
   questionBank: {
-    githubRawBaseUrl: "https://raw.githubusercontent.com/wkquiz/question-bank/main/question-bank",
-    cdnBaseUrl: "https://cdn.jsdelivr.net/gh/wkquiz/question-bank@main/question-bank",
+    githubRepo: "soulinmotionn-source/wkquizgit",
+    branch: "main",
+    cdnBaseUrl: "https://cdn.jsdelivr.net/gh/soulinmotionn-source/wkquizgit@main/question-bank",
+    githubRawBaseUrl: "https://raw.githubusercontent.com/soulinmotionn-source/wkquizgit/main/question-bank",
     localBaseUrl: "question-bank",
     cacheTtlMinutes: 120,
     enableLocalFallback: true

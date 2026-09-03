@@ -533,6 +533,12 @@ class WKQuizUI {
   async startQuiz(options = {}, shouldScroll = true) {
     if (!this.engine) return;
 
+    const startBtn = document.getElementById("wk-start-quiz-btn");
+    if (startBtn) {
+      startBtn.disabled = true;
+      startBtn.innerHTML = `⏳ Loading Questions from Git...`;
+    }
+
     try {
       if (this.engine.provider && typeof this.engine.provider.fetchCategory === "function") {
         if (options.category && options.category !== "all" && options.category !== "mixed-quiz") {
@@ -554,7 +560,11 @@ class WKQuizUI {
       }
     } catch (err) {
       console.error("[WKQuiz] Could not start quiz:", err);
-      this._renderError(err.message || "Failed to load quiz.");
+      if (startBtn) {
+        startBtn.disabled = false;
+        startBtn.innerHTML = `🚀 Start Quiz ➔`;
+      }
+      this._renderError(err.message || "Failed to load quiz from Git repository.");
     }
   }
 

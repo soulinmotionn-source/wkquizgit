@@ -116,7 +116,12 @@ class WKQuizDataProvider {
     if (this.config.githubRawBaseUrl) {
       urls.push(`${this.config.githubRawBaseUrl}/${slug}.json`);
     }
-    urls.push(`https://cdn.jsdelivr.net/gh/wkquiz/question-bank@main/question-bank/${slug}.json`);
+    
+    // Explicit fallbacks for main and master branches of user's repository
+    urls.push(`https://cdn.jsdelivr.net/gh/soulinmotionn-source/wkquizgit@main/question-bank/${slug}.json`);
+    urls.push(`https://raw.githubusercontent.com/soulinmotionn-source/wkquizgit/main/question-bank/${slug}.json`);
+    urls.push(`https://cdn.jsdelivr.net/gh/soulinmotionn-source/wkquizgit@master/question-bank/${slug}.json`);
+    urls.push(`https://raw.githubusercontent.com/soulinmotionn-source/wkquizgit/master/question-bank/${slug}.json`);
 
     for (const url of urls) {
       try {
