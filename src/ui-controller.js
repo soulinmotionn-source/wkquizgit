@@ -569,24 +569,32 @@ class WKQuizUI {
   }
 
   _initTimeModeTimer() {
+    this._updateTimerDisplay(this.engine.timeRemaining);
+    this.engine.startTimer(
+      this.engine.timeRemaining,
+      (secs) => {
+        this._updateTimerDisplay(secs);
+      },
+      () => {
+        // Time expired callback
+        this._handleTimeExpired();
+      }
+    );
+  }
+
+  _updateTimerDisplay(secs) {
     const timerBadge = document.getElementById("wk-timer-badge");
     const timerSeconds = document.getElementById("wk-timer-seconds");
-    if (timerBadge && timerSeconds) {
-      timerBadge.style.display = "inline-flex";
-      this.engine.startTimer(
-        this.engine.timeRemaining,
-        (secs) => {
-          const mins = Math.floor(secs / 60);
-          const remainderSecs = secs % 60;
-          timerSeconds.textContent = `${mins}:${remainderSecs < 10 ? '0' : ''}${remainderSecs}`;
-          if (secs <= 10) timerBadge.classList.add("urgent");
-          else timerBadge.classList.remove("urgent");
-        },
-        () => {
-          // Time expired callback
-          this._handleTimeExpired();
-        }
-      );
+    if (!timerSeconds) return;
+
+    const currentSecs = typeof secs === "number" ? secs : (this.engine ? this.engine.timeRemaining : 0);
+    const mins = Math.floor(currentSecs / 60);
+    const remainderSecs = currentSecs % 60;
+    timerSeconds.textContent = `${mins}:${remainderSecs < 10 ? '0' : ''}${remainderSecs}`;
+
+    if (timerBadge) {
+      if (currentSecs <= 10) timerBadge.classList.add("urgent");
+      else timerBadge.classList.remove("urgent");
     }
   }
 
@@ -627,6 +635,13 @@ class WKQuizUI {
       modeBadge = '<span class="wk-badge wk-badge-danger">🔥 Daily</span>';
     }
 
+    // Format current remaining time for seamless question transition
+    const currentSecs = (this.engine && typeof this.engine.timeRemaining === "number") ? this.engine.timeRemaining : 0;
+    const mins = Math.floor(currentSecs / 60);
+    const remainderSecs = currentSecs % 60;
+    const timeFormatted = `${mins}:${remainderSecs < 10 ? '0' : ''}${remainderSecs}`;
+    const isUrgent = currentSecs <= 10;
+
     let html = `
       <div class="wk-quiz-card" id="wk-active-card">
         <div class="wk-quiz-header">
@@ -642,8 +657,8 @@ class WKQuizUI {
               Question ${q.questionNumber} of ${q.totalQuestions}
             </span>
           </div>
-          <div id="wk-timer-badge" class="wk-quiz-timer" style="${q.mode === 'time' ? 'display: inline-flex;' : 'display: none;'}">
-            ⏱️ <span id="wk-timer-seconds">--:--</span>
+          <div id="wk-timer-badge" class="wk-quiz-timer ${isUrgent ? 'urgent' : ''}" style="${q.mode === 'time' ? 'display: inline-flex;' : 'display: none;'}">
+            ⏱️ <span id="wk-timer-seconds">${q.mode === 'time' ? timeFormatted : '--:--'}</span>
           </div>
         </div>
 
@@ -680,6 +695,9 @@ class WKQuizUI {
     `;
 
     this.dom.container.innerHTML = html;
+    if (q.mode === "time") {
+      this._updateTimerDisplay(this.engine.timeRemaining);
+    }
     this._bindOptionClicks();
   }
 

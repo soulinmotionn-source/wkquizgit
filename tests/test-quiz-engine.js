@@ -63,15 +63,46 @@ function runQuizEngineTests() {
   assert.strictEqual(finalStats.percentage, 100);
   console.log(`  ✓ Completed full 5-question normal quiz: 5/5 (100%)`);
 
-  // Test 4: Time Mode Initialization and Duration
+  // Test 4: Time Mode Continuous Whole-Quiz Countdown Verification (TESTS 1, 2, 3, 4)
   const timeEngine = new WKQuizEngine({ provider });
-  timeEngine.startQuiz({ category: "nclex", difficulty: "hard", length: 10, mode: "time" });
+  timeEngine.startQuiz({ category: "nursing", difficulty: "easy", length: 5, mode: "time" });
   assert.strictEqual(timeEngine.mode, "time");
-  assert.strictEqual(timeEngine.currentQuiz.totalQuestions, 10);
-  assert.strictEqual(timeEngine.totalTimeDuration, 120, "10 questions in time mode should have 120 seconds duration");
-  console.log("  ✓ Time Mode initialized with 10 questions and 120s countdown");
+  assert.strictEqual(timeEngine.currentQuiz.totalQuestions, 5);
+  assert.strictEqual(timeEngine.totalTimeDuration, 60, "5 questions in time mode should have 60 seconds duration");
+  assert.strictEqual(timeEngine.timeRemaining, 60);
 
-  // Test 5: Survival Mode - Sudden death on wrong answer
+  // Question 1: Answer question
+  timeEngine.submitAnswer(timeEngine.currentQuiz.questions[0].answer);
+  // Simulate 5 seconds elapsed
+  timeEngine.timeRemaining = 55;
+
+  // Transition Question 1 -> Question 2
+  const q2Time = timeEngine.nextQuestion();
+  assert(q2Time !== null, "Question 2 must load");
+  assert.strictEqual(q2Time.questionNumber, 2);
+  assert.strictEqual(timeEngine.timeRemaining, 55, "Timer must NOT reset on Question 2 transition; must remain at 55s");
+
+  // Simulate 7 more seconds elapsed on Question 2
+  timeEngine.timeRemaining = 48;
+  timeEngine.submitAnswer(timeEngine.currentQuiz.questions[1].answer);
+
+  // Transition Question 2 -> Question 3
+  const q3Time = timeEngine.nextQuestion();
+  assert(q3Time !== null, "Question 3 must load");
+  assert.strictEqual(q3Time.questionNumber, 3);
+  assert.strictEqual(timeEngine.timeRemaining, 48, "Timer must continue continuously at 48s on Question 3");
+
+  console.log("  ✓ Time Mode continuous whole-quiz countdown across Q1 -> Q2 -> Q3 verified (Never resets)");
+
+  // Test 5: Timer Expiration Test (TEST 5)
+  timeEngine.timeRemaining = 0;
+  timeEngine.isTimeExpired = true;
+  const timeStats = timeEngine.finishQuiz();
+  assert.strictEqual(timeStats.isTimeExpired, true, "isTimeExpired must be true when timer reaches 0");
+  assert.strictEqual(timeStats.badge, "Time Out ⏱️");
+  console.log("  ✓ Time Mode ends correctly when timer reaches zero");
+
+  // Test 6: Survival Mode - Sudden death on wrong answer (TEST 7)
   const survivalEngine = new WKQuizEngine({ provider });
   survivalEngine.startQuiz({ category: "electrical", difficulty: "medium", length: 20, mode: "survival" });
   assert.strictEqual(survivalEngine.mode, "survival");
@@ -97,7 +128,7 @@ function runQuizEngineTests() {
   assert.strictEqual(survStats.isSurvivalOver, true);
   console.log("  ✓ Survival Mode correctly terminated on wrong answer with 1 question survived");
 
-  // Test 6: Session-Level No-Repeat Protection
+  // Test 7: Session-Level No-Repeat Protection
   const sessionEngine = new WKQuizEngine({ provider });
   sessionEngine.sessionUsedIds.clear(); // start clean session
   
@@ -114,7 +145,7 @@ function runQuizEngineTests() {
   assert.strictEqual(overlap.length, 0, `Quiz 2 repeated questions from Quiz 1 in same session: ${overlap.join(", ")}`);
   console.log("  ✓ Session-level no-repeat verified: 0 repeated questions across consecutive quizzes");
 
-  // Test 7: Deterministic Daily Quiz Seed Consistency
+  // Test 8: Deterministic Daily Quiz Seed Consistency
   const dailyEngine1 = new WKQuizEngine({ provider });
   dailyEngine1.startQuiz({ mode: "daily", length: 5 });
   const dailyQIds1 = dailyEngine1.currentQuiz.questions.map(q => q.id);
@@ -130,7 +161,7 @@ function runQuizEngineTests() {
   );
   console.log("  ✓ Deterministic Daily Quiz generates identical question seed on same day");
 
-  console.log("✔ Quiz Engine Tests Passed!\n");
+  console.log("✔ All Quiz Engine Tests Passed Successfully!\n");
 }
 
 module.exports = { runQuizEngineTests };
