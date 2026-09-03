@@ -997,6 +997,8 @@ button {
   transition: var(--transition);
   position: relative;
   overflow: hidden;
+  cursor: pointer;
+  user-select: none;
 }
 
 .wk-category-card:hover {

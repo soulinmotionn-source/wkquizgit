@@ -124,18 +124,19 @@ class WKQuizUI {
 
     // Global CTA Handlers
     document.addEventListener("click", (e) => {
-      const target = e.target.closest("[data-action]");
+      const target = e.target.closest("[data-action]") || e.target.closest(".wk-category-card");
       if (!target) return;
 
-      const action = target.getAttribute("data-action");
+      const action = target.getAttribute("data-action") || (target.classList.contains("wk-category-card") ? "select-category" : null);
       const category = target.getAttribute("data-category");
       const mode = target.getAttribute("data-mode");
 
       if (action === "select-category" || action === "open-setup" || action === "start-category") {
         e.preventDefault();
         if (this.dom.mobileDrawer) this.dom.mobileDrawer.classList.remove("open");
-        if (category) {
-          this.renderSetupScreen(category, true);
+        const selectedCat = category || (target.closest("[data-category]") && target.closest("[data-category]").getAttribute("data-category"));
+        if (selectedCat) {
+          this.renderSetupScreen(selectedCat, true);
         } else {
           this._scrollToCategories();
         }
@@ -212,7 +213,25 @@ class WKQuizUI {
   _scrollToCategories() {
     const catSection = document.getElementById("categories");
     if (catSection) {
-      catSection.scrollIntoView({ behavior: "smooth", block: "start" });
+      const headerOffset = 70;
+      const elementPosition = catSection.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    }
+  }
+
+  _scrollToQuiz() {
+    if (this.dom.container) {
+      const headerOffset = 70;
+      const elementPosition = this.dom.container.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
     }
   }
 
@@ -227,15 +246,6 @@ class WKQuizUI {
     if (!this.setupState.difficulty) this.setupState.difficulty = "easy";
     if (!this.setupState.mode) this.setupState.mode = "normal";
 
-    // Asynchronously ensure full category questions are loaded into memory
-    if (this.engine.provider && typeof this.engine.provider.fetchCategory === "function") {
-      try {
-        await this.engine.provider.fetchCategory(categoryId);
-      } catch (e) {
-        console.warn("[WKQuiz] Category async fetch notice:", e);
-      }
-    }
-
     const cat = (this.config.categories || []).find(c => c.id === categoryId) || {
       id: categoryId,
       name: categoryId === "mixed-quiz" ? "Random Mixed Quiz" : categoryId.toUpperCase(),
@@ -248,6 +258,18 @@ class WKQuizUI {
 
     // Question count options
     const standardLengths = (this.config.quiz && this.config.quiz.availableLengths) || [5, 10, 20, 50];
+    
+    // Auto-adjust selected length
+    if (!this.setupState.length || this.setupState.length > availableCount) {
+      const validLengths = standardLengths.filter(len => len <= availableCount);
+      if (validLengths.length > 0) {
+        this.setupState.length = validLengths[validLengths.length - 1];
+      } else if (availableCount > 0) {
+        this.setupState.length = availableCount;
+      } else {
+        this.setupState.length = 0;
+      }
+    }
     
     // Auto-adjust selected length
     if (!this.setupState.length || this.setupState.length > availableCount) {
@@ -899,7 +921,7 @@ class WKQuizUI {
     if (!this.dom.categoriesContainer || !this.config.categories) return;
 
     const cardsHtml = this.config.categories.map(cat => `
-      <div class="wk-category-card" data-category="${cat.id}">
+      <div class="wk-category-card" data-action="select-category" data-category="${cat.id}" role="button" tabindex="0">
         <div class="wk-category-icon" style="background-color: ${cat.color}15; color: ${cat.color};">
           ${cat.icon || "📚"}
         </div>

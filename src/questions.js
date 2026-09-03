@@ -7,7 +7,7 @@
 
 const WKQUIZ_INDEX = {
   "version": "2.0.0",
-  "generatedAt": "2026-09-03T05:52:04.875Z",
+  "generatedAt": "2026-09-03T05:57:06.291Z",
   "totalQuestions": 2285,
   "categories": {
     "anatomy-physiology": {
