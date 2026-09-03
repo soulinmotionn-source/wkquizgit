@@ -264,5 +264,165 @@
       "mathematics"
     ],
     "status": "active"
+  },
+  {
+    "id": "MATH-000015",
+    "category": "mathematics",
+    "difficulty": "easy",
+    "question": "What is 7 + 8?",
+    "options": [
+      "14",
+      "16",
+      "15",
+      "13"
+    ],
+    "answer": 2,
+    "explanation": "15 is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "mathematics",
+      "arithmetic"
+    ],
+    "subcategory": "arithmetic"
+  },
+  {
+    "id": "MATH-000016",
+    "category": "mathematics",
+    "difficulty": "easy",
+    "question": "What is 3/4 expressed as a decimal?",
+    "options": [
+      "0.25",
+      "0.34",
+      "0.80",
+      "0.75"
+    ],
+    "answer": 3,
+    "explanation": "0.75 is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "mathematics",
+      "fractions"
+    ],
+    "subcategory": "fractions"
+  },
+  {
+    "id": "MATH-000017",
+    "category": "mathematics",
+    "difficulty": "easy",
+    "question": "What is 20% of 150?",
+    "options": [
+      "30",
+      "20",
+      "25",
+      "35"
+    ],
+    "answer": 0,
+    "explanation": "30 is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "mathematics",
+      "percentages"
+    ],
+    "subcategory": "percentages"
+  },
+  {
+    "id": "MATH-000018",
+    "category": "mathematics",
+    "difficulty": "medium",
+    "question": "Solve: 2x + 5 = 17.",
+    "options": [
+      "x = 11",
+      "x = 6",
+      "x = 5",
+      "x = 7"
+    ],
+    "answer": 1,
+    "explanation": "x = 6 is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "mathematics",
+      "algebra"
+    ],
+    "subcategory": "algebra"
+  },
+  {
+    "id": "MATH-000019",
+    "category": "mathematics",
+    "difficulty": "medium",
+    "question": "What is the area of a circle with radius 3, in terms of π?",
+    "options": [
+      "3π",
+      "18π",
+      "9π",
+      "6π"
+    ],
+    "answer": 2,
+    "explanation": "9π is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "mathematics",
+      "geometry"
+    ],
+    "subcategory": "geometry"
+  },
+  {
+    "id": "MATH-000020",
+    "category": "mathematics",
+    "difficulty": "medium",
+    "question": "A fair six-sided die is rolled once. What is the probability of rolling an even number?",
+    "options": [
+      "1/3",
+      "1/6",
+      "2/3",
+      "1/2"
+    ],
+    "answer": 3,
+    "explanation": "1/2 is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "mathematics",
+      "probability"
+    ],
+    "subcategory": "probability"
+  },
+  {
+    "id": "MATH-000021",
+    "category": "mathematics",
+    "difficulty": "hard",
+    "question": "What is the derivative of x^3 with respect to x?",
+    "options": [
+      "3x^2",
+      "x^2",
+      "3x",
+      "x^4"
+    ],
+    "answer": 0,
+    "explanation": "3x^2 is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "mathematics",
+      "calculus"
+    ],
+    "subcategory": "calculus"
+  },
+  {
+    "id": "MATH-000022",
+    "category": "mathematics",
+    "difficulty": "hard",
+    "question": "If a quadratic equation has discriminant zero, what does that imply about its real roots?",
+    "options": [
+      "It must be cubic",
+      "It has one repeated real root",
+      "It has two distinct real roots",
+      "It has no real roots"
+    ],
+    "answer": 1,
+    "explanation": "It has one repeated real root is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "mathematics",
+      "algebra"
+    ],
+    "subcategory": "algebra"
   }
 ]

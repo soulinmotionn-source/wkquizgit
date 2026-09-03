@@ -2316,5 +2316,165 @@
       "nclex"
     ],
     "status": "active"
+  },
+  {
+    "id": "NCLEX-000027",
+    "category": "nclex",
+    "difficulty": "easy",
+    "question": "Which client should the nurse assess first?",
+    "options": [
+      "A client with new-onset stridor",
+      "A client requesting a blanket",
+      "A client with chronic back pain rated 4/10",
+      "A client waiting for discharge papers"
+    ],
+    "answer": 0,
+    "explanation": "A client with new-onset stridor is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "nclex",
+      "prioritization"
+    ],
+    "subcategory": "prioritization"
+  },
+  {
+    "id": "NCLEX-000028",
+    "category": "nclex",
+    "difficulty": "easy",
+    "question": "Which task is appropriate to delegate to an unlicensed assistive personnel when allowed by policy?",
+    "options": [
+      "Developing a nursing care plan",
+      "Obtaining routine vital signs on a stable client",
+      "Initial assessment of a new client",
+      "Teaching insulin injection"
+    ],
+    "answer": 1,
+    "explanation": "Obtaining routine vital signs on a stable client is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "nclex",
+      "delegation"
+    ],
+    "subcategory": "delegation"
+  },
+  {
+    "id": "NCLEX-000029",
+    "category": "nclex",
+    "difficulty": "easy",
+    "question": "Which action is part of standard precautions?",
+    "options": [
+      "Place every patient in a negative-pressure room",
+      "Use sterile gloves for all contact",
+      "Perform hand hygiene before and after patient contact",
+      "Use an N95 respirator for every patient"
+    ],
+    "answer": 2,
+    "explanation": "Perform hand hygiene before and after patient contact is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "nclex",
+      "infection-control"
+    ],
+    "subcategory": "infection-control"
+  },
+  {
+    "id": "NCLEX-000030",
+    "category": "nclex",
+    "difficulty": "medium",
+    "question": "A client with suspected hypoglycemia is awake and able to swallow. What is the priority action?",
+    "options": [
+      "Administer long-acting insulin",
+      "Restrict oral intake",
+      "Encourage vigorous exercise",
+      "Give a rapid-acting source of carbohydrate"
+    ],
+    "answer": 3,
+    "explanation": "Give a rapid-acting source of carbohydrate is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "nclex",
+      "hypoglycemia"
+    ],
+    "subcategory": "hypoglycemia"
+  },
+  {
+    "id": "NCLEX-000031",
+    "category": "nclex",
+    "difficulty": "medium",
+    "question": "Which client finding requires the most immediate intervention after surgery?",
+    "options": [
+      "Oxygen saturation of 86% with increasing respiratory distress",
+      "Incisional pain rated 5/10",
+      "Temperature of 37.5°C (99.5°F)",
+      "Small amount of serosanguineous drainage"
+    ],
+    "answer": 0,
+    "explanation": "Oxygen saturation of 86% with increasing respiratory distress is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "nclex",
+      "postoperative"
+    ],
+    "subcategory": "postoperative"
+  },
+  {
+    "id": "NCLEX-000032",
+    "category": "nclex",
+    "difficulty": "medium",
+    "question": "A nurse receives four phone messages. Which should be returned first?",
+    "options": [
+      "A client asking when records will be ready",
+      "A client reporting new chest pressure and diaphoresis",
+      "A client asking about clinic hours",
+      "A client requesting a refill of a nonurgent medication"
+    ],
+    "answer": 1,
+    "explanation": "A client reporting new chest pressure and diaphoresis is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "nclex",
+      "triage"
+    ],
+    "subcategory": "triage"
+  },
+  {
+    "id": "NCLEX-000033",
+    "category": "nclex",
+    "difficulty": "hard",
+    "question": "A client with sepsis has persistent hypotension despite initial fluid resuscitation. Which therapy is most consistent with escalation of hemodynamic support?",
+    "options": [
+      "A sedating antihistamine",
+      "A topical emollient",
+      "A vasopressor such as norepinephrine",
+      "A routine oral antacid"
+    ],
+    "answer": 2,
+    "explanation": "A vasopressor such as norepinephrine is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "nclex",
+      "sepsis"
+    ],
+    "subcategory": "sepsis"
+  },
+  {
+    "id": "NCLEX-000034",
+    "category": "nclex",
+    "difficulty": "hard",
+    "question": "A client taking warfarin has a markedly elevated INR and active bleeding. Which problem is the priority?",
+    "options": [
+      "Risk of constipation",
+      "Impaired verbal communication",
+      "Disturbed sleep pattern",
+      "Risk of life-threatening hemorrhage"
+    ],
+    "answer": 3,
+    "explanation": "Risk of life-threatening hemorrhage is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "nclex",
+      "anticoagulation"
+    ],
+    "subcategory": "anticoagulation"
   }
 ]

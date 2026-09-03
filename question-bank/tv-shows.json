@@ -2107,5 +2107,165 @@
       "tv-shows"
     ],
     "status": "active"
+  },
+  {
+    "id": "TV-000001",
+    "category": "tv-shows",
+    "difficulty": "easy",
+    "question": "Which series follows the character Walter White?",
+    "options": [
+      "The Crown",
+      "Breaking Bad",
+      "Lost",
+      "Friends"
+    ],
+    "answer": 1,
+    "explanation": "Breaking Bad is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "tv-shows",
+      "series"
+    ],
+    "subcategory": "series"
+  },
+  {
+    "id": "TV-000002",
+    "category": "tv-shows",
+    "difficulty": "easy",
+    "question": "Which sitcom is set largely in the New York City apartment and coffee-shop world of six friends?",
+    "options": [
+      "Frasier",
+      "M*A*S*H",
+      "Friends",
+      "The Office"
+    ],
+    "answer": 2,
+    "explanation": "Friends is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "tv-shows",
+      "sitcoms"
+    ],
+    "subcategory": "sitcoms"
+  },
+  {
+    "id": "TV-000003",
+    "category": "tv-shows",
+    "difficulty": "easy",
+    "question": "Which fantasy series is based on novels by George R. R. Martin?",
+    "options": [
+      "The Expanse",
+      "Sherlock",
+      "Succession",
+      "Game of Thrones"
+    ],
+    "answer": 3,
+    "explanation": "Game of Thrones is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "tv-shows",
+      "fantasy"
+    ],
+    "subcategory": "fantasy"
+  },
+  {
+    "id": "TV-000004",
+    "category": "tv-shows",
+    "difficulty": "medium",
+    "question": "What is the name of the coffee shop frequently visited by the main characters in 'Friends'?",
+    "options": [
+      "Central Perk",
+      "Monk's Café",
+      "Luke's Diner",
+      "MacLaren's Pub"
+    ],
+    "answer": 0,
+    "explanation": "Central Perk is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "tv-shows",
+      "sitcoms"
+    ],
+    "subcategory": "sitcoms"
+  },
+  {
+    "id": "TV-000005",
+    "category": "tv-shows",
+    "difficulty": "medium",
+    "question": "Which series centers on the fictional advertising agency Sterling Cooper?",
+    "options": [
+      "House",
+      "Mad Men",
+      "Suits",
+      "The Wire"
+    ],
+    "answer": 1,
+    "explanation": "Mad Men is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "tv-shows",
+      "drama"
+    ],
+    "subcategory": "drama"
+  },
+  {
+    "id": "TV-000006",
+    "category": "tv-shows",
+    "difficulty": "medium",
+    "question": "Which series features the fictional chemistry teacher Walter White and former student Jesse Pinkman?",
+    "options": [
+      "Ozark",
+      "Dexter",
+      "Breaking Bad",
+      "Better Call Saul"
+    ],
+    "answer": 2,
+    "explanation": "Breaking Bad is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "tv-shows",
+      "drama"
+    ],
+    "subcategory": "drama"
+  },
+  {
+    "id": "TV-000007",
+    "category": "tv-shows",
+    "difficulty": "hard",
+    "question": "Which television series was created by David Chase and centers on Tony Soprano?",
+    "options": [
+      "The Americans",
+      "Boardwalk Empire",
+      "Fargo",
+      "The Sopranos"
+    ],
+    "answer": 3,
+    "explanation": "The Sopranos is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "tv-shows",
+      "prestige-tv"
+    ],
+    "subcategory": "prestige-tv"
+  },
+  {
+    "id": "TV-000008",
+    "category": "tv-shows",
+    "difficulty": "hard",
+    "question": "Which series follows a group of survivors after a mysterious plane crash on an island?",
+    "options": [
+      "Lost",
+      "Prison Break",
+      "24",
+      "The Shield"
+    ],
+    "answer": 0,
+    "explanation": "Lost is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "tv-shows",
+      "mystery"
+    ],
+    "subcategory": "mystery"
   }
 ]

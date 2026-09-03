@@ -2126,5 +2126,165 @@
       "technology"
     ],
     "status": "active"
+  },
+  {
+    "id": "TECHNOLOGY-000001",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "What does CPU stand for?",
+    "options": [
+      "Computer power utility",
+      "Central program upload",
+      "Core peripheral unit",
+      "Central processing unit"
+    ],
+    "answer": 3,
+    "explanation": "Central processing unit is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "technology",
+      "hardware"
+    ],
+    "subcategory": "hardware"
+  },
+  {
+    "id": "TECHNOLOGY-000002",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "What does HTTPS add to HTTP?",
+    "options": [
+      "Transport encryption and authentication through TLS",
+      "A larger screen resolution",
+      "A faster CPU",
+      "A new file system"
+    ],
+    "answer": 0,
+    "explanation": "Transport encryption and authentication through TLS is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "technology",
+      "web"
+    ],
+    "subcategory": "web"
+  },
+  {
+    "id": "TECHNOLOGY-000003",
+    "category": "technology",
+    "difficulty": "easy",
+    "question": "What is cloud computing?",
+    "options": [
+      "Programming without electricity",
+      "On-demand access to computing resources over a network",
+      "Only storing files on a USB drive",
+      "Using no servers"
+    ],
+    "answer": 1,
+    "explanation": "On-demand access to computing resources over a network is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "technology",
+      "cloud"
+    ],
+    "subcategory": "cloud"
+  },
+  {
+    "id": "TECHNOLOGY-000004",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "What is multi-factor authentication?",
+    "options": [
+      "Logging in twice",
+      "Sharing one password with two users",
+      "Authentication using two or more independent factors",
+      "Using two passwords of the same type"
+    ],
+    "answer": 2,
+    "explanation": "Authentication using two or more independent factors is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "technology",
+      "security"
+    ],
+    "subcategory": "security"
+  },
+  {
+    "id": "TECHNOLOGY-000005",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "What is an API?",
+    "options": [
+      "A type of computer monitor",
+      "A physical network cable",
+      "A battery standard",
+      "A defined interface through which software components communicate"
+    ],
+    "answer": 3,
+    "explanation": "A defined interface through which software components communicate is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "technology",
+      "software"
+    ],
+    "subcategory": "software"
+  },
+  {
+    "id": "TECHNOLOGY-000006",
+    "category": "technology",
+    "difficulty": "medium",
+    "question": "What is containerization in software deployment?",
+    "options": [
+      "Packaging an application with its dependencies in an isolated user-space environment",
+      "Compressing every file into an image",
+      "Replacing the operating system kernel",
+      "Removing all dependencies"
+    ],
+    "answer": 0,
+    "explanation": "Packaging an application with its dependencies in an isolated user-space environment is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "technology",
+      "devops"
+    ],
+    "subcategory": "devops"
+  },
+  {
+    "id": "TECHNOLOGY-000007",
+    "category": "technology",
+    "difficulty": "hard",
+    "question": "What is a public-key cryptosystem designed to use?",
+    "options": [
+      "Only physical locks",
+      "A mathematically related public/private key pair",
+      "A single shared password only",
+      "No keys at all"
+    ],
+    "answer": 1,
+    "explanation": "A mathematically related public/private key pair is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "technology",
+      "cryptography"
+    ],
+    "subcategory": "cryptography"
+  },
+  {
+    "id": "TECHNOLOGY-000008",
+    "category": "technology",
+    "difficulty": "hard",
+    "question": "What is eventual consistency in a distributed system?",
+    "options": [
+      "A rule forbidding replication",
+      "A requirement that every request fail",
+      "A model where replicas may temporarily differ but converge if updates stop",
+      "A guarantee of immediate global agreement"
+    ],
+    "answer": 2,
+    "explanation": "A model where replicas may temporarily differ but converge if updates stop is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "technology",
+      "distributed-systems"
+    ],
+    "subcategory": "distributed-systems"
   }
 ]

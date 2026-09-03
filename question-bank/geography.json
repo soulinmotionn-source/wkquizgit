@@ -264,5 +264,165 @@
       "geography"
     ],
     "status": "active"
+  },
+  {
+    "id": "GEOGRAPHY-000001",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "What is the capital of Japan?",
+    "options": [
+      "Tokyo",
+      "Kyoto",
+      "Osaka",
+      "Hiroshima"
+    ],
+    "answer": 0,
+    "explanation": "Tokyo is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "geography",
+      "capitals"
+    ],
+    "subcategory": "capitals"
+  },
+  {
+    "id": "GEOGRAPHY-000002",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which river is the longest in South America?",
+    "options": [
+      "São Francisco River",
+      "Amazon River",
+      "Orinoco River",
+      "Paraná River"
+    ],
+    "answer": 1,
+    "explanation": "Amazon River is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "geography",
+      "rivers"
+    ],
+    "subcategory": "rivers"
+  },
+  {
+    "id": "GEOGRAPHY-000003",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which continent contains the Sahara Desert?",
+    "options": [
+      "Australia",
+      "South America",
+      "Africa",
+      "Asia"
+    ],
+    "answer": 2,
+    "explanation": "Africa is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "subcategory": "physical-geography"
+  },
+  {
+    "id": "GEOGRAPHY-000004",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which mountain is the highest above sea level?",
+    "options": [
+      "K2",
+      "Kangchenjunga",
+      "Denali",
+      "Mount Everest"
+    ],
+    "answer": 3,
+    "explanation": "Mount Everest is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "geography",
+      "mountains"
+    ],
+    "subcategory": "mountains"
+  },
+  {
+    "id": "GEOGRAPHY-000005",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which country is completely surrounded by South Africa?",
+    "options": [
+      "Lesotho",
+      "Eswatini",
+      "Botswana",
+      "Namibia"
+    ],
+    "answer": 0,
+    "explanation": "Lesotho is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "geography",
+      "countries"
+    ],
+    "subcategory": "countries"
+  },
+  {
+    "id": "GEOGRAPHY-000006",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which strait separates Asia from North America?",
+    "options": [
+      "Strait of Malacca",
+      "Bering Strait",
+      "Strait of Gibraltar",
+      "Bosporus"
+    ],
+    "answer": 1,
+    "explanation": "Bering Strait is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "geography",
+      "waterways"
+    ],
+    "subcategory": "waterways"
+  },
+  {
+    "id": "GEOGRAPHY-000007",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "Which lake is the deepest freshwater lake in the world by maximum depth?",
+    "options": [
+      "Lake Superior",
+      "Lake Tanganyika",
+      "Lake Baikal",
+      "Lake Victoria"
+    ],
+    "answer": 2,
+    "explanation": "Lake Baikal is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "geography",
+      "lakes"
+    ],
+    "subcategory": "lakes"
+  },
+  {
+    "id": "GEOGRAPHY-000008",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "Which two countries share the world's longest international land border?",
+    "options": [
+      "Russia and China",
+      "Argentina and Chile",
+      "India and Pakistan",
+      "Canada and the United States"
+    ],
+    "answer": 3,
+    "explanation": "Canada and the United States is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "geography",
+      "borders"
+    ],
+    "subcategory": "borders"
   }
 ]

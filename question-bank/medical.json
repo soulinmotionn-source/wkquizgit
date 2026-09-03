@@ -2183,5 +2183,165 @@
       "medical"
     ],
     "status": "active"
+  },
+  {
+    "id": "MEDICAL-000001",
+    "category": "medical",
+    "difficulty": "easy",
+    "question": "Which organ primarily filters blood to form urine?",
+    "options": [
+      "Pancreas",
+      "Spleen",
+      "Kidneys",
+      "Lungs"
+    ],
+    "answer": 2,
+    "explanation": "Kidneys is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "medical",
+      "renal"
+    ],
+    "subcategory": "renal"
+  },
+  {
+    "id": "MEDICAL-000002",
+    "category": "medical",
+    "difficulty": "easy",
+    "question": "What is the main function of hemoglobin?",
+    "options": [
+      "Digest fats",
+      "Produce bile",
+      "Filter lymph",
+      "Transport oxygen in the blood"
+    ],
+    "answer": 3,
+    "explanation": "Transport oxygen in the blood is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "medical",
+      "hematology"
+    ],
+    "subcategory": "hematology"
+  },
+  {
+    "id": "MEDICAL-000003",
+    "category": "medical",
+    "difficulty": "easy",
+    "question": "Which blood vessel carries oxygenated blood from the lungs to the heart?",
+    "options": [
+      "Pulmonary veins",
+      "Pulmonary arteries",
+      "Superior vena cava",
+      "Coronary sinus"
+    ],
+    "answer": 0,
+    "explanation": "Pulmonary veins is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "medical",
+      "cardiovascular"
+    ],
+    "subcategory": "cardiovascular"
+  },
+  {
+    "id": "MEDICAL-000004",
+    "category": "medical",
+    "difficulty": "medium",
+    "question": "Which electrolyte abnormality is classically associated with peaked T waves on ECG?",
+    "options": [
+      "Hypermagnesemia",
+      "Hyperkalemia",
+      "Hypocalcemia",
+      "Hyponatremia"
+    ],
+    "answer": 1,
+    "explanation": "Hyperkalemia is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "medical",
+      "electrolytes"
+    ],
+    "subcategory": "electrolytes"
+  },
+  {
+    "id": "MEDICAL-000005",
+    "category": "medical",
+    "difficulty": "medium",
+    "question": "Which laboratory test is most directly used to assess long-term glycemic control?",
+    "options": [
+      "Troponin I",
+      "Bilirubin",
+      "Hemoglobin A1c",
+      "Serum amylase"
+    ],
+    "answer": 2,
+    "explanation": "Hemoglobin A1c is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "medical",
+      "endocrine"
+    ],
+    "subcategory": "endocrine"
+  },
+  {
+    "id": "MEDICAL-000006",
+    "category": "medical",
+    "difficulty": "medium",
+    "question": "Which structure is the primary site of gas exchange in the lungs?",
+    "options": [
+      "Trachea",
+      "Epiglottis",
+      "Pleura",
+      "Alveoli"
+    ],
+    "answer": 3,
+    "explanation": "Alveoli is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "medical",
+      "respiratory"
+    ],
+    "subcategory": "respiratory"
+  },
+  {
+    "id": "MEDICAL-000007",
+    "category": "medical",
+    "difficulty": "hard",
+    "question": "Which acid-base disturbance is characterized by low pH and elevated PaCO2?",
+    "options": [
+      "Respiratory acidosis",
+      "Respiratory alkalosis",
+      "Metabolic acidosis",
+      "Metabolic alkalosis"
+    ],
+    "answer": 0,
+    "explanation": "Respiratory acidosis is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "medical",
+      "acid-base"
+    ],
+    "subcategory": "acid-base"
+  },
+  {
+    "id": "MEDICAL-000008",
+    "category": "medical",
+    "difficulty": "hard",
+    "question": "In myocardial infarction, which biomarker is especially useful because of its cardiac specificity and prolonged elevation?",
+    "options": [
+      "C-reactive protein",
+      "Cardiac troponin",
+      "Serum lipase",
+      "Alkaline phosphatase"
+    ],
+    "answer": 1,
+    "explanation": "Cardiac troponin is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "medical",
+      "cardiology"
+    ],
+    "subcategory": "cardiology"
   }
 ]

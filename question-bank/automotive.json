@@ -226,5 +226,165 @@
       "automotive"
     ],
     "status": "active"
+  },
+  {
+    "id": "AUTOMOTIVE-000001",
+    "category": "automotive",
+    "difficulty": "easy",
+    "question": "What component stores electrical energy for starting a conventional gasoline vehicle?",
+    "options": [
+      "Radiator",
+      "Muffler",
+      "Fuel injector",
+      "12-volt battery"
+    ],
+    "answer": 3,
+    "explanation": "12-volt battery is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "automotive",
+      "electrical"
+    ],
+    "subcategory": "electrical"
+  },
+  {
+    "id": "AUTOMOTIVE-000002",
+    "category": "automotive",
+    "difficulty": "easy",
+    "question": "What is the primary purpose of engine coolant?",
+    "options": [
+      "Carry heat away from the engine",
+      "Lubricate the tires",
+      "Increase fuel octane",
+      "Charge the battery directly"
+    ],
+    "answer": 0,
+    "explanation": "Carry heat away from the engine is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "automotive",
+      "cooling"
+    ],
+    "subcategory": "cooling"
+  },
+  {
+    "id": "AUTOMOTIVE-000003",
+    "category": "automotive",
+    "difficulty": "easy",
+    "question": "Which component converts engine torque to the drive wheels through selectable gear ratios in a manual transmission?",
+    "options": [
+      "Catalytic converter",
+      "Transmission",
+      "Radiator",
+      "Alternator"
+    ],
+    "answer": 1,
+    "explanation": "Transmission is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "automotive",
+      "powertrain"
+    ],
+    "subcategory": "powertrain"
+  },
+  {
+    "id": "AUTOMOTIVE-000004",
+    "category": "automotive",
+    "difficulty": "medium",
+    "question": "What does ABS help prevent during hard braking?",
+    "options": [
+      "Fuel evaporation",
+      "Battery overcharging",
+      "Wheel lockup",
+      "Engine overheating"
+    ],
+    "answer": 2,
+    "explanation": "Wheel lockup is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "automotive",
+      "brakes"
+    ],
+    "subcategory": "brakes"
+  },
+  {
+    "id": "AUTOMOTIVE-000005",
+    "category": "automotive",
+    "difficulty": "medium",
+    "question": "What does an alternator generally do in a conventional vehicle?",
+    "options": [
+      "Compress refrigerant",
+      "Pump engine coolant",
+      "Control tire pressure mechanically",
+      "Generate electrical power while the engine runs"
+    ],
+    "answer": 3,
+    "explanation": "Generate electrical power while the engine runs is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "automotive",
+      "electrical"
+    ],
+    "subcategory": "electrical"
+  },
+  {
+    "id": "AUTOMOTIVE-000006",
+    "category": "automotive",
+    "difficulty": "medium",
+    "question": "What is the main purpose of a catalytic converter?",
+    "options": [
+      "Reduce harmful exhaust emissions through chemical reactions",
+      "Increase tire grip",
+      "Cool brake fluid",
+      "Store gasoline"
+    ],
+    "answer": 0,
+    "explanation": "Reduce harmful exhaust emissions through chemical reactions is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "automotive",
+      "emissions"
+    ],
+    "subcategory": "emissions"
+  },
+  {
+    "id": "AUTOMOTIVE-000007",
+    "category": "automotive",
+    "difficulty": "hard",
+    "question": "In a hybrid vehicle, regenerative braking primarily converts what into electrical energy?",
+    "options": [
+      "Tire pressure",
+      "Kinetic energy",
+      "Fuel energy before combustion",
+      "Coolant energy"
+    ],
+    "answer": 1,
+    "explanation": "Kinetic energy is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "automotive",
+      "hybrid"
+    ],
+    "subcategory": "hybrid"
+  },
+  {
+    "id": "AUTOMOTIVE-000008",
+    "category": "automotive",
+    "difficulty": "hard",
+    "question": "Why does a turbocharger increase an engine's potential power output?",
+    "options": [
+      "It removes the need for fuel",
+      "It makes exhaust gases colder before combustion",
+      "It forces more air mass into the engine, enabling more fuel to be burned",
+      "It reduces cylinder pressure"
+    ],
+    "answer": 2,
+    "explanation": "It forces more air mass into the engine, enabling more fuel to be burned is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "automotive",
+      "forced-induction"
+    ],
+    "subcategory": "forced-induction"
   }
 ]

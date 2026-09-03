@@ -2221,5 +2221,165 @@
       "medical-terminology"
     ],
     "status": "active"
+  },
+  {
+    "id": "MEDTERM-000018",
+    "category": "medical-terminology",
+    "difficulty": "easy",
+    "question": "What does the suffix '-itis' usually indicate?",
+    "options": [
+      "Bleeding",
+      "Incision",
+      "Inflammation",
+      "Tumor"
+    ],
+    "answer": 2,
+    "explanation": "Inflammation is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "medical-terminology",
+      "suffixes"
+    ],
+    "subcategory": "suffixes"
+  },
+  {
+    "id": "MEDTERM-000019",
+    "category": "medical-terminology",
+    "difficulty": "easy",
+    "question": "What does 'brady-' mean?",
+    "options": [
+      "Fast",
+      "Around",
+      "Above",
+      "Slow"
+    ],
+    "answer": 3,
+    "explanation": "Slow is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "medical-terminology",
+      "prefixes"
+    ],
+    "subcategory": "prefixes"
+  },
+  {
+    "id": "MEDTERM-000020",
+    "category": "medical-terminology",
+    "difficulty": "easy",
+    "question": "What does 'tachycardia' mean?",
+    "options": [
+      "Abnormally rapid heart rate",
+      "Abnormally slow breathing",
+      "Low blood pressure",
+      "Painful urination"
+    ],
+    "answer": 0,
+    "explanation": "Abnormally rapid heart rate is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "medical-terminology",
+      "cardiovascular"
+    ],
+    "subcategory": "cardiovascular"
+  },
+  {
+    "id": "MEDTERM-000021",
+    "category": "medical-terminology",
+    "difficulty": "medium",
+    "question": "What does 'bilateral' mean?",
+    "options": [
+      "Occurring after surgery",
+      "Affecting both sides",
+      "Affecting one side",
+      "Located below the skin"
+    ],
+    "answer": 1,
+    "explanation": "Affecting both sides is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "medical-terminology",
+      "directional-terms"
+    ],
+    "subcategory": "directional-terms"
+  },
+  {
+    "id": "MEDTERM-000022",
+    "category": "medical-terminology",
+    "difficulty": "medium",
+    "question": "What does 'proximal' mean in anatomical terminology?",
+    "options": [
+      "Toward the back",
+      "Toward the midline",
+      "Closer to the point of attachment",
+      "Farther from the point of attachment"
+    ],
+    "answer": 2,
+    "explanation": "Closer to the point of attachment is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "medical-terminology",
+      "anatomical-terms"
+    ],
+    "subcategory": "anatomical-terms"
+  },
+  {
+    "id": "MEDTERM-000023",
+    "category": "medical-terminology",
+    "difficulty": "medium",
+    "question": "What does 'hematuria' refer to?",
+    "options": [
+      "Blood in sputum",
+      "Blood in stool",
+      "Blood in cerebrospinal fluid",
+      "Blood in the urine"
+    ],
+    "answer": 3,
+    "explanation": "Blood in the urine is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "medical-terminology",
+      "urinary"
+    ],
+    "subcategory": "urinary"
+  },
+  {
+    "id": "MEDTERM-000024",
+    "category": "medical-terminology",
+    "difficulty": "hard",
+    "question": "What does 'aphasia' describe?",
+    "options": [
+      "Impaired ability to understand or produce language",
+      "Loss of balance",
+      "Difficulty swallowing only",
+      "Loss of smell"
+    ],
+    "answer": 0,
+    "explanation": "Impaired ability to understand or produce language is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "medical-terminology",
+      "neurologic"
+    ],
+    "subcategory": "neurologic"
+  },
+  {
+    "id": "MEDTERM-000025",
+    "category": "medical-terminology",
+    "difficulty": "hard",
+    "question": "What does 'iatrogenic' mean?",
+    "options": [
+      "Originating outside the body",
+      "Resulting from medical care or treatment",
+      "Inherited from both parents",
+      "Caused by aging alone"
+    ],
+    "answer": 1,
+    "explanation": "Resulting from medical care or treatment is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "medical-terminology",
+      "clinical-terms"
+    ],
+    "subcategory": "clinical-terms"
   }
 ]

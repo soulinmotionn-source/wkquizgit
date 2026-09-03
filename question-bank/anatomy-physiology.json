@@ -2221,5 +2221,165 @@
       "anatomy"
     ],
     "status": "active"
+  },
+  {
+    "id": "ANATOMY-000001",
+    "category": "anatomy-physiology",
+    "difficulty": "easy",
+    "question": "Which chamber of the heart pumps blood into the pulmonary artery?",
+    "options": [
+      "Left atrium",
+      "Right ventricle",
+      "Left ventricle",
+      "Right atrium"
+    ],
+    "answer": 1,
+    "explanation": "Right ventricle is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "anatomy-physiology",
+      "cardiovascular"
+    ],
+    "subcategory": "cardiovascular"
+  },
+  {
+    "id": "ANATOMY-000002",
+    "category": "anatomy-physiology",
+    "difficulty": "easy",
+    "question": "What is the basic functional unit of the kidney?",
+    "options": [
+      "Neuron",
+      "Osteon",
+      "Nephron",
+      "Alveolus"
+    ],
+    "answer": 2,
+    "explanation": "Nephron is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "anatomy-physiology",
+      "renal"
+    ],
+    "subcategory": "renal"
+  },
+  {
+    "id": "ANATOMY-000003",
+    "category": "anatomy-physiology",
+    "difficulty": "easy",
+    "question": "Which part of the brain primarily coordinates balance and fine motor activity?",
+    "options": [
+      "Medulla oblongata",
+      "Hypothalamus",
+      "Frontal lobe",
+      "Cerebellum"
+    ],
+    "answer": 3,
+    "explanation": "Cerebellum is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "anatomy-physiology",
+      "nervous-system"
+    ],
+    "subcategory": "nervous-system"
+  },
+  {
+    "id": "ANATOMY-000004",
+    "category": "anatomy-physiology",
+    "difficulty": "medium",
+    "question": "Which hormone lowers blood glucose by promoting cellular glucose uptake?",
+    "options": [
+      "Insulin",
+      "Glucagon",
+      "Cortisol",
+      "Aldosterone"
+    ],
+    "answer": 0,
+    "explanation": "Insulin is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "anatomy-physiology",
+      "endocrine"
+    ],
+    "subcategory": "endocrine"
+  },
+  {
+    "id": "ANATOMY-000005",
+    "category": "anatomy-physiology",
+    "difficulty": "medium",
+    "question": "Where does most nutrient absorption occur in the digestive tract?",
+    "options": [
+      "Large intestine",
+      "Small intestine",
+      "Esophagus",
+      "Stomach"
+    ],
+    "answer": 1,
+    "explanation": "Small intestine is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "anatomy-physiology",
+      "digestive"
+    ],
+    "subcategory": "digestive"
+  },
+  {
+    "id": "ANATOMY-000006",
+    "category": "anatomy-physiology",
+    "difficulty": "medium",
+    "question": "Which division of the autonomic nervous system generally increases heart rate during acute stress?",
+    "options": [
+      "Somatic division",
+      "Enteric division only",
+      "Sympathetic division",
+      "Parasympathetic division"
+    ],
+    "answer": 2,
+    "explanation": "Sympathetic division is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "anatomy-physiology",
+      "autonomic"
+    ],
+    "subcategory": "autonomic"
+  },
+  {
+    "id": "ANATOMY-000007",
+    "category": "anatomy-physiology",
+    "difficulty": "hard",
+    "question": "During the cardiac cycle, which phase is associated with ventricular filling?",
+    "options": [
+      "Ventricular systole",
+      "Isovolumetric ejection only",
+      "Atrial refractory period",
+      "Diastole"
+    ],
+    "answer": 3,
+    "explanation": "Diastole is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "anatomy-physiology",
+      "cardiac-cycle"
+    ],
+    "subcategory": "cardiac-cycle"
+  },
+  {
+    "id": "ANATOMY-000008",
+    "category": "anatomy-physiology",
+    "difficulty": "hard",
+    "question": "Which nephron segment is especially important for establishing the medullary concentration gradient through countercurrent multiplication?",
+    "options": [
+      "Loop of Henle",
+      "Bowman's capsule",
+      "Glomerulus",
+      "Collecting duct"
+    ],
+    "answer": 0,
+    "explanation": "Loop of Henle is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "anatomy-physiology",
+      "renal-physiology"
+    ],
+    "subcategory": "renal-physiology"
   }
 ]

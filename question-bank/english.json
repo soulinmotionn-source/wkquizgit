@@ -226,5 +226,165 @@
       "english & grammar"
     ],
     "status": "active"
+  },
+  {
+    "id": "ENGLISH-GRAMMAR-000001",
+    "category": "english-grammar",
+    "difficulty": "easy",
+    "question": "Which word is a noun?",
+    "options": [
+      "Mountain",
+      "Quickly",
+      "Beautiful",
+      "Run"
+    ],
+    "answer": 0,
+    "explanation": "Mountain is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "english-grammar",
+      "parts-of-speech"
+    ],
+    "subcategory": "parts-of-speech"
+  },
+  {
+    "id": "ENGLISH-GRAMMAR-000002",
+    "category": "english-grammar",
+    "difficulty": "easy",
+    "question": "Which sentence uses the correct form?",
+    "options": [
+      "She not likes coffee.",
+      "She doesn't like coffee.",
+      "She don't like coffee.",
+      "She doesn't likes coffee."
+    ],
+    "answer": 1,
+    "explanation": "She doesn't like coffee. is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "english-grammar",
+      "subject-verb-agreement"
+    ],
+    "subcategory": "subject-verb-agreement"
+  },
+  {
+    "id": "ENGLISH-GRAMMAR-000003",
+    "category": "english-grammar",
+    "difficulty": "easy",
+    "question": "Which punctuation mark ends a direct question?",
+    "options": [
+      "Colon",
+      "Semicolon",
+      "Question mark",
+      "Comma"
+    ],
+    "answer": 2,
+    "explanation": "Question mark is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "english-grammar",
+      "punctuation"
+    ],
+    "subcategory": "punctuation"
+  },
+  {
+    "id": "ENGLISH-GRAMMAR-000004",
+    "category": "english-grammar",
+    "difficulty": "medium",
+    "question": "Which sentence correctly uses an apostrophe for possession?",
+    "options": [
+      "The students book is on the desk.",
+      "The student's' book is on the desk.",
+      "The student book's is on the desk.",
+      "The student's book is on the desk."
+    ],
+    "answer": 3,
+    "explanation": "The student's book is on the desk. is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "english-grammar",
+      "apostrophes"
+    ],
+    "subcategory": "apostrophes"
+  },
+  {
+    "id": "ENGLISH-GRAMMAR-000005",
+    "category": "english-grammar",
+    "difficulty": "medium",
+    "question": "Which word is closest in meaning to 'concise'?",
+    "options": [
+      "Brief",
+      "Vague",
+      "Lengthy",
+      "Noisy"
+    ],
+    "answer": 0,
+    "explanation": "Brief is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "english-grammar",
+      "vocabulary"
+    ],
+    "subcategory": "vocabulary"
+  },
+  {
+    "id": "ENGLISH-GRAMMAR-000006",
+    "category": "english-grammar",
+    "difficulty": "medium",
+    "question": "Which sentence contains a dependent clause?",
+    "options": [
+      "We opened the door.",
+      "Although it was raining, we went outside.",
+      "We went outside.",
+      "The rain stopped."
+    ],
+    "answer": 1,
+    "explanation": "Although it was raining, we went outside. is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "english-grammar",
+      "syntax"
+    ],
+    "subcategory": "syntax"
+  },
+  {
+    "id": "ENGLISH-GRAMMAR-000007",
+    "category": "english-grammar",
+    "difficulty": "hard",
+    "question": "Which sentence correctly uses the subjunctive mood?",
+    "options": [
+      "If I am you, I would apologize.",
+      "If I be you, I would apologize.",
+      "If I were you, I would apologize.",
+      "If I was you, I would apologize."
+    ],
+    "answer": 2,
+    "explanation": "If I were you, I would apologize. is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "english-grammar",
+      "mood"
+    ],
+    "subcategory": "mood"
+  },
+  {
+    "id": "ENGLISH-GRAMMAR-000008",
+    "category": "english-grammar",
+    "difficulty": "hard",
+    "question": "Which sentence is grammatically parallel?",
+    "options": [
+      "She likes hiking, to swim, and cycling.",
+      "She likes to hike, swimming, and to cycle.",
+      "She likes hiking, to swim, and to cycle.",
+      "She likes hiking, swimming, and cycling."
+    ],
+    "answer": 3,
+    "explanation": "She likes hiking, swimming, and cycling. is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "english-grammar",
+      "parallelism"
+    ],
+    "subcategory": "parallelism"
   }
 ]

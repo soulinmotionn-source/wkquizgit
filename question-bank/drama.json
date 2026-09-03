@@ -2069,5 +2069,165 @@
       "drama"
     ],
     "status": "active"
+  },
+  {
+    "id": "DRAMA-000012",
+    "category": "drama",
+    "difficulty": "easy",
+    "question": "What is the central conflict in a drama?",
+    "options": [
+      "The main struggle or opposition driving the story",
+      "The list of actors",
+      "The opening credits",
+      "The theater's seating plan"
+    ],
+    "answer": 0,
+    "explanation": "The main struggle or opposition driving the story is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "drama",
+      "dramatic-structure"
+    ],
+    "subcategory": "dramatic-structure"
+  },
+  {
+    "id": "DRAMA-000013",
+    "category": "drama",
+    "difficulty": "easy",
+    "question": "What is a protagonist?",
+    "options": [
+      "The audience",
+      "The principal character whose story is being followed",
+      "The stage manager",
+      "The antagonist's costume"
+    ],
+    "answer": 1,
+    "explanation": "The principal character whose story is being followed is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "drama",
+      "characters"
+    ],
+    "subcategory": "characters"
+  },
+  {
+    "id": "DRAMA-000014",
+    "category": "drama",
+    "difficulty": "easy",
+    "question": "What is an antagonist?",
+    "options": [
+      "The setting",
+      "The soundtrack",
+      "A character or force opposing the protagonist",
+      "The narrator's microphone"
+    ],
+    "answer": 2,
+    "explanation": "A character or force opposing the protagonist is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "drama",
+      "characters"
+    ],
+    "subcategory": "characters"
+  },
+  {
+    "id": "DRAMA-000015",
+    "category": "drama",
+    "difficulty": "medium",
+    "question": "What is dramatic irony?",
+    "options": [
+      "When every character speaks in rhyme",
+      "When the story has no conflict",
+      "When the ending is shown first",
+      "When the audience knows something a character does not"
+    ],
+    "answer": 3,
+    "explanation": "When the audience knows something a character does not is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "drama",
+      "literary-devices"
+    ],
+    "subcategory": "literary-devices"
+  },
+  {
+    "id": "DRAMA-000016",
+    "category": "drama",
+    "difficulty": "medium",
+    "question": "What is a monologue?",
+    "options": [
+      "A long speech by one character",
+      "A conversation between two characters",
+      "A stage direction",
+      "A change of scenery"
+    ],
+    "answer": 0,
+    "explanation": "A long speech by one character is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "drama",
+      "dramatic-form"
+    ],
+    "subcategory": "dramatic-form"
+  },
+  {
+    "id": "DRAMA-000017",
+    "category": "drama",
+    "difficulty": "medium",
+    "question": "What is foreshadowing?",
+    "options": [
+      "A type of lighting",
+      "A hint of something that may happen later",
+      "A recap of the previous episode",
+      "A list of props"
+    ],
+    "answer": 1,
+    "explanation": "A hint of something that may happen later is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "drama",
+      "literary-devices"
+    ],
+    "subcategory": "literary-devices"
+  },
+  {
+    "id": "DRAMA-000018",
+    "category": "drama",
+    "difficulty": "hard",
+    "question": "In classical dramatic structure, what is the climax?",
+    "options": [
+      "The cast list",
+      "The final curtain call only",
+      "The major turning point or peak of conflict",
+      "The exposition of setting"
+    ],
+    "answer": 2,
+    "explanation": "The major turning point or peak of conflict is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "drama",
+      "structure"
+    ],
+    "subcategory": "structure"
+  },
+  {
+    "id": "DRAMA-000019",
+    "category": "drama",
+    "difficulty": "hard",
+    "question": "What is catharsis in dramatic theory?",
+    "options": [
+      "A method of costume design",
+      "A type of stage flooring",
+      "A form of ticket pricing",
+      "A release or purgation of strong emotion through the dramatic experience"
+    ],
+    "answer": 3,
+    "explanation": "A release or purgation of strong emotion through the dramatic experience is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "drama",
+      "dramatic-theory"
+    ],
+    "subcategory": "dramatic-theory"
   }
 ]

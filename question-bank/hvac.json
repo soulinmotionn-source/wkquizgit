@@ -2316,5 +2316,165 @@
       "hvac"
     ],
     "status": "active"
+  },
+  {
+    "id": "HVAC-000023",
+    "category": "hvac",
+    "difficulty": "easy",
+    "question": "What component compresses low-pressure refrigerant vapor in a vapor-compression system?",
+    "options": [
+      "Expansion valve",
+      "Compressor",
+      "Condenser",
+      "Evaporator"
+    ],
+    "answer": 1,
+    "explanation": "Compressor is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "hvac",
+      "refrigeration-cycle"
+    ],
+    "subcategory": "refrigeration-cycle"
+  },
+  {
+    "id": "HVAC-000024",
+    "category": "hvac",
+    "difficulty": "easy",
+    "question": "Where does refrigerant typically reject heat to the surroundings?",
+    "options": [
+      "Compressor crankcase",
+      "Expansion device",
+      "Condenser",
+      "Evaporator"
+    ],
+    "answer": 2,
+    "explanation": "Condenser is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "hvac",
+      "refrigeration-cycle"
+    ],
+    "subcategory": "refrigeration-cycle"
+  },
+  {
+    "id": "HVAC-000025",
+    "category": "hvac",
+    "difficulty": "easy",
+    "question": "Which component reduces refrigerant pressure before it enters the evaporator?",
+    "options": [
+      "Compressor",
+      "Condenser fan",
+      "Receiver only",
+      "Expansion device"
+    ],
+    "answer": 3,
+    "explanation": "Expansion device is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "hvac",
+      "refrigeration-cycle"
+    ],
+    "subcategory": "refrigeration-cycle"
+  },
+  {
+    "id": "HVAC-000026",
+    "category": "hvac",
+    "difficulty": "medium",
+    "question": "What is superheat?",
+    "options": [
+      "Temperature of a vapor above its saturation temperature at a given pressure",
+      "Temperature below freezing",
+      "Total system pressure",
+      "Liquid mass flow only"
+    ],
+    "answer": 0,
+    "explanation": "Temperature of a vapor above its saturation temperature at a given pressure is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "hvac",
+      "refrigeration"
+    ],
+    "subcategory": "refrigeration"
+  },
+  {
+    "id": "HVAC-000027",
+    "category": "hvac",
+    "difficulty": "medium",
+    "question": "What is subcooling?",
+    "options": [
+      "Air velocity through a filter",
+      "Temperature of a liquid below its saturation temperature at a given pressure",
+      "Vapor temperature above saturation",
+      "Compressor discharge pressure"
+    ],
+    "answer": 1,
+    "explanation": "Temperature of a liquid below its saturation temperature at a given pressure is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "hvac",
+      "refrigeration"
+    ],
+    "subcategory": "refrigeration"
+  },
+  {
+    "id": "HVAC-000028",
+    "category": "hvac",
+    "difficulty": "medium",
+    "question": "What does a psychrometric chart primarily describe?",
+    "options": [
+      "Compressor bearing loads",
+      "Refrigerant cylinder colors",
+      "Properties and relationships of moist air",
+      "Electrical conductor sizes"
+    ],
+    "answer": 2,
+    "explanation": "Properties and relationships of moist air is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "hvac",
+      "psychrometrics"
+    ],
+    "subcategory": "psychrometrics"
+  },
+  {
+    "id": "HVAC-000029",
+    "category": "hvac",
+    "difficulty": "hard",
+    "question": "Why is adequate evaporator airflow important in an air-conditioning system?",
+    "options": [
+      "It guarantees zero refrigerant loss",
+      "It eliminates the need for a condenser",
+      "It makes compressor lubrication unnecessary",
+      "It supports proper heat transfer and helps maintain appropriate evaporator conditions"
+    ],
+    "answer": 3,
+    "explanation": "It supports proper heat transfer and helps maintain appropriate evaporator conditions is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "hvac",
+      "airflow"
+    ],
+    "subcategory": "airflow"
+  },
+  {
+    "id": "HVAC-000030",
+    "category": "hvac",
+    "difficulty": "hard",
+    "question": "What condition can cause evaporator coil frosting when airflow is severely restricted?",
+    "options": [
+      "Evaporator temperature can fall below freezing as heat transfer is reduced",
+      "Condenser pressure always becomes zero",
+      "Refrigerant becomes nonflammable",
+      "Compressor speed becomes exactly constant"
+    ],
+    "answer": 0,
+    "explanation": "Evaporator temperature can fall below freezing as heat transfer is reduced is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "hvac",
+      "troubleshooting"
+    ],
+    "subcategory": "troubleshooting"
   }
 ]

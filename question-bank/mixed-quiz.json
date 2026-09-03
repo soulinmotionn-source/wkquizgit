@@ -1,0 +1,162 @@
+[
+  {
+    "id": "MIXED-000001",
+    "category": "mixed",
+    "difficulty": "easy",
+    "question": "Which organ pumps blood through the systemic circulation?",
+    "options": [
+      "Right ventricle",
+      "Left atrium",
+      "Right atrium",
+      "Left ventricle"
+    ],
+    "answer": 3,
+    "explanation": "Left ventricle is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "mixed",
+      "anatomy"
+    ],
+    "subcategory": "anatomy"
+  },
+  {
+    "id": "MIXED-000002",
+    "category": "mixed",
+    "difficulty": "easy",
+    "question": "What is the capital of Canada?",
+    "options": [
+      "Ottawa",
+      "Toronto",
+      "Vancouver",
+      "Montreal"
+    ],
+    "answer": 0,
+    "explanation": "Ottawa is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "mixed",
+      "geography"
+    ],
+    "subcategory": "geography"
+  },
+  {
+    "id": "MIXED-000003",
+    "category": "mixed",
+    "difficulty": "easy",
+    "question": "What is the SI unit of electrical resistance?",
+    "options": [
+      "Watt",
+      "Ohm",
+      "Volt",
+      "Ampere"
+    ],
+    "answer": 1,
+    "explanation": "Ohm is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "mixed",
+      "electrical"
+    ],
+    "subcategory": "electrical"
+  },
+  {
+    "id": "MIXED-000004",
+    "category": "mixed",
+    "difficulty": "medium",
+    "question": "Which medication class inhibits the H+/K+ ATPase in gastric parietal cells?",
+    "options": [
+      "ARBs",
+      "Bisphosphonates",
+      "Proton pump inhibitors",
+      "Beta blockers"
+    ],
+    "answer": 2,
+    "explanation": "Proton pump inhibitors is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "mixed",
+      "pharmacology"
+    ],
+    "subcategory": "pharmacology"
+  },
+  {
+    "id": "MIXED-000005",
+    "category": "mixed",
+    "difficulty": "medium",
+    "question": "Which film was directed by Steven Spielberg and features dinosaurs brought back through genetic engineering?",
+    "options": [
+      "The Godfather",
+      "Alien",
+      "The Shining",
+      "Jurassic Park"
+    ],
+    "answer": 3,
+    "explanation": "Jurassic Park is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "mixed",
+      "movies"
+    ],
+    "subcategory": "movies"
+  },
+  {
+    "id": "MIXED-000006",
+    "category": "mixed",
+    "difficulty": "medium",
+    "question": "What does DNS translate in common Internet use?",
+    "options": [
+      "Domain names into network addresses and related records",
+      "Images into video",
+      "Passwords into usernames",
+      "Files into printed pages"
+    ],
+    "answer": 0,
+    "explanation": "Domain names into network addresses and related records is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "mixed",
+      "computers"
+    ],
+    "subcategory": "computers"
+  },
+  {
+    "id": "MIXED-000007",
+    "category": "mixed",
+    "difficulty": "hard",
+    "question": "What is the derivative of sin(x)?",
+    "options": [
+      "-sin(x)",
+      "cos(x)",
+      "-cos(x)",
+      "tan(x)"
+    ],
+    "answer": 1,
+    "explanation": "cos(x) is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "mixed",
+      "mathematics"
+    ],
+    "subcategory": "mathematics"
+  },
+  {
+    "id": "MIXED-000008",
+    "category": "mixed",
+    "difficulty": "hard",
+    "question": "Which gas law states that pressure is inversely proportional to volume at constant temperature for a fixed amount of gas?",
+    "options": [
+      "Avogadro's law",
+      "Dalton's law",
+      "Boyle's law",
+      "Charles's law"
+    ],
+    "answer": 2,
+    "explanation": "Boyle's law is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "mixed",
+      "science"
+    ],
+    "subcategory": "science"
+  }
+]

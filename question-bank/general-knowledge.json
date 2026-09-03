@@ -2107,5 +2107,165 @@
       "general-knowledge"
     ],
     "status": "active"
+  },
+  {
+    "id": "GENERAL-000001",
+    "category": "general-knowledge",
+    "difficulty": "easy",
+    "question": "How many continents are commonly recognized in the seven-continent model?",
+    "options": [
+      "Seven",
+      "Five",
+      "Six",
+      "Eight"
+    ],
+    "answer": 0,
+    "explanation": "Seven is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "general-knowledge",
+      "world"
+    ],
+    "subcategory": "world"
+  },
+  {
+    "id": "GENERAL-000002",
+    "category": "general-knowledge",
+    "difficulty": "easy",
+    "question": "What is the largest ocean on Earth?",
+    "options": [
+      "Arctic Ocean",
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean"
+    ],
+    "answer": 1,
+    "explanation": "Pacific Ocean is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "general-knowledge",
+      "geography"
+    ],
+    "subcategory": "geography"
+  },
+  {
+    "id": "GENERAL-000003",
+    "category": "general-knowledge",
+    "difficulty": "easy",
+    "question": "Which organization is abbreviated as WHO?",
+    "options": [
+      "World Heritage Office",
+      "Western Health Observatory",
+      "World Health Organization",
+      "World Trade Organization"
+    ],
+    "answer": 2,
+    "explanation": "World Health Organization is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "general-knowledge",
+      "institutions"
+    ],
+    "subcategory": "institutions"
+  },
+  {
+    "id": "GENERAL-000004",
+    "category": "general-knowledge",
+    "difficulty": "medium",
+    "question": "What is the SI base unit of length?",
+    "options": [
+      "Liter",
+      "Gram",
+      "Second",
+      "Metre"
+    ],
+    "answer": 3,
+    "explanation": "Metre is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "general-knowledge",
+      "units"
+    ],
+    "subcategory": "units"
+  },
+  {
+    "id": "GENERAL-000005",
+    "category": "general-knowledge",
+    "difficulty": "medium",
+    "question": "Which invention is most directly associated with Johannes Gutenberg?",
+    "options": [
+      "Movable-type printing press",
+      "Steam turbine",
+      "Telephone",
+      "Internal combustion engine"
+    ],
+    "answer": 0,
+    "explanation": "Movable-type printing press is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "general-knowledge",
+      "inventions"
+    ],
+    "subcategory": "inventions"
+  },
+  {
+    "id": "GENERAL-000006",
+    "category": "general-knowledge",
+    "difficulty": "medium",
+    "question": "What is the primary purpose of a constitution in a state?",
+    "options": [
+      "To replace all ordinary laws",
+      "To establish fundamental rules and governmental structure",
+      "To set daily weather forecasts",
+      "To list all private businesses"
+    ],
+    "answer": 1,
+    "explanation": "To establish fundamental rules and governmental structure is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "general-knowledge",
+      "civics"
+    ],
+    "subcategory": "civics"
+  },
+  {
+    "id": "GENERAL-000007",
+    "category": "general-knowledge",
+    "difficulty": "hard",
+    "question": "Which international organization maintains the International System of Units through global metrology coordination?",
+    "options": [
+      "World Meteorological Organization",
+      "International Maritime Organization",
+      "The International Bureau of Weights and Measures",
+      "International Olympic Committee"
+    ],
+    "answer": 2,
+    "explanation": "The International Bureau of Weights and Measures is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "general-knowledge",
+      "institutions"
+    ],
+    "subcategory": "institutions"
+  },
+  {
+    "id": "GENERAL-000008",
+    "category": "general-knowledge",
+    "difficulty": "hard",
+    "question": "What is the term for a government in which power is constitutionally divided among legislative, executive, and judicial branches?",
+    "options": [
+      "Mercantilism",
+      "Collectivism",
+      "Isolationism",
+      "Separation of powers"
+    ],
+    "answer": 3,
+    "explanation": "Separation of powers is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "general-knowledge",
+      "civics"
+    ],
+    "subcategory": "civics"
   }
 ]

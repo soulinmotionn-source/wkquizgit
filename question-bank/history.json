@@ -264,5 +264,145 @@
       "history"
     ],
     "status": "active"
+  },
+  {
+    "id": "HISTORY-000001",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Which ancient civilization built the pyramids at Giza?",
+    "options": [
+      "Vikings",
+      "Aztecs",
+      "Ancient Egyptians",
+      "Romans"
+    ],
+    "answer": 2,
+    "explanation": "Ancient Egyptians is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "history",
+      "ancient-history"
+    ],
+    "subcategory": "ancient-history"
+  },
+  {
+    "id": "HISTORY-000002",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Who was the first emperor of Rome?",
+    "options": [
+      "Julius Caesar",
+      "Nero",
+      "Constantine",
+      "Augustus"
+    ],
+    "answer": 3,
+    "explanation": "Augustus is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "history",
+      "rome"
+    ],
+    "subcategory": "rome"
+  },
+  {
+    "id": "HISTORY-000004",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which document signed in 1215 limited the power of the English king?",
+    "options": [
+      "Code of Hammurabi",
+      "Magna Carta",
+      "Treaty of Versailles",
+      "Edict of Milan"
+    ],
+    "answer": 1,
+    "explanation": "Magna Carta is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "history",
+      "medieval"
+    ],
+    "subcategory": "medieval"
+  },
+  {
+    "id": "HISTORY-000005",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which revolution began in France in 1789?",
+    "options": [
+      "Russian Revolution",
+      "Glorious Revolution",
+      "French Revolution",
+      "Industrial Revolution"
+    ],
+    "answer": 2,
+    "explanation": "French Revolution is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "history",
+      "revolutions"
+    ],
+    "subcategory": "revolutions"
+  },
+  {
+    "id": "HISTORY-000006",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which empire was centered at Constantinople and continued the Roman imperial tradition in the East?",
+    "options": [
+      "Mughal Empire",
+      "Mali Empire",
+      "Inca Empire",
+      "Byzantine Empire"
+    ],
+    "answer": 3,
+    "explanation": "Byzantine Empire is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "history",
+      "empires"
+    ],
+    "subcategory": "empires"
+  },
+  {
+    "id": "HISTORY-000007",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which treaty formally ended World War I between Germany and the Allied Powers?",
+    "options": [
+      "Treaty of Versailles",
+      "Treaty of Tordesillas",
+      "Treaty of Utrecht",
+      "Treaty of Paris 1783"
+    ],
+    "answer": 0,
+    "explanation": "Treaty of Versailles is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "history",
+      "world-war-i"
+    ],
+    "subcategory": "world-war-i"
+  },
+  {
+    "id": "HISTORY-000008",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which 1066 battle led to William the Conqueror's establishment of Norman rule in England?",
+    "options": [
+      "Battle of Bosworth Field",
+      "Battle of Hastings",
+      "Battle of Agincourt",
+      "Battle of Tours"
+    ],
+    "answer": 1,
+    "explanation": "Battle of Hastings is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "history",
+      "england"
+    ],
+    "subcategory": "england"
   }
 ]

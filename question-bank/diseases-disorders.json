@@ -2183,5 +2183,165 @@
       "diseases"
     ],
     "status": "active"
+  },
+  {
+    "id": "DISEASES-000001",
+    "category": "diseases-disorders",
+    "difficulty": "easy",
+    "question": "Which disease is characterized by persistent high blood glucose due to impaired insulin production or action?",
+    "options": [
+      "Migraine",
+      "Diabetes mellitus",
+      "Osteoarthritis",
+      "Asthma"
+    ],
+    "answer": 1,
+    "explanation": "Diabetes mellitus is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "diseases-disorders",
+      "endocrine"
+    ],
+    "subcategory": "endocrine"
+  },
+  {
+    "id": "DISEASES-000002",
+    "category": "diseases-disorders",
+    "difficulty": "easy",
+    "question": "Which disorder causes episodic narrowing of the airways with wheezing and variable airflow limitation?",
+    "options": [
+      "Osteoporosis",
+      "Appendicitis",
+      "Asthma",
+      "Cataract"
+    ],
+    "answer": 2,
+    "explanation": "Asthma is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "diseases-disorders",
+      "respiratory"
+    ],
+    "subcategory": "respiratory"
+  },
+  {
+    "id": "DISEASES-000003",
+    "category": "diseases-disorders",
+    "difficulty": "easy",
+    "question": "Which disease is caused by uncontrolled growth of abnormal cells?",
+    "options": [
+      "Edema",
+      "Anemia",
+      "Arthritis",
+      "Cancer"
+    ],
+    "answer": 3,
+    "explanation": "Cancer is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "diseases-disorders",
+      "oncology"
+    ],
+    "subcategory": "oncology"
+  },
+  {
+    "id": "DISEASES-000004",
+    "category": "diseases-disorders",
+    "difficulty": "medium",
+    "question": "Which chronic lung disease is characterized by persistent airflow limitation and commonly includes emphysema and chronic bronchitis?",
+    "options": [
+      "Chronic obstructive pulmonary disease",
+      "Peptic ulcer disease",
+      "Nephrolithiasis",
+      "Rheumatoid arthritis"
+    ],
+    "answer": 0,
+    "explanation": "Chronic obstructive pulmonary disease is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "diseases-disorders",
+      "respiratory"
+    ],
+    "subcategory": "respiratory"
+  },
+  {
+    "id": "DISEASES-000005",
+    "category": "diseases-disorders",
+    "difficulty": "medium",
+    "question": "Which autoimmune disorder commonly causes symmetric inflammatory arthritis of multiple joints?",
+    "options": [
+      "Osteomyelitis",
+      "Rheumatoid arthritis",
+      "Osteoarthritis",
+      "Gout"
+    ],
+    "answer": 1,
+    "explanation": "Rheumatoid arthritis is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "diseases-disorders",
+      "rheumatology"
+    ],
+    "subcategory": "rheumatology"
+  },
+  {
+    "id": "DISEASES-000006",
+    "category": "diseases-disorders",
+    "difficulty": "medium",
+    "question": "Which condition results from interruption of blood flow to part of the brain?",
+    "options": [
+      "Pancreatitis",
+      "Cholecystitis",
+      "Ischemic stroke",
+      "Pneumothorax"
+    ],
+    "answer": 2,
+    "explanation": "Ischemic stroke is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "diseases-disorders",
+      "neurology"
+    ],
+    "subcategory": "neurology"
+  },
+  {
+    "id": "DISEASES-000007",
+    "category": "diseases-disorders",
+    "difficulty": "hard",
+    "question": "Which inherited disorder results from deficient dystrophin and causes progressive muscle weakness, classically in boys?",
+    "options": [
+      "Huntington disease",
+      "Parkinson disease",
+      "Myasthenia gravis",
+      "Duchenne muscular dystrophy"
+    ],
+    "answer": 3,
+    "explanation": "Duchenne muscular dystrophy is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "diseases-disorders",
+      "genetic"
+    ],
+    "subcategory": "genetic"
+  },
+  {
+    "id": "DISEASES-000008",
+    "category": "diseases-disorders",
+    "difficulty": "hard",
+    "question": "Which disease is characterized by demyelination in the central nervous system with neurologic deficits separated in time and space?",
+    "options": [
+      "Multiple sclerosis",
+      "Guillain-Barré syndrome",
+      "Myasthenia gravis",
+      "Peripheral neuropathy"
+    ],
+    "answer": 0,
+    "explanation": "Multiple sclerosis is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "diseases-disorders",
+      "neurology"
+    ],
+    "subcategory": "neurology"
   }
 ]

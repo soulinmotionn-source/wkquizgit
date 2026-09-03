@@ -226,5 +226,165 @@
       "music"
     ],
     "status": "active"
+  },
+  {
+    "id": "MUSIC-000013",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Which instrument has 88 keys on a standard modern piano?",
+    "options": [
+      "Piano",
+      "Violin",
+      "Flute",
+      "Trumpet"
+    ],
+    "answer": 0,
+    "explanation": "Piano is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "music",
+      "instruments"
+    ],
+    "subcategory": "instruments"
+  },
+  {
+    "id": "MUSIC-000014",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Which musical symbol indicates silence for a specified duration?",
+    "options": [
+      "Tie",
+      "Rest",
+      "Clef",
+      "Sharp"
+    ],
+    "answer": 1,
+    "explanation": "Rest is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "music",
+      "notation"
+    ],
+    "subcategory": "notation"
+  },
+  {
+    "id": "MUSIC-000015",
+    "category": "music",
+    "difficulty": "easy",
+    "question": "Which singer released the album 'Thriller'?",
+    "options": [
+      "David Bowie",
+      "Elton John",
+      "Michael Jackson",
+      "Prince"
+    ],
+    "answer": 2,
+    "explanation": "Michael Jackson is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "music",
+      "albums"
+    ],
+    "subcategory": "albums"
+  },
+  {
+    "id": "MUSIC-000016",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "What is a tempo marking?",
+    "options": [
+      "The key signature",
+      "The instrument list",
+      "The album cover",
+      "An indication of the speed of a piece"
+    ],
+    "answer": 3,
+    "explanation": "An indication of the speed of a piece is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "music",
+      "music-theory"
+    ],
+    "subcategory": "music-theory"
+  },
+  {
+    "id": "MUSIC-000017",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "Which genre is characterized by improvisation and a strong tradition of swing and blues influences?",
+    "options": [
+      "Jazz",
+      "Opera",
+      "Reggae",
+      "Marching band"
+    ],
+    "answer": 0,
+    "explanation": "Jazz is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "music",
+      "genres"
+    ],
+    "subcategory": "genres"
+  },
+  {
+    "id": "MUSIC-000018",
+    "category": "music",
+    "difficulty": "medium",
+    "question": "What is a semitone in Western music?",
+    "options": [
+      "A complete octave",
+      "The smallest commonly used interval in the chromatic scale",
+      "A twelve-note chord",
+      "A type of rhythm section"
+    ],
+    "answer": 1,
+    "explanation": "The smallest commonly used interval in the chromatic scale is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "music",
+      "theory"
+    ],
+    "subcategory": "theory"
+  },
+  {
+    "id": "MUSIC-000019",
+    "category": "music",
+    "difficulty": "hard",
+    "question": "Which composer wrote the Ninth Symphony commonly known for its setting of 'Ode to Joy'?",
+    "options": [
+      "Johann Sebastian Bach",
+      "Franz Schubert",
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart"
+    ],
+    "answer": 2,
+    "explanation": "Ludwig van Beethoven is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "music",
+      "classical"
+    ],
+    "subcategory": "classical"
+  },
+  {
+    "id": "MUSIC-000020",
+    "category": "music",
+    "difficulty": "hard",
+    "question": "In a major scale, which degree forms the leading tone?",
+    "options": [
+      "The first",
+      "The fourth",
+      "The sixth",
+      "The seventh scale degree"
+    ],
+    "answer": 3,
+    "explanation": "The seventh scale degree is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "music",
+      "theory"
+    ],
+    "subcategory": "theory"
   }
 ]

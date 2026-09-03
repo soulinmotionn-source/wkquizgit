@@ -2259,5 +2259,165 @@
       "electrical"
     ],
     "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-000001",
+    "category": "electrical",
+    "difficulty": "easy",
+    "question": "What is the SI unit of electric current?",
+    "options": [
+      "Volt",
+      "Ohm",
+      "Watt",
+      "Ampere"
+    ],
+    "answer": 3,
+    "explanation": "Ampere is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "electrical",
+      "fundamentals"
+    ],
+    "subcategory": "fundamentals"
+  },
+  {
+    "id": "ELECTRICAL-000002",
+    "category": "electrical",
+    "difficulty": "easy",
+    "question": "What law relates voltage, current, and resistance in a simple circuit?",
+    "options": [
+      "Ohm's law",
+      "Faraday's law",
+      "Boyle's law",
+      "Hooke's law"
+    ],
+    "answer": 0,
+    "explanation": "Ohm's law is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "electrical",
+      "circuits"
+    ],
+    "subcategory": "circuits"
+  },
+  {
+    "id": "ELECTRICAL-000003",
+    "category": "electrical",
+    "difficulty": "easy",
+    "question": "Which component is designed to oppose electric current?",
+    "options": [
+      "Antenna",
+      "Resistor",
+      "Transformer",
+      "Switchboard"
+    ],
+    "answer": 1,
+    "explanation": "Resistor is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "electrical",
+      "components"
+    ],
+    "subcategory": "components"
+  },
+  {
+    "id": "ELECTRICAL-000004",
+    "category": "electrical",
+    "difficulty": "medium",
+    "question": "If a 12 V source is connected across a 6 Ω resistor, what current flows?",
+    "options": [
+      "6 A",
+      "72 A",
+      "2 A",
+      "0.5 A"
+    ],
+    "answer": 2,
+    "explanation": "2 A is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "electrical",
+      "ohms-law"
+    ],
+    "subcategory": "ohms-law"
+  },
+  {
+    "id": "ELECTRICAL-000005",
+    "category": "electrical",
+    "difficulty": "medium",
+    "question": "In a series circuit, how is current related through ideal series components?",
+    "options": [
+      "It is always zero",
+      "It doubles after every component",
+      "It is different at every component",
+      "The same current flows through each component"
+    ],
+    "answer": 3,
+    "explanation": "The same current flows through each component is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "electrical",
+      "series-circuits"
+    ],
+    "subcategory": "series-circuits"
+  },
+  {
+    "id": "ELECTRICAL-000006",
+    "category": "electrical",
+    "difficulty": "medium",
+    "question": "What does an RCD/GFCI primarily help protect against?",
+    "options": [
+      "Electric shock from leakage or ground-fault current",
+      "Low battery voltage",
+      "Mechanical vibration",
+      "Excessive tire pressure"
+    ],
+    "answer": 0,
+    "explanation": "Electric shock from leakage or ground-fault current is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "electrical",
+      "safety"
+    ],
+    "subcategory": "safety"
+  },
+  {
+    "id": "ELECTRICAL-000007",
+    "category": "electrical",
+    "difficulty": "hard",
+    "question": "A 240 V load draws 10 A at unity power factor. What is its real power?",
+    "options": [
+      "24,000 W",
+      "2400 W",
+      "24 W",
+      "240 W"
+    ],
+    "answer": 1,
+    "explanation": "2400 W is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "electrical",
+      "power"
+    ],
+    "subcategory": "power"
+  },
+  {
+    "id": "ELECTRICAL-000008",
+    "category": "electrical",
+    "difficulty": "hard",
+    "question": "In a balanced three-phase system, what is the relationship between line voltage and phase voltage for a wye connection?",
+    "options": [
+      "Line voltage is twice phase voltage",
+      "Line voltage is always equal to phase voltage",
+      "Line voltage is √3 times phase voltage",
+      "Line voltage equals half phase voltage"
+    ],
+    "answer": 2,
+    "explanation": "Line voltage is √3 times phase voltage is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "electrical",
+      "three-phase"
+    ],
+    "subcategory": "three-phase"
   }
 ]

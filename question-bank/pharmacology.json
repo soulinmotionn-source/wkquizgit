@@ -2221,5 +2221,165 @@
       "pharmacology"
     ],
     "status": "active"
+  },
+  {
+    "id": "PHARM-000018",
+    "category": "pharmacology",
+    "difficulty": "easy",
+    "question": "Which drug class does acetaminophen belong to?",
+    "options": [
+      "Loop diuretic",
+      "Non-opioid analgesic and antipyretic",
+      "Beta blocker",
+      "Anticoagulant"
+    ],
+    "answer": 1,
+    "explanation": "Non-opioid analgesic and antipyretic is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "pharmacology",
+      "analgesics"
+    ],
+    "subcategory": "analgesics"
+  },
+  {
+    "id": "PHARM-000019",
+    "category": "pharmacology",
+    "difficulty": "easy",
+    "question": "Which route delivers medication directly into a vein?",
+    "options": [
+      "Subcutaneous",
+      "Intradermal",
+      "Intravenous",
+      "Intramuscular"
+    ],
+    "answer": 2,
+    "explanation": "Intravenous is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "pharmacology",
+      "routes"
+    ],
+    "subcategory": "routes"
+  },
+  {
+    "id": "PHARM-000020",
+    "category": "pharmacology",
+    "difficulty": "easy",
+    "question": "Which medication class commonly lowers blood pressure by blocking angiotensin II receptors?",
+    "options": [
+      "Proton pump inhibitors",
+      "Anticholinergics",
+      "Bisphosphonates",
+      "Angiotensin II receptor blockers"
+    ],
+    "answer": 3,
+    "explanation": "Angiotensin II receptor blockers is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "pharmacology",
+      "antihypertensives"
+    ],
+    "subcategory": "antihypertensives"
+  },
+  {
+    "id": "PHARM-000021",
+    "category": "pharmacology",
+    "difficulty": "medium",
+    "question": "Which adverse effect is particularly important to monitor with insulin therapy?",
+    "options": [
+      "Hypoglycemia",
+      "Hypercalcemia",
+      "Constipation",
+      "Hearing loss"
+    ],
+    "answer": 0,
+    "explanation": "Hypoglycemia is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "pharmacology",
+      "diabetes"
+    ],
+    "subcategory": "diabetes"
+  },
+  {
+    "id": "PHARM-000022",
+    "category": "pharmacology",
+    "difficulty": "medium",
+    "question": "Which medication class reduces gastric acid secretion by inhibiting the H+/K+ ATPase?",
+    "options": [
+      "ACE inhibitors",
+      "Proton pump inhibitors",
+      "Thiazide diuretics",
+      "SSRIs"
+    ],
+    "answer": 1,
+    "explanation": "Proton pump inhibitors is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "pharmacology",
+      "gastrointestinal"
+    ],
+    "subcategory": "gastrointestinal"
+  },
+  {
+    "id": "PHARM-000023",
+    "category": "pharmacology",
+    "difficulty": "medium",
+    "question": "Which drug is a beta-1 selective blocker commonly used for cardiovascular conditions?",
+    "options": [
+      "Omeprazole",
+      "Furosemide",
+      "Metoprolol",
+      "Albuterol"
+    ],
+    "answer": 2,
+    "explanation": "Metoprolol is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "pharmacology",
+      "cardiovascular"
+    ],
+    "subcategory": "cardiovascular"
+  },
+  {
+    "id": "PHARM-000024",
+    "category": "pharmacology",
+    "difficulty": "hard",
+    "question": "Which anticoagulant directly inhibits factor Xa and is administered orally?",
+    "options": [
+      "Warfarin",
+      "Clopidogrel",
+      "Aspirin",
+      "Apixaban"
+    ],
+    "answer": 3,
+    "explanation": "Apixaban is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "pharmacology",
+      "anticoagulants"
+    ],
+    "subcategory": "anticoagulants"
+  },
+  {
+    "id": "PHARM-000025",
+    "category": "pharmacology",
+    "difficulty": "hard",
+    "question": "Which antibiotic mechanism is characteristic of vancomycin?",
+    "options": [
+      "Inhibition of bacterial cell-wall synthesis",
+      "Inhibition of folate synthesis",
+      "Inhibition of viral reverse transcriptase",
+      "Blockade of human DNA gyrase"
+    ],
+    "answer": 0,
+    "explanation": "Inhibition of bacterial cell-wall synthesis is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "pharmacology",
+      "antibiotics"
+    ],
+    "subcategory": "antibiotics"
   }
 ]

@@ -2183,5 +2183,165 @@
       "electrical-symbols"
     ],
     "status": "active"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-000001",
+    "category": "electrical-symbols",
+    "difficulty": "easy",
+    "question": "Which schematic symbol conventionally represents a resistor?",
+    "options": [
+      "A circle with a cross",
+      "Two unequal parallel plates",
+      "A triangle with a line",
+      "A zigzag or rectangular resistor symbol"
+    ],
+    "answer": 3,
+    "explanation": "A zigzag or rectangular resistor symbol is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "electrical-symbols",
+      "schematics"
+    ],
+    "subcategory": "schematics"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-000002",
+    "category": "electrical-symbols",
+    "difficulty": "easy",
+    "question": "Which symbol is commonly used for a diode?",
+    "options": [
+      "A triangle-free diode symbol with a triangle absent and a bar marking the cathode",
+      "Two coils side by side",
+      "A capacitor with a curved plate",
+      "A lamp filament only"
+    ],
+    "answer": 0,
+    "explanation": "A triangle-free diode symbol with a triangle absent and a bar marking the cathode is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "electrical-symbols",
+      "components"
+    ],
+    "subcategory": "components"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-000003",
+    "category": "electrical-symbols",
+    "difficulty": "easy",
+    "question": "What does the ground symbol in a circuit diagram generally indicate?",
+    "options": [
+      "A signal amplifier",
+      "A reference or grounding connection",
+      "A fuse rating",
+      "A motor winding"
+    ],
+    "answer": 1,
+    "explanation": "A reference or grounding connection is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "electrical-symbols",
+      "schematics"
+    ],
+    "subcategory": "schematics"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-000004",
+    "category": "electrical-symbols",
+    "difficulty": "medium",
+    "question": "What symbol is commonly used for a capacitor?",
+    "options": [
+      "A coil around a core",
+      "A filled triangle",
+      "Two plates separated by a gap",
+      "A single zigzag line"
+    ],
+    "answer": 2,
+    "explanation": "Two plates separated by a gap is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "electrical-symbols",
+      "components"
+    ],
+    "subcategory": "components"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-000005",
+    "category": "electrical-symbols",
+    "difficulty": "medium",
+    "question": "On many schematics, a transformer is represented by what combination?",
+    "options": [
+      "A single resistor and diode",
+      "Two switches in parallel",
+      "A battery and fuse only",
+      "Two coils with a magnetic-core indication between them"
+    ],
+    "answer": 3,
+    "explanation": "Two coils with a magnetic-core indication between them is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "electrical-symbols",
+      "transformers"
+    ],
+    "subcategory": "transformers"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-000006",
+    "category": "electrical-symbols",
+    "difficulty": "medium",
+    "question": "What does a normally open switch symbol indicate?",
+    "options": [
+      "The contacts are open until actuated",
+      "The contacts are permanently shorted",
+      "The circuit has no source",
+      "The switch is fused closed"
+    ],
+    "answer": 0,
+    "explanation": "The contacts are open until actuated is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "electrical-symbols",
+      "switches"
+    ],
+    "subcategory": "switches"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-000007",
+    "category": "electrical-symbols",
+    "difficulty": "hard",
+    "question": "In a ladder diagram, what does a normally closed contact represent in its normal state?",
+    "options": [
+      "A transformer primary",
+      "A conducting path until the associated condition opens it",
+      "A permanent open circuit",
+      "A capacitor charging path"
+    ],
+    "answer": 1,
+    "explanation": "A conducting path until the associated condition opens it is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "electrical-symbols",
+      "ladder-logic"
+    ],
+    "subcategory": "ladder-logic"
+  },
+  {
+    "id": "ELECTRICAL-SYMBOLS-000008",
+    "category": "electrical-symbols",
+    "difficulty": "hard",
+    "question": "Which schematic symbol identifies a photodiode most directly?",
+    "options": [
+      "A capacitor with a coil",
+      "A transformer with a fuse",
+      "A diode symbol with arrows pointing toward it",
+      "A resistor with arrows away"
+    ],
+    "answer": 2,
+    "explanation": "A diode symbol with arrows pointing toward it is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "electrical-symbols",
+      "optoelectronics"
+    ],
+    "subcategory": "optoelectronics"
   }
 ]

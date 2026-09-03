@@ -2107,5 +2107,165 @@
       "entertainment"
     ],
     "status": "active"
+  },
+  {
+    "id": "ENTERTAINMENT-000001",
+    "category": "entertainment",
+    "difficulty": "easy",
+    "question": "Which award is primarily associated with excellence in American film?",
+    "options": [
+      "Academy Award",
+      "Tony Award",
+      "Grammy Award",
+      "Pulitzer Prize"
+    ],
+    "answer": 0,
+    "explanation": "Academy Award is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "entertainment",
+      "awards"
+    ],
+    "subcategory": "awards"
+  },
+  {
+    "id": "ENTERTAINMENT-000002",
+    "category": "entertainment",
+    "difficulty": "easy",
+    "question": "Which medium is primarily associated with episodic scripted series?",
+    "options": [
+      "Cartography",
+      "Television",
+      "Sculpture",
+      "Astronomy"
+    ],
+    "answer": 1,
+    "explanation": "Television is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "entertainment",
+      "media"
+    ],
+    "subcategory": "media"
+  },
+  {
+    "id": "ENTERTAINMENT-000003",
+    "category": "entertainment",
+    "difficulty": "easy",
+    "question": "Which profession is primarily responsible for overseeing a film's artistic and dramatic direction?",
+    "options": [
+      "Location manager",
+      "Unit still photographer",
+      "Director",
+      "Gaffer"
+    ],
+    "answer": 2,
+    "explanation": "Director is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "entertainment",
+      "film"
+    ],
+    "subcategory": "film"
+  },
+  {
+    "id": "ENTERTAINMENT-000004",
+    "category": "entertainment",
+    "difficulty": "medium",
+    "question": "What is a film's 'premiere'?",
+    "options": [
+      "Its final editing session",
+      "Its soundtrack recording",
+      "Its costume fitting",
+      "Its first public screening or presentation"
+    ],
+    "answer": 3,
+    "explanation": "Its first public screening or presentation is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "entertainment",
+      "film"
+    ],
+    "subcategory": "film"
+  },
+  {
+    "id": "ENTERTAINMENT-000005",
+    "category": "entertainment",
+    "difficulty": "medium",
+    "question": "What does a television 'season' generally contain?",
+    "options": [
+      "A group of episodes released as a series",
+      "Only one scene",
+      "Only the opening credits",
+      "A single advertisement"
+    ],
+    "answer": 0,
+    "explanation": "A group of episodes released as a series is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "entertainment",
+      "television"
+    ],
+    "subcategory": "television"
+  },
+  {
+    "id": "ENTERTAINMENT-000006",
+    "category": "entertainment",
+    "difficulty": "medium",
+    "question": "Which award recognizes achievements in recorded music in the United States?",
+    "options": [
+      "Academy Award",
+      "Grammy Award",
+      "Emmy Award",
+      "Tony Award"
+    ],
+    "answer": 1,
+    "explanation": "Grammy Award is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "entertainment",
+      "music-awards"
+    ],
+    "subcategory": "music-awards"
+  },
+  {
+    "id": "ENTERTAINMENT-000007",
+    "category": "entertainment",
+    "difficulty": "hard",
+    "question": "In film production, what is a 'continuity' error?",
+    "options": [
+      "A missing soundtrack album",
+      "A change in theater seating",
+      "An inconsistency between shots or scenes",
+      "A failure to sell tickets"
+    ],
+    "answer": 2,
+    "explanation": "An inconsistency between shots or scenes is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "entertainment",
+      "film-production"
+    ],
+    "subcategory": "film-production"
+  },
+  {
+    "id": "ENTERTAINMENT-000008",
+    "category": "entertainment",
+    "difficulty": "hard",
+    "question": "What is a 'showrunner' most commonly responsible for on a television series?",
+    "options": [
+      "Operating the theater projector",
+      "Designing every costume personally",
+      "Writing only the end credits",
+      "Overall creative and often production leadership"
+    ],
+    "answer": 3,
+    "explanation": "Overall creative and often production leadership is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "entertainment",
+      "television"
+    ],
+    "subcategory": "television"
   }
 ]

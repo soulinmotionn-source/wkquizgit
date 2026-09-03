@@ -2050,5 +2050,165 @@
       "engineering"
     ],
     "status": "active"
+  },
+  {
+    "id": "ENGINEERING-000001",
+    "category": "engineering",
+    "difficulty": "easy",
+    "question": "What SI unit is used for force?",
+    "options": [
+      "Watt",
+      "Pascal",
+      "Newton",
+      "Joule"
+    ],
+    "answer": 2,
+    "explanation": "Newton is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "engineering",
+      "fundamentals"
+    ],
+    "subcategory": "fundamentals"
+  },
+  {
+    "id": "ENGINEERING-000002",
+    "category": "engineering",
+    "difficulty": "easy",
+    "question": "Which engineering discipline primarily deals with structures, roads, and bridges?",
+    "options": [
+      "Chemical engineering",
+      "Software engineering",
+      "Biomedical engineering",
+      "Civil engineering"
+    ],
+    "answer": 3,
+    "explanation": "Civil engineering is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "engineering",
+      "disciplines"
+    ],
+    "subcategory": "disciplines"
+  },
+  {
+    "id": "ENGINEERING-000003",
+    "category": "engineering",
+    "difficulty": "easy",
+    "question": "What does CAD commonly stand for?",
+    "options": [
+      "Computer-aided design",
+      "Circuit analysis device",
+      "Central architecture database",
+      "Computer analog decoder"
+    ],
+    "answer": 0,
+    "explanation": "Computer-aided design is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "engineering",
+      "design"
+    ],
+    "subcategory": "design"
+  },
+  {
+    "id": "ENGINEERING-000004",
+    "category": "engineering",
+    "difficulty": "medium",
+    "question": "What is stress in a material?",
+    "options": [
+      "Distance per unit time",
+      "Force per unit area",
+      "Energy per unit time",
+      "Mass per unit volume"
+    ],
+    "answer": 1,
+    "explanation": "Force per unit area is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "engineering",
+      "mechanics"
+    ],
+    "subcategory": "mechanics"
+  },
+  {
+    "id": "ENGINEERING-000005",
+    "category": "engineering",
+    "difficulty": "medium",
+    "question": "Which material property describes resistance to deformation under an applied load?",
+    "options": [
+      "Conductivity",
+      "Porosity",
+      "Stiffness",
+      "Density"
+    ],
+    "answer": 2,
+    "explanation": "Stiffness is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "engineering",
+      "materials"
+    ],
+    "subcategory": "materials"
+  },
+  {
+    "id": "ENGINEERING-000006",
+    "category": "engineering",
+    "difficulty": "medium",
+    "question": "What is a safety factor used for in engineering design?",
+    "options": [
+      "To eliminate all testing",
+      "To reduce material strength",
+      "To guarantee zero maintenance",
+      "To provide a margin between expected service conditions and failure"
+    ],
+    "answer": 3,
+    "explanation": "To provide a margin between expected service conditions and failure is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "engineering",
+      "design"
+    ],
+    "subcategory": "design"
+  },
+  {
+    "id": "ENGINEERING-000007",
+    "category": "engineering",
+    "difficulty": "hard",
+    "question": "Which failure mode involves cyclic loading causing progressive crack growth?",
+    "options": [
+      "Fatigue",
+      "Creep",
+      "Buckling only",
+      "Elastic recovery"
+    ],
+    "answer": 0,
+    "explanation": "Fatigue is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "engineering",
+      "materials"
+    ],
+    "subcategory": "materials"
+  },
+  {
+    "id": "ENGINEERING-000008",
+    "category": "engineering",
+    "difficulty": "hard",
+    "question": "In fluid mechanics, what dimensionless number compares inertial forces with viscous forces?",
+    "options": [
+      "Poisson ratio",
+      "Reynolds number",
+      "Mach number",
+      "Froude number"
+    ],
+    "answer": 1,
+    "explanation": "Reynolds number is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "engineering",
+      "fluid-mechanics"
+    ],
+    "subcategory": "fluid-mechanics"
   }
 ]

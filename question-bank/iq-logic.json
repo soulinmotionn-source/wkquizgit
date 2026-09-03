@@ -264,5 +264,165 @@
       "iq & logic"
     ],
     "status": "active"
+  },
+  {
+    "id": "IQ-LOGIC-000001",
+    "category": "iq-logic",
+    "difficulty": "easy",
+    "question": "What number comes next: 2, 4, 6, 8, ?",
+    "options": [
+      "9",
+      "11",
+      "12",
+      "10"
+    ],
+    "answer": 3,
+    "explanation": "10 is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "iq-logic",
+      "sequences"
+    ],
+    "subcategory": "sequences"
+  },
+  {
+    "id": "IQ-LOGIC-000002",
+    "category": "iq-logic",
+    "difficulty": "easy",
+    "question": "If all roses are flowers and some flowers fade quickly, must some roses fade quickly?",
+    "options": [
+      "No",
+      "Yes",
+      "Only if roses are red",
+      "Only in winter"
+    ],
+    "answer": 0,
+    "explanation": "No is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "iq-logic",
+      "deduction"
+    ],
+    "subcategory": "deduction"
+  },
+  {
+    "id": "IQ-LOGIC-000003",
+    "category": "iq-logic",
+    "difficulty": "easy",
+    "question": "Which word does not belong: apple, banana, carrot, orange?",
+    "options": [
+      "Orange",
+      "Carrot",
+      "Apple",
+      "Banana"
+    ],
+    "answer": 1,
+    "explanation": "Carrot is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "iq-logic",
+      "classification"
+    ],
+    "subcategory": "classification"
+  },
+  {
+    "id": "IQ-LOGIC-000004",
+    "category": "iq-logic",
+    "difficulty": "medium",
+    "question": "A clock shows 3:00. What is the smaller angle between its hands?",
+    "options": [
+      "60 degrees",
+      "180 degrees",
+      "90 degrees",
+      "30 degrees"
+    ],
+    "answer": 2,
+    "explanation": "90 degrees is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "iq-logic",
+      "spatial-reasoning"
+    ],
+    "subcategory": "spatial-reasoning"
+  },
+  {
+    "id": "IQ-LOGIC-000005",
+    "category": "iq-logic",
+    "difficulty": "medium",
+    "question": "If three machines make three parts in three minutes at the same rate, how long would one machine take to make one part?",
+    "options": [
+      "1 minute",
+      "6 minutes",
+      "9 minutes",
+      "3 minutes"
+    ],
+    "answer": 3,
+    "explanation": "3 minutes is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "iq-logic",
+      "rate-problems"
+    ],
+    "subcategory": "rate-problems"
+  },
+  {
+    "id": "IQ-LOGIC-000006",
+    "category": "iq-logic",
+    "difficulty": "medium",
+    "question": "A sequence follows the rule: multiply by 2, then subtract 1, repeatedly, starting from 3. What is the fourth term?",
+    "options": [
+      "17",
+      "11",
+      "13",
+      "19"
+    ],
+    "answer": 0,
+    "explanation": "17 is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "iq-logic",
+      "sequences"
+    ],
+    "subcategory": "sequences"
+  },
+  {
+    "id": "IQ-LOGIC-000007",
+    "category": "iq-logic",
+    "difficulty": "hard",
+    "question": "Five people each shake hands with every other person exactly once. How many handshakes occur?",
+    "options": [
+      "20",
+      "10",
+      "5",
+      "15"
+    ],
+    "answer": 1,
+    "explanation": "10 is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "iq-logic",
+      "combinatorics"
+    ],
+    "subcategory": "combinatorics"
+  },
+  {
+    "id": "IQ-LOGIC-000008",
+    "category": "iq-logic",
+    "difficulty": "hard",
+    "question": "A statement says: 'Exactly one of these two statements is true.' If the first statement is 'This sentence is false' and the second is '2+2=4', what is the status of the pair?",
+    "options": [
+      "Both are necessarily false",
+      "The first alone is definitely true",
+      "The pair is inconsistent as a simple exactly-one claim",
+      "Both are necessarily true"
+    ],
+    "answer": 2,
+    "explanation": "The pair is inconsistent as a simple exactly-one claim is correct because it directly matches the established definition, principle, or fact tested by the question.",
+    "status": "active",
+    "tags": [
+      "iq-logic",
+      "logic"
+    ],
+    "subcategory": "logic"
   }
 ]
