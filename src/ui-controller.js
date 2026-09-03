@@ -1,9 +1,12 @@
 /**
  * WKQUIZ UI CONTROLLER
  * Pure Vanilla JavaScript DOM Controller.
- * Handles category-first quiz flow:
- * STEP 1: Select Category -> STEP 2: Select Difficulty -> STEP 3: Select Question Count -> STEP 4: Play
- * Real-time data-aware question counts, zero fake numbers, zero question duplication.
+ * Handles category-first 5-step quiz flow:
+ * STEP 1: Select Category -> STEP 2: Select Difficulty -> STEP 3: Select Mode -> STEP 4: Select Question Count -> STEP 5: Start
+ * Features:
+ * - Normal Mode, Time Mode (global countdown), Survival Mode (sudden death).
+ * - Real-time data-aware question counts (5, 10, 20, 50).
+ * - Zero fake numbers, zero question duplication per quiz session.
  */
 
 class WKQuizUI {
@@ -13,11 +16,12 @@ class WKQuizUI {
     this.currentQuestionData = null;
     this.isAnswered = false;
 
-    // Current setup selection state (strictly null until category is selected)
+    // Current setup selection state
     this.setupState = {
       category: null,
-      difficulty: null,
-      length: null
+      difficulty: "easy",
+      mode: "normal",
+      length: 10
     };
 
     this.dom = {
@@ -44,7 +48,7 @@ class WKQuizUI {
     // Check if query param exists (e.g. ?quiz=nclex)
     const hasParams = this._checkUrlParams();
     if (!hasParams && this.dom.container) {
-      // On initial page load: Show clean placeholder inviting category selection (NO premature difficulty screen)
+      // Initial page load: Show clean placeholder inviting category selection
       this._renderInitialCategoryPrompt();
     }
   }
@@ -146,10 +150,11 @@ class WKQuizUI {
       } else if (action === "start-mode") {
         e.preventDefault();
         if (this.dom.mobileDrawer) this.dom.mobileDrawer.classList.remove("open");
-        this.startQuiz({ mode: mode || "classic", category: category || "all" }, true);
+        this.setupState.mode = mode || "normal";
+        this.renderSetupScreen(category || "nursing", true);
       } else if (action === "restart-quiz") {
         e.preventDefault();
-        const lastCat = this.engine.currentQuiz ? this.engine.currentQuiz.category : "mixed-quiz";
+        const lastCat = this.engine.currentQuiz ? this.engine.currentQuiz.category : "nursing";
         this.renderSetupScreen(lastCat, true);
       } else if (action === "browse-categories") {
         e.preventDefault();
@@ -175,7 +180,7 @@ class WKQuizUI {
           category: category || "all",
           difficulty: difficulty || "medium",
           length: length || 10,
-          mode: mode || "classic"
+          mode: mode || "normal"
         }, true);
       } else {
         this.renderSetupScreen(category || "mixed-quiz", true);
@@ -195,7 +200,7 @@ class WKQuizUI {
         <span style="font-size: 2.2rem; display: block; margin-bottom: 0.5rem;">🎯</span>
         <h3 class="wk-setup-placeholder-title">Ready to Test Your Skills?</h3>
         <p class="wk-setup-placeholder-desc">
-          Choose any topic from our <strong>Browse Quiz Categories</strong> section below to customize your difficulty and question count.
+          Choose any topic from our <strong>Browse Quiz Categories</strong> section below to customize your difficulty, mode, and question count.
         </p>
         <button type="button" class="wk-btn wk-btn-primary" data-action="browse-categories">
           📚 Browse Quiz Categories ➔
@@ -212,21 +217,17 @@ class WKQuizUI {
   }
 
   /**
-   * STEP 2 & 3: Render Quiz Customization Screen (Difficulty & Question Count)
-   * User Flow: Category chosen -> Difficulty [Easy | Medium | Hard] -> Real Data-Aware Question Count -> Start
+   * 5-STEP CUSTOMIZATION SCREEN
+   * Flow: Step 1 (Category Selected) -> Step 2 (Difficulty) -> Step 3 (Quiz Mode) -> Step 4 (Question Count) -> Step 5 (Start)
    */
   async renderSetupScreen(categoryId, shouldScroll = true) {
     if (!this.dom.container || !categoryId) return;
 
-    // 1. Establish Selected Category
     this.setupState.category = categoryId;
-    
-    // Default difficulty to easy or medium
-    if (!this.setupState.difficulty) {
-      this.setupState.difficulty = "easy";
-    }
+    if (!this.setupState.difficulty) this.setupState.difficulty = "easy";
+    if (!this.setupState.mode) this.setupState.mode = "normal";
 
-    // If category questions not yet in memory, fetch asynchronously from Git/CDN
+    // Asynchronously ensure full category questions are loaded into memory
     if (this.engine.provider && typeof this.engine.provider.fetchCategory === "function") {
       try {
         await this.engine.provider.fetchCategory(categoryId);
@@ -239,22 +240,22 @@ class WKQuizUI {
       id: categoryId,
       name: categoryId === "mixed-quiz" ? "Random Mixed Quiz" : categoryId.toUpperCase(),
       icon: categoryId === "mixed-quiz" ? "🎲" : "📚",
-      description: "Test your knowledge across a curated set of questions."
+      description: "Test your knowledge across curated subject questions."
     };
 
-    // 2. Query Real Active Pool for this exact Category + Difficulty
+    // Query real active pool for this category + difficulty
     const availableCount = this._getRealPoolCount(this.setupState.category, this.setupState.difficulty);
 
-    // 3. Determine available question count options
+    // Question count options
     const standardLengths = (this.config.quiz && this.config.quiz.availableLengths) || [5, 10, 20, 50];
     
-    // Auto-adjust selected length to a valid value
+    // Auto-adjust selected length
     if (!this.setupState.length || this.setupState.length > availableCount) {
       const validLengths = standardLengths.filter(len => len <= availableCount);
       if (validLengths.length > 0) {
-        this.setupState.length = validLengths[validLengths.length - 1]; // pick highest available standard count
+        this.setupState.length = validLengths[validLengths.length - 1];
       } else if (availableCount > 0) {
-        this.setupState.length = availableCount; // allow playing all available questions
+        this.setupState.length = availableCount;
       } else {
         this.setupState.length = 0;
       }
@@ -267,10 +268,10 @@ class WKQuizUI {
             ${cat.icon || "🎯"} ${cat.name.toUpperCase()}
           </span>
           <h2 class="wk-setup-title">Customize Your Quiz</h2>
-          <p class="wk-setup-desc">${cat.description || "Select your preferred difficulty and number of questions to begin."}</p>
+          <p class="wk-setup-desc">${cat.description || "Configure your difficulty, mode, and question count to begin."}</p>
         </div>
 
-        <!-- 1. Difficulty Selector: Strictly Easy | Medium | Hard -->
+        <!-- STEP 2: Difficulty Selector (Strictly Easy | Medium | Hard) -->
         <div class="wk-setup-section">
           <label class="wk-setup-label">1. Select Difficulty</label>
           <div class="wk-pills-grid" role="radiogroup" aria-label="Difficulty selection">
@@ -286,22 +287,44 @@ class WKQuizUI {
           </div>
         </div>
 
-        <!-- 2. Question Count Selector (Data-Aware) -->
+        <!-- STEP 3: Quiz Mode Selector (Normal | Time | Survival) -->
         <div class="wk-setup-section">
-          <label class="wk-setup-label">2. Select Question Count</label>
+          <label class="wk-setup-label">2. Select Quiz Mode</label>
+          <div class="wk-mode-pills-grid" role="radiogroup" aria-label="Quiz mode selection">
+            <button type="button" class="wk-pill-btn pill-mode ${this.setupState.mode === 'normal' ? 'active' : ''}" data-mode-btn="normal">
+              <span class="mode-icon">⚡</span>
+              <span class="mode-name">Normal Mode</span>
+              <span class="mode-desc">Untimed • Step by Step</span>
+            </button>
+            <button type="button" class="wk-pill-btn pill-mode ${this.setupState.mode === 'time' ? 'active' : ''}" data-mode-btn="time">
+              <span class="mode-icon">⏱️</span>
+              <span class="mode-name">Time Mode</span>
+              <span class="mode-desc">Countdown • Fast Paced</span>
+            </button>
+            <button type="button" class="wk-pill-btn pill-mode ${this.setupState.mode === 'survival' ? 'active' : ''}" data-mode-btn="survival">
+              <span class="mode-icon">🛡️</span>
+              <span class="mode-name">Survival Mode</span>
+              <span class="mode-desc">Sudden Death • 1 Mistake</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- STEP 4: Question Count Selector (Data-Aware) -->
+        <div class="wk-setup-section">
+          <label class="wk-setup-label">3. Select Question Count</label>
           <div class="wk-length-pills-grid" id="wk-length-pills" role="radiogroup" aria-label="Question count selection">
             ${this._renderLengthButtonsHtml(standardLengths, availableCount)}
           </div>
         </div>
 
-        <!-- Real Question Pool Availability Notice -->
+        <!-- Availability Status Box -->
         <div id="wk-availability-box">
           ${this._renderAvailabilityNoticeHtml(availableCount)}
         </div>
 
-        <!-- Start Quiz CTA -->
+        <!-- STEP 5: Start Quiz CTA -->
         <button type="button" id="wk-start-quiz-btn" class="wk-btn wk-btn-primary wk-btn-block" ${availableCount === 0 ? 'disabled' : ''}>
-          🚀 Start ${cat.name} Quiz ➔
+          🚀 Start ${cat.name} (${this.setupState.difficulty.toUpperCase()}) Quiz ➔
         </button>
       </div>
     `;
@@ -337,7 +360,6 @@ class WKQuizUI {
       `;
     });
 
-    // If pool has fewer than 5 questions but > 0, offer a special custom count for all available questions
     if (availableCount > 0 && availableCount < 5) {
       const isCustomSelected = this.setupState.length === availableCount;
       buttons += `
@@ -371,7 +393,7 @@ class WKQuizUI {
 
     return `
       <div class="wk-setup-notice">
-        <span>📊 <strong>${availableCount} active unique ${diffName} questions</strong> ready in this pool</span>
+        <span>📊 <strong>${availableCount} active unique ${diffName} questions</strong> available in this pool</span>
       </div>
     `;
   }
@@ -380,7 +402,7 @@ class WKQuizUI {
     const container = this.dom.container;
     if (!container) return;
 
-    // Difficulty pill buttons
+    // Difficulty buttons
     const diffButtons = container.querySelectorAll("[data-difficulty]");
     diffButtons.forEach(btn => {
       btn.addEventListener("click", () => {
@@ -390,12 +412,23 @@ class WKQuizUI {
         diffButtons.forEach(b => b.classList.remove("active"));
         btn.classList.add("active");
 
-        // Re-evaluate real pool count and update length buttons
         this._refreshAvailabilityAndLengths();
       });
     });
 
-    // Length pill buttons
+    // Mode buttons
+    const modeButtons = container.querySelectorAll("[data-mode-btn]");
+    modeButtons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const newMode = btn.getAttribute("data-mode-btn");
+        this.setupState.mode = newMode;
+        
+        modeButtons.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+      });
+    });
+
+    // Length buttons
     this._bindLengthButtons();
 
     // Start Quiz button
@@ -413,7 +446,7 @@ class WKQuizUI {
           category: this.setupState.category,
           difficulty: this.setupState.difficulty,
           length: len,
-          mode: "classic"
+          mode: this.setupState.mode || "normal"
         }, true);
       });
     }
@@ -463,15 +496,17 @@ class WKQuizUI {
       availBox.innerHTML = this._renderAvailabilityNoticeHtml(availableCount);
     }
 
-    // Update Start Button Disabled State
+    // Update Start Button
     const startBtn = document.getElementById("wk-start-quiz-btn");
     if (startBtn) {
       startBtn.disabled = (availableCount === 0);
+      const cat = (this.config.categories || []).find(c => c.id === this.setupState.category) || { name: "Quiz" };
+      startBtn.innerHTML = `🚀 Start ${cat.name} (${this.setupState.difficulty.toUpperCase()}) Quiz ➔`;
     }
   }
 
   /**
-   * STEP 4: Start Quiz and Render Question Screen
+   * STEP 5: Start Quiz and Render Question Screen
    */
   async startQuiz(options = {}, shouldScroll = true) {
     if (!this.engine) return;
@@ -486,6 +521,12 @@ class WKQuizUI {
       this.currentQuestionData = this.engine.startQuiz(options);
       this.isAnswered = false;
       this._renderQuizScreen();
+
+      // Start global timer if in Time Mode
+      if (options.mode === "time" || this.engine.mode === "time") {
+        this._initTimeModeTimer();
+      }
+
       if (shouldScroll) {
         this._scrollToQuiz();
       }
@@ -493,6 +534,34 @@ class WKQuizUI {
       console.error("[WKQuiz] Could not start quiz:", err);
       this._renderError(err.message || "Failed to load quiz.");
     }
+  }
+
+  _initTimeModeTimer() {
+    const timerBadge = document.getElementById("wk-timer-badge");
+    const timerSeconds = document.getElementById("wk-timer-seconds");
+    if (timerBadge && timerSeconds) {
+      timerBadge.style.display = "inline-flex";
+      this.engine.startTimer(
+        this.engine.timeRemaining,
+        (secs) => {
+          const mins = Math.floor(secs / 60);
+          const remainderSecs = secs % 60;
+          timerSeconds.textContent = `${mins}:${remainderSecs < 10 ? '0' : ''}${remainderSecs}`;
+          if (secs <= 10) timerBadge.classList.add("urgent");
+          else timerBadge.classList.remove("urgent");
+        },
+        () => {
+          // Time expired callback
+          this._handleTimeExpired();
+        }
+      );
+    }
+  }
+
+  _handleTimeExpired() {
+    this.engine.stopTimer();
+    this.engine.isTimeExpired = true;
+    this._renderResultsScreen();
   }
 
   _scrollToQuiz() {
@@ -516,6 +585,15 @@ class WKQuizUI {
     };
 
     const difficultyBadgeClass = q.difficulty === "hard" ? "wk-badge-danger" : (q.difficulty === "medium" ? "wk-badge-warning" : "wk-badge-success");
+    
+    let modeBadge = "";
+    if (q.mode === "survival") {
+      modeBadge = '<span class="wk-badge wk-badge-danger">🛡️ Survival</span>';
+    } else if (q.mode === "time") {
+      modeBadge = '<span class="wk-badge wk-badge-warning">⏱️ Time Attack</span>';
+    } else if (q.mode === "daily") {
+      modeBadge = '<span class="wk-badge wk-badge-danger">🔥 Daily</span>';
+    }
 
     let html = `
       <div class="wk-quiz-card" id="wk-active-card">
@@ -527,13 +605,13 @@ class WKQuizUI {
             <span class="wk-badge ${difficultyBadgeClass}">
               ${(q.difficulty || "medium").toUpperCase()}
             </span>
+            ${modeBadge}
             <span class="wk-badge wk-badge-warning">
               Question ${q.questionNumber} of ${q.totalQuestions}
             </span>
-            ${q.mode === "daily" ? '<span class="wk-badge wk-badge-danger">🔥 Daily</span>' : ''}
           </div>
-          <div id="wk-timer-badge" class="wk-quiz-timer" style="display: none;">
-            ⏱️ <span id="wk-timer-seconds">20</span>s
+          <div id="wk-timer-badge" class="wk-quiz-timer" style="${q.mode === 'time' ? 'display: inline-flex;' : 'display: none;'}">
+            ⏱️ <span id="wk-timer-seconds">--:--</span>
           </div>
         </div>
 
@@ -571,28 +649,6 @@ class WKQuizUI {
 
     this.dom.container.innerHTML = html;
     this._bindOptionClicks();
-
-    // Start timer if mode is timed or config enables it
-    if (q.mode === "timed" || (this.config.quiz && this.config.quiz.enableTimerByDefault)) {
-      const timerBadge = document.getElementById("wk-timer-badge");
-      const timerSeconds = document.getElementById("wk-timer-seconds");
-      if (timerBadge && timerSeconds) {
-        timerBadge.style.display = "inline-flex";
-        this.engine.startTimer(
-          this.config.quiz.timePerQuestionSeconds || 20,
-          (secs) => {
-            timerSeconds.textContent = secs;
-            if (secs <= 5) timerBadge.classList.add("urgent");
-            else timerBadge.classList.remove("urgent");
-          },
-          () => {
-            if (!this.isAnswered) {
-              this._handleAnswerSelect(null);
-            }
-          }
-        );
-      }
-    }
   }
 
   _bindOptionClicks() {
@@ -611,7 +667,11 @@ class WKQuizUI {
     const nextBtn = document.getElementById("wk-next-btn");
     if (nextBtn) {
       nextBtn.addEventListener("click", () => {
-        this.engine.stopTimer();
+        if (this.engine.isSurvivalOver || this.engine.isTimeExpired) {
+          this._renderResultsScreen();
+          return;
+        }
+
         const nextQ = this.engine.nextQuestion();
         if (nextQ) {
           this.currentQuestionData = nextQ;
@@ -626,7 +686,6 @@ class WKQuizUI {
 
   _handleAnswerSelect(selectedIndex) {
     this.isAnswered = true;
-    this.engine.stopTimer();
 
     const result = this.engine.submitAnswer(selectedIndex);
     const card = document.getElementById("wk-active-card");
@@ -670,35 +729,95 @@ class WKQuizUI {
   }
 
   /**
-   * Render Results Screen
+   * Render Results Screen tailored for Normal, Time, and Survival Modes
    */
   _renderResultsScreen() {
     if (!this.dom.container) return;
 
+    this.engine.stopTimer();
     const stats = this.engine.finishQuiz();
     const sharePayload = this.engine.getSharePayload(stats);
 
-    let html = `
-      <div class="wk-quiz-card wk-results-card">
-        <div class="wk-results-badge">${stats.badge}</div>
-        <h2 class="wk-section-title" style="justify-content: center;">Quiz Completed!</h2>
+    let modeHeaderHtml = "";
+    let scoreDisplayHtml = "";
 
+    if (stats.mode === "survival") {
+      const isPerfect = !stats.isSurvivalOver && stats.score === stats.totalQuestions;
+      modeHeaderHtml = `
+        <div class="wk-badge wk-badge-danger" style="margin-bottom: 0.5rem; font-size: 0.9rem;">
+          🛡️ SURVIVAL MODE RESULT
+        </div>
+        <h2 class="wk-section-title" style="justify-content: center;">
+          ${isPerfect ? "Survival Completed! 🏆" : `Survival Ended on Q${stats.failedQuestionNumber || stats.answeredCount}`}
+        </h2>
+      `;
+      scoreDisplayHtml = `
+        <div class="wk-score-circle" style="border-color: ${isPerfect ? 'var(--success)' : 'var(--danger)'};">
+          <div class="wk-score-number">${stats.survivedCount}/${stats.totalQuestions}</div>
+          <div class="wk-score-percent">Questions Survived</div>
+        </div>
+      `;
+    } else if (stats.mode === "time") {
+      modeHeaderHtml = `
+        <div class="wk-badge wk-badge-warning" style="margin-bottom: 0.5rem; font-size: 0.9rem;">
+          ⏱️ TIME ATTACK RESULT
+        </div>
+        <h2 class="wk-section-title" style="justify-content: center;">
+          ${stats.isTimeExpired ? "Time's Up! ⏱️" : "Challenge Completed! ⚡"}
+        </h2>
+      `;
+      scoreDisplayHtml = `
         <div class="wk-score-circle">
           <div class="wk-score-number">${stats.score}/${stats.totalQuestions}</div>
           <div class="wk-score-percent">${stats.percentage}% Accuracy</div>
         </div>
+      `;
+    } else {
+      // Normal Mode
+      modeHeaderHtml = `
+        <div class="wk-badge wk-badge-primary" style="margin-bottom: 0.5rem; font-size: 0.9rem;">
+          ⚡ NORMAL MODE RESULT
+        </div>
+        <h2 class="wk-section-title" style="justify-content: center;">Quiz Completed!</h2>
+      `;
+      scoreDisplayHtml = `
+        <div class="wk-score-circle">
+          <div class="wk-score-number">${stats.score}/${stats.totalQuestions}</div>
+          <div class="wk-score-percent">${stats.percentage}% Accuracy</div>
+        </div>
+      `;
+    }
+
+    let html = `
+      <div class="wk-quiz-card wk-results-card">
+        <div class="wk-results-badge">${stats.badge}</div>
+        ${modeHeaderHtml}
+        ${scoreDisplayHtml}
 
         <p class="wk-results-msg">${stats.message}</p>
 
+        <!-- Metrics Grid -->
+        <div class="wk-metrics-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; margin: 1.5rem 0;">
+          <div style="background: var(--surface-2); padding: 0.75rem; border-radius: var(--radius); text-align: center;">
+            <div style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase;">Correct</div>
+            <div style="font-size: 1.25rem; font-weight: 800; color: var(--success);">${stats.score}</div>
+          </div>
+          <div style="background: var(--surface-2); padding: 0.75rem; border-radius: var(--radius); text-align: center;">
+            <div style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase;">Streak</div>
+            <div style="font-size: 1.25rem; font-weight: 800; color: var(--warning);">${stats.maxStreak} 🔥</div>
+          </div>
+          <div style="background: var(--surface-2); padding: 0.75rem; border-radius: var(--radius); text-align: center;">
+            <div style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase;">Time</div>
+            <div style="font-size: 1.25rem; font-weight: 800; color: var(--primary);">${stats.timeSpentSeconds}s</div>
+          </div>
+        </div>
+
         <div class="wk-results-buttons">
           <button type="button" class="wk-btn wk-btn-primary" data-action="restart-quiz">
-            🔄 New Quiz / Retry
+            🔄 Play Again / Change Mode
           </button>
-          <button type="button" class="wk-btn wk-btn-secondary" data-action="start-random">
-            🎲 Random Quiz
-          </button>
-          <button type="button" class="wk-btn wk-btn-secondary" data-action="start-daily">
-            🔥 Daily Challenge
+          <button type="button" class="wk-btn wk-btn-secondary" data-action="browse-categories">
+            📚 Browse Other Topics
           </button>
         </div>
 
@@ -751,95 +870,23 @@ class WKQuizUI {
     tempInput.value = text;
     document.body.appendChild(tempInput);
     tempInput.select();
-    document.execCommand("copy");
+    try {
+      document.execCommand("copy");
+      const copyBtn = document.getElementById("wk-copy-score-btn");
+      if (copyBtn) {
+        copyBtn.textContent = "✅ Link Copied!";
+        setTimeout(() => { copyBtn.textContent = "🔗 Copy Link"; }, 2500);
+      }
+    } catch (e) {}
     document.body.removeChild(tempInput);
-    alert("Score copied to clipboard! Share it with your friends.");
-  }
-
-  /**
-   * STEP 1: Render Categories Grid on Homepage
-   */
-  _renderCategoriesGrid() {
-    if (!this.dom.categoriesContainer || !this.config.categories) return;
-
-    const categories = this.config.categories;
-    const html = categories.map(cat => `
-      <a href="javascript:void(0)" class="wk-category-card" data-action="select-category" data-category="${cat.id}">
-        <span class="wk-category-icon">${cat.icon || "📚"}</span>
-        <span class="wk-category-name">${cat.name}</span>
-        <span class="wk-category-count">Select Category ➔</span>
-      </a>
-    `).join("");
-
-    this.dom.categoriesContainer.innerHTML = html;
-  }
-
-  /**
-   * Instant Search Modal Controls
-   */
-  openSearch() {
-    if (!this.dom.searchModal) return;
-    this.dom.searchModal.classList.add("open");
-    if (this.dom.searchInput) {
-      this.dom.searchInput.value = "";
-      this.dom.searchInput.focus();
-      this.handleSearch("");
-    }
-  }
-
-  closeSearch() {
-    if (!this.dom.searchModal) return;
-    this.dom.searchModal.classList.remove("open");
-  }
-
-  handleSearch(query) {
-    if (!this.dom.searchResults) return;
-
-    const term = (query || "").toLowerCase().trim();
-    const categories = this.config.categories || [];
-
-    const matched = categories.filter(c => 
-      c.name.toLowerCase().includes(term) || 
-      c.description.toLowerCase().includes(term) ||
-      c.slug.toLowerCase().includes(term)
-    );
-
-    if (matched.length === 0) {
-      this.dom.searchResults.innerHTML = `
-        <div style="padding: 1.5rem; text-align: center; color: var(--text-muted);">
-          No quizzes found matching "<strong>${this._escapeHtml(query)}</strong>". Try searching for <em>NCLEX</em>, <em>HVAC</em>, <em>Electrical</em>, or <em>Medical</em>.
-        </div>
-      `;
-      return;
-    }
-
-    const html = matched.map(cat => `
-      <a href="javascript:void(0)" class="wk-search-item" data-action="select-category" data-category="${cat.id}">
-        <span style="font-size: 1.5rem;">${cat.icon || "📚"}</span>
-        <div>
-          <div style="font-weight: 700;">${cat.name} Quiz</div>
-          <div style="font-size: 0.8rem; color: var(--text-muted);">${cat.description}</div>
-        </div>
-      </a>
-    `).join("");
-
-    this.dom.searchResults.innerHTML = html;
-
-    const items = this.dom.searchResults.querySelectorAll(".wk-search-item");
-    items.forEach(item => {
-      item.addEventListener("click", () => {
-        const catId = item.getAttribute("data-category");
-        this.closeSearch();
-        this.renderSetupScreen(catId, true);
-      });
-    });
   }
 
   _renderError(message) {
     if (!this.dom.container) return;
     this.dom.container.innerHTML = `
       <div class="wk-quiz-card" style="text-align: center; border-color: var(--danger);">
-        <h3 style="color: var(--danger); margin-bottom: 0.5rem;">⚠️ Notice</h3>
+        <span style="font-size: 2.5rem; display: block; margin-bottom: 0.5rem;">⚠️</span>
+        <h3 style="color: var(--danger); margin-bottom: 0.5rem;">Quiz Notice</h3>
         <p style="color: var(--text-muted); margin-bottom: 1.5rem;">${this._escapeHtml(message)}</p>
         <button type="button" class="wk-btn wk-btn-primary" data-action="browse-categories">
           Browse Categories
@@ -848,9 +895,75 @@ class WKQuizUI {
     `;
   }
 
+  _renderCategoriesGrid() {
+    if (!this.dom.categoriesContainer || !this.config.categories) return;
+
+    const cardsHtml = this.config.categories.map(cat => `
+      <div class="wk-category-card" data-category="${cat.id}">
+        <div class="wk-category-icon" style="background-color: ${cat.color}15; color: ${cat.color};">
+          ${cat.icon || "📚"}
+        </div>
+        <h3 class="wk-category-title">${this._escapeHtml(cat.name)}</h3>
+        <p class="wk-category-desc">${this._escapeHtml(cat.description)}</p>
+        <div class="wk-category-footer">
+          <span class="wk-category-link" data-action="select-category" data-category="${cat.id}">
+            Start Quiz ➔
+          </span>
+        </div>
+      </div>
+    `).join("");
+
+    this.dom.categoriesContainer.innerHTML = cardsHtml;
+  }
+
+  openSearch() {
+    if (this.dom.searchModal) {
+      this.dom.searchModal.classList.add("open");
+      if (this.dom.searchInput) {
+        setTimeout(() => this.dom.searchInput.focus(), 50);
+      }
+    }
+  }
+
+  closeSearch() {
+    if (this.dom.searchModal) {
+      this.dom.searchModal.classList.remove("open");
+      if (this.dom.searchInput) this.dom.searchInput.value = "";
+      if (this.dom.searchResults) this.dom.searchResults.innerHTML = "";
+    }
+  }
+
+  handleSearch(query) {
+    if (!this.dom.searchResults) return;
+    const q = (query || "").toLowerCase().trim();
+    if (!q) {
+      this.dom.searchResults.innerHTML = "";
+      return;
+    }
+
+    const matched = (this.config.categories || []).filter(c => {
+      return c.name.toLowerCase().includes(q) || (c.description && c.description.toLowerCase().includes(q));
+    });
+
+    if (matched.length === 0) {
+      this.dom.searchResults.innerHTML = `<div style="padding: 1rem; color: var(--text-muted); text-align: center;">No categories found matching "${this._escapeHtml(query)}"</div>`;
+      return;
+    }
+
+    this.dom.searchResults.innerHTML = matched.map(cat => `
+      <div class="wk-search-item" data-action="select-category" data-category="${cat.id}">
+        <span style="font-size: 1.5rem;">${cat.icon || "📚"}</span>
+        <div>
+          <div style="font-weight: 700; color: var(--text);">${this._escapeHtml(cat.name)}</div>
+          <div style="font-size: 0.85rem; color: var(--text-muted);">${this._escapeHtml(cat.description)}</div>
+        </div>
+      </div>
+    `).join("");
+  }
+
   _escapeHtml(str) {
-    if (typeof str !== "string") return "";
-    return str
+    if (!str) return "";
+    return String(str)
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
@@ -859,7 +972,6 @@ class WKQuizUI {
   }
 }
 
-// CommonJS and Browser compatibility
 if (typeof module !== "undefined" && module.exports) {
   module.exports = { WKQuizUI };
 }

@@ -19,7 +19,7 @@ function validateQuestionBank() {
     process.exit(1);
   }
 
-  const files = fs.readdirSync(qbDir).filter(f => f.endsWith(".json"));
+  const files = fs.readdirSync(qbDir).filter(f => f.endsWith(".json") && f !== "index.json");
   console.log(`📁 Found ${files.length} category files in question-bank/\n`);
 
   let totalQuestions = 0;

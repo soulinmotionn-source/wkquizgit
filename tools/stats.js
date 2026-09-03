@@ -13,7 +13,7 @@ function generateStats() {
   console.log("📊 WKQUIZ QUESTION BANK STATISTICS & COUNT REPORT");
   console.log("==========================================================================================\n");
 
-  const files = fs.readdirSync(qbDir).filter(f => f.endsWith(".json"));
+  const files = fs.readdirSync(qbDir).filter(f => f.endsWith(".json") && f !== "index.json");
   const rows = [];
   const totals = { easy: 0, medium: 0, hard: 0, active: 0, review: 0, draft: 0, disabled: 0, total: 0 };
 

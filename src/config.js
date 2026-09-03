@@ -28,8 +28,15 @@ const WKQUIZ_CONFIG = {
     defaultLength: 10,
     availableLengths: [5, 10, 20, 50], // Central configurable question counts
     availableDifficulties: ["easy", "medium", "hard"], // Strictly 3 difficulty levels
+    availableModes: [
+      { id: "normal", name: "Normal Mode", icon: "⚡", description: "Standard quiz with detailed answer explanations" },
+      { id: "time", name: "Time Mode", icon: "⏱️", description: "Beat the countdown timer across all questions" },
+      { id: "survival", name: "Survival Mode", icon: "🛡️", description: "One wrong answer ends the game immediately" }
+    ],
     defaultDifficulty: "medium",
-    defaultMode: "classic",
+    defaultMode: "normal",
+    timeModeDurationPerQuestion: 20, // 20s per question for Time Mode
+    timeModeFixedSeconds: { 5: 60, 10: 120, 20: 240, 50: 600 }, // Configurable presets for total time
     timePerQuestionSeconds: 20,
     examTotalMinutes: 30,
     enableTimerByDefault: false,

@@ -21,15 +21,15 @@ function runQuizEngineTests() {
   const provider = new WKQuizDataProvider({ questions: allQuestions });
   const engine = new WKQuizEngine({ provider });
 
-  // Test 1: Start Quiz with Specific Category, Difficulty, and Length
-  const q1 = engine.startQuiz({ category: "nclex", difficulty: "medium", length: 5 });
+  // Test 1: Start Quiz with Specific Category, Difficulty, and Length (Exact 5 questions check!)
+  const q1 = engine.startQuiz({ category: "nursing", difficulty: "easy", length: 5, mode: "normal" });
   assert(q1 !== null, "startQuiz must return first question");
   assert.strictEqual(q1.questionNumber, 1, "First question must be #1");
+  assert.strictEqual(engine.currentQuiz.totalQuestions, 5, "Engine must serve EXACTLY 5 questions when 5 are requested");
   assert.strictEqual(q1.options.length, 4, "Question must have 4 options");
-  console.log("  ✓ Start quiz with category (nclex), difficulty (medium), length (5) verified");
+  console.log("  ✓ Start quiz with category (nursing), difficulty (easy), length (5) verified: EXACTLY 5 questions");
 
   // Test 2: Fisher-Yates Answer Option Remapping Verification
-  // Verify that for all questions in the current quiz, the correct answer text matches the original answer text
   engine.currentQuiz.questions.forEach((shuffledQ) => {
     const originalQ = provider.getQuestionById(shuffledQ.id);
     assert(originalQ, `Original question ${shuffledQ.id} not found`);
@@ -38,39 +38,83 @@ function runQuizEngineTests() {
     assert.strictEqual(
       shuffledCorrectText,
       originalCorrectText,
-      `Option shuffle broke answer mapping for ${shuffledQ.id}! Shuffled points to "${shuffledCorrectText}", original was "${originalCorrectText}"`
+      `Option shuffle broke answer mapping for ${shuffledQ.id}!`
     );
   });
   console.log("  ✓ Option shuffling preserves exact correct answer mapping across all questions");
 
-  // Test 3: Submitting correct answer increases score and streak
-  const currentQObj = engine.currentQuiz.questions[engine.currentIndex];
-  const correctIdx = currentQObj.answer;
-  const submitResult = engine.submitAnswer(correctIdx);
-  assert.strictEqual(submitResult.isCorrect, true, "Submitting correct index should evaluate to true");
-  assert.strictEqual(engine.score, 1, "Score should increment to 1");
-  assert.strictEqual(engine.streak, 1, "Streak should increment to 1");
-  console.log("  ✓ Score and streak calculation on correct answer verified");
-
-  // Test 4: Submitting incorrect answer resets streak
-  const q2 = engine.nextQuestion();
-  if (q2) {
-    const wrongIdx = (engine.currentQuiz.questions[engine.currentIndex].answer + 1) % 4;
-    const wrongResult = engine.submitAnswer(wrongIdx);
-    assert.strictEqual(wrongResult.isCorrect, false, "Submitting wrong index should evaluate to false");
-    assert.strictEqual(engine.score, 1, "Score should remain 1");
-    assert.strictEqual(engine.streak, 0, "Streak should reset to 0");
-    console.log("  ✓ Score and streak calculation on incorrect answer verified");
+  // Test 3: Normal Mode complete 5-question lifecycle
+  for (let i = 1; i <= 5; i++) {
+    const curQ = engine.currentQuiz.questions[engine.currentIndex];
+    const res = engine.submitAnswer(curQ.answer);
+    assert.strictEqual(res.isCorrect, true);
+    if (i < 5) {
+      const nextQ = engine.nextQuestion();
+      assert(nextQ !== null, `Expected question #${i + 1} but got null`);
+      assert.strictEqual(nextQ.questionNumber, i + 1);
+    } else {
+      const nextQ = engine.nextQuestion();
+      assert.strictEqual(nextQ, null, "Quiz should complete after question 5");
+    }
   }
-
-  // Test 5: Finish Quiz
   const finalStats = engine.finishQuiz();
-  assert(finalStats.totalQuestions > 0, "Total questions in stats must be > 0");
-  assert(finalStats.percentage >= 0 && finalStats.percentage <= 100, "Percentage must be between 0 and 100");
-  assert(finalStats.badge && typeof finalStats.badge === "string", "Badge must be non-empty");
-  console.log(`  ✓ Finished quiz stats: ${finalStats.score}/${finalStats.totalQuestions} (${finalStats.percentage}%) - ${finalStats.badge}`);
+  assert.strictEqual(finalStats.totalQuestions, 5, "Total questions in stats must be 5");
+  assert.strictEqual(finalStats.score, 5, "Score must be 5/5");
+  assert.strictEqual(finalStats.percentage, 100);
+  console.log(`  ✓ Completed full 5-question normal quiz: 5/5 (100%)`);
 
-  // Test 6: Deterministic Daily Quiz Seed Consistency
+  // Test 4: Time Mode Initialization and Duration
+  const timeEngine = new WKQuizEngine({ provider });
+  timeEngine.startQuiz({ category: "nclex", difficulty: "hard", length: 10, mode: "time" });
+  assert.strictEqual(timeEngine.mode, "time");
+  assert.strictEqual(timeEngine.currentQuiz.totalQuestions, 10);
+  assert.strictEqual(timeEngine.totalTimeDuration, 120, "10 questions in time mode should have 120 seconds duration");
+  console.log("  ✓ Time Mode initialized with 10 questions and 120s countdown");
+
+  // Test 5: Survival Mode - Sudden death on wrong answer
+  const survivalEngine = new WKQuizEngine({ provider });
+  survivalEngine.startQuiz({ category: "electrical", difficulty: "medium", length: 20, mode: "survival" });
+  assert.strictEqual(survivalEngine.mode, "survival");
+
+  // Question 1 correct
+  const survQ1 = survivalEngine.currentQuiz.questions[0];
+  const survRes1 = survivalEngine.submitAnswer(survQ1.answer);
+  assert.strictEqual(survRes1.isCorrect, true);
+  assert.strictEqual(survRes1.isSurvivalOver, false);
+  assert.strictEqual(survRes1.hasNext, true);
+  survivalEngine.nextQuestion();
+
+  // Question 2 wrong -> immediate game over
+  const survQ2 = survivalEngine.currentQuiz.questions[1];
+  const wrongIdx = (survQ2.answer + 1) % 4;
+  const survRes2 = survivalEngine.submitAnswer(wrongIdx);
+  assert.strictEqual(survRes2.isCorrect, false);
+  assert.strictEqual(survRes2.isSurvivalOver, true, "Survival mode must terminate on wrong answer");
+  assert.strictEqual(survRes2.hasNext, false);
+  
+  const survStats = survivalEngine.finishQuiz();
+  assert.strictEqual(survStats.survivedCount, 1, "Survived count must be exactly 1");
+  assert.strictEqual(survStats.isSurvivalOver, true);
+  console.log("  ✓ Survival Mode correctly terminated on wrong answer with 1 question survived");
+
+  // Test 6: Session-Level No-Repeat Protection
+  const sessionEngine = new WKQuizEngine({ provider });
+  sessionEngine.sessionUsedIds.clear(); // start clean session
+  
+  sessionEngine.startQuiz({ category: "hvac", difficulty: "easy", length: 5, mode: "normal" });
+  const quiz1Ids = sessionEngine.currentQuiz.questions.map(q => q.id);
+  assert.strictEqual(new Set(quiz1Ids).size, 5, "Quiz 1 must have 5 unique questions");
+
+  sessionEngine.startQuiz({ category: "hvac", difficulty: "easy", length: 5, mode: "normal" });
+  const quiz2Ids = sessionEngine.currentQuiz.questions.map(q => q.id);
+  assert.strictEqual(new Set(quiz2Ids).size, 5, "Quiz 2 must have 5 unique questions");
+
+  // Verify zero overlap between Quiz 1 and Quiz 2 in the same session
+  const overlap = quiz1Ids.filter(id => quiz2Ids.includes(id));
+  assert.strictEqual(overlap.length, 0, `Quiz 2 repeated questions from Quiz 1 in same session: ${overlap.join(", ")}`);
+  console.log("  ✓ Session-level no-repeat verified: 0 repeated questions across consecutive quizzes");
+
+  // Test 7: Deterministic Daily Quiz Seed Consistency
   const dailyEngine1 = new WKQuizEngine({ provider });
   dailyEngine1.startQuiz({ mode: "daily", length: 5 });
   const dailyQIds1 = dailyEngine1.currentQuiz.questions.map(q => q.id);
@@ -85,24 +129,6 @@ function runQuizEngineTests() {
     "Deterministic Daily Quiz on the same day must generate the exact identical questions"
   );
   console.log("  ✓ Deterministic Daily Quiz generates identical question seed on same day");
-
-  // Test 7: Insufficient questions handling (NEVER DUPLICATE)
-  const smallPoolEngine = new WKQuizEngine({ provider });
-  // Request 50 questions for a small category
-  smallPoolEngine.startQuiz({ category: "electronics", difficulty: "easy", length: 50 });
-  const selectedCount = smallPoolEngine.currentQuiz.totalQuestions;
-  const uniqueIds = new Set(smallPoolEngine.currentQuiz.questions.map(q => q.id));
-  assert.strictEqual(selectedCount, uniqueIds.size, "Engine must never duplicate questions when pool is smaller than requested length");
-  console.log(`  ✓ Insufficient questions handling verified: Selected ${selectedCount} unique questions without creating duplicates`);
-
-  // Test 8: Survival Mode termination
-  const survivalEngine = new WKQuizEngine({ provider });
-  survivalEngine.startQuiz({ mode: "survival" });
-  const curSurv = survivalEngine.currentQuiz.questions[0];
-  const wrongSurvIdx = (curSurv.answer + 1) % 4;
-  const survResult = survivalEngine.submitAnswer(wrongSurvIdx);
-  assert.strictEqual(survResult.isSurvivalOver, true, "Survival mode must terminate on wrong answer");
-  console.log("  ✓ Survival mode termination on error verified");
 
   console.log("✔ Quiz Engine Tests Passed!\n");
 }

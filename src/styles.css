@@ -693,6 +693,39 @@ button {
   gap: 0.75rem;
 }
 
+.wk-mode-pills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+
+@media (max-width: 600px) {
+  .wk-mode-pills-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}
+
+.wk-pill-btn.pill-mode {
+  padding: 0.75rem 0.6rem;
+  text-align: center;
+}
+
+.wk-pill-btn.pill-mode .mode-icon {
+  font-size: 1.3rem;
+}
+
+.wk-pill-btn.pill-mode .mode-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.wk-pill-btn.pill-mode .mode-desc {
+  font-size: 0.75rem;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
 .wk-length-pills-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
