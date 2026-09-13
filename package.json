@@ -6,6 +6,8 @@
   "scripts": {
     "test": "node tests/run-tests.js",
     "build": "node scripts/build.js",
+    "predeploy": "node scripts/build.js",
+    "deploy": "node scripts/build.js",
     "pages:build": "node scripts/build.js",
     "validate": "node tools/validate.js",
     "duplicates": "node tools/find-duplicates.js",

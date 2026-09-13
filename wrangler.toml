@@ -1,3 +1,11 @@
-name = "wkquiz"
-pages_build_output_dir = "dist"
+name = "wkquizgit"
+main = "worker.js"
 compatibility_date = "2024-09-01"
+
+# Cloudflare Workers Static Assets Configuration
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+
+# Cloudflare Pages compatibility
+pages_build_output_dir = "dist"
