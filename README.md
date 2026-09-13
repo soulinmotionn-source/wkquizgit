@@ -63,7 +63,8 @@ wk-quiz/
 ├── ADMIN_GUIDE.md                # Comprehensive Non-Programmer Administration Guide
 ├── QUESTION_GUIDE.md             # Question Bank Management & AI Workflow Guide
 ├── QUIZ_ENGINE_GUIDE.md          # Quiz Engine & Difficulty Architecture Guide
-└── DEPLOYMENT_GUIDE.md           # Deployment, Git Versioning & Release Guide
+├── DEPLOYMENT_GUIDE.md           # Blogger Deployment & Git Versioning Guide
+└── CLOUDFLARE_DEPLOYMENT_GUIDE.md# Cloudflare Pages Global Edge Deployment Guide
 ```
 
 ---

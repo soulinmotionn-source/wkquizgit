@@ -65,8 +65,8 @@ class WKQuizDataProvider {
     if (!categorySlug) return [];
     let slug = categorySlug.toLowerCase().trim();
 
-    if (slug === "all" || slug === "mixed-quiz") {
-      return this.questions;
+    if (slug === "all") {
+      slug = "mixed-quiz";
     }
 
     const aliasMap = {
@@ -103,12 +103,11 @@ class WKQuizDataProvider {
 
     // 2. Fetch from Git / CDN / Local endpoint
     const urls = [];
-    const isLocal = typeof window !== "undefined" && (window.location.protocol === "file:" || window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1");
-
-    if (isLocal) {
-      urls.push(`question-bank/${slug}.json`);
-      urls.push(`../question-bank/${slug}.json`);
-    }
+    
+    // Check local / same-origin question-bank first (for Cloudflare Pages, custom domains, and local previews)
+    urls.push(`question-bank/${slug}.json`);
+    urls.push(`/question-bank/${slug}.json`);
+    urls.push(`../question-bank/${slug}.json`);
 
     if (this.config.cdnBaseUrl) {
       urls.push(`${this.config.cdnBaseUrl}/${slug}.json`);
@@ -221,10 +220,56 @@ class WKQuizDataProvider {
     const catKey = (category || "all").toLowerCase().trim();
     const diffKey = (difficulty || "all").toLowerCase().trim();
 
+    // If 'all' is requested, calculate total across all indexed categories
+    if (catKey === "all") {
+      if (this.categoryIndex.size > 0) {
+        let total = 0;
+        this.categoryIndex.forEach(stats => {
+          if (diffKey === "easy") total += (stats.easy || 0);
+          else if (diffKey === "medium") total += (stats.medium || 0);
+          else if (diffKey === "hard") total += (stats.hard || 0);
+          else total += (stats.total || 0);
+        });
+        if (total > 0) return total;
+      }
+      if (this.questions.length > 0) {
+        const result = this.getQuestions({
+          category: "all",
+          difficulty: diffKey,
+          length: 999999,
+          status: "active"
+        });
+        return result.totalAvailable;
+      }
+      // Baseline fallbacks if index not yet loaded
+      if (diffKey === "easy") return 1714;
+      if (diffKey === "medium") return 1711;
+      if (diffKey === "hard") return 1575;
+      return 5000;
+    }
+
+    const aliasMap = {
+      "anatomy": "anatomy-physiology",
+      "diseases": "diseases-disorders",
+      "electrical-symbols": "electrical-symbols-items",
+      "english-grammar": "english",
+      "mixed": "mixed-quiz"
+    };
+    const resolvedCat = aliasMap[catKey] || catKey;
+
+    // Check pre-compiled lightweight index for instant count
+    if (this.categoryIndex.has(resolvedCat)) {
+      const stats = this.categoryIndex.get(resolvedCat);
+      if (diffKey === "easy") return stats.easy || 0;
+      if (diffKey === "medium") return stats.medium || 0;
+      if (diffKey === "hard") return stats.hard || 0;
+      return stats.total || 0;
+    }
+
     // If questions are already loaded in memory, count directly
-    if (this.questions.length > 0 && (catKey === "all" || this.loadedCategories.has(catKey))) {
+    if (this.questions.length > 0 && this.loadedCategories.has(resolvedCat)) {
       const result = this.getQuestions({
-        category: catKey,
+        category: resolvedCat,
         difficulty: diffKey,
         length: 999999,
         status: "active"
@@ -232,23 +277,7 @@ class WKQuizDataProvider {
       return result.totalAvailable;
     }
 
-    // Check pre-compiled lightweight index for instant count
-    if (this.categoryIndex.has(catKey)) {
-      const stats = this.categoryIndex.get(catKey);
-      if (diffKey === "easy") return stats.easy || 0;
-      if (diffKey === "medium") return stats.medium || 0;
-      if (diffKey === "hard") return stats.hard || 0;
-      return stats.total || 0;
-    }
-
-    // Fallback to in-memory check
-    const result = this.getQuestions({
-      category: catKey,
-      difficulty: diffKey,
-      length: 999999,
-      status: "active"
-    });
-    return result.totalAvailable;
+    return 0;
   }
 
   /**

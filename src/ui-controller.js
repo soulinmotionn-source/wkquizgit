@@ -246,11 +246,12 @@ class WKQuizUI {
     if (!this.setupState.difficulty) this.setupState.difficulty = "easy";
     if (!this.setupState.mode) this.setupState.mode = "normal";
 
+    const isAll = categoryId === "all";
     const cat = (this.config.categories || []).find(c => c.id === categoryId) || {
       id: categoryId,
-      name: categoryId === "mixed-quiz" ? "Random Mixed Quiz" : categoryId.toUpperCase(),
-      icon: categoryId === "mixed-quiz" ? "🎲" : "📚",
-      description: "Test your knowledge across curated subject questions."
+      name: isAll ? "All Categories (5,000 Questions)" : (categoryId === "mixed-quiz" ? "Random Mixed Quiz" : categoryId.toUpperCase()),
+      icon: isAll ? "⚡" : (categoryId === "mixed-quiz" ? "🎲" : "📚"),
+      description: isAll ? "Random questions drawn from all 29 categories across the entire 5,000 question bank." : "Test your knowledge across curated subject questions."
     };
 
     // Query real active pool for this category + difficulty
@@ -405,17 +406,22 @@ class WKQuizUI {
       `;
     }
 
-    if (availableCount < 5) {
-      return `
-        <div class="wk-setup-notice warning">
-          ⚠️ Only <strong>${availableCount} active ${diffName} questions</strong> are currently available in this pool.
-        </div>
-      `;
+    const catSlug = this.setupState.category || "all";
+    let subBreakdown = "";
+    if (this.engine && this.engine.provider) {
+      const easy = this.engine.provider.getAvailableCount(catSlug, "easy");
+      const medium = this.engine.provider.getAvailableCount(catSlug, "medium");
+      const hard = this.engine.provider.getAvailableCount(catSlug, "hard");
+      const total = this.engine.provider.getAvailableCount(catSlug, "all");
+      subBreakdown = `<div style="margin-top: 0.35rem; font-size: 0.8rem; opacity: 0.85;">Total available in ${catSlug === "all" ? "entire question bank" : "category"}: <strong>${total} questions</strong> (🟢 ${easy} Easy • 🟡 ${medium} Medium • 🔴 ${hard} Hard)</div>`;
     }
 
     return `
       <div class="wk-setup-notice">
-        <span>📊 <strong>${availableCount} active unique ${diffName} questions</strong> available in this pool</span>
+        <div>
+          <span>📊 <strong>${availableCount} active unique ${diffName} questions</strong> ready for this quiz</span>
+          ${subBreakdown}
+        </div>
       </div>
     `;
   }
@@ -948,20 +954,34 @@ class WKQuizUI {
   _renderCategoriesGrid() {
     if (!this.dom.categoriesContainer || !this.config.categories) return;
 
-    const cardsHtml = this.config.categories.map(cat => `
-      <div class="wk-category-card" data-action="select-category" data-category="${cat.id}" role="button" tabindex="0">
-        <div class="wk-category-icon" style="background-color: ${cat.color}15; color: ${cat.color};">
-          ${cat.icon || "📚"}
+    const cardsHtml = this.config.categories.map(cat => {
+      let count = 0;
+      if (this.engine && this.engine.provider) {
+        count = this.engine.provider.getAvailableCount(cat.id, "all");
+      }
+      const countLabel = count > 0 ? `${count} Questions` : "175 Questions";
+
+      return `
+        <div class="wk-category-card" data-action="select-category" data-category="${cat.id}" role="button" tabindex="0">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%; margin-bottom: 0.5rem;">
+            <div class="wk-category-icon" style="background-color: ${cat.color}15; color: ${cat.color};">
+              ${cat.icon || "📚"}
+            </div>
+            <span class="wk-category-badge" style="font-size: 0.72rem; font-weight: 700; color: var(--primary); background: ${cat.color}15; padding: 0.2rem 0.55rem; border-radius: 999px; border: 1px solid ${cat.color}30;">
+              ${countLabel}
+            </span>
+          </div>
+          <h3 class="wk-category-title">${this._escapeHtml(cat.name)}</h3>
+          <p class="wk-category-desc">${this._escapeHtml(cat.description)}</p>
+          <div class="wk-category-footer" style="margin-top: auto; padding-top: 0.75rem; display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <span style="font-size: 0.75rem; color: var(--text-muted); font-weight: 500;">Easy • Med • Hard</span>
+            <span class="wk-category-link" data-action="select-category" data-category="${cat.id}">
+              Play ➔
+            </span>
+          </div>
         </div>
-        <h3 class="wk-category-title">${this._escapeHtml(cat.name)}</h3>
-        <p class="wk-category-desc">${this._escapeHtml(cat.description)}</p>
-        <div class="wk-category-footer">
-          <span class="wk-category-link" data-action="select-category" data-category="${cat.id}">
-            Start Quiz ➔
-          </span>
-        </div>
-      </div>
-    `).join("");
+      `;
+    }).join("");
 
     this.dom.categoriesContainer.innerHTML = cardsHtml;
   }
@@ -1000,15 +1020,24 @@ class WKQuizUI {
       return;
     }
 
-    this.dom.searchResults.innerHTML = matched.map(cat => `
-      <div class="wk-search-item" data-action="select-category" data-category="${cat.id}">
-        <span style="font-size: 1.5rem;">${cat.icon || "📚"}</span>
-        <div>
-          <div style="font-weight: 700; color: var(--text);">${this._escapeHtml(cat.name)}</div>
-          <div style="font-size: 0.85rem; color: var(--text-muted);">${this._escapeHtml(cat.description)}</div>
+    this.dom.searchResults.innerHTML = matched.map(cat => {
+      let count = 0;
+      if (this.engine && this.engine.provider) {
+        count = this.engine.provider.getAvailableCount(cat.id, "all");
+      }
+      return `
+        <div class="wk-search-item" data-action="select-category" data-category="${cat.id}">
+          <span style="font-size: 1.5rem;">${cat.icon || "📚"}</span>
+          <div style="flex: 1;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span style="font-weight: 700; color: var(--text);">${this._escapeHtml(cat.name)}</span>
+              <span style="font-size: 0.75rem; font-weight: 600; color: var(--primary); background: ${cat.color || '#3b82f6'}15; padding: 0.15rem 0.5rem; border-radius: 999px;">${count > 0 ? `${count} Qs` : ''}</span>
+            </div>
+            <div style="font-size: 0.85rem; color: var(--text-muted);">${this._escapeHtml(cat.description)}</div>
+          </div>
         </div>
-      </div>
-    `).join("");
+      `;
+    }).join("");
   }
 
   _escapeHtml(str) {

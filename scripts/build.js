@@ -295,14 +295,17 @@ ${stylesCss}
         <!-- HOMEPAGE HERO (Visible on Homepage) -->
         <b:if cond='data:view.isHomepage'>
           <section class='wk-hero'>
+            <div class='wk-badge wk-badge-primary' style='margin-bottom: 0.75rem; display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.35rem 0.85rem; font-size: 0.85rem;'>
+              <span>🚀</span> <span><strong>5,000 Verified Questions</strong> Across <strong>29 Categories</strong></span>
+            </div>
             <h1 class='wk-hero-title'>Test Your Knowledge</h1>
-            <p class='wk-hero-subtitle'>Play thousands of interactive quizzes, challenge yourself, and master Nursing, NCLEX, Engineering, Tech, IQ and more.</p>
+            <p class='wk-hero-subtitle'>Explore 5,000 verified questions with comprehensive explanations across Nursing, NCLEX, Engineering, Trades, Tech, IQ and more.</p>
             <div class='wk-hero-actions'>
               <button type='button' class='wk-btn wk-btn-primary' data-action='open-setup' data-category='all'>
-                ⚡ Start Random Quiz
+                ⚡ Start Random Quiz (5,000 Qs)
               </button>
               <a href='#categories' class='wk-btn wk-btn-secondary'>
-                📚 Explore 29+ Categories
+                📚 Browse 29 Categories
               </a>
             </div>
           </section>
@@ -619,14 +622,17 @@ ${stylesCss}
       <main class="wk-main-content">
         <!-- HERO -->
         <section class="wk-hero">
+          <div class="wk-badge wk-badge-primary" style="margin-bottom: 0.75rem; display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.35rem 0.85rem; font-size: 0.85rem;">
+            <span>🚀</span> <span><strong>5,000 Verified Questions</strong> Across <strong>29 Categories</strong></span>
+          </div>
           <h1 class="wk-hero-title">Test Your Knowledge</h1>
-          <p class="wk-hero-subtitle">Play thousands of interactive quizzes, challenge yourself, and master Nursing, NCLEX, Engineering, Tech, IQ & more.</p>
+          <p class="wk-hero-subtitle">Explore 5,000 verified questions with comprehensive explanations across Nursing, NCLEX, Engineering, Trades, Tech, IQ & more.</p>
           <div class="wk-hero-actions">
             <button type="button" class="wk-btn wk-btn-primary" data-action="open-setup" data-category="all">
-              ⚡ Start Random Quiz
+              ⚡ Start Random Quiz (5,000 Qs)
             </button>
             <a href="#categories" class="wk-btn wk-btn-secondary">
-              📚 Explore 29+ Categories
+              📚 Browse 29 Categories
             </a>
           </div>
         </section>
@@ -809,4 +815,36 @@ ${bundledJs}
 
 fs.writeFileSync(path.join(distDir, "index.html"), previewHtmlContent, "utf8");
 console.log("✓ Generated dist/index.html (Standalone Interactive Preview)");
-console.log("\n🚀 Build completed successfully!");
+
+// 5. Cloudflare Pages & Static Hosting Assets
+const distQbDir = path.join(distDir, "question-bank");
+if (!fs.existsSync(distQbDir)) {
+  fs.mkdirSync(distQbDir, { recursive: true });
+}
+
+// Copy all question-bank JSON files into dist/question-bank/
+const allQbFiles = fs.readdirSync(qbDir).filter(f => f.endsWith(".json"));
+allQbFiles.forEach(f => {
+  fs.copyFileSync(path.join(qbDir, f), path.join(distQbDir, f));
+});
+console.log(`✓ Copied ${allQbFiles.length} question bank files to dist/question-bank/ (Cloudflare Pages Ready)`);
+
+// Generate Cloudflare Pages _headers for CORS, security, and caching
+const cloudflareHeaders = `/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/question-bank/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=3600
+`;
+fs.writeFileSync(path.join(distDir, "_headers"), cloudflareHeaders, "utf8");
+console.log("✓ Generated dist/_headers (Cloudflare Pages security & caching headers)");
+
+// Generate Cloudflare Pages _redirects (SPA fallback)
+const cloudflareRedirects = `/*    /index.html   200\n`;
+fs.writeFileSync(path.join(distDir, "_redirects"), cloudflareRedirects, "utf8");
+console.log("✓ Generated dist/_redirects (Cloudflare Pages SPA routing)");
+
+console.log("\n🚀 Build completed successfully! 'dist/' is fully ready for Cloudflare Pages.");
